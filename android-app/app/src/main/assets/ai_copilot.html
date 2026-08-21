@@ -1,0 +1,5152 @@
+<!DOCTYPE html>
+<script>
+  (function() {
+    const HASHED_KEY = '4d7e59fed4935122d95c3414e34cd2809b6ac07c41dcb913f848905234772201';
+    const STORAGE_KEY = 'cr_device_auth_hash';
+    const LEGACY_STORAGE_KEY = 'cr_device_access';
+
+    function sha256Sync(ascii) {
+      function rightRotate(value, amount) { return (value>>>amount) | (value<<(32 - amount)); }
+      var mathPow = Math.pow;
+      var maxWord = mathPow(2, 32);
+      var lengthProperty = 'length';
+      var i, j;
+      var result = '';
+      var words = [];
+      var asciiBitLength = ascii[lengthProperty]*8;
+      var hash = [];
+      var k = [];
+      var primeCounter = 0;
+      var isComposite = {};
+      for (var candidate = 2; primeCounter < 64; candidate++) {
+        if (!isComposite[candidate]) {
+          for (i = 0; i < 313; i += candidate) { isComposite[i] = candidate; }
+          hash[primeCounter] = (mathPow(candidate, .5)*maxWord)|0;
+          k[primeCounter++] = (mathPow(candidate, 1/3)*maxWord)|0;
+        }
+      }
+      hash = hash.slice(0, 8);
+      ascii += '\x80';
+      while (ascii[lengthProperty]%64 - 56) ascii += '\x00';
+      for (i = 0; i < ascii[lengthProperty]; i++) {
+        j = ascii.charCodeAt(i);
+        if (j>>8) return;
+        words[i>>2] |= j << ((3 - i)%4)*8;
+      }
+      words[words[lengthProperty]] = ((asciiBitLength/maxWord)|0);
+      words[words[lengthProperty]] = (asciiBitLength);
+      for (j = 0; j < words[lengthProperty];) {
+        var w = words.slice(j, j += 16);
+        var oldHash = hash;
+        hash = hash.slice(0, 8);
+        for (i = 0; i < 64; i++) {
+          var w15 = w[i - 15], w2 = w[i - 2];
+          var a = hash[0], e = hash[4];
+          var temp1 = hash[7]
+            + (rightRotate(e, 6) ^ rightRotate(e, 11) ^ rightRotate(e, 25))
+            + ((e&hash[5])^((~e)&hash[6]))
+            + k[i]
+            + (w[i] = (i < 16) ? w[i] : (
+                w[i - 16]
+                + (rightRotate(w15, 7) ^ rightRotate(w15, 18) ^ (w15>>>3))
+                + w[i - 7]
+                + (rightRotate(w2, 17) ^ rightRotate(w2, 19) ^ (w2>>>10))
+              )|0
+            );
+          var temp2 = (rightRotate(a, 2) ^ rightRotate(a, 13) ^ rightRotate(a, 22))
+            + ((a&hash[1])^(a&hash[2])^(hash[1]&hash[2]));
+          hash = [(temp1 + temp2)|0].concat(hash);
+          hash[4] = (hash[4] + temp1)|0;
+        }
+        for (i = 0; i < 8; i++) { hash[i] = (hash[i] + oldHash[i])|0; }
+      }
+      for (i = 0; i < 8; i++) {
+        for (i = 0; i < 8; i++) {
+          var hex = (hash[i]>>>0).toString(16);
+          result += ('00000000' + hex).slice(-8);
+        }
+      }
+      return result.slice(0, 64);
+    }
+
+    try {
+      const _p = new URLSearchParams(window.location.search);
+      const provided = _p.get('access');
+      if (provided) {
+        const computedHash = sha256Sync(provided.trim());
+        if (computedHash === HASHED_KEY) {
+          localStorage.setItem(STORAGE_KEY, computedHash);
+          _p.delete('access');
+          window.history.replaceState({}, '', window.location.pathname + (_p.toString() ? '?' + _p : ''));
+        }
+      }
+
+      // Legacy key upgrade check
+      const legacyVal = localStorage.getItem(LEGACY_STORAGE_KEY);
+      if (legacyVal && sha256Sync(legacyVal) === HASHED_KEY) {
+        localStorage.setItem(STORAGE_KEY, HASHED_KEY);
+        localStorage.removeItem(LEGACY_STORAGE_KEY);
+      }
+    } catch(e) {}
+
+    const _ok = localStorage.getItem(STORAGE_KEY) === HASHED_KEY;
+    document.write('<style id="_gate">html,body{display:none!important}</style>');
+
+    if (_ok) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var s = document.getElementById('_gate'); if (s) s.remove();
+      });
+    } else {
+      document.addEventListener('DOMContentLoaded', function() {
+        document.documentElement.style.display = '';
+        document.body.style.cssText = 'margin:0;background:#111;display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:system-ui,sans-serif;';
+        document.body.innerHTML = '<div style="text-align:center;user-select:none;"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="1.5" style="display:block;margin:0 auto 16px"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div style="font-size:13px;letter-spacing:.12em;color:#2a2a2a;">PRIVATE</div></div>';
+      });
+    }
+  })();
+</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Content Rewards AI — Campaign Copilot</title>
+  <meta name="theme-color" content="#1F1E1D">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="/manifest.json">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <script src="/campaigns_data.js"></script>
+
+  <style>
+    :root {
+      /* Dual-Colour High-Contrast Liquid Glass Palette (Cyber Cyan + Whop Flame Coral) */
+      --bg: #0b0c11;
+      --bg-subtle: #07080b;
+      --bg-gradient: radial-gradient(circle at 12% 8%, rgba(255, 98, 67, 0.10) 0%, transparent 42%), 
+                     radial-gradient(circle at 88% 90%, rgba(0, 229, 255, 0.09) 0%, transparent 44%), 
+                     #0b0c11;
+      
+      /* Liquid Glass Surfaces */
+      --glass-surface: rgba(18, 20, 28, 0.75);
+      --glass-surface-elevated: rgba(24, 27, 38, 0.88);
+      --glass-surface-hover: rgba(32, 36, 52, 0.95);
+      --glass-blur: blur(20px);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --glass-border-subtle: rgba(255, 255, 255, 0.04);
+      --glass-border-hover: rgba(0, 229, 255, 0.28);
+      --glass-border-focus: rgba(0, 229, 255, 0.5);
+      --glass-glow: 0 8px 32px 0 rgba(0, 0, 0, 0.5), inset 0 1px 1px 0 rgba(255, 255, 255, 0.06);
+
+      --surface: #141620;
+      --surface-elevated: #1b1e2c;
+      --surface-hover: #23273a;
+
+      --border: rgba(255, 255, 255, 0.09);
+      --border-subtle: rgba(255, 255, 255, 0.05);
+      --border-focus: rgba(0, 229, 255, 0.4);
+
+      --text-main: #F4F6FB;
+      --text-secondary: #9AA0B8;
+      --text-muted: #656A82;
+
+      /* Primary Dual Tone Accents */
+      --accent-coral: #FF6243;
+      --accent-coral-hover: #FF7659;
+      --accent-coral-glow: rgba(255, 98, 67, 0.4);
+
+      --accent-cyan: #00E5FF;
+      --accent-cyan-hover: #33ECFF;
+      --accent-cyan-glow: rgba(0, 229, 255, 0.35);
+
+      --accent-emerald: #10B981;
+
+      --accent: var(--accent-cyan);
+      --accent-hover: var(--accent-cyan-hover);
+      --accent-active: #00B4D8;
+      --accent-subtle: rgba(0, 229, 255, 0.08);
+      --accent-border: rgba(0, 229, 255, 0.25);
+      --accent-glow: var(--accent-cyan-glow);
+
+      --user-bubble: rgba(28, 32, 48, 0.95);
+      --user-bubble-border: rgba(0, 229, 255, 0.18);
+
+      --badge-bg: rgba(255, 255, 255, 0.05);
+      --badge-border: rgba(255, 255, 255, 0.08);
+
+      --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-full: 9999px;
+    }
+
+    /* Dual-Colour Light Theme */
+    body.light-theme {
+      --bg: #F5F7FC;
+      --bg-subtle: #E8ECF5;
+      --bg-gradient: radial-gradient(circle at 10% 8%, rgba(255, 98, 67, 0.08) 0%, transparent 40%), 
+                     radial-gradient(circle at 90% 90%, rgba(0, 114, 255, 0.06) 0%, transparent 40%), 
+                     #F5F7FC;
+      
+      --glass-surface: rgba(255, 255, 255, 0.88);
+      --glass-surface-elevated: rgba(255, 255, 255, 0.98);
+      --glass-surface-hover: rgba(240, 244, 255, 0.98);
+      --glass-border: rgba(0, 0, 0, 0.08);
+      --glass-border-subtle: rgba(0, 0, 0, 0.04);
+      --glass-border-hover: rgba(0, 114, 255, 0.25);
+      --glass-border-focus: rgba(0, 114, 255, 0.45);
+      --glass-glow: 0 8px 24px 0 rgba(0, 0, 0, 0.06), inset 0 1px 1px 0 rgba(255, 255, 255, 0.8);
+
+      --surface: #FFFFFF;
+      --surface-elevated: #F0F3FA;
+      --surface-hover: #E4E9F7;
+
+      --border: rgba(0, 0, 0, 0.09);
+      --border-subtle: rgba(0, 0, 0, 0.05);
+      --border-focus: rgba(0, 114, 255, 0.4);
+
+      --text-main: #0F172A;
+      --text-secondary: #475569;
+      --text-muted: #94A3B8;
+
+      --accent: #0284C7;
+      --accent-hover: #0369A1;
+      --accent-active: #075985;
+      --accent-subtle: rgba(2, 132, 199, 0.08);
+      --accent-border: rgba(2, 132, 199, 0.22);
+
+      --user-bubble: #E0E7FF;
+      --user-bubble-border: rgba(99, 102, 241, 0.2);
+
+      --badge-bg: rgba(0, 0, 0, 0.04);
+      --badge-border: rgba(0, 0, 0, 0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      background-image: var(--bg-gradient);
+      background-attachment: fixed;
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Floating Dual-Colour Toast Alert Notification */
+    .toast-container {
+      position: fixed;
+      top: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 99999;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .toast-pill {
+      background: rgba(14, 17, 26, 0.95);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 16px rgba(0, 229, 255, 0.2);
+      color: #FFFFFF;
+      padding: 9px 20px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      backdrop-filter: blur(16px);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      animation: toastIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      pointer-events: auto;
+    }
+
+    .toast-pill.toast-coral {
+      border-color: rgba(255, 98, 67, 0.4);
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 16px rgba(255, 98, 67, 0.25);
+    }
+
+    @keyframes toastIn {
+      from { opacity: 0; transform: translateY(-16px) scale(0.92); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes toastOut {
+      from { opacity: 1; transform: translateY(0) scale(1); }
+      to { opacity: 0; transform: translateY(-12px) scale(0.92); }
+    }
+
+    /* Top Liquid Glass Header with Dual Glow Border */
+    header {
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      background: var(--glass-surface);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-shrink: 0;
+      z-index: 50;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(255,98,67,0.35) 25%, rgba(0,229,255,0.35) 75%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .brand-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      user-select: none;
+      flex-shrink: 0;
+    }
+
+    /* Custom Dual-Tone Futuristic Copilot Emblem */
+    .brand-logo-wrap {
+      position: relative;
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, rgba(255, 98, 67, 0.18) 0%, rgba(0, 229, 255, 0.12) 100%);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.25), 0 0 12px rgba(0, 229, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      flex-shrink: 0;
+    }
+
+    .brand-logo-wrap:hover {
+      transform: scale(1.06);
+      border-color: var(--accent-coral);
+      box-shadow: 0 6px 18px rgba(255, 98, 67, 0.35), 0 0 16px rgba(0, 229, 255, 0.3);
+    }
+
+    .brand-logo-svg {
+      width: 21px;
+      height: 21px;
+      color: #00E5FF;
+      filter: drop-shadow(0 1px 3px rgba(0,0,0,0.6));
+    }
+
+    body.light-theme .brand-logo-svg {
+      color: #0284C7;
+    }
+
+    .brand-titles {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 15.5px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #FFFFFF 15%, #00E5FF 60%, #FF7659 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    body.light-theme .brand-name {
+      background: linear-gradient(135deg, #0F172A 15%, #0284C7 60%, #FF6243 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-badge {
+      font-size: 10px;
+      font-weight: 700;
+      color: #FF7659;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .brand-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #00E5FF;
+      box-shadow: 0 0 6px #00E5FF;
+      display: inline-block;
+      animation: pulseGlow 1.8s infinite;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.35); opacity: 0.6; }
+    }
+
+    /* Dual-Tone Tab Switcher - Pill Shaped Glass */
+    .nav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 3.5px;
+      border-radius: var(--radius-full);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.4);
+      max-width: 100%;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      flex-shrink: 1;
+      min-width: 0;
+    }
+    .nav-tabs::-webkit-scrollbar { display: none; }
+
+    body.light-theme .nav-tabs {
+      background: rgba(0, 0, 0, 0.06);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-secondary);
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 12.5px;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      font-family: var(--font-sans);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .tab-label-short {
+      display: none;
+    }
+
+    .tab-label-full {
+      display: inline;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(0, 229, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.16) 0%, rgba(255, 98, 67, 0.14) 100%);
+      color: #FFFFFF;
+      font-weight: 700;
+      box-shadow: 0 2px 10px rgba(0, 229, 255, 0.2), inset 0 1px 0 rgba(255,255,255,0.25);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+    }
+
+    body.light-theme .tab-btn.active {
+      background: #FFFFFF;
+      color: #0F172A;
+      border-color: rgba(2, 132, 199, 0.3);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .tab-counter {
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: var(--radius-full);
+      background: rgba(0, 229, 255, 0.1);
+      color: #00E5FF;
+      border: 1px solid rgba(0, 229, 255, 0.2);
+      font-family: var(--font-mono);
+      font-weight: 700;
+      flex-shrink: 0;
+      line-height: 1.2;
+    }
+
+    .tab-counter-removed {
+      background: rgba(255, 98, 67, 0.15);
+      color: #FF6243;
+      border-color: rgba(255, 98, 67, 0.3);
+    }
+
+    .tab-btn.active .tab-counter-removed {
+      background: #FF4757;
+      color: #FFFFFF;
+      border-color: rgba(255, 255, 255, 0.4);
+      box-shadow: 0 1px 4px rgba(255, 71, 87, 0.4);
+    }
+
+    .burn-ended {
+      background: rgba(255, 71, 87, 0.18) !important;
+      color: #FF6B81 !important;
+      border-color: rgba(255, 71, 87, 0.45) !important;
+    }
+
+    .fill-ended {
+      background: linear-gradient(90deg, #FF4757, #FF6B81) !important;
+    }
+
+    .claude-card.card-ended {
+      opacity: 0.88;
+      border-color: rgba(255, 71, 87, 0.22);
+      background: rgba(18, 20, 29, 0.7);
+    }
+
+    .claude-card.card-ended:hover {
+      opacity: 1;
+      border-color: rgba(255, 71, 87, 0.5);
+    }
+
+    body.light-theme .tab-btn.active .tab-counter {
+      background: #0284C7;
+      color: #FFFFFF;
+    }
+
+    .header-tools {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    /* Dual-Tone Tool Buttons */
+    .tool-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      min-width: 34px;
+      height: 34px;
+      padding: 0 10px;
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      cursor: pointer;
+      font-size: 12.5px;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .tool-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-main);
+      border-color: var(--glass-border-hover);
+      transform: translateY(-1px);
+    }
+
+    .tool-btn:active {
+      transform: translateY(0);
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .tool-btn svg {
+      width: 15px;
+      height: 15px;
+      stroke-width: 2;
+      flex-shrink: 0;
+    }
+
+    .tool-btn.refresh-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.12);
+      color: var(--text-main);
+    }
+
+    .tool-btn.refresh-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .refresh-label {
+      display: inline;
+      font-size: 12px;
+    }
+
+    .spin-anim {
+      animation: spin 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Views Container */
+    .view-panel {
+      flex: 1;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .view-panel.active {
+      display: flex;
+    }
+
+    /* ========================================================
+       TAB 1: CHAT VIEW (Minimalist Modern Charcoal Workspace)
+       ======================================================== */
+    #chatPanel {
+      height: 100%;
+    }
+
+    #chatScroll {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      scroll-behavior: smooth;
+    }
+
+    .chat-inner {
+      max-width: 740px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* Welcome Hero */
+    .claude-welcome {
+      padding: 40px 10px 10px;
+      text-align: left;
+    }
+
+    .welcome-icon-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--glass-border);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .welcome-headline {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      line-height: 1.25;
+      letter-spacing: -0.5px;
+    }
+
+    .welcome-subtext {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 560px;
+    }
+
+    /* Chat Messages */
+    .message-row {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .message-row.user {
+      align-items: flex-end;
+    }
+
+    .message-row.assistant {
+      align-items: flex-start;
+    }
+
+    .user-bubble {
+      background: var(--user-bubble);
+      border: 1px solid var(--user-bubble-border);
+      color: var(--text-main);
+      padding: 10px 16px;
+      border-radius: 18px 18px 4px 18px;
+      font-size: 14px;
+      line-height: 1.55;
+      max-width: 82%;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    }
+
+    .assistant-body {
+      color: var(--text-main);
+      font-size: 14px;
+      line-height: 1.7;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background: transparent;
+      padding: 4px 0;
+    }
+
+    .assistant-body p {
+      margin: 0;
+    }
+
+    .assistant-body strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .assistant-body em {
+      color: var(--text-secondary);
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    /* Rich AI Response Styling */
+    .ai-response-container {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      width: 100%;
+    }
+
+    .ai-text-block {
+      line-height: 1.68;
+      font-size: 14.5px;
+      color: var(--text-main);
+    }
+
+    .ai-text-block h3, .ai-text-block h4 {
+      margin: 12px 0 6px;
+      font-family: var(--font-display);
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .ai-text-block ul, .ai-text-block ol {
+      margin: 6px 0 10px 18px;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .ai-text-block li {
+      color: var(--text-main);
+    }
+
+    /* Embedded Campaign Dossier Card in Chat */
+    .ai-campaign-card {
+      background: var(--glass-surface);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: var(--glass-glow);
+      transition: all 0.2s ease;
+    }
+
+    .ai-campaign-card:hover {
+      border-color: var(--glass-border-hover);
+      background: var(--glass-surface-elevated);
+    }
+
+    .ai-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .ai-card-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin: 0 0 4px 0;
+      line-height: 1.35;
+    }
+
+    .ai-card-agency {
+      font-size: 12px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .ai-metric-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .ai-stat-pill {
+      font-size: 11.5px;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .ai-stat-pill.cpm {
+      background: rgba(0, 242, 254, 0.1);
+      border-color: rgba(0, 242, 254, 0.25);
+      color: #00f2fe;
+      font-weight: 700;
+    }
+
+    .ai-stat-pill.fresh {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.3);
+      color: #34d399;
+      font-weight: 600;
+    }
+
+    .ai-stat-pill.budget {
+      background: rgba(234, 179, 8, 0.1);
+      border-color: rgba(234, 179, 8, 0.25);
+      color: #facc15;
+      font-weight: 600;
+    }
+
+    .ai-card-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 10px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--glass-border-subtle);
+    }
+
+    .ai-card-platforms {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .ai-docs-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .ai-doc-chip {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: var(--text-main);
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .ai-doc-chip:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      transform: translateY(-1px);
+    }
+
+    .ai-actions-bar {
+      display: flex;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .ai-followup-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--glass-border-subtle);
+    }
+
+    .ai-followup-chip {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      font-size: 11.5px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: var(--font-sans);
+    }
+
+    .ai-followup-chip:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-main);
+      border-color: var(--glass-border-hover);
+    }
+
+    /* Minimal Glass Pointer Box */
+    .tab-pointer-box {
+      margin-top: 6px;
+      padding: 12px 16px;
+      background: var(--glass-surface);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      border-radius: var(--radius-md);
+      font-size: 13px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      box-shadow: var(--glass-glow);
+    }
+
+    .tab-pointer-link {
+      color: var(--text-main);
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      font-size: 12.5px;
+    }
+
+    .tab-pointer-link:hover {
+      background: rgba(255,255,255,0.15);
+      border-color: rgba(255,255,255,0.25);
+      transform: translateY(-1px);
+    }
+
+    /* Bottom Fixed Glass Composer */
+    .chat-bottom {
+      flex-shrink: 0;
+      padding: 10px max(16px, env(safe-area-inset-right, 0px)) max(18px, calc(12px + env(safe-area-inset-bottom, 0px))) max(16px, env(safe-area-inset-left, 0px));
+      background: linear-gradient(to top, var(--bg) 75%, transparent 100%);
+      position: relative;
+    }
+
+    .chat-bottom-inner {
+      max-width: 740px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* Suggestion Chips with Trailing Fade Affordance */
+    .chips-stream-wrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      -webkit-mask-image: linear-gradient(to right, black 0%, black calc(100% - 36px), transparent 100%);
+      mask-image: linear-gradient(to right, black 0%, black calc(100% - 36px), transparent 100%);
+    }
+
+    .chips-stream {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding: 2px 32px 4px 2px;
+    }
+    .chips-stream::-webkit-scrollbar { display: none; }
+
+    .chip-flat {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      padding: 5px 12px;
+      border-radius: var(--radius-full);
+      font-size: 11.5px;
+      font-weight: 500;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: var(--font-sans);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      flex-shrink: 0;
+    }
+
+    .chip-flat:hover {
+      border-color: var(--glass-border-hover);
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-1px);
+    }
+
+    /* ChatGPT Liquid Glass Composer Capsule */
+    .input-box-wrapper {
+      background: var(--glass-surface-elevated);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border-radius: var(--radius-lg);
+      padding: 8px 12px 8px 16px;
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.35), inset 0 1px 1px rgba(255,255,255,0.06);
+      transition: all 0.2s ease;
+    }
+
+    .input-box-wrapper:focus-within {
+      border-color: var(--glass-border-focus);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.12);
+    }
+
+    .chat-textarea {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      line-height: 1.5;
+      resize: none;
+      min-height: 24px;
+      max-height: 140px;
+      padding: 4px 0;
+    }
+
+    .chat-textarea::placeholder {
+      color: var(--text-muted);
+    }
+
+    .composer-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .composer-refresh-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      flex-shrink: 0;
+    }
+
+    .composer-refresh-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: var(--glass-border-hover);
+      color: var(--text-main);
+      transform: scale(1.05);
+    }
+
+    .composer-refresh-btn:active {
+      transform: scale(0.95);
+    }
+
+    .composer-refresh-btn svg {
+      width: 15px;
+      height: 15px;
+      stroke-width: 2;
+    }
+
+    .send-action-btn {
+      background: linear-gradient(135deg, #00E5FF 0%, #0072FF 100%);
+      border: none;
+      color: #0B0C11;
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 800;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      flex-shrink: 0;
+      box-shadow: 0 2px 10px rgba(0, 229, 255, 0.35);
+    }
+
+    body.light-theme .send-action-btn {
+      color: #FFFFFF;
+      background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%);
+      box-shadow: 0 2px 10px rgba(2, 132, 199, 0.3);
+    }
+
+    .send-action-btn:hover {
+      background: linear-gradient(135deg, #33ECFF 0%, #0084FF 100%);
+      transform: scale(1.08);
+      box-shadow: 0 4px 16px rgba(0, 229, 255, 0.55);
+    }
+
+    .send-action-btn:active {
+      transform: scale(0.95);
+    }
+
+    /* ========================================================
+       TAB 2: CAMPAIGNS VIEW (Liquid Glass Grid & Filter Bar)
+       ======================================================== */
+    #campaignsPanel {
+      height: 100%;
+    }
+
+    .campaigns-header {
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--glass-border);
+      background: var(--glass-surface);
+      backdrop-filter: var(--glass-blur);
+      flex-shrink: 0;
+    }
+
+    .campaigns-header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .filter-controls-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .search-input-flat {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--glass-border);
+      color: var(--text-main);
+      padding: 8px 14px;
+      border-radius: var(--radius-md);
+      font-size: 13px;
+      outline: none;
+      flex: 1;
+      min-width: 180px;
+      max-width: 100%;
+      font-family: var(--font-sans);
+      transition: all 0.15s;
+    }
+
+    body.light-theme .search-input-flat {
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .search-input-flat:focus {
+      border-color: var(--glass-border-focus);
+      background: rgba(0, 0, 0, 0.35);
+    }
+
+    .sort-dropdown {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--glass-border);
+      color: var(--text-main);
+      padding: 7px 12px;
+      border-radius: var(--radius-md);
+      font-size: 12.5px;
+      outline: none;
+      cursor: pointer;
+      font-family: var(--font-sans);
+    }
+
+    /* Multi-Row Categorized Filter Matrix & Smooth Folding */
+    .copilot-filter-matrix {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-top: 10px;
+      padding: 10px 0 2px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      max-height: 380px;
+      opacity: 1;
+      overflow: hidden;
+      transform: translateY(0);
+      transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+                  opacity 0.22s ease, 
+                  margin-top 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+                  padding 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+                  transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+                  border-top-color 0.22s ease;
+    }
+
+    .copilot-filter-matrix.is-folded {
+      max-height: 0 !important;
+      opacity: 0 !important;
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      border-top-color: transparent !important;
+      pointer-events: none !important;
+      transform: translateY(-8px);
+    }
+
+    .filter-toggle-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-main);
+      padding: 7px 11px;
+      border-radius: var(--radius-md);
+      font-size: 12.5px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      font-family: var(--font-sans);
+      transition: all 0.18s ease;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .filter-toggle-pill:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: var(--glass-border-hover);
+    }
+
+    .filter-toggle-pill.active-filters {
+      border-color: rgba(0, 229, 255, 0.4);
+      color: #00E5FF;
+    }
+
+    .filter-toggle-pill .fold-chevron {
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      display: inline-flex;
+    }
+
+    .filter-toggle-pill.is-folded .fold-chevron {
+      transform: rotate(180deg);
+    }
+
+    .active-count-badge {
+      background: #00E5FF;
+      color: #0B0E14;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 1px 6px;
+      border-radius: 99px;
+      margin-left: 2px;
+      line-height: 1.3;
+    }
+
+    .folded-active-strip {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+      padding: 2px 0 0 0;
+      scrollbar-width: none;
+      transition: all 0.25s ease;
+    }
+
+    .folded-active-strip::-webkit-scrollbar {
+      display: none;
+    }
+
+    .folded-active-strip.show {
+      display: flex;
+    }
+
+    .folded-chip {
+      background: rgba(0, 229, 255, 0.12);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+      color: #00E5FF;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 99px;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .folded-chip:hover {
+      background: rgba(0, 229, 255, 0.25);
+    }
+
+    .folded-chip .remove-x {
+      font-size: 13px;
+      font-weight: 700;
+      opacity: 0.8;
+      line-height: 1;
+    }
+
+    .filter-row-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+    }
+
+    .filter-row-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-dim, #717e93);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      min-width: 108px;
+      max-width: 108px;
+      flex-shrink: 0;
+      user-select: none;
+    }
+
+    .filter-pills-wrapper {
+      position: relative;
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      -webkit-mask-image: linear-gradient(to right, black 0%, black calc(100% - 24px), transparent 100%);
+      mask-image: linear-gradient(to right, black 0%, black calc(100% - 24px), transparent 100%);
+    }
+
+    .filter-pills-bar {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+      -webkit-overflow-scrolling: touch;
+      padding: 3px 20px 3px 0;
+      cursor: grab;
+      user-select: none;
+      scroll-behavior: smooth;
+      width: 100%;
+    }
+
+    .filter-pills-bar.is-dragging {
+      cursor: grabbing;
+      scroll-behavior: auto;
+    }
+
+    .filter-pills-bar::-webkit-scrollbar {
+      height: 3px;
+    }
+
+    .filter-pills-bar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .filter-pills-bar::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.14);
+      border-radius: 99px;
+    }
+
+    .filter-pills-bar::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .filter-pill {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      padding: 5px 14px;
+      border-radius: var(--radius-full);
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+      font-family: var(--font-sans);
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .filter-pill:hover {
+      color: var(--text-main);
+      border-color: var(--glass-border-hover);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .filter-pill.active {
+      background: #FFFFFF !important;
+      border-color: #FFFFFF !important;
+      color: #0B0E14 !important;
+      font-weight: 700 !important;
+      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.22);
+    }
+
+    body.light-theme .filter-pill.active {
+      background: #18181B !important;
+      border-color: #18181B !important;
+      color: #FFFFFF !important;
+    }
+
+    @media (max-width: 640px) {
+      .filter-row-group {
+        gap: 8px;
+      }
+      .filter-row-label {
+        min-width: 82px;
+        max-width: 82px;
+        font-size: 10px;
+      }
+      .filter-pill {
+        padding: 4px 10px;
+        font-size: 11px;
+      }
+    }
+
+    /* Campaigns List Area */
+    .campaigns-scroll-area {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 16px;
+      width: 100%;
+    }
+
+    .campaigns-grid {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 14px;
+    }
+
+    /* Liquid Glass Campaign Card */
+    .claude-card {
+      background: var(--glass-surface);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.04);
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .claude-card:hover {
+      border-color: var(--glass-border-hover);
+      background: var(--glass-surface-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.08);
+    }
+
+    /* Rich Campaign Thumbnail & Avatar Styles */
+    .card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      height: 154px;
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      overflow: hidden;
+      background: #0f1118;
+      margin: -14px -14px 10px -14px;
+      width: calc(100% + 28px);
+    }
+
+    .card-thumb-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .claude-card:hover .card-thumb-img {
+      transform: scale(1.04);
+    }
+
+    .card-thumb-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(11, 12, 17, 0.88) 100%);
+      pointer-events: none;
+    }
+
+    .card-thumb-badges {
+      position: absolute;
+      bottom: 8px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+      pointer-events: none;
+    }
+
+    .card-brand-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .agency-avatar-img {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      flex-shrink: 0;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .card-verified-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #F59E0B;
+      color: #000000;
+      font-size: 9px;
+      font-weight: 900;
+      line-height: 1;
+      margin-left: 2px;
+    }
+
+    .card-platforms-icons {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: auto;
+    }
+
+    .platform-icon-pill {
+      font-size: 11.5px;
+      padding: 2px 5px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-secondary);
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    /* ContentRewards Bottom Metric Row */
+    .cr-metrics-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 6px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .cr-budget-inline {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .cr-budget-inline strong {
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 13px;
+    }
+
+    .cr-mini-progress {
+      width: 44px;
+      height: 4px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      overflow: hidden;
+    }
+
+    .cr-mini-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #00E5FF, #FF6243);
+    }
+
+    .cr-pills-group {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .cr-pill {
+      font-size: 10.5px;
+      font-weight: 600;
+      padding: 2.5px 7.5px;
+      border-radius: var(--radius-full);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      color: var(--text-secondary);
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-family: var(--font-sans);
+    }
+
+    .cr-pill.personal-brand {
+      background: rgba(168, 85, 247, 0.14);
+      color: #D8B4FE;
+      border-color: rgba(168, 85, 247, 0.3);
+    }
+
+    .cr-pill.dedicated-page {
+      background: rgba(236, 72, 153, 0.16);
+      color: #F472B6;
+      border-color: rgba(236, 72, 153, 0.35);
+      font-weight: 700;
+    }
+
+    .cr-pill.sports-niche {
+      background: rgba(245, 158, 11, 0.14);
+      color: #FCD34D;
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+
+    .cr-pill.gaming-niche {
+      background: rgba(14, 165, 233, 0.14);
+      color: #7DD3FC;
+      border-color: rgba(14, 165, 233, 0.3);
+    }
+
+    .cr-pill.finance-niche {
+      background: rgba(16, 185, 129, 0.14);
+      color: #6EE7B7;
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+
+    .cr-pill.ugc-niche {
+      background: rgba(249, 115, 22, 0.14);
+      color: #FDBA74;
+      border-color: rgba(249, 115, 22, 0.3);
+    }
+
+    .cr-pill.ai-niche {
+      background: rgba(99, 102, 241, 0.14);
+      color: #A5B4FC;
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+
+    .cr-pill.music-niche {
+      background: rgba(236, 72, 153, 0.14);
+      color: #F472B6;
+      border-color: rgba(236, 72, 153, 0.3);
+    }
+
+    .cr-pill.podcast-niche {
+      background: rgba(139, 92, 246, 0.14);
+      color: #C4B5FD;
+      border-color: rgba(139, 92, 246, 0.3);
+    }
+
+    .modal-account-notice {
+      background: rgba(236, 72, 153, 0.08);
+      border: 1px solid rgba(236, 72, 153, 0.25);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: #F472B6;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .cr-pill.approval {
+      background: rgba(0, 229, 255, 0.08);
+      color: #00E5FF;
+      border-color: rgba(0, 229, 255, 0.2);
+    }
+
+    .cr-pill.cpm {
+      background: rgba(0, 229, 255, 0.14);
+      color: #00E5FF;
+      border-color: rgba(0, 229, 255, 0.32);
+      font-weight: 700;
+      font-family: var(--font-mono);
+    }
+
+    .cr-pill.subs {
+      background: rgba(255, 255, 255, 0.08);
+      color: #FFFFFF;
+    }
+
+    .cr-pill.subs-zero {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34D399;
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+
+    .cr-pill.approval {
+      background: rgba(255, 255, 255, 0.05);
+      color: #D1D5DB;
+    }
+
+    /* Burn Rate & Budget Depletion Badges */
+    .burn-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2.5px 7px;
+      border-radius: var(--radius-full);
+      backdrop-filter: blur(8px);
+      letter-spacing: -0.01em;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: var(--font-sans);
+    }
+
+    .burn-critical {
+      background: rgba(255, 69, 58, 0.22);
+      color: #FF6B6B;
+      border: 1px solid rgba(255, 69, 58, 0.45);
+      box-shadow: 0 0 10px rgba(255, 69, 58, 0.3);
+    }
+
+    .burn-fast {
+      background: rgba(255, 159, 10, 0.22);
+      color: #FFB340;
+      border: 1px solid rgba(255, 159, 10, 0.45);
+    }
+
+    .burn-steady {
+      background: rgba(0, 229, 255, 0.16);
+      color: #00E5FF;
+      border: 1px solid rgba(0, 229, 255, 0.35);
+    }
+
+    .burn-fresh {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34D399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .burn-depleted {
+      background: rgba(255, 255, 255, 0.08);
+      color: #94A3B8;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .subs-badge {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2.5px 7px;
+      border-radius: var(--radius-full);
+      background: rgba(0, 0, 0, 0.7);
+      color: #FFFFFF;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(8px);
+    }
+
+    .subs-badge.subs-zero {
+      background: rgba(16, 185, 129, 0.25);
+      color: #34D399;
+      border-color: rgba(16, 185, 129, 0.45);
+    }
+
+    /* Budget Depletion Progress Meter */
+    .budget-depletion-meter {
+      margin-top: 3px;
+      padding: 6px 9px;
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    body.light-theme .budget-depletion-meter {
+      background: rgba(0, 0, 0, 0.04);
+      border-color: rgba(0, 0, 0, 0.06);
+    }
+
+    .budget-meter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10.5px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .budget-meter-header strong {
+      color: var(--text-main);
+      font-family: var(--font-mono);
+    }
+
+    .budget-progress-track {
+      width: 100%;
+      height: 5px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .budget-progress-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 0.4s ease;
+    }
+
+    .fill-critical {
+      background: linear-gradient(90deg, #FF9F0A 0%, #FF453A 100%);
+      box-shadow: 0 0 8px rgba(255, 69, 58, 0.5);
+    }
+
+    .fill-fast {
+      background: linear-gradient(90deg, #00E5FF 0%, #FF9F0A 100%);
+    }
+
+    .fill-steady {
+      background: linear-gradient(90deg, #00E5FF 0%, #0072FF 100%);
+    }
+
+    .fill-fresh {
+      background: #10B981;
+    }
+
+    .fill-depleted {
+      background: #64748B;
+    }
+
+    /* Modal Banner Image & ContentRewards Details */
+    .modal-banner-wrap {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      background: #0b0c11;
+      overflow: hidden;
+    }
+
+    .modal-banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .modal-burn-analytics {
+      background: rgba(0, 229, 255, 0.06);
+      border: 1px solid rgba(0, 229, 255, 0.22);
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .earnings-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 8px;
+      margin: 8px 0;
+    }
+
+    .earnings-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .earnings-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .earnings-card-rate {
+      font-size: 13px;
+      font-weight: 700;
+      color: #00E5FF;
+      font-family: var(--font-mono);
+    }
+
+    .earnings-card-caps {
+      display: flex;
+      gap: 4px;
+      font-size: 10.5px;
+      color: var(--text-muted);
+    }
+
+    .card-meta-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-agency {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-main);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+      margin: 4px 0 2px 0;
+    }
+
+    .card-age-pill {
+      font-size: 11px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      font-family: var(--font-sans);
+    }
+
+    .card-badge-row {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .flat-badge {
+      font-size: 10.5px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      background: var(--badge-bg);
+      border: 1px solid var(--badge-border);
+      color: var(--text-secondary);
+    }
+
+    .card-desc-text {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-budget-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11.5px;
+      color: var(--text-muted);
+      padding: 8px 0;
+      border-top: 1px solid var(--glass-border-subtle);
+    }
+
+    .card-budget-row strong {
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-weight: 600;
+    }
+
+    .card-actions-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      padding-top: 4px;
+    }
+
+    .card-platforms {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .card-buttons {
+      display: flex;
+      gap: 6px;
+    }
+
+    .btn-docs-flat {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      font-size: 11.5px;
+      font-weight: 500;
+      padding: 5px 10px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .btn-docs-flat:hover {
+      color: var(--text-main);
+      border-color: var(--glass-border-hover);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-whop-flat {
+      background: linear-gradient(135deg, #FF6243 0%, #FF451A 100%);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #FFFFFF !important;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 5.5px 13px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 2px 8px rgba(255, 98, 67, 0.35);
+      letter-spacing: -0.01em;
+    }
+
+    .btn-whop-flat:hover {
+      background: linear-gradient(135deg, #FF7659 0%, #FF552E 100%);
+      border-color: rgba(255, 255, 255, 0.4);
+      box-shadow: 0 4px 14px rgba(255, 98, 67, 0.55);
+      transform: translateY(-1.5px);
+      color: #FFFFFF !important;
+    }
+
+    .btn-whop-flat:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(255, 98, 67, 0.35);
+    }
+
+    body.light-theme .btn-whop-flat {
+      background: linear-gradient(135deg, #FF6243 0%, #FF451A 100%);
+      color: #FFFFFF !important;
+      border: none;
+      box-shadow: 0 2px 8px rgba(255, 98, 67, 0.3);
+    }
+
+    /* ========================================================
+       SECTION 3: CAMPAIGN DOCUMENTS & DETAIL MODAL (Liquid Glass Sheet)
+       ======================================================== */
+    .docs-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+    }
+
+    .docs-modal-overlay.active {
+      display: flex;
+    }
+
+    .docs-modal-card {
+      background: rgba(22, 22, 26, 0.94);
+      border: 1px solid var(--glass-border-hover);
+      border-radius: var(--radius-lg);
+      max-width: 660px;
+      width: 100%;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.08);
+      overflow: hidden;
+      backdrop-filter: blur(24px);
+    }
+
+    body.light-theme .docs-modal-card {
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 20px 48px rgba(0,0,0,0.15);
+    }
+
+    .docs-modal-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--glass-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .docs-modal-title {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.3;
+    }
+
+    .docs-close-btn {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--glass-border);
+      color: var(--text-muted);
+      font-size: 18px;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-sm);
+      transition: all 0.15s;
+    }
+    .docs-close-btn:hover {
+      color: var(--text-main);
+      background: rgba(255,255,255,0.12);
+      border-color: var(--glass-border-hover);
+    }
+
+    .docs-modal-content {
+      padding: 18px 20px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .docs-section-heading {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .brief-text-box {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--glass-border);
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-main);
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* Requirements Checklist */
+    .requirements-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+    }
+
+    .req-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 12.5px;
+      color: var(--text-main);
+      line-height: 1.45;
+    }
+
+    .req-icon {
+      color: #4ADE80;
+      font-weight: 700;
+      font-size: 12px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* Documents / Assets List */
+    .docs-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .doc-row {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 10px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.15s;
+    }
+
+    .doc-row:hover {
+      border-color: var(--glass-border-hover);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .doc-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      overflow: hidden;
+    }
+
+    .doc-icon {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .doc-info {
+      overflow: hidden;
+    }
+
+    .doc-name {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-main);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .doc-type {
+      font-size: 10.5px;
+      color: var(--text-muted);
+    }
+
+    .btn-doc-action {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--glass-border);
+      color: var(--text-main);
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+
+    .btn-doc-action:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: var(--glass-border-hover);
+    }
+
+    .no-docs-notice {
+      padding: 14px;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px dashed var(--glass-border);
+      border-radius: var(--radius-md);
+      font-size: 12.5px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    .docs-modal-footer {
+      padding: 12px 20px;
+      border-top: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .modal-stats-summary {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .modal-stats-summary strong {
+      color: var(--text-main);
+      font-family: var(--font-mono);
+    }
+
+    /* Mobile Responsive Optimizations */
+    @media (max-width: 680px) {
+      header {
+        padding: max(8px, env(safe-area-inset-top, 0px)) max(14px, env(safe-area-inset-right, 0px)) 8px max(14px, env(safe-area-inset-left, 0px));
+        gap: 8px;
+      }
+      .brand-area {
+        gap: 6px;
+      }
+      .brand-logo-wrap {
+        width: 30px;
+        height: 30px;
+      }
+      .brand-logo-svg {
+        width: 17px;
+        height: 17px;
+      }
+      .brand-name {
+        font-size: 13px;
+      }
+      .brand-badge {
+        display: none;
+      }
+
+      .tab-label-full {
+        display: none !important;
+      }
+      .tab-label-short {
+        display: inline !important;
+      }
+
+      .nav-tabs {
+        padding: 2.5px 3px;
+        gap: 2px;
+      }
+      .tab-btn {
+        padding: 4px 7px;
+        font-size: 11px;
+        gap: 3.5px;
+      }
+      .tab-counter {
+        font-size: 9.5px;
+        padding: 1px 4.5px;
+      }
+
+      .tool-btn {
+        min-width: 30px;
+        height: 30px;
+        padding: 0 5px;
+      }
+      .refresh-label {
+        display: none;
+      }
+
+      .chips-stream {
+        gap: 5px;
+        padding: 2px 28px 3px 2px;
+      }
+      .chip-flat {
+        padding: 4px 9px;
+        font-size: 11px;
+      }
+
+      .chat-bottom {
+        padding: 8px max(16px, env(safe-area-inset-right, 0px)) max(16px, calc(10px + env(safe-area-inset-bottom, 0px))) max(16px, env(safe-area-inset-left, 0px));
+      }
+      .input-box-wrapper {
+        padding: 6px 8px 6px 12px;
+        gap: 6px;
+        border-radius: 16px;
+      }
+      .chat-textarea {
+        font-size: 13px;
+      }
+      .composer-refresh-btn, .send-action-btn {
+        width: 30px;
+        height: 30px;
+      }
+
+      #chatScroll {
+        padding: 14px max(16px, env(safe-area-inset-right, 0px)) 14px max(16px, env(safe-area-inset-left, 0px));
+      }
+      .claude-welcome {
+        padding: 18px 4px 10px;
+      }
+      .welcome-headline {
+        font-size: 21px;
+        word-break: break-word;
+      }
+      .welcome-subtext {
+        font-size: 13px;
+      }
+
+      .campaigns-header {
+        padding: 10px max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px));
+      }
+      .campaigns-scroll-area {
+        padding: 12px max(16px, env(safe-area-inset-right, 0px)) max(20px, calc(12px + env(safe-area-inset-bottom, 0px))) max(16px, env(safe-area-inset-left, 0px));
+      }
+      .campaigns-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 100%;
+      }
+      .claude-card {
+        padding: 12px 14px;
+      }
+      .card-title {
+        font-size: 14px;
+        word-break: break-word;
+      }
+      .card-actions-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+      .card-buttons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      .btn-docs-flat, .btn-whop-flat {
+        justify-content: center;
+        text-align: center;
+        padding: 7px 10px;
+        font-size: 12px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .brand-titles {
+        display: none;
+      }
+      .tab-btn {
+        padding: 4px 6.5px;
+        font-size: 11px;
+        gap: 3px;
+      }
+      .chips-stream {
+        gap: 4px;
+      }
+      .chip-flat {
+        padding: 3.5px 8px;
+        font-size: 10.5px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      header {
+        padding: max(6px, env(safe-area-inset-top, 0px)) max(10px, env(safe-area-inset-right, 0px)) 6px max(10px, env(safe-area-inset-left, 0px));
+        gap: 4px;
+      }
+      .tab-btn {
+        padding: 3.5px 5px;
+        font-size: 10px;
+        gap: 2.5px;
+      }
+      .welcome-headline {
+        font-size: 18.5px;
+      }
+      .chat-bottom {
+        padding-left: max(12px, env(safe-area-inset-left, 0px));
+        padding-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+      #chatScroll {
+        padding-left: max(12px, env(safe-area-inset-left, 0px));
+        padding-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+      .campaigns-header {
+        padding-left: max(12px, env(safe-area-inset-left, 0px));
+        padding-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+      .campaigns-scroll-area {
+        padding-left: max(12px, env(safe-area-inset-left, 0px));
+        padding-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Dual-Tone Floating Toast Notifications -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- Liquid Glass Header Bar -->
+  <header>
+    <div class="brand-area" onclick="switchTab('chat')">
+      <div class="brand-logo-wrap">
+        <!-- Modern Liquid Glass Emblem Logo -->
+        <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M12 6L7.5 8.5V13.5L12 16L16.5 13.5V8.5L12 6Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1.2"/>
+          <circle cx="12" cy="11" r="2.2" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="brand-titles">
+        <span class="brand-name">Copilot AI</span>
+        <span class="brand-badge">Rewards Live</span>
+      </div>
+    </div>
+
+    <!-- 3-Tab Navigation Switcher -->
+    <nav class="nav-tabs" aria-label="Navigation Tabs">
+      <button id="tabChatBtn" class="tab-btn active" onclick="switchTab('chat')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span>Chat</span>
+      </button>
+      <button id="tabCampaignsBtn" class="tab-btn" onclick="switchTab('campaigns')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        <span class="tab-label-full">Campaigns</span>
+        <span class="tab-label-short">Camps</span>
+        <span class="tab-counter" id="tabCampaignCount">0</span>
+      </button>
+      <button id="tabRemovedBtn" class="tab-btn" onclick="switchTab('removed')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+        <span class="tab-label-full">Ended / Removed</span>
+        <span class="tab-label-short">Ended</span>
+        <span class="tab-counter tab-counter-removed" id="tabRemovedCount">0</span>
+      </button>
+    </nav>
+
+    <!-- Right Header Tools with Mobile-Optimized Refresh -->
+    <div class="header-tools">
+      <button id="headerRefreshBtn" class="tool-btn refresh-btn" onclick="reloadDataset()" title="Reload Live Campaigns">
+        <svg id="refreshIconSvg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.19"/></svg>
+        <span class="refresh-label">Sync</span>
+      </button>
+      <button class="tool-btn" onclick="toggleTheme()" title="Toggle Theme">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       TAB 1: CHAT VIEW (Pure Text Summary Thread)
+       ======================================================== -->
+  <section id="chatPanel" class="view-panel active">
+    <div id="chatScroll">
+      <div class="chat-inner" id="chatThread">
+        <div class="claude-welcome" id="chatWelcome">
+          <div class="welcome-icon-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+            <span>Live Campaign Assistant</span>
+          </div>
+          <h1 class="welcome-headline">How can I help you find campaigns?</h1>
+          <p class="welcome-subtext">
+            Ask about any niche, creator, budget, or CPM rate. I'll summarize the best opportunities for you with direct access to official briefs and source assets.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-bottom">
+      <div class="chat-bottom-inner">
+        <!-- Suggestion Chips with Trailing Fade Affordance -->
+        <div class="chips-stream-wrapper">
+          <div class="chips-stream">
+            <button class="chip-flat" onclick="sendChatPrompt('show me campaigns with 0 submission')">0 Submissions</button>
+            <button class="chip-flat" onclick="sendChatPrompt('latest clipping campaigns')">Latest Clipping</button>
+            <button class="chip-flat" onclick="sendChatPrompt('music and lyrics edits')">Music & Lyrics</button>
+            <button class="chip-flat" onclick="sendChatPrompt('podcast and streamer clips')">Podcasts & Streamers</button>
+            <button class="chip-flat" onclick="sendChatPrompt('ai and tech tools')">AI Tools</button>
+            <button class="chip-flat" onclick="sendChatPrompt('show removed and ended campaigns')">🛑 Removed / Ended</button>
+            <button class="chip-flat" onclick="sendChatPrompt('high cpm campaigns above $2')">High CPM ($2+)</button>
+          </div>
+        </div>
+
+        <!-- Input Capsule -->
+        <div class="input-box-wrapper">
+          <textarea 
+            id="chatInput" 
+            class="chat-textarea" 
+            placeholder="Ask about campaigns (e.g., '0 submissions', 'music', 'ended campaigns')..." 
+            rows="1"
+            onkeydown="if(event.key==='Enter' && !event.shiftKey){ event.preventDefault(); handleChatSend(); }"
+          ></textarea>
+          <div class="composer-actions">
+            <button id="composerRefreshBtn" class="composer-refresh-btn" onclick="reloadDataset()" title="Sync & Refresh Campaigns Database">
+              <svg id="composerRefreshIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.19"/></svg>
+            </button>
+            <button id="chatSendBtn" class="send-action-btn" onclick="handleChatSend()" title="Send Message">➔</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       TAB 2: CAMPAIGNS VIEW (Persistent Filterable Grid + Docs)
+       ======================================================== -->
+  <section id="campaignsPanel" class="view-panel">
+    <div class="campaigns-header">
+      <div class="campaigns-header-inner">
+        <div class="filter-controls-row">
+          <input 
+            type="text" 
+            id="campaignSearchInput" 
+            class="search-input-flat" 
+            placeholder="Search campaigns, agencies, keywords..." 
+            oninput="applyCampaignFilters()"
+          />
+
+          <div style="display: flex; gap: 8px; align-items: center; flex-shrink: 0;">
+            <button id="toggleFiltersBtn" class="filter-toggle-pill" onclick="toggleFiltersFold()" title="Fold / Unfold filters">
+              <svg class="fold-chevron" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+              <span>Filters</span>
+              <span id="activeFilterBadgeCount" class="active-count-badge" style="display:none;">0</span>
+            </button>
+            <select id="campaignSortSelect" class="sort-dropdown" onchange="applyCampaignFilters()">
+              <option value="newest">Newest First</option>
+              <option value="cpm">Highest CPM</option>
+              <option value="budget">Most Budget Left</option>
+              <option value="total">Largest Total Fund</option>
+            </select>
+            <button class="tool-btn refresh-btn" onclick="reloadDataset()" title="Sync & Refresh Database">
+              <svg id="campRefreshIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.19"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Folded Active Filters Strip (Visible when folded with active filters) -->
+        <div class="folded-active-strip" id="foldedActiveStrip"></div>
+
+        <!-- Multi-Row Categorized Filter Matrix (CATEGORY, CONTENT TYPE, PLATFORM, QUICK TAGS) -->
+        <div class="copilot-filter-matrix" id="copilotFilterMatrix">
+          <!-- Row 1: Category -->
+          <div class="filter-row-group">
+            <div class="filter-row-label">CATEGORY</div>
+            <div class="filter-pills-wrapper">
+              <div class="filter-pills-bar" id="categoryPillsBar">
+                <button class="filter-pill active" data-cat="all" onclick="setCategoryFilter('all', this)">All</button>
+                <button class="filter-pill" data-cat="Music" onclick="setCategoryFilter('Music', this)">Music</button>
+                <button class="filter-pill" data-cat="Gaming" onclick="setCategoryFilter('Gaming', this)">Gaming</button>
+                <button class="filter-pill" data-cat="Entertainment" onclick="setCategoryFilter('Entertainment', this)">Entertainment</button>
+                <button class="filter-pill" data-cat="Sports" onclick="setCategoryFilter('Sports', this)">Sports</button>
+                <button class="filter-pill" data-cat="Education" onclick="setCategoryFilter('Education', this)">Education</button>
+                <button class="filter-pill" data-cat="Lifestyle" onclick="setCategoryFilter('Lifestyle', this)">Lifestyle</button>
+                <button class="filter-pill" data-cat="Technology" onclick="setCategoryFilter('Technology', this)">Technology</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Content Type -->
+          <div class="filter-row-group">
+            <div class="filter-row-label">CONTENT TYPE</div>
+            <div class="filter-pills-wrapper">
+              <div class="filter-pills-bar" id="contentTypePillsBar">
+                <button class="filter-pill active" data-content="all" onclick="setContentTypeFilter('all', this)">All Types</button>
+                <button class="filter-pill" data-content="Clipping" onclick="setContentTypeFilter('Clipping', this)">📹 Clipping</button>
+                <button class="filter-pill" data-content="UGC" onclick="setContentTypeFilter('UGC', this)">🎨 UGC</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 3: Platform -->
+          <div class="filter-row-group">
+            <div class="filter-row-label">PLATFORM</div>
+            <div class="filter-pills-wrapper">
+              <div class="filter-pills-bar" id="platformPillsBar">
+                <button class="filter-pill active" data-platform="all" onclick="setPlatformFilter('all', this)">All Platforms</button>
+                <button class="filter-pill" data-platform="tiktok" onclick="setPlatformFilter('tiktok', this)">🎵 TikTok</button>
+                <button class="filter-pill" data-platform="instagram" onclick="setPlatformFilter('instagram', this)">📸 Instagram</button>
+                <button class="filter-pill" data-platform="youtube" onclick="setPlatformFilter('youtube', this)">▶ YouTube</button>
+                <button class="filter-pill" data-platform="x" onclick="setPlatformFilter('x', this)">✖ X (Twitter)</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 4: Quick Presets / Tags -->
+          <div class="filter-row-group">
+            <div class="filter-row-label">QUICK TAGS</div>
+            <div class="filter-pills-wrapper">
+              <div class="filter-pills-bar" id="presetPillsBar">
+                <button class="filter-pill active" data-filter="all" onclick="setCampaignFilter('all', this)">All Active</button>
+                <button class="filter-pill" data-filter="0sub" onclick="setCampaignFilter('0sub', this)">⚡ Fresh (0 Spent)</button>
+                <button class="filter-pill" data-filter="lowcomp" onclick="setCampaignFilter('lowcomp', this)">🏃 Low Competition</button>
+                <button class="filter-pill" data-filter="dedicated" onclick="setCampaignFilter('dedicated', this)">📱 Dedicated Fan Pages</button>
+                <button class="filter-pill" data-filter="personal" onclick="setCampaignFilter('personal', this)">👤 Personal Brands</button>
+                <button class="filter-pill" data-filter="highcpm" onclick="setCampaignFilter('highcpm', this)">💎 CPM $2+</button>
+                <button class="filter-pill" data-filter="highbudget" onclick="setCampaignFilter('highbudget', this)">🚀 Budget $10k+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="campaigns-scroll-area">
+      <div class="campaigns-grid" id="campaignsContainer">
+        <!-- Rendered Cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       TAB 3: REMOVED / ENDED CAMPAIGNS VIEW (Historical Archive)
+       ======================================================== -->
+  <section id="removedPanel" class="view-panel">
+    <div class="campaigns-header">
+      <div class="campaigns-header-inner">
+        <div class="filter-controls-row">
+          <input 
+            type="text" 
+            id="removedSearchInput" 
+            class="search-input-flat" 
+            placeholder="Search removed campaigns, ended pools, historical briefs..." 
+            oninput="applyRemovedFilters()"
+          />
+
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <select id="removedSortSelect" class="sort-dropdown" onchange="applyRemovedFilters()">
+              <option value="newest">Recently Ended</option>
+              <option value="total">Largest Total Pool</option>
+              <option value="cpm">Highest CPM Rate</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-pills-wrapper">
+          <div class="filter-pills-bar">
+            <button class="filter-pill active" data-removed-filter="all" onclick="setRemovedFilter('all', this)">All Ended</button>
+            <button class="filter-pill" data-removed-filter="sports" onclick="setRemovedFilter('sports', this)">🏆 Sports & Cards</button>
+            <button class="filter-pill" data-removed-filter="clipping" onclick="setRemovedFilter('clipping', this)">✂️ Clipping</button>
+            <button class="filter-pill" data-removed-filter="ugc" onclick="setRemovedFilter('ugc', this)">🎬 UGC</button>
+            <button class="filter-pill" data-removed-filter="gaming" onclick="setRemovedFilter('gaming', this)">🎮 Gaming</button>
+            <button class="filter-pill" data-removed-filter="finance" onclick="setRemovedFilter('finance', this)">💰 Crypto & Finance</button>
+            <button class="filter-pill" data-removed-filter="music" onclick="setRemovedFilter('music', this)">🎵 Music & Lyrics</button>
+            <button class="filter-pill" data-removed-filter="podcast" onclick="setRemovedFilter('podcast', this)">🎙️ Podcasts</button>
+            <button class="filter-pill" data-removed-filter="ai" onclick="setRemovedFilter('ai', this)">🤖 AI & Tech</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="campaigns-scroll-area">
+      <div style="max-width: 1440px; margin: 0 auto; padding: 12px 18px 4px;">
+        <div style="background: rgba(255, 98, 67, 0.08); border: 1px solid rgba(255, 98, 67, 0.22); border-radius: var(--radius-md); padding: 10px 14px; font-size: 12.5px; color: var(--text-secondary); display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 16px;">🛑</span>
+          <span><strong>Historical Archive Ledger:</strong> These campaigns were previously live on Content Rewards but have ended, depleted their $100% budget, or were removed from the active discover stream. Past source briefs, assets, and documents remain accessible for your reference.</span>
+        </div>
+      </div>
+      <div class="campaigns-grid" id="removedContainer">
+        <!-- Rendered Removed Cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 3: CAMPAIGN DOCUMENTS & ASSETS PANEL (Modal Sheet)
+       ======================================================== -->
+  <div class="docs-modal-overlay" id="docsModal" onclick="closeDocsModal(event)">
+    <div class="docs-modal-card" onclick="event.stopPropagation()">
+      <div id="modalBannerWrap" class="modal-banner-wrap" style="display:none;">
+        <img id="modalBannerImg" class="modal-banner-img" src="" alt="Campaign Banner" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      <div class="docs-modal-header">
+        <div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <img id="modalAgencyAvatar" class="agency-avatar-img" src="" style="display:none;" onerror="this.style.display='none'"/>
+            <div id="modalAgency" class="card-agency">AGENCY</div>
+          </div>
+          <h2 id="modalTitle" class="docs-modal-title">Campaign Documents & Brief</h2>
+        </div>
+        <button class="docs-close-btn" onclick="closeDocsModal()">&times;</button>
+      </div>
+
+      <div class="docs-modal-content">
+        <!-- Budget Depletion & Burn Rate Prediction Analytics -->
+        <div id="modalBurnAnalytics" class="modal-burn-analytics">
+          <!-- Dynamic Burn Metrics -->
+        </div>
+
+        <!-- Platform Earnings & Caps Section -->
+        <div id="modalEarningsWrap">
+          <div class="docs-section-heading">Platform Earnings & Caps</div>
+          <div id="modalEarningsGrid" class="earnings-cards-grid">
+            <!-- Rendered Platform Earnings -->
+          </div>
+        </div>
+
+        <!-- Brief Section -->
+        <div>
+          <div class="docs-section-heading">Campaign Brief & Guidelines</div>
+          <div id="modalBriefText" class="brief-text-box">
+            <!-- Full description -->
+          </div>
+        </div>
+
+        <!-- Requirements Section -->
+        <div>
+          <div class="docs-section-heading">Requirements & Checklist</div>
+          <div id="modalRequirementsList" class="requirements-grid">
+            <!-- Rendered requirement bullet checklist -->
+          </div>
+        </div>
+
+        <!-- Attached Documents & Assets Section -->
+        <div>
+          <div class="docs-section-heading">Source Documents & Approved Assets</div>
+          <div id="modalDocsList" class="docs-list">
+            <!-- File rows extracted from ContentRewards/Whop links -->
+          </div>
+        </div>
+
+        <!-- Compatibility -->
+        <div>
+          <div class="docs-section-heading">Allowed Platforms</div>
+          <div id="modalPlatforms" style="font-size: 13.5px; color: var(--text-secondary);">
+            TikTok, Instagram Reels, YouTube Shorts
+          </div>
+        </div>
+      </div>
+
+      <div class="docs-modal-footer">
+        <div class="modal-stats-summary" id="modalStats">
+          Left: <strong>$1,000</strong> • CPM: <strong>$1.00</strong>
+        </div>
+        <div style="display: flex; gap: 8px;">
+          <button class="btn-docs-flat" onclick="closeDocsModal()">Close</button>
+          <a id="modalWhopBtn" href="#" target="_blank" class="btn-whop-flat" onclick="handleWhopClick(event)">
+            Open on Whop ➔
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let rawCampaigns = window.CAMPAIGNS_DATA || [];
+    let rawArchived = loadStoredArchived();
+    let currentTab = 'chat';
+    let currentCategoryFilter = 'all';
+    let currentContentTypeFilter = 'all';
+    let currentPlatformFilter = 'all';
+    let currentFilterType = 'all';
+    let currentRemovedFilter = 'all';
+    let activeCampaignModal = null;
+
+    function loadStoredArchived() {
+      try {
+        const stored = localStorage.getItem('cr_removed_archive_live');
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (Array.isArray(parsed)) return parsed;
+        }
+      } catch (e) {}
+      return window.ARCHIVED_CAMPAIGNS || [];
+    }
+
+    function saveStoredArchived(list) {
+      try {
+        localStorage.setItem('cr_removed_archive_live', JSON.stringify(list));
+      } catch (e) {}
+    }
+
+    function processCampaignsDiff(freshList) {
+      if (!Array.isArray(freshList) || freshList.length === 0) return;
+
+      let previousActive = [];
+      try {
+        const prev = localStorage.getItem('cr_tracked_active_baseline');
+        if (prev) previousActive = JSON.parse(prev);
+      } catch (e) {}
+
+      // If we have a previously tracked active baseline, detect missing/removed campaigns
+      if (Array.isArray(previousActive) && previousActive.length > 0) {
+        const freshMap = new Map();
+        freshList.forEach(c => {
+          const key = c.id || (c.title || '').trim().toLowerCase();
+          if (key) freshMap.set(key, c);
+        });
+
+        const newlyRemoved = [];
+        previousActive.forEach(oldCamp => {
+          const key = oldCamp.id || (oldCamp.title || '').trim().toLowerCase();
+          if (!freshMap.has(key)) {
+            const alreadyInArchive = rawArchived.some(a => (a.id && a.id === oldCamp.id) || ((a.title || '').toLowerCase() === (oldCamp.title || '').toLowerCase()));
+            if (!alreadyInArchive) {
+              const removedEntry = {
+                ...oldCamp,
+                status: 'ended',
+                endedAt: new Date().toISOString(),
+                endedReason: 'Removed from Content Rewards Discover Feed',
+                formattedAge: 'Ended'
+              };
+              newlyRemoved.push(removedEntry);
+            }
+          }
+        });
+
+        if (newlyRemoved.length > 0) {
+          rawArchived = [...newlyRemoved, ...rawArchived];
+          saveStoredArchived(rawArchived);
+        }
+      }
+
+      // Update baseline with current active campaigns
+      try {
+        localStorage.setItem('cr_tracked_active_baseline', JSON.stringify(freshList));
+      } catch (e) {}
+    }
+
+    // --- Tab Navigation ---
+    function switchTab(tabId, optionalPreset) {
+      currentTab = tabId;
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.view-panel').forEach(panel => panel.classList.remove('active'));
+
+      if (tabId === 'chat') {
+        document.getElementById('tabChatBtn').classList.add('active');
+        document.getElementById('chatPanel').classList.add('active');
+      } else if (tabId === 'campaigns') {
+        document.getElementById('tabCampaignsBtn').classList.add('active');
+        document.getElementById('campaignsPanel').classList.add('active');
+        setupHorizontalScrollbars();
+        setupScrollFold();
+        
+        if (optionalPreset) {
+          const pill = document.querySelector(`.filter-pill[data-filter="${optionalPreset}"], .filter-pill[data-cat="${optionalPreset}"], .filter-pill[data-content="${optionalPreset}"], .filter-pill[data-platform="${optionalPreset}"]`);
+          if (pill) {
+            if (pill.dataset.cat) setCategoryFilter(optionalPreset, pill);
+            else if (pill.dataset.content) setContentTypeFilter(optionalPreset, pill);
+            else if (pill.dataset.platform) setPlatformFilter(optionalPreset, pill);
+            else setCampaignFilter(optionalPreset, pill);
+          } else {
+            setCampaignFilter(optionalPreset, null);
+          }
+        } else {
+          applyCampaignFilters();
+        }
+      } else if (tabId === 'removed') {
+        document.getElementById('tabRemovedBtn').classList.add('active');
+        document.getElementById('removedPanel').classList.add('active');
+        setupHorizontalScrollbars();
+
+        if (optionalPreset) {
+          const pill = document.querySelector(`[data-removed-filter="${optionalPreset}"]`);
+          if (pill) setRemovedFilter(optionalPreset, pill);
+        } else {
+          applyRemovedFilters();
+        }
+      }
+    }
+
+    function toggleTheme() {
+      document.body.classList.toggle('light-theme');
+    }
+
+    function showToast(message, isCoral = false) {
+      const container = document.getElementById('toastContainer');
+      if (!container) return;
+      const pill = document.createElement('div');
+      pill.className = `toast-pill ${isCoral ? 'toast-coral' : ''}`;
+      pill.innerHTML = `<span>${message}</span>`;
+      container.appendChild(pill);
+      setTimeout(() => {
+        pill.style.animation = 'toastOut 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards';
+        setTimeout(() => pill.remove(), 250);
+      }, 2600);
+    }
+
+    async function reloadDataset(isSilent = false) {
+      const icons = [
+        document.getElementById('refreshIconSvg'),
+        document.getElementById('composerRefreshIcon'),
+        document.getElementById('campRefreshIcon')
+      ].filter(Boolean);
+
+      if (!isSilent) {
+        icons.forEach(i => i.classList.add('spin-anim'));
+        const refreshLabel = document.querySelector('#headerRefreshBtn .refresh-label');
+        if (refreshLabel) refreshLabel.innerText = 'Syncing...';
+      }
+
+      let refreshed = false;
+
+      // 1. Try active live scrape endpoint if server is running
+      try {
+        const apiRes = await fetch('/api/refresh', { method: 'POST', cache: 'no-store' });
+        if (apiRes.ok) {
+          const apiData = await apiRes.json();
+          if (apiData && Array.isArray(apiData.campaigns) && apiData.campaigns.length > 0) {
+            rawCampaigns = apiData.campaigns;
+            window.CAMPAIGNS_DATA = apiData.campaigns;
+            processCampaignsDiff(rawCampaigns);
+            refreshed = true;
+          }
+        }
+      } catch (err) {}
+
+      // 2. Fallback to latest campaigns.json with timestamp bust
+      if (!refreshed) {
+        try {
+          const res = await fetch('/campaigns.json?t=' + Date.now(), { cache: 'no-store' });
+          if (res.ok) {
+            const freshData = await res.json();
+            if (Array.isArray(freshData) && freshData.length > 0) {
+              rawCampaigns = freshData;
+              window.CAMPAIGNS_DATA = freshData;
+              processCampaignsDiff(rawCampaigns);
+              refreshed = true;
+            }
+          }
+        } catch (e) {}
+      }
+
+      // 3. Fallback to global CAMPAIGNS_DATA if offline
+      if (!refreshed && Array.isArray(window.CAMPAIGNS_DATA) && window.CAMPAIGNS_DATA.length > 0) {
+        rawCampaigns = window.CAMPAIGNS_DATA;
+        processCampaignsDiff(rawCampaigns);
+      }
+
+      if (!isSilent) {
+        setTimeout(() => {
+          icons.forEach(i => i.classList.remove('spin-anim'));
+          const refreshLabel = document.querySelector('#headerRefreshBtn .refresh-label');
+          if (refreshLabel) refreshLabel.innerText = 'Synced ✓';
+          setTimeout(() => {
+            if (refreshLabel) refreshLabel.innerText = 'Sync';
+          }, 1800);
+        }, 600);
+
+        showToast(`⚡ Live Sync Complete! Tracking ${rawCampaigns.length} campaigns`);
+
+        if (currentTab === 'chat') {
+          addAssistantMessage(`🔄 **Live Database Synchronized!** Currently tracking **${rawCampaigns.length} live bounties** across TikTok, Reels, and Shorts.`);
+        }
+      }
+
+      updateDatasetCounters();
+      applyCampaignFilters();
+      applyRemovedFilters();
+    }
+
+    function updateDatasetCounters() {
+      const active = rawCampaigns.filter(c => {
+        const rem = (parseFloat(c.total) || 0) - (parseFloat(c.spent) || 0);
+        return rem > 0;
+      });
+      const activeCountElem = document.getElementById('tabCampaignCount');
+      if (activeCountElem) activeCountElem.innerText = active.length;
+
+      const removedCountElem = document.getElementById('tabRemovedCount');
+      if (removedCountElem) removedCountElem.innerText = (rawArchived || []).length;
+    }
+
+    // --- Tab 1: Comprehensive Campaign AI Intelligence Engine ---
+    function sendChatPrompt(text) {
+      document.getElementById('chatInput').value = text;
+      handleChatSend();
+    }
+
+    function formatMarkdownToHtml(md) {
+      if (!md) return '';
+      let html = md
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+
+      // Headers
+      html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+      html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+      html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+
+      // Bold & Italic
+      html = html.replace(/\*\*\*(.*?)\*\*\*/g, '<strong><em>$1</em></strong>');
+      html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+      // Inline code
+      html = html.replace(/`([^`]+)`/g, '<code style="background:rgba(255,255,255,0.08);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:12px;">$1</code>');
+
+      // Unordered lists
+      html = html.replace(/^\s*[\-\*]\s+(.*$)/gim, '<li>$1</li>');
+      html = html.replace(/(<li>[\s\S]*?<\/li>)/g, '<ul>$1</ul>');
+      html = html.replace(/<\/ul>\s*<ul>/g, '');
+
+      // Line breaks to paragraphs
+      const paragraphs = html.split(/\n\n+/);
+      html = paragraphs.map(p => {
+        p = p.trim();
+        if (!p) return '';
+        if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<div')) return p;
+        return `<p>${p.replace(/\n/g, '<br/>')}</p>`;
+      }).join('');
+
+      return html;
+    }
+
+    function extractRelevantCampaigns(query, replyText = '') {
+      if (!Array.isArray(rawCampaigns) || rawCampaigns.length === 0) return [];
+      
+      const q = (query || '').toLowerCase();
+      const reply = (replyText || '').toLowerCase();
+      
+      const matched = [];
+      const seenTitles = new Set();
+
+      function add(c) {
+        if (!c || !c.title) return;
+        const key = c.title.toLowerCase().trim();
+        if (!seenTitles.has(key)) {
+          seenTitles.add(key);
+          matched.push(c);
+        }
+      }
+
+      // 1. Direct title mentions in AI reply
+      for (const c of rawCampaigns) {
+        if (!c.title) continue;
+        const t = c.title.toLowerCase().trim();
+        const prefix = t.split(/[-–—:|]/)[0].trim();
+        if (prefix.length >= 3 && (reply.includes(t) || reply.includes(prefix))) {
+          add(c);
+        }
+      }
+
+      // 2. Direct title mentions in user query
+      for (const c of rawCampaigns) {
+        if (!c.title) continue;
+        const t = c.title.toLowerCase().trim();
+        const prefix = t.split(/[-–—:|]/)[0].trim();
+        if (prefix.length >= 3 && (q.includes(t) || q.includes(prefix))) {
+          add(c);
+        }
+      }
+
+      // 3. Fallback matching based on user query intent / keywords
+      const wantsNew = q.includes('new') || q.includes('fresh') || q.includes('latest') || q.includes('recent') || q.includes('camp') || q.includes('drop');
+      const wantsHighestCpm = q.includes('cpm') || q.includes('rate') || q.includes('highest pay') || q.includes('pay');
+      const wantsZeroSpent = q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent') || q.includes('unclaimed');
+      const wantsBudget = q.includes('budget') || q.includes('pool') || q.includes('largest') || q.includes('money');
+      const wantsMusic = q.includes('music') || q.includes('lyric') || q.includes('song');
+      const wantsPodcast = q.includes('podcast') || q.includes('stream');
+      const wantsAI = q.includes('ai') || q.includes('tech');
+      const wantsClipping = q.includes('clip');
+
+      if (matched.length === 0 || wantsNew || wantsHighestCpm || wantsZeroSpent || wantsBudget || wantsMusic || wantsPodcast || wantsAI || wantsClipping) {
+        const active = rawCampaigns.filter(c => {
+          const total = parseFloat(c.total) || 0;
+          const spent = parseFloat(c.spent) || 0;
+          return total === 0 || (total - spent) > 0;
+        });
+
+        if (wantsZeroSpent) {
+          active.filter(c => (parseFloat(c.spent) || 0) === 0).slice(0, 4).forEach(add);
+        } else if (wantsMusic) {
+          active.filter(c => (c.category || '').toLowerCase().includes('music') || (c.title || '').toLowerCase().includes('song') || (c.title || '').toLowerCase().includes('music')).slice(0, 4).forEach(add);
+        } else if (wantsPodcast) {
+          active.filter(c => (c.category || '').toLowerCase().includes('personal') || (c.description || '').toLowerCase().includes('podcast') || (c.description || '').toLowerCase().includes('stream')).slice(0, 4).forEach(add);
+        } else if (wantsAI) {
+          active.filter(c => (c.category || '').toLowerCase().includes('tech') || (c.description || '').toLowerCase().includes('ai') || (c.title || '').toLowerCase().includes('ai')).slice(0, 4).forEach(add);
+        } else if (wantsClipping) {
+          active.filter(c => (c.contentType || '').toLowerCase().includes('clipping') || (c.description || '').toLowerCase().includes('clip') || (c.title || '').toLowerCase().includes('clip')).slice(0, 4).forEach(add);
+        } else if (wantsHighestCpm) {
+          [...active].sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0)).slice(0, 4).forEach(add);
+        } else if (wantsBudget) {
+          [...active].sort((a, b) => {
+            const remA = Math.max(0, (parseFloat(a.total) || 0) - (parseFloat(a.spent) || 0));
+            const remB = Math.max(0, (parseFloat(b.total) || 0) - (parseFloat(b.spent) || 0));
+            return remB - remA;
+          }).slice(0, 4).forEach(add);
+        } else if (wantsNew) {
+          [...active].sort((a, b) => parseTimeScore(b) - parseTimeScore(a)).slice(0, 4).forEach(add);
+        } else {
+          const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or']);
+          const tokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 2 && !stopWords.has(t));
+          if (tokens.length > 0) {
+            active.filter(c => {
+              const full = `${c.title} ${c.description} ${c.agency} ${c.category} ${(c.platforms || []).join(' ')}`.toLowerCase();
+              return tokens.some(t => full.includes(t));
+            }).slice(0, 4).forEach(add);
+          }
+        }
+      }
+
+      return matched.slice(0, 5);
+    }
+
+    function getPointerPresetFromQuery(query) {
+      const q = (query || '').toLowerCase();
+      if (q.includes('removed') || q.includes('ended') || q.includes('deleted') || q.includes('archive') || q.includes('past')) return 'removed';
+      if (q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent')) return '0sub';
+      if (q.includes('music') || q.includes('song')) return 'music';
+      if (q.includes('podcast') || q.includes('stream')) return 'podcast';
+      if (q.includes('ai') || q.includes('tech')) return 'ai';
+      if (q.includes('cpm')) return 'highcpm';
+      if (q.includes('budget') || q.includes('pool')) return 'highbudget';
+      if (q.includes('clip')) return 'clipping';
+      return 'all';
+    }
+
+    function getContextualFollowUps(query, matchedCampaigns = []) {
+      if (matchedCampaigns && matchedCampaigns.length === 1 && matchedCampaigns[0].title) {
+        const title = matchedCampaigns[0].title.slice(0, 24);
+        return [
+          `What are the rules for ${title}?`,
+          `Where are the assets for ${title}?`,
+          `How much budget is left in ${title}?`,
+          'Highest CPM campaigns'
+        ];
+      }
+      return [
+        'Highest CPM campaigns',
+        'Show 0 submission drops',
+        'Music & lyric campaigns',
+        'How does Content Rewards work?'
+      ];
+    }
+
+    async function handleChatSend() {
+      const textarea = document.getElementById('chatInput');
+      const text = (textarea.value || '').trim();
+      if (!text) return;
+
+      const welcome = document.getElementById('chatWelcome');
+      if (welcome) welcome.style.display = 'none';
+
+      addUserMessage(text);
+      textarea.value = '';
+
+      // Add typing indicator
+      const thread = document.getElementById('chatThread');
+      const typingRow = document.createElement('div');
+      typingRow.id = 'aiTypingIndicator';
+      typingRow.className = 'message-row assistant';
+      typingRow.innerHTML = `
+        <div class="assistant-body">
+          <div class="ai-response-container" style="display:flex;align-items:center;gap:8px;color:var(--text-secondary);font-size:13px;">
+            <span style="display:inline-block;animation:spin 1s linear infinite;">✨</span>
+            <span>Gemini AI is analyzing live campaigns...</span>
+          </div>
+        </div>
+      `;
+      thread.appendChild(typingRow);
+      scrollChatToBottom();
+
+      try {
+        const res = await fetch('/api/ai_chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: text })
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.reply) {
+            const typingElem = document.getElementById('aiTypingIndicator');
+            if (typingElem) typingElem.remove();
+
+            // Extract matching campaign objects to render as interactive visual cards
+            let matchedCampaigns = (Array.isArray(data.campaigns) && data.campaigns.length > 0)
+              ? data.campaigns
+              : extractRelevantCampaigns(text, data.reply);
+
+            // Re-hydrate campaigns with full local properties
+            matchedCampaigns = matchedCampaigns.map(c => {
+              if (c && c.title && Array.isArray(rawCampaigns)) {
+                const fullObj = rawCampaigns.find(rc => rc.title && rc.title.toLowerCase().trim() === c.title.toLowerCase().trim());
+                if (fullObj) return { ...fullObj, ...c };
+              }
+              return c;
+            });
+
+            const parsedHtml = `<div class="ai-text-block">${formatMarkdownToHtml(data.reply)}</div>`;
+            return addAssistantRichMessage({
+              html: parsedHtml,
+              campaigns: matchedCampaigns,
+              matchCount: matchedCampaigns.length > 0 ? (rawCampaigns.length) : 0,
+              pointerPreset: getPointerPresetFromQuery(text),
+              followUps: getContextualFollowUps(text, matchedCampaigns)
+            });
+          }
+        }
+      } catch (err) {
+        console.warn('AI Server API unavailable, using high-speed local engine:', err);
+      }
+
+      // Fallback to local intelligence engine
+      const typingElem = document.getElementById('aiTypingIndicator');
+      if (typingElem) typingElem.remove();
+      generateIntelligentAnswer(text);
+    }
+
+    function addUserMessage(text) {
+      const thread = document.getElementById('chatThread');
+      const row = document.createElement('div');
+      row.className = 'message-row user';
+      row.innerHTML = `<div class="user-bubble">${escapeHtml(text)}</div>`;
+      thread.appendChild(row);
+      scrollChatToBottom();
+    }
+
+    function parseTimeScore(item) {
+      if (item.sortTimestamp) return item.sortTimestamp;
+      if (item.fundedAt) {
+        const t = new Date(item.fundedAt).getTime();
+        if (!isNaN(t)) return t;
+      }
+      return 0;
+    }
+
+    // Comprehensive Knowledge Engine & Answer Generator
+    function generateIntelligentAnswer(query) {
+      const rawQ = query.trim();
+      const q = rawQ.toLowerCase();
+
+      // 1. Check for Educational / General How-To queries
+      if (q.includes('how does content rewards work') || q.includes('how it works') || q.includes('what is content rewards') || q.includes('how does this work')) {
+        const guideHtml = `
+          <div class="ai-text-block">
+            <p><strong>Content Rewards</strong> is a performance-based creator monetization platform where brands and agencies pay you directly for posting short-form clips (TikTok, Instagram Reels, YouTube Shorts, and X).</p>
+            <h3>⚡ How the Payout Cycle Works:</h3>
+            <ul>
+              <li><strong>1. Pick a Campaign:</strong> Browse active pools with budget remaining. Check CPM rates and content rules.</li>
+              <li><strong>2. Create & Post Content:</strong> Clip moments from provided Google Drive folders/streams or create original UGC following guidelines.</li>
+              <li><strong>3. Submit Video Link:</strong> Submit your live post URL through Whop.</li>
+              <li><strong>4. Get Paid per 1,000 Views:</strong> Track views and earnings. Payouts are credited directly to your connected Whop balance.</li>
+            </ul>
+          </div>
+        `;
+        return addAssistantRichMessage({
+          html: guideHtml,
+          followUps: ['Show highest CPM campaigns', 'Show 0 submission drops', 'Latest clipping campaigns']
+        });
+      }
+
+      if (q.includes('what is cpm') || q.includes('how is cpm calculated') || q.includes('cpm meaning')) {
+        const cpmHtml = `
+          <div class="ai-text-block">
+            <p><strong>CPM</strong> stands for <em>Cost Per Mille</em> (Cost Per 1,000 Verified Views). It defines exactly how much money you earn for every thousand views your submitted clip accumulates.</p>
+            <h3>💵 Earnings Calculator Examples:</h3>
+            <ul>
+              <li><strong>$1.00 CPM:</strong> 10,000 views = <strong>$10.00</strong> | 100,000 views = <strong>$100.00</strong></li>
+              <li><strong>$2.00 CPM:</strong> 10,000 views = <strong>$20.00</strong> | 100,000 views = <strong>$200.00</strong></li>
+              <li><strong>$3.50 CPM:</strong> 10,000 views = <strong>$35.00</strong> | 100,000 views = <strong>$350.00</strong></li>
+            </ul>
+            <p>Your payout continues increasing with views until the campaign's overall reward pool is exhausted.</p>
+          </div>
+        `;
+        return addAssistantRichMessage({
+          html: cpmHtml,
+          followUps: ['Show campaigns with CPM $2+', 'Campaigns with highest budget', '0 submissions']
+        });
+      }
+
+      if (q.includes('avoid rejection') || q.includes('rejection') || q.includes('tips') || q.includes('best practices') || q.includes('how to get views')) {
+        const tipsHtml = `
+          <div class="ai-text-block">
+            <p>Here are the top insider rules to guarantee your submissions get approved and maximize your view payouts:</p>
+            <h3>🚀 Best Practices for 100% Acceptance:</h3>
+            <ul>
+              <li><strong>Check Requirements Carefully:</strong> If the brief requires a specific tag, hashtag, pinned comment, or audio track, ensure it is present in the first 3 seconds or caption.</li>
+              <li><strong>High-Retention Editing:</strong> Add dynamic subtitles, zoom cuts, sound effects, and clean 9:16 vertical framing (1080x1920).</li>
+              <li><strong>No Stale Reposts:</strong> Avoid reposting untouched clips that already have millions of views unless you provide a transformative edit.</li>
+              <li><strong>Target Fresh Pools ($0 Spent):</strong> Newly launched pools have maximum unclaimed budget and lower competition.</li>
+            </ul>
+          </div>
+        `;
+        return addAssistantRichMessage({
+          html: tipsHtml,
+          followUps: ['Show 0 submission drops', 'Latest clipping pools', 'Music & lyric campaigns']
+        });
+      }
+
+      // 2. Multi-intent classification
+      const isCompare = q.includes(' vs ') || q.includes('compare') || q.includes('difference between');
+      const wantsDocs = q.includes('drive') || q.includes('doc') || q.includes('asset') || q.includes('b-roll') || q.includes('footage') || q.includes('link') || q.includes('folder') || q.includes('notion') || q.includes('audio');
+      const wantsRules = q.includes('rule') || q.includes('requirement') || q.includes('guideline') || q.includes('restriction') || q.includes('hashtag') || q.includes('watermark') || q.includes('allowed') || q.includes('tag');
+      const wantsBudget = q.includes('budget') || q.includes('fund') || q.includes('pool') || q.includes('money left') || q.includes('how much left');
+      const wantsCpm = q.includes('cpm') || q.includes('rate') || q.includes('pay') || q.includes('payout') || q.includes('how much does it pay');
+      const wantsPlatforms = q.includes('platform') || q.includes('tiktok') || q.includes('reels') || q.includes('instagram') || q.includes('youtube') || q.includes('shorts') || q.includes(' x ') || q.includes('twitter');
+      const wantsZeroSpent = q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent') || q.includes('zero spent') || q.includes('fresh') || q.includes('unclaimed');
+      const wantsClipping = q.includes('clip') || q.includes('clipping');
+      const wantsUGC = q.includes('ugc');
+      const wantsMusic = q.includes('music') || q.includes('lyric') || q.includes('song') || q.includes('sound');
+      const wantsPodcast = q.includes('podcast') || q.includes('talk') || q.includes('interview');
+      const wantsStreamer = q.includes('streamer') || q.includes('stream') || q.includes('twitch') || q.includes('kick');
+      const wantsAI = q.includes('ai') || q.includes('tech') || q.includes('saas') || q.includes('software') || q.includes('app');
+      const wantsRemoved = q.includes('removed') || q.includes('ended') || q.includes('deleted') || q.includes('archive') || q.includes('past camp') || q.includes('closed');
+
+      // Check if user specifically requested historical removed / ended campaigns
+      if (wantsRemoved) {
+        const sampleArchived = (rawArchived || []).slice(0, 4);
+        const removedHtml = `
+          <div class="ai-text-block">
+            <p>Here are campaigns that were previously active on Content Rewards but have <strong>ended, reached 100% budget completion, or were removed</strong> from the live discover feed:</p>
+            <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">
+              🛑 Tracking <strong>${(rawArchived || []).length} historical ended campaigns</strong> in your archive ledger. Source briefs, guidelines, and previous assets remain available for reference.
+            </p>
+          </div>
+        `;
+        return addAssistantRichMessage({
+          html: removedHtml,
+          campaigns: sampleArchived,
+          matchCount: (rawArchived || []).length,
+          pointerPreset: 'removed',
+          followUps: ['Show live clipping campaigns', 'Show 0 submission drops', 'Show highest CPM campaigns']
+        });
+      }
+
+      // 3. Campaign Search & Scoring Engine
+      const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or']);
+      const queryTokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
+
+      const scoredList = [];
+
+      for (const c of rawCampaigns) {
+        const total = parseFloat(c.total) || 0;
+        const spent = parseFloat(c.spent) || 0;
+        const rem = Math.max(0, total - spent);
+        const title = (c.title || '').toLowerCase();
+        const desc = (c.description || '').toLowerCase();
+        const agency = (c.agency || '').toLowerCase();
+        const cat = (c.category || '').toLowerCase();
+        const type = (c.contentType || '').toLowerCase();
+        const platforms = (c.platforms || []).map(p => String(p).toLowerCase());
+        const fullText = `${title} ${desc} ${agency} ${cat} ${type} ${platforms.join(' ')}`;
+
+        let score = 0;
+
+        // Exact Phrase Match in Title (Massive boost)
+        const cleanRawQ = q.replace(/^(what is|tell me about|info on|brief for|rules for|requirements for|docs for|drive for|link for|cpm for|budget for)\s+/i, '').trim();
+        if (cleanRawQ.length > 2 && title.includes(cleanRawQ)) {
+          score += 150;
+        }
+
+        // Token matches
+        let tokenMatches = 0;
+        for (const tok of queryTokens) {
+          if (title.includes(tok)) { score += 40; tokenMatches++; }
+          else if (agency.includes(tok)) { score += 25; tokenMatches++; }
+          else if (cat.includes(tok) || type.includes(tok)) { score += 15; tokenMatches++; }
+          else if (desc.includes(tok)) { score += 10; tokenMatches++; }
+          else if (fullText.includes(tok)) { score += 5; tokenMatches++; }
+        }
+
+        // Category/Type Boosts
+        if (wantsZeroSpent && spent === 0) score += 35;
+        if (wantsClipping && (type.includes('clipping') || desc.includes('clip') || title.includes('clip'))) score += 20;
+        if (wantsUGC && (type.includes('ugc') || desc.includes('ugc'))) score += 20;
+        if (wantsMusic && (cat.includes('music') || desc.includes('music') || title.includes('song') || desc.includes('audio') || title.includes('lyric'))) score += 25;
+        if ((wantsPodcast || wantsStreamer) && (cat.includes('personal') || desc.includes('podcast') || desc.includes('stream') || title.includes('podcast'))) score += 25;
+        if (wantsAI && (cat.includes('tech') || desc.includes('ai') || title.includes('ai') || desc.includes('app'))) score += 25;
+
+        // Active pool bonus
+        if (rem > 0) score += 5;
+
+        const ageScore = parseTimeScore(c);
+        if (score > 0 || queryTokens.length === 0) {
+          scoredList.push({ campaign: c, score, ageScore, rem, cpm: parseFloat(c.cpm) || 0 });
+        }
+      }
+
+      // Check sorting intent
+      const wantsHighestCpm = q.includes('highest cpm') || q.includes('top cpm') || q.includes('high cpm') || q.includes('best pay') || q.includes('highest pay');
+      const wantsHighestBudget = q.includes('highest budget') || q.includes('largest budget') || q.includes('most budget') || q.includes('biggest pool') || q.includes('largest pool');
+
+      if (wantsHighestCpm) {
+        scoredList.sort((a, b) => b.cpm - a.cpm || b.rem - a.rem);
+      } else if (wantsHighestBudget) {
+        scoredList.sort((a, b) => b.rem - a.rem || b.cpm - a.cpm);
+      } else {
+        scoredList.sort((a, b) => {
+          if (b.score !== a.score) return b.score - a.score;
+          return b.ageScore - a.ageScore;
+        });
+      }
+
+      const matches = scoredList.map(item => item.campaign);
+
+      if (matches.length === 0) {
+        return addAssistantRichMessage({
+          html: `
+            <div class="ai-text-block">
+              <p>I couldn't find any active campaigns matching <strong>"${escapeHtml(rawQ)}"</strong>.</p>
+              <p>Try searching by broad keyword (e.g. <em>"music"</em>, <em>"podcast"</em>, <em>"clipping"</em>, <em>"0 submissions"</em>) or check out the suggested prompts below.</p>
+            </div>
+          `,
+          followUps: ['0 submissions drops', 'Highest CPM campaigns', 'Latest clipping campaigns', 'Music & lyrics']
+        });
+      }
+
+      // 4. Handle Specific Single Campaign Inquiries (Deep Dive Answer)
+      const topMatch = matches[0];
+      const hasStrongSingleMatch = scoredList[0].score >= 35 || queryTokens.length <= 3 && matches.length > 0 && !wantsHighestCpm && !wantsHighestBudget && !wantsZeroSpent;
+
+      // Extract all intelligence about top match
+      const total = parseFloat(topMatch.total) || 0;
+      const spent = parseFloat(topMatch.spent) || 0;
+      const rem = Math.max(0, total - spent);
+      const pctLeft = total > 0 ? Math.round((rem / total) * 100) : 0;
+      const cpmStr = topMatch.cpm ? `$${topMatch.cpm.toFixed(2)}/1K` : '$1.00/1K';
+      const platformsStr = (topMatch.platforms || []).map(p => {
+        if (p === 'tiktok') return '🎵 TikTok';
+        if (p === 'instagram') return '📸 Instagram Reels';
+        if (p === 'youtube') return '▶ YouTube Shorts';
+        if (p === 'x') return '✖ X (Twitter)';
+        return p;
+      }).join(' • ') || '🎵 TikTok • 📸 Instagram Reels • ▶ YouTube Shorts';
+
+      const directDocs = extractDocumentsAndLinks(topMatch.description);
+      const reqList = Array.isArray(topMatch.requirements) && topMatch.requirements.length > 0 ? topMatch.requirements : [];
+
+      // If user is asking specifically about rules, assets, budget, or CPM of a campaign:
+      if (hasStrongSingleMatch && (wantsRules || wantsDocs || wantsBudget || wantsCpm || wantsPlatforms || cleanQueryLooksLikeTitle(q, topMatch.title))) {
+        let specificAnswerHtml = '';
+
+        if (wantsRules) {
+          specificAnswerHtml = `
+            <div class="ai-text-block">
+              <p>Here are the complete guidelines and rules for <strong>${escapeHtml(topMatch.title)}</strong> by <em>${escapeHtml(topMatch.agency || 'Agency')}</em>:</p>
+              <h3>📋 Requirements & Verification Checklist:</h3>
+              <ul>
+                ${reqList.length > 0 ? reqList.map(r => `<li>✓ ${escapeHtml(r)}</li>`).join('') : `<li>Follow standard creative guidelines in the brief. Ensure high visual quality and accurate tags.</li>`}
+              </ul>
+              <h3>📝 Campaign Brief Guidelines:</h3>
+              <p>${escapeHtml(topMatch.description || 'No additional guidelines specified.')}</p>
+            </div>
+          `;
+        } else if (wantsDocs) {
+          specificAnswerHtml = `
+            <div class="ai-text-block">
+              <p>Here are the attached official assets and source documents for <strong>${escapeHtml(topMatch.title)}</strong>:</p>
+              ${directDocs.length > 0 ? `
+                <div class="ai-docs-container" style="margin: 10px 0;">
+                  ${directDocs.map(d => `<a href="${d.url}" target="_blank" class="ai-doc-chip">${d.icon} ${escapeHtml(d.name)} ↗</a>`).join('')}
+                </div>
+              ` : `<p style="color: var(--text-muted);"><em>No external cloud links listed directly in the brief text. Click "View Brief & Documents" below to check internal resources.</em></p>`}
+              <h3>🎯 Allowed Platforms:</h3>
+              <p>${platformsStr}</p>
+            </div>
+          `;
+        } else if (wantsBudget || wantsCpm) {
+          specificAnswerHtml = `
+            <div class="ai-text-block">
+              <p>Financial details for <strong>${escapeHtml(topMatch.title)}</strong>:</p>
+              <ul>
+                <li><strong>Payout Rate (CPM):</strong> <span style="color:#00f2fe;font-weight:700;">${cpmStr}</span> views</li>
+                <li><strong>Remaining Budget Pool:</strong> <span style="color:#facc15;font-weight:700;">$${rem.toLocaleString()}</span> left (${pctLeft}% of $${total.toLocaleString()} total fund)</li>
+                <li><strong>Total Spent So Far:</strong> $${spent.toLocaleString()}</li>
+                <li><strong>Submissions Count:</strong> ${topMatch.count || 'Open'} clips submitted</li>
+                <li><strong>Pool Status:</strong> ${rem > 0 ? '<span style="color:#34d399;font-weight:600;">Active & Claimable</span>' : '<span style="color:#ef4444;font-weight:600;">Pool Exhausted</span>'}</li>
+              </ul>
+            </div>
+          `;
+        } else {
+          specificAnswerHtml = `
+            <div class="ai-text-block">
+              <p>Here is everything you need to know about <strong>${escapeHtml(topMatch.title)}</strong>:</p>
+              <h3>📝 Overview & Concept:</h3>
+              <p>${escapeHtml(topMatch.description || 'No description provided.')}</p>
+              <h3>💰 Payout & Platforms:</h3>
+              <ul>
+                <li><strong>CPM Rate:</strong> ${cpmStr}</li>
+                <li><strong>Available Reward Pool:</strong> $${rem.toLocaleString()} remaining (${pctLeft}% left)</li>
+                <li><strong>Allowed Platforms:</strong> ${platformsStr}</li>
+                <li><strong>Category / Content:</strong> ${escapeHtml(topMatch.category || 'General')} • ${escapeHtml(topMatch.contentType || 'Clipping')}</li>
+              </ul>
+            </div>
+          `;
+        }
+
+        return addAssistantRichMessage({
+          html: specificAnswerHtml,
+          campaigns: [topMatch],
+          followUps: [
+            `What are the rules for ${topMatch.title.slice(0, 20)}?`,
+            `Where are the assets for ${topMatch.title.slice(0, 20)}?`,
+            `How much budget is left in ${topMatch.title.slice(0, 20)}?`,
+            'Show highest CPM campaigns'
+          ]
+        });
+      }
+
+      // 5. Multi-Campaign Intelligence Summary (Rankings / Filters / Categories)
+      let summaryHeadline = '';
+      let presetFilter = 'all';
+
+      if (wantsHighestCpm) {
+        summaryHeadline = `Here are the <strong>highest CPM payout campaigns ($2.00+ / 1K views)</strong> currently active:`;
+        presetFilter = 'highcpm';
+      } else if (wantsZeroSpent) {
+        summaryHeadline = `Found <strong>${matches.length} fresh campaigns with $0 spent (0 submissions)</strong> — maximum unclaimed budget available:`;
+        presetFilter = '0sub';
+      } else if (wantsHighestBudget) {
+        summaryHeadline = `Here are the campaigns with the <strong>largest remaining reward pools</strong>:`;
+        presetFilter = 'highbudget';
+      } else if (wantsMusic) {
+        summaryHeadline = `Found <strong>${matches.length} active Music & Lyric clipping campaigns</strong>:`;
+        presetFilter = 'music';
+      } else if (wantsPodcast || wantsStreamer) {
+        summaryHeadline = `Found <strong>${matches.length} Podcast & Streamer clipping campaigns</strong>:`;
+        presetFilter = 'podcast';
+      } else if (wantsAI) {
+        summaryHeadline = `Found <strong>${matches.length} AI & Technology creator campaigns</strong>:`;
+        presetFilter = 'ai';
+      } else if (wantsClipping) {
+        summaryHeadline = `Found <strong>${matches.length} active Clipping pools</strong>:`;
+        presetFilter = 'clipping';
+      } else {
+        summaryHeadline = `Found <strong>${matches.length} campaigns</strong> matching <em>"${escapeHtml(rawQ)}"</em>:`;
+      }
+
+      const totalPoolSum = matches.reduce((acc, c) => acc + Math.max(0, (parseFloat(c.total) || 0) - (parseFloat(c.spent) || 0)), 0);
+      const avgRate = (matches.reduce((acc, c) => acc + (parseFloat(c.cpm) || 0), 0) / matches.length).toFixed(2);
+
+      const multiHtml = `
+        <div class="ai-text-block">
+          <p>${summaryHeadline}</p>
+          <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">
+            📊 <strong>${matches.length} pools</strong> • Total Remaining Fund: <strong>$${Math.round(totalPoolSum).toLocaleString()}</strong> • Average CPM: <strong>$${avgRate}/1K</strong>
+          </p>
+        </div>
+      `;
+
+      return addAssistantRichMessage({
+        html: multiHtml,
+        campaigns: matches.slice(0, 3), // Embed top 3 cards directly in chat
+        matchCount: matches.length,
+        pointerPreset: presetFilter,
+        followUps: [
+          'Show 0 submission drops',
+          'Highest CPM campaigns',
+          'Music & lyrics',
+          'How does Content Rewards work?'
+        ]
+      });
+    }
+
+    function cleanQueryLooksLikeTitle(query, title) {
+      const qClean = query.toLowerCase().replace(/[^a-z0-9]/g, '');
+      const tClean = title.toLowerCase().replace(/[^a-z0-9]/g, '');
+      return tClean.includes(qClean) || qClean.includes(tClean);
+    }
+
+    // --- Section 2.5: Authentic Whop & Community URL Resolver ---
+    function getWhopCampaignUrl(c) {
+      if (!c) return 'https://contentrewards.com/discover';
+
+      // 1. Direct whopUrl or whop_url or whopProductRoute or whop_route
+      if (c.whopUrl && typeof c.whopUrl === 'string' && c.whopUrl.startsWith('http')) {
+        return c.whopUrl;
+      }
+      if (c.whop_url && typeof c.whop_url === 'string' && c.whop_url.startsWith('http')) {
+        return c.whop_url;
+      }
+      const route = c.whopProductRoute || c.whop_route || c.whopRoute || c.slug;
+      if (route && typeof route === 'string' && route.trim().length > 0) {
+        const cleanRoute = route.trim().replace(/^https?:\/\/(?:www\.)?whop\.com\//, '').replace(/^\//, '');
+        return `https://whop.com/${cleanRoute}`;
+      }
+
+      // 2. Check if attached resources contain a Whop community link
+      if (Array.isArray(c.resources)) {
+        for (const r of c.resources) {
+          if (r && r.url && typeof r.url === 'string' && r.url.toLowerCase().includes('whop.com')) {
+            return r.url;
+          }
+        }
+      }
+
+      // 3. Check if brief description has an embedded Whop community/pass link
+      if (c.description && typeof c.description === 'string') {
+        const whopMatch = c.description.match(/https?:\/\/(?:www\.)?whop\.com\/[^\s"'<>\)]+/i);
+        if (whopMatch) {
+          return whopMatch[0].replace(/[.,;:]$/, '');
+        }
+      }
+
+      // 4. If c.url itself points to Whop
+      if (c.url && typeof c.url === 'string' && c.url.toLowerCase().includes('whop.com')) {
+        return c.url;
+      }
+
+      // 5. Intelligent Fallback: Direct Whop search for the agency / group / bounty title
+      const searchTerm = (c.agency && c.agency !== 'Independent Agency' ? c.agency : c.title) || '';
+      if (searchTerm) {
+        return `https://whop.com/search/?query=${encodeURIComponent(searchTerm.trim())}`;
+      }
+
+      return 'https://contentrewards.com/discover';
+    }
+
+    function calculateBurnMetrics(c) {
+      const total = parseFloat(c.total) || 0;
+      const spent = parseFloat(c.spent) || 0;
+      const remaining = Math.max(0, total - spent);
+      const pctDepleted = total > 0 ? Math.min(100, Math.max(0, (spent / total) * 100)) : 0;
+      const pctRemaining = Math.max(0, 100 - pctDepleted);
+
+      const subsCount = c.creators || (c.count ? parseInt(String(c.count).replace(/[^0-9]/g, ''), 10) : 0) || 0;
+
+      // Parse time elapsed in hours with high accuracy
+      let ageHours = 24; // default 1 day fallback
+      if (c.fundedAt) {
+        const ms = Date.now() - new Date(c.fundedAt).getTime();
+        if (!isNaN(ms) && ms > 0) {
+          ageHours = Math.max(0.5, ms / (1000 * 60 * 60));
+        }
+      } else if (c.age) {
+        const mDays = String(c.age).match(/(\d+)\s*d/i);
+        const mHours = String(c.age).match(/(\d+)\s*h/i);
+        const mMins = String(c.age).match(/(\d+)\s*m/i);
+        let parsed = 0;
+        if (mDays) parsed += parseInt(mDays[1], 10) * 24;
+        if (mHours) parsed += parseInt(mHours[1], 10);
+        if (mMins) parsed += parseInt(mMins[1], 10) / 60;
+        if (parsed > 0) ageHours = Math.max(0.5, parsed);
+      }
+
+      // Base historical linear burn
+      const baseBurnPerHour = (spent > 0 && ageHours > 0) ? (spent / ageHours) : 0;
+
+      // Creator Velocity & Momentum Modeling:
+      // Content bounties lag 48-72h for views to mature. High creator density accelerates forward spend.
+      const ageDays = ageHours / 24;
+      const creatorsPerDay = (subsCount > 0 && ageDays > 0) ? (subsCount / ageDays) : 0;
+
+      let velocityMultiplier = 1.0;
+      if (subsCount > 0 && spent > 0) {
+        if (creatorsPerDay >= 100 || subsCount > 500) {
+          velocityMultiplier = 1.85; // High virality / rapid creator influx
+        } else if (creatorsPerDay >= 35 || subsCount > 150) {
+          velocityMultiplier = 1.45; // Moderate momentum
+        } else if (creatorsPerDay >= 10 || subsCount > 30) {
+          velocityMultiplier = 1.20; // Steady active participation
+        }
+      }
+
+      const effectiveBurnPerHour = baseBurnPerHour * velocityMultiplier;
+      const effectiveDailyBurn = effectiveBurnPerHour * 24;
+
+      let exhaustionLabel = '';
+      let urgencyLevel = 'steady'; // 'critical' | 'fast' | 'steady' | 'fresh' | 'depleted'
+      let estimatedHoursLeft = 0;
+
+      if (remaining <= 0) {
+        exhaustionLabel = '100% Burned (Pool Empty)';
+        urgencyLevel = 'depleted';
+      } else if (spent === 0) {
+        exhaustionLabel = '⚡ Fresh Drop • 0% Burned (Max Runway)';
+        urgencyLevel = 'fresh';
+      } else if (effectiveBurnPerHour > 0) {
+        estimatedHoursLeft = remaining / effectiveBurnPerHour;
+        if (estimatedHoursLeft < 1) {
+          exhaustionLabel = `🔥 Drains in < 1h (${pctDepleted.toFixed(0)}% gone)`;
+          urgencyLevel = 'critical';
+        } else if (estimatedHoursLeft < 24) {
+          const hrs = Math.max(1, Math.round(estimatedHoursLeft));
+          exhaustionLabel = `🔥 Exhausts in ~${hrs}h (${pctDepleted.toFixed(0)}% gone)`;
+          urgencyLevel = 'critical';
+        } else if (estimatedHoursLeft < 72) {
+          const days = (estimatedHoursLeft / 24).toFixed(1);
+          exhaustionLabel = `⚡ Drains in ~${days}d (${pctDepleted.toFixed(0)}% gone)`;
+          urgencyLevel = 'fast';
+        } else {
+          const daysLeft = Math.round(estimatedHoursLeft / 24);
+          if (daysLeft <= 7) {
+            exhaustionLabel = `⚡ ~${daysLeft}d runway (${pctDepleted.toFixed(0)}% burned)`;
+            urgencyLevel = 'fast';
+          } else {
+            exhaustionLabel = `🟢 ~${daysLeft}d runway (${pctDepleted.toFixed(0)}% burned)`;
+            urgencyLevel = 'steady';
+          }
+        }
+      } else {
+        exhaustionLabel = `${pctDepleted.toFixed(0)}% Burned`;
+        urgencyLevel = 'steady';
+      }
+
+      return {
+        total,
+        spent,
+        remaining,
+        pctDepleted,
+        pctRemaining,
+        burnPerHour: effectiveBurnPerHour,
+        baseBurnPerHour,
+        dailyBurn: effectiveDailyBurn,
+        estimatedHoursLeft,
+        exhaustionLabel,
+        urgencyLevel,
+        submissions: subsCount,
+        creatorsPerDay: Math.round(creatorsPerDay),
+        velocityMultiplier
+      };
+    }
+
+    function getOptimizedImageUrl(rawUrl, width = 480) {
+      if (!rawUrl || typeof rawUrl !== 'string') return '';
+      if (rawUrl.startsWith('data:')) return rawUrl;
+      if (rawUrl.startsWith('http')) {
+        return `https://wsrv.nl/?url=${encodeURIComponent(rawUrl)}&w=${width}&q=78&output=webp`;
+      }
+      return rawUrl;
+    }
+
+    function getOptimizedAvatarUrl(rawUrl) {
+      if (!rawUrl || typeof rawUrl !== 'string') return '';
+      if (rawUrl.startsWith('data:')) return rawUrl;
+      if (rawUrl.startsWith('http')) {
+        return `https://wsrv.nl/?url=${encodeURIComponent(rawUrl)}&w=64&h=64&fit=cover&q=80&output=webp`;
+      }
+      return rawUrl;
+    }
+
+    function getDefaultThumbnailSvg(title, category, agency) {
+      const cat = (category || 'CLIPPING').toUpperCase().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const safeTitle = (title || 'CREATOR CAMPAIGN').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').slice(0, 42);
+      const safeAgency = (agency || 'Content Rewards').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').slice(0, 30);
+      
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+        <defs>
+          <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0b0d14"/>
+            <stop offset="60%" stop-color="#141724"/>
+            <stop offset="100%" stop-color="#042233"/>
+          </linearGradient>
+          <radialGradient id="neon" cx="85%" cy="15%" r="70%">
+            <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.3"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect width="600" height="340" fill="url(#bg)"/>
+        <rect width="600" height="340" fill="url(#neon)"/>
+        <circle cx="530" cy="50" r="110" fill="#FF6243" fill-opacity="0.14"/>
+        <text x="32" y="60" fill="#00E5FF" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">${cat}</text>
+        <text x="32" y="145" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="24" font-weight="800">${safeTitle}</text>
+        <text x="32" y="275" fill="#94A3B8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" font-weight="600">${safeAgency}</text>
+      </svg>`;
+      return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+    }
+
+    function handleThumbError(img) {
+      if (!img) return;
+      const rawUrl = img.getAttribute('data-raw') || '';
+      if (!img.dataset.triedRaw && rawUrl && rawUrl.startsWith('http') && img.src !== rawUrl) {
+        img.dataset.triedRaw = 'true';
+        img.src = rawUrl;
+        return;
+      }
+      if (!img.dataset.hasFallback) {
+        img.dataset.hasFallback = 'true';
+        const t = img.getAttribute('data-title') || '';
+        const c = img.getAttribute('data-cat') || '';
+        const a = img.getAttribute('data-agency') || '';
+        img.src = getDefaultThumbnailSvg(t, c, a);
+      }
+    }
+
+    function handleAvatarError(img) {
+      if (!img) return;
+      const rawUrl = img.getAttribute('data-raw') || '';
+      if (!img.dataset.triedRaw && rawUrl && rawUrl.startsWith('http') && img.src !== rawUrl) {
+        img.dataset.triedRaw = 'true';
+        img.src = rawUrl;
+        return;
+      }
+      img.style.display = 'none';
+    }
+
+    function getLiveRelativeAge(c) {
+      if (!c) return 'Recent';
+      const rawAge = c.age || c.formattedAge || '';
+      if (!rawAge) return 'Recent';
+      const s = String(rawAge).trim().toLowerCase();
+      if (s.includes('ago')) return rawAge;
+      
+      const mMatch = s.match(/^(\d+)\s*m$/);
+      if (mMatch) return `${mMatch[1]}m ago`;
+      
+      const hMatch = s.match(/^(\d+)\s*h$/);
+      if (hMatch) return `${hMatch[1]}h ago`;
+      
+      const dMatch = s.match(/^(\d+)\s*d$/);
+      if (dMatch) {
+        const d = parseInt(dMatch[1], 10);
+        if (d === 1) return `1d ago`;
+        if (d >= 7 && d % 7 === 0) return `${d / 7}w ago`;
+        return `${d}d ago`;
+      }
+      
+      const wMatch = s.match(/^(\d+)\s*w$/);
+      if (wMatch) return `${wMatch[1]}w ago`;
+      
+      const moMatch = s.match(/^(\d+)\s*mo$/);
+      if (moMatch) return `${moMatch[1]}mo ago`;
+      
+      return `${rawAge} ago`;
+    }
+
+    function checkDedicatedRequirement(c) {
+      if (!c) return false;
+      const text = `${c.title || ''} ${c.description || ''} ${c.agency || ''} ${c.category || ''}`.toLowerCase();
+      const title = (c.title || '').toLowerCase();
+      const type = (c.contentType || '').toLowerCase();
+      const cat = (c.category || '').toLowerCase();
+      const agency = (c.agency || '').toLowerCase();
+
+      // Music sound promos and face-showing UGC are not dedicated fan pages
+      if (cat.includes('music') && (text.includes('sound') || text.includes('song promo') || text.includes('audio') || text.includes('everything allowed'))) return false;
+      if (text.includes('show your face') || text.includes('talking head')) return false;
+
+      const isNegated = text.includes('no dedicated') || text.includes('not need a dedicated') || text.includes('without a dedicated') || text.includes("doesn't need a dedicated") || text.includes('no fan page needed');
+      if (isNegated) return false;
+
+      const triggers = [
+        'dedicated account', 'dedicated page', 'dedicated fanpage', 'dedicated fan page',
+        'dedicated brand page', 'dedicated themed', 'dedicated theme', 'dedicated tiktok',
+        'dedicated instagram', 'build a dedicated', 'create a dedicated', 'fan page required',
+        'fanpage required', 'brand page required', 'themed page required', 'dedicated channel'
+      ];
+      for (const t of triggers) {
+        if (text.includes(t)) return true;
+      }
+
+      // Streamer, Personality, Podcast, or Clip Agency clipping patterns
+      const isStreamerClipping = (type === 'clipping' || text.includes('clip')) && (
+        cat.includes('personal') || agency.includes('clips') || agency.includes('clip') ||
+        agency.includes('ship') || agency.includes('farm') || agency.includes('house') ||
+        text.includes('streamer') || text.includes('stream') || text.includes('podcast') ||
+        text.includes('highlights') || text.includes('ripping pack') || text.includes('edits') ||
+        title.includes('clipping') || title.includes('clips') || text.includes('fan ') || text.includes('fanatics')
+      );
+
+      return isStreamerClipping;
+    }
+
+    function checkPersonalBrand(c) {
+      if (!c) return false;
+      const text = `${c.title || ''} ${c.description || ''}`.toLowerCase();
+      const type = (c.contentType || '').toLowerCase();
+      
+      const isFaceOrVoice = text.includes('show your face') || text.includes('talking head') || 
+        text.includes('must speak') || text.includes('record yourself') || 
+        text.includes('camera presence') || text.includes('your own voice') || 
+        text.includes('creator video') || text.includes('review') || text.includes('testimonial');
+
+      if (isFaceOrVoice) return true;
+      if (type === 'ugc' && !text.includes('faceless') && !text.includes('clipping') && !text.includes('clip')) return true;
+      return false;
+    }
+
+    function checkSportsAndCards(c) {
+      if (!c) return false;
+      const text = `${c.title || ''} ${c.description || ''} ${c.agency || ''} ${c.category || ''}`.toLowerCase();
+      const kw = ['topps', 'card', 'cards', 'trading card', 'baseball', 'nba', 'ufc', 'football', 'soccer', 'sports', 'athlete', 'fanatics', 'box rip', 'pack rip', 'pull', 'hoops', 'wnba', 'wwe', 'golf', 'nhl', 'rugby', 'cricket'];
+      return kw.some(k => text.includes(k));
+    }
+
+    function checkGaming(c) {
+      if (!c) return false;
+      const text = `${c.title || ''} ${c.description || ''} ${c.agency || ''} ${c.category || ''}`.toLowerCase();
+      const kw = ['gaming', 'game', 'fortnite', 'roblox', 'minecraft', 'gta', 'esports', 'streamer', 'twitch', 'clash', 'valorant', 'call of duty', 'league', 'zelda', 'pokemon', 'genshin', 'steam', 'playstation', 'xbox', 'one state'];
+      return kw.some(k => text.includes(k));
+    }
+
+    function checkCryptoFinance(c) {
+      if (!c) return false;
+      const text = `${c.title || ''} ${c.description || ''} ${c.agency || ''} ${c.category || ''}`.toLowerCase();
+      const kw = ['crypto', 'finance', 'polymarket', 'trading', 'stocks', 'forex', 'solana', 'bitcoin', 'eth', 'money', 'business', 'wealth', 'invest', 'token', 'fintech'];
+      return kw.some(k => text.includes(k));
+    }
+
+    function checkUgc(c) {
+      if (!c) return false;
+      const type = (c.contentType || '').toLowerCase();
+      const text = `${c.title || ''} ${c.description || ''}`.toLowerCase();
+      return type.includes('ugc') || text.includes('ugc') || text.includes('product review') || text.includes('unboxing') || text.includes('testimonial') || text.includes('faceless');
+    }
+
+    function checkClipping(c) {
+      if (!c) return false;
+      const type = (c.contentType || '').toLowerCase();
+      const text = `${c.title || ''} ${c.description || ''} ${c.agency || ''}`.toLowerCase();
+      return type.includes('clipping') || text.includes('clip') || text.includes('cut ') || text.includes('shorts') || text.includes('highlights');
+    }
+
+    function checkMusic(c) {
+      if (!c) return false;
+      const cat = (c.category || '').toLowerCase();
+      const text = `${c.title || ''} ${c.description || ''}`.toLowerCase();
+      return cat.includes('music') || text.includes('song') || text.includes('music') || text.includes('sound') || text.includes('track') || text.includes('album') || text.includes('rap') || text.includes('artist');
+    }
+
+    function checkPodcast(c) {
+      if (!c) return false;
+      const cat = (c.category || '').toLowerCase();
+      const text = `${c.title || ''} ${c.description || ''}`.toLowerCase();
+      return text.includes('podcast') || text.includes('interview') || text.includes('talk show') || text.includes('stream') || text.includes('episode') || text.includes('streamer');
+    }
+
+    function checkAiTech(c) {
+      if (!c) return false;
+      const cat = (c.category || '').toLowerCase();
+      const text = `${c.title || ''} ${c.description || ''}`.toLowerCase();
+      return cat.includes('tech') || text.includes('ai') || text.includes('tech') || text.includes('saas') || text.includes('app') || text.includes('software') || text.includes('bot');
+    }
+
+    function buildCampaignCardHtml(c) {
+      const metrics = calculateBurnMetrics(c);
+      const cpm = c.cpm ? `$${c.cpm.toFixed(2)}` : '$1.00';
+      const age = getLiveRelativeAge(c);
+      const whopUrl = getWhopCampaignUrl(c);
+      const jsonStr = JSON.stringify(c).replace(/'/g, "&apos;");
+      const rawThumb = c.thumbnail || c.bannerImageUrl || '';
+      const thumbUrl = rawThumb ? getOptimizedImageUrl(rawThumb, 480) : getDefaultThumbnailSvg(c.title, c.category, c.agency);
+      const rawAvatar = c.avatar || '';
+      const avatarUrl = rawAvatar ? getOptimizedAvatarUrl(rawAvatar) : '';
+
+      const isPersonal = checkPersonalBrand(c);
+      const isDedicated = checkDedicatedRequirement(c);
+      const isSports = checkSportsAndCards(c);
+      const isGaming = checkGaming(c);
+      const isFinance = checkCryptoFinance(c);
+      const isUgc = checkUgc(c);
+      const isMusic = checkMusic(c);
+      const isPodcast = checkPodcast(c);
+      const isAi = checkAiTech(c);
+
+      const platforms = (c.platforms || []).map(p => {
+        if (p === 'tiktok') return 'TikTok';
+        if (p === 'instagram') return 'Reels';
+        if (p === 'youtube') return 'Shorts';
+        if (p === 'x') return 'X';
+        return p;
+      }).join(' • ') || 'All Platforms';
+
+      const docs = extractDocumentsAndLinks(c.description);
+
+      return `
+        <div class="ai-campaign-card">
+          <div class="card-thumb-wrap">
+            <img class="card-thumb-img" src="${thumbUrl}" data-raw="${escapeHtml(rawThumb)}" data-title="${escapeHtml(c.title || '')}" data-cat="${escapeHtml(c.category || '')}" data-agency="${escapeHtml(c.agency || '')}" alt="${escapeHtml(c.title || '')}" loading="lazy" onerror="handleThumbError(this)"/>
+            <div class="card-thumb-overlay"></div>
+            <div class="card-thumb-badges">
+              <span class="burn-badge burn-${metrics.urgencyLevel}">${metrics.exhaustionLabel}</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="card-meta-top">
+              <div class="card-brand-header">
+                ${rawAvatar ? `<img class="agency-avatar-img" src="${avatarUrl}" data-raw="${escapeHtml(rawAvatar)}" alt="${escapeHtml(c.agency || '')}" onerror="handleAvatarError(this)"/>` : ''}
+                <div class="card-agency">
+                  <span>${escapeHtml(c.agency || 'Independent Agency')}</span>
+                  ${c.isVerified ? `<span class="card-verified-badge" title="Verified Creator Campaign">✔</span>` : ''}
+                </div>
+                <div class="card-age-pill">· ${escapeHtml(age)}</div>
+              </div>
+              <div class="card-platforms-icons">
+                ${(c.platforms || []).includes('tiktok') ? '<span class="platform-icon-pill" title="TikTok">🎵</span>' : ''}
+                ${(c.platforms || []).includes('youtube') ? '<span class="platform-icon-pill" title="YouTube Shorts">▶</span>' : ''}
+                ${(c.platforms || []).includes('instagram') ? '<span class="platform-icon-pill" title="Instagram Reels">📸</span>' : ''}
+                ${(c.platforms || []).includes('x') ? '<span class="platform-icon-pill" title="X">✖</span>' : ''}
+              </div>
+            </div>
+
+            <h4 class="card-title">${escapeHtml(c.title || 'Untitled Campaign')}</h4>
+
+            <p class="card-desc-text">${escapeHtml(c.description || 'No brief summary available.')}</p>
+
+            <div class="cr-metrics-row">
+              <div class="cr-budget-inline">
+                <span><strong>$${metrics.spent.toLocaleString()}</strong>/$${metrics.total.toLocaleString()}</span>
+                <div class="cr-mini-progress">
+                  <div class="cr-mini-fill" style="width: ${metrics.pctDepleted}%"></div>
+                </div>
+              </div>
+
+              <div class="cr-pills-group">
+                ${metrics.submissions > 0 
+                  ? `<span class="cr-pill subs">👤 ${metrics.submissions}</span>` 
+                  : `<span class="cr-pill subs-zero">👤 0 subs</span>`}
+                <span class="cr-pill">🏷️ ${escapeHtml(c.category || 'General')}</span>
+                <span class="cr-pill" style="background:rgba(245,165,36,0.12); color:#F59E0B; border:1px solid rgba(245,165,36,0.25);">${(c.contentType || '').toLowerCase() === 'ugc' ? '🎨 UGC' : '📹 Clipping'}</span>
+                ${isDedicated ? `<span class="cr-pill dedicated-page">📱 Dedicated Page</span>` : ''}
+                ${(c.category || '').toLowerCase().includes('personal') ? `<span class="cr-pill personal-brand">👤 Personal Brand</span>` : ''}
+                ${c.stats && c.stats.successRate ? `<span class="cr-pill approval">👍 ${c.stats.successRate}%</span>` : ''}
+                <span class="cr-pill cpm">${cpm}/1K</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="budget-depletion-meter">
+            <div class="budget-meter-header">
+              <span>Pool Burn: <strong>${metrics.pctDepleted.toFixed(1)}%</strong></span>
+              <span><strong>$${metrics.remaining.toLocaleString()}</strong> left</span>
+            </div>
+            <div class="budget-progress-track">
+              <div class="budget-progress-fill fill-${metrics.urgencyLevel}" style="width: ${metrics.pctDepleted}%"></div>
+            </div>
+          </div>
+
+          ${docs.length > 0 ? `
+            <div class="ai-docs-container" style="margin-top: 4px;">
+              ${docs.map(d => `<a href="${d.url}" target="_blank" class="ai-doc-chip">${d.icon} ${escapeHtml(d.name)} ↗</a>`).join('')}
+            </div>
+          ` : ''}
+
+          <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 6px;">
+            <div class="card-platforms">${platforms}</div>
+            <div class="ai-actions-bar">
+              <button class="btn-docs-flat" onclick='openDocsModal(${jsonStr})'>
+                📄 Documents & Brief
+              </button>
+              <a href="${whopUrl}" target="_blank" class="btn-whop-flat" onclick="handleWhopClick(event, '${whopUrl.replace(/'/g, "\\'")}')">
+                Join Campaign ➔
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function addAssistantRichMessage({ html = '', campaigns = [], matchCount = 0, pointerPreset = 'all', followUps = [] }) {
+      const thread = document.getElementById('chatThread');
+      const row = document.createElement('div');
+      row.className = 'message-row assistant';
+
+      let cardsHtml = '';
+      if (campaigns && campaigns.length > 0) {
+        cardsHtml = `
+          <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 6px;">
+            ${campaigns.map(c => buildCampaignCardHtml(c)).join('')}
+          </div>
+        `;
+      }
+
+      let pointerHtml = '';
+      if (matchCount > 0) {
+        const isRemovedTarget = pointerPreset === 'removed';
+        const targetTab = isRemovedTarget ? 'removed' : 'campaigns';
+        const tabTitle = isRemovedTarget ? `Open Removed / Ended Tab (${matchCount}) ➔` : `Open Campaigns Tab (${matchCount}) ➔`;
+        pointerHtml = `
+          <div class="tab-pointer-box">
+            <span>Browse all <strong>${matchCount} matching campaigns</strong> with full filters & sorting:</span>
+            <a class="tab-pointer-link" onclick="switchTab('${targetTab}', '${pointerPreset}')">
+              ${tabTitle}
+            </a>
+          </div>
+        `;
+      }
+
+      let followUpHtml = '';
+      if (followUps && followUps.length > 0) {
+        followUpHtml = `
+          <div class="ai-followup-chips">
+            <span style="font-size: 11px; color: var(--text-muted); align-self: center; margin-right: 4px;">Suggestions:</span>
+            ${followUps.map(f => `<button class="ai-followup-chip" onclick="sendChatPrompt('${escapeHtml(f).replace(/'/g, "\\'")}')">${escapeHtml(f)}</button>`).join('')}
+          </div>
+        `;
+      }
+
+      row.innerHTML = `
+        <div class="assistant-body">
+          <div class="ai-response-container">
+            ${html}
+            ${cardsHtml}
+            ${pointerHtml}
+            ${followUpHtml}
+          </div>
+        </div>
+      `;
+
+      thread.appendChild(row);
+      scrollChatToBottom();
+    }
+
+    function scrollChatToBottom() {
+      const scroll = document.getElementById('chatScroll');
+      if (scroll) scroll.scrollTop = scroll.scrollHeight;
+    }
+
+    // --- Tab 2: Campaigns View (Multi-Tier Filtering & Horizontal Scrolling) ---
+    function setCategoryFilter(cat, btn) {
+      currentCategoryFilter = cat;
+      const bar = document.getElementById('categoryPillsBar');
+      if (bar) bar.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyCampaignFilters();
+    }
+
+    function setContentTypeFilter(type, btn) {
+      currentContentTypeFilter = type;
+      const bar = document.getElementById('contentTypePillsBar');
+      if (bar) bar.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyCampaignFilters();
+    }
+
+    function setPlatformFilter(platform, btn) {
+      currentPlatformFilter = platform;
+      const bar = document.getElementById('platformPillsBar');
+      if (bar) bar.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyCampaignFilters();
+    }
+
+    function setCampaignFilter(filterType, btn) {
+      currentFilterType = filterType;
+      const bar = document.getElementById('presetPillsBar');
+      if (bar) bar.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyCampaignFilters();
+    }
+
+    function applyCampaignFilters() {
+      const searchVal = (document.getElementById('campaignSearchInput')?.value || '').toLowerCase().trim();
+      const sortMode = document.getElementById('campaignSortSelect')?.value || 'newest';
+
+      let list = rawCampaigns.filter(c => {
+        const total = parseFloat(c.total) || 0;
+        const spent = parseFloat(c.spent) || 0;
+        const rem = Math.max(0, total - spent);
+        if (total > 0 && rem <= 0) return false;
+
+        const cat = (c.category || '').toLowerCase();
+        const type = (c.contentType || '').toLowerCase();
+        const title = (c.title || '').toLowerCase();
+        const desc = (c.description || '').toLowerCase();
+        const agency = (c.agency || '').toLowerCase();
+        const subs = (c.stats && c.stats.submissions !== undefined) ? c.stats.submissions : (c.creators || 0);
+        const platforms = (c.platforms || []).map(p => (p || '').toLowerCase());
+
+        // 1. Category Filter (Real Category from Content Rewards)
+        if (currentCategoryFilter !== 'all') {
+          const targetCat = currentCategoryFilter.toLowerCase();
+          if (targetCat === 'music') {
+            if (!cat.includes('music') && !title.includes('music') && !agency.includes('music')) return false;
+          } else if (targetCat === 'gaming') {
+            if (!cat.includes('gaming') && !title.includes('gaming') && !agency.includes('gaming')) return false;
+          } else if (targetCat === 'sports') {
+            if (!cat.includes('sport') && !title.includes('sport') && !agency.includes('sport')) return false;
+          } else if (targetCat === 'entertainment') {
+            if (!cat.includes('entertainment') && !title.includes('entertainment')) return false;
+          } else if (targetCat === 'technology') {
+            if (!cat.includes('tech') && !cat.includes('product') && !title.includes('tech') && !agency.includes('tech')) return false;
+          } else if (targetCat === 'education') {
+            if (!cat.includes('education') && !title.includes('education') && !title.includes('learn')) return false;
+          } else if (targetCat === 'lifestyle') {
+            if (!cat.includes('lifestyle') && !title.includes('lifestyle')) return false;
+          } else {
+            if (!cat.includes(targetCat) && !title.includes(targetCat)) return false;
+          }
+        }
+
+        // 2. Content Type Filter (Strict Real Field: Clipping vs UGC)
+        if (currentContentTypeFilter !== 'all') {
+          const targetType = currentContentTypeFilter.toLowerCase();
+          const realType = (c.contentType || 'Clipping').toLowerCase();
+          if (targetType === 'clipping') {
+            if (realType !== 'clipping') return false;
+          } else if (targetType === 'ugc') {
+            if (realType !== 'ugc') return false;
+          }
+        }
+
+        // 3. Platform Filter
+        if (currentPlatformFilter !== 'all') {
+          const targetPlat = currentPlatformFilter.toLowerCase();
+          if (targetPlat === 'tiktok' && !platforms.includes('tiktok')) return false;
+          if (targetPlat === 'instagram' && !platforms.includes('instagram') && !platforms.includes('reels')) return false;
+          if (targetPlat === 'youtube' && !platforms.includes('youtube') && !platforms.includes('shorts')) return false;
+          if (targetPlat === 'x' && !platforms.includes('x') && !platforms.includes('twitter')) return false;
+        }
+
+        // 4. Presets / Quick Tags Filter
+        if (currentFilterType === '0sub' && (spent > 0 || subs > 0)) return false;
+        if (currentFilterType === 'lowcomp' && subs > 15) return false;
+        if (currentFilterType === 'personal' && !cat.includes('personal') && !title.includes('personal')) return false;
+        if (currentFilterType === 'dedicated' && !checkDedicatedRequirement(c)) return false;
+        if (currentFilterType === 'highcpm' && (parseFloat(c.cpm) || 0) < 2.0) return false;
+        if (currentFilterType === 'highbudget' && total < 10000) return false;
+
+        // 5. Free search query
+        if (searchVal) {
+          const fullText = `${title} ${desc} ${agency} ${cat} ${type} ${platforms.join(' ')}`;
+          if (!fullText.includes(searchVal)) return false;
+        }
+
+        return true;
+      });
+
+      // Sorting
+      if (sortMode === 'cpm') {
+        list.sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0));
+      } else if (sortMode === 'budget') {
+        list.sort((a, b) => ((parseFloat(b.total) || 0) - (parseFloat(b.spent) || 0)) - ((parseFloat(a.total) || 0) - (parseFloat(a.spent) || 0)));
+      } else if (sortMode === 'total') {
+        list.sort((a, b) => (parseFloat(b.total) || 0) - (parseFloat(a.total) || 0));
+      } else {
+        list.sort((a, b) => parseTimeScore(b) - parseTimeScore(a));
+      }
+
+      renderCampaignsGrid(list);
+      updateFoldedActiveStrip();
+    }
+
+    // --- Filter Matrix Folding & Scroll Listener ---
+    let isFiltersFolded = false;
+    let manualFoldOverride = null; // null | boolean
+    let lastCampaignScrollTop = 0;
+
+    function toggleFiltersFold() {
+      const willFold = !isFiltersFolded;
+      manualFoldOverride = willFold;
+      setFiltersFolded(willFold, true);
+    }
+
+    function setFiltersFolded(folded, isManual = false) {
+      isFiltersFolded = folded;
+      const matrix = document.getElementById('copilotFilterMatrix');
+      const btn = document.getElementById('toggleFiltersBtn');
+      
+      if (matrix) {
+        if (folded) {
+          matrix.classList.add('is-folded');
+        } else {
+          matrix.classList.remove('is-folded');
+        }
+      }
+
+      if (btn) {
+        if (folded) {
+          btn.classList.add('is-folded');
+        } else {
+          btn.classList.remove('is-folded');
+        }
+      }
+
+      updateFoldedActiveStrip();
+    }
+
+    function updateFoldedActiveStrip() {
+      const activeStrip = document.getElementById('foldedActiveStrip');
+      const btn = document.getElementById('toggleFiltersBtn');
+      const badgeCount = document.getElementById('activeFilterBadgeCount');
+      if (!activeStrip) return;
+
+      const activeChips = [];
+      if (currentCategoryFilter && currentCategoryFilter !== 'all') {
+        activeChips.push({ type: 'cat', label: currentCategoryFilter });
+      }
+      if (currentContentTypeFilter && currentContentTypeFilter !== 'all') {
+        activeChips.push({ type: 'content', label: currentContentTypeFilter === 'Clipping' ? '📹 Clipping' : '🎨 UGC' });
+      }
+      if (currentPlatformFilter && currentPlatformFilter !== 'all') {
+        const platIcons = { tiktok: '🎵 TikTok', instagram: '📸 Instagram', youtube: '▶ YouTube', x: '✖ X' };
+        activeChips.push({ type: 'platform', label: platIcons[currentPlatformFilter.toLowerCase()] || currentPlatformFilter });
+      }
+      if (currentFilterType && currentFilterType !== 'all') {
+        const presetLabels = {
+          '0sub': '⚡ Fresh (0 Spent)',
+          'lowcomp': '🏃 Low Comp',
+          'dedicated': '📱 Fan Pages',
+          'personal': '👤 Personal',
+          'highcpm': '💎 CPM $2+',
+          'highbudget': '🚀 $10k+'
+        };
+        activeChips.push({ type: 'preset', label: presetLabels[currentFilterType] || currentFilterType });
+      }
+
+      if (badgeCount) {
+        if (activeChips.length > 0) {
+          badgeCount.textContent = activeChips.length;
+          badgeCount.style.display = 'inline-block';
+          if (btn) btn.classList.add('active-filters');
+        } else {
+          badgeCount.style.display = 'none';
+          if (btn) btn.classList.remove('active-filters');
+        }
+      }
+
+      if (isFiltersFolded && activeChips.length > 0) {
+        activeStrip.innerHTML = activeChips.map(c => `
+          <span class="folded-chip" onclick="clearSpecificFilter('${c.type}')" title="Click to remove filter">
+            ${c.label} <span class="remove-x">&times;</span>
+          </span>
+        `).join('') + `<span class="folded-chip" style="background:rgba(255,255,255,0.06); color:var(--text-secondary); border-color:var(--glass-border);" onclick="clearAllFilters()">Clear All</span>`;
+        activeStrip.classList.add('show');
+      } else {
+        activeStrip.classList.remove('show');
+        activeStrip.innerHTML = '';
+      }
+    }
+
+    function clearSpecificFilter(type) {
+      if (type === 'cat') {
+        const btn = document.querySelector('#categoryPillsBar .filter-pill[data-cat="all"]');
+        setCategoryFilter('all', btn);
+      } else if (type === 'content') {
+        const btn = document.querySelector('#contentTypePillsBar .filter-pill[data-content="all"]');
+        setContentTypeFilter('all', btn);
+      } else if (type === 'platform') {
+        const btn = document.querySelector('#platformPillsBar .filter-pill[data-platform="all"]');
+        setPlatformFilter('all', btn);
+      } else if (type === 'preset') {
+        const btn = document.querySelector('#presetPillsBar .filter-pill[data-filter="all"]');
+        setCampaignFilter('all', btn);
+      }
+    }
+
+    function clearAllFilters() {
+      setCategoryFilter('all', document.querySelector('#categoryPillsBar .filter-pill[data-cat="all"]'));
+      setContentTypeFilter('all', document.querySelector('#contentTypePillsBar .filter-pill[data-content="all"]'));
+      setPlatformFilter('all', document.querySelector('#platformPillsBar .filter-pill[data-platform="all"]'));
+      setCampaignFilter('all', document.querySelector('#presetPillsBar .filter-pill[data-filter="all"]'));
+    }
+
+    function setupScrollFold() {
+      const scrollArea = document.querySelector('.campaigns-scroll-area');
+      if (!scrollArea || scrollArea._foldAttached) return;
+      scrollArea._foldAttached = true;
+
+      scrollArea.addEventListener('scroll', () => {
+        const currentTop = scrollArea.scrollTop;
+        const delta = currentTop - lastCampaignScrollTop;
+
+        if (currentTop <= 15) {
+          // Reached top of feed -> unfold
+          if (manualFoldOverride !== true) {
+            setFiltersFolded(false, false);
+          }
+        } else if (delta > 12 && currentTop > 45) {
+          // Scrolling down -> fold categories matrix
+          if (manualFoldOverride !== false) {
+            setFiltersFolded(true, false);
+          }
+        } else if (delta < -20) {
+          // Scrolling up firmly -> unfold categories matrix
+          if (manualFoldOverride !== true) {
+            setFiltersFolded(false, false);
+          }
+        }
+
+        lastCampaignScrollTop = Math.max(0, currentTop);
+      }, { passive: true });
+    }
+
+    // --- Horizontal Scroll & Mouse Drag Handler ---
+    function setupHorizontalScrollbars() {
+      document.querySelectorAll('.filter-pills-bar, .chips-row').forEach(bar => {
+        if (bar._hScrollAttached) return;
+        bar._hScrollAttached = true;
+
+        // 1. Mouse wheel horizontal scrolling (translate deltaY to scrollLeft)
+        bar.addEventListener('wheel', (e) => {
+          if (e.deltaY !== 0) {
+            e.preventDefault();
+            bar.scrollLeft += e.deltaY * 1.3;
+          }
+        }, { passive: false });
+
+        // 2. Mouse Drag to Scroll (click and drag sideways)
+        let isDown = false;
+        let startX = 0;
+        let scrollLeft = 0;
+        let hasMoved = false;
+
+        bar.addEventListener('mousedown', (e) => {
+          if (e.button !== 0) return;
+          isDown = true;
+          hasMoved = false;
+          bar.classList.add('is-dragging');
+          startX = e.pageX - bar.offsetLeft;
+          scrollLeft = bar.scrollLeft;
+        });
+
+        window.addEventListener('mousemove', (e) => {
+          if (!isDown) return;
+          const x = e.pageX - bar.offsetLeft;
+          const walk = (x - startX) * 1.4;
+          if (Math.abs(walk) > 4) {
+            hasMoved = true;
+          }
+          bar.scrollLeft = scrollLeft - walk;
+        });
+
+        window.addEventListener('mouseup', () => {
+          if (isDown) {
+            isDown = false;
+            bar.classList.remove('is-dragging');
+          }
+        });
+
+        // Prevent accidental pill activation if the user dragged sideways
+        bar.addEventListener('click', (e) => {
+          if (hasMoved) {
+            e.stopPropagation();
+            e.preventDefault();
+            hasMoved = false;
+          }
+        }, true);
+      });
+    }
+
+    function renderCampaignsGrid(list) {
+      const container = document.getElementById('campaignsContainer');
+
+      if (list.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; padding: 40px 20px; text-align: center; color: var(--text-muted);">
+            <div style="font-size: 16px; margin-bottom: 4px; color: var(--text-main);">No campaigns match your filters</div>
+            <div style="font-size: 13px;">Try selecting "All Active" or clearing your search term.</div>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = list.map(c => {
+        const metrics = calculateBurnMetrics(c);
+        const cpm = c.cpm ? `$${c.cpm}` : '$1.00';
+        const age = getLiveRelativeAge(c);
+        const whopUrl = getWhopCampaignUrl(c);
+        const rawThumb = c.thumbnail || c.bannerImageUrl || '';
+        const thumbUrl = rawThumb ? getOptimizedImageUrl(rawThumb, 480) : getDefaultThumbnailSvg(c.title, c.category, c.agency);
+        const rawAvatar = c.avatar || '';
+        const avatarUrl = rawAvatar ? getOptimizedAvatarUrl(rawAvatar) : '';
+        const jsonStr = JSON.stringify(c).replace(/'/g, "&apos;");
+
+        const isPersonal = checkPersonalBrand(c);
+        const isDedicated = checkDedicatedRequirement(c);
+        const isSports = checkSportsAndCards(c);
+        const isGaming = checkGaming(c);
+        const isFinance = checkCryptoFinance(c);
+        const isUgc = checkUgc(c);
+        const isMusic = checkMusic(c);
+        const isPodcast = checkPodcast(c);
+        const isAi = checkAiTech(c);
+
+        const platforms = (c.platforms || []).map(p => {
+          if (p === 'tiktok') return 'TikTok';
+          if (p === 'instagram') return 'Reels';
+          if (p === 'youtube') return 'Shorts';
+          return p;
+        }).join(' • ');
+
+        return `
+          <div class="claude-card" onclick='openDocsModal(${jsonStr})'>
+            <div class="card-thumb-wrap">
+              <img class="card-thumb-img" src="${thumbUrl}" data-raw="${escapeHtml(rawThumb)}" data-title="${escapeHtml(c.title || '')}" data-cat="${escapeHtml(c.category || '')}" data-agency="${escapeHtml(c.agency || '')}" alt="${escapeHtml(c.title || '')}" loading="lazy" onerror="handleThumbError(this)"/>
+              <div class="card-thumb-overlay"></div>
+              <div class="card-thumb-badges">
+                <span class="burn-badge burn-${metrics.urgencyLevel}">${metrics.exhaustionLabel}</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="card-meta-top">
+                <div class="card-brand-header">
+                  ${rawAvatar ? `<img class="agency-avatar-img" src="${avatarUrl}" data-raw="${escapeHtml(rawAvatar)}" alt="${escapeHtml(c.agency || '')}" onerror="handleAvatarError(this)"/>` : ''}
+                  <div class="card-agency">
+                    <span>${escapeHtml(c.agency || 'Independent Agency')}</span>
+                    ${c.isVerified ? `<span class="card-verified-badge" title="Verified Creator Campaign">✔</span>` : ''}
+                  </div>
+                  <div class="card-age-pill">· ${escapeHtml(age)}</div>
+                </div>
+                <div class="card-platforms-icons">
+                  ${(c.platforms || []).includes('tiktok') ? '<span class="platform-icon-pill" title="TikTok">🎵</span>' : ''}
+                  ${(c.platforms || []).includes('youtube') ? '<span class="platform-icon-pill" title="YouTube Shorts">▶</span>' : ''}
+                  ${(c.platforms || []).includes('instagram') ? '<span class="platform-icon-pill" title="Instagram Reels">📸</span>' : ''}
+                  ${(c.platforms || []).includes('x') ? '<span class="platform-icon-pill" title="X">✖</span>' : ''}
+                </div>
+              </div>
+
+              <h3 class="card-title">${escapeHtml(c.title || 'Untitled Campaign')}</h3>
+
+              <p class="card-desc-text">${escapeHtml(c.description || 'No brief text provided.')}</p>
+
+              <!-- ContentRewards Exact Budget & Badges Strip -->
+              <div class="cr-metrics-row">
+                <div class="cr-budget-inline">
+                  <span><strong>$${metrics.spent.toLocaleString()}</strong>/$${metrics.total.toLocaleString()}</span>
+                  <div class="cr-mini-progress">
+                    <div class="cr-mini-fill" style="width: ${metrics.pctDepleted}%"></div>
+                  </div>
+                </div>
+
+                <div class="cr-pills-group">
+                  ${metrics.submissions > 0 
+                    ? `<span class="cr-pill subs">👤 ${metrics.submissions}</span>` 
+                    : `<span class="cr-pill subs-zero">👤 0 subs</span>`}
+                  <span class="cr-pill">🏷️ ${escapeHtml(c.category || 'General')}</span>
+                  <span class="cr-pill" style="background:rgba(245,165,36,0.12); color:#F59E0B; border:1px solid rgba(245,165,36,0.25);">${(c.contentType || '').toLowerCase() === 'ugc' ? '🎨 UGC' : '📹 Clipping'}</span>
+                  ${isDedicated ? `<span class="cr-pill dedicated-page">📱 Dedicated Page</span>` : ''}
+                  ${(c.category || '').toLowerCase().includes('personal') ? `<span class="cr-pill personal-brand">👤 Personal Brand</span>` : ''}
+                  ${c.stats && c.stats.successRate ? `<span class="cr-pill approval">👍 ${c.stats.successRate}%</span>` : ''}
+                  <span class="cr-pill cpm">${cpm}/1K</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="budget-depletion-meter">
+                <div class="budget-meter-header">
+                  <span>Pool Burn: <strong>${metrics.pctDepleted.toFixed(1)}%</strong></span>
+                  <span><strong>$${metrics.remaining.toLocaleString()}</strong> left</span>
+                </div>
+                <div class="budget-progress-track">
+                  <div class="budget-progress-fill fill-${metrics.urgencyLevel}" style="width: ${metrics.pctDepleted}%"></div>
+                </div>
+              </div>
+
+              <div class="card-actions-row" style="margin-top: 10px;">
+                <button class="btn-docs-flat" onclick='openDocsModal(${jsonStr}); event.stopPropagation();'>
+                  📄 Documents & Brief
+                </button>
+                <a href="${whopUrl}" target="_blank" class="btn-whop-flat" onclick="handleWhopClick(event, '${whopUrl.replace(/'/g, "\\'")}')">
+                  Join Campaign ➔
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // --- Tab 3: Removed / Ended Campaigns View ---
+    function setRemovedFilter(filterType, btn) {
+      currentRemovedFilter = filterType;
+      document.querySelectorAll('[data-removed-filter]').forEach(p => p.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyRemovedFilters();
+    }
+
+    function applyRemovedFilters() {
+      const searchVal = (document.getElementById('removedSearchInput')?.value || '').toLowerCase().trim();
+      const sortMode = document.getElementById('removedSortSelect')?.value || 'newest';
+
+      let list = (rawArchived || []).filter(c => {
+        const cat = (c.category || '').toLowerCase();
+        const type = (c.contentType || '').toLowerCase();
+        const title = (c.title || '').toLowerCase();
+        const desc = (c.description || '').toLowerCase();
+        const agency = (c.agency || '').toLowerCase();
+
+        if (currentRemovedFilter === 'sports' && !checkSportsAndCards(c)) return false;
+        if (currentRemovedFilter === 'clipping' && !checkClipping(c)) return false;
+        if (currentRemovedFilter === 'ugc' && !checkUgc(c)) return false;
+        if (currentRemovedFilter === 'gaming' && !checkGaming(c)) return false;
+        if (currentRemovedFilter === 'finance' && !checkCryptoFinance(c)) return false;
+        if (currentRemovedFilter === 'music' && !checkMusic(c)) return false;
+        if (currentRemovedFilter === 'podcast' && !checkPodcast(c)) return false;
+        if (currentRemovedFilter === 'ai' && !checkAiTech(c)) return false;
+
+        if (searchVal) {
+          const fullText = `${title} ${desc} ${agency} ${cat} ${type}`;
+          if (!fullText.includes(searchVal)) return false;
+        }
+        return true;
+      });
+
+      if (sortMode === 'cpm') {
+        list.sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0));
+      } else if (sortMode === 'total') {
+        list.sort((a, b) => (parseFloat(b.total) || 0) - (parseFloat(a.total) || 0));
+      }
+
+      renderRemovedGrid(list);
+    }
+
+    function renderRemovedGrid(list) {
+      const container = document.getElementById('removedContainer');
+      if (!container) return;
+
+      if (list.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; padding: 60px 20px; text-align: center; color: var(--text-muted);">
+            <div style="font-size: 34px; margin-bottom: 12px;">🛡️</div>
+            <div style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: var(--text-main);">0 Removed Campaigns</div>
+            <div style="font-size: 13.5px; max-width: 500px; margin: 0 auto; line-height: 1.5; color: var(--text-secondary);">
+              All <strong>${rawCampaigns.length} campaigns</strong> currently tracked are active on Content Rewards. As soon as a brand ends or deletes a campaign, it will automatically be captured and archived here.
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = list.map(c => {
+        const cpm = c.cpm ? `$${c.cpm.toFixed(2)}` : '$1.00';
+        const total = parseFloat(c.total) || 2500;
+        const spent = parseFloat(c.spent) || total;
+        const whopUrl = getWhopCampaignUrl(c);
+        const rawThumb = c.thumbnail || c.bannerImageUrl || '';
+        const thumbUrl = rawThumb ? getOptimizedImageUrl(rawThumb, 480) : getDefaultThumbnailSvg(c.title, c.category, c.agency);
+        const rawAvatar = c.avatar || '';
+        const avatarUrl = rawAvatar ? getOptimizedAvatarUrl(rawAvatar) : '';
+        const jsonStr = JSON.stringify(c).replace(/'/g, "&apos;");
+
+        return `
+          <div class="claude-card card-ended" onclick='openDocsModal(${jsonStr})'>
+            <div class="card-thumb-wrap">
+              <img class="card-thumb-img" src="${thumbUrl}" data-raw="${escapeHtml(rawThumb)}" data-title="${escapeHtml(c.title || '')}" data-cat="${escapeHtml(c.category || '')}" data-agency="${escapeHtml(c.agency || '')}" alt="${escapeHtml(c.title || '')}" loading="lazy" onerror="handleThumbError(this)"/>
+              <div class="card-thumb-overlay"></div>
+              <div class="card-thumb-badges">
+                <span class="burn-badge burn-ended">🛑 Ended & Removed</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="card-meta-top">
+                <div class="card-brand-header">
+                  ${rawAvatar ? `<img class="agency-avatar-img" src="${avatarUrl}" data-raw="${escapeHtml(rawAvatar)}" alt="${escapeHtml(c.agency || '')}" onerror="handleAvatarError(this)"/>` : ''}
+                  <div class="card-agency">
+                    <span>${escapeHtml(c.agency || 'Independent Agency')}</span>
+                    ${c.isVerified ? `<span class="card-verified-badge" title="Verified Creator Campaign">✔</span>` : ''}
+                  </div>
+                  <div class="card-age-pill">· Completed</div>
+                </div>
+              </div>
+
+              <h3 class="card-title">${escapeHtml(c.title || 'Untitled Campaign')}</h3>
+
+              <p class="card-desc-text">${escapeHtml(c.description || 'Historical campaign archive.')}</p>
+
+              <div class="cr-metrics-row">
+                <div class="cr-budget-inline">
+                  <span><strong>$${spent.toLocaleString()}</strong>/$${total.toLocaleString()}</span>
+                  <div class="cr-mini-progress">
+                    <div class="cr-mini-fill fill-ended" style="width: 100%"></div>
+                  </div>
+                </div>
+
+                <div class="cr-pills-group">
+                  <span class="cr-pill subs">👤 ${c.creators || 100}+ subs</span>
+                  <span class="cr-pill">🏷️ ${escapeHtml(c.category || 'General')}</span>
+                  <span class="cr-pill cpm">${cpm}/1K</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="budget-depletion-meter">
+                <div class="budget-meter-header">
+                  <span>Status: <strong style="color:#FF6B81">100% Depleted / Ended</strong></span>
+                  <span><strong>$0</strong> left</span>
+                </div>
+                <div class="budget-progress-track">
+                  <div class="budget-progress-fill fill-ended" style="width: 100%"></div>
+                </div>
+              </div>
+
+              <div class="card-actions-row" style="margin-top: 10px;">
+                <button class="btn-docs-flat" onclick='openDocsModal(${jsonStr}); event.stopPropagation();'>
+                  📄 Past Brief & Assets
+                </button>
+                <a href="${whopUrl}" target="_blank" class="btn-whop-flat" onclick="handleWhopClick(event, '${whopUrl.replace(/'/g, "\\'")}')">
+                  Past Whop ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // --- Section 3: Document & Asset Extraction Engine ---
+    function extractDocumentsAndLinks(text) {
+      if (!text) return [];
+      const results = [];
+      const urlRegex = /(https?:\/\/[^\s\)\"\'>]+)/gi;
+      const matches = text.match(urlRegex) || [];
+
+      matches.forEach(url => {
+        let cleanUrl = url.replace(/[.,;:]$/, '');
+        let type = 'External Resource';
+        let icon = '🔗';
+        let name = cleanUrl;
+
+        if (cleanUrl.includes('drive.google.com')) {
+          type = 'Google Drive Asset Folder / B-Roll';
+          icon = '📁';
+          name = 'Google Drive Assets';
+        } else if (cleanUrl.includes('dropbox.com')) {
+          type = 'Dropbox Footage & Assets';
+          icon = '📦';
+          name = 'Dropbox Folder';
+        } else if (cleanUrl.includes('notion.site') || cleanUrl.includes('notion.so')) {
+          type = 'Notion Campaign Guidelines & Script';
+          icon = '📝';
+          name = 'Notion Brief Document';
+        } else if (cleanUrl.includes('youtube.com') || cleanUrl.includes('youtu.be')) {
+          type = 'Official Reference Video / Audio';
+          icon = '🎬';
+          name = 'YouTube Video Reference';
+        } else if (cleanUrl.includes('box.com') || cleanUrl.includes('mega.nz')) {
+          type = 'Cloud Video Assets';
+          icon = '🗂️';
+          name = 'Cloud Asset Folder';
+        } else if (cleanUrl.includes('discord.gg') || cleanUrl.includes('discord.com')) {
+          type = 'Creator Discord Community';
+          icon = '💬';
+          name = 'Discord Server';
+        } else if (cleanUrl.includes('whop.com')) {
+          type = 'Official Whop Community & Bounty Hub';
+          icon = '⚡';
+          name = 'Whop Community Hub';
+        } else if (cleanUrl.endsWith('.pdf')) {
+          type = 'Official PDF Brief';
+          icon = '📄';
+          name = 'Campaign Brief (PDF)';
+        } else if (cleanUrl.endsWith('.mp3') || cleanUrl.endsWith('.wav')) {
+          type = 'Official Audio Track File';
+          icon = '🎵';
+          name = 'Audio Track (MP3/WAV)';
+        } else if (cleanUrl.endsWith('.zip')) {
+          type = 'Raw Footage ZIP Archive';
+          icon = '🗄️';
+          name = 'Raw Footage Archive (ZIP)';
+        }
+
+        results.push({ url: cleanUrl, name, type, icon });
+      });
+
+      return results;
+    }
+
+    function openDocsModal(c) {
+      activeCampaignModal = c;
+      const modal = document.getElementById('docsModal');
+
+      // Banner Image
+      const bannerWrap = document.getElementById('modalBannerWrap');
+      const bannerImg = document.getElementById('modalBannerImg');
+      const rawThumb = c.thumbnail || c.bannerImageUrl || '';
+      if (rawThumb && bannerWrap && bannerImg) {
+        bannerImg.src = getOptimizedImageUrl(rawThumb, 800);
+        bannerImg.onerror = () => { bannerImg.src = rawThumb; };
+        bannerWrap.style.display = 'block';
+      } else if (bannerWrap) {
+        bannerWrap.style.display = 'none';
+      }
+
+      // Avatar
+      const avatarImg = document.getElementById('modalAgencyAvatar');
+      if (avatarImg) {
+        if (c.avatar) {
+          avatarImg.src = getOptimizedAvatarUrl(c.avatar);
+          avatarImg.onerror = () => { avatarImg.src = c.avatar; };
+          avatarImg.style.display = 'block';
+        } else {
+          avatarImg.style.display = 'none';
+        }
+      }
+
+      document.getElementById('modalAgency').innerText = c.agency || 'Independent Agency';
+      document.getElementById('modalTitle').innerText = c.title || 'Campaign Details';
+      document.getElementById('modalBriefText').innerText = c.description || 'No description or guidelines provided for this campaign.';
+      document.getElementById('modalPlatforms').innerText = (c.platforms || []).join(' • ').toUpperCase() || 'TIKTOK • INSTAGRAM REELS • YOUTUBE SHORTS';
+
+      // Burn Analytics
+      const metrics = calculateBurnMetrics(c);
+      const burnContainer = document.getElementById('modalBurnAnalytics');
+      if (burnContainer) {
+        burnContainer.innerHTML = `
+          <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+            <span style="font-size: 13px; font-weight: 700; color: var(--text-main);">🔥 Budget Depletion & Runout Prediction</span>
+            <span class="burn-badge burn-${metrics.urgencyLevel}">${metrics.exhaustionLabel}</span>
+          </div>
+          <div class="budget-progress-track" style="height: 8px; margin: 4px 0;">
+            <div class="budget-progress-fill fill-${metrics.urgencyLevel}" style="width: ${metrics.pctDepleted}%"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--text-secondary); margin-top: 2px; flex-wrap: wrap; gap: 6px;">
+            <span>Spent: <strong>$${metrics.spent.toLocaleString()}</strong> (${metrics.pctDepleted.toFixed(1)}%)</span>
+            <span>Available: <strong>$${metrics.remaining.toLocaleString()}</strong></span>
+            <span>Pace: <strong>~$${Math.round(metrics.dailyBurn).toLocaleString()}/day</strong></span>
+            <span>Submissions: <strong>👤 ${metrics.submissions > 0 ? metrics.submissions : '0'}</strong></span>
+          </div>
+        `;
+      }
+
+      // Platform Earnings Grid
+      const earningsGrid = document.getElementById('modalEarningsGrid');
+      if (earningsGrid) {
+        const cpmVal = c.cpm ? `$${c.cpm.toFixed(2)}` : '$1.00';
+        earningsGrid.innerHTML = `
+          <div class="earnings-card">
+            <div class="earnings-card-header">
+              <span>YouTube</span>
+              <span>▶</span>
+            </div>
+            <div class="earnings-card-rate">${cpmVal}<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">/1K</span></div>
+            <div class="earnings-card-caps">
+              <span class="cr-pill" style="font-size:10px;">$1 Min</span>
+              <span class="cr-pill" style="font-size:10px;">$100 Max</span>
+            </div>
+          </div>
+          <div class="earnings-card">
+            <div class="earnings-card-header">
+              <span>TikTok</span>
+              <span>🎵</span>
+            </div>
+            <div class="earnings-card-rate">${cpmVal}<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">/1K</span></div>
+            <div class="earnings-card-caps">
+              <span class="cr-pill" style="font-size:10px;">$1 Min</span>
+              <span class="cr-pill" style="font-size:10px;">$100 Max</span>
+            </div>
+          </div>
+          <div class="earnings-card">
+            <div class="earnings-card-header">
+              <span>Instagram</span>
+              <span>📸</span>
+            </div>
+            <div class="earnings-card-rate">${cpmVal}<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">/1K</span></div>
+            <div class="earnings-card-caps">
+              <span class="cr-pill" style="font-size:10px;">$1 Min</span>
+              <span class="cr-pill" style="font-size:10px;">$100 Max</span>
+            </div>
+          </div>
+        `;
+      }
+
+      const total = parseFloat(c.total) || 0;
+      const spent = parseFloat(c.spent) || 0;
+      const rem = Math.max(0, total - spent);
+      const whopUrl = getWhopCampaignUrl(c);
+      
+      document.getElementById('modalStats').innerHTML = `Remaining: <strong>$${rem.toLocaleString()}</strong> • CPM: <strong>$${c.cpm || '1.00'}</strong>`;
+      
+      const whopBtn = document.getElementById('modalWhopBtn');
+      whopBtn.href = whopUrl;
+      whopBtn.onclick = (e) => handleWhopClick(e, whopUrl);
+
+      // Render Authentic Requirements Checklist
+      const reqListContainer = document.getElementById('modalRequirementsList');
+      const reqs = Array.isArray(c.requirements) && c.requirements.length > 0 ? c.requirements : [];
+      const isDedicatedReq = checkDedicatedRequirement(c);
+      const isPersonalBrand = checkPersonalBrand(c);
+
+      let noticesHtml = '';
+      if (isDedicatedReq) {
+        noticesHtml += `
+          <div class="modal-account-notice">
+            <span style="font-size: 16px;">📱</span>
+            <div>
+              <strong>Dedicated Fan / Brand Account Required:</strong> This campaign requires posting from a dedicated themed account or creator fanpage. Avoid posting on mixed personal profiles.
+            </div>
+          </div>
+        `;
+      } else if (isPersonalBrand) {
+        noticesHtml += `
+          <div style="background: rgba(168, 85, 247, 0.08); border: 1px solid rgba(168, 85, 247, 0.25); border-radius: var(--radius-sm); padding: 8px 12px; font-size: 12px; color: #D8B4FE; margin-bottom: 8px;">
+            👤 <strong>Personal Brand Campaign:</strong> Content features a specific creator / streamer / artist.
+          </div>
+        `;
+      }
+
+      if (reqs.length > 0) {
+        reqListContainer.innerHTML = noticesHtml + reqs.map(req => `
+          <div class="req-item">
+            <span class="req-icon">✓</span>
+            <span>${escapeHtml(req)}</span>
+          </div>
+        `).join('');
+      } else {
+        reqListContainer.innerHTML = noticesHtml + `
+          <div style="font-size: 13px; color: var(--text-muted); padding: 4px 0;">
+            No specific restrictions listed. Refer to the brief text above.
+          </div>
+        `;
+      }
+
+      // Extract and Render attached documents & source assets
+      const extractedDocs = extractDocumentsAndLinks(c.description);
+      const directResources = Array.isArray(c.resources) ? c.resources.map(r => {
+        let type = 'Official Campaign Resource';
+        let icon = '🔗';
+        const urlLower = (r.url || '').toLowerCase();
+        const nameLower = (r.name || '').toLowerCase();
+
+        if (urlLower.includes('docs.google.com')) { type = 'Google Doc Strategy Brief'; icon = '📄'; }
+        else if (urlLower.includes('drive.google.com')) { type = 'Google Drive Assets Folder'; icon = '📁'; }
+        else if (urlLower.includes('notion.so') || urlLower.includes('notion.site')) { type = 'Notion Guidelines'; icon = '📝'; }
+        else if (urlLower.includes('dropbox.com')) { type = 'Dropbox Assets Folder'; icon = '📦'; }
+        else if (urlLower.includes('youtube.com') || urlLower.includes('youtu.be') || nameLower.includes('stream') || nameLower.includes('footage')) { type = 'Official Video & Footage Source'; icon = '🎬'; }
+        else if (nameLower.includes('audio') || nameLower.includes('sound') || nameLower.includes('song')) { type = 'Official Audio Track & Sound Hub'; icon = '🎵'; }
+        else if (urlLower.includes('discord.gg') || urlLower.includes('discord.com')) { type = 'Creator Discord Hub'; icon = '💬'; }
+        else if (urlLower.includes('whop.com') || urlLower.includes('contentrewards.com') || nameLower.includes('submission')) { type = 'Official Whop Hub & Assets'; icon = '⚡'; }
+        
+        return {
+          name: r.name || 'Campaign Resource',
+          url: r.url || '#',
+          type,
+          icon
+        };
+      }) : [];
+
+      // Combine both sources without duplicates
+      const seenUrls = new Set();
+      const allDocs = [];
+      [...directResources, ...extractedDocs].forEach(d => {
+        if (d.url && !seenUrls.has(d.url.toLowerCase())) {
+          seenUrls.add(d.url.toLowerCase());
+          allDocs.push(d);
+        }
+      });
+
+      const docsListContainer = document.getElementById('modalDocsList');
+
+      if (allDocs.length === 0) {
+        docsListContainer.innerHTML = `
+          <div class="no-docs-notice">
+            No external cloud files or download links attached to this brief.<br>
+            Please use the brief text and requirements above.
+          </div>
+        `;
+      } else {
+        docsListContainer.innerHTML = allDocs.map(doc => `
+          <div class="doc-row">
+            <div class="doc-left">
+              <span class="doc-icon">${doc.icon}</span>
+              <div class="doc-info">
+                <div class="doc-name">${escapeHtml(doc.name)}</div>
+                <div class="doc-type">${escapeHtml(doc.type)}</div>
+              </div>
+            </div>
+            <a href="${doc.url}" target="_blank" class="btn-doc-action" onclick="event.stopPropagation()">
+              Open ↗
+            </a>
+          </div>
+        `).join('');
+      }
+
+      modal.classList.add('active');
+    }
+
+    function closeDocsModal(e) {
+      if (!e || e.target === document.getElementById('docsModal') || e.target.classList.contains('docs-close-btn') || e.target.classList.contains('btn-docs-flat')) {
+        document.getElementById('docsModal').classList.remove('active');
+      }
+    }
+
+    function handleWhopClick(e, url) {
+      const targetUrl = url || (activeCampaignModal ? getWhopCampaignUrl(activeCampaignModal) : '#');
+      if (window.AndroidBridge && typeof window.AndroidBridge.openWhopCampaign === 'function') {
+        e.preventDefault();
+        window.AndroidBridge.openWhopCampaign(targetUrl);
+      }
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      const div = document.createElement('div');
+      div.innerText = text;
+      return div.innerHTML;
+    }
+
+    // --- Application Initialization ---
+    async function initApp() {
+      // 1. Initial render from bundled window.CAMPAIGNS_DATA and persistent archive
+      if (Array.isArray(window.CAMPAIGNS_DATA) && window.CAMPAIGNS_DATA.length > 0) {
+        rawCampaigns = window.CAMPAIGNS_DATA;
+        processCampaignsDiff(rawCampaigns);
+      }
+      rawArchived = loadStoredArchived();
+      updateDatasetCounters();
+      setupHorizontalScrollbars();
+      setupScrollFold();
+      applyCampaignFilters();
+      applyRemovedFilters();
+
+      // 2. Always fetch real-time fresh campaigns.json from server with cache-busting
+      try {
+        const res = await fetch('/campaigns.json?t=' + Date.now(), { cache: 'no-store' });
+        if (res.ok) {
+          const freshData = await res.json();
+          if (Array.isArray(freshData) && freshData.length > 0) {
+            rawCampaigns = freshData;
+            window.CAMPAIGNS_DATA = freshData;
+            processCampaignsDiff(rawCampaigns);
+            rawArchived = loadStoredArchived();
+            updateDatasetCounters();
+            applyCampaignFilters();
+            applyRemovedFilters();
+          }
+        }
+      } catch (e) {
+        console.warn('Using offline dataset fallback');
+      }
+
+      // 3. Live dynamic re-tick: updates relative ages and burn velocity countdowns every 60s
+      setInterval(() => {
+        applyCampaignFilters();
+      }, 60000);
+
+      // 4. Background auto-sync: polls Content Rewards every 2 minutes for fresh pool changes
+      setInterval(() => {
+        reloadDataset(true);
+      }, 120000);
+
+      // Initial greeting in Chat
+      setTimeout(() => {
+        if (document.getElementById('chatThread').children.length === 0) {
+          addAssistantMessage(`Hello! I'm your Content Rewards Copilot. I track live bounties across TikTok, Instagram Reels, and YouTube Shorts. Ask me about any campaign or tap a preset to get started.`);
+        }
+      }, 200);
+    }
+
+    document.addEventListener('DOMContentLoaded', initApp);
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      initApp();
+    }
+  </script>
+</body>
+</html>

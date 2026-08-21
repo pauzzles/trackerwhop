@@ -1,0 +1,48 @@
+name: Content Rewards 24/7 Cloud Monitor (5-Min Alerts)
+
+on:
+  schedule:
+    # Runs automatically every 5 minutes in GitHub's cloud
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allows manual 1-click test button in GitHub
+
+concurrency:
+  group: content-rewards-cloud-monitor
+  cancel-in-progress: true
+
+jobs:
+  scrape-and-notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: |
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Run Scraper & Alert Discord & Telegram
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          node monitor.js --once
+
+      - name: Commit & Update Seen Campaigns Dataset
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add seen_campaigns.json campaigns.json campaigns_data.js files/seen_campaigns.json files/campaigns.json || true
+          git commit -m "Auto-sync live campaign dataset [skip ci]" || echo "No changes"
+          git push origin main || echo "Push skipped"

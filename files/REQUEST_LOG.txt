@@ -1,0 +1,40 @@
+PROJECT REQUEST SUMMARY
+Content Rewards Campaign Tracker
+=================================
+
+Below is a clean record of what was requested, in the order it was asked.
+
+1. CAMPAIGN MATCHER TOOL
+   Build a tool based on https://contentrewards.com/discover that always
+   surfaces the best campaign to join, including newly posted ones, with
+   filters such as low budget and high budget.
+
+2. UPDATE FREQUENCY — CLARIFICATION
+   Question raised: since the source site updates daily, how would the
+   tool stay current — could the HTML simply be rebuilt from scratch each
+   day?
+
+3. REAL-TIME MONITORING
+   Correction/refinement of the above: the actual requirement is an
+   automatic check of the site every minute, so that new campaigns are
+   detected as soon as they're posted — not a daily manual rebuild.
+
+4. NOTIFICATION METHOD & HOSTING
+   - Alerts should be delivered via Telegram.
+   - The monitoring solution should run on something free.
+
+5. PROJECT SUMMARY FOR PORTABILITY
+   Produce a complete, specific summary of what has been built and what
+   is still needed, written so it can be handed to another AI assistant
+   with full context.
+
+6. DISCORD SUPPORT
+   Extend the alerting so it also works with Discord, not just Telegram.
+
+7. THIS DOCUMENT
+   A polished, plain-text version of the above requests, for reference
+   or for sharing elsewhere.
+
+---
+For the corresponding technical build (what was actually delivered for
+each item above), see PROJECT_SUMMARY.md in the same output folder.

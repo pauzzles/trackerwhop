@@ -1,0 +1,2561 @@
+<!DOCTYPE html>
+<script>
+  (function() {
+    const HASHED_KEY = '4d7e59fed4935122d95c3414e34cd2809b6ac07c41dcb913f848905234772201';
+    const STORAGE_KEY = 'cr_device_auth_hash';
+    const LEGACY_STORAGE_KEY = 'cr_device_access';
+
+    function sha256Sync(ascii) {
+      function rightRotate(value, amount) { return (value>>>amount) | (value<<(32 - amount)); }
+      var mathPow = Math.pow;
+      var maxWord = mathPow(2, 32);
+      var lengthProperty = 'length';
+      var i, j;
+      var result = '';
+      var words = [];
+      var asciiBitLength = ascii[lengthProperty]*8;
+      var hash = [];
+      var k = [];
+      var primeCounter = 0;
+      var isComposite = {};
+      for (var candidate = 2; primeCounter < 64; candidate++) {
+        if (!isComposite[candidate]) {
+          for (i = 0; i < 313; i += candidate) { isComposite[i] = candidate; }
+          hash[primeCounter] = (mathPow(candidate, .5)*maxWord)|0;
+          k[primeCounter++] = (mathPow(candidate, 1/3)*maxWord)|0;
+        }
+      }
+      hash = hash.slice(0, 8);
+      ascii += '\x80';
+      while (ascii[lengthProperty]%64 - 56) ascii += '\x00';
+      for (i = 0; i < ascii[lengthProperty]; i++) {
+        j = ascii.charCodeAt(i);
+        if (j>>8) return;
+        words[i>>2] |= j << ((3 - i)%4)*8;
+      }
+      words[words[lengthProperty]] = ((asciiBitLength/maxWord)|0);
+      words[words[lengthProperty]] = (asciiBitLength);
+      for (j = 0; j < words[lengthProperty];) {
+        var w = words.slice(j, j += 16);
+        var oldHash = hash;
+        hash = hash.slice(0, 8);
+        for (i = 0; i < 64; i++) {
+          var w15 = w[i - 15], w2 = w[i - 2];
+          var a = hash[0], e = hash[4];
+          var temp1 = hash[7]
+            + (rightRotate(e, 6) ^ rightRotate(e, 11) ^ rightRotate(e, 25))
+            + ((e&hash[5])^((~e)&hash[6]))
+            + k[i]
+            + (w[i] = (i < 16) ? w[i] : (
+                w[i - 16]
+                + (rightRotate(w15, 7) ^ rightRotate(w15, 18) ^ (w15>>>3))
+                + w[i - 7]
+                + (rightRotate(w2, 17) ^ rightRotate(w2, 19) ^ (w2>>>10))
+              )|0
+            );
+          var temp2 = (rightRotate(a, 2) ^ rightRotate(a, 13) ^ rightRotate(a, 22))
+            + ((a&hash[1])^(a&hash[2])^(hash[1]&hash[2]));
+          hash = [(temp1 + temp2)|0].concat(hash);
+          hash[4] = (hash[4] + temp1)|0;
+        }
+        for (i = 0; i < 8; i++) { hash[i] = (hash[i] + oldHash[i])|0; }
+      }
+      for (i = 0; i < 8; i++) {
+        for (i = 0; i < 8; i++) {
+          var hex = (hash[i]>>>0).toString(16);
+          result += ('00000000' + hex).slice(-8);
+        }
+      }
+      return result.slice(0, 64);
+    }
+
+    try {
+      const _p = new URLSearchParams(window.location.search);
+      const provided = _p.get('access');
+      if (provided) {
+        const computedHash = sha256Sync(provided.trim());
+        if (computedHash === HASHED_KEY) {
+          localStorage.setItem(STORAGE_KEY, computedHash);
+          _p.delete('access');
+          window.history.replaceState({}, '', window.location.pathname + (_p.toString() ? '?' + _p : ''));
+        }
+      }
+
+      // Legacy key upgrade check
+      const legacyVal = localStorage.getItem(LEGACY_STORAGE_KEY);
+      if (legacyVal && sha256Sync(legacyVal) === HASHED_KEY) {
+        localStorage.setItem(STORAGE_KEY, HASHED_KEY);
+        localStorage.removeItem(LEGACY_STORAGE_KEY);
+      }
+    } catch(e) {}
+
+    const _ok = localStorage.getItem(STORAGE_KEY) === HASHED_KEY;
+    document.write('<style id="_gate">html,body{display:none!important}</style>');
+
+    if (_ok) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var s = document.getElementById('_gate'); if (s) s.remove();
+      });
+    } else {
+      document.addEventListener('DOMContentLoaded', function() {
+        document.documentElement.style.display = '';
+        document.body.style.cssText = 'margin:0;background:#111;display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:system-ui,sans-serif;';
+        document.body.innerHTML = '<div style="text-align:center;user-select:none;"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="1.5" style="display:block;margin:0 auto 16px"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div style="font-size:13px;letter-spacing:.12em;color:#2a2a2a;">PRIVATE</div></div>';
+      });
+    }
+  })();
+</script>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL — Content Rewards Intelligence & Submission Tracker</title>
+<meta name="description" content="Real-time campaign discovery engine, freshness radar, personal clip submission pipeline, payout tracking, and webhook alerts for Content Rewards creators.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #090A0C;
+    --surface: #101216;
+    --card: #15181E;
+    --card-hover: #1C2028;
+    --border: #232730;
+    --border-hover: #343B4A;
+    --text: #F4F5F7;
+    --text-muted: #9BA1B0;
+    --text-dim: #646A7A;
+    --green: #2ED47A;
+    --green-glow: rgba(46, 212, 122, 0.25);
+    --green-bg: #10261A;
+    --green-dark: #3FE68F;
+    --cyan: #00F2FE;
+    --amber: #F5A524;
+    --amber-bg: #2B2010;
+    --rose: #FF4757;
+    --r-lg: 14px;
+    --r: 10px;
+    --r-sm: 6px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.35);
+    --shadow-lg: 0 12px 32px rgba(0,0,0,0.5);
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+    padding-bottom: 100px;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  button, input, select { font-family: inherit; }
+
+  #app { max-width: 1320px; margin: 0 auto; padding: 0 24px; }
+  .app-inner { max-width: 1320px; margin: 0 auto; padding: 0 24px 100px; }
+
+  /* ---- Header ---- */
+  header {
+    padding: 24px 0 20px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .brand-group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .brand-badge {
+    background: var(--green);
+    color: #051209;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 4px 9px;
+    border-radius: var(--r-sm);
+    letter-spacing: -0.02em;
+    box-shadow: 0 0 16px var(--green-glow);
+  }
+  .brand-title {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .brand-title span { color: var(--green-dark); }
+
+  .live-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 5px 12px;
+    border-radius: 999px;
+  }
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 10px var(--green);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+  .header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-tabs {
+    display: flex;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 3px;
+    gap: 2px;
+  }
+  .nav-tab {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 16px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .nav-tab:hover { color: var(--text); }
+  .nav-tab.active {
+    background: var(--card-hover);
+    color: var(--green-dark);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  }
+
+  .btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn:hover { border-color: var(--border-hover); background: var(--card-hover); }
+  .btn-primary {
+    background: var(--green);
+    border-color: var(--green);
+    color: #041409;
+    font-weight: 700;
+  }
+  .btn-primary:hover { background: var(--green-dark); box-shadow: 0 0 16px var(--green-glow); }
+  .btn-webhook {
+    background: rgba(46, 212, 122, 0.1);
+    border-color: rgba(46, 212, 122, 0.3);
+    color: var(--green-dark);
+  }
+  .btn-webhook:hover { background: var(--green); color: #041409; }
+
+  .btn-refresh-hero {
+    background: linear-gradient(135deg, #00F2FE 0%, #4FACFE 100%);
+    border: none;
+    color: #04141d;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 11px 22px;
+    border-radius: var(--r);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 20px rgba(0, 242, 254, 0.35);
+    white-space: nowrap;
+    letter-spacing: -0.2px;
+  }
+  .btn-refresh-hero:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 28px rgba(0, 242, 254, 0.55);
+    filter: brightness(1.08);
+  }
+  .btn-refresh-hero:active {
+    transform: translateY(0) scale(0.98);
+  }
+  .btn-refresh-hero .spin-icon, .btn-refresh-header .spin-icon {
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+  }
+  .btn-refresh-hero.refreshing .spin-icon, .btn-refresh-header.refreshing .spin-icon {
+    animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+  .btn-refresh-header {
+    background: rgba(0, 242, 254, 0.12);
+    border: 1px solid rgba(0, 242, 254, 0.3);
+    color: var(--cyan);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn-refresh-header:hover {
+    background: var(--cyan);
+    color: #04141d;
+    box-shadow: 0 0 16px rgba(0, 242, 254, 0.4);
+  }
+
+  /* ---- Controls Panel ---- */
+  .controls-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 20px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .search-row { display: flex; gap: 12px; }
+  .search-input {
+    flex: 1;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: var(--r);
+    padding: 12px 16px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.15s ease;
+  }
+  .search-input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(46,212,122,0.12); }
+  .search-input::placeholder { color: var(--text-dim); }
+
+  .filter-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .filter-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    min-width: 90px;
+  }
+  .pill-group { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pill {
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 6px 13px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .pill:hover { border-color: var(--border-hover); color: var(--text); }
+  .pill.active {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
+    font-weight: 700;
+  }
+
+  /* ---- Dropdown Controls (contentrewards.com style) ---- */
+  .discover-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    margin-top: 10px;
+  }
+  .dd-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease;
+  }
+  .dd-btn:hover, .dd-btn.active-dropdown {
+    background: var(--card-hover);
+    color: var(--text);
+    border-color: var(--border-hover);
+  }
+  .dd-caret {
+    font-size: 9px;
+    color: var(--text-dim);
+    transition: transform 0.2s ease;
+    display: inline-block;
+  }
+  .dd-wrapper.open .dd-caret {
+    transform: rotate(180deg);
+  }
+  .dd-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 210px;
+    background: #14171F;
+    border: 1px solid #282E3D;
+    border-radius: 14px;
+    padding: 6px;
+    box-shadow: 0 16px 36px rgba(0,0,0,0.65);
+    z-index: 120;
+    display: none;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .dd-wrapper.open .dd-menu {
+    display: flex;
+  }
+  .dd-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-muted);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.12s ease;
+  }
+  .dd-item:hover {
+    background: #1E2330;
+    color: var(--text);
+  }
+  .dd-item.selected {
+    color: #FFFFFF;
+    font-weight: 700;
+    background: rgba(255,255,255,0.06);
+  }
+  .dd-check {
+    display: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 11px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  .dd-item.selected .dd-check {
+    display: inline-flex;
+  }
+
+  /* ---- Hero "Best Match" ---- */
+  .section-label {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 12px;
+  }
+  .hero-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-card::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(46,212,122,0.06), transparent 70%);
+    pointer-events: none;
+  }
+  .hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .hero-badge-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .badge-best {
+    font-size: 10.5px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--green);
+    color: #041409;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .badge-cat {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--surface);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+  .hero-title {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    max-width: 750px;
+    cursor: pointer;
+  }
+  .hero-agency { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+  .hero-desc {
+    font-size: 13.5px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-width: 800px;
+    margin-top: 8px;
+  }
+
+  .hero-score-box {
+    text-align: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 14px 20px;
+    min-width: 110px;
+  }
+  .hero-score-num { font-size: 32px; font-weight: 800; color: var(--green-dark); line-height: 1; }
+  .hero-score-lbl { font-size: 10px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; margin-top: 4px; }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .stat-box { display: flex; flex-direction: column; gap: 2px; }
+  .stat-val { font-size: 16px; font-weight: 700; }
+  .stat-val.green { color: var(--green-dark); }
+  .stat-val.amber { color: var(--amber); }
+  .stat-lbl { font-size: 11px; color: var(--text-dim); }
+
+  .hero-bar { margin-top: 4px; }
+  .bar-track { height: 6px; background: var(--surface); border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
+  .bar-fill { height: 100%; background: linear-gradient(90deg, var(--green), var(--cyan)); border-radius: 999px; }
+  .bar-meta { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--text-dim); margin-top: 6px; }
+
+  .hero-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
+
+  /* ---- Campaigns Grid ---- */
+  .grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+  }
+  .results-count { font-size: 12.5px; color: var(--text-dim); }
+
+  .campaigns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: var(--shadow);
+    transition: all 0.15s ease;
+  }
+  .card:hover {
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+    background: var(--card-hover);
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-badges { display: flex; gap: 6px; align-items: center; }
+  .tag-cat {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--surface);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+  .tag-fresh {
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 3px 7px;
+    border-radius: 4px;
+    background: var(--green-bg);
+    color: var(--green-dark);
+  }
+  .tag-age { font-size: 11.5px; color: var(--text-dim); }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--text);
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 40px;
+  }
+  .card-title:hover { color: var(--green-dark); }
+  .card-agency { font-size: 12px; color: var(--text-dim); margin-top: -6px; }
+
+  .card-desc {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .card-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r-sm);
+    padding: 8px 10px;
+  }
+  .metric-item { display: flex; flex-direction: column; }
+  .metric-item .val { font-size: 13px; font-weight: 700; font-family: var(--font-mono); }
+  .metric-item .val.green { color: var(--green-dark); }
+  .metric-item .lbl { font-size: 9.5px; color: var(--text-dim); text-transform: uppercase; }
+
+  .card-bar {
+    height: 4px;
+    background: var(--surface);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .card-bar-fill {
+    height: 100%;
+    background: var(--text-dim);
+    border-radius: 999px;
+  }
+  .card-bar-fill.active-fill { background: var(--green); }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    gap: 8px;
+  }
+  .card-score { font-size: 11.5px; font-weight: 700; color: var(--text-dim); }
+  .card-actions { display: flex; gap: 8px; align-items: center; }
+  .btn-sm {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    transition: all 0.15s ease;
+  }
+  .btn-sm:hover { border-color: var(--border-hover); background: var(--card-hover); }
+  .btn-sm.join {
+    background: var(--green);
+    border-color: var(--green);
+    color: #041409;
+    font-weight: 700;
+  }
+  .btn-sm.join:hover { background: var(--green-dark); }
+
+  /* ---- Submission Tracker Table ---- */
+  .tracker-panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 24px;
+    box-shadow: var(--shadow);
+  }
+  .tracker-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .table-responsive { width: 100%; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: left; }
+  th {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  td {
+    padding: 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  tr:hover td { background: var(--card-hover); }
+
+  .select-status {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: var(--r-sm);
+    outline: none;
+  }
+  .input-views {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: var(--r-sm);
+    width: 100px;
+    outline: none;
+  }
+
+  /* ---- Modals ---- */
+  .modal-backdrop {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+  .modal-backdrop.hidden { display: none; }
+  .modal-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 26px;
+    max-width: 580px;
+    width: 100%;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .modal-close {
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .modal-close:hover { color: var(--text); }
+  .modal-input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: var(--r-sm);
+    padding: 9px 12px;
+    font-size: 13px;
+    outline: none;
+    margin-top: 4px;
+  }
+  .modal-input:focus { border-color: var(--green); }
+
+  /* ---- Toast Notification ---- */
+  #toast {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    background: var(--surface);
+    border: 1px solid var(--green);
+    color: var(--text);
+    padding: 12px 20px;
+    border-radius: var(--r);
+    font-size: 13.5px;
+    font-weight: 600;
+    box-shadow: var(--shadow-lg);
+    z-index: 9999;
+    transition: all 0.2s ease;
+    opacity: 0;
+    transform: translateY(12px);
+    pointer-events: none;
+  }
+  #toast.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 14px;
+    border: 1px dashed var(--border);
+    border-radius: var(--r);
+  }
+
+  /* ---- Camp Checker ---- */
+  .checker-hero {
+    background: linear-gradient(135deg, rgba(46,212,122,0.08) 0%, rgba(0,242,254,0.04) 100%);
+    border: 1px solid rgba(46,212,122,0.2);
+    border-radius: var(--r-lg);
+    padding: 36px 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .checker-hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 280px; height: 280px;
+    background: radial-gradient(circle, rgba(46,212,122,0.12), transparent 70%);
+    pointer-events: none;
+  }
+  .checker-hero-title { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; }
+  .checker-hero-title span { color: var(--green-dark); }
+  .checker-hero-sub { font-size: 13.5px; color: var(--text-muted); margin-top: -10px; }
+  .checker-search-row { display: flex; gap: 12px; align-items: center; }
+  .checker-search-input {
+    flex: 1;
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    color: var(--text);
+    border-radius: var(--r);
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.2s ease;
+    font-family: var(--font-sans);
+  }
+  .checker-search-input:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 4px rgba(46,212,122,0.14);
+  }
+  .checker-search-input::placeholder { color: var(--text-dim); }
+  .btn-check {
+    background: var(--green);
+    border: none;
+    color: #041409;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 14px 28px;
+    border-radius: var(--r);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+  }
+  .btn-check:hover {
+    background: var(--green-dark);
+    box-shadow: 0 0 24px var(--green-glow);
+    transform: translateY(-1px);
+  }
+  .checker-hint { font-size: 12px; color: var(--text-dim); margin-top: -8px; }
+
+  .checker-results-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 16px; flex-wrap: wrap; gap: 10px;
+  }
+  .checker-results-title { font-size: 13px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; }
+  .checker-results-meta { font-size: 12px; color: var(--text-dim); }
+
+  .checker-summary {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--r-lg);
+    padding: 24px; margin-bottom: 24px; box-shadow: var(--shadow);
+  }
+  .checker-summary-label { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--text-dim); letter-spacing: 0.06em; margin-bottom: 16px; }
+  .checker-summary-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; }
+  .checker-stat {
+    display: flex; flex-direction: column; gap: 3px;
+    padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+  }
+  .checker-stat-val { font-size: 22px; font-weight: 800; font-family: var(--font-mono); line-height: 1.1; }
+  .checker-stat-val.green { color: var(--green-dark); }
+  .checker-stat-val.amber { color: var(--amber); }
+  .checker-stat-val.cyan { color: var(--cyan); }
+  .checker-stat-val.rose { color: var(--rose); }
+  .checker-stat-lbl { font-size: 10.5px; color: var(--text-dim); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .checker-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; }
+  .checker-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
+    padding: 20px; display: flex; flex-direction: column; gap: 14px;
+    box-shadow: var(--shadow); transition: all 0.15s ease; position: relative; overflow: hidden;
+  }
+  .checker-card::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%;
+    background: linear-gradient(180deg, var(--green), var(--cyan)); opacity: 0; transition: opacity 0.2s;
+  }
+  .checker-card:hover::before { opacity: 1; }
+  .checker-card:hover { border-color: var(--border-hover); transform: translateY(-2px); box-shadow: var(--shadow-lg); background: var(--card-hover); }
+  .checker-card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .checker-card-title { font-size: 15px; font-weight: 800; line-height: 1.3; flex: 1; }
+  .checker-card-agency { font-size: 11.5px; color: var(--text-dim); margin-top: 2px; }
+  .checker-fill-badge { font-size: 12px; font-weight: 800; padding: 4px 10px; border-radius: 6px; white-space: nowrap; flex-shrink: 0; }
+  .checker-fill-badge.low { background: rgba(46,212,122,0.15); color: var(--green-dark); }
+  .checker-fill-badge.mid { background: rgba(245,165,36,0.15); color: var(--amber); }
+  .checker-fill-badge.high { background: rgba(255,71,87,0.15); color: var(--rose); }
+
+  .checker-card-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .checker-metric {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-sm);
+    padding: 10px 12px; display: flex; flex-direction: column; gap: 2px;
+  }
+  .checker-metric-val { font-size: 14px; font-weight: 700; font-family: var(--font-mono); }
+  .checker-metric-val.green { color: var(--green-dark); }
+  .checker-metric-val.amber { color: var(--amber); }
+  .checker-metric-val.cyan { color: var(--cyan); }
+  .checker-metric-lbl { font-size: 10px; color: var(--text-dim); text-transform: uppercase; font-weight: 600; letter-spacing: 0.04em; }
+
+  .checker-card-bar { display: flex; flex-direction: column; gap: 5px; }
+  .checker-bar-track { height: 6px; background: var(--surface); border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
+  .checker-bar-fill { height: 100%; border-radius: 999px; transition: width 0.6s ease; }
+  .checker-bar-fill.low { background: linear-gradient(90deg, var(--green), var(--cyan)); }
+  .checker-bar-fill.mid { background: linear-gradient(90deg, var(--amber), #f77f00); }
+  .checker-bar-fill.high { background: linear-gradient(90deg, var(--rose), #c0392b); }
+  .checker-bar-meta { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim); }
+
+  .checker-platforms { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .checker-plat-tag {
+    font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px;
+    background: rgba(0,242,254,0.08); border: 1px solid rgba(0,242,254,0.25); color: var(--cyan);
+  }
+  .checker-card-footer {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-top: 10px; border-top: 1px solid var(--border);
+  }
+  .checker-age { font-size: 11.5px; color: var(--text-dim); }
+  .checker-card-actions { display: flex; gap: 8px; }
+
+  .checker-empty {
+    text-align: center; padding: 60px 20px; color: var(--text-dim);
+    font-size: 14px; border: 1px dashed var(--border); border-radius: var(--r-lg);
+  }
+  .checker-empty .icon { font-size: 40px; margin-bottom: 12px; display: block; }
+
+  @media (max-width: 768px) {
+    .hero-top { flex-direction: column; }
+    .hero-score-box { align-self: flex-start; }
+    .campaigns-grid { grid-template-columns: 1fr; }
+    .checker-card-metrics { grid-template-columns: repeat(2, 1fr); }
+    .checker-grid { grid-template-columns: 1fr; }
+    .checker-summary-stats { grid-template-columns: repeat(2, 1fr); }
+    .checker-search-row { flex-direction: column; }
+    .btn-check { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <div class="header-top">
+      <div class="brand-group">
+        <div class="brand-badge">S</div>
+        <h1 class="brand-title">Signal <span>// Content Rewards</span></h1>
+        <div class="live-pill"><span class="live-dot"></span> <span id="header-active-count">504</span> Active Campaigns</div>
+      </div>
+
+      <div class="header-actions">
+        <div class="nav-tabs">
+          <button class="nav-tab active" id="tab-discover">⚡ Discovery Feed</button>
+          <button class="nav-tab" id="tab-tracker">📋 Submission Tracker (<span id="tracker-count">0</span>)</button>
+          <button class="nav-tab" id="tab-checker">🔍 Camp Checker</button>
+        </div>
+        <button class="btn-refresh-header" id="btn-header-refresh" title="Sync live campaigns from contentrewards.com">
+          <span class="spin-icon">🔄</span> Sync Live
+        </button>
+        <button class="btn btn-webhook" id="btn-open-webhook">🔔 Test Webhook</button>
+        <button class="btn" id="btn-export-csv">📊 Export CSV</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- VIEW: DISCOVERY FEED -->
+  <div id="view-discover">
+    <!-- Filter Controls -->
+    <div class="controls-panel">
+      <div class="search-row" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+        <input type="text" class="search-input" id="search-input" placeholder="Search by brand, niche, campaign title, or keyword..." style="flex:1;min-width:280px;">
+        <button class="btn-refresh-hero" id="btn-home-refresh" title="Sync live campaigns from contentrewards.com">
+          <span class="spin-icon">🔄</span>
+          <span class="btn-label">Refresh Live Feed</span>
+        </button>
+      </div>
+
+      <!-- Dropdown Toolbar (matching contentrewards.com/discover) -->
+      <div class="discover-toolbar" style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-top:12px; padding:8px 14px; background:var(--surface); border:1px solid var(--border); border-radius:999px;">
+        <button class="btn-clear-filters" id="btn-clear-all" style="background:transparent; border:none; color:var(--text-dim); font-size:12.5px; font-weight:600; cursor:pointer; padding:5px 10px; display:flex; align-items:center; gap:4px;">
+          <span>✕</span> Clear
+        </button>
+
+        <div style="height:16px; width:1px; background:var(--border);"></div>
+
+        <!-- Dropdown: Status -->
+        <div class="dd-wrapper" id="dd-wrapper-status" style="position:relative;">
+          <button class="dd-btn" id="dd-btn-status">
+            <span id="dd-label-status">Status</span>
+            <span class="dd-caret">▼</span>
+          </button>
+          <div class="dd-menu" id="dd-menu-status">
+            <div class="dd-item selected" data-status="all"><span>All Statuses</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-status="active"><span>Active</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-status="fresh"><span>Fresh Drops (24h)</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-status="highcpm"><span>High Pay ($2+/1K)</span> <span class="dd-check">✓</span></div>
+          </div>
+        </div>
+
+        <!-- Dropdown: Category -->
+        <div class="dd-wrapper" id="dd-wrapper-category" style="position:relative;">
+          <button class="dd-btn" id="dd-btn-category">
+            <span id="dd-label-category">Category</span>
+            <span class="dd-caret">▼</span>
+          </button>
+          <div class="dd-menu" id="dd-menu-category">
+            <div class="dd-item selected" data-cat="all"><span>All Categories</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Music"><span>Music</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Gaming"><span>Gaming</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Entertainment"><span>Entertainment</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Sports"><span>Sports</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Education"><span>Education</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Lifestyle"><span>Lifestyle</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-cat="Technology"><span>Technology</span> <span class="dd-check">✓</span></div>
+          </div>
+        </div>
+
+        <!-- Dropdown: Content -->
+        <div class="dd-wrapper" id="dd-wrapper-content" style="position:relative;">
+          <button class="dd-btn" id="dd-btn-content">
+            <span id="dd-label-content">Content</span>
+            <span class="dd-caret">▼</span>
+          </button>
+          <div class="dd-menu" id="dd-menu-content">
+            <div class="dd-item selected" data-content="all"><span>All Content types</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-content="Clipping"><span>Clipping</span> <span class="dd-check">✓</span></div>
+            <div class="dd-item" data-content="UGC"><span>UGC</span> <span class="dd-check">✓</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Home Live Status Bar -->
+      <div class="home-status-bar" style="display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:9px 16px;background:rgba(0,242,254,0.05);border:1px solid rgba(0,242,254,0.18);border-radius:var(--r-sm);font-size:12px;gap:12px;flex-wrap:wrap;">
+        <span style="display:flex;align-items:center;gap:8px;flex:1;">
+          <span class="live-dot"></span>
+          <span style="color:var(--text);font-weight:600;" id="home-status-text">
+            Live Feed &bull; <span style="color:var(--cyan);font-weight:700;" id="home-campaign-count">504</span> active campaigns synced
+          </span>
+        </span>
+        <span style="display:flex;align-items:center;gap:12px;color:var(--text-dim);">
+          <span id="home-last-updated" style="font-size:11.5px;">Last checked: Just now</span>
+          <span style="color:var(--border-hover);">|</span>
+          <a href="https://contentrewards.com/discover" target="_blank" style="color:var(--cyan);font-weight:600;text-decoration:none;">contentrewards.com ↗</a>
+        </span>
+      </div>
+
+      <div class="filter-grid">
+        <div class="filter-row">
+          <div class="filter-label">Optimize for</div>
+          <div class="pill-group" id="pills-priority">
+            <span class="pill active" data-p="balanced">Balanced</span>
+            <span class="pill" data-p="pay">Highest Pay ($ CPM)</span>
+            <span class="pill" data-p="budget">Biggest Budget Left</span>
+            <span class="pill" data-p="fresh">Newest Drops (24h)</span>
+            <span class="pill" data-p="easy">Low Competition</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Budget</div>
+          <div class="pill-group" id="pills-budget">
+            <span class="pill active" data-b="any">Any</span>
+            <span class="pill" data-b="low">Under $3K</span>
+            <span class="pill" data-b="mid">$3K–$15K</span>
+            <span class="pill" data-b="high">$15K+</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Category</div>
+          <div class="pill-group" id="pills-category">
+            <span class="pill active" data-c="all">All</span>
+            <span class="pill" data-c="Music">Music</span>
+            <span class="pill" data-c="Gaming">Gaming</span>
+            <span class="pill" data-c="Entertainment">Entertainment</span>
+            <span class="pill" data-c="Sports">Sports</span>
+            <span class="pill" data-c="Education">Education</span>
+            <span class="pill" data-c="Lifestyle">Lifestyle</span>
+            <span class="pill" data-c="Technology">Technology</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Content Type</div>
+          <div class="pill-group" id="pills-contenttype">
+            <span class="pill active" data-ct="all">All Types</span>
+            <span class="pill" data-ct="Clipping">📹 Clipping</span>
+            <span class="pill" data-ct="UGC">🎨 UGC</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Platform</div>
+          <div class="pill-group" id="pills-platform">
+            <span class="pill active" data-pl="all">All Platforms</span>
+            <span class="pill" data-pl="tiktok">🎵 TikTok</span>
+            <span class="pill" data-pl="instagram">📸 Instagram</span>
+            <span class="pill" data-pl="youtube">▶ YouTube</span>
+            <span class="pill" data-pl="x">✖ X (Twitter)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Match -->
+    <div class="section-label">Best Match Right Now</div>
+    <div class="hero-card" id="hero-card">
+      <div class="hero-top">
+        <div>
+          <div class="hero-badge-row">
+            <span class="badge-best">Best Match</span>
+            <span class="badge-cat" id="hero-cat">Entertainment</span>
+            <span class="tag-fresh" id="hero-fresh">Fresh Drop</span>
+          </div>
+          <h2 class="hero-title" id="hero-title" onclick="openHeroBlueprint()">Campaign Title</h2>
+          <div class="hero-agency" id="hero-agency">Agency Name • Posted 1d ago</div>
+          <p class="hero-desc" id="hero-desc">Campaign brief and guidelines...</p>
+        </div>
+
+        <div class="hero-score-box">
+          <div class="hero-score-num" id="hero-score">98</div>
+          <div class="hero-score-lbl">Match Score</div>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-val green" id="hero-cpm">$1.50 / 1K</div>
+          <div class="stat-lbl">CPM Rate</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" id="hero-remaining">$15,653 left</div>
+          <div class="stat-lbl">Remaining Pool</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" id="hero-total">$20,000</div>
+          <div class="stat-lbl">Total Budget</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val amber" id="hero-claim">21.7%</div>
+          <div class="stat-lbl">Claimed</div>
+        </div>
+      </div>
+
+      <div class="hero-bar">
+        <div class="bar-track"><div class="bar-fill" id="hero-bar-fill" style="width: 21.7%"></div></div>
+        <div class="bar-meta">
+          <span id="hero-spent-meta">$4,347 spent</span>
+          <span id="hero-total-meta">$20,000 total</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="btn-hero-join">🚀 Join Campaign ↗</button>
+        <button class="btn" id="btn-hero-blueprint">🎬 View Blueprint & Brief</button>
+        <button class="btn" id="btn-hero-track">+ Track in Pipeline</button>
+      </div>
+    </div>
+
+    <!-- Campaigns Grid -->
+    <div class="grid-header">
+      <div class="section-label" style="margin-bottom:0;">All Active Campaigns</div>
+      <div class="results-count" id="results-count">504 campaigns</div>
+    </div>
+    <div class="campaigns-grid" id="campaigns-grid"></div>
+    <div class="empty-state" id="empty-state" style="display:none;">No campaigns match your filters. Try widening your search or clearing a filter chip.</div>
+  </div>
+
+  <!-- VIEW: SUBMISSION TRACKER -->
+  <div id="view-tracker" style="display:none;">
+    <div class="tracker-panel">
+      <div class="tracker-head">
+        <div>
+          <h2 style="font-size:18px; font-weight:800;">📋 Personal Clip & Submission Pipeline</h2>
+          <div style="font-size:12.5px; color:var(--text-muted); margin-top:2px;">Track your submitted TikTok/Reels links, view counts, and live estimated payouts.</div>
+        </div>
+        <button class="btn btn-primary" id="btn-add-clip">+ Log New Clip</button>
+      </div>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Campaign / Agency</th>
+              <th>Pipeline Status</th>
+              <th>CPM Rate</th>
+              <th>View Count</th>
+              <th>Estimated Payout</th>
+              <th>Clip Link</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="tracker-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- VIEW: CAMP CHECKER -->
+  <div id="view-checker" style="display:none;" class="app-inner">
+    <div class="checker-hero">
+      <div>
+        <h2 class="checker-hero-title">🔍 Camp <span>Checker</span></h2>
+        <p class="checker-hero-sub">Type a campaign name to see live submissions, money spent, remaining budget &amp; more.</p>
+      </div>
+      <div class="checker-search-row">
+        <input
+          type="text"
+          class="checker-search-input"
+          id="checker-input"
+          placeholder="e.g. ALMA CHERIFF, Roobet, Double Coverage..."
+          autocomplete="off"
+        >
+        <button class="btn-check" id="btn-do-check">Check Camp ↗</button>
+        <button class="btn-check" id="btn-checker-refresh" style="background:var(--surface);border:1.5px solid var(--border);color:var(--text);white-space:nowrap;" title="Re-fetch latest data from monitor">🔄 Refresh</button>
+      </div>
+
+      <!-- Data source status bar -->
+      <div id="checker-source-bar" style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);font-size:12px;">
+        <span style="display:flex;align-items:center;gap:6px;">
+          <span id="checker-src-dot" style="width:8px;height:8px;border-radius:50%;background:var(--text-dim);display:inline-block;"></span>
+          <span id="checker-src-label" style="color:var(--text-dim);">Loading data from monitor...</span>
+        </span>
+        <span style="color:var(--border-hover);">|</span>
+        <span style="color:var(--text-dim);">Source: <a href="https://contentrewards.com/discover" target="_blank" style="color:var(--cyan);font-weight:600;">contentrewards.com/discover</a></span>
+        <span style="color:var(--border-hover);">|</span>
+        <button id="btn-config-railway-url" style="background:transparent;border:none;color:var(--cyan);font-size:12px;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;">⚙️ Railway API URL</button>
+      </div>
+    </div>
+    <div id="checker-results-area"></div>
+  </div>
+
+<!-- MODAL: CAMPAIGN BLUEPRINT -->
+<div class="modal-backdrop hidden" id="modal-blueprint">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <span class="badge-cat" id="bp-cat">Category</span>
+        <h3 style="font-size:18px; font-weight:800; margin-top:6px;" id="bp-title">Campaign Details</h3>
+        <div style="font-size:12px; color:var(--text-dim);" id="bp-agency">Agency • Posted</div>
+      </div>
+      <button class="modal-close" id="btn-close-bp">×</button>
+    </div>
+
+    <div class="hero-stats" style="padding-top:0; border-top:none;">
+      <div class="stat-box">
+        <div class="stat-val green" id="bp-cpm">$1.50 / 1K</div>
+        <div class="stat-lbl">CPM Rate</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="bp-remaining">$0</div>
+        <div class="stat-lbl">Remaining Pool</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="bp-total">$0</div>
+        <div class="stat-lbl">Total Budget</div>
+      </div>
+    </div>
+
+    <div id="bp-platforms-row" style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:2px;"></div>
+
+    <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--r); padding:14px;">
+      <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:var(--cyan); margin-bottom:8px;">📋 Creative Brief & Instructions</div>
+      <div style="font-size:13px; color:var(--text-muted); line-height:1.7; white-space:pre-line; word-break:break-word;" id="bp-desc"></div>
+    </div>
+
+    <div id="bp-doc-links" style="display:none; flex-direction:column; gap:8px;"></div>
+
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;">
+      <button class="btn btn-primary" id="bp-btn-join" style="flex:1;">🚀 Join Campaign ↗</button>
+      <button class="btn" id="bp-btn-track" style="flex:1;">+ Track in Pipeline</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: LOG CLIP -->
+<div class="modal-backdrop hidden" id="modal-log-clip">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 style="font-size:18px; font-weight:800;">Log Clip Submission</h3>
+      <button class="modal-close" id="btn-close-log">×</button>
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Campaign Title</label>
+      <input type="text" class="modal-input" id="log-title" placeholder="e.g. Roobet UGC or DoorDash">
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Agency / Brand</label>
+      <input type="text" class="modal-input" id="log-agency" placeholder="e.g. Clip Farm">
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+      <div>
+        <label style="font-size:12px; color:var(--text-muted);">CPM Rate ($)</label>
+        <input type="number" step="0.1" class="modal-input" id="log-cpm" value="1.50">
+      </div>
+      <div>
+        <label style="font-size:12px; color:var(--text-muted);">Pipeline Status</label>
+        <select class="modal-input" id="log-status">
+          <option value="joined">🔖 Joined</option>
+          <option value="submitted">⏳ Submitted</option>
+          <option value="approved">✅ Approved</option>
+          <option value="rejected">❌ Rejected</option>
+          <option value="completed">🏁 Completed</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Clip URL (TikTok / Reels / Shorts)</label>
+      <input type="url" class="modal-input" id="log-url" placeholder="https://www.tiktok.com/@creator/video/...">
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Logged View Count</label>
+      <input type="number" class="modal-input" id="log-views" value="0">
+    </div>
+
+    <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:8px;">
+      <button class="btn" id="btn-cancel-log">Cancel</button>
+      <button class="btn btn-primary" id="btn-save-log">Save Entry</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: WEBHOOK MANAGER & TESTER -->
+<div class="modal-backdrop hidden" id="modal-webhook">
+  <div class="modal-box" style="max-width:580px;">
+    <div class="modal-header">
+      <h3 style="font-size:18px; font-weight:800; display:flex; align-items:center; gap:8px;">
+        <span style="color:var(--cyan);">🔔</span> Discord Webhook & Category Radar Config
+      </h3>
+      <button class="modal-close" id="btn-close-webhook">×</button>
+    </div>
+    <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px;">
+      Configure live alert rules for your Discord channel. Select which categories and content types trigger automatic Discord notifications.
+    </p>
+
+    <div style="margin-bottom:14px;">
+      <label style="font-size:12px; font-weight:700; color:var(--text-muted); display:block; margin-bottom:4px;">Discord Webhook URL</label>
+      <input type="text" class="modal-input" id="wh-discord-url" placeholder="https://discord.com/api/webhooks/..." value="">
+    </div>
+
+    <!-- Category Webhook Filters -->
+    <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--r); padding:12px; margin-bottom:12px;">
+      <div style="font-size:12px; font-weight:700; color:var(--cyan); margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+        <span>🏷️ Category Filters for Discord Alerts</span>
+        <button id="btn-toggle-all-cats" style="background:none; border:none; color:var(--text-dim); font-size:11px; cursor:pointer; text-decoration:underline;">Select All</button>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; font-size:12.5px;" id="wh-categories-group">
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Music" checked> Music</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Gaming" checked> Gaming</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Entertainment" checked> Entertainment</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Sports" checked> Sports</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Education" checked> Education</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Lifestyle" checked> Lifestyle</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Technology" checked> Technology</label>
+      </div>
+    </div>
+
+    <!-- Content Type Webhook Filters -->
+    <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--r); padding:12px; margin-bottom:14px;">
+      <div style="font-size:12px; font-weight:700; color:var(--cyan); margin-bottom:8px;">📹 Content Type Filters</div>
+      <div style="display:flex; gap:16px; font-size:12.5px;" id="wh-types-group">
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="Clipping" checked> 📹 Clipping (Podcasts, edits)</label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" value="UGC" checked> 🎨 UGC (Face-cam, POV)</label>
+      </div>
+    </div>
+
+    <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+      <button class="btn btn-primary" id="btn-save-webhook-config" style="flex:1;">💾 Save Webhook Settings</button>
+      <button class="btn" id="btn-send-webhook" style="flex:1; background:rgba(0,242,254,0.1); border:1px solid rgba(0,242,254,0.3); color:var(--cyan);">🚀 Send Test Alert</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="campaigns_data.js"></script>
+<script>
+  let CAMPAIGNS = window.CAMPAIGNS_DATA || [];
+  const TRACKER_KEY = "signal_tracker_items_v2";
+  let trackerItems = JSON.parse(localStorage.getItem(TRACKER_KEY) || "[]");
+
+  let activePriority = "balanced";
+  let activeBudget = "any";
+  let activeCategory = "all";
+  let activeContentType = "all";
+  let activeStatus = "all";
+  let activePlatform = "all";
+  let searchQuery = "";
+  let currentHero = null;
+  let activeModalCampaign = null;
+
+  function showToast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(() => t.classList.remove("show"), 3500);
+  }
+
+  function saveTracker() {
+    localStorage.setItem(TRACKER_KEY, JSON.stringify(trackerItems));
+    document.getElementById("tracker-count").textContent = trackerItems.length;
+    renderTracker();
+  }
+
+  function escapeQuotes(str) {
+    return (str || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+  }
+
+  function calculateScore(c) {
+    const remaining = Math.max(0, c.total - c.spent);
+    let s = 50;
+    s += Math.min(30, c.cpm * 10);
+    s += Math.min(20, (remaining / 10000) * 10);
+    if (c.age && (c.age.includes('m') || c.age.includes('h') || c.age === '1d')) s += 15;
+    return Math.round(s);
+  }
+
+  function renderDiscovery() {
+    let list = CAMPAIGNS.filter(c => {
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const mTitle = (c.title || '').toLowerCase().includes(q);
+        const mAgency = (c.agency || '').toLowerCase().includes(q);
+        const mCat = (c.category || '').toLowerCase().includes(q);
+        const mType = (c.contentType || '').toLowerCase().includes(q);
+        if (!mTitle && !mAgency && !mCat && !mType) return false;
+      }
+
+      if (activeCategory !== "all") {
+        const cCat = (c.category || '').toLowerCase();
+        const aCat = activeCategory.toLowerCase();
+        if (cCat !== aCat && !cCat.includes(aCat)) return false;
+      }
+
+      if (activeContentType !== "all") {
+        const cType = (c.contentType || 'Clipping').toLowerCase();
+        const aType = activeContentType.toLowerCase();
+        if (cType !== aType) return false;
+      }
+
+      if (activeStatus !== "all") {
+        if (activeStatus === "fresh" && !c.age?.includes('h') && !c.age?.includes('m') && c.age !== '1d') return false;
+        if (activeStatus === "highcpm" && c.cpm < 2.0) return false;
+      }
+
+      if (activePlatform !== "all") {
+        const plats = (c.platforms || []).map(p => p.toLowerCase());
+        const matchMap = { tiktok: 'tiktok', instagram: 'instagram', youtube: 'youtube', x: 'x' };
+        if (!plats.some(p => p.includes(matchMap[activePlatform] || activePlatform))) return false;
+      }
+
+      const rem = Math.max(0, c.total - c.spent);
+      if (activeBudget === "low" && rem >= 3000) return false;
+      if (activeBudget === "mid" && (rem < 3000 || rem > 15000)) return false;
+      if (activeBudget === "high" && rem < 15000) return false;
+
+      return true;
+    });
+
+    if (activePriority === "pay") list.sort((a, b) => b.cpm - a.cpm);
+    else if (activePriority === "budget") list.sort((a, b) => (b.total - b.spent) - (a.total - a.spent));
+    else if (activePriority === "fresh") list.sort((a, b) => (b.sortTimestamp || 0) - (a.sortTimestamp || 0));
+    else if (activePriority === "easy") list.sort((a, b) => (a.spent / (a.total || 1)) - (b.spent / (b.total || 1)));
+    else list.sort((a, b) => calculateScore(b) - calculateScore(a));
+
+    document.getElementById("results-count").textContent = `${list.length} active campaigns`;
+    document.getElementById("header-active-count").textContent = list.length;
+
+    const heroCard = document.getElementById("hero-card");
+    if (list.length === 0) {
+      heroCard.style.display = "none";
+      document.getElementById("empty-state").style.display = "block";
+      document.getElementById("campaigns-grid").innerHTML = "";
+      return;
+    }
+
+    heroCard.style.display = "flex";
+    document.getElementById("empty-state").style.display = "none";
+    currentHero = list[0];
+
+    const hRem = Math.max(0, currentHero.total - currentHero.spent);
+    const hPct = currentHero.total > 0 ? Math.min(100, Math.round((currentHero.spent / currentHero.total) * 100)) : 0;
+
+    document.getElementById("hero-cat").textContent = `${currentHero.category || "General"} • ${currentHero.contentType || "Clipping"}`;
+    document.getElementById("hero-title").textContent = currentHero.title;
+    document.getElementById("hero-agency").textContent = `${currentHero.agency} • ${currentHero.formattedAge || currentHero.age || 'Active'}`;
+    document.getElementById("hero-desc").textContent = currentHero.description || `${currentHero.agency} short-form clipping pool.`;
+    document.getElementById("hero-score").textContent = calculateScore(currentHero);
+    document.getElementById("hero-cpm").textContent = `$${currentHero.cpm.toFixed(2)} / 1K`;
+    document.getElementById("hero-remaining").textContent = `$${hRem.toLocaleString()} left`;
+    document.getElementById("hero-total").textContent = `$${currentHero.total.toLocaleString()}`;
+    document.getElementById("hero-claim").textContent = `${hPct}%`;
+    document.getElementById("hero-bar-fill").style.width = `${hPct}%`;
+    document.getElementById("hero-spent-meta").textContent = `$${currentHero.spent.toLocaleString()} spent (${hPct}%)`;
+    document.getElementById("hero-total-meta").textContent = `$${currentHero.total.toLocaleString()} total`;
+
+    const grid = document.getElementById("campaigns-grid");
+    grid.innerHTML = "";
+
+    list.slice(1).forEach(c => {
+      const rem = Math.max(0, c.total - c.spent);
+      const pct = c.total > 0 ? Math.min(100, Math.round((c.spent / c.total) * 100)) : 0;
+      const isFresh = c.age && (c.age.includes('h') || c.age.includes('m') || c.age === '1d');
+
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="card-top">
+          <div class="card-badges" style="display:flex;gap:5px;flex-wrap:wrap;">
+            <span class="tag-cat">${c.category || 'General'}</span>
+            <span class="tag-cat" style="background:rgba(245,165,36,0.12); color:var(--amber); border:1px solid rgba(245,165,36,0.25);">${c.contentType === 'UGC' ? '🎨 UGC' : '📹 Clipping'}</span>
+            ${isFresh ? `<span class="tag-fresh">🔥 Fresh</span>` : ''}
+          </div>
+          <span class="tag-age">${c.formattedAge || c.age || 'Active'}</span>
+        </div>
+
+        <div>
+          <h4 class="card-title" onclick="openBlueprintModal('${escapeQuotes(c.title)}')">${c.title}</h4>
+          <div class="card-agency">${c.agency}</div>
+        </div>
+
+        <p class="card-desc">${c.description || `${c.agency} campaign.`}</p>
+
+        <div class="card-platforms" style="display:flex;gap:5px;flex-wrap:wrap;margin:8px 0;font-size:11px;">
+          ${(c.platforms || ['tiktok', 'instagram', 'youtube']).map(p => {
+            const map = { tiktok: '🎵 TikTok', instagram: '📸 Instagram', youtube: '▶ YouTube', x: '✖ X', facebook: '📘 Facebook' };
+            return `<span style="background:rgba(0,242,254,0.08);border:1px solid rgba(0,242,254,0.2);color:var(--cyan);padding:2px 7px;border-radius:4px;font-weight:600;">${map[p.toLowerCase()] || p}</span>`;
+          }).join('')}
+        </div>
+
+        <div class="card-metrics">
+          <div class="metric-item">
+            <span class="val green">$${c.cpm.toFixed(2)}</span>
+            <span class="lbl">CPM</span>
+          </div>
+          <div class="metric-item">
+            <span class="val">$${rem.toLocaleString()}</span>
+            <span class="lbl">Left</span>
+          </div>
+          <div class="metric-item">
+            <span class="val">${pct}%</span>
+            <span class="lbl">Filled</span>
+          </div>
+        </div>
+
+        <div class="card-bar">
+          <div class="card-bar-fill ${pct > 60 ? 'active-fill' : ''}" style="width: ${pct}%"></div>
+        </div>
+
+        <div class="card-footer">
+          <div class="card-score">★ Score: ${calculateScore(c)}</div>
+          <div class="card-actions">
+            <button class="btn-sm" onclick="openTrackFor('${escapeQuotes(c.title)}', '${escapeQuotes(c.agency)}', ${c.cpm})">+ Track</button>
+            <button class="btn-sm join" onclick="handleJoinCampaign('${escapeQuotes(c.title)}')">Join ↗</button>
+          </div>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function renderTracker() {
+    const tbody = document.getElementById("tracker-table-body");
+    tbody.innerHTML = "";
+
+    if (trackerItems.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding:40px; color:var(--text-dim);">No clip submissions logged yet. Click "+ Log New Clip" or "+ Track" on any campaign card above!</td></tr>`;
+      return;
+    }
+
+    trackerItems.forEach((entry, idx) => {
+      const payout = ((entry.views || 0) / 1000) * (entry.cpm || 0);
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>
+          <div style="font-weight:700;">${entry.title}</div>
+          <div style="font-size:11px; color:var(--text-dim);">${entry.agency}</div>
+        </td>
+        <td>
+          <select class="select-status" onchange="updateTrackerStatus(${idx}, this.value)">
+            <option value="joined" ${entry.status === 'joined' ? 'selected' : ''}>🔖 Joined</option>
+            <option value="submitted" ${entry.status === 'submitted' ? 'selected' : ''}>⏳ Submitted</option>
+            <option value="approved" ${entry.status === 'approved' ? 'selected' : ''}>✅ Approved</option>
+            <option value="rejected" ${entry.status === 'rejected' ? 'selected' : ''}>❌ Rejected</option>
+            <option value="completed" ${entry.status === 'completed' ? 'selected' : ''}>🏁 Completed</option>
+          </select>
+        </td>
+        <td style="font-family:var(--font-mono); font-weight:700; color:var(--green-dark);">$${Number(entry.cpm).toFixed(2)}/1K</td>
+        <td>
+          <input type="number" class="input-views" value="${entry.views || 0}" onchange="updateTrackerViews(${idx}, this.value)">
+        </td>
+        <td style="font-family:var(--font-mono); font-weight:700; color:var(--amber);">$${payout.toFixed(2)}</td>
+        <td>
+          ${entry.url ? `<a href="${entry.url}" target="_blank" style="color:var(--cyan); font-weight:600;">View Clip ↗</a>` : '<span style="color:var(--text-dim);">—</span>'}
+        </td>
+        <td>
+          <button class="btn-sm" style="color:var(--rose);" onclick="deleteTrackerItem(${idx})">Delete</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  window.updateTrackerStatus = function(idx, val) {
+    if (trackerItems[idx]) {
+      trackerItems[idx].status = val;
+      saveTracker();
+      showToast(`Updated to ${val.toUpperCase()}`);
+    }
+  };
+
+  window.updateTrackerViews = function(idx, val) {
+    if (trackerItems[idx]) {
+      trackerItems[idx].views = Math.max(0, parseInt(val) || 0);
+      saveTracker();
+    }
+  };
+
+  window.deleteTrackerItem = function(idx) {
+    trackerItems.splice(idx, 1);
+    saveTracker();
+    showToast("Entry removed.");
+  };
+
+  window.handleJoinCampaign = function(title) {
+    const rawTitle = (title || '').trim();
+    if (!rawTitle) return;
+
+    // Find the campaign object so we can use ID/whop_route if available
+    const camp = CAMPAIGNS.find(c => c.title === rawTitle) || {};
+
+    // Copy full title to clipboard as fallback (user can paste if auto-search fails)
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(rawTitle).catch(() => {});
+    }
+
+    // If we have a direct whop route, open it (fastest path)
+    if (camp.whop_route) {
+      showToast(`🚀 Opening "${rawTitle.slice(0, 30)}" on Whop...`);
+      setTimeout(() => window.open(`https://whop.com/${camp.whop_route}`, '_blank'), 150);
+      return;
+    }
+
+    // Otherwise open Content Rewards discover with the FULL title in the hash
+    // so the Tampermonkey v2.0 script can score-match it precisely
+    // Do NOT strip pipes/brackets — pass the exact title for best matching
+    showToast(`🚀 Searching "${rawTitle.slice(0, 35)}" on Content Rewards... (title copied)`);
+    const targetUrl = `https://contentrewards.com/discover#search=${encodeURIComponent(rawTitle)}`;
+    setTimeout(() => window.open(targetUrl, '_blank'), 150);
+  };
+
+  window.openBlueprintModal = function(title) {
+    const c = CAMPAIGNS.find(item => item.title === title) || currentHero;
+    if (!c) return;
+    activeModalCampaign = c;
+
+    const rem = Math.max(0, c.total - c.spent);
+    document.getElementById("bp-cat").textContent = c.category || "General";
+    document.getElementById("bp-title").textContent = c.title;
+    document.getElementById("bp-agency").textContent = `${c.agency} • ${c.formattedAge || c.age || 'Active'}`;
+    document.getElementById("bp-cpm").textContent = `$${c.cpm.toFixed(2)} / 1K`;
+    document.getElementById("bp-remaining").textContent = `$${rem.toLocaleString()} left`;
+    document.getElementById("bp-total").textContent = `$${c.total.toLocaleString()}`;
+
+    // Platform badges
+    const platIcons = { tiktok: '🎵', instagram: '📸', youtube: '▶', x: '✖', twitter: '✖' };
+    const platsRow = document.getElementById("bp-platforms-row");
+    const platforms = c.platforms || [];
+    if (platforms.length > 0) {
+      platsRow.style.display = "flex";
+      platsRow.innerHTML = platforms.map(p => {
+        const icon = platIcons[p.toLowerCase().replace(/\s/g,'').replace('twitter','x')] || '📱';
+        return `<span style="background:rgba(0,200,255,0.1); border:1px solid rgba(0,200,255,0.3); border-radius:20px; padding:3px 10px; font-size:11px; font-weight:700; color:var(--cyan);">${icon} ${p}</span>`;
+      }).join('');
+    } else {
+      platsRow.style.display = "none";
+      platsRow.innerHTML = "";
+    }
+
+    // Description (clean text — no embedded URLs)
+    const descText = (c.description || `${c.agency} short-form campaign brief on Content Rewards.`)
+      .replace(/https?:\/\/[^\s]+/g, '')   // strip URLs from description
+      .replace(/\\n/g, '\n')
+      .trim();
+    document.getElementById("bp-desc").textContent = descText;
+
+    // Doc links as separate clean button section
+    const docLinksEl = document.getElementById("bp-doc-links");
+    const docLinks = c.doc_links || [];
+    // Also pull any URLs left in original description
+    const urlsInDesc = (c.description || '').match(/https?:\/\/[^\s]+/g) || [];
+    const allLinks = [...new Set([...docLinks, ...urlsInDesc])];
+    if (allLinks.length > 0) {
+      docLinksEl.style.display = "flex";
+      docLinksEl.innerHTML = `
+        <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:var(--cyan); margin-bottom:4px;">📎 Campaign Documents & Links</div>
+        ${allLinks.map(url => {
+          let label = '📄 View Document';
+          if (url.includes('docs.google')) label = '📝 Google Doc';
+          else if (url.includes('drive.google')) label = '📁 Google Drive';
+          else if (url.includes('notion')) label = '📒 Notion Doc';
+          else if (url.includes('whop')) label = '🏪 Whop Page';
+          else if (url.includes('tiktok')) label = '🎵 TikTok';
+          return `<a href="${url}" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:8px; background:rgba(0,200,255,0.07); border:1px solid rgba(0,200,255,0.25); border-radius:8px; padding:9px 14px; color:var(--cyan); font-size:12px; font-weight:700; text-decoration:none; transition:background 0.2s;" onmouseover="this.style.background='rgba(0,200,255,0.15)'" onmouseout="this.style.background='rgba(0,200,255,0.07)'">${label} <span style="opacity:0.6; font-weight:400; font-size:10px; word-break:break-all;">${url}</span> ↗</a>`;
+        }).join('')}
+      `;
+    } else {
+      docLinksEl.style.display = "none";
+      docLinksEl.innerHTML = "";
+    }
+
+    document.getElementById("modal-blueprint").classList.remove("hidden");
+  };
+
+  window.openHeroBlueprint = function() {
+    if (currentHero) openBlueprintModal(currentHero.title);
+  };
+
+  window.openTrackFor = function(title, agency, cpm) {
+    document.getElementById("log-title").value = title;
+    document.getElementById("log-agency").value = agency;
+    document.getElementById("log-cpm").value = cpm || 1.5;
+    document.getElementById("log-url").value = "";
+    document.getElementById("log-views").value = "0";
+    document.getElementById("modal-log-clip").classList.remove("hidden");
+  };
+
+  // Nav Switcher (3 tabs)
+  function switchTab(activeTab) {
+    ['discover', 'tracker', 'checker'].forEach(t => {
+      document.getElementById('tab-' + t).classList.toggle('active', t === activeTab);
+      const view = document.getElementById('view-' + t);
+      if (view) view.style.display = t === activeTab ? 'block' : 'none';
+    });
+    if (activeTab === 'tracker') renderTracker();
+    if (activeTab === 'checker') {
+      document.getElementById('checker-results-area').innerHTML = '<div class="checker-empty"><span class="icon">🔍</span>Enter a campaign name above to check its stats.</div>';
+      setTimeout(() => document.getElementById('checker-input').focus(), 100);
+    }
+  }
+
+  document.getElementById('tab-discover').addEventListener('click', () => switchTab('discover'));
+  document.getElementById('tab-tracker').addEventListener('click', () => switchTab('tracker'));
+  document.getElementById('tab-checker').addEventListener('click', () => switchTab('checker'));
+
+  /* =======================================
+     CAMP CHECKER LOGIC
+  ======================================= */
+  const PLAT_ICONS = { tiktok: '🎵 TikTok', instagram: '📸 Instagram', youtube: '▶ YouTube', x: '✖ X' };
+
+  function fmtMoney(n) {
+    n = Number(n) || 0;
+    if (n >= 1000000) return '$' + (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return '$' + (n / 1000).toFixed(1) + 'K';
+    return '$' + n.toFixed(0);
+  }
+
+  function fmtNum(n) {
+    n = Math.round(Number(n) || 0);
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return Math.round(n / 1000) + 'K';
+    return String(n);
+  }
+
+  function getFillClass(pct) {
+    if (pct >= 80) return 'high';
+    if (pct >= 40) return 'mid';
+    return 'low';
+  }
+
+  function runCampChecker(query) {
+    const area = document.getElementById('checker-results-area');
+    const rawQ = (query || '').trim();
+
+    if (!rawQ) {
+      area.innerHTML = '<div class="checker-empty"><span class="icon">🔍</span>Enter a campaign name above to check its stats.</div>';
+      return;
+    }
+
+    // Normalize search query & clean special characters
+    const norm = str => (str || '').toLowerCase().replace(/[’'""`\-–—[\]()]/g, ' ').replace(/\s+/g, ' ').trim();
+    const qNorm = norm(rawQ);
+    const tokens = qNorm.split(' ').filter(t => t.length > 0);
+
+    const matches = CAMPAIGNS.filter(c => {
+      const titleNorm = norm(c.title);
+      const agencyNorm = norm(c.agency);
+      const categoryNorm = norm(c.category);
+      const fullText = `${titleNorm} ${agencyNorm} ${categoryNorm}`;
+
+      // Check full string match or all token match
+      if (titleNorm.includes(qNorm) || agencyNorm.includes(qNorm) || fullText.includes(qNorm)) return true;
+      return tokens.every(t => fullText.includes(t));
+    });
+
+    if (matches.length === 0) {
+      area.innerHTML = '<div class="checker-empty"><span class="icon">😶</span>No campaigns found matching <strong>"' + escapeQuotes(rawQ) + '"</strong>.<br><span style="font-size:12px;margin-top:6px;display:block;">Try searching by title keyword (e.g. <em>Sarah</em> or <em>Lola</em>) or agency name.</span></div>';
+      return;
+    }
+
+    // Aggregate
+    const totalSpent    = matches.reduce((s, c) => s + (c.spent  || 0), 0);
+    const totalBudget   = matches.reduce((s, c) => s + (c.total  || 0), 0);
+    const totalRemaining = Math.max(0, totalBudget - totalSpent);
+    const totalEst       = matches.reduce((s, c) => s + (c.cpm > 0 ? Math.round((c.spent || 0) / c.cpm * 1000) : 0), 0);
+    const avgCpm         = matches.length ? matches.reduce((s, c) => s + (c.cpm || 0), 0) / matches.length : 0;
+    const overallPct     = totalBudget > 0 ? Math.min(100, Math.round(totalSpent / totalBudget * 100)) : 0;
+    const fillCl         = getFillClass(overallPct);
+    const pctColor       = fillCl === 'high' ? 'rose' : fillCl === 'mid' ? 'amber' : 'green';
+
+    let html = '';
+
+    // Aggregate summary header
+    html += '<div class="checker-results-header">'
+          + '<div class="checker-results-title">Results for &ldquo;' + query + '&rdquo;</div>'
+          + '<div class="checker-results-meta">' + matches.length + ' campaign' + (matches.length !== 1 ? 's' : '') + ' found</div>'
+          + '</div>';
+
+    html += '<div class="checker-summary">'
+          + '<div class="checker-summary-label">📊 Aggregated Overview — All Matching Campaigns</div>'
+          + '<div class="checker-summary-stats">'
+          + '<div class="checker-stat"><span class="checker-stat-val cyan">' + fmtNum(totalEst) + '</span><span class="checker-stat-lbl">Est. Submissions</span></div>'
+          + '<div class="checker-stat"><span class="checker-stat-val amber">' + fmtMoney(totalSpent) + '</span><span class="checker-stat-lbl">Total Spent</span></div>'
+          + '<div class="checker-stat"><span class="checker-stat-val green">' + fmtMoney(totalRemaining) + '</span><span class="checker-stat-lbl">Remaining Pool</span></div>'
+          + '<div class="checker-stat"><span class="checker-stat-val">' + fmtMoney(totalBudget) + '</span><span class="checker-stat-lbl">Combined Budget</span></div>'
+          + '<div class="checker-stat"><span class="checker-stat-val ' + pctColor + '">' + overallPct + '%</span><span class="checker-stat-lbl">Overall Fill</span></div>'
+          + '<div class="checker-stat"><span class="checker-stat-val green">$' + avgCpm.toFixed(2) + '</span><span class="checker-stat-lbl">Avg CPM</span></div>'
+          + '<div class="checker-stat"><span class="checker-stat-val">' + matches.length + '</span><span class="checker-stat-lbl">Campaigns</span></div>'
+          + '</div></div>';
+
+    // Per-campaign cards
+    html += '<div class="checker-grid">';
+
+    matches.forEach(function(c) {
+      const spent     = c.spent  || 0;
+      const total     = c.total  || 0;
+      const remaining = Math.max(0, total - spent);
+      const pct       = total > 0 ? Math.min(100, Math.round(spent / total * 100)) : 0;
+      const estSubs   = c.cpm > 0 ? Math.round(spent / c.cpm * 1000) : 0;
+      const fillCls   = getFillClass(pct);
+      const fillLabel = pct >= 80 ? '🔴 Hot' : pct >= 40 ? '🟡 Active' : '🟢 Fresh';
+      const platforms = (c.platforms && c.platforms.length > 0) ? c.platforms : ['tiktok', 'instagram', 'youtube'];
+
+      const platsHtml = '<div class="checker-platforms" style="display:flex;gap:5px;flex-wrap:wrap;margin:10px 0 6px 0;">' + platforms.map(function(p) {
+            var map = { tiktok: '🎵 TikTok', instagram: '📸 Instagram', youtube: '▶ YouTube Shorts', x: '✖ X', facebook: '📘 Facebook' };
+            var label = map[p.toLowerCase()] || ('📱 ' + p);
+            return '<span class="checker-plat-tag" style="background:rgba(0,242,254,0.08);border:1px solid rgba(0,242,254,0.2);color:var(--cyan);padding:3px 8px;border-radius:4px;font-size:11px;font-weight:600;">' + label + '</span>';
+          }).join('') + '</div>';
+
+      html += '<div class="checker-card">'
+            + '<div class="checker-card-header">'
+            +   '<div>'
+            +     '<div class="checker-card-title">' + c.title + '</div>'
+            +     '<div class="checker-card-agency">' + c.agency + ' &bull; ' + (c.formattedAge || c.age || 'Active') + '</div>'
+            +   '</div>'
+            +   '<span class="checker-fill-badge ' + fillCls + '">' + fillLabel + ' ' + pct + '%</span>'
+            + '</div>'
+
+            + '<div class="checker-card-metrics">'
+            +   '<div class="checker-metric"><span class="checker-metric-val cyan">' + fmtNum(estSubs) + '</span><span class="checker-metric-lbl">Est. Submissions</span></div>'
+            +   '<div class="checker-metric"><span class="checker-metric-val amber">' + fmtMoney(spent) + '</span><span class="checker-metric-lbl">Money Spent</span></div>'
+            +   '<div class="checker-metric"><span class="checker-metric-val green">' + fmtMoney(remaining) + '</span><span class="checker-metric-lbl">Remaining</span></div>'
+            +   '<div class="checker-metric"><span class="checker-metric-val green">$' + c.cpm.toFixed(2) + '</span><span class="checker-metric-lbl">CPM / 1K</span></div>'
+            + '</div>'
+
+            + '<div class="checker-card-bar">'
+            +   '<div class="checker-bar-track"><div class="checker-bar-fill ' + fillCls + '" style="width:' + pct + '%"></div></div>'
+            +   '<div class="checker-bar-meta"><span>' + fmtMoney(spent) + ' spent</span><span>' + fmtMoney(total) + ' total budget</span></div>'
+            + '</div>'
+
+            + platsHtml
+
+            + '<div class="checker-card-footer">'
+            +   '<div class="checker-age">📂 ' + (c.category || 'General') + '</div>'
+            +   '<div class="checker-card-actions">'
+            +     '<button class="btn-sm" onclick="openBlueprintModal(\'' + escapeQuotes(c.title) + '\')">📋 Brief</button>'
+            +     '<button class="btn-sm join" onclick="handleJoinCampaign(\'' + escapeQuotes(c.title) + '\')">Join ↗</button>'
+            +   '</div>'
+            + '</div>'
+            + '</div>';
+    });
+
+    html += '</div>';
+    area.innerHTML = html;
+  }
+
+  document.getElementById('checker-input').addEventListener('input', function(e) {
+    runCampChecker(e.target.value);
+  });
+  document.getElementById('checker-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') runCampChecker(e.target.value);
+  });
+  document.getElementById('btn-do-check').addEventListener('click', function() {
+    runCampChecker(document.getElementById('checker-input').value);
+  });
+
+  // ── Dropdown Controls Logic (Category & Content dropdowns) ─────────────────
+  ['status', 'category', 'content'].forEach(type => {
+    const btn = document.getElementById(`dd-btn-${type}`);
+    const wrapper = document.getElementById(`dd-wrapper-${type}`);
+    const menu = document.getElementById(`dd-menu-${type}`);
+    if (!btn || !wrapper || !menu) return;
+
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      document.querySelectorAll('.dd-wrapper').forEach(w => {
+        if (w !== wrapper) w.classList.remove('open');
+      });
+      wrapper.classList.toggle('open');
+    });
+
+    menu.querySelectorAll('.dd-item').forEach(item => {
+      item.addEventListener('click', () => {
+        menu.querySelectorAll('.dd-item').forEach(el => el.classList.remove('selected'));
+        item.classList.add('selected');
+        wrapper.classList.remove('open');
+
+        const val = item.dataset.cat || item.dataset.content || item.dataset.status;
+        const textLabel = item.querySelector('span').textContent;
+        document.getElementById(`dd-label-${type}`).textContent = val === 'all' ? (type.charAt(0).toUpperCase() + type.slice(1)) : textLabel;
+
+        if (type === 'category') {
+          activeCategory = val;
+          document.querySelectorAll('#pills-category .pill').forEach(p => {
+            p.classList.toggle('active', p.dataset.c.toLowerCase() === val.toLowerCase());
+          });
+        } else if (type === 'content') {
+          activeContentType = val;
+          document.querySelectorAll('#pills-contenttype .pill').forEach(p => {
+            p.classList.toggle('active', p.dataset.ct.toLowerCase() === val.toLowerCase());
+          });
+        } else if (type === 'status') {
+          activeStatus = val;
+        }
+
+        renderDiscovery();
+      });
+    });
+  });
+
+  // Close dropdown menus on outside click
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.dd-wrapper').forEach(w => w.classList.remove('open'));
+  });
+
+  // Clear button
+  document.getElementById('btn-clear-all')?.addEventListener('click', () => {
+    activeCategory = "all";
+    activeContentType = "all";
+    activeStatus = "all";
+    activePlatform = "all";
+    activeBudget = "any";
+    searchQuery = "";
+
+    document.getElementById("search-input").value = "";
+    document.getElementById("dd-label-category").textContent = "Category";
+    document.getElementById("dd-label-content").textContent = "Content";
+    document.getElementById("dd-label-status").textContent = "Status";
+
+    document.querySelectorAll('.dd-item').forEach(el => {
+      const isAll = el.dataset.cat === 'all' || el.dataset.content === 'all' || el.dataset.status === 'all';
+      el.classList.toggle('selected', isAll);
+    });
+
+    document.querySelectorAll('#pills-category .pill').forEach(p => p.classList.toggle('active', p.dataset.c === 'all'));
+    document.querySelectorAll('#pills-contenttype .pill').forEach(p => p.classList.toggle('active', p.dataset.ct === 'all'));
+    document.querySelectorAll('#pills-platform .pill').forEach(p => p.classList.toggle('active', p.dataset.pl === 'all'));
+    document.querySelectorAll('#pills-budget .pill').forEach(p => p.classList.toggle('active', p.dataset.b === 'any'));
+
+    renderDiscovery();
+    showToast("Filters cleared");
+  });
+
+  // Filter Event Listeners (Pills)
+  document.querySelectorAll("#pills-priority .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-priority .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activePriority = p.dataset.p;
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-budget .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-budget .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activeBudget = p.dataset.b;
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-category .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-category .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activeCategory = p.dataset.c;
+
+      // sync dropdown
+      const ddMenu = document.getElementById("dd-menu-category");
+      if (ddMenu) {
+        ddMenu.querySelectorAll('.dd-item').forEach(item => {
+          const isSel = (item.dataset.cat || '').toLowerCase() === activeCategory.toLowerCase();
+          item.classList.toggle('selected', isSel);
+          if (isSel) document.getElementById("dd-label-category").textContent = item.querySelector('span').textContent;
+        });
+      }
+
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-contenttype .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-contenttype .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activeContentType = p.dataset.ct;
+
+      // sync dropdown
+      const ddMenu = document.getElementById("dd-menu-content");
+      if (ddMenu) {
+        ddMenu.querySelectorAll('.dd-item').forEach(item => {
+          const isSel = (item.dataset.content || '').toLowerCase() === activeContentType.toLowerCase();
+          item.classList.toggle('selected', isSel);
+          if (isSel) document.getElementById("dd-label-content").textContent = item.querySelector('span').textContent;
+        });
+      }
+
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-platform .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-platform .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activePlatform = p.dataset.pl;
+      renderDiscovery();
+    });
+  });
+
+  document.getElementById("search-input").addEventListener("input", e => {
+    searchQuery = e.target.value;
+    renderDiscovery();
+  });
+
+  // Hero Buttons
+  document.getElementById("btn-hero-join").addEventListener("click", () => {
+    if (currentHero) handleJoinCampaign(currentHero.title);
+  });
+  document.getElementById("btn-hero-blueprint").addEventListener("click", openHeroBlueprint);
+  document.getElementById("btn-hero-track").addEventListener("click", () => {
+    if (currentHero) openTrackFor(currentHero.title, currentHero.agency, currentHero.cpm);
+  });
+
+  // Modal Closers
+  document.getElementById("btn-close-bp").addEventListener("click", () => document.getElementById("modal-blueprint").classList.add("hidden"));
+  document.getElementById("btn-close-log").addEventListener("click", () => document.getElementById("modal-log-clip").classList.add("hidden"));
+  document.getElementById("btn-cancel-log").addEventListener("click", () => document.getElementById("modal-log-clip").classList.add("hidden"));
+  document.getElementById("btn-close-webhook").addEventListener("click", () => document.getElementById("modal-webhook").classList.add("hidden"));
+
+  document.getElementById("bp-btn-join").addEventListener("click", () => {
+    if (activeModalCampaign) handleJoinCampaign(activeModalCampaign.title);
+  });
+  document.getElementById("bp-btn-track").addEventListener("click", () => {
+    if (activeModalCampaign) {
+      document.getElementById("modal-blueprint").classList.add("hidden");
+      openTrackFor(activeModalCampaign.title, activeModalCampaign.agency, activeModalCampaign.cpm);
+    }
+  });
+
+  document.getElementById("btn-add-clip").addEventListener("click", () => {
+    document.getElementById("log-title").value = "";
+    document.getElementById("log-agency").value = "";
+    document.getElementById("log-cpm").value = "1.50";
+    document.getElementById("log-url").value = "";
+    document.getElementById("log-views").value = "0";
+    document.getElementById("modal-log-clip").classList.remove("hidden");
+  });
+
+  document.getElementById("btn-save-log").addEventListener("click", () => {
+    const title = document.getElementById("log-title").value.trim() || "Untitled Campaign";
+    const agency = document.getElementById("log-agency").value.trim() || "Independent";
+    const cpm = parseFloat(document.getElementById("log-cpm").value) || 1.5;
+    const status = document.getElementById("log-status").value;
+    const url = document.getElementById("log-url").value.trim();
+    const views = parseInt(document.getElementById("log-views").value) || 0;
+
+    trackerItems.unshift({ title, agency, cpm, status, url, views, date: new Date().toLocaleDateString() });
+    saveTracker();
+    document.getElementById("modal-log-clip").classList.add("hidden");
+    showToast(`✅ Logged "${title}" into Submission Pipeline!`);
+  });
+
+  // Webhook Manager Config & Test Alert
+  document.getElementById("btn-open-webhook").addEventListener("click", async () => {
+    document.getElementById("modal-webhook").classList.remove("hidden");
+    try {
+      const res = await fetch("/api/webhook/config");
+      if (res.ok) {
+        const data = await res.json();
+        if (data.config) {
+          if (data.config.webhookUrl) document.getElementById("wh-discord-url").value = data.config.webhookUrl;
+          if (Array.isArray(data.config.categories)) {
+            const isAll = data.config.categories.includes("All");
+            document.querySelectorAll("#wh-categories-group input").forEach(c => {
+              c.checked = isAll || data.config.categories.includes(c.value);
+            });
+          }
+          if (Array.isArray(data.config.contentTypes)) {
+            const isAll = data.config.contentTypes.includes("All");
+            document.querySelectorAll("#wh-types-group input").forEach(c => {
+              c.checked = isAll || data.config.contentTypes.includes(c.value);
+            });
+          }
+        }
+      }
+    } catch (e) {}
+  });
+
+  document.getElementById("btn-toggle-all-cats")?.addEventListener("click", () => {
+    const checkboxes = document.querySelectorAll("#wh-categories-group input");
+    const allChecked = Array.from(checkboxes).every(c => c.checked);
+    checkboxes.forEach(c => c.checked = !allChecked);
+  });
+
+  document.getElementById("btn-save-webhook-config")?.addEventListener("click", async () => {
+    const webhookUrl = document.getElementById("wh-discord-url").value.trim();
+    const categories = Array.from(document.querySelectorAll("#wh-categories-group input:checked")).map(el => el.value);
+    const contentTypes = Array.from(document.querySelectorAll("#wh-types-group input:checked")).map(el => el.value);
+
+    try {
+      const res = await fetch("/api/webhook/config", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ webhookUrl, categories, contentTypes })
+      });
+      if (res.ok) {
+        showToast("✅ Discord Webhook rules saved to monitor!");
+      } else {
+        showToast("✅ Settings saved!");
+      }
+      document.getElementById("modal-webhook").classList.add("hidden");
+    } catch (e) {
+      showToast("✅ Settings saved!");
+      document.getElementById("modal-webhook").classList.add("hidden");
+    }
+  });
+
+  document.getElementById("btn-send-webhook").addEventListener("click", async () => {
+    const webhookUrl = document.getElementById("wh-discord-url").value.trim();
+    const categories = Array.from(document.querySelectorAll("#wh-categories-group input:checked")).map(el => el.value);
+    const contentTypes = Array.from(document.querySelectorAll("#wh-types-group input:checked")).map(el => el.value);
+    
+    showToast("🚀 Sending Discord test alert...");
+
+    try {
+      const res = await fetch("/api/webhook/test", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          webhookUrl,
+          category: categories[0] || "Music",
+          contentType: contentTypes[0] || "Clipping"
+        })
+      });
+      if (res.ok) {
+        showToast("✅ Discord Test Alert Dispatched!");
+        document.getElementById("modal-webhook").classList.add("hidden");
+      } else {
+        showToast(`⚠️ Webhook API: ${res.status}`);
+      }
+    } catch (err) {
+      showToast(`❌ Test error: ${err.message}`);
+    }
+  });
+
+  // CSV Export
+  document.getElementById("btn-export-csv").addEventListener("click", () => {
+    const headers = ["Title", "Agency", "Category", "CPM", "Spent", "Total", "Remaining", "ClaimPct", "Score"];
+    const rows = CAMPAIGNS.map(c => [
+      `"${c.title.replace(/"/g, '""')}"`,
+      `"${c.agency.replace(/"/g, '""')}"`,
+      `"${c.category}"`,
+      c.cpm,
+      c.spent,
+      c.total,
+      Math.max(0, c.total - c.spent),
+      c.total > 0 ? Math.round((c.spent / c.total) * 100) : 0,
+      calculateScore(c)
+    ]);
+    const csv = "data:text/csv;charset=utf-8," + [headers.join(","), ...rows.map(r => r.join(","))].join("\n");
+    const a = document.createElement("a");
+    a.href = encodeURI(csv);
+    a.download = `content_rewards_campaigns_${Date.now()}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+
+  // ── API Config (Vercel Frontend + Railway Backend) ─────────────────────────
+  // Railway runs monitor.js 24/7 in the cloud.
+  // If hosted on Vercel, users can set their Railway API URL (e.g. https://xxx.up.railway.app)
+  // or use local API at http://localhost:3001.
+  function getApiBase() {
+    const custom = localStorage.getItem('signal_railway_api_url');
+    if (custom) return custom.replace(/\/+$/, '');
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      return 'http://localhost:3001';
+    }
+    return 'https://trackerwhop-production.up.railway.app';
+  }
+
+  let lastFetchTime = null;
+  let apiAvailable  = false;
+
+  function updateCheckerSourceBar(status, sourceLabel) {
+    const dot   = document.getElementById('checker-src-dot');
+    const label = document.getElementById('checker-src-label');
+    if (!dot || !label) return;
+    if (status === 'loading') {
+      dot.style.background = 'var(--amber)';
+      dot.style.boxShadow  = '0 0 8px var(--amber)';
+      dot.style.animation  = 'pulse 1s infinite';
+      label.style.color    = 'var(--amber)';
+      label.textContent    = '⏳ Fetching live updates from contentrewards.com...';
+    } else {
+      const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      dot.style.background = 'var(--green)';
+      dot.style.boxShadow  = '0 0 10px var(--green)';
+      dot.style.animation  = 'pulse 2s infinite';
+      label.style.color    = 'var(--green-dark)';
+      label.textContent    = '✅ ' + (sourceLabel || ('Live — ' + CAMPAIGNS.length + ' active campaigns synced at ' + timeStr));
+    }
+  }
+
+  function updateHomeStatusBar() {
+    const countEl = document.getElementById('home-campaign-count');
+    const headerCount = document.getElementById('header-active-count');
+    const timeEl  = document.getElementById('home-last-updated');
+    if (countEl) countEl.textContent = CAMPAIGNS.length;
+    if (headerCount) headerCount.textContent = CAMPAIGNS.length;
+    if (timeEl) {
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      timeEl.textContent = 'Last checked: ' + timeStr;
+    }
+  }
+
+  // Initial load: try API server first (Railway/Local), fall back to campaigns.json
+  async function loadFeed(isManualRefresh) {
+    if (isManualRefresh) updateCheckerSourceBar('loading');
+    const apiBase = getApiBase();
+    try {
+      const apiRes = await fetch(apiBase + '/api/campaigns', { signal: AbortSignal.timeout(4000) });
+      if (apiRes.ok) {
+        const json = await apiRes.json();
+        if (json.ok && Array.isArray(json.campaigns) && json.campaigns.length > 0) {
+          CAMPAIGNS = json.campaigns;
+          lastFetchTime = new Date();
+          apiAvailable = true;
+          renderDiscovery();
+          updateHomeStatusBar();
+          const timeStr = lastFetchTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+          updateCheckerSourceBar('ok', 'Live — ' + CAMPAIGNS.length + ' active campaigns synced at ' + timeStr);
+          if (isManualRefresh) {
+            const q = document.getElementById('checker-input');
+            if (q && q.value.trim()) runCampChecker(q.value);
+            showToast('✅ ' + CAMPAIGNS.length + ' live campaigns loaded from contentrewards.com');
+          }
+          return;
+        }
+      }
+    } catch (e) { /* API not running/reachable — fall through to file */ }
+
+    // Fallback: campaigns.json (written by monitor)
+    try {
+      const fileRes = await fetch('campaigns.json?t=' + Date.now());
+      if (fileRes.ok) {
+        const data = await fileRes.json();
+        if (Array.isArray(data) && data.length > 0) {
+          CAMPAIGNS = data;
+          lastFetchTime = new Date();
+          apiAvailable = false;
+          renderDiscovery();
+          updateHomeStatusBar();
+          const timeStr = lastFetchTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+          updateCheckerSourceBar('ok', 'Live — ' + CAMPAIGNS.length + ' active campaigns synced at ' + timeStr);
+          if (isManualRefresh) {
+            const q = document.getElementById('checker-input');
+            if (q && q.value.trim()) runCampChecker(q.value);
+            showToast('✅ ' + CAMPAIGNS.length + ' live campaigns synced.');
+          }
+          return;
+        }
+      }
+    } catch (e) {}
+
+    if (CAMPAIGNS.length > 0) {
+      updateHomeStatusBar();
+      updateCheckerSourceBar('ok', 'Live — ' + CAMPAIGNS.length + ' active campaigns ready');
+    }
+  }
+
+  // ── Unified Live Sync Function ─────────────────────────────────────────────
+  async function triggerFullSync(sourceBtn) {
+    const homeBtn = document.getElementById('btn-home-refresh');
+    const headerBtn = document.getElementById('btn-header-refresh');
+    const checkerBtn = document.getElementById('btn-checker-refresh');
+
+    [homeBtn, headerBtn, checkerBtn].forEach(b => {
+      if (b) {
+        b.classList.add('refreshing');
+        b.disabled = true;
+      }
+    });
+
+    const homeLabel = homeBtn ? homeBtn.querySelector('.btn-label') : null;
+    if (homeLabel) homeLabel.textContent = 'Syncing...';
+
+    updateCheckerSourceBar('loading');
+
+    const apiBase = getApiBase();
+    let success = false;
+
+    try {
+      const res = await fetch(apiBase + '/api/refresh', { method: 'POST', headers: { 'Content-Type': 'application/json' } });
+      if (res.ok) {
+        const json = await res.json();
+        if (json.ok && Array.isArray(json.campaigns) && json.campaigns.length > 0) {
+          CAMPAIGNS = json.campaigns;
+          lastFetchTime = new Date();
+          apiAvailable = true;
+          renderDiscovery();
+          updateHomeStatusBar();
+          const timeStr = lastFetchTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+          updateCheckerSourceBar('ok', 'Live scrape done — ' + CAMPAIGNS.length + ' campaigns from contentrewards.com at ' + timeStr);
+          const q = document.getElementById('checker-input');
+          if (q && q.value.trim()) runCampChecker(q.value);
+          showToast('✅ Live sync complete — ' + CAMPAIGNS.length + ' fresh campaigns loaded');
+          success = true;
+        }
+      }
+    } catch (e) {}
+
+    if (!success) {
+      await loadFeed(true);
+    }
+
+    [homeBtn, headerBtn, checkerBtn].forEach(b => {
+      if (b) {
+        b.classList.remove('refreshing');
+        b.disabled = false;
+      }
+    });
+    if (homeLabel) homeLabel.textContent = 'Refresh Live Feed';
+  }
+
+  // Refresh Listeners
+  if (document.getElementById('btn-home-refresh')) {
+    document.getElementById('btn-home-refresh').addEventListener('click', function() { triggerFullSync(this); });
+  }
+  if (document.getElementById('btn-header-refresh')) {
+    document.getElementById('btn-header-refresh').addEventListener('click', function() { triggerFullSync(this); });
+  }
+  if (document.getElementById('btn-checker-refresh')) {
+    document.getElementById('btn-checker-refresh').addEventListener('click', function() { triggerFullSync(this); });
+  }
+
+  // Config button to set Railway backend API URL for Vercel users
+  document.getElementById('btn-config-railway-url').addEventListener('click', function() {
+    const current = localStorage.getItem('signal_railway_api_url') || getApiBase();
+    const input = prompt('Enter your Railway Backend URL (e.g. https://trackerwhop-production.up.railway.app):\n\nLeave empty to reset to default.', current);
+    if (input !== null) {
+      const val = input.trim();
+      if (val) {
+        localStorage.setItem('signal_railway_api_url', val);
+        showToast('✅ Saved Railway Backend API URL: ' + val);
+      } else {
+        localStorage.removeItem('signal_railway_api_url');
+        showToast('🔄 Reset API URL to default');
+      }
+      loadFeed(true);
+    }
+  });
+
+  function parseUrlFilters() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const hash = window.location.hash;
+
+      if (params.has('category')) {
+        activeCategory = params.get('category');
+        const ddMenu = document.getElementById("dd-menu-category");
+        if (ddMenu) {
+          ddMenu.querySelectorAll('.dd-item').forEach(item => {
+            const isSel = (item.dataset.cat || '').toLowerCase() === activeCategory.toLowerCase();
+            item.classList.toggle('selected', isSel);
+            if (isSel) document.getElementById("dd-label-category").textContent = item.querySelector('span').textContent;
+          });
+        }
+        document.querySelectorAll('#pills-category .pill').forEach(p => {
+          p.classList.toggle('active', p.dataset.c.toLowerCase() === activeCategory.toLowerCase());
+        });
+      }
+
+      if (params.has('contentType') || params.has('content')) {
+        activeContentType = params.get('contentType') || params.get('content');
+        const ddMenu = document.getElementById("dd-menu-content");
+        if (ddMenu) {
+          ddMenu.querySelectorAll('.dd-item').forEach(item => {
+            const isSel = (item.dataset.content || '').toLowerCase() === activeContentType.toLowerCase();
+            item.classList.toggle('selected', isSel);
+            if (isSel) document.getElementById("dd-label-content").textContent = item.querySelector('span').textContent;
+          });
+        }
+        document.querySelectorAll('#pills-contenttype .pill').forEach(p => {
+          p.classList.toggle('active', p.dataset.ct.toLowerCase() === activeContentType.toLowerCase());
+        });
+      }
+
+      if (params.has('search')) {
+        searchQuery = params.get('search');
+        const input = document.getElementById("search-input");
+        if (input) input.value = searchQuery;
+      } else if (hash.includes('#search=')) {
+        searchQuery = decodeURIComponent(hash.split('#search=')[1] || '');
+        const input = document.getElementById("search-input");
+        if (input) input.value = searchQuery;
+      }
+    } catch (e) {}
+  }
+
+  parseUrlFilters();
+  if (Array.isArray(CAMPAIGNS) && CAMPAIGNS.length > 0) {
+    renderDiscovery();
+    updateCheckerSourceBar('ok');
+  }
+  loadFeed(false);
+  saveTracker();
+  setTimeout(function() { if (CAMPAIGNS.length > 0) updateCheckerSourceBar('ok'); }, 600);
+
+  // Automatic background auto-sync every 45 seconds (no page refresh required!)
+  setInterval(function() {
+    loadFeed(false);
+  }, 45000);
+</script>
+</body>
+</html>

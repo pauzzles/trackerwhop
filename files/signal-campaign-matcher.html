@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL — Content Rewards Intelligence & Submission Tracker</title>
+<meta name="description" content="Real-time campaign discovery engine, freshness radar, personal clip submission pipeline, payout tracking, and webhook alerts for Content Rewards creators.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #090A0C;
+    --surface: #101216;
+    --card: #15181E;
+    --card-hover: #1C2028;
+    --border: #232730;
+    --border-hover: #343B4A;
+    --text: #F4F5F7;
+    --text-muted: #9BA1B0;
+    --text-dim: #646A7A;
+    --green: #2ED47A;
+    --green-glow: rgba(46, 212, 122, 0.25);
+    --green-bg: #10261A;
+    --green-dark: #3FE68F;
+    --cyan: #00F2FE;
+    --amber: #F5A524;
+    --amber-bg: #2B2010;
+    --rose: #FF4757;
+    --r-lg: 14px;
+    --r: 10px;
+    --r-sm: 6px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.35);
+    --shadow-lg: 0 12px 32px rgba(0,0,0,0.5);
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+    padding-bottom: 100px;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  button, input, select { font-family: inherit; }
+
+  #app { max-width: 1320px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---- Header ---- */
+  header {
+    padding: 24px 0 20px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .brand-group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .brand-badge {
+    background: var(--green);
+    color: #051209;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 4px 9px;
+    border-radius: var(--r-sm);
+    letter-spacing: -0.02em;
+    box-shadow: 0 0 16px var(--green-glow);
+  }
+  .brand-title {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .brand-title span { color: var(--green-dark); }
+
+  .live-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 5px 12px;
+    border-radius: 999px;
+  }
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 10px var(--green);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+  .header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-tabs {
+    display: flex;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 3px;
+    gap: 2px;
+  }
+  .nav-tab {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 16px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .nav-tab:hover { color: var(--text); }
+  .nav-tab.active {
+    background: var(--card-hover);
+    color: var(--green-dark);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  }
+
+  .btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn:hover { border-color: var(--border-hover); background: var(--card-hover); }
+  .btn-primary {
+    background: var(--green);
+    border-color: var(--green);
+    color: #041409;
+    font-weight: 700;
+  }
+  .btn-primary:hover { background: var(--green-dark); box-shadow: 0 0 16px var(--green-glow); }
+  .btn-webhook {
+    background: rgba(46, 212, 122, 0.1);
+    border-color: rgba(46, 212, 122, 0.3);
+    color: var(--green-dark);
+  }
+  .btn-webhook:hover { background: var(--green); color: #041409; }
+
+  /* ---- Controls Panel ---- */
+  .controls-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 20px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .search-row { display: flex; gap: 12px; }
+  .search-input {
+    flex: 1;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: var(--r);
+    padding: 12px 16px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.15s ease;
+  }
+  .search-input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(46,212,122,0.12); }
+  .search-input::placeholder { color: var(--text-dim); }
+
+  .filter-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .filter-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    min-width: 90px;
+  }
+  .pill-group { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pill {
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 6px 13px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .pill:hover { border-color: var(--border-hover); color: var(--text); }
+  .pill.active {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
+    font-weight: 700;
+  }
+
+  /* ---- Hero "Best Match" ---- */
+  .section-label {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 12px;
+  }
+  .hero-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-card::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(46,212,122,0.06), transparent 70%);
+    pointer-events: none;
+  }
+  .hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .hero-badge-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .badge-best {
+    font-size: 10.5px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--green);
+    color: #041409;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .badge-cat {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--surface);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+  .hero-title {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    max-width: 750px;
+    cursor: pointer;
+  }
+  .hero-agency { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+  .hero-desc {
+    font-size: 13.5px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-width: 800px;
+    margin-top: 8px;
+  }
+
+  .hero-score-box {
+    text-align: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 14px 20px;
+    min-width: 110px;
+  }
+  .hero-score-num { font-size: 32px; font-weight: 800; color: var(--green-dark); line-height: 1; }
+  .hero-score-lbl { font-size: 10px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; margin-top: 4px; }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .stat-box { display: flex; flex-direction: column; gap: 2px; }
+  .stat-val { font-size: 16px; font-weight: 700; }
+  .stat-val.green { color: var(--green-dark); }
+  .stat-val.amber { color: var(--amber); }
+  .stat-lbl { font-size: 11px; color: var(--text-dim); }
+
+  .hero-bar { margin-top: 4px; }
+  .bar-track { height: 6px; background: var(--surface); border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
+  .bar-fill { height: 100%; background: linear-gradient(90deg, var(--green), var(--cyan)); border-radius: 999px; }
+  .bar-meta { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--text-dim); margin-top: 6px; }
+
+  .hero-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
+
+  /* ---- Campaigns Grid ---- */
+  .grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+  }
+  .results-count { font-size: 12.5px; color: var(--text-dim); }
+
+  .campaigns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: var(--shadow);
+    transition: all 0.15s ease;
+  }
+  .card:hover {
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+    background: var(--card-hover);
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-badges { display: flex; gap: 6px; align-items: center; }
+  .tag-cat {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--surface);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+  .tag-fresh {
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 3px 7px;
+    border-radius: 4px;
+    background: var(--green-bg);
+    color: var(--green-dark);
+  }
+  .tag-age { font-size: 11.5px; color: var(--text-dim); }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--text);
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 40px;
+  }
+  .card-title:hover { color: var(--green-dark); }
+  .card-agency { font-size: 12px; color: var(--text-dim); margin-top: -6px; }
+
+  .card-desc {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .card-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r-sm);
+    padding: 8px 10px;
+  }
+  .metric-item { display: flex; flex-direction: column; }
+  .metric-item .val { font-size: 13px; font-weight: 700; font-family: var(--font-mono); }
+  .metric-item .val.green { color: var(--green-dark); }
+  .metric-item .lbl { font-size: 9.5px; color: var(--text-dim); text-transform: uppercase; }
+
+  .card-bar {
+    height: 4px;
+    background: var(--surface);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .card-bar-fill {
+    height: 100%;
+    background: var(--text-dim);
+    border-radius: 999px;
+  }
+  .card-bar-fill.active-fill { background: var(--green); }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    gap: 8px;
+  }
+  .card-score { font-size: 11.5px; font-weight: 700; color: var(--text-dim); }
+  .card-actions { display: flex; gap: 8px; align-items: center; }
+  .btn-sm {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    transition: all 0.15s ease;
+  }
+  .btn-sm:hover { border-color: var(--border-hover); background: var(--card-hover); }
+  .btn-sm.join {
+    background: var(--green);
+    border-color: var(--green);
+    color: #041409;
+    font-weight: 700;
+  }
+  .btn-sm.join:hover { background: var(--green-dark); }
+
+  /* ---- Submission Tracker Table ---- */
+  .tracker-panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 24px;
+    box-shadow: var(--shadow);
+  }
+  .tracker-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .table-responsive { width: 100%; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: left; }
+  th {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  td {
+    padding: 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  tr:hover td { background: var(--card-hover); }
+
+  .select-status {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: var(--r-sm);
+    outline: none;
+  }
+  .input-views {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: var(--r-sm);
+    width: 100px;
+    outline: none;
+  }
+
+  /* ---- Modals ---- */
+  .modal-backdrop {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+  .modal-backdrop.hidden { display: none; }
+  .modal-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 26px;
+    max-width: 580px;
+    width: 100%;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .modal-close {
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .modal-close:hover { color: var(--text); }
+  .modal-input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: var(--r-sm);
+    padding: 9px 12px;
+    font-size: 13px;
+    outline: none;
+    margin-top: 4px;
+  }
+  .modal-input:focus { border-color: var(--green); }
+
+  /* ---- Toast Notification ---- */
+  #toast {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    background: var(--surface);
+    border: 1px solid var(--green);
+    color: var(--text);
+    padding: 12px 20px;
+    border-radius: var(--r);
+    font-size: 13.5px;
+    font-weight: 600;
+    box-shadow: var(--shadow-lg);
+    z-index: 9999;
+    transition: all 0.2s ease;
+    opacity: 0;
+    transform: translateY(12px);
+    pointer-events: none;
+  }
+  #toast.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 14px;
+    border: 1px dashed var(--border);
+    border-radius: var(--r);
+  }
+
+  @media (max-width: 768px) {
+    .hero-top { flex-direction: column; }
+    .hero-score-box { align-self: flex-start; }
+    .campaigns-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <div class="header-top">
+      <div class="brand-group">
+        <div class="brand-badge">S</div>
+        <h1 class="brand-title">Signal <span>// Content Rewards</span></h1>
+        <div class="live-pill"><span class="live-dot"></span> <span id="header-active-count">504</span> Active Campaigns</div>
+      </div>
+
+      <div class="header-actions">
+        <div class="nav-tabs">
+          <button class="nav-tab active" id="tab-discover">⚡ Discovery Feed</button>
+          <button class="nav-tab" id="tab-tracker">📋 Submission Tracker (<span id="tracker-count">0</span>)</button>
+        </div>
+        <button class="btn btn-webhook" id="btn-open-webhook">🔔 Test Webhook</button>
+        <button class="btn" id="btn-export-csv">📊 Export CSV</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- VIEW: DISCOVERY FEED -->
+  <div id="view-discover">
+    <!-- Filter Controls -->
+    <div class="controls-panel">
+      <div class="search-row">
+        <input type="text" class="search-input" id="search-input" placeholder="Search by brand, niche, campaign title, or keyword...">
+      </div>
+
+      <div class="filter-grid">
+        <div class="filter-row">
+          <div class="filter-label">Optimize for</div>
+          <div class="pill-group" id="pills-priority">
+            <span class="pill active" data-p="balanced">Balanced</span>
+            <span class="pill" data-p="pay">Highest Pay ($ CPM)</span>
+            <span class="pill" data-p="budget">Biggest Budget Left</span>
+            <span class="pill" data-p="fresh">Newest Drops (24h)</span>
+            <span class="pill" data-p="easy">Low Competition</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Budget</div>
+          <div class="pill-group" id="pills-budget">
+            <span class="pill active" data-b="any">Any</span>
+            <span class="pill" data-b="low">Under $3K</span>
+            <span class="pill" data-b="mid">$3K–$15K</span>
+            <span class="pill" data-b="high">$15K+</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Category</div>
+          <div class="pill-group" id="pills-category">
+            <span class="pill active" data-c="all">All</span>
+            <span class="pill" data-c="Entertainment">Entertainment</span>
+            <span class="pill" data-c="Product">Product</span>
+            <span class="pill" data-c="Music">Music</span>
+            <span class="pill" data-c="Technology">Technology</span>
+            <span class="pill" data-c="Personal brand">Personal Brand</span>
+            <span class="pill" data-c="Logo">Logo</span>
+            <span class="pill" data-c="Other">Other</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-label">Platform</div>
+          <div class="pill-group" id="pills-platform">
+            <span class="pill active" data-pl="all">All Platforms</span>
+            <span class="pill" data-pl="tiktok">🎵 TikTok</span>
+            <span class="pill" data-pl="instagram">📸 Instagram</span>
+            <span class="pill" data-pl="youtube">▶ YouTube</span>
+            <span class="pill" data-pl="x">✖ X (Twitter)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Match -->
+    <div class="section-label">Best Match Right Now</div>
+    <div class="hero-card" id="hero-card">
+      <div class="hero-top">
+        <div>
+          <div class="hero-badge-row">
+            <span class="badge-best">Best Match</span>
+            <span class="badge-cat" id="hero-cat">Entertainment</span>
+            <span class="tag-fresh" id="hero-fresh">Fresh Drop</span>
+          </div>
+          <h2 class="hero-title" id="hero-title" onclick="openHeroBlueprint()">Campaign Title</h2>
+          <div class="hero-agency" id="hero-agency">Agency Name • Posted 1d ago</div>
+          <p class="hero-desc" id="hero-desc">Campaign brief and guidelines...</p>
+        </div>
+
+        <div class="hero-score-box">
+          <div class="hero-score-num" id="hero-score">98</div>
+          <div class="hero-score-lbl">Match Score</div>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-val green" id="hero-cpm">$1.50 / 1K</div>
+          <div class="stat-lbl">CPM Rate</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" id="hero-remaining">$15,653 left</div>
+          <div class="stat-lbl">Remaining Pool</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" id="hero-total">$20,000</div>
+          <div class="stat-lbl">Total Budget</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val amber" id="hero-claim">21.7%</div>
+          <div class="stat-lbl">Claimed</div>
+        </div>
+      </div>
+
+      <div class="hero-bar">
+        <div class="bar-track"><div class="bar-fill" id="hero-bar-fill" style="width: 21.7%"></div></div>
+        <div class="bar-meta">
+          <span id="hero-spent-meta">$4,347 spent</span>
+          <span id="hero-total-meta">$20,000 total</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="btn-hero-join">🚀 Join Campaign ↗</button>
+        <button class="btn" id="btn-hero-blueprint">🎬 View Blueprint & Brief</button>
+        <button class="btn" id="btn-hero-track">+ Track in Pipeline</button>
+      </div>
+    </div>
+
+    <!-- Campaigns Grid -->
+    <div class="grid-header">
+      <div class="section-label" style="margin-bottom:0;">All Active Campaigns</div>
+      <div class="results-count" id="results-count">339 campaigns</div>
+    </div>
+    <div class="campaigns-grid" id="campaigns-grid"></div>
+    <div class="empty-state" id="empty-state" style="display:none;">No campaigns match your filters. Try widening your search or clearing a filter chip.</div>
+  </div>
+
+  <!-- VIEW: SUBMISSION TRACKER -->
+  <div id="view-tracker" style="display:none;">
+    <div class="tracker-panel">
+      <div class="tracker-head">
+        <div>
+          <h2 style="font-size:18px; font-weight:800;">📋 Personal Clip & Submission Pipeline</h2>
+          <div style="font-size:12.5px; color:var(--text-muted); margin-top:2px;">Track your submitted TikTok/Reels links, view counts, and live estimated payouts.</div>
+        </div>
+        <button class="btn btn-primary" id="btn-add-clip">+ Log New Clip</button>
+      </div>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Campaign / Agency</th>
+              <th>Pipeline Status</th>
+              <th>CPM Rate</th>
+              <th>View Count</th>
+              <th>Estimated Payout</th>
+              <th>Clip Link</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="tracker-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: CAMPAIGN BLUEPRINT -->
+<div class="modal-backdrop hidden" id="modal-blueprint">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <span class="badge-cat" id="bp-cat">Category</span>
+        <h3 style="font-size:18px; font-weight:800; margin-top:6px;" id="bp-title">Campaign Details</h3>
+        <div style="font-size:12px; color:var(--text-dim);" id="bp-agency">Agency • Posted</div>
+      </div>
+      <button class="modal-close" id="btn-close-bp">×</button>
+    </div>
+
+    <div class="hero-stats" style="padding-top:0; border-top:none;">
+      <div class="stat-box">
+        <div class="stat-val green" id="bp-cpm">$1.50 / 1K</div>
+        <div class="stat-lbl">CPM Rate</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="bp-remaining">$0</div>
+        <div class="stat-lbl">Remaining Pool</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="bp-total">$0</div>
+        <div class="stat-lbl">Total Budget</div>
+      </div>
+    </div>
+
+    <div id="bp-platforms-row" style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:2px;"></div>
+
+    <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--r); padding:14px;">
+      <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:var(--cyan); margin-bottom:8px;">📋 Creative Brief & Instructions</div>
+      <div style="font-size:13px; color:var(--text-muted); line-height:1.7; white-space:pre-line; word-break:break-word;" id="bp-desc"></div>
+    </div>
+
+    <div id="bp-doc-links" style="display:none; flex-direction:column; gap:8px;"></div>
+
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;">
+      <button class="btn btn-primary" id="bp-btn-join" style="flex:1;">🚀 Join Campaign ↗</button>
+      <button class="btn" id="bp-btn-track" style="flex:1;">+ Track in Pipeline</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: LOG CLIP -->
+<div class="modal-backdrop hidden" id="modal-log-clip">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 style="font-size:18px; font-weight:800;">Log Clip Submission</h3>
+      <button class="modal-close" id="btn-close-log">×</button>
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Campaign Title</label>
+      <input type="text" class="modal-input" id="log-title" placeholder="e.g. Roobet UGC or DoorDash">
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Agency / Brand</label>
+      <input type="text" class="modal-input" id="log-agency" placeholder="e.g. Clip Farm">
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+      <div>
+        <label style="font-size:12px; color:var(--text-muted);">CPM Rate ($)</label>
+        <input type="number" step="0.1" class="modal-input" id="log-cpm" value="1.50">
+      </div>
+      <div>
+        <label style="font-size:12px; color:var(--text-muted);">Pipeline Status</label>
+        <select class="modal-input" id="log-status">
+          <option value="joined">🔖 Joined</option>
+          <option value="submitted">⏳ Submitted</option>
+          <option value="approved">✅ Approved</option>
+          <option value="rejected">❌ Rejected</option>
+          <option value="completed">🏁 Completed</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Clip URL (TikTok / Reels / Shorts)</label>
+      <input type="url" class="modal-input" id="log-url" placeholder="https://www.tiktok.com/@creator/video/...">
+    </div>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Logged View Count</label>
+      <input type="number" class="modal-input" id="log-views" value="0">
+    </div>
+
+    <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:8px;">
+      <button class="btn" id="btn-cancel-log">Cancel</button>
+      <button class="btn btn-primary" id="btn-save-log">Save Entry</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: WEBHOOK TEST -->
+<div class="modal-backdrop hidden" id="modal-webhook">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 style="font-size:18px; font-weight:800;">🔔 Instant Webhook Alert Tester</h3>
+      <button class="modal-close" id="btn-close-webhook">×</button>
+    </div>
+    <p style="font-size:13px; color:var(--text-muted);">Dispatch an instant test notification directly to your Discord channel.</p>
+
+    <div>
+      <label style="font-size:12px; color:var(--text-muted);">Discord Webhook URL</label>
+      <input type="text" class="modal-input" id="wh-discord-url" placeholder="https://discord.com/api/webhooks/..." value="">
+    </div>
+
+    <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:8px;">
+      <button class="btn" id="btn-cancel-webhook">Close</button>
+      <button class="btn btn-primary" id="btn-send-webhook">🚀 Send Test Alert</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="campaigns_data.js"></script>
+<script>
+  let CAMPAIGNS = window.CAMPAIGNS_DATA || [];
+  const TRACKER_KEY = "signal_tracker_items_v2";
+  let trackerItems = JSON.parse(localStorage.getItem(TRACKER_KEY) || "[]");
+
+  let activePriority = "balanced";
+  let activeBudget = "any";
+  let activeCategory = "all";
+  let activePlatform = "all";
+  let searchQuery = "";
+  let currentHero = null;
+  let activeModalCampaign = null;
+
+  function showToast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(() => t.classList.remove("show"), 3500);
+  }
+
+  function saveTracker() {
+    localStorage.setItem(TRACKER_KEY, JSON.stringify(trackerItems));
+    document.getElementById("tracker-count").textContent = trackerItems.length;
+    renderTracker();
+  }
+
+  function escapeQuotes(str) {
+    return (str || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+  }
+
+  function calculateScore(c) {
+    const remaining = Math.max(0, c.total - c.spent);
+    let s = 50;
+    s += Math.min(30, c.cpm * 10);
+    s += Math.min(20, (remaining / 10000) * 10);
+    if (c.age && (c.age.includes('m') || c.age.includes('h') || c.age === '1d')) s += 15;
+    return Math.round(s);
+  }
+
+  function renderDiscovery() {
+    let list = CAMPAIGNS.filter(c => {
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const mTitle = (c.title || '').toLowerCase().includes(q);
+        const mAgency = (c.agency || '').toLowerCase().includes(q);
+        const mCat = (c.category || '').toLowerCase().includes(q);
+        if (!mTitle && !mAgency && !mCat) return false;
+      }
+
+      if (activeCategory !== "all" && (c.category || '').toLowerCase() !== activeCategory.toLowerCase()) {
+        return false;
+      }
+
+      if (activePlatform !== "all") {
+        const plats = (c.platforms || []).map(p => p.toLowerCase());
+        const matchMap = { tiktok: 'tiktok', instagram: 'instagram', youtube: 'youtube', x: 'x' };
+        if (!plats.some(p => p.includes(matchMap[activePlatform] || activePlatform))) return false;
+      }
+
+      const rem = Math.max(0, c.total - c.spent);
+      if (activeBudget === "low" && rem >= 3000) return false;
+      if (activeBudget === "mid" && (rem < 3000 || rem > 15000)) return false;
+      if (activeBudget === "high" && rem < 15000) return false;
+
+      return true;
+    });
+
+    if (activePriority === "pay") list.sort((a, b) => b.cpm - a.cpm);
+    else if (activePriority === "budget") list.sort((a, b) => (b.total - b.spent) - (a.total - a.spent));
+    else if (activePriority === "fresh") list.sort((a, b) => (b.sortTimestamp || 0) - (a.sortTimestamp || 0));
+    else if (activePriority === "easy") list.sort((a, b) => (a.spent / (a.total || 1)) - (b.spent / (b.total || 1)));
+    else list.sort((a, b) => calculateScore(b) - calculateScore(a));
+
+    document.getElementById("results-count").textContent = `${list.length} active campaigns`;
+    document.getElementById("header-active-count").textContent = list.length;
+
+    const heroCard = document.getElementById("hero-card");
+    if (list.length === 0) {
+      heroCard.style.display = "none";
+      document.getElementById("empty-state").style.display = "block";
+      document.getElementById("campaigns-grid").innerHTML = "";
+      return;
+    }
+
+    heroCard.style.display = "flex";
+    document.getElementById("empty-state").style.display = "none";
+    currentHero = list[0];
+
+    const hRem = Math.max(0, currentHero.total - currentHero.spent);
+    const hPct = currentHero.total > 0 ? Math.min(100, Math.round((currentHero.spent / currentHero.total) * 100)) : 0;
+
+    document.getElementById("hero-cat").textContent = currentHero.category || "General";
+    document.getElementById("hero-title").textContent = currentHero.title;
+    document.getElementById("hero-agency").textContent = `${currentHero.agency} • ${currentHero.formattedAge || currentHero.age || 'Active'}`;
+    document.getElementById("hero-desc").textContent = currentHero.description || `${currentHero.agency} short-form clipping pool.`;
+    document.getElementById("hero-score").textContent = calculateScore(currentHero);
+    document.getElementById("hero-cpm").textContent = `$${currentHero.cpm.toFixed(2)} / 1K`;
+    document.getElementById("hero-remaining").textContent = `$${hRem.toLocaleString()} left`;
+    document.getElementById("hero-total").textContent = `$${currentHero.total.toLocaleString()}`;
+    document.getElementById("hero-claim").textContent = `${hPct}%`;
+    document.getElementById("hero-bar-fill").style.width = `${hPct}%`;
+    document.getElementById("hero-spent-meta").textContent = `$${currentHero.spent.toLocaleString()} spent (${hPct}%)`;
+    document.getElementById("hero-total-meta").textContent = `$${currentHero.total.toLocaleString()} total`;
+
+    const grid = document.getElementById("campaigns-grid");
+    grid.innerHTML = "";
+
+    list.slice(1).forEach(c => {
+      const rem = Math.max(0, c.total - c.spent);
+      const pct = c.total > 0 ? Math.min(100, Math.round((c.spent / c.total) * 100)) : 0;
+      const isFresh = c.age && (c.age.includes('h') || c.age.includes('m') || c.age === '1d');
+
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="card-top">
+          <div class="card-badges">
+            <span class="tag-cat">${c.category || 'General'}</span>
+            ${isFresh ? `<span class="tag-fresh">🔥 Fresh</span>` : ''}
+          </div>
+          <span class="tag-age">${c.formattedAge || c.age || 'Active'}</span>
+        </div>
+
+        <div>
+          <h4 class="card-title" onclick="openBlueprintModal('${escapeQuotes(c.title)}')">${c.title}</h4>
+          <div class="card-agency">${c.agency}</div>
+        </div>
+
+        <p class="card-desc">${c.description || `${c.agency} campaign.`}</p>
+
+        <div class="card-metrics">
+          <div class="metric-item">
+            <span class="val green">$${c.cpm.toFixed(2)}</span>
+            <span class="lbl">CPM</span>
+          </div>
+          <div class="metric-item">
+            <span class="val">$${rem.toLocaleString()}</span>
+            <span class="lbl">Left</span>
+          </div>
+          <div class="metric-item">
+            <span class="val">${pct}%</span>
+            <span class="lbl">Filled</span>
+          </div>
+        </div>
+
+        <div class="card-bar">
+          <div class="card-bar-fill ${pct > 60 ? 'active-fill' : ''}" style="width: ${pct}%"></div>
+        </div>
+
+        <div class="card-footer">
+          <div class="card-score">★ Score: ${calculateScore(c)}</div>
+          <div class="card-actions">
+            <button class="btn-sm" onclick="openTrackFor('${escapeQuotes(c.title)}', '${escapeQuotes(c.agency)}', ${c.cpm})">+ Track</button>
+            <button class="btn-sm join" onclick="handleJoinCampaign('${escapeQuotes(c.title)}')">Join ↗</button>
+          </div>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function renderTracker() {
+    const tbody = document.getElementById("tracker-table-body");
+    tbody.innerHTML = "";
+
+    if (trackerItems.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding:40px; color:var(--text-dim);">No clip submissions logged yet. Click "+ Log New Clip" or "+ Track" on any campaign card above!</td></tr>`;
+      return;
+    }
+
+    trackerItems.forEach((entry, idx) => {
+      const payout = ((entry.views || 0) / 1000) * (entry.cpm || 0);
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>
+          <div style="font-weight:700;">${entry.title}</div>
+          <div style="font-size:11px; color:var(--text-dim);">${entry.agency}</div>
+        </td>
+        <td>
+          <select class="select-status" onchange="updateTrackerStatus(${idx}, this.value)">
+            <option value="joined" ${entry.status === 'joined' ? 'selected' : ''}>🔖 Joined</option>
+            <option value="submitted" ${entry.status === 'submitted' ? 'selected' : ''}>⏳ Submitted</option>
+            <option value="approved" ${entry.status === 'approved' ? 'selected' : ''}>✅ Approved</option>
+            <option value="rejected" ${entry.status === 'rejected' ? 'selected' : ''}>❌ Rejected</option>
+            <option value="completed" ${entry.status === 'completed' ? 'selected' : ''}>🏁 Completed</option>
+          </select>
+        </td>
+        <td style="font-family:var(--font-mono); font-weight:700; color:var(--green-dark);">$${Number(entry.cpm).toFixed(2)}/1K</td>
+        <td>
+          <input type="number" class="input-views" value="${entry.views || 0}" onchange="updateTrackerViews(${idx}, this.value)">
+        </td>
+        <td style="font-family:var(--font-mono); font-weight:700; color:var(--amber);">$${payout.toFixed(2)}</td>
+        <td>
+          ${entry.url ? `<a href="${entry.url}" target="_blank" style="color:var(--cyan); font-weight:600;">View Clip ↗</a>` : '<span style="color:var(--text-dim);">—</span>'}
+        </td>
+        <td>
+          <button class="btn-sm" style="color:var(--rose);" onclick="deleteTrackerItem(${idx})">Delete</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  window.updateTrackerStatus = function(idx, val) {
+    if (trackerItems[idx]) {
+      trackerItems[idx].status = val;
+      saveTracker();
+      showToast(`Updated to ${val.toUpperCase()}`);
+    }
+  };
+
+  window.updateTrackerViews = function(idx, val) {
+    if (trackerItems[idx]) {
+      trackerItems[idx].views = Math.max(0, parseInt(val) || 0);
+      saveTracker();
+    }
+  };
+
+  window.deleteTrackerItem = function(idx) {
+    trackerItems.splice(idx, 1);
+    saveTracker();
+    showToast("Entry removed.");
+  };
+
+  window.handleJoinCampaign = function(title) {
+    const rawTitle = (title || '').trim();
+    if (!rawTitle) return;
+
+    // Find the campaign object so we can use ID/whop_route if available
+    const camp = CAMPAIGNS.find(c => c.title === rawTitle) || {};
+
+    // Copy full title to clipboard as fallback (user can paste if auto-search fails)
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(rawTitle).catch(() => {});
+    }
+
+    // If we have a direct whop route, open it (fastest path)
+    if (camp.whop_route) {
+      showToast(`🚀 Opening "${rawTitle.slice(0, 30)}" on Whop...`);
+      setTimeout(() => window.open(`https://whop.com/${camp.whop_route}`, '_blank'), 150);
+      return;
+    }
+
+    // Otherwise open Content Rewards discover with the FULL title in the hash
+    // so the Tampermonkey v2.0 script can score-match it precisely
+    // Do NOT strip pipes/brackets — pass the exact title for best matching
+    showToast(`🚀 Searching "${rawTitle.slice(0, 35)}" on Content Rewards... (title copied)`);
+    const targetUrl = `https://contentrewards.com/discover#search=${encodeURIComponent(rawTitle)}`;
+    setTimeout(() => window.open(targetUrl, '_blank'), 150);
+  };
+
+  window.openBlueprintModal = function(title) {
+    const c = CAMPAIGNS.find(item => item.title === title) || currentHero;
+    if (!c) return;
+    activeModalCampaign = c;
+
+    const rem = Math.max(0, c.total - c.spent);
+    document.getElementById("bp-cat").textContent = c.category || "General";
+    document.getElementById("bp-title").textContent = c.title;
+    document.getElementById("bp-agency").textContent = `${c.agency} • ${c.formattedAge || c.age || 'Active'}`;
+    document.getElementById("bp-cpm").textContent = `$${c.cpm.toFixed(2)} / 1K`;
+    document.getElementById("bp-remaining").textContent = `$${rem.toLocaleString()} left`;
+    document.getElementById("bp-total").textContent = `$${c.total.toLocaleString()}`;
+
+    // Platform badges
+    const platIcons = { tiktok: '🎵', instagram: '📸', youtube: '▶', x: '✖', twitter: '✖' };
+    const platsRow = document.getElementById("bp-platforms-row");
+    const platforms = c.platforms || [];
+    if (platforms.length > 0) {
+      platsRow.style.display = "flex";
+      platsRow.innerHTML = platforms.map(p => {
+        const icon = platIcons[p.toLowerCase().replace(/\s/g,'').replace('twitter','x')] || '📱';
+        return `<span style="background:rgba(0,200,255,0.1); border:1px solid rgba(0,200,255,0.3); border-radius:20px; padding:3px 10px; font-size:11px; font-weight:700; color:var(--cyan);">${icon} ${p}</span>`;
+      }).join('');
+    } else {
+      platsRow.style.display = "none";
+      platsRow.innerHTML = "";
+    }
+
+    // Description (clean text — no embedded URLs)
+    const descText = (c.description || `${c.agency} short-form campaign brief on Content Rewards.`)
+      .replace(/https?:\/\/[^\s]+/g, '')   // strip URLs from description
+      .replace(/\\n/g, '\n')
+      .trim();
+    document.getElementById("bp-desc").textContent = descText;
+
+    // Doc links as separate clean button section
+    const docLinksEl = document.getElementById("bp-doc-links");
+    const docLinks = c.doc_links || [];
+    // Also pull any URLs left in original description
+    const urlsInDesc = (c.description || '').match(/https?:\/\/[^\s]+/g) || [];
+    const allLinks = [...new Set([...docLinks, ...urlsInDesc])];
+    if (allLinks.length > 0) {
+      docLinksEl.style.display = "flex";
+      docLinksEl.innerHTML = `
+        <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:var(--cyan); margin-bottom:4px;">📎 Campaign Documents & Links</div>
+        ${allLinks.map(url => {
+          let label = '📄 View Document';
+          if (url.includes('docs.google')) label = '📝 Google Doc';
+          else if (url.includes('drive.google')) label = '📁 Google Drive';
+          else if (url.includes('notion')) label = '📒 Notion Doc';
+          else if (url.includes('whop')) label = '🏪 Whop Page';
+          else if (url.includes('tiktok')) label = '🎵 TikTok';
+          return `<a href="${url}" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:8px; background:rgba(0,200,255,0.07); border:1px solid rgba(0,200,255,0.25); border-radius:8px; padding:9px 14px; color:var(--cyan); font-size:12px; font-weight:700; text-decoration:none; transition:background 0.2s;" onmouseover="this.style.background='rgba(0,200,255,0.15)'" onmouseout="this.style.background='rgba(0,200,255,0.07)'">${label} <span style="opacity:0.6; font-weight:400; font-size:10px; word-break:break-all;">${url}</span> ↗</a>`;
+        }).join('')}
+      `;
+    } else {
+      docLinksEl.style.display = "none";
+      docLinksEl.innerHTML = "";
+    }
+
+    document.getElementById("modal-blueprint").classList.remove("hidden");
+  };
+
+  window.openHeroBlueprint = function() {
+    if (currentHero) openBlueprintModal(currentHero.title);
+  };
+
+  window.openTrackFor = function(title, agency, cpm) {
+    document.getElementById("log-title").value = title;
+    document.getElementById("log-agency").value = agency;
+    document.getElementById("log-cpm").value = cpm || 1.5;
+    document.getElementById("log-url").value = "";
+    document.getElementById("log-views").value = "0";
+    document.getElementById("modal-log-clip").classList.remove("hidden");
+  };
+
+  // Nav Switcher
+  document.getElementById("tab-discover").addEventListener("click", () => {
+    document.getElementById("tab-discover").classList.add("active");
+    document.getElementById("tab-tracker").classList.remove("active");
+    document.getElementById("view-discover").style.display = "block";
+    document.getElementById("view-tracker").style.display = "none";
+  });
+
+  document.getElementById("tab-tracker").addEventListener("click", () => {
+    document.getElementById("tab-tracker").classList.add("active");
+    document.getElementById("tab-discover").classList.remove("active");
+    document.getElementById("view-discover").style.display = "none";
+    document.getElementById("view-tracker").style.display = "block";
+    renderTracker();
+  });
+
+  // Filter Event Listeners
+  document.querySelectorAll("#pills-priority .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-priority .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activePriority = p.dataset.p;
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-budget .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-budget .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activeBudget = p.dataset.b;
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-category .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-category .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activeCategory = p.dataset.c;
+      renderDiscovery();
+    });
+  });
+
+  document.querySelectorAll("#pills-platform .pill").forEach(p => {
+    p.addEventListener("click", () => {
+      document.querySelectorAll("#pills-platform .pill").forEach(el => el.classList.remove("active"));
+      p.classList.add("active");
+      activePlatform = p.dataset.pl;
+      renderDiscovery();
+    });
+  });
+
+  document.getElementById("search-input").addEventListener("input", e => {
+    searchQuery = e.target.value;
+    renderDiscovery();
+  });
+
+  // Hero Buttons
+  document.getElementById("btn-hero-join").addEventListener("click", () => {
+    if (currentHero) handleJoinCampaign(currentHero.title);
+  });
+  document.getElementById("btn-hero-blueprint").addEventListener("click", openHeroBlueprint);
+  document.getElementById("btn-hero-track").addEventListener("click", () => {
+    if (currentHero) openTrackFor(currentHero.title, currentHero.agency, currentHero.cpm);
+  });
+
+  // Modal Closers
+  document.getElementById("btn-close-bp").addEventListener("click", () => document.getElementById("modal-blueprint").classList.add("hidden"));
+  document.getElementById("btn-close-log").addEventListener("click", () => document.getElementById("modal-log-clip").classList.add("hidden"));
+  document.getElementById("btn-cancel-log").addEventListener("click", () => document.getElementById("modal-log-clip").classList.add("hidden"));
+  document.getElementById("btn-close-webhook").addEventListener("click", () => document.getElementById("modal-webhook").classList.add("hidden"));
+  document.getElementById("btn-cancel-webhook").addEventListener("click", () => document.getElementById("modal-webhook").classList.add("hidden"));
+
+  document.getElementById("bp-btn-join").addEventListener("click", () => {
+    if (activeModalCampaign) handleJoinCampaign(activeModalCampaign.title);
+  });
+  document.getElementById("bp-btn-track").addEventListener("click", () => {
+    if (activeModalCampaign) {
+      document.getElementById("modal-blueprint").classList.add("hidden");
+      openTrackFor(activeModalCampaign.title, activeModalCampaign.agency, activeModalCampaign.cpm);
+    }
+  });
+
+  document.getElementById("btn-add-clip").addEventListener("click", () => {
+    document.getElementById("log-title").value = "";
+    document.getElementById("log-agency").value = "";
+    document.getElementById("log-cpm").value = "1.50";
+    document.getElementById("log-url").value = "";
+    document.getElementById("log-views").value = "0";
+    document.getElementById("modal-log-clip").classList.remove("hidden");
+  });
+
+  document.getElementById("btn-save-log").addEventListener("click", () => {
+    const title = document.getElementById("log-title").value.trim() || "Untitled Campaign";
+    const agency = document.getElementById("log-agency").value.trim() || "Independent";
+    const cpm = parseFloat(document.getElementById("log-cpm").value) || 1.5;
+    const status = document.getElementById("log-status").value;
+    const url = document.getElementById("log-url").value.trim();
+    const views = parseInt(document.getElementById("log-views").value) || 0;
+
+    trackerItems.unshift({ title, agency, cpm, status, url, views, date: new Date().toLocaleDateString() });
+    saveTracker();
+    document.getElementById("modal-log-clip").classList.add("hidden");
+    showToast(`✅ Logged "${title}" into Submission Pipeline!`);
+  });
+
+  // Webhook Tester
+  document.getElementById("btn-open-webhook").addEventListener("click", () => document.getElementById("modal-webhook").classList.remove("hidden"));
+
+  document.getElementById("btn-send-webhook").addEventListener("click", async () => {
+    const whUrl = document.getElementById("wh-discord-url").value.trim();
+    const sample = currentHero || CAMPAIGNS[0];
+    const rem = Math.max(0, sample.total - sample.spent);
+    const payload = {
+      embeds: [{
+        title: `⚡ NEW CAMPAIGN DROP: ${sample.title}`,
+        url: "https://contentrewards.com/discover",
+        description: `**Agency:** \`${sample.agency}\`\n**Category:** \`${sample.category}\`\n**🕒 Posted:** **${sample.formattedAge || sample.age || 'Just now'}**`,
+        color: 0x2ED47A,
+        fields: [
+          { name: "💰 CPM Rate", value: `**$${sample.cpm.toFixed(2)}** / 1K views`, inline: true },
+          { name: "🏦 Remaining Pool", value: `**$${rem.toLocaleString()}** left`, inline: true },
+          { name: "📊 Total Budget", value: `$${sample.total.toLocaleString()}`, inline: true },
+          { name: "🔗 Campaign Discovery", value: `[👉 Open Content Rewards Discover](https://contentrewards.com/discover)`, inline: false }
+        ],
+        footer: { text: "Signal Campaign Radar • Real-Time Alert Test" },
+        timestamp: new Date().toISOString()
+      }]
+    };
+
+    try {
+      const res = await fetch(whUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      if (res.ok || res.status === 204) {
+        showToast("✅ Discord Test Alert Dispatched Successfully!");
+        document.getElementById("modal-webhook").classList.add("hidden");
+      } else {
+        showToast(`⚠️ Discord response: ${res.status}`);
+      }
+    } catch (err) {
+      showToast(`❌ Error: ${err.message}`);
+    }
+  });
+
+  // CSV Export
+  document.getElementById("btn-export-csv").addEventListener("click", () => {
+    const headers = ["Title", "Agency", "Category", "CPM", "Spent", "Total", "Remaining", "ClaimPct", "Score"];
+    const rows = CAMPAIGNS.map(c => [
+      `"${c.title.replace(/"/g, '""')}"`,
+      `"${c.agency.replace(/"/g, '""')}"`,
+      `"${c.category}"`,
+      c.cpm,
+      c.spent,
+      c.total,
+      Math.max(0, c.total - c.spent),
+      c.total > 0 ? Math.round((c.spent / c.total) * 100) : 0,
+      calculateScore(c)
+    ]);
+    const csv = "data:text/csv;charset=utf-8," + [headers.join(","), ...rows.map(r => r.join(","))].join("\n");
+    const a = document.createElement("a");
+    a.href = encodeURI(csv);
+    a.download = `content_rewards_campaigns_${Date.now()}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+
+  // Load Feed Data
+  async function loadFeed() {
+    try {
+      const res = await fetch("campaigns.json?t=" + Date.now());
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data) && data.length > 0) {
+          CAMPAIGNS = data;
+          renderDiscovery();
+        }
+      }
+    } catch (e) {}
+  }
+
+  if (Array.isArray(CAMPAIGNS) && CAMPAIGNS.length > 0) {
+    renderDiscovery();
+  }
+  loadFeed();
+  saveTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+node_modules/
+files/node_modules/
+.env
+.env.*
+*.env
+ai_config.json
+ai_config.local.json
+*.log
+discord_config*.json
+discord_bot.js
+run_discord_bot.bat
+discord_backup/
+scratch/

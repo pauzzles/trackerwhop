@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/ai_copilot.html" },
+    { "source": "/app", "destination": "/ai_copilot.html" },
+    { "source": "/copilot", "destination": "/ai_copilot.html" },
+    { "source": "/ai", "destination": "/ai_copilot.html" },
+    { "source": "/clipping", "destination": "/ai_copilot.html" },
+    { "source": "/rewards", "destination": "/ai_copilot.html" }
+  ]
+}

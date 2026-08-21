@@ -1,0 +1,42 @@
+name: Fetch Campaign Docs
+
+on:
+  schedule:
+    # Run every hour to keep docs fresh for all campaigns
+    - cron: '0 * * * *'
+  workflow_dispatch:  # allow manual trigger from GitHub UI
+
+jobs:
+  fetch-docs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch all campaign docs
+        run: node fetch_all_docs.js
+
+      - name: Check if campaigns.json changed
+        id: diff
+        run: |
+          git diff --quiet campaigns.json campaigns_data.js || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated docs
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add campaigns.json campaigns_data.js
+          git commit -m "Auto-fetch campaign docs [skip ci]" || echo "No changes"
+          git push origin main || echo "Push skipped"
