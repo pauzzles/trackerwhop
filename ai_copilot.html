@@ -2946,7 +2946,7 @@
     }
 
     // --- Tab Navigation ---
-    function switchTab(tabId, optionalPreset) {
+    function switchTab(tabId, filterOptions) {
       currentTab = tabId;
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
       document.querySelectorAll('.view-panel').forEach(panel => panel.classList.remove('active'));
@@ -2960,15 +2960,70 @@
         setupHorizontalScrollbars();
         setupScrollFold();
         
-        if (optionalPreset) {
-          const pill = document.querySelector(`.filter-pill[data-filter="${optionalPreset}"], .filter-pill[data-cat="${optionalPreset}"], .filter-pill[data-content="${optionalPreset}"], .filter-pill[data-platform="${optionalPreset}"]`);
-          if (pill) {
-            if (pill.dataset.cat) setCategoryFilter(optionalPreset, pill);
-            else if (pill.dataset.content) setContentTypeFilter(optionalPreset, pill);
-            else if (pill.dataset.platform) setPlatformFilter(optionalPreset, pill);
-            else setCampaignFilter(optionalPreset, pill);
-          } else {
-            setCampaignFilter(optionalPreset, null);
+        if (filterOptions) {
+          if (typeof filterOptions === 'string') {
+            const str = filterOptions.trim();
+            if (str === 'removed') {
+              return switchTab('removed');
+            }
+            const pill = document.querySelector(`.filter-pill[data-filter="${str}"], .filter-pill[data-cat="${str}"], .filter-pill[data-content="${str}"], .filter-pill[data-platform="${str}"]`);
+            if (pill) {
+              const searchInput = document.getElementById('campaignSearchInput');
+              if (searchInput) searchInput.value = '';
+              if (pill.dataset.cat) setCategoryFilter(str, pill);
+              else if (pill.dataset.content) setContentTypeFilter(str, pill);
+              else if (pill.dataset.platform) setPlatformFilter(str, pill);
+              else setCampaignFilter(str, pill);
+            } else if (str !== 'all') {
+              const searchInput = document.getElementById('campaignSearchInput');
+              if (searchInput) searchInput.value = str;
+              // Reset pills to all
+              const catAll = document.querySelector('#categoryPillsBar .filter-pill[data-cat="all"]');
+              const contentAll = document.querySelector('#contentTypePillsBar .filter-pill[data-content="all"]');
+              const platAll = document.querySelector('#platformPillsBar .filter-pill[data-platform="all"]');
+              const presetAll = document.querySelector('#presetPillsBar .filter-pill[data-filter="all"]');
+              if (catAll) setCategoryFilter('all', catAll);
+              if (contentAll) setContentTypeFilter('all', contentAll);
+              if (platAll) setPlatformFilter('all', platAll);
+              if (presetAll) setCampaignFilter('all', presetAll);
+              applyCampaignFilters();
+            } else {
+              applyCampaignFilters();
+            }
+          } else if (typeof filterOptions === 'object') {
+            const searchInput = document.getElementById('campaignSearchInput');
+            if (searchInput) {
+              searchInput.value = filterOptions.search || '';
+            }
+            if (filterOptions.category) {
+              const pill = document.querySelector(`#categoryPillsBar .filter-pill[data-cat="${filterOptions.category}"]`);
+              setCategoryFilter(filterOptions.category, pill);
+            } else {
+              const catAll = document.querySelector('#categoryPillsBar .filter-pill[data-cat="all"]');
+              if (catAll) setCategoryFilter('all', catAll);
+            }
+            if (filterOptions.contentType) {
+              const pill = document.querySelector(`#contentTypePillsBar .filter-pill[data-content="${filterOptions.contentType}"]`);
+              setContentTypeFilter(filterOptions.contentType, pill);
+            } else {
+              const contentAll = document.querySelector('#contentTypePillsBar .filter-pill[data-content="all"]');
+              if (contentAll) setContentTypeFilter('all', contentAll);
+            }
+            if (filterOptions.platform) {
+              const pill = document.querySelector(`#platformPillsBar .filter-pill[data-platform="${filterOptions.platform}"]`);
+              setPlatformFilter(filterOptions.platform, pill);
+            } else {
+              const platAll = document.querySelector('#platformPillsBar .filter-pill[data-platform="all"]');
+              if (platAll) setPlatformFilter('all', platAll);
+            }
+            if (filterOptions.preset && filterOptions.preset !== 'all') {
+              const pill = document.querySelector(`#presetPillsBar .filter-pill[data-filter="${filterOptions.preset}"]`);
+              setCampaignFilter(filterOptions.preset, pill);
+            } else {
+              const presetAll = document.querySelector('#presetPillsBar .filter-pill[data-filter="all"]');
+              if (presetAll) setCampaignFilter('all', presetAll);
+            }
+            applyCampaignFilters();
           }
         } else {
           applyCampaignFilters();
@@ -2978,9 +3033,11 @@
         document.getElementById('removedPanel').classList.add('active');
         setupHorizontalScrollbars();
 
-        if (optionalPreset) {
-          const pill = document.querySelector(`[data-removed-filter="${optionalPreset}"]`);
-          if (pill) setRemovedFilter(optionalPreset, pill);
+        if (filterOptions) {
+          const optStr = typeof filterOptions === 'string' ? filterOptions : (filterOptions.preset || filterOptions.category || 'all');
+          const pill = document.querySelector(`[data-removed-filter="${optStr}"]`);
+          if (pill) setRemovedFilter(optStr, pill);
+          else applyRemovedFilters();
         } else {
           applyRemovedFilters();
         }
@@ -3132,8 +3189,52 @@
       return html;
     }
 
+    function scoreLocalCampaignForQuery(c, userQuery) {
+      if (!c) return 0;
+      const q = (userQuery || '').toLowerCase();
+      if (!q) return 0;
+
+      const title = (c.title || '').toLowerCase();
+      const desc = (c.description || '').toLowerCase();
+      const agency = (c.agency || '').toLowerCase();
+      const cat = (c.category || '').toLowerCase();
+      const type = (c.contentType || '').toLowerCase();
+      const reqs = (c.requirements || []).join(' ').toLowerCase();
+      const platforms = (c.platforms || []).join(' ').toLowerCase();
+      const fullText = `${title} ${desc} ${agency} ${cat} ${type} ${reqs} ${platforms}`;
+
+      let score = 0;
+      const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'camp', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or', 'some']);
+      const cleanTokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
+
+      const cleanRawQ = q.replace(/^(what is|tell me about|info on|brief for|rules for|requirements for|docs for|drive for|link for|cpm for|budget for|show me|find me)\s+/i, '').trim();
+      if (cleanRawQ.length > 2 && title.includes(cleanRawQ)) {
+        score += 200;
+      }
+
+      for (const tok of cleanTokens) {
+        if (title.includes(tok)) score += 60;
+        else if (agency.includes(tok)) score += 40;
+        else if (cat.includes(tok) || type.includes(tok)) score += 30;
+        else if (desc.includes(tok) || reqs.includes(tok)) score += 20;
+        else if (fullText.includes(tok)) score += 10;
+      }
+
+      if ((q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent')) && (parseFloat(c.spent) || 0) === 0) score += 50;
+      if ((q.includes('high cpm') || q.includes('cpm')) && (parseFloat(c.cpm) || 0) >= 2.0) score += 30;
+      if (q.includes('music') && (cat.includes('music') || title.includes('song') || desc.includes('music'))) score += 40;
+      if ((q.includes('podcast') || q.includes('stream')) && (cat.includes('personal') || desc.includes('podcast') || desc.includes('stream'))) score += 40;
+      if ((q.includes('ai') || q.includes('tech')) && (cat.includes('tech') || desc.includes('ai') || title.includes('ai'))) score += 40;
+      if (q.includes('ugc') && (type.includes('ugc') || desc.includes('ugc'))) score += 40;
+      if (q.includes('clip') && (type.includes('clipping') || desc.includes('clip'))) score += 40;
+
+      return score;
+    }
+
     function extractRelevantCampaigns(query, replyText = '') {
-      if (!Array.isArray(rawCampaigns) || rawCampaigns.length === 0) return [];
+      if (!Array.isArray(rawCampaigns) || rawCampaigns.length === 0) {
+        return { campaigns: [], totalMatchesCount: 0, filterOptions: { preset: 'all' } };
+      }
       
       const q = (query || '').toLowerCase();
       const reply = (replyText || '').toLowerCase();
@@ -3149,6 +3250,12 @@
           matched.push(c);
         }
       }
+
+      const active = rawCampaigns.filter(c => {
+        const total = parseFloat(c.total) || 0;
+        const spent = parseFloat(c.spent) || 0;
+        return total === 0 || (total - spent) > 0;
+      });
 
       // 1. Direct title mentions in AI reply
       for (const c of rawCampaigns) {
@@ -3171,68 +3278,85 @@
       }
 
       // 3. Fallback matching based on user query intent / keywords
-      const wantsNew = q.includes('new') || q.includes('fresh') || q.includes('latest') || q.includes('recent') || q.includes('camp') || q.includes('drop');
-      const wantsHighestCpm = q.includes('cpm') || q.includes('rate') || q.includes('highest pay') || q.includes('pay');
-      const wantsZeroSpent = q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent') || q.includes('unclaimed');
-      const wantsBudget = q.includes('budget') || q.includes('pool') || q.includes('largest') || q.includes('money');
-      const wantsMusic = q.includes('music') || q.includes('lyric') || q.includes('song');
-      const wantsPodcast = q.includes('podcast') || q.includes('stream');
-      const wantsAI = q.includes('ai') || q.includes('tech');
-      const wantsClipping = q.includes('clip');
+      const is0Sub = q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent') || q.includes('unclaimed');
+      const isHighCpm = q.includes('highest cpm') || q.includes('top cpm') || q.includes('high cpm') || q.includes('highest pay');
+      const isBudget = q.includes('highest budget') || q.includes('largest budget') || q.includes('most budget') || q.includes('biggest pool') || q.includes('largest pool');
+      const isMusic = q.includes('music') || q.includes('lyric') || q.includes('song');
+      const isPodcast = q.includes('podcast') || q.includes('stream') || q.includes('streamer');
+      const isAi = q.includes('ai') || q.includes('tech') || q.includes('software') || q.includes('saas') || q.includes('app');
+      const isUgc = q.includes('ugc');
+      const isClipping = q.includes('clipping') || q.includes('clip ');
 
-      if (matched.length === 0 || wantsNew || wantsHighestCpm || wantsZeroSpent || wantsBudget || wantsMusic || wantsPodcast || wantsAI || wantsClipping) {
-        const active = rawCampaigns.filter(c => {
-          const total = parseFloat(c.total) || 0;
-          const spent = parseFloat(c.spent) || 0;
-          return total === 0 || (total - spent) > 0;
+      const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'camp', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or', 'some']);
+      const cleanTokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
+
+      let filterOptions = { preset: 'all' };
+      let allMatching = [];
+
+      if (is0Sub) {
+        filterOptions = { preset: '0sub' };
+        allMatching = active.filter(c => (parseFloat(c.spent) || 0) === 0);
+      } else if (isMusic) {
+        filterOptions = { category: 'Music' };
+        allMatching = active.filter(c => (c.category || '').toLowerCase().includes('music') || (c.title || '').toLowerCase().includes('song') || (c.description || '').toLowerCase().includes('music'));
+      } else if (isPodcast) {
+        filterOptions = { search: 'podcast', preset: 'personal' };
+        allMatching = active.filter(c => (c.category || '').toLowerCase().includes('personal') || (c.description || '').toLowerCase().includes('podcast') || (c.title || '').toLowerCase().includes('podcast') || (c.description || '').toLowerCase().includes('stream'));
+      } else if (isAi) {
+        filterOptions = { search: 'ai' };
+        allMatching = active.filter(c => (c.category || '').toLowerCase().includes('tech') || (c.description || '').toLowerCase().includes('ai') || (c.title || '').toLowerCase().includes('ai'));
+      } else if (isUgc) {
+        filterOptions = { contentType: 'UGC' };
+        allMatching = active.filter(c => (c.contentType || '').toLowerCase().includes('ugc') || (c.description || '').toLowerCase().includes('ugc'));
+      } else if (isClipping) {
+        filterOptions = { contentType: 'Clipping' };
+        allMatching = active.filter(c => (c.contentType || '').toLowerCase().includes('clipping') || (c.description || '').toLowerCase().includes('clip') || (c.title || '').toLowerCase().includes('clip'));
+      } else if (isHighCpm) {
+        filterOptions = { preset: 'highcpm' };
+        allMatching = [...active].sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0));
+      } else if (isBudget) {
+        filterOptions = { preset: 'highbudget' };
+        allMatching = [...active].sort((a, b) => ((parseFloat(b.total) || 0) - (parseFloat(b.spent) || 0)) - ((parseFloat(a.total) || 0) - (parseFloat(a.spent) || 0)));
+      } else if (cleanTokens.length > 0) {
+        const searchTerm = cleanTokens.join(' ');
+        filterOptions = { search: searchTerm };
+        allMatching = active.filter(c => {
+          const full = `${c.title} ${c.description} ${c.agency} ${c.category} ${(c.platforms || []).join(' ')}`.toLowerCase();
+          return cleanTokens.some(t => full.includes(t));
         });
-
-        if (wantsZeroSpent) {
-          active.filter(c => (parseFloat(c.spent) || 0) === 0).slice(0, 4).forEach(add);
-        } else if (wantsMusic) {
-          active.filter(c => (c.category || '').toLowerCase().includes('music') || (c.title || '').toLowerCase().includes('song') || (c.title || '').toLowerCase().includes('music')).slice(0, 4).forEach(add);
-        } else if (wantsPodcast) {
-          active.filter(c => (c.category || '').toLowerCase().includes('personal') || (c.description || '').toLowerCase().includes('podcast') || (c.description || '').toLowerCase().includes('stream')).slice(0, 4).forEach(add);
-        } else if (wantsAI) {
-          active.filter(c => (c.category || '').toLowerCase().includes('tech') || (c.description || '').toLowerCase().includes('ai') || (c.title || '').toLowerCase().includes('ai')).slice(0, 4).forEach(add);
-        } else if (wantsClipping) {
-          active.filter(c => (c.contentType || '').toLowerCase().includes('clipping') || (c.description || '').toLowerCase().includes('clip') || (c.title || '').toLowerCase().includes('clip')).slice(0, 4).forEach(add);
-        } else if (wantsHighestCpm) {
-          [...active].sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0)).slice(0, 4).forEach(add);
-        } else if (wantsBudget) {
-          [...active].sort((a, b) => {
-            const remA = Math.max(0, (parseFloat(a.total) || 0) - (parseFloat(a.spent) || 0));
-            const remB = Math.max(0, (parseFloat(b.total) || 0) - (parseFloat(b.spent) || 0));
-            return remB - remA;
-          }).slice(0, 4).forEach(add);
-        } else if (wantsNew) {
-          [...active].sort((a, b) => parseTimeScore(b) - parseTimeScore(a)).slice(0, 4).forEach(add);
-        } else {
-          const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or']);
-          const tokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 2 && !stopWords.has(t));
-          if (tokens.length > 0) {
-            active.filter(c => {
-              const full = `${c.title} ${c.description} ${c.agency} ${c.category} ${(c.platforms || []).join(' ')}`.toLowerCase();
-              return tokens.some(t => full.includes(t));
-            }).slice(0, 4).forEach(add);
-          }
-        }
+        allMatching.sort((a, b) => scoreLocalCampaignForQuery(b, query) - scoreLocalCampaignForQuery(a, query));
+      } else {
+        allMatching = active;
       }
 
-      return matched.slice(0, 5);
+      allMatching.forEach(c => add(c));
+      const totalCount = allMatching.length > 0 ? allMatching.length : matched.length;
+
+      return {
+        campaigns: matched.slice(0, 5),
+        totalMatchesCount: totalCount,
+        filterOptions
+      };
     }
 
     function getPointerPresetFromQuery(query) {
       const q = (query || '').toLowerCase();
-      if (q.includes('removed') || q.includes('ended') || q.includes('deleted') || q.includes('archive') || q.includes('past')) return 'removed';
-      if (q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent')) return '0sub';
-      if (q.includes('music') || q.includes('song')) return 'music';
-      if (q.includes('podcast') || q.includes('stream')) return 'podcast';
-      if (q.includes('ai') || q.includes('tech')) return 'ai';
-      if (q.includes('cpm')) return 'highcpm';
-      if (q.includes('budget') || q.includes('pool')) return 'highbudget';
-      if (q.includes('clip')) return 'clipping';
-      return 'all';
+      if (q.includes('removed') || q.includes('ended') || q.includes('deleted') || q.includes('archive') || q.includes('past')) return { preset: 'removed' };
+      if (q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent')) return { preset: '0sub' };
+      if (q.includes('music') || q.includes('song')) return { category: 'Music' };
+      if (q.includes('podcast') || q.includes('stream')) return { search: 'podcast', preset: 'personal' };
+      if (q.includes('ai') || q.includes('tech')) return { search: 'ai' };
+      if (q.includes('cpm')) return { preset: 'highcpm' };
+      if (q.includes('budget') || q.includes('pool')) return { preset: 'highbudget' };
+      if (q.includes('ugc')) return { contentType: 'UGC' };
+      if (q.includes('clip')) return { contentType: 'Clipping' };
+      
+      const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'camp', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or']);
+      const tokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
+      if (tokens.length > 0) {
+        return { search: tokens.join(' ') };
+      }
+      return { preset: 'all' };
     }
 
     function getContextualFollowUps(query, matchedCampaigns = []) {
@@ -3293,10 +3417,20 @@
             const typingElem = document.getElementById('aiTypingIndicator');
             if (typingElem) typingElem.remove();
 
-            // Extract matching campaign objects to render as interactive visual cards
-            let matchedCampaigns = (Array.isArray(data.campaigns) && data.campaigns.length > 0)
-              ? data.campaigns
-              : extractRelevantCampaigns(text, data.reply);
+            let matchedCampaigns = [];
+            let totalMatchCount = 0;
+            let filterOptions = { preset: 'all' };
+
+            if (Array.isArray(data.campaigns) && data.campaigns.length > 0) {
+              matchedCampaigns = data.campaigns;
+              totalMatchCount = (typeof data.totalMatchesCount === 'number') ? data.totalMatchesCount : data.campaigns.length;
+              filterOptions = data.filterOptions || getPointerPresetFromQuery(text);
+            } else {
+              const localExtract = extractRelevantCampaigns(text, data.reply);
+              matchedCampaigns = localExtract.campaigns;
+              totalMatchCount = localExtract.totalMatchesCount;
+              filterOptions = localExtract.filterOptions;
+            }
 
             // Re-hydrate campaigns with full local properties
             matchedCampaigns = matchedCampaigns.map(c => {
@@ -3311,8 +3445,9 @@
             return addAssistantRichMessage({
               html: parsedHtml,
               campaigns: matchedCampaigns,
-              matchCount: matchedCampaigns.length > 0 ? (rawCampaigns.length) : 0,
-              pointerPreset: getPointerPresetFromQuery(text),
+              matchCount: totalMatchCount,
+              pointerFilter: filterOptions,
+              pointerPreset: typeof filterOptions === 'string' ? filterOptions : (filterOptions.preset || filterOptions.search || 'all'),
               followUps: getContextualFollowUps(text, matchedCampaigns)
             });
           }
@@ -3439,13 +3574,14 @@
           html: removedHtml,
           campaigns: sampleArchived,
           matchCount: (rawArchived || []).length,
+          pointerFilter: { preset: 'removed' },
           pointerPreset: 'removed',
           followUps: ['Show live clipping campaigns', 'Show 0 submission drops', 'Show highest CPM campaigns']
         });
       }
 
       // 3. Campaign Search & Scoring Engine
-      const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or']);
+      const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'camp', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or', 'some']);
       const queryTokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
 
       const scoredList = [];
@@ -3462,34 +3598,7 @@
         const platforms = (c.platforms || []).map(p => String(p).toLowerCase());
         const fullText = `${title} ${desc} ${agency} ${cat} ${type} ${platforms.join(' ')}`;
 
-        let score = 0;
-
-        // Exact Phrase Match in Title (Massive boost)
-        const cleanRawQ = q.replace(/^(what is|tell me about|info on|brief for|rules for|requirements for|docs for|drive for|link for|cpm for|budget for)\s+/i, '').trim();
-        if (cleanRawQ.length > 2 && title.includes(cleanRawQ)) {
-          score += 150;
-        }
-
-        // Token matches
-        let tokenMatches = 0;
-        for (const tok of queryTokens) {
-          if (title.includes(tok)) { score += 40; tokenMatches++; }
-          else if (agency.includes(tok)) { score += 25; tokenMatches++; }
-          else if (cat.includes(tok) || type.includes(tok)) { score += 15; tokenMatches++; }
-          else if (desc.includes(tok)) { score += 10; tokenMatches++; }
-          else if (fullText.includes(tok)) { score += 5; tokenMatches++; }
-        }
-
-        // Category/Type Boosts
-        if (wantsZeroSpent && spent === 0) score += 35;
-        if (wantsClipping && (type.includes('clipping') || desc.includes('clip') || title.includes('clip'))) score += 20;
-        if (wantsUGC && (type.includes('ugc') || desc.includes('ugc'))) score += 20;
-        if (wantsMusic && (cat.includes('music') || desc.includes('music') || title.includes('song') || desc.includes('audio') || title.includes('lyric'))) score += 25;
-        if ((wantsPodcast || wantsStreamer) && (cat.includes('personal') || desc.includes('podcast') || desc.includes('stream') || title.includes('podcast'))) score += 25;
-        if (wantsAI && (cat.includes('tech') || desc.includes('ai') || title.includes('ai') || desc.includes('app'))) score += 25;
-
-        // Active pool bonus
-        if (rem > 0) score += 5;
+        let score = scoreLocalCampaignForQuery(c, rawQ);
 
         const ageScore = parseTimeScore(c);
         if (score > 0 || queryTokens.length === 0) {
@@ -3528,7 +3637,7 @@
 
       // 4. Handle Specific Single Campaign Inquiries (Deep Dive Answer)
       const topMatch = matches[0];
-      const hasStrongSingleMatch = scoredList[0].score >= 35 || queryTokens.length <= 3 && matches.length > 0 && !wantsHighestCpm && !wantsHighestBudget && !wantsZeroSpent;
+      const hasStrongSingleMatch = (scoredList[0].score >= 60 || (queryTokens.length <= 2 && matches.length === 1)) && !wantsHighestCpm && !wantsHighestBudget && !wantsZeroSpent;
 
       // Extract all intelligence about top match
       const total = parseFloat(topMatch.total) || 0;
@@ -3609,6 +3718,8 @@
         return addAssistantRichMessage({
           html: specificAnswerHtml,
           campaigns: [topMatch],
+          matchCount: 1,
+          pointerFilter: { search: topMatch.title },
           followUps: [
             `What are the rules for ${topMatch.title.slice(0, 20)}?`,
             `Where are the assets for ${topMatch.title.slice(0, 20)}?`,
@@ -3620,31 +3731,35 @@
 
       // 5. Multi-Campaign Intelligence Summary (Rankings / Filters / Categories)
       let summaryHeadline = '';
-      let presetFilter = 'all';
+      let filterOpts = { preset: 'all' };
 
       if (wantsHighestCpm) {
         summaryHeadline = `Here are the <strong>highest CPM payout campaigns ($2.00+ / 1K views)</strong> currently active:`;
-        presetFilter = 'highcpm';
+        filterOpts = { preset: 'highcpm' };
       } else if (wantsZeroSpent) {
         summaryHeadline = `Found <strong>${matches.length} fresh campaigns with $0 spent (0 submissions)</strong> — maximum unclaimed budget available:`;
-        presetFilter = '0sub';
+        filterOpts = { preset: '0sub' };
       } else if (wantsHighestBudget) {
         summaryHeadline = `Here are the campaigns with the <strong>largest remaining reward pools</strong>:`;
-        presetFilter = 'highbudget';
+        filterOpts = { preset: 'highbudget' };
       } else if (wantsMusic) {
         summaryHeadline = `Found <strong>${matches.length} active Music & Lyric clipping campaigns</strong>:`;
-        presetFilter = 'music';
+        filterOpts = { category: 'Music' };
       } else if (wantsPodcast || wantsStreamer) {
         summaryHeadline = `Found <strong>${matches.length} Podcast & Streamer clipping campaigns</strong>:`;
-        presetFilter = 'podcast';
+        filterOpts = { search: 'podcast', preset: 'personal' };
       } else if (wantsAI) {
         summaryHeadline = `Found <strong>${matches.length} AI & Technology creator campaigns</strong>:`;
-        presetFilter = 'ai';
+        filterOpts = { search: 'ai' };
       } else if (wantsClipping) {
         summaryHeadline = `Found <strong>${matches.length} active Clipping pools</strong>:`;
-        presetFilter = 'clipping';
+        filterOpts = { contentType: 'Clipping' };
+      } else if (wantsUGC) {
+        summaryHeadline = `Found <strong>${matches.length} active UGC pools</strong>:`;
+        filterOpts = { contentType: 'UGC' };
       } else {
         summaryHeadline = `Found <strong>${matches.length} campaigns</strong> matching <em>"${escapeHtml(rawQ)}"</em>:`;
+        filterOpts = { search: queryTokens.join(' ') };
       }
 
       const totalPoolSum = matches.reduce((acc, c) => acc + Math.max(0, (parseFloat(c.total) || 0) - (parseFloat(c.spent) || 0)), 0);
@@ -3661,9 +3776,9 @@
 
       return addAssistantRichMessage({
         html: multiHtml,
-        campaigns: matches.slice(0, 3), // Embed top 3 cards directly in chat
+        campaigns: matches.slice(0, 4), // Embed top 4 cards directly in chat
         matchCount: matches.length,
-        pointerPreset: presetFilter,
+        pointerFilter: filterOpts,
         followUps: [
           'Show 0 submission drops',
           'Highest CPM campaigns',
@@ -4159,7 +4274,15 @@
       `;
     }
 
-    function addAssistantRichMessage({ html = '', campaigns = [], matchCount = 0, pointerPreset = 'all', followUps = [] }) {
+    let pointerFilterStore = {};
+    let pointerFilterIdCounter = 0;
+
+    function handlePointerTabClick(targetTab, filterId) {
+      const filter = pointerFilterStore[filterId] || 'all';
+      switchTab(targetTab, filter);
+    }
+
+    function addAssistantRichMessage({ html = '', campaigns = [], matchCount = 0, pointerPreset = 'all', pointerFilter = null, followUps = [] }) {
       const thread = document.getElementById('chatThread');
       const row = document.createElement('div');
       row.className = 'message-row assistant';
@@ -4175,13 +4298,22 @@
 
       let pointerHtml = '';
       if (matchCount > 0) {
-        const isRemovedTarget = pointerPreset === 'removed';
+        const effectiveFilter = pointerFilter || pointerPreset || 'all';
+        const isRemovedTarget = (typeof effectiveFilter === 'string' && effectiveFilter === 'removed') || (effectiveFilter && effectiveFilter.preset === 'removed');
         const targetTab = isRemovedTarget ? 'removed' : 'campaigns';
         const tabTitle = isRemovedTarget ? `Open Removed / Ended Tab (${matchCount}) ➔` : `Open Campaigns Tab (${matchCount}) ➔`;
+        
+        const filterId = 'pf_' + (++pointerFilterIdCounter);
+        pointerFilterStore[filterId] = effectiveFilter;
+
+        const descriptionText = campaigns.length >= matchCount
+          ? `Showing all <strong>${matchCount} matching campaign${matchCount === 1 ? '' : 's'}</strong>. Open in Campaigns tab with full filters & sorting:`
+          : `Browse all <strong>${matchCount} matching campaign${matchCount === 1 ? '' : 's'}</strong> with full filters & sorting:`;
+
         pointerHtml = `
           <div class="tab-pointer-box">
-            <span>Browse all <strong>${matchCount} matching campaigns</strong> with full filters & sorting:</span>
-            <a class="tab-pointer-link" onclick="switchTab('${targetTab}', '${pointerPreset}')">
+            <span>${descriptionText}</span>
+            <a class="tab-pointer-link" onclick="handlePointerTabClick('${targetTab}', '${filterId}')">
               ${tabTitle}
             </a>
           </div>

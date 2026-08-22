@@ -40,6 +40,51 @@ function getCampaignsData() {
   return [];
 }
 
+function scoreCampaignForQuery(c, userQuery) {
+  if (!c) return 0;
+  const q = (userQuery || '').toLowerCase();
+  if (!q) return 0;
+
+  const title = (c.title || '').toLowerCase();
+  const desc = (c.description || '').toLowerCase();
+  const agency = (c.agency || '').toLowerCase();
+  const cat = (c.category || '').toLowerCase();
+  const type = (c.contentType || '').toLowerCase();
+  const reqs = (c.requirements || []).join(' ').toLowerCase();
+  const platforms = (c.platforms || []).join(' ').toLowerCase();
+  const fullText = `${title} ${desc} ${agency} ${cat} ${type} ${reqs} ${platforms}`;
+
+  let score = 0;
+
+  const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or', 'some']);
+  const cleanTokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
+
+  // Exact phrase match in title
+  const cleanRawQ = q.replace(/^(what is|tell me about|info on|brief for|rules for|requirements for|docs for|drive for|link for|cpm for|budget for|show me|find me)\s+/i, '').trim();
+  if (cleanRawQ.length > 2 && title.includes(cleanRawQ)) {
+    score += 200;
+  }
+
+  for (const tok of cleanTokens) {
+    if (title.includes(tok)) score += 60;
+    else if (agency.includes(tok)) score += 40;
+    else if (cat.includes(tok) || type.includes(tok)) score += 30;
+    else if (desc.includes(tok) || reqs.includes(tok)) score += 20;
+    else if (fullText.includes(tok)) score += 10;
+  }
+
+  // Intent boosts
+  if ((q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent')) && (parseFloat(c.spent) || 0) === 0) score += 50;
+  if ((q.includes('high cpm') || q.includes('cpm')) && (parseFloat(c.cpm) || 0) >= 2.0) score += 30;
+  if (q.includes('music') && (cat.includes('music') || title.includes('song') || desc.includes('music'))) score += 40;
+  if ((q.includes('podcast') || q.includes('stream')) && (cat.includes('personal') || desc.includes('podcast') || desc.includes('stream'))) score += 40;
+  if ((q.includes('ai') || q.includes('tech')) && (cat.includes('tech') || desc.includes('ai') || title.includes('ai'))) score += 40;
+  if (q.includes('ugc') && (type.includes('ugc') || desc.includes('ugc'))) score += 40;
+  if (q.includes('clip') && (type.includes('clipping') || desc.includes('clip'))) score += 40;
+
+  return score;
+}
+
 function buildContextSummary(campaigns, userQuery) {
   let list = Array.isArray(campaigns) ? campaigns.filter(c => {
     const total = parseFloat(c.total) || 0;
@@ -47,7 +92,16 @@ function buildContextSummary(campaigns, userQuery) {
     return total === 0 || (total - spent) > 0;
   }) : [];
 
-  return list.slice(0, 45).map(c => {
+  if (userQuery && userQuery.trim().length > 0) {
+    list.sort((a, b) => {
+      const scoreA = scoreCampaignForQuery(a, userQuery);
+      const scoreB = scoreCampaignForQuery(b, userQuery);
+      if (scoreB !== scoreA) return scoreB - scoreA;
+      return (b.sortTimestamp || 0) - (a.sortTimestamp || 0);
+    });
+  }
+
+  return list.slice(0, 50).map(c => {
     const total = parseFloat(c.total) || 0;
     const spent = parseFloat(c.spent) || 0;
     return {
@@ -340,7 +394,9 @@ function generateLocalAlgorithmicReply(userQuery, campaigns) {
 }
 
 function extractMatchedCampaigns(userQuery, replyText, campaigns) {
-  if (!Array.isArray(campaigns) || campaigns.length === 0) return [];
+  if (!Array.isArray(campaigns) || campaigns.length === 0) {
+    return { campaigns: [], totalMatchesCount: 0, filterOptions: { preset: 'all' } };
+  }
   const q = (userQuery || '').toLowerCase();
   const reply = (replyText || '').toLowerCase();
   const matched = [];
@@ -354,6 +410,12 @@ function extractMatchedCampaigns(userQuery, replyText, campaigns) {
       matched.push(c);
     }
   }
+
+  const active = campaigns.filter(c => {
+    const total = parseFloat(c.total) || 0;
+    const spent = parseFloat(c.spent) || 0;
+    return total === 0 || (total - spent) > 0;
+  });
 
   // 1. Direct title mentions in AI reply
   for (const c of campaigns) {
@@ -375,36 +437,68 @@ function extractMatchedCampaigns(userQuery, replyText, campaigns) {
     }
   }
 
-  // 3. If matched is empty, check query intent
-  if (matched.length === 0) {
-    const active = campaigns.filter(c => {
-      const total = parseFloat(c.total) || 0;
-      const spent = parseFloat(c.spent) || 0;
-      return total === 0 || (total - spent) > 0;
-    });
+  // 3. Query Intent & Filter Options detection
+  let filterOptions = { preset: 'all' };
+  let allMatchingActive = [];
 
-    if (q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent') || q.includes('unclaimed')) {
-      active.filter(c => (parseFloat(c.spent) || 0) === 0).slice(0, 4).forEach(add);
-    } else if (q.includes('cpm') || q.includes('rate') || q.includes('highest pay') || q.includes('pay')) {
-      [...active].sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0)).slice(0, 4).forEach(add);
-    } else if (q.includes('budget') || q.includes('pool') || q.includes('largest') || q.includes('money')) {
-      [...active].sort((a, b) => {
-        const remA = Math.max(0, (parseFloat(a.total) || 0) - (parseFloat(a.spent) || 0));
-        const remB = Math.max(0, (parseFloat(b.total) || 0) - (parseFloat(b.spent) || 0));
-        return remB - remA;
-      }).slice(0, 4).forEach(add);
-    } else if (q.includes('music') || q.includes('song')) {
-      active.filter(c => (c.category || '').toLowerCase().includes('music') || (c.title || '').toLowerCase().includes('song')).slice(0, 4).forEach(add);
-    } else if (q.includes('podcast') || q.includes('stream')) {
-      active.filter(c => (c.category || '').toLowerCase().includes('personal') || (c.description || '').toLowerCase().includes('podcast')).slice(0, 4).forEach(add);
-    } else if (q.includes('ai') || q.includes('tech')) {
-      active.filter(c => (c.category || '').toLowerCase().includes('tech') || (c.description || '').toLowerCase().includes('ai')).slice(0, 4).forEach(add);
-    } else if (q.includes('new') || q.includes('fresh') || q.includes('camp') || q.includes('show') || q.includes('recommend') || q.includes('top')) {
-      active.slice(0, 4).forEach(add);
-    }
+  const is0Sub = q.includes('0 sub') || q.includes('zero sub') || q.includes('0 spent') || q.includes('unclaimed');
+  const isHighCpm = q.includes('highest cpm') || q.includes('top cpm') || q.includes('high cpm') || q.includes('cpm') || q.includes('highest pay');
+  const isBudget = q.includes('budget') || q.includes('largest pool') || q.includes('biggest pool') || q.includes('most money');
+  const isMusic = q.includes('music') || q.includes('lyric') || q.includes('song');
+  const isPodcast = q.includes('podcast') || q.includes('stream') || q.includes('streamer');
+  const isAi = q.includes('ai') || q.includes('tech') || q.includes('software') || q.includes('saas') || q.includes('app');
+  const isUgc = q.includes('ugc');
+  const isClipping = q.includes('clipping') || q.includes('clip ');
+
+  const stopWords = new Set(['what', 'is', 'the', 'of', 'for', 'in', 'on', 'about', 'tell', 'me', 'how', 'much', 'are', 'there', 'any', 'can', 'i', 'get', 'give', 'show', 'find', 'best', 'good', 'camps', 'camp', 'campaign', 'campaigns', 'active', 'all', 'please', 'with', 'from', 'does', 'a', 'an', 'to', 'and', 'or', 'some']);
+  const cleanTokens = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t.length > 1 && !stopWords.has(t));
+
+  if (is0Sub) {
+    filterOptions = { preset: '0sub' };
+    allMatchingActive = active.filter(c => (parseFloat(c.spent) || 0) === 0);
+  } else if (isMusic) {
+    filterOptions = { category: 'Music' };
+    allMatchingActive = active.filter(c => (c.category || '').toLowerCase().includes('music') || (c.title || '').toLowerCase().includes('song') || (c.description || '').toLowerCase().includes('music'));
+  } else if (isPodcast) {
+    filterOptions = { search: 'podcast', preset: 'personal' };
+    allMatchingActive = active.filter(c => (c.category || '').toLowerCase().includes('personal') || (c.description || '').toLowerCase().includes('podcast') || (c.title || '').toLowerCase().includes('podcast') || (c.description || '').toLowerCase().includes('stream'));
+  } else if (isAi) {
+    filterOptions = { search: 'ai' };
+    allMatchingActive = active.filter(c => (c.category || '').toLowerCase().includes('tech') || (c.description || '').toLowerCase().includes('ai') || (c.title || '').toLowerCase().includes('ai'));
+  } else if (isUgc) {
+    filterOptions = { contentType: 'UGC' };
+    allMatchingActive = active.filter(c => (c.contentType || '').toLowerCase().includes('ugc') || (c.description || '').toLowerCase().includes('ugc'));
+  } else if (isClipping) {
+    filterOptions = { contentType: 'Clipping' };
+    allMatchingActive = active.filter(c => (c.contentType || '').toLowerCase().includes('clipping') || (c.description || '').toLowerCase().includes('clip') || (c.title || '').toLowerCase().includes('clip'));
+  } else if (isHighCpm) {
+    filterOptions = { preset: 'highcpm' };
+    allMatchingActive = [...active].sort((a, b) => (parseFloat(b.cpm) || 0) - (parseFloat(a.cpm) || 0));
+  } else if (isBudget) {
+    filterOptions = { preset: 'highbudget' };
+    allMatchingActive = [...active].sort((a, b) => ((parseFloat(b.total) || 0) - (parseFloat(b.spent) || 0)) - ((parseFloat(a.total) || 0) - (parseFloat(a.spent) || 0)));
+  } else if (cleanTokens.length > 0) {
+    const searchTerm = cleanTokens.join(' ');
+    filterOptions = { search: searchTerm };
+    allMatchingActive = active.filter(c => {
+      const full = `${c.title} ${c.description} ${c.agency} ${c.category} ${(c.platforms || []).join(' ')}`.toLowerCase();
+      return cleanTokens.some(t => full.includes(t));
+    });
+    allMatchingActive.sort((a, b) => scoreCampaignForQuery(b, userQuery) - scoreCampaignForQuery(a, userQuery));
+  } else {
+    allMatchingActive = active;
   }
 
-  return matched.slice(0, 5);
+  // If matched had specific mentions, add them first, then fill from allMatchingActive
+  allMatchingActive.forEach(c => add(c));
+
+  const totalMatchesCount = allMatchingActive.length > 0 ? allMatchingActive.length : matched.length;
+
+  return {
+    campaigns: matched.slice(0, 5),
+    totalMatchesCount,
+    filterOptions
+  };
 }
 
 // --- Main Serverless Handler ---
@@ -441,8 +535,8 @@ module.exports = async (req, res) => {
         try {
           const resObj = await callGeminiModel(model, geminiKey, systemPrompt, userMessage);
           if (resObj && resObj.reply) {
-            const matchedCampaigns = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
-            return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchedCampaigns });
+            const matchResult = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
+            return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchResult.campaigns, totalMatchesCount: matchResult.totalMatchesCount, filterOptions: matchResult.filterOptions });
           }
         } catch (err) {
           console.warn(`Gemini (${model}) failed:`, err.message);
@@ -456,8 +550,8 @@ module.exports = async (req, res) => {
       try {
         const resObj = await callGroqApi(groqKey, systemPrompt, userMessage);
         if (resObj && resObj.reply) {
-          const matchedCampaigns = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
-          return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchedCampaigns });
+          const matchResult = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
+          return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchResult.campaigns, totalMatchesCount: matchResult.totalMatchesCount, filterOptions: matchResult.filterOptions });
         }
       } catch (err) {
         console.warn('Groq backup failed:', err.message);
@@ -470,8 +564,8 @@ module.exports = async (req, res) => {
       try {
         const resObj = await callOpenRouterApi(openRouterKey, systemPrompt, userMessage);
         if (resObj && resObj.reply) {
-          const matchedCampaigns = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
-          return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchedCampaigns });
+          const matchResult = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
+          return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchResult.campaigns, totalMatchesCount: matchResult.totalMatchesCount, filterOptions: matchResult.filterOptions });
         }
       } catch (err) {
         console.warn('OpenRouter backup failed:', err.message);
@@ -484,8 +578,8 @@ module.exports = async (req, res) => {
       try {
         const resObj = await callOpenAIApi(openAIKey, systemPrompt, userMessage);
         if (resObj && resObj.reply) {
-          const matchedCampaigns = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
-          return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchedCampaigns });
+          const matchResult = extractMatchedCampaigns(userQuery, resObj.reply, campaigns);
+          return res.status(200).json({ reply: resObj.reply, provider: resObj.provider, campaigns: matchResult.campaigns, totalMatchesCount: matchResult.totalMatchesCount, filterOptions: matchResult.filterOptions });
         }
       } catch (err) {
         console.warn('OpenAI backup failed:', err.message);
@@ -494,14 +588,14 @@ module.exports = async (req, res) => {
 
     // 5. Ultimate Zero-Fail Fallback (Rich algorithmic response from live dataset)
     const fallbackReply = generateLocalAlgorithmicReply(userQuery, campaigns);
-    const fallbackCampaigns = extractMatchedCampaigns(userQuery, fallbackReply, campaigns);
-    return res.status(200).json({ reply: fallbackReply, provider: 'Local Intelligence Engine', campaigns: fallbackCampaigns });
+    const matchResult = extractMatchedCampaigns(userQuery, fallbackReply, campaigns);
+    return res.status(200).json({ reply: fallbackReply, provider: 'Local Intelligence Engine', campaigns: matchResult.campaigns, totalMatchesCount: matchResult.totalMatchesCount, filterOptions: matchResult.filterOptions });
 
   } catch (err) {
     console.error('AI chat fatal error:', err.message);
     const campaigns = getCampaignsData();
     const fallbackReply = generateLocalAlgorithmicReply(req.query.q || 'help', campaigns);
-    const fallbackCampaigns = extractMatchedCampaigns(req.query.q || 'help', fallbackReply, campaigns);
-    return res.status(200).json({ reply: fallbackReply, provider: 'Local Intelligence Engine (Emergency)', campaigns: fallbackCampaigns });
+    const matchResult = extractMatchedCampaigns(req.query.q || 'help', fallbackReply, campaigns);
+    return res.status(200).json({ reply: fallbackReply, provider: 'Local Intelligence Engine (Emergency)', campaigns: matchResult.campaigns, totalMatchesCount: matchResult.totalMatchesCount, filterOptions: matchResult.filterOptions });
   }
 };
