@@ -8,12 +8,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_SjK5NEon51WUo/1787386757696.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-11-05/d270c054-8b68-416a-a046-938249d3d42e.jpg",
     "bannerImageUrl": "",
-    "creators": 8819,
+    "creators": 8883,
     "agency": "VantaClip",
     "age": "2h",
     "formattedAge": "2h ago (Today)",
     "fundedAt": "2026-08-19T15:33:03.872Z",
-    "sortTimestamp": 1787396426878,
+    "sortTimestamp": 1787398647630,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Social Commerce News (Podcast)",
@@ -23,14 +23,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Social Commerce News (Podcast) | Official Whop Hub & Assets",
         "url": "https://whop.com/vantaclip-clipping-agency"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/tzt882ykars6t7h81qdws/AMcsFKO9AB8WDEiTqnAbk_8?rlkey=srzh9hzoq5ohjp6au57zmizi5"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/tzt882ykars6t7h81qdws/AMcsFKO9AB8WDEiTqnAbk_8?rlkey=srzh9hzoq5ohjp6au57zmizi5&amp;st=rhl5nqmk&amp;dl=0"
       }
     ],
     "platforms": [
@@ -40,7 +32,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "16",
+    "count": "23",
     "cpm": 2,
     "key": "VantaClip::Social Commerce News (Podcast)"
   },
@@ -55,10 +47,10 @@ window.CAMPAIGNS_DATA = [
     "bannerImageUrl": "",
     "creators": 62,
     "agency": "Charlélie Promo Squad",
-    "age": "2h",
-    "formattedAge": "2h ago (Today)",
+    "age": "3h",
+    "formattedAge": "3h ago (Today)",
     "fundedAt": "2026-08-17T18:27:13.594Z",
-    "sortTimestamp": 1787396426878,
+    "sortTimestamp": 1787395047630,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Wasting My Time With You — Charlélie Clipping Challenge",
@@ -68,14 +60,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Wasting My Time With You — Charlélie Clipping Challenge | Official Whop Hub & Assets",
         "url": "https://whop.com/charlelie-promo-squad-d2"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1kKFU6WORSefh8BrV4AG-S6RVXOWhM6hx?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Y_yGz_Wwk_e1xHuuVM2IeOiYGBeU-_8uH2RUWOC7L90/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -85,7 +69,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "4",
+    "count": "5",
     "cpm": 0.5,
     "key": "Charlélie Promo Squad::Wasting My Time With You — Charlélie Clipping Challenge"
   },
@@ -98,12 +82,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_qhvl9EB52IozZ/1787392200987.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8213453/image/bots/2025-11-12/4b386a2f-c2b2-4884-ab62-58c9292abaed",
     "bannerImageUrl": "",
-    "creators": 57,
+    "creators": 60,
     "agency": "Helix Admin Services LLC",
     "age": "3h",
     "formattedAge": "3h ago (Today)",
     "fundedAt": "2026-08-22T07:58:19.433Z",
-    "sortTimestamp": 1787392826879,
+    "sortTimestamp": 1787395047630,
     "category": "Other",
     "contentType": "Clipping",
     "title": "Stock Market Investing: Project Sabrina",
@@ -113,10 +97,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Stock Market Investing: Project Sabrina | Official Whop Hub & Assets",
         "url": "https://whop.com/project-sabrina-access"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1qXsRba1RNl_rXVFLxt-XiUF1NSSp95Tp?usp=sharing"
       }
     ],
     "platforms": [
@@ -126,7 +106,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "57",
+    "count": "60",
     "cpm": 6,
     "key": "Helix Admin Services LLC::Stock Market Investing: Project Sabrina"
   },
@@ -139,12 +119,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_BcDcWh7cfvwP7/1787385344265.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_724572/image/bots/2026-08-06/423a0c92-c199-424d-b84c-4dfbd736fcbc.png",
     "bannerImageUrl": "",
-    "creators": 1693,
+    "creators": 1695,
     "agency": "Kyro Clips",
     "age": "5h",
     "formattedAge": "5h ago (Today)",
     "fundedAt": "2026-08-06T02:31:26.475Z",
-    "sortTimestamp": 1787385626879,
+    "sortTimestamp": 1787387847630,
     "category": "Music",
     "contentType": "Clipping",
     "title": "DOLLA Clipping Campaign",
@@ -154,10 +134,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DOLLA Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingproject"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/13YQnnUvnb4QIurLiwl2NmjANL1ybV1I-f-mX0OoL2_8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -167,7 +143,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "57",
+    "count": "60",
     "cpm": 1.25,
     "key": "Kyro Clips::DOLLA Clipping Campaign"
   },
@@ -185,7 +161,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8h",
     "formattedAge": "8h ago (Today)",
     "fundedAt": "2026-08-18T03:52:44.236Z",
-    "sortTimestamp": 1787374826879,
+    "sortTimestamp": 1787377047631,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Late Checkout - Song Campaign",
@@ -195,10 +171,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Late Checkout - Song Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/placementscc"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/12GzBn5rS6OdvIXJ4Tpq3essbMxdQm2qC/edit"
       }
     ],
     "platforms": [
@@ -208,7 +180,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 7,
     "total": 1000,
-    "count": "216",
+    "count": "234",
     "cpm": 1,
     "key": "Placements::Late Checkout - Song Campaign"
   },
@@ -221,12 +193,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
-    "creators": 375,
+    "creators": 396,
     "agency": "Artist Influence",
-    "age": "10h",
-    "formattedAge": "10h ago (Today)",
+    "age": "11h",
+    "formattedAge": "11h ago (Today)",
     "fundedAt": null,
-    "sortTimestamp": 1787367626879,
+    "sortTimestamp": 1787366247631,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Brent Faiyaz - All Mine | Spiderman/Moody/Lowfi/Sunset/Lyric/BrentFaiyaz/Cartoon/Obsessed Edits",
@@ -238,7 +210,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 2000,
-    "count": "375",
+    "count": "396",
     "cpm": 1,
     "key": "Artist Influence::Brent Faiyaz - All Mine | Spiderman/Moody/Lowfi/Sunset/Lyric/BrentFaiyaz/Cartoon/Obsessed Edits"
   },
@@ -256,7 +228,7 @@ window.CAMPAIGNS_DATA = [
     "age": "12h",
     "formattedAge": "12h ago (Today)",
     "fundedAt": "2026-07-14T08:07:54.175Z",
-    "sortTimestamp": 1787360426883,
+    "sortTimestamp": 1787362647635,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Pippit AI Clipping",
@@ -266,18 +238,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Pippit AI Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10SNHJhGoZnDjPUHJEH64mB1lwmA0ZneZf0VQ8v9PpLw/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/12AKIu_wYdTNfCfWdR0rtQl9X5hZbZvnL"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1w77X2kZy8Bt_X5L7pQDFRCqdA_vVNC9f"
       }
     ],
     "platforms": [
@@ -301,10 +261,10 @@ window.CAMPAIGNS_DATA = [
     "bannerImageUrl": "",
     "creators": 2,
     "agency": "Clipping Culture",
-    "age": "13h",
-    "formattedAge": "13h ago (Today)",
+    "age": "14h",
+    "formattedAge": "14h ago (Today)",
     "fundedAt": "2026-08-22T09:55:03.026Z",
-    "sortTimestamp": 1787356826879,
+    "sortTimestamp": 1787355447630,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Call of Duty - Modern Warfare 4 Multiplayer Beta Gameplay Clipping",
@@ -314,10 +274,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty - Modern Warfare 4 Multiplayer Beta Gameplay Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1AaBbbXTwpIOueM0kFdMC1xB7Leh0Jq3T9C-i6Zowxk4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -325,51 +281,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 129,
+    "spent": 130,
     "total": 150000,
     "count": "2K",
     "cpm": 1.75,
     "key": "Clipping Culture::Call of Duty - Modern Warfare 4 Multiplayer Beta Gameplay Clipping"
-  },
-  {
-    "id": "41ff7025-7edd-4155-ab98-891fd912b708",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "one-step-evaluation-5k-funded-account",
-    "whop_route": "one-step-evaluation-5k-funded-account",
-    "whopUrl": "https://whop.com/one-step-evaluation-5k-funded-account",
-    "thumbnail": "https://cdn.contentrewards.com/user_fa26Puf3gzquC/1787355289188.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17351072/image/bots/2026-07-06/8e8f82cf-7382-4b4f-8a57-a47654ca3de5.png",
-    "bannerImageUrl": "",
-    "creators": 669,
-    "agency": "Fullportcapital",
-    "age": "14h",
-    "formattedAge": "14h ago (Today)",
-    "fundedAt": "2026-06-04T00:41:58.184Z",
-    "sortTimestamp": 1787353226886,
-    "category": "Personal brand",
-    "contentType": "UGC",
-    "title": "Fullportcapital Clipping Bounty — Get Paid to Post",
-    "description": "Fullportcapital Clipping Bounty — Get Paid to Post Full Port Capital is a crypto prop firm. We fund traders to trade https://www.tiktok.com/@fullportco Solana memecoins with our capital: $150 one step evaluation, traders keep 80 percent. THE TASK Cut short form clips from our website or and memecoin trading clips that you have permission to post and say anything about trading on fullportcapital.co and post to TikTok, Instagram Reels. For the content it should be people trading memecoins and subtle details about this site, or adding in ss or clips from the folder onto or after memecoin trading clips. It could also be explaining the website, shilling it, etc. Dm if you have questions on what the content should be. Dont use the videos in the folder those are example. Unpolished examples. Content with people talking about the site and using it can get paid bonus. Email: clips@fullportcapital.co Password: Fullport-Clips-2026 to make clips using the website, comes with an infinite 5k account, make your own clips. PAY $20 per 10,000 verified views, paid in multiples. 30k views = $60. Bonus: commission extra for every evaluation purchased through your tracked link or code. (make one on the website you receive 10% comission) REQUIREMENTS - Post from your own account, linked to Whop before posting - 5,000 view minimum for a submission to qualify - Include our code or link in your bio -Must mention \"Fullportcapital\" and have the website link fullportcapital.co memecoin funded accounts in description of any post,\" 15–60s clip, post to TikTok/IG NOT ALLOWED (submission rejected, no exceptions) - Any promise or guarantee of profits or income - Bought views or bot traffic it says this is posted",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Fullportcapital Clipping Bounty — Get Paid to Post | Official Whop Hub & Assets",
-        "url": "https://whop.com/one-step-evaluation-5k-funded-account"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1kZ0MB2wgleOmMOKp-1eVuARylXwUskA7?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram"
-    ],
-    "spent": 0,
-    "total": 1000,
-    "count": "5",
-    "cpm": 2,
-    "key": "Fullportcapital::Fullportcapital Clipping Bounty — Get Paid to Post"
   },
   {
     "id": "",
@@ -382,10 +298,10 @@ window.CAMPAIGNS_DATA = [
     "bannerImageUrl": "",
     "creators": 9,
     "agency": "TraxNYC",
-    "age": "14h",
-    "formattedAge": "14h ago (Today)",
+    "age": "15h",
+    "formattedAge": "15h ago (Today)",
     "fundedAt": null,
-    "sortTimestamp": 1787353226886,
+    "sortTimestamp": 1787351847639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "TRAXNYC & Gabriel Einhorn Podcast",
@@ -404,20 +320,56 @@ window.CAMPAIGNS_DATA = [
     "key": "TraxNYC::TRAXNYC & Gabriel Einhorn Podcast"
   },
   {
+    "id": "41ff7025-7edd-4155-ab98-891fd912b708",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "one-step-evaluation-5k-funded-account",
+    "whop_route": "one-step-evaluation-5k-funded-account",
+    "whopUrl": "https://whop.com/one-step-evaluation-5k-funded-account",
+    "thumbnail": "https://cdn.contentrewards.com/user_fa26Puf3gzquC/1787355289188.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17351072/image/bots/2026-07-06/8e8f82cf-7382-4b4f-8a57-a47654ca3de5.png",
+    "bannerImageUrl": "",
+    "creators": 669,
+    "agency": "Fullportcapital",
+    "age": "15h",
+    "formattedAge": "15h ago (Today)",
+    "fundedAt": "2026-06-04T00:41:58.184Z",
+    "sortTimestamp": 1787351847638,
+    "category": "Personal brand",
+    "contentType": "UGC",
+    "title": "Fullportcapital Clipping Bounty — Get Paid to Post",
+    "description": "Fullportcapital Clipping Bounty — Get Paid to Post Full Port Capital is a crypto prop firm. We fund traders to trade https://www.tiktok.com/@fullportco Solana memecoins with our capital: $150 one step evaluation, traders keep 80 percent. THE TASK Cut short form clips from our website or and memecoin trading clips that you have permission to post and say anything about trading on fullportcapital.co and post to TikTok, Instagram Reels. For the content it should be people trading memecoins and subtle details about this site, or adding in ss or clips from the folder onto or after memecoin trading clips. It could also be explaining the website, shilling it, etc. Dm if you have questions on what the content should be. Dont use the videos in the folder those are example. Unpolished examples. Content with people talking about the site and using it can get paid bonus. Email: clips@fullportcapital.co Password: Fullport-Clips-2026 to make clips using the website, comes with an infinite 5k account, make your own clips. PAY $20 per 10,000 verified views, paid in multiples. 30k views = $60. Bonus: commission extra for every evaluation purchased through your tracked link or code. (make one on the website you receive 10% comission) REQUIREMENTS - Post from your own account, linked to Whop before posting - 5,000 view minimum for a submission to qualify - Include our code or link in your bio -Must mention \"Fullportcapital\" and have the website link fullportcapital.co memecoin funded accounts in description of any post,\" 15–60s clip, post to TikTok/IG NOT ALLOWED (submission rejected, no exceptions) - Any promise or guarantee of profits or income - Bought views or bot traffic it says this is posted",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Fullportcapital Clipping Bounty — Get Paid to Post | Official Whop Hub & Assets",
+        "url": "https://whop.com/one-step-evaluation-5k-funded-account"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "spent": 0,
+    "total": 1000,
+    "count": "5",
+    "cpm": 2,
+    "key": "Fullportcapital::Fullportcapital Clipping Bounty — Get Paid to Post"
+  },
+  {
     "id": "f2b96b0b-aad2-49b2-a8b1-101ccdb0c1fd",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "the-clip-ship-paid",
     "whop_route": "the-clip-ship-paid",
     "whopUrl": "https://whop.com/the-clip-ship-paid",
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1787348065775.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2714177/image/bots/2026-06-17/f7e9784d-84d8-464d-a57d-19d7ac05b4ff.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "",
-    "creators": 59,
+    "creators": 240,
     "agency": "The Clip Ship",
     "age": "15h",
     "formattedAge": "15h ago (Today)",
-    "fundedAt": "2026-06-17T10:17:24.720Z",
-    "sortTimestamp": 1787349626884,
+    "fundedAt": "2026-08-05T07:19:18.637Z",
+    "sortTimestamp": 1787351847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Zach Top | Rodeo + Toy Story Clips",
@@ -427,10 +379,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Zach Top | Rodeo + Toy Story Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1l3OhJ_TJq7TbmViCDNUUddZbzMhKoVf5tJyKlPRup8Y/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -438,9 +386,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 0,
+    "spent": 33,
     "total": 1875,
-    "count": "163",
+    "count": "176",
     "cpm": 1,
     "key": "The Clip Ship::Zach Top | Rodeo + Toy Story Clips"
   },
@@ -453,12 +401,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1787336571942.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 50,
+    "creators": 54,
     "agency": "Clip Farm",
-    "age": "15h",
-    "formattedAge": "15h ago (Today)",
+    "age": "16h",
+    "formattedAge": "16h ago (Today)",
     "fundedAt": "2026-08-21T21:05:45.781Z",
-    "sortTimestamp": 1787349626883,
+    "sortTimestamp": 1787348247636,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "The Split Clipping",
@@ -468,10 +416,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Split Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ReBQawcdK1R4TwAtSH3iBYBUnlo8okB0r9dx4ShZVC8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -479,7 +423,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 4000,
-    "count": "107",
+    "count": "113",
     "cpm": 1.25,
     "key": "Clip Farm::The Split Clipping"
   },
@@ -492,12 +436,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1787337088756.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-07-16/user_9023487_1859a6e5-f1f4-4ed8-96d1-47b2c630314e.png",
     "bannerImageUrl": "",
-    "creators": 53,
+    "creators": 57,
     "agency": "Clip Farm",
-    "age": "15h",
-    "formattedAge": "15h ago (Today)",
+    "age": "16h",
+    "formattedAge": "16h ago (Today)",
     "fundedAt": "2026-08-21T19:08:43.768Z",
-    "sortTimestamp": 1787349626883,
+    "sortTimestamp": 1787348247636,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Nectar Clipping",
@@ -507,10 +451,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nectar Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ongifqyKIvdDKVpqgY7oeZ48VHJkBC95eLfyLD3BlAQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -520,7 +460,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 4000,
-    "count": "50",
+    "count": "54",
     "cpm": 1.25,
     "key": "Clip Farm::Nectar Clipping"
   },
@@ -531,14 +471,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "ice-clips-creator-network",
     "whopUrl": "https://whop.com/ice-clips-creator-network",
     "thumbnail": "https://cdn.contentrewards.com/user_Q6oJmSoH3bozd/1787343780975.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26375379/image/access_passes/2026-07-16/4097bf05-39a1-4c84-90b8-9d00e2879625.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-03-07/f0bd1a24-8f31-4341-8e11-708029ceda5c/image.png",
     "bannerImageUrl": "",
-    "creators": 42,
+    "creators": 330,
     "agency": "ice clips",
-    "age": "16h",
-    "formattedAge": "16h ago (Today)",
-    "fundedAt": "2026-08-14T21:48:38.873Z",
-    "sortTimestamp": 1787346026886,
+    "age": "17h",
+    "formattedAge": "17h ago (Today)",
+    "fundedAt": "2026-07-16T20:15:15.888Z",
+    "sortTimestamp": 1787344647635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Ice Clips Launch Campaign",
@@ -548,14 +488,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ice Clips Launch Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/ice-clips-creator-network"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1qZTtot8yxeqtJhziFZOZubvPFR0MxGKg"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/17EpNRGT1QuGhY_njTKZmvZqCcupu1i_pHOnpMpd5YWM/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -563,52 +495,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 0,
+    "spent": 5,
     "total": 3000,
     "count": "4",
     "cpm": 1,
     "key": "ice clips::Ice Clips Launch Campaign"
-  },
-  {
-    "id": "66019a62-8c85-414e-bb8d-919ac1ac7b18",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "soundnetwork",
-    "whop_route": "soundnetwork",
-    "whopUrl": "https://whop.com/soundnetwork",
-    "thumbnail": "https://cdn.contentrewards.com/user_acK8AH1Mtmt1D/1787338702208.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12905747/image/access_passes/2026-08-07/99b09c82-bef9-4d90-8d09-0d1a93c97c34.png",
-    "bannerImageUrl": "",
-    "creators": 156,
-    "agency": "Sound Network",
-    "age": "17h",
-    "formattedAge": "17h ago (Today)",
-    "fundedAt": "2026-02-06T17:44:32.419Z",
-    "sortTimestamp": 1787342426883,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "The Triple Option - Podcast Clipping [8148]",
-    "description": "Clippers use the official client-provided Triple Option podcast assets to create their clips, with every clip opening on one of the approved text-on-screen hooks. Content goes up on TikTok, Instagram Reels, and YouTube Shorts.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "The Triple Option - Podcast Clipping [8148] | Official Whop Hub & Assets",
-        "url": "https://whop.com/soundnetwork"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1lAxT4ldwWjMc7yn1R59CUvfsjLMZWABW98ufzo8uSe0/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 2000,
-    "count": "53",
-    "cpm": 2,
-    "key": "Sound Network::The Triple Option - Podcast Clipping [8148]"
   },
   {
     "id": "0fc3026f-2cd7-4a80-a90f-96999b7df8f8",
@@ -624,7 +515,7 @@ window.CAMPAIGNS_DATA = [
     "age": "18h",
     "formattedAge": "18h ago (Today)",
     "fundedAt": "2026-07-01T20:17:58.386Z",
-    "sortTimestamp": 1787338826886,
+    "sortTimestamp": 1787341047638,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Fortune Feimster: Get paid 1.50$ per 1000 views",
@@ -634,14 +525,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fortune Feimster: Get paid 1.50$ per 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/comedy-clipping"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/nr6aoqrxu13e8g5pcobex/AMlhGKLldFxhF9W7eAFBJXc?rlkey=gezyivp099q2hajlban97amo1"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/nr6aoqrxu13e8g5pcobex/AMlhGKLldFxhF9W7eAFBJXc?rlkey=gezyivp099q2hajlban97amo1&amp;st=kybbxbkq&amp;e=1&amp;dl=0"
       }
     ],
     "platforms": [
@@ -651,9 +534,46 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 4000,
-    "count": "40",
+    "count": "42",
     "cpm": 1.5,
     "key": "Comedy Clipping::Fortune Feimster: Get paid 1.50$ per 1000 views"
+  },
+  {
+    "id": "66019a62-8c85-414e-bb8d-919ac1ac7b18",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "soundnetwork",
+    "whop_route": "soundnetwork",
+    "whopUrl": "https://whop.com/soundnetwork",
+    "thumbnail": "https://cdn.contentrewards.com/user_acK8AH1Mtmt1D/1787338702208.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12905747/image/access_passes/2026-08-07/99b09c82-bef9-4d90-8d09-0d1a93c97c34.png",
+    "bannerImageUrl": "",
+    "creators": 156,
+    "agency": "Sound Network",
+    "age": "18h",
+    "formattedAge": "18h ago (Today)",
+    "fundedAt": "2026-02-06T17:44:32.419Z",
+    "sortTimestamp": 1787341047636,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "The Triple Option - Podcast Clipping [8148]",
+    "description": "Clippers use the official client-provided Triple Option podcast assets to create their clips, with every clip opening on one of the approved text-on-screen hooks. Content goes up on TikTok, Instagram Reels, and YouTube Shorts.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "The Triple Option - Podcast Clipping [8148] | Official Whop Hub & Assets",
+        "url": "https://whop.com/soundnetwork"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 2000,
+    "count": "57",
+    "cpm": 2,
+    "key": "Sound Network::The Triple Option - Podcast Clipping [8148]"
   },
   {
     "id": "2a24b672-35f0-4163-bb60-ed22592969f6",
@@ -666,10 +586,10 @@ window.CAMPAIGNS_DATA = [
     "bannerImageUrl": "",
     "creators": 671,
     "agency": "Clip Farm",
-    "age": "19h",
-    "formattedAge": "19h ago (Today)",
+    "age": "20h",
+    "formattedAge": "20h ago (Today)",
     "fundedAt": "2026-07-12T03:46:26.329Z",
-    "sortTimestamp": 1787335226884,
+    "sortTimestamp": 1787333847637,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Betr Pre-Season Week 2 NFL Watermark Clipping",
@@ -679,10 +599,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Betr Pre-Season Week 2 NFL Watermark Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1N5a7jHYPOBmRKS_WClfJEhAK1xOHpbDWqLRe8zpScxM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -692,7 +608,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 4000,
-    "count": "26",
+    "count": "27",
     "cpm": 0.5,
     "key": "Clip Farm::Betr Pre-Season Week 2 NFL Watermark Clipping"
   },
@@ -703,14 +619,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "the-clip-ship-paid",
     "whopUrl": "https://whop.com/the-clip-ship-paid",
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1787328707612.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-04-01/72542605-7ef7-4203-9593-67ba91b637fc/image.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-07-16/user_9023487_1859a6e5-f1f4-4ed8-96d1-47b2c630314e.png",
     "bannerImageUrl": "",
-    "creators": 382,
+    "creators": 916,
     "agency": "The Clip Ship",
-    "age": "20h",
-    "formattedAge": "20h ago (Today)",
-    "fundedAt": "2026-08-17T21:30:32.431Z",
-    "sortTimestamp": 1787331626880,
+    "age": "21h",
+    "formattedAge": "21h ago (Today)",
+    "fundedAt": "2026-08-17T21:33:18.434Z",
+    "sortTimestamp": 1787330247632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Lainey Wilson | Week 4",
@@ -720,10 +636,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lainey Wilson | Week 4 | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1tuwdBVEKDVgfMkMqnTThAX1UhQNmFPc6oQjc8_9ytLU/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -731,50 +643,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 86,
+    "spent": 90,
     "total": 1000,
-    "count": "234",
+    "count": "236",
     "cpm": 1,
     "key": "The Clip Ship::Lainey Wilson | Week 4"
-  },
-  {
-    "id": "174cd540-b855-444c-a11f-9b86b7e8834b",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipcashai",
-    "whop_route": "clipcashai",
-    "whopUrl": "https://whop.com/clipcashai",
-    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1787317657624.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_23909940/image/bots/2026-06-11/510a634e-c626-4eb1-87fd-ffb9f56c0453.png",
-    "bannerImageUrl": "",
-    "creators": 44,
-    "agency": "Artist Influence",
-    "age": "23h",
-    "formattedAge": "23h ago (Today)",
-    "fundedAt": "2026-07-10T07:10:41.817Z",
-    "sortTimestamp": 1787320826885,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits",
-    "description": "Get paid per view to clip Travis Finlay’s - “Swipe Right” on TikTok + IG. We're looking for swipe right worthy moments and from movies – rom coms etc. Also, show us moments that are such red flags or cringe worthy to swipe left.  — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+. Read Google Doc Below.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1fReaJQ6rPlUGmq8Dh6WOBe3c-V8L17TJa7WvbTbMFUI/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 0,
-    "total": 1150,
-    "count": "185",
-    "cpm": 1,
-    "key": "Artist Influence::Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits"
   },
   {
     "id": "6006f4f8-db43-4ebf-a845-f9d3c500417b",
@@ -783,14 +656,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clip-farm-d5",
     "whopUrl": "https://whop.com/clip-farm-d5",
     "thumbnail": "https://cdn.contentrewards.com/user_Q6BLMoZwbQRBk/1787290322940.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
     "bannerImageUrl": "",
-    "creators": 566,
+    "creators": 268,
     "agency": "Clip Farm",
     "age": "23h",
     "formattedAge": "23h ago (Today)",
-    "fundedAt": "2026-06-29T21:45:23.464Z",
-    "sortTimestamp": 1787320826881,
+    "fundedAt": "2026-06-17T02:05:41.694Z",
+    "sortTimestamp": 1787323047633,
     "category": "Product",
     "contentType": "UGC",
     "title": "Goli NAD+ × Target Slideshow Campaign - ClipFarm",
@@ -800,10 +673,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Goli NAD+ × Target Slideshow Campaign - ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1X73hTD8fS_HphnWdrrjJQmQhyZb96wpFppNwx9E6fcQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -811,7 +680,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 100000,
-    "count": "19",
+    "count": "20",
     "cpm": 1,
     "key": "Clip Farm::Goli NAD+ × Target Slideshow Campaign - ClipFarm"
   },
@@ -829,7 +698,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-08-21T04:05:23.150Z",
-    "sortTimestamp": 1787317226886,
+    "sortTimestamp": 1787319447639,
     "category": "Technology",
     "contentType": "UGC",
     "title": "BGW QR Pay Vietnam — Russian-speaking Expats",
@@ -839,14 +708,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BGW QR Pay Vietnam — Russian-speaking Expats | Official Whop Hub & Assets",
         "url": "https://whop.com/bgw-ugc-campaign-en"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1vKv5Rs33J62rRsa2ls2AfqhaLRm150Jud_PccvkfDEI/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1TexqT5PisQxBR-7VhVrA3zUtyZ4L-9wC"
       }
     ],
     "platforms": [
@@ -873,7 +734,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": null,
-    "sortTimestamp": 1787317226886,
+    "sortTimestamp": 1787319447639,
     "category": "Technology",
     "contentType": "UGC",
     "title": "BGW QR Pay Vietnam — Scan, Pay & Invite",
@@ -899,12 +760,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_fbR8coVFZP15s/1787335101875.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 185,
+    "creators": 188,
     "agency": "Davionlabs",
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-08-21T13:22:05.173Z",
-    "sortTimestamp": 1787317226885,
+    "sortTimestamp": 1787319447637,
     "category": "Product",
     "contentType": "Clipping",
     "title": "AiXfunded",
@@ -914,14 +775,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "AiXfunded | Official Whop Hub & Assets",
         "url": "https://whop.com/apex-e8-e111"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1rPulk9nD9my5ifoIpCHwDXGFcEj75GHXvLIHxbXdkAQ"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1s61N__R79EQN7wY0o8upaZZIAeM5hdFV"
       }
     ],
     "platforms": [
@@ -934,6 +787,41 @@ window.CAMPAIGNS_DATA = [
     "count": "105",
     "cpm": 6,
     "key": "Davionlabs::AiXfunded"
+  },
+  {
+    "id": "174cd540-b855-444c-a11f-9b86b7e8834b",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipcashai",
+    "whop_route": "clipcashai",
+    "whopUrl": "https://whop.com/clipcashai",
+    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1787317657624.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_23909940/image/bots/2026-06-11/510a634e-c626-4eb1-87fd-ffb9f56c0453.png",
+    "bannerImageUrl": "",
+    "creators": 44,
+    "agency": "Artist Influence",
+    "age": "1d",
+    "formattedAge": "1 day ago",
+    "fundedAt": "2026-07-10T07:10:41.817Z",
+    "sortTimestamp": 1787319447637,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits",
+    "description": "Get paid per view to clip Travis Finlay’s - “Swipe Right” on TikTok + IG. We're looking for swipe right worthy moments and from movies – rom coms etc. Also, show us moments that are such red flags or cringe worthy to swipe left.  — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+. Read Google Doc Below.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipcashai"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 0,
+    "total": 1150,
+    "count": "188",
+    "cpm": 1,
+    "key": "Artist Influence::Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits"
   },
   {
     "id": "ee7a5010-4d84-482b-a148-7b8b821f0a28",
@@ -949,7 +837,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-08-05T22:16:58.499Z",
-    "sortTimestamp": 1787317226885,
+    "sortTimestamp": 1787319447637,
     "category": "Technology",
     "contentType": "UGC",
     "title": "ROOBET CAMPAIGN V3",
@@ -959,10 +847,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROOBET CAMPAIGN V3 | Official Whop Hub & Assets",
         "url": "https://whop.com/creator-casino-37"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LorL4NUXyQfuV804Op_9MuffAVr2LoUmEPZEfhgXDz4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -990,7 +874,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-07-22T19:41:22.542Z",
-    "sortTimestamp": 1787317226885,
+    "sortTimestamp": 1787319447637,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "SmartBlock Content",
@@ -1027,7 +911,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-07-25T01:01:32.635Z",
-    "sortTimestamp": 1787317226885,
+    "sortTimestamp": 1787319447637,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "Influence AI Clipping | $3K Budget | $0.50 CPM",
@@ -1037,14 +921,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Influence AI Clipping | $3K Budget | $0.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1g42d8JejKnEizZ8CIVQJU-Nv-tUyNlEa68oFiETaU1U/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1eHxoDVHGDNXUAPmb3i05cn60Gh_ykgVlEPxOBRjzedk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1052,7 +928,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 3000,
-    "count": "10",
+    "count": "11",
     "cpm": 0.5,
     "key": "Clipix::Influence AI Clipping | $3K Budget | $0.50 CPM"
   },
@@ -1063,14 +939,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "freemode-ai-character-chat",
     "whopUrl": "https://whop.com/freemode-ai-character-chat",
     "thumbnail": "https://cdn.contentrewards.com/user_JM88cPrA9Q8N0/1787314464181.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17869454/image/bots/2025-10-01/a011101f-62d6-4329-bafb-1c87cc0aaa62.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_32025032/image/bots/2026-07-21/89e9b8cf-c309-4dc3-801e-322fd4feaafd.jpeg",
     "bannerImageUrl": "",
-    "creators": 96,
+    "creators": 19,
     "agency": "Freemode",
     "age": "1d",
     "formattedAge": "1 day ago",
-    "fundedAt": "2026-02-18T19:52:05.928Z",
-    "sortTimestamp": 1787317226885,
+    "fundedAt": "2026-07-21T11:15:36.065Z",
+    "sortTimestamp": 1787319447637,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Freemode AI's Campaign",
@@ -1080,14 +956,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Freemode AI's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/freemode-ai-character-chat"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1sRioV7KSUI_R4F7dT6LZT-U6EBhPKvqVMyaaT__rlQA/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1OqVIb7LRSWPYolr_-yxIl9o5siDyOZ-a"
       }
     ],
     "platforms": [
@@ -1100,6 +968,43 @@ window.CAMPAIGNS_DATA = [
     "count": "16",
     "cpm": 1.5,
     "key": "Freemode::Freemode AI's Campaign"
+  },
+  {
+    "id": "6e379737-96ef-4980-8565-08df4e6d39d9",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipping-campaigns-1f",
+    "whop_route": "clipping-campaigns-1f",
+    "whopUrl": "https://whop.com/clipping-campaigns-1f",
+    "thumbnail": "https://cdn.contentrewards.com/user_ft9uFz4B9uqiO/1787191966558.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29465805/image/bots/2026-06-22/dc79d2d1-5a44-4a51-90bf-6ac10ba75a49.jpg",
+    "bannerImageUrl": "",
+    "creators": 13,
+    "agency": "Reach",
+    "age": "1d",
+    "formattedAge": "1 day ago",
+    "fundedAt": "2026-08-14T23:31:53.031Z",
+    "sortTimestamp": 1787319447636,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Lanah Cherry $1500 Clipping Campaign",
+    "description": "Get paid to clip Lanah Cherry's stream content. ➡️ https://www.twitch.tv/lanahcherry",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Lanah Cherry $1500 Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipping-campaigns-1f"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1500,
+    "count": "30",
+    "cpm": 0.15,
+    "key": "Reach::Lanah Cherry $1500 Clipping Campaign"
   },
   {
     "id": "dfb30002-9012-48b3-afe4-d70bfb82da67",
@@ -1115,7 +1020,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-08-11T20:38:29.210Z",
-    "sortTimestamp": 1787317226884,
+    "sortTimestamp": 1787319447636,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Lágom x Virality [Spanish]",
@@ -1151,7 +1056,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1d",
     "formattedAge": "1 day ago",
     "fundedAt": "2026-08-19T19:45:34.230Z",
-    "sortTimestamp": 1787317226884,
+    "sortTimestamp": 1787319447636,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Dillon Danis Clipping",
@@ -1161,14 +1066,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Dillon Danis Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipup-official"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1zly46IT_r4NFV652Ur8R43X4wkz3TxQP/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1zly46IT_r4NFV652Ur8R43X4wkz3TxQP/edit?usp=sharing&amp;ouid=116290785420948448201&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -1178,46 +1075,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 4000,
-    "count": "159",
+    "count": "161",
     "cpm": 1.5,
     "key": "ClipUp Official::Dillon Danis Clipping"
-  },
-  {
-    "id": "6e379737-96ef-4980-8565-08df4e6d39d9",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipping-campaigns-1f",
-    "whop_route": "clipping-campaigns-1f",
-    "whopUrl": "https://whop.com/clipping-campaigns-1f",
-    "thumbnail": "https://cdn.contentrewards.com/user_ft9uFz4B9uqiO/1787191966558.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29465805/image/bots/2026-06-22/dc79d2d1-5a44-4a51-90bf-6ac10ba75a49.jpg",
-    "bannerImageUrl": "",
-    "creators": 13,
-    "agency": "Reach",
-    "age": "1d",
-    "formattedAge": "1 day ago",
-    "fundedAt": "2026-08-14T23:31:53.031Z",
-    "sortTimestamp": 1787317226883,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Lanah Cherry $1500 Clipping Campaign",
-    "description": "Get paid to clip Lanah Cherry's stream content. ➡️ https://www.twitch.tv/lanahcherry",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Lanah Cherry $1500 Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipping-campaigns-1f"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 1500,
-    "count": "30",
-    "cpm": 0.15,
-    "key": "Reach::Lanah Cherry $1500 Clipping Campaign"
   },
   {
     "id": "cd1f0c9e-7ef0-44d9-8713-3e9687744c63",
@@ -1226,14 +1086,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "cif",
     "whopUrl": "https://whop.com/cif",
     "thumbnail": "https://cdn.contentrewards.com/user_R7EIngNz1Lcxw/1787247558713.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 267,
+    "creators": 566,
     "agency": "Clip It Fast",
     "age": "1d",
     "formattedAge": "1 day ago",
-    "fundedAt": "2026-06-17T02:05:41.694Z",
-    "sortTimestamp": 1787317226881,
+    "fundedAt": "2026-06-29T21:45:23.464Z",
+    "sortTimestamp": 1787319447633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Project Sabrina X ClipIt Fast",
@@ -1243,18 +1103,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Project Sabrina X ClipIt Fast | Official Whop Hub & Assets",
         "url": "https://whop.com/cif"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1AEB0NxsYGPWMG5_i7oMr8De6lG_fIJnBeGcIEpftJbI/edit?usp=sharing"
       }
     ],
     "platforms": [
       "x"
     ],
-    "spent": 66,
+    "spent": 67,
     "total": 1000,
-    "count": "45",
+    "count": "46",
     "cpm": 1,
     "key": "Clip It Fast::Project Sabrina X ClipIt Fast"
   },
@@ -1265,14 +1121,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "ryan-zofay-clipping-network",
     "whopUrl": "https://whop.com/ryan-zofay-clipping-network",
     "thumbnail": "https://cdn.contentrewards.com/user_iImw4U4RaZ5s4/1787252648197.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6089921/image/bots/2026-05-12/ca80a41f-48a7-434c-a51d-1f7b6cb5e621.png",
     "bannerImageUrl": "",
-    "creators": 421,
+    "creators": 79,
     "agency": "RYAN ZOFAY",
     "age": "1d",
     "formattedAge": "1 day ago",
-    "fundedAt": "2026-08-11T00:00:43.548Z",
-    "sortTimestamp": 1787317226881,
+    "fundedAt": "2026-08-17T18:23:23.710Z",
+    "sortTimestamp": 1787319447633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Ryan Zofay - Clipping Campaign 01",
@@ -1282,23 +1138,15 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ryan Zofay - Clipping Campaign 01 | Official Whop Hub & Assets",
         "url": "https://whop.com/ryan-zofay-clipping-network"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1tsGFWUiRZjUcASvtN8x5oxs2HMOKeect5xZTbj81faU/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1g2wgEVd9BT4bFhKxR3Jztd6b5kywaE4s?usp=sharing"
       }
     ],
     "platforms": [
       "tiktok",
       "instagram"
     ],
-    "spent": 35,
+    "spent": 36,
     "total": 3000,
-    "count": "110",
+    "count": "111",
     "cpm": 0.75,
     "key": "RYAN ZOFAY::Ryan Zofay - Clipping Campaign 01"
   },
@@ -1311,12 +1159,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
-    "creators": 36,
+    "creators": 38,
     "agency": "Clip Track",
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1787230826887,
+    "sortTimestamp": 1787233047639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Bryson Gray \"Too Controversial\" Music Video Clipping",
@@ -1330,7 +1178,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "36",
+    "count": "38",
     "cpm": 2,
     "key": "Clip Track::Bryson Gray \"Too Controversial\" Music Video Clipping"
   },
@@ -1341,14 +1189,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "live-with-mc",
     "whopUrl": "https://whop.com/live-with-mc",
     "thumbnail": "https://cdn.contentrewards.com/user_YxruNazCxxv4w/1787298723711.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27861640/image/bots/2026-05-26/2c99bd9b-0b76-4d81-933a-19617d79d1ff.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
     "bannerImageUrl": "",
-    "creators": 84,
+    "creators": 4,
     "agency": "MadCharts",
     "age": "2d",
     "formattedAge": "2 days ago",
-    "fundedAt": "2026-05-26T14:27:03.366Z",
-    "sortTimestamp": 1787230826887,
+    "fundedAt": "2026-06-27T13:09:11.346Z",
+    "sortTimestamp": 1787233047639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "MC's Clippers",
@@ -1358,18 +1206,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MC's Clippers | Official Whop Hub & Assets",
         "url": "https://whop.com/live-with-mc"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1IMOseC30_tsCAXjLpyg-BJpXwm-F9kJG"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1NLWhuUjL77-UmTQgsmDSzKxPLary-1YY"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1C6fZDwxEyhHujKziMlzcpFN9eD6u-xN5"
       }
     ],
     "platforms": [
@@ -1397,7 +1233,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-01-15T21:40:15.995Z",
-    "sortTimestamp": 1787230826886,
+    "sortTimestamp": 1787233047638,
     "category": "Product",
     "contentType": "UGC",
     "title": "Flaim AI — UGC · $2/1K views",
@@ -1438,7 +1274,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-07-19T06:08:46.570Z",
-    "sortTimestamp": 1787230826886,
+    "sortTimestamp": 1787233047638,
     "category": "Product",
     "contentType": "UGC",
     "title": "GOLI'S Nutrition",
@@ -1462,6 +1298,43 @@ window.CAMPAIGNS_DATA = [
     "key": "Goli Nutrition::GOLI'S Nutrition"
   },
   {
+    "id": "efd5bf2e-e7ec-468b-8cfb-22f457c60839",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "blow-up-createurs",
+    "whop_route": "blow-up-createurs",
+    "whopUrl": "https://whop.com/blow-up-createurs",
+    "thumbnail": "https://cdn.contentrewards.com/user_Xoz3UMM8srCHl/1787159754000.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8913895/image/bots/2026-07-11/a91a9b02-4069-4f82-9f31-b8729db1f0cb.png",
+    "bannerImageUrl": "",
+    "creators": 18,
+    "agency": "Blow Up",
+    "age": "2d",
+    "formattedAge": "2 days ago",
+    "fundedAt": "2026-07-12T17:53:52.818Z",
+    "sortTimestamp": 1787233047637,
+    "category": "Product",
+    "contentType": "Clipping",
+    "title": "B-ROLL",
+    "description": "Meilleure campagne de B-ROLL",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "B-ROLL | Official Whop Hub & Assets",
+        "url": "https://whop.com/blow-up-createurs"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 4,
+    "total": 1000,
+    "count": "22",
+    "cpm": 0.2,
+    "key": "Blow Up::B-ROLL"
+  },
+  {
     "id": "28f3047e-7590-48cc-b9ad-f174ce33130e",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clipup-official",
@@ -1475,7 +1348,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-06-06T21:42:47.016Z",
-    "sortTimestamp": 1787230826884,
+    "sortTimestamp": 1787233047636,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Jersey Fusion clipping [EASY]",
@@ -1485,10 +1358,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jersey Fusion clipping [EASY] | Official Whop Hub & Assets",
         "url": "https://whop.com/clipup-official"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://private-station-13d.notion.site/Jersey-Fusion-Clipping-3bf292cc5942818c8b49ed0dc33f7f58"
       }
     ],
     "platforms": [
@@ -1509,12 +1378,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_P6gLQTnW5f2Te/1787019343632.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 375,
+    "creators": 396,
     "agency": "Clipix",
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-08-22T02:09:23.731Z",
-    "sortTimestamp": 1787230826884,
+    "sortTimestamp": 1787233047636,
     "category": "Product",
     "contentType": "UGC",
     "title": "Scroll The Bible Clipping | $9K Budget | $1.00 CPM",
@@ -1524,14 +1393,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Scroll The Bible Clipping | $9K Budget | $1.00 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1PJvQjaaODB5A0EmU6KgvkA-l-sRe3TBOww77QJmEYFk/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1P83QjalpCN1EvuggKKBN4jEh0qN3_y4SCTtQquP1jec/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1544,43 +1405,6 @@ window.CAMPAIGNS_DATA = [
     "count": "66",
     "cpm": 1,
     "key": "Clipix::Scroll The Bible Clipping | $9K Budget | $1.00 CPM"
-  },
-  {
-    "id": "efd5bf2e-e7ec-468b-8cfb-22f457c60839",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "blow-up-createurs",
-    "whop_route": "blow-up-createurs",
-    "whopUrl": "https://whop.com/blow-up-createurs",
-    "thumbnail": "https://cdn.contentrewards.com/user_Xoz3UMM8srCHl/1787159754000.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8913895/image/bots/2026-07-11/a91a9b02-4069-4f82-9f31-b8729db1f0cb.png",
-    "bannerImageUrl": "",
-    "creators": 18,
-    "agency": "Blow Up",
-    "age": "2d",
-    "formattedAge": "2 days ago",
-    "fundedAt": "2026-07-12T17:53:52.818Z",
-    "sortTimestamp": 1787230826884,
-    "category": "Product",
-    "contentType": "Clipping",
-    "title": "B-ROLL",
-    "description": "Meilleure campagne de B-ROLL",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "B-ROLL | Official Whop Hub & Assets",
-        "url": "https://whop.com/blow-up-createurs"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 4,
-    "total": 1000,
-    "count": "21",
-    "cpm": 0.2,
-    "key": "Blow Up::B-ROLL"
   },
   {
     "id": "4ce91127-9efd-4538-b95b-18390429d64a",
@@ -1596,7 +1420,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-08-14T17:47:31.080Z",
-    "sortTimestamp": 1787230826883,
+    "sortTimestamp": 1787233047635,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "YOEL SARDIÑAS - SPANISH CLIPPING",
@@ -1633,7 +1457,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-08-03T21:26:09.457Z",
-    "sortTimestamp": 1787230826883,
+    "sortTimestamp": 1787233047635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Oussenix's Campaign",
@@ -1643,18 +1467,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Oussenix's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/oussenix-clipping-community"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1uwfs3ICIqA9S2Zrbj6fjQq7-1rZy5R7t?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1ZfXbCWv1cHKe2b2kzvI1LyrQ_3wwyF5p?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15xfmRjYbInDzYImEFRdks6kNq8oLq2Uuf024KStJ-rM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1664,9 +1476,46 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 9,
     "total": 1000,
-    "count": "55",
+    "count": "58",
     "cpm": 1,
     "key": "Oussenix's Streamer Clips::Oussenix's Campaign"
+  },
+  {
+    "id": "259922e8-8017-4e7b-b1db-63054dc762da",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "nolanharper",
+    "whop_route": "nolanharper",
+    "whopUrl": "https://whop.com/nolanharper",
+    "thumbnail": "https://cdn.contentrewards.com/user_XRqkYQFRhT39j/1787168204723.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "bannerImageUrl": "",
+    "creators": 701,
+    "agency": "Clips and Views",
+    "age": "2d",
+    "formattedAge": "2 days ago",
+    "fundedAt": "2026-07-21T10:33:42.105Z",
+    "sortTimestamp": 1787233047634,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Russ Ruffino | Clipping Campaign",
+    "description": "This campaign is designed to expand the reach of Russ Ruffino’s content, grow awareness of his personal brand, and drive targeted traffic to his platforms. Clippers should prioritize engaging, high-retention moments that showcase Russ’s experience, perspective, and personality while appealing to coaches, consultants, experts, and entrepreneurs focused on client acquisition, high-ticket offers, sales, and business growth.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Russ Ruffino | Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/nolanharper"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 29,
+    "total": 1500,
+    "count": "69",
+    "cpm": 2,
+    "key": "Clips and Views::Russ Ruffino | Clipping Campaign"
   },
   {
     "id": "00d02d8a-bdf4-4eb0-84c3-8f98a1e20bda",
@@ -1675,14 +1524,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "disorder-music-clippers-community",
     "whopUrl": "https://whop.com/disorder-music-clippers-community",
     "thumbnail": "https://cdn.contentrewards.com/user_bDj97Ce2DSJdj/1787224313045.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28383654/image/bots/2026-08-05/536cf67e-3b24-4bd4-bdd4-752202f6add1.png",
     "bannerImageUrl": "",
-    "creators": 1414,
+    "creators": 222,
     "agency": "Disorder Music Group",
     "age": "2d",
     "formattedAge": "2 days ago",
-    "fundedAt": "2026-07-23T01:31:14.279Z",
-    "sortTimestamp": 1787230826882,
+    "fundedAt": "2026-08-14T00:04:45.086Z",
+    "sortTimestamp": 1787233047634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Faster Horses - The Only Girl",
@@ -1710,14 +1559,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "disorder-music-clippers-community",
     "whopUrl": "https://whop.com/disorder-music-clippers-community",
     "thumbnail": "https://cdn.contentrewards.com/user_bDj97Ce2DSJdj/1787225613194.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12806358/image/bots/2026-02-25/3b13ed41-18c7-4e61-a2c1-3a63dde6837d.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
     "bannerImageUrl": "",
-    "creators": 4790,
+    "creators": 930,
     "agency": "Disorder Music Group",
     "age": "2d",
     "formattedAge": "2 days ago",
-    "fundedAt": "2026-07-23T15:25:10.294Z",
-    "sortTimestamp": 1787230826882,
+    "fundedAt": "2026-05-09T18:43:15.555Z",
+    "sortTimestamp": 1787233047634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Pupa Nas T x Golpe - Master At Work",
@@ -1753,7 +1602,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1787230826881,
+    "sortTimestamp": 1787233047633,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "House of Valis UGC — \"Have You Seen This Ring?\" ($6 per 1,000 views)",
@@ -1772,51 +1621,6 @@ window.CAMPAIGNS_DATA = [
     "key": "House of Valis::House of Valis UGC — \"Have You Seen This Ring?\" ($6 per 1,000 views)"
   },
   {
-    "id": "259922e8-8017-4e7b-b1db-63054dc762da",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "nolanharper",
-    "whop_route": "nolanharper",
-    "whopUrl": "https://whop.com/nolanharper",
-    "thumbnail": "https://cdn.contentrewards.com/user_XRqkYQFRhT39j/1787168204723.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
-    "bannerImageUrl": "",
-    "creators": 698,
-    "agency": "Clips and Views",
-    "age": "2d",
-    "formattedAge": "2 days ago",
-    "fundedAt": "2026-07-21T10:33:42.105Z",
-    "sortTimestamp": 1787230826881,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Russ Ruffino | Clipping Campaign",
-    "description": "This campaign is designed to expand the reach of Russ Ruffino’s content, grow awareness of his personal brand, and drive targeted traffic to his platforms. Clippers should prioritize engaging, high-retention moments that showcase Russ’s experience, perspective, and personality while appealing to coaches, consultants, experts, and entrepreneurs focused on client acquisition, high-ticket offers, sales, and business growth.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Russ Ruffino | Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/nolanharper"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1omFt16-lS_pmgjfiSLbX9rrLuHr-zgVwY_IAMfsGn5A/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1Frn3x7e9AQh--14jx4rHtR4vUB9D82Ry"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 29,
-    "total": 1500,
-    "count": "67",
-    "cpm": 2,
-    "key": "Clips and Views::Russ Ruffino | Clipping Campaign"
-  },
-  {
     "id": "3bcd497a-4dcd-40cd-9e45-4adbfaa8c2bc",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clip-farm-d5",
@@ -1825,12 +1629,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1787201950622.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_22085199/image/bots/2026-08-04/afa4ee76-c5a3-411e-918c-c05687779be6.png",
     "bannerImageUrl": "",
-    "creators": 199,
+    "creators": 200,
     "agency": "Clip Farm",
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-08-18T17:31:31.707Z",
-    "sortTimestamp": 1787230826880,
+    "sortTimestamp": 1787233047632,
     "category": "Music",
     "contentType": "UGC",
     "title": "K Shami Clipping",
@@ -1840,10 +1644,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "K Shami Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1qes39qsYX4wUElMxmkzOvQECKq4jgDuetzEpFmBbG8s/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1853,7 +1653,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 9,
     "total": 10000,
-    "count": "473",
+    "count": "483",
     "cpm": 1.5,
     "key": "Clip Farm::K Shami Clipping"
   },
@@ -1866,12 +1666,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_b9fSCPobtC3o8/1787149824857.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
     "bannerImageUrl": "",
-    "creators": 539,
+    "creators": 540,
     "agency": "Ali-A",
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-08-10T06:16:11.479Z",
-    "sortTimestamp": 1787230826879,
+    "sortTimestamp": 1787233047631,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Ali-A Fortnite Map 1v1 UGC Campaign",
@@ -1881,10 +1681,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ali-A Fortnite Map 1v1 UGC Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/ali-a-73"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Aml7JhVCGedt6SDF1HaKCKFJRKfFPu_zDRbUB1-8dWM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1894,7 +1690,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 95,
     "total": 2500,
-    "count": "120",
+    "count": "124",
     "cpm": 2,
     "key": "Ali-A::Ali-A Fortnite Map 1v1 UGC Campaign"
   },
@@ -1907,12 +1703,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_r5MVItlFIQRiM/1787157148511.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26382775/image/ai_prompts/2026-04-30/eae647b1-9a74-4bd1-ae25-13a846480ae2.png",
     "bannerImageUrl": "",
-    "creators": 4,
+    "creators": 5,
     "agency": "Clipping Culture",
     "age": "2d",
     "formattedAge": "2 days ago",
     "fundedAt": "2026-08-22T10:05:00.511Z",
-    "sortTimestamp": 1787230826878,
+    "sortTimestamp": 1787233047630,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Call of Duty - Modern Warfare 4 Multiplayer Trailer Clipping",
@@ -1922,10 +1718,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty - Modern Warfare 4 Multiplayer Trailer Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/u/0/d/1_YgbrVCnGMGS_oT-9Z2IteC9rM_r-VvMgnce_ORlQQk/mobilebasic"
       }
     ],
     "platforms": [
@@ -1933,7 +1725,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 19981,
+    "spent": 20045,
     "total": 100000,
     "count": "9K",
     "cpm": 1.4,
@@ -1953,7 +1745,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-03-16T04:05:03.115Z",
-    "sortTimestamp": 1787144426887,
+    "sortTimestamp": 1787146647640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "DALU OSADEBE X MAISON DELITES",
@@ -1963,10 +1755,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DALU OSADEBE X MAISON DELITES | Official Whop Hub & Assets",
         "url": "https://whop.com/test-db-37b4"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/17KA7nsls_ueugRfKALt4-ZkATztzDnnemWmeLkFj5Rw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1987,12 +1775,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_BRE5GIeAjrcM4/1787105827224.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
     "bannerImageUrl": "",
-    "creators": 748,
+    "creators": 750,
     "agency": "Clip Influence",
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-07-21T21:30:21.615Z",
-    "sortTimestamp": 1787144426883,
+    "sortTimestamp": 1787146647635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Gumi-Yum Surprise Clipping",
@@ -2002,18 +1790,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gumi-Yum Surprise Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1zm8ykEylcZKAnOjApLFTftUILhJPQVK0i3P-guMPfQw/edit?usp=drivesdk"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1jmSxLnQK6_8GMZBR2mz7_1xwMTgGLVISjxXHIPYtfuo/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1vh4stHYAX6of7mfC1wQ4quqZgTH5jjhS?usp=sharing"
       }
     ],
     "platforms": [
@@ -2034,14 +1810,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "biosnap-animal-identifier",
     "whopUrl": "https://whop.com/biosnap-animal-identifier",
     "thumbnail": "https://cdn.contentrewards.com/user_zpthLI69z68bX/1787112295502.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6089921/image/bots/2026-05-12/ca80a41f-48a7-434c-a51d-1f7b6cb5e621.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-02-26/3f845db1-a76a-499c-8819-14cadb3fd34a/image.png",
     "bannerImageUrl": "",
-    "creators": 10679,
+    "creators": 275,
     "agency": "SASM Technologies LLC",
     "age": "3d",
     "formattedAge": "3 days ago",
-    "fundedAt": "2026-05-06T18:28:44.924Z",
-    "sortTimestamp": 1787144426883,
+    "fundedAt": "2026-05-09T16:56:38.290Z",
+    "sortTimestamp": 1787146647635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "SASM's BioSnap Campaign",
@@ -2073,12 +1849,43 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
-    "creators": 31,
+    "creators": 366,
+    "agency": "Artist Influence",
+    "age": "3d",
+    "formattedAge": "3 days ago",
+    "fundedAt": null,
+    "sortTimestamp": 1787146647634,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "YOVNGCHIMI x DJ Khaled x Dei V - \"HVRACAN\" | Latin Baddies/Exotic Cars/Street Culture/NY Summer/Latin Cookouts/Party Culture/Pole Dancers",
+    "description": "Get paid per view to clip YOVNGCHIMI x DJ Khaled x Dei V - \"HVRACAN\" on TikTok + IG. We're looking for Latin Baddies/Exotic Cars/Street Culture/NY Summer/Latin Cookouts/Party Culture/Pole Dancers Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc Below",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "tiktok",
+      "x"
+    ],
+    "spent": 16,
+    "total": 1000,
+    "count": "366",
+    "cpm": 1,
+    "key": "Artist Influence::YOVNGCHIMI x DJ Khaled x Dei V - \"HVRACAN\" | Latin Baddies/Exotic Cars/Street Culture/NY Summer/Latin Cookouts/Party Culture/Pole Dancers"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
+    "creators": 33,
     "agency": "TraxNYC",
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1787144426882,
+    "sortTimestamp": 1787146647634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Trax & Waheeda Sohan PODCAST",
@@ -2092,7 +1899,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 51,
     "total": 1000,
-    "count": "31",
+    "count": "33",
     "cpm": 1,
     "key": "TraxNYC::Trax & Waheeda Sohan PODCAST"
   },
@@ -2110,7 +1917,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-06-14T14:24:26.420Z",
-    "sortTimestamp": 1787144426882,
+    "sortTimestamp": 1787146647634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Eneba Campaign",
@@ -2120,10 +1927,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Eneba Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/eneba-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1amAjUB5OX-qycVeB3AfQdn0n59ngOAYK5zQyFRjxxLc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2133,7 +1936,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 25,
     "total": 3000,
-    "count": "57",
+    "count": "58",
     "cpm": 1,
     "key": "Eneba::Eneba Campaign"
   },
@@ -2151,7 +1954,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-08-13T19:26:50.045Z",
-    "sortTimestamp": 1787144426881,
+    "sortTimestamp": 1787146647633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Nilo.io | Roblox Clipping Campaign | $1.50 CPM",
@@ -2161,14 +1964,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nilo.io | Roblox Clipping Campaign | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxhub-clips-roblox-clipping-hub"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1hXHPJ-trMe2cdawQR5vwvEbfovAwQMm6CA4HZLDC_-I/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1_zjm2aXLeNanscYRx5IJSIN1sgrukPBH?usp=sharing"
       }
     ],
     "platforms": [
@@ -2178,40 +1973,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 98,
     "total": 1000,
-    "count": "99",
+    "count": "100",
     "cpm": 1.5,
     "key": "ClipBlox::Nilo.io | Roblox Clipping Campaign | $1.50 CPM"
-  },
-  {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 363,
-    "agency": "Artist Influence",
-    "age": "3d",
-    "formattedAge": "3 days ago",
-    "fundedAt": null,
-    "sortTimestamp": 1787144426881,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "YOVNGCHIMI x DJ Khaled x Dei V - \"HVRACAN\" | Latin Baddies/Exotic Cars/Street Culture/NY Summer/Latin Cookouts/Party Culture/Pole Dancers",
-    "description": "Get paid per view to clip YOVNGCHIMI x DJ Khaled x Dei V - \"HVRACAN\" on TikTok + IG. We're looking for Latin Baddies/Exotic Cars/Street Culture/NY Summer/Latin Cookouts/Party Culture/Pole Dancers Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc Below",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok",
-      "x"
-    ],
-    "spent": 16,
-    "total": 1000,
-    "count": "363",
-    "cpm": 1,
-    "key": "Artist Influence::YOVNGCHIMI x DJ Khaled x Dei V - \"HVRACAN\" | Latin Baddies/Exotic Cars/Street Culture/NY Summer/Latin Cookouts/Party Culture/Pole Dancers"
   },
   {
     "id": "f4857e20-70ea-4a5e-ba83-e43c58405718",
@@ -2220,14 +1984,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "lunch-break-freestyle-clips",
     "whopUrl": "https://whop.com/lunch-break-freestyle-clips",
     "thumbnail": "https://cdn.contentrewards.com/user_JeBOGLLxOaY1Z/1787125762286.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
     "bannerImageUrl": "",
-    "creators": 108,
+    "creators": 173,
     "agency": "deFaria Clipping Rewards",
     "age": "3d",
     "formattedAge": "3 days ago",
-    "fundedAt": "2026-08-07T21:49:15.221Z",
-    "sortTimestamp": 1787144426880,
+    "fundedAt": "2026-08-12T16:54:29.212Z",
+    "sortTimestamp": 1787146647632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "MAKE INSPIRATIONAL OLIVER TREE EDITS FROM THIS EPISODE",
@@ -2244,9 +2008,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 572,
+    "spent": 573,
     "total": 1000,
-    "count": "492",
+    "count": "496",
     "cpm": 1.5,
     "key": "deFaria Clipping Rewards::MAKE INSPIRATIONAL OLIVER TREE EDITS FROM THIS EPISODE"
   },
@@ -2264,7 +2028,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1787144426880,
+    "sortTimestamp": 1787146647632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "$0.4 CPM MUSIC CAMPAIGN",
@@ -2276,7 +2040,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 617,
+    "spent": 622,
     "total": 1000,
     "count": "230",
     "cpm": 0.4,
@@ -2296,7 +2060,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-08-17T12:19:35.112Z",
-    "sortTimestamp": 1787144426880,
+    "sortTimestamp": 1787146647632,
     "category": "Product",
     "contentType": "Clipping",
     "title": "The Sleepr( Dedicated page)",
@@ -2306,10 +2070,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Sleepr( Dedicated page) | Official Whop Hub & Assets",
         "url": "https://whop.com/the-sleepr-51"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1pbQxESFdkPVPmX1nv0t0GBpgcai7OQObpXFoI3mfpCY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2317,9 +2077,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 249,
+    "spent": 250,
     "total": 1000,
-    "count": "199",
+    "count": "200",
     "cpm": 1.5,
     "key": "Sleepr Clipping Campaign::The Sleepr( Dedicated page)"
   },
@@ -2332,12 +2092,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1787085764042.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 375,
+    "creators": 396,
     "agency": "Artist Influence",
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-08-22T02:09:23.731Z",
-    "sortTimestamp": 1787144426879,
+    "sortTimestamp": 1787146647631,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Matt Sassari, HNTR - Short Stop |Cartok/ Luxury Car/Auratok/Movie Power Moves/Gym/Masculine Edits",
@@ -2347,18 +2107,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Matt Sassari, HNTR - Short Stop |Cartok/ Luxury Car/Auratok/Movie Power Moves/Gym/Masculine Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1dYkXdB0TfAU6j0yRijwZNtAgHB7exZc3njhjieR0UnA/edit?usp=sharing"
       }
     ],
     "platforms": [
       "tiktok"
     ],
-    "spent": 536,
+    "spent": 537,
     "total": 1150,
-    "count": "618",
+    "count": "622",
     "cpm": 1,
     "key": "Artist Influence::Matt Sassari, HNTR - Short Stop |Cartok/ Luxury Car/Auratok/Movie Power Moves/Gym/Masculine Edits"
   },
@@ -2371,12 +2127,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1786730459460.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20294184/image/bots/2026-08-17/0c00a4f9-2a5f-4086-b9ec-5263401a2a66.png",
     "bannerImageUrl": "",
-    "creators": 149,
+    "creators": 155,
     "agency": "The Clip Ship",
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-08-19T11:42:56.074Z",
-    "sortTimestamp": 1787144426879,
+    "sortTimestamp": 1787146647631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Ramp | Podcast Clipping Part 2",
@@ -2386,10 +2142,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ramp | Podcast Clipping Part 2 | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ysJmSEfb1uqviKlL9crqrg84lq89dAphJ-1H-0YmvdY/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2399,7 +2151,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 107,
     "total": 6000,
-    "count": "931",
+    "count": "940",
     "cpm": 3,
     "key": "The Clip Ship::Ramp | Podcast Clipping Part 2"
   },
@@ -2412,12 +2164,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_sI7px5lINToQ6/1787070613060.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 1452,
+    "creators": 1453,
     "agency": "Vouch PRO",
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-08-10T16:18:30.869Z",
-    "sortTimestamp": 1787144426879,
+    "sortTimestamp": 1787146647631,
     "category": "Logo",
     "contentType": "Clipping",
     "title": "OKX Logo campaign",
@@ -2427,10 +2179,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OKX Logo campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/okx-clipping-by-vlayer"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1QTdISAdrk5gD5hZKjzccxeBDbnq84u40?usp=sharing"
       }
     ],
     "platforms": [
@@ -2438,9 +2186,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 985,
+    "spent": 989,
     "total": 10000,
-    "count": "149",
+    "count": "155",
     "cpm": 0.2,
     "key": "Vouch PRO::OKX Logo campaign"
   },
@@ -2453,12 +2201,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1786986729260.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20856602/image/bots/2026-05-18/b57cc64f-05e7-4594-b2a4-c5852a9c3ef6.jpg",
     "bannerImageUrl": "",
-    "creators": 302,
+    "creators": 303,
     "agency": "The Clip Ship",
     "age": "3d",
     "formattedAge": "3 days ago",
     "fundedAt": "2026-08-05T21:23:10.417Z",
-    "sortTimestamp": 1787144426879,
+    "sortTimestamp": 1787146647631,
     "category": "Music",
     "contentType": "Clipping",
     "title": "The Kentucky Gentlemen | Performances",
@@ -2468,10 +2216,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Kentucky Gentlemen | Performances | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1z_bVh_gWYb0t1WrcU3McHg-VMQp3OjtQJOTbzkkrTFE/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2479,9 +2223,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 131,
+    "spent": 134,
     "total": 7000,
-    "count": "970",
+    "count": "978",
     "cpm": 1.25,
     "key": "The Clip Ship::The Kentucky Gentlemen | Performances"
   },
@@ -2499,7 +2243,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-08-14T14:44:49.562Z",
-    "sortTimestamp": 1787058026887,
+    "sortTimestamp": 1787060247639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "GRANT KNOCHE: The Next Male Popstar",
@@ -2509,14 +2253,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GRANT KNOCHE: The Next Male Popstar | Official Whop Hub & Assets",
         "url": "https://whop.com/grant-knoche-86"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/18w2kfEdWPe1U42tfE9bXtgsxkRocMKLM?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/13gyobatGhp1SOTLQ-rU1S04cU7Y0I66Lln9RRlHaVpY/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -2544,7 +2280,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-08-21T22:01:35.073Z",
-    "sortTimestamp": 1787058026886,
+    "sortTimestamp": 1787060247638,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "AI Marketing World Clipping",
@@ -2554,14 +2290,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "AI Marketing World Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1txaz-L0PT5idkDcTa9VJrzrUKmZ4fHdk4HtAIsZo2vg/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1llYkUMgCMifPyYzqJ2k0QWRV7NWyiLPR?usp=sharing"
       }
     ],
     "platforms": [
@@ -2587,7 +2315,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-08-19T19:14:21.415Z",
-    "sortTimestamp": 1787058026886,
+    "sortTimestamp": 1787060247638,
     "category": "Other",
     "contentType": "Clipping",
     "title": "Moves Clips",
@@ -2624,7 +2352,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-05-11T12:05:22.321Z",
-    "sortTimestamp": 1787058026886,
+    "sortTimestamp": 1787060247638,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Destroy Lonely - MONSTER | Lifestyle/ Lyric/ Sports/ Anime Edits",
@@ -2634,10 +2362,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Destroy Lonely - MONSTER | Lifestyle/ Lyric/ Sports/ Anime Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1K1Xv3eUNmEMX1pjc6VpceZRN4FYwPHy4sJWC1n00uZk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2645,7 +2369,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "586",
+    "count": "588",
     "cpm": 1,
     "key": "Artist Influence::Destroy Lonely - MONSTER | Lifestyle/ Lyric/ Sports/ Anime Edits"
   },
@@ -2663,7 +2387,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-08-19T04:05:58.311Z",
-    "sortTimestamp": 1787058026883,
+    "sortTimestamp": 1787060247635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Zoe Gabrielle Clip + Earn",
@@ -2693,14 +2417,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "eclipto-clipper-community",
     "whopUrl": "https://whop.com/eclipto-clipper-community",
     "thumbnail": "https://cdn.contentrewards.com/user_sIPQc8i50dDPp/1786991735067.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1055661/image/access_passes/2025-05-20/48a0f91b-6750-4c55-9a2a-d164bd2b060d",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_32405229/image/bots/2026-08-10/bd6c9f28-712b-4b44-88db-04eec18c17b7.PNG",
     "bannerImageUrl": "",
-    "creators": 31,
+    "creators": 120,
     "agency": "Eclipto Media",
     "age": "4d",
     "formattedAge": "4 days ago",
-    "fundedAt": "2026-08-18T17:55:53.878Z",
-    "sortTimestamp": 1787058026882,
+    "fundedAt": "2026-08-11T16:03:36.112Z",
+    "sortTimestamp": 1787060247634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "PH Audience | Clip For Daniel Seavey | $1k Budget | $0.60 CPM",
@@ -2710,10 +2434,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PH Audience | Clip For Daniel Seavey | $1k Budget | $0.60 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/eclipto-clipper-community"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1XokO4FXFML5Zw3JlNOAMCDCl_AuE5PW5yr4nl3HhH3M/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2721,7 +2441,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 70,
+    "spent": 71,
     "total": 1000,
     "count": "110",
     "cpm": 0.6,
@@ -2741,7 +2461,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-04-23T22:19:42.614Z",
-    "sortTimestamp": 1787058026882,
+    "sortTimestamp": 1787060247634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Clips Hablando de VALOR - Tiktok/Youtube/Instagram",
@@ -2773,12 +2493,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_XV9FZtlP8V3Pj/1786977168884.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29618597/image/access_passes/2026-07-05/79223634-8ec6-4fbd-8971-1130a69ab546.jpeg",
     "bannerImageUrl": "",
-    "creators": 59,
+    "creators": 60,
     "agency": "ClipHub Clipping",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-08-15T19:31:57.202Z",
-    "sortTimestamp": 1787058026881,
+    "sortTimestamp": 1787060247633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Tellonym App | Viral Clipping | 1$ CPM",
@@ -2788,14 +2508,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tellonym App | Viral Clipping | 1$ CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphub-clipping-10"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/19Gk8MRK1dq_XDKMtduEn8RCt591K2cq2iTwmyvs-Jzc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1vb2j1UJaymll7QZE-xcfolDRCPQMM47G?usp=drive_link"
       }
     ],
     "platforms": [
@@ -2816,14 +2528,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "bloxclips-19",
     "whopUrl": "https://whop.com/bloxclips-19",
     "thumbnail": "https://cdn.contentrewards.com/user_3q7hN8efoVhRM/1786990760105.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34080735/image/bots/2026-08-20/381e3a81-24c7-400d-a3eb-271f06ecd586.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 110,
+    "creators": 423,
     "agency": "BloxClips",
     "age": "4d",
     "formattedAge": "4 days ago",
-    "fundedAt": "2026-08-21T00:08:19.563Z",
-    "sortTimestamp": 1787058026881,
+    "fundedAt": "2026-08-11T00:00:43.548Z",
+    "sortTimestamp": 1787060247633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "ForgeGUI [X Posts]",
@@ -2833,10 +2545,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ForgeGUI [X Posts] | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxclips-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ymvmkYB3YsVgDeBQ1E4mWRZg0kmtPFFMYexqdTN89As/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2857,12 +2565,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_acK8AH1Mtmt1D/1787000790672.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "",
-    "creators": 691,
+    "creators": 692,
     "agency": "Sound Network",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-07-22T14:36:30.734Z",
-    "sortTimestamp": 1787058026880,
+    "sortTimestamp": 1787060247632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Tash Blake - oUT mY mIND Music Video Hype Clips [8070]",
@@ -2872,19 +2580,15 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tash Blake - oUT mY mIND Music Video Hype Clips [8070] | Official Whop Hub & Assets",
         "url": "https://whop.com/soundnetwork"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1zLtw_eNn1G78JvWF3Thup9xzpNEfggPN5Bts8HKhjIk/edit?usp=sharing"
       }
     ],
     "platforms": [
       "tiktok",
       "instagram"
     ],
-    "spent": 199,
+    "spent": 200,
     "total": 1000,
-    "count": "908",
+    "count": "916",
     "cpm": 1.5,
     "key": "Sound Network::Tash Blake - oUT mY mIND Music Video Hype Clips [8070]"
   },
@@ -2897,12 +2601,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
-    "creators": 382,
+    "creators": 383,
     "agency": "TikCut",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1787058026880,
+    "sortTimestamp": 1787060247632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Mixol - \"a play of reincarnation\" (8094)",
@@ -2914,9 +2618,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 518,
+    "spent": 527,
     "total": 2000,
-    "count": "382",
+    "count": "383",
     "cpm": 1.5,
     "key": "TikCut::Mixol - \"a play of reincarnation\" (8094)"
   },
@@ -2934,7 +2638,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-07-24T22:58:55.812Z",
-    "sortTimestamp": 1787058026880,
+    "sortTimestamp": 1787060247632,
     "category": "Product",
     "contentType": "Clipping",
     "title": "KATSEYE x NHIE [Clipping Campaign]",
@@ -2944,14 +2648,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "KATSEYE x NHIE [Clipping Campaign] | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphouse-5c"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1x8CjGkLYF0KbxJna_dlGE8ng0VOX3GMK/edit"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1G5Sw5VKQ4lv_HYIb_r--y9HeYZkrTlTD"
       }
     ],
     "platforms": [
@@ -2959,7 +2655,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 609,
     "total": 1000,
-    "count": "234",
+    "count": "235",
     "cpm": 1.5,
     "key": "ClipHouse::KATSEYE x NHIE [Clipping Campaign]"
   },
@@ -2972,12 +2668,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1787272266688.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "",
-    "creators": 7888,
+    "creators": 7894,
     "agency": "The Clip Ship",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-07-03T17:06:19.194Z",
-    "sortTimestamp": 1787058026879,
+    "sortTimestamp": 1787060247631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "The Kumar Method | Viral Clipping",
@@ -2987,10 +2683,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Kumar Method | Viral Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/18srvhfvOHkpqc-xEo4XbJRXuxheCgI_Rvymh-U8gOEQ/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2998,9 +2690,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 684,
+    "spent": 686,
     "total": 6000,
-    "count": "840",
+    "count": "841",
     "cpm": 1,
     "key": "The Clip Ship::The Kumar Method | Viral Clipping"
   },
@@ -3013,12 +2705,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_BKto09F3EWiQD/1786941740293.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 3801,
+    "creators": 3802,
     "agency": "VitaClips",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-07-18T01:01:25.547Z",
-    "sortTimestamp": 1787058026879,
+    "sortTimestamp": 1787060247631,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Santa Cruz Medicinals Clipping",
@@ -3028,10 +2720,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Santa Cruz Medicinals Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/vitaclips"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Ikdds1va_G4JpRXWGZAtIQouz6LItgcm16XlsEUH5kI/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -3039,7 +2727,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 1575,
+    "spent": 1576,
     "total": 9887,
     "count": "94",
     "cpm": 1,
@@ -3054,12 +2742,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1787002872503.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 518,
+    "creators": 519,
     "agency": "Artist Influence",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-07-28T22:06:37.629Z",
-    "sortTimestamp": 1787058026879,
+    "sortTimestamp": 1787060247631,
     "category": "Music",
     "contentType": "Clipping",
     "title": "VRG - rebelworld EP | Soccer/Anime/Sports/TV/Film/DJ+Live Person",
@@ -3069,10 +2757,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "VRG - rebelworld EP | Soccer/Anime/Sports/TV/Film/DJ+Live Person | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ku9oj3f2dIssycv4akm6_ZpP5ts7Uk3ZakmbcLlARqI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3080,7 +2764,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 617,
     "total": 1250,
-    "count": "784",
+    "count": "787",
     "cpm": 1,
     "key": "Artist Influence::VRG - rebelworld EP | Soccer/Anime/Sports/TV/Film/DJ+Live Person"
   },
@@ -3093,12 +2777,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_wOFeY8bGwWgZy/1786987900498.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26376118/image/bots/2026-05-15/5c311763-41e7-43d9-940a-58e753ae90f8.png",
     "bannerImageUrl": "",
-    "creators": 2089,
+    "creators": 2095,
     "agency": "ClipHaus",
     "age": "4d",
     "formattedAge": "4 days ago",
     "fundedAt": "2026-07-31T00:11:36.308Z",
-    "sortTimestamp": 1787058026878,
+    "sortTimestamp": 1787060247630,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "TURKBET - LOGO ON TURKISH SPORTS CONTENT",
@@ -3135,7 +2819,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5d",
     "formattedAge": "5 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786971626881,
+    "sortTimestamp": 1786973847633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "$0.10 CPM MUSIC (EVERYTHING ALLOWED)",
@@ -3147,7 +2831,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 502,
+    "spent": 504,
     "total": 1000,
     "count": "213",
     "cpm": 0.1,
@@ -3160,14 +2844,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "abu-lahya-halal-clips-72",
     "whopUrl": "https://whop.com/abu-lahya-halal-clips-72",
     "thumbnail": "https://cdn.contentrewards.com/user_lpuWrgi6jp9fs/1786897748513.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6089921/image/bots/2026-05-12/ca80a41f-48a7-434c-a51d-1f7b6cb5e621.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34080735/image/bots/2026-08-20/381e3a81-24c7-400d-a3eb-271f06ecd586.jpg",
     "bannerImageUrl": "",
-    "creators": 79,
+    "creators": 111,
     "agency": "Abu Lahya Clips",
     "age": "5d",
     "formattedAge": "5 days ago",
-    "fundedAt": "2026-08-17T18:23:23.710Z",
-    "sortTimestamp": 1786971626881,
+    "fundedAt": "2026-08-21T00:08:19.563Z",
+    "sortTimestamp": 1786973847633,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Abu Lahya Clipping - ClipUp",
@@ -3177,14 +2861,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Abu Lahya Clipping - ClipUp | Official Whop Hub & Assets",
         "url": "https://whop.com/abu-lahya-halal-clips-72"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1uMVGC785yHRwZtq2kyK2rg_QA-h4tHXZ/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1uMVGC785yHRwZtq2kyK2rg_QA-h4tHXZ/edit?usp=sharing&amp;ouid=116290785420948448201&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -3194,90 +2870,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 69,
     "total": 5000,
-    "count": "398",
+    "count": "399",
     "cpm": 1.5,
     "key": "Abu Lahya Clips::Abu Lahya Clipping - ClipUp"
-  },
-  {
-    "id": "6d24f2d1-08c1-41e4-a6ff-08052ffda827",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "carlos-esparraga-clipping",
-    "whop_route": "carlos-esparraga-clipping",
-    "whopUrl": "https://whop.com/carlos-esparraga-clipping",
-    "thumbnail": "https://cdn.contentrewards.com/user_0UArt90UhcTvY/1786878702922.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
-    "bannerImageUrl": "",
-    "creators": 280,
-    "agency": "Carlos Esparraga Clipping",
-    "age": "5d",
-    "formattedAge": "5 days ago",
-    "fundedAt": "2026-07-31T14:45:49.204Z",
-    "sortTimestamp": 1786971626880,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Clips Hablando - 0.75$ por cada 1000 visitas",
-    "description": "Carlos Esparraga Clipping Personal brand clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clips Hablando - 0.75$ por cada 1000 visitas | Official Whop Hub & Assets",
-        "url": "https://whop.com/carlos-esparraga-clipping"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 682,
-    "total": 10000,
-    "count": "108",
-    "cpm": 0.75,
-    "key": "Carlos Esparraga Clipping::Clips Hablando - 0.75$ por cada 1000 visitas"
-  },
-  {
-    "id": "bc000bdf-deae-4d5f-970b-9fdcce123273",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipixcorp",
-    "whop_route": "clipixcorp",
-    "whopUrl": "https://whop.com/clipixcorp",
-    "thumbnail": "https://cdn.contentrewards.com/user_P6gLQTnW5f2Te/1786832189988.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
-    "bannerImageUrl": "",
-    "creators": 64,
-    "agency": "Clipix",
-    "age": "5d",
-    "formattedAge": "5 days ago",
-    "fundedAt": "2026-08-11T01:06:40.775Z",
-    "sortTimestamp": 1786971626880,
-    "category": "Logo",
-    "contentType": "Clipping",
-    "title": "Fliff Clipping | $5K Budget | $0.40 CPM",
-    "description": "Fliff (@getfliff) is a sports prediction app gearing up for NFL kickoff this September. Your job is to flood Instagram and TikTok with NFL highlights and match moments from last season with Fliff's bumper graphic on screen. The goal is simple: when someone scrolls through, every clip they see makes them want to download the app and sign up using code MATCHDAY. Make sure every post is up to standard, no exceptions.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Fliff Clipping | $5K Budget | $0.40 CPM | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipixcorp"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1rP8Gzqy5sLzIgBxRnYz1p1BWUgwAad__EqlV_7_yS7M/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10NilPPr7-sOuUGdQ2pYJrTRiNZCYsfhD8yydAe1OGkM/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram"
-    ],
-    "spent": 268,
-    "total": 5000,
-    "count": "13",
-    "cpm": 0.4,
-    "key": "Clipix::Fliff Clipping | $5K Budget | $0.40 CPM"
   },
   {
     "id": "f583b744-e25a-441c-b6b3-b03ee33497a6",
@@ -3286,14 +2881,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "theclippingproject",
     "whopUrl": "https://whop.com/theclippingproject",
     "thumbnail": "https://cdn.contentrewards.com/user_BcDcWh7cfvwP7/1786968586856.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-02-26/3f845db1-a76a-499c-8819-14cadb3fd34a/image.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 763,
+    "creators": 483,
     "agency": "Kyro Clips",
     "age": "5d",
     "formattedAge": "5 days ago",
-    "fundedAt": "2026-07-15T18:06:16.796Z",
-    "sortTimestamp": 1786971626880,
+    "fundedAt": "2026-08-20T04:59:30.116Z",
+    "sortTimestamp": 1786973847632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Cal Scruby NBA Edits Campaign",
@@ -3303,10 +2898,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Cal Scruby NBA Edits Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingproject"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1mlCamJK71Ffw82exJx64O_Chy-0yUSGwPgxy2zTJ0zY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3314,9 +2905,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 378,
+    "spent": 380,
     "total": 1115,
-    "count": "408",
+    "count": "409",
     "cpm": 1.25,
     "key": "Kyro Clips::Cal Scruby NBA Edits Campaign"
   },
@@ -3334,7 +2925,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5d",
     "formattedAge": "5 days ago",
     "fundedAt": "2026-08-06T09:11:56.599Z",
-    "sortTimestamp": 1786971626880,
+    "sortTimestamp": 1786973847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Juan Jose Mundo | Movie / Film Edits",
@@ -3344,14 +2935,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Juan Jose Mundo | Movie / Film Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/edit-pictures-10"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/u/7/mobile/folders/1WohCiEKAwDiDwHbgbhoHw3jx21dvmsVj?safe=active"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/u/7/mobile/folders/1WohCiEKAwDiDwHbgbhoHw3jx21dvmsVj?safe=active&amp;usp=share_link"
       }
     ],
     "platforms": [
@@ -3364,6 +2947,79 @@ window.CAMPAIGNS_DATA = [
     "count": "358",
     "cpm": 1,
     "key": "Edit Pictures::Juan Jose Mundo | Movie / Film Edits"
+  },
+  {
+    "id": "6d24f2d1-08c1-41e4-a6ff-08052ffda827",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "carlos-esparraga-clipping",
+    "whop_route": "carlos-esparraga-clipping",
+    "whopUrl": "https://whop.com/carlos-esparraga-clipping",
+    "thumbnail": "https://cdn.contentrewards.com/user_0UArt90UhcTvY/1786878702922.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8634820/image/bots/2026-06-04/ca6f8a66-ed7a-483d-b6f3-2b844bb92729.png",
+    "bannerImageUrl": "",
+    "creators": 13,
+    "agency": "Carlos Esparraga Clipping",
+    "age": "5d",
+    "formattedAge": "5 days ago",
+    "fundedAt": "2026-08-16T16:55:38.245Z",
+    "sortTimestamp": 1786973847631,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Clips Hablando - 0.75$ por cada 1000 visitas",
+    "description": "Carlos Esparraga Clipping Personal brand clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Clips Hablando - 0.75$ por cada 1000 visitas | Official Whop Hub & Assets",
+        "url": "https://whop.com/carlos-esparraga-clipping"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 683,
+    "total": 10000,
+    "count": "109",
+    "cpm": 0.75,
+    "key": "Carlos Esparraga Clipping::Clips Hablando - 0.75$ por cada 1000 visitas"
+  },
+  {
+    "id": "bc000bdf-deae-4d5f-970b-9fdcce123273",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipixcorp",
+    "whop_route": "clipixcorp",
+    "whopUrl": "https://whop.com/clipixcorp",
+    "thumbnail": "https://cdn.contentrewards.com/user_P6gLQTnW5f2Te/1786832189988.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "bannerImageUrl": "",
+    "creators": 64,
+    "agency": "Clipix",
+    "age": "5d",
+    "formattedAge": "5 days ago",
+    "fundedAt": "2026-08-11T01:06:40.775Z",
+    "sortTimestamp": 1786973847631,
+    "category": "Logo",
+    "contentType": "Clipping",
+    "title": "Fliff Clipping | $5K Budget | $0.40 CPM",
+    "description": "Fliff (@getfliff) is a sports prediction app gearing up for NFL kickoff this September. Your job is to flood Instagram and TikTok with NFL highlights and match moments from last season with Fliff's bumper graphic on screen. The goal is simple: when someone scrolls through, every clip they see makes them want to download the app and sign up using code MATCHDAY. Make sure every post is up to standard, no exceptions.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Fliff Clipping | $5K Budget | $0.40 CPM | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipixcorp"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "spent": 268,
+    "total": 5000,
+    "count": "13",
+    "cpm": 0.4,
+    "key": "Clipix::Fliff Clipping | $5K Budget | $0.40 CPM"
   },
   {
     "id": "8b77e7f9-d250-469c-a271-cbbaffcd94ba",
@@ -3379,7 +3035,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6d",
     "formattedAge": "6 days ago",
     "fundedAt": "2026-07-29T22:58:03.123Z",
-    "sortTimestamp": 1786885226887,
+    "sortTimestamp": 1786887447639,
     "category": "Other",
     "contentType": "UGC",
     "title": "Peponk UGC $100/video",
@@ -3389,10 +3045,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Peponk UGC $100/video | Official Whop Hub & Assets",
         "url": "https://whop.com/clipfunds-content-rewards"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1bzDou5iMs4l6j69FkgfnKRHzBKzHwN_UKJ6_ywtIhgg/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -3413,14 +3065,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "hannibal-clip",
     "whopUrl": "https://whop.com/hannibal-clip",
     "thumbnail": "https://cdn.contentrewards.com/user_RDgi06l6ZkOW1/1786841494032.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/uploads/user_3644019/image/apps/2025-12-21/e41086d3-bc15-459d-9a50-9c28c9e47921.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16422414/image/access_passes/2026-06-28/0a38d4c6-6798-4b32-8590-92e386fb569b.jpeg",
     "bannerImageUrl": "",
-    "creators": 61,
+    "creators": 390,
     "agency": "Hannibal is Free",
     "age": "6d",
     "formattedAge": "6 days ago",
-    "fundedAt": "2026-06-23T20:18:48.772Z",
-    "sortTimestamp": 1786885226883,
+    "fundedAt": "2026-07-02T18:56:05.238Z",
+    "sortTimestamp": 1786887447636,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "HannibalisFree's Campaign",
@@ -3430,14 +3082,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "HannibalisFree's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/hannibal-clip"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fi/f7zz6wz9r3nl54z0tuyyr/DJI_20260209001653_0023_D.MP4?rlkey=9basb1z9q0lezqjsbl69z5g30"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fi/f7zz6wz9r3nl54z0tuyyr/DJI_20260209001653_0023_D.MP4?rlkey=9basb1z9q0lezqjsbl69z5g30&amp;st=u9ubuze0&amp;dl=0"
       }
     ],
     "platforms": [
@@ -3445,7 +3089,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 925,
+    "spent": 927,
     "total": 1100,
     "count": "481",
     "cpm": 0.5,
@@ -3458,14 +3102,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipcashai",
     "whopUrl": "https://whop.com/clipcashai",
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1786868926542.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33948724/image/bots/2026-08-13/0becb8d4-83e2-44d2-95c9-a4e28fa563cb.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "",
-    "creators": 33,
+    "creators": 1414,
     "agency": "Artist Influence",
     "age": "6d",
     "formattedAge": "6 days ago",
-    "fundedAt": "2026-08-20T11:29:03.476Z",
-    "sortTimestamp": 1786885226882,
+    "fundedAt": "2026-07-23T01:31:14.279Z",
+    "sortTimestamp": 1786887447634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Lanah Cherry - Stream Clips | Stream Clips/Edits/Content Repo Reposts",
@@ -3475,10 +3119,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lanah Cherry - Stream Clips | Stream Clips/Edits/Content Repo Reposts | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LgNiI4Bk6J-w7rd_buSeigtHafKEUBnvxd3UOaDH9fY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3499,12 +3139,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_NoZr308kNWxQe/1786876102846.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_32083005/image/bots/2026-08-06/2225ab83-da60-479d-ae34-d9bbbd98fce3.jpeg",
     "bannerImageUrl": "",
-    "creators": 57,
+    "creators": 58,
     "agency": "TrendStory",
     "age": "6d",
     "formattedAge": "6 days ago",
     "fundedAt": "2026-08-18T14:42:50.594Z",
-    "sortTimestamp": 1786885226882,
+    "sortTimestamp": 1786887447634,
     "category": "Product",
     "contentType": "Clipping",
     "title": "TrendStory $0.10 RPM",
@@ -3541,7 +3181,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6d",
     "formattedAge": "6 days ago",
     "fundedAt": "2026-08-12T12:09:24.222Z",
-    "sortTimestamp": 1786885226881,
+    "sortTimestamp": 1786887447633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Kaazty Streamer Clipping",
@@ -3551,18 +3191,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kaazty Streamer Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipper-hub-07"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1x_V4C81uirc2y9dBtDnyaz7hCQji7oiWDHTgiM7uoA0/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1CM1ZQ4IQiUMiaJ3ruw01wrCK5mL4jBdB7afVBkpnpxQ/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1vwhh7Xz1dciZnPn05rDAi_m9UzBFow34"
       }
     ],
     "platforms": [
@@ -3570,9 +3198,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 231,
+    "spent": 233,
     "total": 1000,
-    "count": "59",
+    "count": "60",
     "cpm": 2,
     "key": "Funnel Clips Community::Kaazty Streamer Clipping"
   },
@@ -3585,12 +3213,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1786750546619.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1786750546619.jpg",
-    "creators": 960,
+    "creators": 961,
     "agency": "The Clip Ship",
     "age": "7d",
     "formattedAge": "1 week ago",
     "fundedAt": "2026-08-14T21:08:01.945Z",
-    "sortTimestamp": 1786798826891,
+    "sortTimestamp": 1786801047643,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "The Rolling Loud | Movie Clipping",
@@ -3604,9 +3232,44 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 4462,
     "total": 7000,
-    "count": "960",
+    "count": "961",
     "cpm": 1,
     "key": "The Clip Ship::The Rolling Loud | Movie Clipping"
+  },
+  {
+    "id": "646bbffd-6d8c-4ba9-b75a-00f8519ea263",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "ugc-ninja-90",
+    "whop_route": "ugc-ninja-90",
+    "whopUrl": "https://whop.com/ugc-ninja-90",
+    "thumbnail": "https://cdn.contentrewards.com/user_2ufRN8Y2aMbuI/1786718664627.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28733413/image/bots/2026-08-09/5e041768-72a6-4211-908b-06a7a6399fd7.png",
+    "bannerImageUrl": "",
+    "creators": 43,
+    "agency": "UGC ninja",
+    "age": "7d",
+    "formattedAge": "1 week ago",
+    "fundedAt": "2026-08-14T04:07:45.187Z",
+    "sortTimestamp": 1786801047640,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "Kingdom Clash x UGC Ninja",
+    "description": "Create native short-form videos featuring Kingdom Clash gameplay. Use the provided concepts and assets, keep gameplay clearly visible, and follow the full campaign brief.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Kingdom Clash x UGC Ninja | Official Whop Hub & Assets",
+        "url": "https://whop.com/ugc-ninja-90"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 0,
+    "total": 3000,
+    "count": "59",
+    "cpm": 1.5,
+    "key": "UGC ninja::Kingdom Clash x UGC Ninja"
   },
   {
     "id": "79af6cd6-c0d2-41b0-9fae-cab37792e1c6",
@@ -3622,7 +3285,7 @@ window.CAMPAIGNS_DATA = [
     "age": "7d",
     "formattedAge": "1 week ago",
     "fundedAt": "2026-07-31T20:01:15.614Z",
-    "sortTimestamp": 1786798826888,
+    "sortTimestamp": 1786801047640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] POST GERMAN RAPPER Samra VIDEOS",
@@ -3641,7 +3304,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "100",
+    "count": "101",
     "cpm": 1.25,
     "key": "Duetti::[EASY $$] POST GERMAN RAPPER Samra VIDEOS"
   },
@@ -3659,7 +3322,7 @@ window.CAMPAIGNS_DATA = [
     "age": "7d",
     "formattedAge": "1 week ago",
     "fundedAt": "2026-04-09T15:53:51.238Z",
-    "sortTimestamp": 1786798826887,
+    "sortTimestamp": 1786801047639,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Newly Creator (AI)",
@@ -3669,10 +3332,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Newly Creator (AI) | Official Whop Hub & Assets",
         "url": "https://whop.com/newly-03"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/10XEViWdSX6q-Kcg-sCkk2cQ3_Vxx8oOF?usp=sharing"
       }
     ],
     "platforms": [
@@ -3687,59 +3346,20 @@ window.CAMPAIGNS_DATA = [
     "key": "Newly::Newly Creator (AI)"
   },
   {
-    "id": "646bbffd-6d8c-4ba9-b75a-00f8519ea263",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "ugc-ninja-90",
-    "whop_route": "ugc-ninja-90",
-    "whopUrl": "https://whop.com/ugc-ninja-90",
-    "thumbnail": "https://cdn.contentrewards.com/user_2ufRN8Y2aMbuI/1786718664627.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28733413/image/bots/2026-08-09/5e041768-72a6-4211-908b-06a7a6399fd7.png",
-    "bannerImageUrl": "",
-    "creators": 43,
-    "agency": "UGC ninja",
-    "age": "7d",
-    "formattedAge": "1 week ago",
-    "fundedAt": "2026-08-14T04:07:45.187Z",
-    "sortTimestamp": 1786798826887,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "Kingdom Clash x UGC Ninja",
-    "description": "Create native short-form videos featuring Kingdom Clash gameplay. Use the provided concepts and assets, keep gameplay clearly visible, and follow the full campaign brief.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Kingdom Clash x UGC Ninja | Official Whop Hub & Assets",
-        "url": "https://whop.com/ugc-ninja-90"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://ugcninja.notion.site/Technical-specification-1-Kingdom-Clash-3ad91845215180518226db716ee168b0"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 0,
-    "total": 3000,
-    "count": "59",
-    "cpm": 1.5,
-    "key": "UGC ninja::Kingdom Clash x UGC Ninja"
-  },
-  {
     "id": "25b89913-715f-48e4-a6ab-dfb9a402fd14",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "official-jz-garcia-clipping",
     "whop_route": "official-jz-garcia-clipping",
     "whopUrl": "https://whop.com/official-jz-garcia-clipping",
     "thumbnail": "https://cdn.contentrewards.com/user_OfAZczoNCz7bH/1786744049691.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_7212632/image/bots/2026-03-25/009804c1-7c5f-4979-b0a6-342c16aef25b.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16190327/image/bots/2025-08-07/d30abd98-6446-4078-a4f1-e31388ce2b10",
     "bannerImageUrl": "",
-    "creators": 168,
+    "creators": 77,
     "agency": "Jz Garcia Clipping",
     "age": "7d",
     "formattedAge": "1 week ago",
-    "fundedAt": "2026-07-24T00:05:46.392Z",
-    "sortTimestamp": 1786798826886,
+    "fundedAt": "2026-07-17T19:03:49.477Z",
+    "sortTimestamp": 1786801047638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "jzgarcia's Clipping Campaign",
@@ -3761,46 +3381,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Jz Garcia Clipping::jzgarcia's Clipping Campaign"
   },
   {
-    "id": "a86079c8-1693-4c19-ad89-c0647cc67814",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "begeads",
-    "whop_route": "begeads",
-    "whopUrl": "https://whop.com/begeads",
-    "thumbnail": "https://cdn.contentrewards.com/user_eMFKGMQ9ETUYT/1786660598882.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15316423/image/bots/2026-08-18/6a8cd946-3d44-496f-8d59-887fbd00558e.webp",
-    "bannerImageUrl": "",
-    "creators": 55,
-    "agency": "Begeads",
-    "age": "7d",
-    "formattedAge": "1 week ago",
-    "fundedAt": "2026-08-19T18:37:09.582Z",
-    "sortTimestamp": 1786798826883,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget",
-    "description": "Meta-Klage is a litigation finance service helping people in Germany and Austria claim GDPR compensation from Meta, the parent company of Facebook and Instagram. Courts have confirmed that Meta's data collection practices violated European privacy law, making affected users legally entitled to damages. The process is fully handled by Meta-Klage and its legal partners, no upfront cost, no risk, and the person only pays if the claim succeeds.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget | Official Whop Hub & Assets",
-        "url": "https://whop.com/begeads"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1qVOndn6euLnXyBLeppY3n1KcPm6RU5oT0pxESsghu_k/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "instagram",
-      "facebook"
-    ],
-    "spent": 5,
-    "total": 7000,
-    "count": "6",
-    "cpm": 4,
-    "key": "Begeads::GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget"
-  },
-  {
     "id": "8968dadf-390b-492f-844c-7da9ac14d7b2",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clip-for-ascend-ai-01",
@@ -3814,7 +3394,7 @@ window.CAMPAIGNS_DATA = [
     "age": "7d",
     "formattedAge": "1 week ago",
     "fundedAt": "2026-06-10T19:20:46.632Z",
-    "sortTimestamp": 1786798826883,
+    "sortTimestamp": 1786801047636,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "Clip for Ascend AI",
@@ -3824,14 +3404,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip for Ascend AI | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-for-ascend-ai-01"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1xcJKAAQwMfp6vtKEFl58hzxdvuSIRc8k9Jeo3_P0UUc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1dnskzzgn7RjjwkeDDni9OcJnLfOzoRP6GTuQ1Thiuik/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -3854,12 +3426,78 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
+    "creators": 429,
+    "agency": "Artist Influence",
+    "age": "7d",
+    "formattedAge": "1 week ago",
+    "fundedAt": null,
+    "sortTimestamp": 1786801047635,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "LP Giobbi,vBruno Be & Carola - Do For Love | Summer/Poshtok/Luxury/Monaco/Mykonos/Miami/MCM/Coffeshop Edits",
+    "description": "Get paid per view to clip LP Giobbi,vBruno Be & Carola ’s - “Do For Love (feat. Clover County)” on TikTok. We're looking for Summer/ Poshtok/Luxury/ Monaco/ Mykonos/ Miami Beach/ MCM/ Coffeshop Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc Below",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 12,
+    "total": 1150,
+    "count": "429",
+    "cpm": 1,
+    "key": "Artist Influence::LP Giobbi,vBruno Be & Carola - Do For Love | Summer/Poshtok/Luxury/Monaco/Mykonos/Miami/MCM/Coffeshop Edits"
+  },
+  {
+    "id": "a86079c8-1693-4c19-ad89-c0647cc67814",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "begeads",
+    "whop_route": "begeads",
+    "whopUrl": "https://whop.com/begeads",
+    "thumbnail": "https://cdn.contentrewards.com/user_eMFKGMQ9ETUYT/1786660598882.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15316423/image/bots/2026-08-18/6a8cd946-3d44-496f-8d59-887fbd00558e.webp",
+    "bannerImageUrl": "",
+    "creators": 58,
+    "agency": "Begeads",
+    "age": "7d",
+    "formattedAge": "1 week ago",
+    "fundedAt": "2026-08-19T18:37:09.582Z",
+    "sortTimestamp": 1786801047635,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget",
+    "description": "Meta-Klage is a litigation finance service helping people in Germany and Austria claim GDPR compensation from Meta, the parent company of Facebook and Instagram. Courts have confirmed that Meta's data collection practices violated European privacy law, making affected users legally entitled to damages. The process is fully handled by Meta-Klage and its legal partners, no upfront cost, no risk, and the person only pays if the claim succeeds.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget | Official Whop Hub & Assets",
+        "url": "https://whop.com/begeads"
+      }
+    ],
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "spent": 5,
+    "total": 7000,
+    "count": "6",
+    "cpm": 4,
+    "key": "Begeads::GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
     "creators": 53,
     "agency": "P9 Clipping",
     "age": "7d",
     "formattedAge": "1 week ago",
     "fundedAt": null,
-    "sortTimestamp": 1786798826882,
+    "sortTimestamp": 1786801047634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Aljamain \"The Funk Master\" Sterling x Joe Rogan",
@@ -3877,50 +3515,20 @@ window.CAMPAIGNS_DATA = [
     "key": "P9 Clipping::Aljamain \"The Funk Master\" Sterling x Joe Rogan"
   },
   {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 429,
-    "agency": "Artist Influence",
-    "age": "7d",
-    "formattedAge": "1 week ago",
-    "fundedAt": null,
-    "sortTimestamp": 1786798826882,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "LP Giobbi,vBruno Be & Carola - Do For Love | Summer/Poshtok/Luxury/Monaco/Mykonos/Miami/MCM/Coffeshop Edits",
-    "description": "Get paid per view to clip LP Giobbi,vBruno Be & Carola ’s - “Do For Love (feat. Clover County)” on TikTok. We're looking for Summer/ Poshtok/Luxury/ Monaco/ Mykonos/ Miami Beach/ MCM/ Coffeshop Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc Below",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 12,
-    "total": 1150,
-    "count": "429",
-    "cpm": 1,
-    "key": "Artist Influence::LP Giobbi,vBruno Be & Carola - Do For Love | Summer/Poshtok/Luxury/Monaco/Mykonos/Miami/MCM/Coffeshop Edits"
-  },
-  {
     "id": "a246a7ad-1c48-4fcd-bdf9-ef0d426261b3",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "traxnyc",
     "whop_route": "traxnyc",
     "whopUrl": "https://whop.com/traxnyc",
     "thumbnail": "https://cdn.contentrewards.com/user_XJgC1R6o44mni/1786739697309.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28729320/image/bots/2026-06-18/cc9b078a-03ae-4a24-be4a-56455a8254c4.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 266,
+    "creators": 560,
     "agency": "TraxNYC",
     "age": "7d",
     "formattedAge": "1 week ago",
-    "fundedAt": "2026-08-14T00:13:40.753Z",
-    "sortTimestamp": 1786798826881,
+    "fundedAt": "2026-07-10T23:20:12.034Z",
+    "sortTimestamp": 1786801047633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "TraxNYC POWER 105.1 PODCAST",
@@ -3952,12 +3560,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_r5MVItlFIQRiM/1786761075234.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-11-05/d270c054-8b68-416a-a046-938249d3d42e.jpg",
     "bannerImageUrl": "",
-    "creators": 2001,
+    "creators": 2142,
     "agency": "Clipping Culture",
     "age": "7d",
     "formattedAge": "1 week ago",
     "fundedAt": "2026-08-21T23:04:33.792Z",
-    "sortTimestamp": 1786798826879,
+    "sortTimestamp": 1786801047630,
     "category": "Music",
     "contentType": "Clipping",
     "title": "BitLife Clipping Campaign",
@@ -3967,10 +3575,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BitLife Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1twOyD023VuH8e0Wyqg3KWtED_YTrtpj5H1_Osk64DCM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3978,7 +3582,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 4033,
+    "spent": 4038,
     "total": 14000,
     "count": "2K",
     "cpm": 2,
@@ -3998,7 +3602,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-04-29T08:18:57.640Z",
-    "sortTimestamp": 1786712426890,
+    "sortTimestamp": 1786714647642,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Ready Made UGC Podcast Clips",
@@ -4008,10 +3612,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ready Made UGC Podcast Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingagency"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1o0bf8N0BQFepLKTK8FXUZcMI9etL6M5r6dJlTiJPO1U/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4019,7 +3619,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 988,
+    "spent": 989,
     "total": 1000,
     "count": "214",
     "cpm": 1,
@@ -4039,7 +3639,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-04-24T11:57:57.229Z",
-    "sortTimestamp": 1786712426887,
+    "sortTimestamp": 1786714647640,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Sprout App Promotion",
@@ -4049,10 +3649,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sprout App Promotion | Official Whop Hub & Assets",
         "url": "https://whop.com/sprout-4c"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1L841jzrIPbVJoJNHQ-kMdDHEqHLgs8NC"
       }
     ],
     "platforms": [
@@ -4073,14 +3669,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "oz-ali-clipping",
     "whopUrl": "https://whop.com/oz-ali-clipping",
     "thumbnail": "https://cdn.contentrewards.com/user_Paf9VHpJ9TBqU/1786645529173.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-08-21/0ed33cad-5a0d-4940-b28d-ea952bad27c2/image.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17869454/image/bots/2025-10-01/a011101f-62d6-4329-bafb-1c87cc0aaa62.png",
     "bannerImageUrl": "",
-    "creators": 16,
+    "creators": 96,
     "agency": "Oz Ali Clipping",
     "age": "8d",
     "formattedAge": "8 days ago",
-    "fundedAt": "2026-08-21T12:17:49.995Z",
-    "sortTimestamp": 1786712426885,
+    "fundedAt": "2026-02-18T19:52:05.928Z",
+    "sortTimestamp": 1786714647637,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "OAC",
@@ -4117,7 +3713,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-08-11T16:42:03.524Z",
-    "sortTimestamp": 1786712426882,
+    "sortTimestamp": 1786714647634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Nate Herk | Clipping Campaign",
@@ -4127,14 +3723,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nate Herk | Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1HpT_3AxuhhaCr3jeEaYeemGFm6V8WV4fOlFerKTkjzA/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1qbUiQBYmXMgIFSQ43zgAvg7XPHLGbgqN"
       }
     ],
     "platforms": [
@@ -4142,7 +3730,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 127,
+    "spent": 128,
     "total": 1500,
     "count": "222",
     "cpm": 1.5,
@@ -4162,7 +3750,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-08-14T20:35:07.657Z",
-    "sortTimestamp": 1786712426881,
+    "sortTimestamp": 1786714647633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Doug Elk’s X Oceans [Official Campaign]",
@@ -4172,16 +3760,12 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Doug Elk’s X Oceans [Official Campaign] | Official Whop Hub & Assets",
         "url": "https://whop.com/atlis-ee"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Sp1MYzVQqBXFOLyxRJkYb_fU_Ru7APyOMJYUOYAsAoM/edit?usp=sharing"
       }
     ],
     "platforms": [
       "x"
     ],
-    "spent": 683,
+    "spent": 685,
     "total": 1000,
     "count": "264",
     "cpm": 1,
@@ -4194,14 +3778,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "plox-media-7a",
     "whopUrl": "https://whop.com/plox-media-7a",
     "thumbnail": "https://cdn.contentrewards.com/user_jJMihYcFg8C67/1786666353444.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
     "bannerImageUrl": "",
-    "creators": 558,
+    "creators": 418,
     "agency": "Plox Media",
     "age": "8d",
     "formattedAge": "8 days ago",
-    "fundedAt": "2026-07-10T23:20:12.034Z",
-    "sortTimestamp": 1786712426881,
+    "fundedAt": "2026-07-13T02:54:30.103Z",
+    "sortTimestamp": 1786714647633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Earn $1 per 1,000 Views Clipping Fexr",
@@ -4211,10 +3795,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Earn $1 per 1,000 Views Clipping Fexr | Official Whop Hub & Assets",
         "url": "https://whop.com/plox-media-7a"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1kr3aFNQBvWL7DxH-itsVX5L1HqknYICRyawEAQDLKgQ/edit?tab=t.0#heading=h.lm08kfs0211s"
       }
     ],
     "platforms": [
@@ -4242,7 +3822,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-08-17T14:33:12.547Z",
-    "sortTimestamp": 1786712426881,
+    "sortTimestamp": 1786714647633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "reegar - nachts wach | MUSIC CAMPAIGN",
@@ -4252,10 +3832,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "reegar - nachts wach | MUSIC CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphub-clipping-10"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1MFs8le0hfbe_Tj5XgoRZUtKUomlWQnc3pYnbEmSiYnY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4281,7 +3857,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-06-16T18:12:11.582Z",
-    "sortTimestamp": 1786712426881,
+    "sortTimestamp": 1786714647633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Fay $2,000 Europe Tour Clipping Campaign",
@@ -4318,7 +3894,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-07-23T18:56:43.129Z",
-    "sortTimestamp": 1786712426881,
+    "sortTimestamp": 1786714647633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Chicken Wrap ENT Clipping| $4k Budget",
@@ -4328,22 +3904,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Chicken Wrap ENT Clipping| $4k Budget | Official Whop Hub & Assets",
         "url": "https://whop.com/motionclipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1AzbW-C0RWA69TlHBarUojYlWLwHRAWi-2rhFh2djx9I/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/j1z4hu2hfdl6fyce70kcd/AKDrN2izSWXy8QJHYBNdHzs?rlkey=xvvxb4ojkc0fli85ljcp2zfdn"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1wMCj2xOOgRQcBOjk1hkcmQs1aDZlx0Yl"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/j1z4hu2hfdl6fyce70kcd/AKDrN2izSWXy8QJHYBNdHzs?rlkey=xvvxb4ojkc0fli85ljcp2zfdn&amp;st=3v655c81&amp;dl=0"
       }
     ],
     "platforms": [
@@ -4371,7 +3931,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8d",
     "formattedAge": "8 days ago",
     "fundedAt": "2026-08-04T16:11:57.273Z",
-    "sortTimestamp": 1786712426879,
+    "sortTimestamp": 1786714647631,
     "category": "Product",
     "contentType": "Clipping",
     "title": "BOXED Clipping",
@@ -4381,18 +3941,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BOXED Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1YqIFkj_bDhsd3Vj-tmyqD1El7-JWd98x1OCovlK0euA/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/30qkc8of7zlx1145pwu1x/AFJ2VcXLna-V96j_dk745mM?rlkey=oum7k7fdtvka05502chm7lyrg"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/30qkc8of7zlx1145pwu1x/AFJ2VcXLna-V96j_dk745mM?rlkey=oum7k7fdtvka05502chm7lyrg&amp;st=9giezj09&amp;dl=0"
       }
     ],
     "platforms": [
@@ -4400,27 +3948,27 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 251,
+    "spent": 252,
     "total": 20833,
-    "count": "630",
+    "count": "631",
     "cpm": 1,
     "key": "Clip Farm::BOXED Clipping"
   },
   {
     "id": "bbeb32a9-33a3-44b5-8eb4-87c38deadc0c",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "inout-games-clipping",
-    "whop_route": "inout-games-clipping",
-    "whopUrl": "https://whop.com/inout-games-clipping",
+    "whopProductRoute": "clpr-media",
+    "whop_route": "clpr-media",
+    "whopUrl": "https://whop.com/clpr-media",
     "thumbnail": "https://cdn.contentrewards.com/user_PcBsd87dJsHxp/1786572137519.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33294653/image/bots/2026-08-06/d753fce1-6e77-47eb-8d03-c72b6be67cad.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9022763/image/bots/2026-07-31/64a688e1-10d7-4c93-91bf-1d1e56cb118a.jpg",
     "bannerImageUrl": "",
-    "creators": 8,
+    "creators": 16,
     "agency": "Clipbait",
     "age": "9d",
     "formattedAge": "9 days ago",
-    "fundedAt": "2026-08-07T19:04:52.669Z",
-    "sortTimestamp": 1786626026888,
+    "fundedAt": "2026-07-31T19:59:26.709Z",
+    "sortTimestamp": 1786628247640,
     "category": "Product",
     "contentType": "Clipping",
     "title": "United Independents Clipping | $1000 Budget | $1.50 CPM",
@@ -4429,11 +3977,7 @@ window.CAMPAIGNS_DATA = [
     "resources": [
       {
         "name": "United Independents Clipping | $1000 Budget | $1.50 CPM | Official Whop Hub & Assets",
-        "url": "https://whop.com/inout-games-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1FbyYmWHe6MgH4ARm09t3oTCJqFmxRViyMKyYo3Uh6ck/edit?usp=sharing"
+        "url": "https://whop.com/clpr-media"
       }
     ],
     "platforms": [
@@ -4443,50 +3987,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "8",
+    "count": "16",
     "cpm": 1.5,
     "key": "Clipbait::United Independents Clipping | $1000 Budget | $1.50 CPM"
-  },
-  {
-    "id": "0f203d1b-90dd-4e44-8513-39be613de033",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "theclippingproject",
-    "whop_route": "theclippingproject",
-    "whopUrl": "https://whop.com/theclippingproject",
-    "thumbnail": "https://cdn.contentrewards.com/user_BcDcWh7cfvwP7/1786599127719.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34094954/image/bots/2026-08-13/492823d4-d5c5-4c4f-a3a5-8689318e7a95.jpeg",
-    "bannerImageUrl": "",
-    "creators": 53,
-    "agency": "Kyro Clips",
-    "age": "9d",
-    "formattedAge": "9 days ago",
-    "fundedAt": "2026-08-14T20:09:35.567Z",
-    "sortTimestamp": 1786626026882,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Janine Berdin Clipping Campaign",
-    "description": "Post clips using the Janine Berdin live performance assets and earn $1.5 per 1k views",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Janine Berdin Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/theclippingproject"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1eRbomYzGYJqscRn3lH-BU8__nv4Wt-8HMqEnKhJxGKw/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 109,
-    "total": 1000,
-    "count": "476",
-    "cpm": 1.5,
-    "key": "Kyro Clips::Janine Berdin Clipping Campaign"
   },
   {
     "id": "",
@@ -4502,7 +4005,7 @@ window.CAMPAIGNS_DATA = [
     "age": "9d",
     "formattedAge": "9 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786626026881,
+    "sortTimestamp": 1786628247634,
     "category": "Technology",
     "contentType": "UGC",
     "title": "PAUV - PREDICTION MARKET TIER LIST - FACE + FACELESS UGC",
@@ -4521,20 +4024,57 @@ window.CAMPAIGNS_DATA = [
     "key": "ClipHaus::PAUV - PREDICTION MARKET TIER LIST - FACE + FACELESS UGC"
   },
   {
+    "id": "0f203d1b-90dd-4e44-8513-39be613de033",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "theclippingproject",
+    "whop_route": "theclippingproject",
+    "whopUrl": "https://whop.com/theclippingproject",
+    "thumbnail": "https://cdn.contentrewards.com/user_BcDcWh7cfvwP7/1786599127719.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_7185066/image/bots/2026-06-09/f8ca4548-8f29-4d7f-aa17-b3bc6382012f.jpg",
+    "bannerImageUrl": "",
+    "creators": 102,
+    "agency": "Kyro Clips",
+    "age": "9d",
+    "formattedAge": "9 days ago",
+    "fundedAt": "2026-07-31T14:51:19.682Z",
+    "sortTimestamp": 1786628247634,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Janine Berdin Clipping Campaign",
+    "description": "Post clips using the Janine Berdin live performance assets and earn $1.5 per 1k views",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Janine Berdin Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/theclippingproject"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 109,
+    "total": 1000,
+    "count": "476",
+    "cpm": 1.5,
+    "key": "Kyro Clips::Janine Berdin Clipping Campaign"
+  },
+  {
     "id": "5abb9c64-9c8e-4949-8d48-1c67d80ef12d",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "cliphaus-19",
     "whop_route": "cliphaus-19",
     "whopUrl": "https://whop.com/cliphaus-19",
     "thumbnail": "https://cdn.contentrewards.com/user_wOFeY8bGwWgZy/1786550644372.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-07-16/user_9023487_1859a6e5-f1f4-4ed8-96d1-47b2c630314e.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "",
-    "creators": 908,
+    "creators": 236,
     "agency": "ClipHaus",
     "age": "9d",
     "formattedAge": "9 days ago",
-    "fundedAt": "2026-08-17T21:33:18.434Z",
-    "sortTimestamp": 1786626026880,
+    "fundedAt": "2026-08-21T16:15:28.672Z",
+    "sortTimestamp": 1786628247632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "TYLA - A*Pop",
@@ -4553,7 +4093,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 914,
     "total": 3000,
-    "count": "358",
+    "count": "359",
     "cpm": 0.5,
     "key": "ClipHaus::TYLA - A*Pop"
   },
@@ -4566,12 +4106,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_wOFeY8bGwWgZy/1786389594115.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31751635/image/bots/2026-08-05/3d765824-a96b-4901-8ff2-e784d2498131.PNG",
     "bannerImageUrl": "",
-    "creators": 265,
+    "creators": 268,
     "agency": "ClipHaus",
     "age": "9d",
     "formattedAge": "9 days ago",
     "fundedAt": "2026-08-06T13:16:40.363Z",
-    "sortTimestamp": 1786626026880,
+    "sortTimestamp": 1786628247632,
     "category": "Technology",
     "contentType": "UGC",
     "title": "PAUV - PREDICTION MARKET UGC",
@@ -4601,14 +4141,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "join-cliplaunch",
     "whopUrl": "https://whop.com/join-cliplaunch",
     "thumbnail": "https://cdn.contentrewards.com/user_h5izyBq4Spnmw/1786480151634.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 906,
+    "creators": 108,
     "agency": "ClipLaunch",
     "age": "9d",
     "formattedAge": "9 days ago",
-    "fundedAt": "2026-06-06T20:37:41.904Z",
-    "sortTimestamp": 1786626026880,
+    "fundedAt": "2026-08-07T21:49:15.221Z",
+    "sortTimestamp": 1786628247632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Exposing Google Ads Clipping",
@@ -4618,14 +4158,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Exposing Google Ads Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1FxdL9HWPKp2fvOanLE3RQ3JdX3JO8QjK/edit"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/spreadsheets/d/1X09Qzlliaeg9MoP5aPrYIpFA1tW67U61uifem7S83Zw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4633,7 +4165,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 149,
+    "spent": 151,
     "total": 5000,
     "count": "173",
     "cpm": 3,
@@ -4653,7 +4185,7 @@ window.CAMPAIGNS_DATA = [
     "age": "9d",
     "formattedAge": "9 days ago",
     "fundedAt": "2026-08-19T09:21:20.639Z",
-    "sortTimestamp": 1786626026880,
+    "sortTimestamp": 1786628247632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "FUTURE - The Real Me",
@@ -4690,7 +4222,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-05-22T05:03:20.928Z",
-    "sortTimestamp": 1786539626888,
+    "sortTimestamp": 1786541847640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Jay Dyer Clips",
@@ -4727,7 +4259,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-07-16T04:01:26.391Z",
-    "sortTimestamp": 1786539626884,
+    "sortTimestamp": 1786541847636,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "TikAlyzer Clipping",
@@ -4764,7 +4296,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786539626884,
+    "sortTimestamp": 1786541847636,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Create Roblox App Content, Make Videos & Get Paid — Super Easy!",
@@ -4783,55 +4315,6 @@ window.CAMPAIGNS_DATA = [
     "key": "test::Create Roblox App Content, Make Videos & Get Paid — Super Easy!"
   },
   {
-    "id": "ee46d67b-d0da-455f-aeb6-e905844d6636",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "top-drawer-distribution",
-    "whop_route": "top-drawer-distribution",
-    "whopUrl": "https://whop.com/top-drawer-distribution",
-    "thumbnail": "https://cdn.contentrewards.com/user_ukZXcsUULjtd0/1786453862475.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-03-07/f0bd1a24-8f31-4341-8e11-708029ceda5c/image.png",
-    "bannerImageUrl": "",
-    "creators": 330,
-    "agency": "creatorXchange Clipper Marketplace",
-    "age": "10d",
-    "formattedAge": "10 days ago",
-    "fundedAt": "2026-07-16T20:15:15.888Z",
-    "sortTimestamp": 1786539626883,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "eBay Live Clipping",
-    "description": "You're clipping live sports card breaks for eBay Live sellers. The raw footage is people opening cards and reacting. Your job is to turn those moments into short, exciting clips that make people stop scrolling.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "eBay Live Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/top-drawer-distribution"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/bfyj10dp1j3vgs3b7de0y/ANi14szCv71foemwQeUTc6M?rlkey=tz3o6iqajvs5470y5l901w5i0"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1d5XIs5_3RodBtsa6BFhaFqfQmPOMTYVhMgaU1Y95YK4/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/bfyj10dp1j3vgs3b7de0y/ANi14szCv71foemwQeUTc6M?rlkey=tz3o6iqajvs5470y5l901w5i0&amp;st=2btttflj&amp;dl=0"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 44,
-    "total": 5000,
-    "count": "9",
-    "cpm": 2,
-    "key": "creatorXchange Clipper Marketplace::eBay Live Clipping"
-  },
-  {
     "id": "51975939-d7ec-4481-b91b-657d0a9126a8",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "traxnyc",
@@ -4845,7 +4328,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-07-29T22:01:54.728Z",
-    "sortTimestamp": 1786539626882,
+    "sortTimestamp": 1786541847634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "CLIP TRAXNYC MEETINGS",
@@ -4855,14 +4338,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CLIP TRAXNYC MEETINGS | Official Whop Hub & Assets",
         "url": "https://whop.com/traxnyc"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/syuma6auu1qf2cs7yx0kj/APr4SaR5vvJ09u25g3v8O-Y?rlkey=lzo6ta8ky443vca2zx6mdfdcb"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/syuma6auu1qf2cs7yx0kj/APr4SaR5vvJ09u25g3v8O-Y?rlkey=lzo6ta8ky443vca2zx6mdfdcb&amp;st=bhc60eq8&amp;dl=0"
       }
     ],
     "platforms": [
@@ -4870,7 +4345,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 773,
+    "spent": 774,
     "total": 1000,
     "count": "211",
     "cpm": 1,
@@ -4883,14 +4358,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "world-rank-creators",
     "whopUrl": "https://whop.com/world-rank-creators",
     "thumbnail": "https://cdn.contentrewards.com/user_C8qIagdbxAI7G/1786364098067.PNG",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20747020/image/ai_prompts/2026-07-05/4d78d3e8-dcaf-41fa-b7fc-de95c6714670.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1055661/image/access_passes/2025-05-20/48a0f91b-6750-4c55-9a2a-d164bd2b060d",
     "bannerImageUrl": "",
-    "creators": 110,
+    "creators": 33,
     "agency": "World Rank",
     "age": "10d",
     "formattedAge": "10 days ago",
-    "fundedAt": "2026-08-18T03:06:40.517Z",
-    "sortTimestamp": 1786539626882,
+    "fundedAt": "2026-08-18T17:55:53.878Z",
+    "sortTimestamp": 1786541847634,
     "category": "Technology",
     "contentType": "UGC",
     "title": "WorldRank - Find your number",
@@ -4926,7 +4401,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-07-21T18:09:03.315Z",
-    "sortTimestamp": 1786539626882,
+    "sortTimestamp": 1786541847634,
     "category": "Technology",
     "contentType": "UGC",
     "title": "crushon.ai Creator Campaign",
@@ -4940,10 +4415,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "crushon.ai Creator Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-campaign-hub"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1hbb2Hgnd_tDoOvl_lIDwd_4wqZoyZwHsmiowh85BjWU/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -4953,7 +4424,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 124,
     "total": 1000,
-    "count": "138",
+    "count": "139",
     "cpm": 1.5,
     "key": "crushon.ai::crushon.ai Creator Campaign"
   },
@@ -4971,7 +4442,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-08-11T01:33:09.008Z",
-    "sortTimestamp": 1786539626881,
+    "sortTimestamp": 1786541847633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "CLIP ANY CALL IT A DAY OR CHLOE EXPLAINS EPISODE",
@@ -5007,55 +4478,6 @@ window.CAMPAIGNS_DATA = [
     "key": "deFaria Clipping Rewards::CLIP ANY CALL IT A DAY OR CHLOE EXPLAINS EPISODE"
   },
   {
-    "id": "02041ec2-5fd9-4405-b0b4-0e2ff9092733",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "top-drawer-distribution",
-    "whop_route": "top-drawer-distribution",
-    "whopUrl": "https://whop.com/top-drawer-distribution",
-    "thumbnail": "https://cdn.contentrewards.com/user_ukZXcsUULjtd0/1786454065592.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
-    "bannerImageUrl": "",
-    "creators": 1135,
-    "agency": "creatorXchange Clipper Marketplace",
-    "age": "10d",
-    "formattedAge": "10 days ago",
-    "fundedAt": "2026-07-17T16:17:34.751Z",
-    "sortTimestamp": 1786539626881,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "Fanatics Live Clipping",
-    "description": "You're clipping live sports card breaks from Fanatics Live. The raw footage is people opening cards and reacting. Your job is to turn those moments into short, exciting clips that make people stop scrolling.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Fanatics Live Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/top-drawer-distribution"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/ejyyp5nz6sun6gtj1vkdr/ADgWTAN4bWtS2UoaTp7YYbo?rlkey=hqv84k3p7i7h5d6oegtn6hdl0"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1UXYK7gU4e3EQD1t_0rG86-FvYq5hsrjOyC08ojBOYjc/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/ejyyp5nz6sun6gtj1vkdr/ADgWTAN4bWtS2UoaTp7YYbo?rlkey=hqv84k3p7i7h5d6oegtn6hdl0&amp;st=vrbkwhaj&amp;dl=0"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 234,
-    "total": 5000,
-    "count": "23",
-    "cpm": 2,
-    "key": "creatorXchange Clipper Marketplace::Fanatics Live Clipping"
-  },
-  {
     "id": "09717042-44e2-4e23-bfe0-b0b0b4552e1b",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "logan-clips-56",
@@ -5064,12 +4486,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_v8lgTP2lF5jiB/1785790298516.jpeg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 264,
+    "creators": 265,
     "agency": "Logan Clips",
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-08-11T17:56:41.270Z",
-    "sortTimestamp": 1786539626880,
+    "sortTimestamp": 1786541847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Logan Ideker Kick Campaign",
@@ -5079,18 +4501,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Logan Ideker Kick Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/logan-clips-56"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1HQPyPw6DbXZa78g829Wd5MjtJ9sy0oXL"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1DyYvGkOhAQ1DSZm-OlokZ1tdrlNG-Wfm?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1FgAYr4O34YP614RON7-plnx_KxBM54ENVmvXAb7z3As/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5100,7 +4510,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 652,
     "total": 5000,
-    "count": "327",
+    "count": "329",
     "cpm": 2,
     "key": "Logan Clips::Logan Ideker Kick Campaign"
   },
@@ -5118,7 +4528,7 @@ window.CAMPAIGNS_DATA = [
     "age": "10d",
     "formattedAge": "10 days ago",
     "fundedAt": "2026-08-07T11:05:17.327Z",
-    "sortTimestamp": 1786539626880,
+    "sortTimestamp": 1786541847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "BuzzBallz Ibiza Clipping",
@@ -5128,14 +4538,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BuzzBallz Ibiza Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1J5lqpbxf1W6kJvY7I_PQ7P6y95dGG6uFHsw5-8he71E/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1rJ9iD5n7FW0Sj6-yewnpXUy3Eo-EgrKm?usp=sharing"
       }
     ],
     "platforms": [
@@ -5145,7 +4547,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 110,
     "total": 7500,
-    "count": "264",
+    "count": "265",
     "cpm": 1.5,
     "key": "Clip Farm::BuzzBallz Ibiza Clipping"
   },
@@ -5163,7 +4565,7 @@ window.CAMPAIGNS_DATA = [
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": "2026-04-17T21:37:25.096Z",
-    "sortTimestamp": 1786453226888,
+    "sortTimestamp": 1786455447640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Use RestoreThisPhoto on Your Own Old Photo — $2/1K",
@@ -5187,6 +4589,43 @@ window.CAMPAIGNS_DATA = [
     "key": "RestoreThisPhoto::Use RestoreThisPhoto on Your Own Old Photo — $2/1K"
   },
   {
+    "id": "ee46d67b-d0da-455f-aeb6-e905844d6636",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "top-drawer-distribution",
+    "whop_route": "top-drawer-distribution",
+    "whopUrl": "https://whop.com/top-drawer-distribution",
+    "thumbnail": "https://cdn.contentrewards.com/user_ukZXcsUULjtd0/1786453862475.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34894472/image/ai_prompts/2026-08-21/8e8e2e4e-69aa-4f06-bb8f-15b55840565d.png",
+    "bannerImageUrl": "",
+    "creators": 4,
+    "agency": "creatorXchange Clipper Marketplace",
+    "age": "11d",
+    "formattedAge": "11 days ago",
+    "fundedAt": "2026-08-21T20:23:37.489Z",
+    "sortTimestamp": 1786455447635,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "eBay Live Clipping",
+    "description": "You're clipping live sports card breaks for eBay Live sellers. The raw footage is people opening cards and reacting. Your job is to turn those moments into short, exciting clips that make people stop scrolling.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "eBay Live Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/top-drawer-distribution"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 44,
+    "total": 5000,
+    "count": "9",
+    "cpm": 2,
+    "key": "creatorXchange Clipper Marketplace::eBay Live Clipping"
+  },
+  {
     "id": "f05e2d00-db2c-4ecd-b93d-b37272d53b98",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "saweb-clipping",
@@ -5200,7 +4639,7 @@ window.CAMPAIGNS_DATA = [
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": "2026-08-03T23:54:10.703Z",
-    "sortTimestamp": 1786453226883,
+    "sortTimestamp": 1786455447635,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Saweb Clipping 2.0",
@@ -5210,10 +4649,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Saweb Clipping 2.0 | Official Whop Hub & Assets",
         "url": "https://whop.com/saweb-clipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/18Qqxvn3n1UQAqzvh-LBZnCBA4cE1ZQiz?usp=sharing"
       }
     ],
     "platforms": [
@@ -5226,6 +4661,41 @@ window.CAMPAIGNS_DATA = [
     "count": "74",
     "cpm": 1.5,
     "key": "Saweb Clipping::Saweb Clipping 2.0"
+  },
+  {
+    "id": "df51d463-34c1-4990-aef0-913398b1c65c",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "musicugc",
+    "whop_route": "musicugc",
+    "whopUrl": "https://whop.com/musicugc",
+    "thumbnail": "https://cdn.contentrewards.com/user_HoeYM2sZYD6n8/1786418876832.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
+    "bannerImageUrl": "",
+    "creators": 19,
+    "agency": "Clipping Angel - Music Clipping & UGC",
+    "age": "11d",
+    "formattedAge": "11 days ago",
+    "fundedAt": "2026-08-12T16:05:03.507Z",
+    "sortTimestamp": 1786455447634,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "SapphireUnique - Juliette (Song Promo clipping) Tiktok",
+    "description": "Promote the song \"Juliette\" & get paid!",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "SapphireUnique - Juliette (Song Promo clipping) Tiktok | Official Whop Hub & Assets",
+        "url": "https://whop.com/musicugc"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 519,
+    "total": 1000,
+    "count": "126",
+    "cpm": 0.5,
+    "key": "Clipping Angel - Music Clipping & UGC::SapphireUnique - Juliette (Song Promo clipping) Tiktok"
   },
   {
     "id": "87475c25-6794-416c-94ce-f13d20cf2c4e",
@@ -5241,7 +4711,7 @@ window.CAMPAIGNS_DATA = [
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": "2026-08-07T09:31:50.148Z",
-    "sortTimestamp": 1786453226882,
+    "sortTimestamp": 1786455447634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Picklebet Canada - Logo Campaign",
@@ -5251,18 +4721,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Picklebet Canada - Logo Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/picklebet-e4"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ecgVWQ0_IeQwhTBW4TpyaS5BtUezC_nK/edit?usp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1yx5UZSwKH8_piijKr-uu-VzeQKyxTkjd?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ecgVWQ0_IeQwhTBW4TpyaS5BtUezC_nK/edit?usp=drive_link&amp;ouid=115764774192026730459&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -5290,7 +4748,7 @@ window.CAMPAIGNS_DATA = [
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786453226881,
+    "sortTimestamp": 1786455447633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "$100 BONUS | SARAH LOLA - YOU’RE ALL I NEED CLIPPING CAMPAIGN",
@@ -5300,11 +4758,48 @@ window.CAMPAIGNS_DATA = [
     "platforms": [
       "tiktok"
     ],
-    "spent": 663,
+    "spent": 664,
     "total": 1250,
     "count": "128",
     "cpm": 1.5,
     "key": "Eclips Network::$100 BONUS | SARAH LOLA - YOU’RE ALL I NEED CLIPPING CAMPAIGN"
+  },
+  {
+    "id": "02041ec2-5fd9-4405-b0b4-0e2ff9092733",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "top-drawer-distribution",
+    "whop_route": "top-drawer-distribution",
+    "whopUrl": "https://whop.com/top-drawer-distribution",
+    "thumbnail": "https://cdn.contentrewards.com/user_ukZXcsUULjtd0/1786454065592.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "bannerImageUrl": "",
+    "creators": 1226,
+    "agency": "creatorXchange Clipper Marketplace",
+    "age": "11d",
+    "formattedAge": "11 days ago",
+    "fundedAt": "2026-05-26T16:13:23.309Z",
+    "sortTimestamp": 1786455447633,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "Fanatics Live Clipping",
+    "description": "You're clipping live sports card breaks from Fanatics Live. The raw footage is people opening cards and reacting. Your job is to turn those moments into short, exciting clips that make people stop scrolling.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Fanatics Live Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/top-drawer-distribution"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 234,
+    "total": 5000,
+    "count": "24",
+    "cpm": 2,
+    "key": "creatorXchange Clipper Marketplace::Fanatics Live Clipping"
   },
   {
     "id": "e651db03-3395-4562-ab83-4a74a391370f",
@@ -5320,7 +4815,7 @@ window.CAMPAIGNS_DATA = [
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": "2026-08-13T16:43:27.340Z",
-    "sortTimestamp": 1786453226881,
+    "sortTimestamp": 1786455447633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "John Malek Clipping",
@@ -5330,26 +4825,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "John Malek Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1dxOYfhHQHY0ixm72hH3Ax2NfcwNqplSSPSu_gqADLyE/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1igqfZMD1Is0NCmEupQpfMT7Ot70r5Zq0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1Ge4J7nSiacHZSjK-rekn_rsSnTvGBB4A?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1HSBHLGQd9qpFigWzumlWBbK_7TznEekX?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1WKKymTRZazq-jLCuY3hy-lnCPg2MZyWc?usp=sharing"
       }
     ],
     "platforms": [
@@ -5358,44 +4833,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 27,
     "total": 12000,
-    "count": "421",
+    "count": "423",
     "cpm": 1.5,
     "key": "Clip Farm::John Malek Clipping"
-  },
-  {
-    "id": "df51d463-34c1-4990-aef0-913398b1c65c",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "musicugc",
-    "whop_route": "musicugc",
-    "whopUrl": "https://whop.com/musicugc",
-    "thumbnail": "https://cdn.contentrewards.com/user_HoeYM2sZYD6n8/1786418876832.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
-    "bannerImageUrl": "",
-    "creators": 19,
-    "agency": "Clipping Angel - Music Clipping & UGC",
-    "age": "11d",
-    "formattedAge": "11 days ago",
-    "fundedAt": "2026-08-12T16:05:03.507Z",
-    "sortTimestamp": 1786453226881,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "SapphireUnique - Juliette (Song Promo clipping) Tiktok",
-    "description": "Promote the song \"Juliette\" & get paid!",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "SapphireUnique - Juliette (Song Promo clipping) Tiktok | Official Whop Hub & Assets",
-        "url": "https://whop.com/musicugc"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 518,
-    "total": 1000,
-    "count": "126",
-    "cpm": 0.5,
-    "key": "Clipping Angel - Music Clipping & UGC::SapphireUnique - Juliette (Song Promo clipping) Tiktok"
   },
   {
     "id": "940535ec-d190-446c-b2d8-392313477b9a",
@@ -5406,12 +4846,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1786411750235.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 358,
+    "creators": 359,
     "agency": "Clip Farm",
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": "2026-08-12T16:12:07.614Z",
-    "sortTimestamp": 1786453226880,
+    "sortTimestamp": 1786455447632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "ATC App Clipping",
@@ -5421,14 +4861,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ATC App Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1oax2Kf3e4bCpSqSDiCNh3K9NrI7TtiCKvWGJc-FcMUY/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/12gGZ0sysAUjiNg3Zd84EhefN1B-suJbF0BKqn2n7klo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5451,12 +4883,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1786378696736.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "",
-    "creators": 970,
+    "creators": 978,
     "agency": "Clip Farm",
     "age": "11d",
     "formattedAge": "11 days ago",
     "fundedAt": "2026-08-18T17:25:37.042Z",
-    "sortTimestamp": 1786453226879,
+    "sortTimestamp": 1786455447631,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Jesser x ClipFarm",
@@ -5466,10 +4898,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jesser x ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10Jd6LcNb2fWxnh1MGLMGdazZiENfK8GsK08WxlyfvWs/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5483,51 +4911,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Clip Farm::Jesser x ClipFarm"
   },
   {
-    "id": "e64e55b5-6cbb-4043-bfdf-bc48c38a00f0",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "theclippingproject",
-    "whop_route": "theclippingproject",
-    "whopUrl": "https://whop.com/theclippingproject",
-    "thumbnail": "https://cdn.contentrewards.com/user_BcDcWh7cfvwP7/1786325400227.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12957084/image/bots/2025-11-30/55538e20-5fee-4d9c-9a25-e78437aea4af.png",
-    "bannerImageUrl": "",
-    "creators": 144,
-    "agency": "Kyro Clips",
-    "age": "12d",
-    "formattedAge": "12 days ago",
-    "fundedAt": "2026-05-02T21:10:11.377Z",
-    "sortTimestamp": 1786366826889,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Coyote vs Acme Clipping Campaign",
-    "description": "Post clips and edits from the new movie Coyote vs. Acme to earn $1.25 per 1k views.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Coyote vs Acme Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/theclippingproject"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15N81FDdqk5VhgQSskprvy6E7BQyH7VPGnYqy6DqHamU/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1Do22sLYn8-bSaJvuiDSzdIDfz3on_6F0?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 3687,
-    "total": 3750,
-    "count": "642",
-    "cpm": 1.25,
-    "key": "Kyro Clips::Coyote vs Acme Clipping Campaign"
-  },
-  {
     "id": "935eee34-1fb8-4525-a7c1-7596cd2a6d19",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "ugc-ninja-90",
@@ -5536,12 +4919,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_2ufRN8Y2aMbuI/1787049822286.jpeg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 69,
+    "creators": 87,
     "agency": "UGC ninja",
     "age": "12d",
     "formattedAge": "12 days ago",
-    "fundedAt": "2026-08-05T00:53:26.791Z",
-    "sortTimestamp": 1786366826885,
+    "fundedAt": "2026-06-12T19:02:13.544Z",
+    "sortTimestamp": 1786369047638,
     "category": "Technology",
     "contentType": "UGC",
     "title": "OneState x UGC Ninja",
@@ -5579,7 +4962,7 @@ window.CAMPAIGNS_DATA = [
     "age": "12d",
     "formattedAge": "12 days ago",
     "fundedAt": "2026-07-28T20:32:40.455Z",
-    "sortTimestamp": 1786366826882,
+    "sortTimestamp": 1786369047635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "[VIRAL] Nook Nooks Clipping",
@@ -5589,14 +4972,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "[VIRAL] Nook Nooks Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1YerPsaRYuWAv8JxqxghbqpcmtPCIQpitd4Z-PElydJI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1d2K4LpBvWSxuLLjSqNBokE7fhmY8fZFJ?usp=sharing"
       }
     ],
     "platforms": [
@@ -5617,14 +4992,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "syndicate-creators",
     "whopUrl": "https://whop.com/syndicate-creators",
     "thumbnail": "https://cdn.contentrewards.com/user_9qgPz0YY8Pr5Z/1786216918822.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6089921/image/bots/2026-05-12/ca80a41f-48a7-434c-a51d-1f7b6cb5e621.png",
     "bannerImageUrl": "",
-    "creators": 2863,
+    "creators": 10685,
     "agency": "Syndicate",
     "age": "12d",
     "formattedAge": "12 days ago",
-    "fundedAt": "2026-07-11T08:21:41.358Z",
-    "sortTimestamp": 1786366826882,
+    "fundedAt": "2026-05-06T18:28:44.924Z",
+    "sortTimestamp": 1786369047635,
     "category": "Entertainment",
     "contentType": "UGC",
     "title": "TrueFitness X Syndciate",
@@ -5639,7 +5014,7 @@ window.CAMPAIGNS_DATA = [
     "platforms": [
       "x"
     ],
-    "spent": 91,
+    "spent": 50,
     "total": 5000,
     "count": "38",
     "cpm": 1,
@@ -5659,7 +5034,7 @@ window.CAMPAIGNS_DATA = [
     "age": "12d",
     "formattedAge": "12 days ago",
     "fundedAt": "2026-08-19T21:05:59.122Z",
-    "sortTimestamp": 1786366826881,
+    "sortTimestamp": 1786369047633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "[VIRAL] Sad Baby Clipping",
@@ -5669,14 +5044,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "[VIRAL] Sad Baby Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ialO5xm43UYqt9GR4PTb9AUjOjrQfigNZatWpHfJGKs/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1p4yxuuExEu9sooLBl1IKWk7e-4fcz5w8?usp=sharing"
       }
     ],
     "platforms": [
@@ -5684,7 +5051,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 455,
+    "spent": 456,
     "total": 5000,
     "count": "232",
     "cpm": 2,
@@ -5704,7 +5071,7 @@ window.CAMPAIGNS_DATA = [
     "age": "12d",
     "formattedAge": "12 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786366826881,
+    "sortTimestamp": 1786369047633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Odd Mob, Walker & Royce, Benni Ola - Can’t Say Nah | RollerCoaster DJ Set Edits",
@@ -5729,12 +5096,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
-    "creators": 539,
+    "creators": 540,
     "agency": "Clip Influence",
     "age": "12d",
     "formattedAge": "12 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786366826879,
+    "sortTimestamp": 1786369047631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "[VIRAL] My Mini Mom & Baby Clipping",
@@ -5746,9 +5113,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 2724,
+    "spent": 2728,
     "total": 10000,
-    "count": "539",
+    "count": "540",
     "cpm": 1.5,
     "key": "Clip Influence::[VIRAL] My Mini Mom & Baby Clipping"
   },
@@ -5759,14 +5126,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipcashai",
     "whopUrl": "https://whop.com/clipcashai",
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1786234436828.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16301082/image/access_passes/2026-06-07/f3818fdc-ee3f-409d-a8a0-0a68c2f1a391.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 38,
+    "creators": 2863,
     "agency": "Artist Influence",
     "age": "13d",
     "formattedAge": "13 days ago",
-    "fundedAt": "2026-08-09T14:55:59.377Z",
-    "sortTimestamp": 1786280426882,
+    "fundedAt": "2026-07-11T08:21:41.358Z",
+    "sortTimestamp": 1786282647635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Kahree - Pretending, Ready or Not |  Lyric/Gaming/Movie/Gym/Anime/Car/Cortisol Edits",
@@ -5776,18 +5143,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kahree - Pretending, Ready or Not |  Lyric/Gaming/Movie/Gym/Anime/Car/Cortisol Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ZDGXZ3-UHYyIZf6-0WmqiM1JB75L4y0BmGhLkDNcp6g/edit?usp=sharing"
       }
     ],
     "platforms": [
       "tiktok"
     ],
-    "spent": 38,
+    "spent": 39,
     "total": 1250,
-    "count": "394",
+    "count": "395",
     "cpm": 1,
     "key": "Artist Influence::Kahree - Pretending, Ready or Not |  Lyric/Gaming/Movie/Gym/Anime/Car/Cortisol Edits"
   },
@@ -5800,12 +5163,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1786203034066.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
     "bannerImageUrl": "",
-    "creators": 751,
+    "creators": 752,
     "agency": "Artist Influence",
     "age": "13d",
     "formattedAge": "13 days ago",
     "fundedAt": "2026-05-07T17:47:02.987Z",
-    "sortTimestamp": 1786280426881,
+    "sortTimestamp": 1786282647633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Tavo The Producer - Ela Vai Dando Xerecadao | Lyric/Gaming/Movie/Beach/Gym/Anime/Car/Edits",
@@ -5815,10 +5178,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tavo The Producer - Ela Vai Dando Xerecadao | Lyric/Gaming/Movie/Beach/Gym/Anime/Car/Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1NKNewasPH6vuUbVWZSp91AQ-jhzQaR_PVZsprM3Hre0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5844,7 +5203,7 @@ window.CAMPAIGNS_DATA = [
     "age": "14d",
     "formattedAge": "2 weeks ago",
     "fundedAt": "2026-08-05T14:50:46.691Z",
-    "sortTimestamp": 1786194026890,
+    "sortTimestamp": 1786196247643,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Double Coverage x Bobby Green Podcast | $2,500 Clipping Campaign",
@@ -5861,7 +5220,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 2500,
     "total": 2500,
-    "count": "678",
+    "count": "679",
     "cpm": 2,
     "key": "Reach::Double Coverage x Bobby Green Podcast | $2,500 Clipping Campaign"
   },
@@ -5872,14 +5231,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "inout-games-clipping",
     "whopUrl": "https://whop.com/inout-games-clipping",
     "thumbnail": "https://cdn.contentrewards.com/user_PU053U4aJXOnC/1787055164458.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9022763/image/bots/2026-07-31/64a688e1-10d7-4c93-91bf-1d1e56cb118a.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16301082/image/access_passes/2026-06-07/f3818fdc-ee3f-409d-a8a0-0a68c2f1a391.jpeg",
     "bannerImageUrl": "",
-    "creators": 16,
+    "creators": 9,
     "agency": "INOUT GAMES",
     "age": "14d",
     "formattedAge": "2 weeks ago",
-    "fundedAt": "2026-07-31T19:59:26.709Z",
-    "sortTimestamp": 1786194026888,
+    "fundedAt": "2026-07-29T16:02:19.040Z",
+    "sortTimestamp": 1786196247640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "INOUT Games — Viral Game Clips | Boosted RTP Access",
@@ -5889,10 +5248,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "INOUT Games — Viral Game Clips | Boosted RTP Access | Official Whop Hub & Assets",
         "url": "https://whop.com/inout-games-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1vB-6dsdiXMzMQ7qjHO0IXDd53NHh9C_O8A98gnvYKxs/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5920,7 +5275,7 @@ window.CAMPAIGNS_DATA = [
     "age": "14d",
     "formattedAge": "2 weeks ago",
     "fundedAt": "2026-05-19T11:59:48.800Z",
-    "sortTimestamp": 1786194026885,
+    "sortTimestamp": 1786196247638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "DIVE Clips Campaign",
@@ -5930,14 +5285,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DIVE Clips Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/cutwire-clip"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1KnG1GxAPpjbVmPn6SdHFBYwlFpqvUkSLse6oMKdW8E4/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1M_s1J0z04fjviRQRUVoIVlLg2YuOXfrP?usp=sharing"
       }
     ],
     "platforms": [
@@ -5965,7 +5312,7 @@ window.CAMPAIGNS_DATA = [
     "age": "14d",
     "formattedAge": "2 weeks ago",
     "fundedAt": "2026-07-27T14:04:33.766Z",
-    "sortTimestamp": 1786194026884,
+    "sortTimestamp": 1786196247636,
     "category": "Other",
     "contentType": "Clipping",
     "title": "Bios Zonewars Clipping",
@@ -6000,7 +5347,7 @@ window.CAMPAIGNS_DATA = [
     "age": "14d",
     "formattedAge": "2 weeks ago",
     "fundedAt": "2026-08-11T09:46:33.153Z",
-    "sortTimestamp": 1786194026882,
+    "sortTimestamp": 1786196247634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Kalisway - Can't Tell Me Nothing | PSP/Lyric/Gaming/Movie/Sports/Gym/Anime/Car/Cortisol Edits",
@@ -6010,10 +5357,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kalisway - Can't Tell Me Nothing | PSP/Lyric/Gaming/Movie/Sports/Gym/Anime/Car/Cortisol Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1J2ft2bqrI2YFNxy4SEW_ScVUYkVJA3JTReKyOmspZFE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6021,7 +5364,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 111,
     "total": 1250,
-    "count": "323",
+    "count": "325",
     "cpm": 1,
     "key": "Artist Influence::Kalisway - Can't Tell Me Nothing | PSP/Lyric/Gaming/Movie/Sports/Gym/Anime/Car/Cortisol Edits"
   },
@@ -6032,14 +5375,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "cif",
     "whopUrl": "https://whop.com/cif",
     "thumbnail": "https://cdn.contentrewards.com/user_R7EIngNz1Lcxw/1786053661154.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_32405229/image/bots/2026-08-10/bd6c9f28-712b-4b44-88db-04eec18c17b7.PNG",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20747020/image/ai_prompts/2026-07-05/4d78d3e8-dcaf-41fa-b7fc-de95c6714670.png",
     "bannerImageUrl": "",
-    "creators": 120,
+    "creators": 110,
     "agency": "Clip It Fast",
     "age": "14d",
     "formattedAge": "2 weeks ago",
-    "fundedAt": "2026-08-11T16:03:36.112Z",
-    "sortTimestamp": 1786194026882,
+    "fundedAt": "2026-08-18T03:06:40.517Z",
+    "sortTimestamp": 1786196247634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Evan Cabral Clips",
@@ -6049,10 +5392,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Evan Cabral Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/cif"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1Q-zfPTF79taxuCGjPn4XgKTO0DlwaYug"
       }
     ],
     "platforms": [
@@ -6060,7 +5399,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 417,
+    "spent": 418,
     "total": 1500,
     "count": "103",
     "cpm": 1,
@@ -6073,14 +5412,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "cliphaus-19",
     "whopUrl": "https://whop.com/cliphaus-19",
     "thumbnail": "https://cdn.contentrewards.com/user_wOFeY8bGwWgZy/1786139296704.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
     "bannerImageUrl": "",
-    "creators": 173,
+    "creators": 906,
     "agency": "ClipHaus",
     "age": "14d",
     "formattedAge": "2 weeks ago",
-    "fundedAt": "2026-08-12T16:54:29.212Z",
-    "sortTimestamp": 1786194026880,
+    "fundedAt": "2026-06-06T20:37:41.904Z",
+    "sortTimestamp": 1786196247632,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "DES BISHOP",
@@ -6090,10 +5429,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DES BISHOP | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1HJorZOu01UY_S-Lt74QcW00gHvBK_ScYfz8ubEK0U14/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -6116,12 +5451,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_n4L97Ceh7WK5F/1786122235766.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "",
-    "creators": 792,
+    "creators": 793,
     "agency": "ClipHaus",
     "age": "14d",
     "formattedAge": "2 weeks ago",
     "fundedAt": "2026-08-06T19:40:20.597Z",
-    "sortTimestamp": 1786194026880,
+    "sortTimestamp": 1786196247632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "ALMA CHERIFF",
@@ -6140,7 +5475,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 286,
     "total": 6000,
-    "count": "227",
+    "count": "228",
     "cpm": 1,
     "key": "ClipHaus::ALMA CHERIFF"
   },
@@ -6153,12 +5488,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_Q6BLMoZwbQRBk/1786481052351.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "",
-    "creators": 931,
+    "creators": 940,
     "agency": "Clip Farm",
     "age": "14d",
     "formattedAge": "2 weeks ago",
     "fundedAt": "2026-08-18T23:12:34.216Z",
-    "sortTimestamp": 1786194026879,
+    "sortTimestamp": 1786196247631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Arena Club x ClipFarm",
@@ -6168,10 +5503,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Arena Club x ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1kb22wyQDjefC2tWxyC2vy7rILk-1x7QlCoecXPBjZLY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6182,47 +5513,6 @@ window.CAMPAIGNS_DATA = [
     "count": "1K",
     "cpm": 1,
     "key": "Clip Farm::Arena Club x ClipFarm"
-  },
-  {
-    "id": "7c6d309c-5f6d-4434-823f-9ac022677352",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-farm-d5",
-    "whop_route": "clip-farm-d5",
-    "whopUrl": "https://whop.com/clip-farm-d5",
-    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784957281014.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1339815/image/bots/2026-02-11/14bda61b-91a5-44e2-b952-515a98247609.png",
-    "bannerImageUrl": "",
-    "creators": 60,
-    "agency": "Clip Farm",
-    "age": "15d",
-    "formattedAge": "15 days ago",
-    "fundedAt": "2026-02-05T10:10:25.934Z",
-    "sortTimestamp": 1786107626888,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Betr NFL Watermark Clipping",
-    "description": "Betr is a sports app. You make picks and win real cash. You get paid for every view.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Betr NFL Watermark Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Lf4moU4siXsx3e1eXaYBGnmqlvrwqX5JUjsLYbLEva4/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 3728,
-    "total": 4000,
-    "count": "386",
-    "cpm": 0.5,
-    "key": "Clip Farm::Betr NFL Watermark Clipping"
   },
   {
     "id": "236aa746-bdf9-4087-9659-aac189391184",
@@ -6238,7 +5528,7 @@ window.CAMPAIGNS_DATA = [
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-03-12T15:41:33.210Z",
-    "sortTimestamp": 1786107626888,
+    "sortTimestamp": 1786109847641,
     "category": "Entertainment",
     "contentType": "UGC",
     "title": "Lockdown: No Contact",
@@ -6248,10 +5538,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lockdown: No Contact | Official Whop Hub & Assets",
         "url": "https://whop.com/lockdown-no-contact"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1mjm3IVW3Q_UCEETbF5GacjMFn_aPJcKrJCuy_Xb0VTU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6264,6 +5550,43 @@ window.CAMPAIGNS_DATA = [
     "key": "23Agency::Lockdown: No Contact"
   },
   {
+    "id": "7c6d309c-5f6d-4434-823f-9ac022677352",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clip-farm-d5",
+    "whop_route": "clip-farm-d5",
+    "whopUrl": "https://whop.com/clip-farm-d5",
+    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784957281014.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13914938/image/bots/2026-03-05/b897f1a0-dcdf-445f-acf4-30be25d76e99.png",
+    "bannerImageUrl": "",
+    "creators": 35,
+    "agency": "Clip Farm",
+    "age": "15d",
+    "formattedAge": "15 days ago",
+    "fundedAt": "2026-03-20T13:20:01.076Z",
+    "sortTimestamp": 1786109847640,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Betr NFL Watermark Clipping",
+    "description": "Betr is a sports app. You make picks and win real cash. You get paid for every view.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Betr NFL Watermark Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-farm-d5"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 3728,
+    "total": 4000,
+    "count": "386",
+    "cpm": 0.5,
+    "key": "Clip Farm::Betr NFL Watermark Clipping"
+  },
+  {
     "id": "312e5247-c26a-435b-b872-84ebb6b627cb",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "vantaclip-clipping-agency",
@@ -6272,12 +5595,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_a6gQcHIZSLcn4/1786107721481.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6400659/image/bots/2026-08-22/e7fc0ae4-2f5a-4fe8-b2dc-5596797a28fb.jpg",
     "bannerImageUrl": "",
-    "creators": 216,
+    "creators": 234,
     "agency": "VantaClip",
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-08-22T04:56:33.490Z",
-    "sortTimestamp": 1786107626883,
+    "sortTimestamp": 1786109847635,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Sus.Ai",
@@ -6287,10 +5610,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sus.Ai | Official Whop Hub & Assets",
         "url": "https://whop.com/vantaclip-clipping-agency"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1ZL42w4EX-XEphrB8PYO90gMeu85n1yCo?usp=share_link"
       }
     ],
     "platforms": [
@@ -6298,11 +5617,48 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 285,
+    "spent": 286,
     "total": 1000,
     "count": "160",
     "cpm": 1,
     "key": "VantaClip::Sus.Ai"
+  },
+  {
+    "id": "2432b187-415b-437c-9545-8cfa032a6155",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "german-clipping-f0",
+    "whop_route": "german-clipping-f0",
+    "whopUrl": "https://whop.com/german-clipping-f0",
+    "thumbnail": "https://cdn.contentrewards.com/user_E8kjJZDb9Wgnx/1786091395372.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
+    "bannerImageUrl": "",
+    "creators": 366,
+    "agency": "German Clipping",
+    "age": "15d",
+    "formattedAge": "15 days ago",
+    "fundedAt": "2026-08-18T15:50:11.309Z",
+    "sortTimestamp": 1786109847634,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "(Deutsch) Call of Duty MW4",
+    "description": "German Clipping Entertainment clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "(Deutsch) Call of Duty MW4 | Official Whop Hub & Assets",
+        "url": "https://whop.com/german-clipping-f0"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 317,
+    "total": 6500,
+    "count": "196",
+    "cpm": 1.5,
+    "key": "German Clipping::(Deutsch) Call of Duty MW4"
   },
   {
     "id": "e6d472f4-ac24-4cb1-9a3b-699f10a793ca",
@@ -6318,7 +5674,7 @@ window.CAMPAIGNS_DATA = [
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-06-30T19:48:15.806Z",
-    "sortTimestamp": 1786107626882,
+    "sortTimestamp": 1786109847634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Tyson Yoshi Campaign",
@@ -6333,7 +5689,7 @@ window.CAMPAIGNS_DATA = [
     "platforms": [
       "instagram"
     ],
-    "spent": 535,
+    "spent": 541,
     "total": 1000,
     "count": "108",
     "cpm": 1.5,
@@ -6346,14 +5702,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipcashai",
     "whopUrl": "https://whop.com/clipcashai",
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1786070580816.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33948724/image/bots/2026-08-13/0becb8d4-83e2-44d2-95c9-a4e28fa563cb.jpeg",
     "bannerImageUrl": "",
-    "creators": 930,
+    "creators": 50,
     "agency": "Artist Influence",
     "age": "15d",
     "formattedAge": "15 days ago",
-    "fundedAt": "2026-05-09T18:43:15.555Z",
-    "sortTimestamp": 1786107626882,
+    "fundedAt": "2026-08-20T11:34:56.534Z",
+    "sortTimestamp": 1786109847634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Lil Uzi Vert - YOKO PT.II | Uzi Edits, Culture edits, Sports edits, Meme Edits",
@@ -6363,10 +5719,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lil Uzi Vert - YOKO PT.II | Uzi Edits, Culture edits, Sports edits, Meme Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1qZy_32pz9bvNMB5vmfs8MYhqk9wpBHHw9z9cY6rY1k8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6392,7 +5744,7 @@ window.CAMPAIGNS_DATA = [
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-07-08T04:12:16.447Z",
-    "sortTimestamp": 1786107626881,
+    "sortTimestamp": 1786109847633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Whethan - Lollapalooza Set | Live DJ Set + Approved Content Edits",
@@ -6402,10 +5754,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Whethan - Lollapalooza Set | Live DJ Set + Approved Content Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1dQTbBi4rS8lPjN_fgjZGesKEZcIYqidwtw9NhZq2LD8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6418,84 +5766,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Artist Influence::Whethan - Lollapalooza Set | Live DJ Set + Approved Content Edits"
   },
   {
-    "id": "2432b187-415b-437c-9545-8cfa032a6155",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "german-clipping-f0",
-    "whop_route": "german-clipping-f0",
-    "whopUrl": "https://whop.com/german-clipping-f0",
-    "thumbnail": "https://cdn.contentrewards.com/user_E8kjJZDb9Wgnx/1786091395372.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
-    "bannerImageUrl": "",
-    "creators": 363,
-    "agency": "German Clipping",
-    "age": "15d",
-    "formattedAge": "15 days ago",
-    "fundedAt": "2026-08-18T15:50:11.309Z",
-    "sortTimestamp": 1786107626881,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "(Deutsch) Call of Duty MW4",
-    "description": "German Clipping Entertainment clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "(Deutsch) Call of Duty MW4 | Official Whop Hub & Assets",
-        "url": "https://whop.com/german-clipping-f0"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1to9Pn4LRQHGdCkGn4awBlmm50H2AZ1BdO3wfTdrKMAc/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 317,
-    "total": 6500,
-    "count": "196",
-    "cpm": 1.5,
-    "key": "German Clipping::(Deutsch) Call of Duty MW4"
-  },
-  {
-    "id": "86842687-ba2b-4638-a024-995dcf3d25a3",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "viral-clips-for-michael-sartain",
-    "whop_route": "viral-clips-for-michael-sartain",
-    "whopUrl": "https://whop.com/viral-clips-for-michael-sartain",
-    "thumbnail": "https://cdn.contentrewards.com/user_H8ap7QvThsDgt/1785959406738.PNG",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17694673/image/bots/2026-06-10/9d8b713b-ec78-47ff-a837-349e70a8dee2.png",
-    "bannerImageUrl": "",
-    "creators": 492,
-    "agency": "Michael Sartain's Clipper Army",
-    "age": "15d",
-    "formattedAge": "15 days ago",
-    "fundedAt": "2026-08-19T07:49:45.402Z",
-    "sortTimestamp": 1786107626880,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Michael Sartain's Clipping Army",
-    "description": "Turn Michael Sartain’s podcasts, interviews, livestreams, and long-form content into engaging short-form videos and earn rewards based on verified performance.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Michael Sartain's Clipping Army | Official Whop Hub & Assets",
-        "url": "https://whop.com/viral-clips-for-michael-sartain"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 2328,
-    "total": 5000,
-    "count": "265",
-    "cpm": 3,
-    "key": "Michael Sartain's Clipper Army::Michael Sartain's Clipping Army"
-  },
-  {
     "id": "bf4bf38b-8321-4523-a7ff-3ed67fa67614",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "propaganda-clippers",
@@ -6504,12 +5774,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_T80KiJ60wsnMW/1785958423469.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20298161/image/access_passes/2026-08-03/88d822b8-13b0-40e4-84cf-42d27ad05275.jpeg",
     "bannerImageUrl": "",
-    "creators": 234,
+    "creators": 235,
     "agency": "Propaganda",
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-08-17T16:11:56.886Z",
-    "sortTimestamp": 1786107626880,
+    "sortTimestamp": 1786109847632,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Lumena Clipping | $7k Budget | $1.5 CPM",
@@ -6519,10 +5789,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lumena Clipping | $7k Budget | $1.5 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/19wzBj6aGrFX07Fg8oaFVHfMA3eFs1PuNjFWu_SWfXj4"
       }
     ],
     "platforms": [
@@ -6532,7 +5798,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 393,
     "total": 7000,
-    "count": "262",
+    "count": "263",
     "cpm": 1.5,
     "key": "Propaganda::Lumena Clipping | $7k Budget | $1.5 CPM"
   },
@@ -6545,12 +5811,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_U3LLHuMiDvh6j/1786288147343.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_14405903/image/bots/2026-02-18/7d6abe86-60b1-4558-af9a-f69a59b47e41",
     "bannerImageUrl": "",
-    "creators": 327,
+    "creators": 329,
     "agency": "Propaganda",
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-08-11T16:15:43.098Z",
-    "sortTimestamp": 1786107626880,
+    "sortTimestamp": 1786109847632,
     "category": "Product",
     "contentType": "UGC",
     "title": "Klap Viral Clipping | $7,000 budget | $2 CPM",
@@ -6560,14 +5826,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Klap Viral Clipping | $7,000 budget | $2 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1N6h5axvtkMlpNVBdB18sTf0ylo7UVKoT/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1N6h5axvtkMlpNVBdB18sTf0ylo7UVKoT/edit?usp=sharing&amp;ouid=107518388225983257880&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -6575,9 +5833,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 217,
+    "spent": 220,
     "total": 7000,
-    "count": "792",
+    "count": "793",
     "cpm": 2,
     "key": "Propaganda::Klap Viral Clipping | $7,000 budget | $2 CPM"
   },
@@ -6590,12 +5848,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_E8kjJZDb9Wgnx/1786091537029.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6089921/image/bots/2026-05-12/ca80a41f-48a7-434c-a51d-1f7b6cb5e621.png",
     "bannerImageUrl": "",
-    "creators": 1637,
+    "creators": 1639,
     "agency": "French Clipping",
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-07-20T14:22:05.382Z",
-    "sortTimestamp": 1786107626880,
+    "sortTimestamp": 1786109847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Call of Duty MW4 (en Français)",
@@ -6605,10 +5863,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty MW4 (en Français) | Official Whop Hub & Assets",
         "url": "https://whop.com/french-clipping-e5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1JycUJBFfjrPlNoSP0k6WELEEmnEmXnn0a3y2IghGSOM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6616,7 +5870,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 1425,
+    "spent": 1426,
     "total": 6500,
     "count": "386",
     "cpm": 1.5,
@@ -6631,12 +5885,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_ukZXcsUULjtd0/1786045413337.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3616714/image/bots/2026-07-28/05b12f88-0933-4ff2-b0f5-fe1d1338bbc3.png",
     "bannerImageUrl": "",
-    "creators": 383,
+    "creators": 384,
     "agency": "creatorXchange Clipper Marketplace",
     "age": "15d",
     "formattedAge": "15 days ago",
     "fundedAt": "2026-08-03T11:50:21.008Z",
-    "sortTimestamp": 1786107626879,
+    "sortTimestamp": 1786109847631,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Sunny Dancer Movie Clipping",
@@ -6646,14 +5900,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sunny Dancer Movie Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/creatorxchange"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/15twUGM98Zorx4Cit4cH2yiE2nMwk9Gs5?usp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1uBFiDQZbDNfwunpynGWOeabjGWX3MHHc?usp=drive_link"
       }
     ],
     "platforms": [
@@ -6681,7 +5927,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2025-12-01T14:58:37.496Z",
-    "sortTimestamp": 1786021226890,
+    "sortTimestamp": 1786023447643,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Clip For MegaMcqueen| $5K Budget",
@@ -6691,14 +5937,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip For MegaMcqueen| $5K Budget | Official Whop Hub & Assets",
         "url": "https://whop.com/motionclipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/13jtlQNSXh0s8jpsSn9JEdWU5noksDjTkzY4DtFpR2MY/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Y_eUPEzDoX2UBaTp2bjwVrlALSxDKN7QvKLxRSUrm9U/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6726,7 +5964,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-08-03T12:27:21.664Z",
-    "sortTimestamp": 1786021226888,
+    "sortTimestamp": 1786023447640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] VIRAL TRUCK VIDEOS",
@@ -6763,7 +6001,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-06-12T17:17:30.546Z",
-    "sortTimestamp": 1786021226885,
+    "sortTimestamp": 1786023447637,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Willie Oval Clips",
@@ -6773,10 +6011,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Willie Oval Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/no-validation-music"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1B1MlPoZF77_rrRFBPXLgTu8J3QsI2Fml?usp=drive_link"
       }
     ],
     "platforms": [
@@ -6804,7 +6038,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-07-01T18:14:48.702Z",
-    "sortTimestamp": 1786021226885,
+    "sortTimestamp": 1786023447637,
     "category": "Other",
     "contentType": "UGC",
     "title": "Maven UGC",
@@ -6814,10 +6048,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Maven UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/dumb-money-hunter"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/15p20F9-82zqWrBAKm87O_zrTqr3pUL0V"
       }
     ],
     "platforms": [
@@ -6845,7 +6075,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-06-09T19:42:37.999Z",
-    "sortTimestamp": 1786021226884,
+    "sortTimestamp": 1786023447636,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Maven Branded Clipping",
@@ -6855,10 +6085,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Maven Branded Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/dumb-money-hunter"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1lsViJd2s-2UGkofTmzuLggkMyjiaDcOA"
       }
     ],
     "platforms": [
@@ -6886,7 +6112,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1786021226883,
+    "sortTimestamp": 1786023447635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "$3,000 Wiz Khalifa x Surfer Girl - 'Smoked Out' Campaign",
@@ -6916,7 +6142,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-08-07T21:47:08.032Z",
-    "sortTimestamp": 1786021226882,
+    "sortTimestamp": 1786023447634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] VIRAL PORTUGUESE TRACK",
@@ -6940,45 +6166,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Duetti::[EASY $$] VIRAL PORTUGUESE TRACK"
   },
   {
-    "id": "8e04bf8a-6f88-44ed-98fd-70ad58ccfb52",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-farm-d5",
-    "whop_route": "clip-farm-d5",
-    "whopUrl": "https://whop.com/clip-farm-d5",
-    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1785941495472.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17395330/image/bots/2026-05-27/2f9fe371-f9b9-4598-94e1-1b49a67b2aaa.png",
-    "bannerImageUrl": "",
-    "creators": 222,
-    "agency": "Clip Farm",
-    "age": "16d",
-    "formattedAge": "16 days ago",
-    "fundedAt": "2026-07-29T19:14:31.541Z",
-    "sortTimestamp": 1786021226880,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "The Cap Table: (Podcast Clipping)",
-    "description": "Cut short clips from The Cap Table podcast Episode 27 with SideShift. Look for founder stories, startup growth, fundraising, and real business advice. Cut it so people go watch the full episode on YouTube. Every caption must tag The Cap Table and name SideShift.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "The Cap Table: (Podcast Clipping) | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1s4hvhHRd55ZqeUUv5zndD_ebctvh5XjpbQvF0RdfJ8I/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 624,
-    "total": 4000,
-    "count": "1K",
-    "cpm": 1.25,
-    "key": "Clip Farm::The Cap Table: (Podcast Clipping)"
-  },
-  {
     "id": "09fe45ac-a543-4208-9eee-f4a83f451e7c",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "gattouz0-vip",
@@ -6992,7 +6179,7 @@ window.CAMPAIGNS_DATA = [
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-07-17T15:12:10.243Z",
-    "sortTimestamp": 1786021226880,
+    "sortTimestamp": 1786023447633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Gattouz x 1win",
@@ -7002,10 +6189,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gattouz x 1win | Official Whop Hub & Assets",
         "url": "https://whop.com/gattouz0-vip"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/13V6yHyOgRAZelOKCnEz0fjOPHi7BAXD0SNbceEisEDc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7019,6 +6202,78 @@ window.CAMPAIGNS_DATA = [
     "key": "Gattouz0 - Clipping::Gattouz x 1win"
   },
   {
+    "id": "86842687-ba2b-4638-a024-995dcf3d25a3",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "viral-clips-for-michael-sartain",
+    "whop_route": "viral-clips-for-michael-sartain",
+    "whopUrl": "https://whop.com/viral-clips-for-michael-sartain",
+    "thumbnail": "https://cdn.contentrewards.com/user_H8ap7QvThsDgt/1785959406738.PNG",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
+    "bannerImageUrl": "",
+    "creators": 1071,
+    "agency": "Michael Sartain's Clipper Army",
+    "age": "16d",
+    "formattedAge": "16 days ago",
+    "fundedAt": "2026-07-22T19:40:01.639Z",
+    "sortTimestamp": 1786023447632,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Michael Sartain's Clipping Army",
+    "description": "Turn Michael Sartain’s podcasts, interviews, livestreams, and long-form content into engaging short-form videos and earn rewards based on verified performance.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Michael Sartain's Clipping Army | Official Whop Hub & Assets",
+        "url": "https://whop.com/viral-clips-for-michael-sartain"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 2328,
+    "total": 5000,
+    "count": "268",
+    "cpm": 3,
+    "key": "Michael Sartain's Clipper Army::Michael Sartain's Clipping Army"
+  },
+  {
+    "id": "8e04bf8a-6f88-44ed-98fd-70ad58ccfb52",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clip-farm-d5",
+    "whop_route": "clip-farm-d5",
+    "whopUrl": "https://whop.com/clip-farm-d5",
+    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1785941495472.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17395330/image/bots/2026-05-27/2f9fe371-f9b9-4598-94e1-1b49a67b2aaa.png",
+    "bannerImageUrl": "",
+    "creators": 222,
+    "agency": "Clip Farm",
+    "age": "16d",
+    "formattedAge": "16 days ago",
+    "fundedAt": "2026-07-29T19:14:31.541Z",
+    "sortTimestamp": 1786023447632,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "The Cap Table: (Podcast Clipping)",
+    "description": "Cut short clips from The Cap Table podcast Episode 27 with SideShift. Look for founder stories, startup growth, fundraising, and real business advice. Cut it so people go watch the full episode on YouTube. Every caption must tag The Cap Table and name SideShift.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "The Cap Table: (Podcast Clipping) | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-farm-d5"
+      }
+    ],
+    "platforms": [
+      "youtube"
+    ],
+    "spent": 625,
+    "total": 4000,
+    "count": "1K",
+    "cpm": 1.25,
+    "key": "Clip Farm::The Cap Table: (Podcast Clipping)"
+  },
+  {
     "id": "ecbd7fec-6f39-4081-aa18-1756f0ae73e9",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "lovable-clipping-e6",
@@ -7027,12 +6282,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_7tmjdz64LFGw6/1785978502910.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "",
-    "creators": 840,
+    "creators": 841,
     "agency": "Lovable Clipping",
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-08-17T16:58:39.299Z",
-    "sortTimestamp": 1786021226879,
+    "sortTimestamp": 1786023447631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Lovable Clipping",
@@ -7042,10 +6297,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lovable Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/lovable-clipping-e6"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://mediamaxxing.notion.site/lovable-clipping"
       }
     ],
     "platforms": [
@@ -7068,12 +6319,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_i7zROABRVI3Tv/1785961509095.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 630,
+    "creators": 631,
     "agency": "Arz Urus Clipping",
     "age": "16d",
     "formattedAge": "16 days ago",
     "fundedAt": "2026-08-13T16:26:42.878Z",
-    "sortTimestamp": 1786021226879,
+    "sortTimestamp": 1786023447631,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "ARZ Urus Clipping",
@@ -7090,9 +6341,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 5498,
+    "spent": 5503,
     "total": 10000,
-    "count": "302",
+    "count": "303",
     "cpm": 1.5,
     "key": "Arz Urus Clipping::ARZ Urus Clipping"
   },
@@ -7110,7 +6361,7 @@ window.CAMPAIGNS_DATA = [
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-07-31T02:35:45.044Z",
-    "sortTimestamp": 1785934826888,
+    "sortTimestamp": 1785937047640,
     "category": "Product",
     "contentType": "UGC",
     "title": "Promy Creator Campaign, Split-Screen UGC",
@@ -7120,10 +6371,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Promy Creator Campaign, Split-Screen UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/promy-creator-access"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1RqN90RyK7AeoOKBzt8k-lsu__3n-OdapAUAoShN-ZeA/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7134,51 +6381,6 @@ window.CAMPAIGNS_DATA = [
     "count": "2",
     "cpm": 8,
     "key": "Promy::Promy Creator Campaign, Split-Screen UGC"
-  },
-  {
-    "id": "2f4f74ef-7a5f-4e37-894b-94c56bc0ddc4",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipr-agency-ce",
-    "whop_route": "clipr-agency-ce",
-    "whopUrl": "https://whop.com/clipr-agency-ce",
-    "thumbnail": "https://cdn.contentrewards.com/user_LNrH8zdsGuXHS/1785847199590.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16301082/image/access_passes/2026-06-07/f3818fdc-ee3f-409d-a8a0-0a68c2f1a391.jpeg",
-    "bannerImageUrl": "",
-    "creators": 9,
-    "agency": "Clipr Agency",
-    "age": "17d",
-    "formattedAge": "17 days ago",
-    "fundedAt": "2026-07-29T16:02:19.040Z",
-    "sortTimestamp": 1785934826888,
-    "category": "Logo",
-    "contentType": "Clipping",
-    "title": "Post Clips for Sinparty",
-    "description": "Drive sign-ups for SinParty through short-form banner clips. Only post video clips (no images) featuring tasteful, platform-compliant content with subtle teasing and curiosity-driven hooks. The goal is to maximize clicks and conversions while keeping content engaging, suggestive, and within platform guidelines.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Post Clips for Sinparty | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipr-agency-ce"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/14ED_PIfvM3jPwSvSLwJP640FYpsXhS-F/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/14ED_PIfvM3jPwSvSLwJP640FYpsXhS-F/edit?usp=sharing&amp;ouid=115808081879974824832&amp;rtpof=true&amp;sd=true"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 3160,
-    "count": "57",
-    "cpm": 1,
-    "key": "Clipr Agency::Post Clips for Sinparty"
   },
   {
     "id": "8a664a1a-5852-469d-b179-f294fad20799",
@@ -7194,7 +6396,7 @@ window.CAMPAIGNS_DATA = [
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-08-05T20:52:58.405Z",
-    "sortTimestamp": 1785934826888,
+    "sortTimestamp": 1785937047640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "KANINE CLIPPING CAMPAIGN",
@@ -7204,14 +6406,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "KANINE CLIPPING CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/clipr-agency-ce"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Z94M3rVntoBeVrkj_vJJituPYcdMTShK/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Z94M3rVntoBeVrkj_vJJituPYcdMTShK/edit?usp=sharing&amp;ouid=115808081879974824832&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -7239,7 +6433,7 @@ window.CAMPAIGNS_DATA = [
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1785934826888,
+    "sortTimestamp": 1785937047640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Zach Top | Good Girls & Cow Girls",
@@ -7266,12 +6460,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1785891193312.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-09/user_6018563_83af5d57-985e-475e-aa7a-317e200cd7f0.png",
     "bannerImageUrl": "",
-    "creators": 87,
+    "creators": 26,
     "agency": "Artist Influence",
     "age": "17d",
     "formattedAge": "17 days ago",
-    "fundedAt": "2026-06-12T19:02:13.544Z",
-    "sortTimestamp": 1785934826885,
+    "fundedAt": "2026-08-01T06:32:44.001Z",
+    "sortTimestamp": 1785937047638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Unlockt.me | Monetize Your Content | Content Repo + CTA Edits",
@@ -7281,10 +6475,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Unlockt.me | Monetize Your Content | Content Repo + CTA Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1zHDmXU7SioNNu658BrCPQupjHkPq7ucsEMMEGNC6bmI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7312,7 +6502,7 @@ window.CAMPAIGNS_DATA = [
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-07-10T23:37:18.340Z",
-    "sortTimestamp": 1785934826883,
+    "sortTimestamp": 1785937047636,
     "category": "Music",
     "contentType": "Clipping",
     "title": "I HATE MODELS CLIPPING CAMPAIGN",
@@ -7322,14 +6512,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "I HATE MODELS CLIPPING CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/clipr-agency-ce"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1t-ebArdfNW5lTqo-brNbWeNlgIm_CxDU/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1t-ebArdfNW5lTqo-brNbWeNlgIm_CxDU/edit?usp=sharing&amp;ouid=115808081879974824832&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -7357,7 +6539,7 @@ window.CAMPAIGNS_DATA = [
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-08-12T16:10:33.575Z",
-    "sortTimestamp": 1785934826880,
+    "sortTimestamp": 1785937047632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "FundedNext Clipping | $7.5k budget | $1.5 CPM",
@@ -7367,10 +6549,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "FundedNext Clipping | $7.5k budget | $1.5 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1xnJDIPnoigNdQnSCAWRHIt0xTbOW_8eEJ0b-5gNYrcI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7398,7 +6576,7 @@ window.CAMPAIGNS_DATA = [
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-05-21T22:08:15.713Z",
-    "sortTimestamp": 1785934826880,
+    "sortTimestamp": 1785937047632,
     "category": "Product",
     "contentType": "Clipping",
     "title": "NEW ME",
@@ -7408,10 +6586,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "NEW ME | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1D6CQvYi5fMxoTzDS6hMNrNiLRfPRJMa4IOQ6chwsdLo/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -7421,7 +6595,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 563,
     "total": 3000,
-    "count": "649",
+    "count": "650",
     "cpm": 2,
     "key": "ClipHaus::NEW ME"
   },
@@ -7434,12 +6608,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_P6gLQTnW5f2Te/1785791006928.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_23328300/image/bots/2026-03-03/c32786a3-14d8-4c5a-a440-81cde6420479.png",
     "bannerImageUrl": "",
-    "creators": 120,
+    "creators": 124,
     "agency": "Clipix",
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-08-19T14:34:00.308Z",
-    "sortTimestamp": 1785934826879,
+    "sortTimestamp": 1785937047631,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Bible BFF Clipping | $10K Budget | $1.00 CPM",
@@ -7449,14 +6623,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Bible BFF Clipping | $10K Budget | $1.00 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1FtFgAlk_JZqAM3jJzPJZMooXgLuKF-q3wPdOU7OcP5E/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/18wyNe5pREtiZRAG_J9p5PPz4SLRjCISG0xITg55b_d8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7464,7 +6630,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 1567,
+    "spent": 1568,
     "total": 10000,
     "count": "665",
     "cpm": 1,
@@ -7479,12 +6645,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_Q6BLMoZwbQRBk/1786481492562.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-11-05/d270c054-8b68-416a-a046-938249d3d42e.jpg",
     "bannerImageUrl": "",
-    "creators": 2041,
+    "creators": 2056,
     "agency": "Clip Farm",
     "age": "17d",
     "formattedAge": "17 days ago",
     "fundedAt": "2026-08-15T02:33:04.167Z",
-    "sortTimestamp": 1785934826878,
+    "sortTimestamp": 1785937047630,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Topps x Clipfarm",
@@ -7494,20 +6660,53 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Topps x Clipfarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Fh3rSxEqWKC3XEoFOJSM3pmq2acdg40uL1uwYF_NU9A/edit?usp=sharing"
       }
     ],
     "platforms": [
       "x"
     ],
-    "spent": 3800,
+    "spent": 3801,
     "total": 40000,
     "count": "2K",
     "cpm": 1,
     "key": "Clip Farm::Topps x Clipfarm"
+  },
+  {
+    "id": "2f4f74ef-7a5f-4e37-894b-94c56bc0ddc4",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipr-agency-ce",
+    "whop_route": "clipr-agency-ce",
+    "whopUrl": "https://whop.com/clipr-agency-ce",
+    "thumbnail": "https://cdn.contentrewards.com/user_LNrH8zdsGuXHS/1785847199590.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6331196/image/bots/2025-10-26/26480bf8-dd64-460a-8115-67397256b2c9.jpeg",
+    "bannerImageUrl": "",
+    "creators": 25,
+    "agency": "Clipr Agency",
+    "age": "18d",
+    "formattedAge": "18 days ago",
+    "fundedAt": "2026-05-06T16:35:06.305Z",
+    "sortTimestamp": 1785850647640,
+    "category": "Logo",
+    "contentType": "Clipping",
+    "title": "Post Clips for Sinparty",
+    "description": "Drive sign-ups for SinParty through short-form banner clips. Only post video clips (no images) featuring tasteful, platform-compliant content with subtle teasing and curiosity-driven hooks. The goal is to maximize clicks and conversions while keeping content engaging, suggestive, and within platform guidelines.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Post Clips for Sinparty | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipr-agency-ce"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 3160,
+    "count": "57",
+    "cpm": 2.5,
+    "key": "Clipr Agency::Post Clips for Sinparty"
   },
   {
     "id": "92241a48-2cfa-44d2-b302-ce3d8693ddcb",
@@ -7523,7 +6722,7 @@ window.CAMPAIGNS_DATA = [
     "age": "18d",
     "formattedAge": "18 days ago",
     "fundedAt": "2026-02-14T22:22:18.687Z",
-    "sortTimestamp": 1785848426888,
+    "sortTimestamp": 1785850647640,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "T Bird movie clipping campaign",
@@ -7547,6 +6746,41 @@ window.CAMPAIGNS_DATA = [
     "key": "Filmchilla::T Bird movie clipping campaign"
   },
   {
+    "id": "55ff6672-d10d-4bec-acf9-98ba096c6638",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "duetti",
+    "whop_route": "duetti",
+    "whopUrl": "https://whop.com/duetti",
+    "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1785799245093.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
+    "bannerImageUrl": "",
+    "creators": 60,
+    "agency": "Duetti",
+    "age": "18d",
+    "formattedAge": "18 days ago",
+    "fundedAt": "2026-07-29T22:46:12.311Z",
+    "sortTimestamp": 1785850647635,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "[EASY $$] EASY VIRAL LATIN TRACK TIKTOK",
+    "description": "USE VIRAL LATIN TRACK IN VIDEOS FOR QUICK $$$ Bayron Fire - Como Ladron",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "[EASY $$] EASY VIRAL LATIN TRACK TIKTOK | Official Whop Hub & Assets",
+        "url": "https://whop.com/duetti"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 758,
+    "total": 1000,
+    "count": "120",
+    "cpm": 1.25,
+    "key": "Duetti::[EASY $$] EASY VIRAL LATIN TRACK TIKTOK"
+  },
+  {
     "id": "32311685-b2ec-48f3-94f6-e9a5cae6774e",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "test-b0-552d",
@@ -7560,7 +6794,7 @@ window.CAMPAIGNS_DATA = [
     "age": "18d",
     "formattedAge": "18 days ago",
     "fundedAt": "2026-05-26T11:21:33.303Z",
-    "sortTimestamp": 1785848426883,
+    "sortTimestamp": 1785850647635,
     "category": "Product",
     "contentType": "UGC",
     "title": "ScraperCity People Finder",
@@ -7570,10 +6804,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ScraperCity People Finder | Official Whop Hub & Assets",
         "url": "https://whop.com/test-b0-552d"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1iPszZdmZDBj3AMJfY79Sgjbmt1C50su0KftEnP510o8/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -7588,57 +6818,20 @@ window.CAMPAIGNS_DATA = [
     "key": "Sc-City::ScraperCity People Finder"
   },
   {
-    "id": "a291ff43-760d-46a5-8e7b-53e4298df3fd",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "instant-funding-81",
-    "whop_route": "instant-funding-81",
-    "whopUrl": "https://whop.com/instant-funding-81",
-    "thumbnail": "https://cdn.contentrewards.com/user_n34HdYrU7ajEj/1785152425080.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26421386/image/bots/2026-05-11/3374411e-fc5d-4ce3-a6f1-c0cf0f758856.jpg",
-    "bannerImageUrl": "",
-    "creators": 80,
-    "agency": "FundingPips",
-    "age": "18d",
-    "formattedAge": "18 days ago",
-    "fundedAt": "2026-07-29T22:34:16.513Z",
-    "sortTimestamp": 1785848426883,
-    "category": "Product",
-    "contentType": "UGC",
-    "title": "Fundingpips UGC Campaign",
-    "description": "FundingPips was built by traders, for traders. Now, we’re giving creators the freedom to turn their UGC skills into income. Create authentic, engaging content that captures attention, tells a story, and brings the FundingPips experience to life. Whether you’re on camera or capturing reaction, use your creativity to make scroll stopping content, post it, and earn rewards. Create. Post. Earn. Repeat.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Fundingpips UGC Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/instant-funding-81"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 47,
-    "total": 1000,
-    "count": "171",
-    "cpm": 9,
-    "key": "FundingPips::Fundingpips UGC Campaign"
-  },
-  {
     "id": "616a3179-b894-4d06-9dd2-db9c8ecdccf2",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "nolanharper",
     "whop_route": "nolanharper",
     "whopUrl": "https://whop.com/nolanharper",
     "thumbnail": "https://cdn.contentrewards.com/user_XRqkYQFRhT39j/1785792343908.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34408240/image/access_passes/2026-08-16/b7c226b5-f977-4ae5-9e32-2f3763810daa.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/uploads/user_3644019/image/apps/2025-12-21/e41086d3-bc15-459d-9a50-9c28c9e47921.png",
     "bannerImageUrl": "",
-    "creators": 481,
+    "creators": 61,
     "agency": "Clips and Views",
     "age": "18d",
     "formattedAge": "18 days ago",
-    "fundedAt": "2026-08-16T00:53:54.064Z",
-    "sortTimestamp": 1785848426883,
+    "fundedAt": "2026-06-23T20:18:48.772Z",
+    "sortTimestamp": 1785850647635,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Sunny L. | Clipping Campaign",
@@ -7648,10 +6841,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sunny L. | Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1o-A6FYko3ue7cyCnGBliQ3_xUqc60XJY0V8hCyQZuqQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7679,7 +6868,7 @@ window.CAMPAIGNS_DATA = [
     "age": "18d",
     "formattedAge": "18 days ago",
     "fundedAt": "2026-07-20T20:15:52.417Z",
-    "sortTimestamp": 1785848426882,
+    "sortTimestamp": 1785850647634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Master Muñoz Clips",
@@ -7703,39 +6892,41 @@ window.CAMPAIGNS_DATA = [
     "key": "Master Muñoz::Master Muñoz Clips"
   },
   {
-    "id": "55ff6672-d10d-4bec-acf9-98ba096c6638",
+    "id": "a291ff43-760d-46a5-8e7b-53e4298df3fd",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "duetti",
-    "whop_route": "duetti",
-    "whopUrl": "https://whop.com/duetti",
-    "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1785799245093.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
+    "whopProductRoute": "instant-funding-81",
+    "whop_route": "instant-funding-81",
+    "whopUrl": "https://whop.com/instant-funding-81",
+    "thumbnail": "https://cdn.contentrewards.com/user_n34HdYrU7ajEj/1785152425080.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 60,
-    "agency": "Duetti",
+    "creators": 208,
+    "agency": "FundingPips",
     "age": "18d",
     "formattedAge": "18 days ago",
-    "fundedAt": "2026-07-29T22:46:12.311Z",
-    "sortTimestamp": 1785848426882,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "[EASY $$] EASY VIRAL LATIN TRACK TIKTOK",
-    "description": "USE VIRAL LATIN TRACK IN VIDEOS FOR QUICK $$$ Bayron Fire - Como Ladron",
+    "fundedAt": "2026-07-17T15:12:25.294Z",
+    "sortTimestamp": 1785850647634,
+    "category": "Product",
+    "contentType": "UGC",
+    "title": "Fundingpips UGC Campaign",
+    "description": "FundingPips was built by traders, for traders. Now, we’re giving creators the freedom to turn their UGC skills into income. Create authentic, engaging content that captures attention, tells a story, and brings the FundingPips experience to life. Whether you’re on camera or capturing reaction, use your creativity to make scroll stopping content, post it, and earn rewards. Create. Post. Earn. Repeat.",
     "requirements": [],
     "resources": [
       {
-        "name": "[EASY $$] EASY VIRAL LATIN TRACK TIKTOK | Official Whop Hub & Assets",
-        "url": "https://whop.com/duetti"
+        "name": "Fundingpips UGC Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/instant-funding-81"
       }
     ],
     "platforms": [
-      "tiktok"
+      "tiktok",
+      "instagram",
+      "youtube"
     ],
-    "spent": 758,
+    "spent": 86,
     "total": 1000,
-    "count": "120",
-    "cpm": 1.25,
-    "key": "Duetti::[EASY $$] EASY VIRAL LATIN TRACK TIKTOK"
+    "count": "171",
+    "cpm": 9,
+    "key": "FundingPips::Fundingpips UGC Campaign"
   },
   {
     "id": "eb0c95d7-9976-4abe-a754-9e8a4b0657fc",
@@ -7751,7 +6942,7 @@ window.CAMPAIGNS_DATA = [
     "age": "19d",
     "formattedAge": "19 days ago",
     "fundedAt": "2026-07-13T08:09:44.519Z",
-    "sortTimestamp": 1785762026888,
+    "sortTimestamp": 1785764247640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Klonify UGC FR | $1 par 1000 vues",
@@ -7779,14 +6970,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "creatorxchange",
     "whopUrl": "https://whop.com/creatorxchange",
     "thumbnail": "https://cdn.contentrewards.com/user_SOTsixy5DSyQs/1786660244172.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16720802/image/bots/2025-12-04/a1e4ed56-1f5d-4ece-b114-d51c44a32ad7.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "",
-    "creators": 108,
+    "creators": 280,
     "agency": "creatorXchange Clipper Marketplace",
     "age": "19d",
     "formattedAge": "19 days ago",
-    "fundedAt": "2026-08-16T16:23:39.954Z",
-    "sortTimestamp": 1785762026880,
+    "fundedAt": "2026-07-31T14:45:49.204Z",
+    "sortTimestamp": 1785764247631,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Ollie's National Bargain Hunting Week Campaign",
@@ -7796,10 +6987,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ollie's National Bargain Hunting Week Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/creatorxchange"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1QgKYBtwJpOLoZZ7pI0ZKnONgY_KOzYlDlOLEsA-iVdg/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7809,7 +6996,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 1318,
     "total": 6475,
-    "count": "383",
+    "count": "384",
     "cpm": 2.2,
     "key": "creatorXchange Clipper Marketplace::Ollie's National Bargain Hunting Week Campaign"
   },
@@ -7827,7 +7014,7 @@ window.CAMPAIGNS_DATA = [
     "age": "20d",
     "formattedAge": "20 days ago",
     "fundedAt": "2026-04-23T14:06:55.191Z",
-    "sortTimestamp": 1785675626887,
+    "sortTimestamp": 1785677847639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "BIA - We On Go | Anime/Odyssey/Spiderman/TV/Film Edits",
@@ -7837,10 +7024,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BIA - We On Go | Anime/Odyssey/Spiderman/TV/Film Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1WFmu5C0ur50lc2980VorxpPaU66HZcXZG67ZsmtJtl4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7861,12 +7044,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_sCxHpyYhKhYzD/1785639778411.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-17/user_13217765_9536a88b-12d4-48bf-bf69-d13d845a13fe.png",
     "bannerImageUrl": "",
-    "creators": 640,
+    "creators": 641,
     "agency": "KT1 Production",
     "age": "20d",
     "formattedAge": "20 days ago",
     "fundedAt": "2026-05-26T13:18:06.862Z",
-    "sortTimestamp": 1785675626883,
+    "sortTimestamp": 1785677847635,
     "category": "Music",
     "contentType": "UGC",
     "title": "KT1 TUT – Got a Body Official Creator Rewards",
@@ -7903,7 +7086,7 @@ window.CAMPAIGNS_DATA = [
     "age": "21d",
     "formattedAge": "3 weeks ago",
     "fundedAt": "2026-06-24T12:47:01.646Z",
-    "sortTimestamp": 1785589226888,
+    "sortTimestamp": 1785591447640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "PMD Clipping (ANY PAGE ACCEPTED) | Reposting Campaign",
@@ -7933,14 +7116,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clpr-media",
     "whopUrl": "https://whop.com/clpr-media",
     "thumbnail": "https://cdn.contentrewards.com/user_YMfhi0FE53mBK/1785694297310.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25363569/image/bots/2026-04-26/20942dc9-f755-417a-b68e-d11863aca356.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33294653/image/bots/2026-08-06/d753fce1-6e77-47eb-8d03-c72b6be67cad.jpg",
     "bannerImageUrl": "",
-    "creators": 57,
+    "creators": 8,
     "agency": "CLPR Media",
     "age": "21d",
     "formattedAge": "3 weeks ago",
-    "fundedAt": "2026-08-04T13:02:32.246Z",
-    "sortTimestamp": 1785589226888,
+    "fundedAt": "2026-08-07T19:04:52.669Z",
+    "sortTimestamp": 1785591447640,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "SomSleep Clipping (ANY PAGE ACCEPTED) | $3,500 BUDGET",
@@ -7977,7 +7160,7 @@ window.CAMPAIGNS_DATA = [
     "age": "21d",
     "formattedAge": "3 weeks ago",
     "fundedAt": "2026-02-06T16:11:24.338Z",
-    "sortTimestamp": 1785589226885,
+    "sortTimestamp": 1785591447638,
     "category": "Other",
     "contentType": "Clipping",
     "title": "GismoMaps's Campaign",
@@ -8014,7 +7197,7 @@ window.CAMPAIGNS_DATA = [
     "age": "21d",
     "formattedAge": "3 weeks ago",
     "fundedAt": "2026-05-19T20:18:05.041Z",
-    "sortTimestamp": 1785589226883,
+    "sortTimestamp": 1785591447635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "jomm - A Lovesick Bossa | LAUFEY EDITS",
@@ -8024,10 +7207,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "jomm - A Lovesick Bossa | LAUFEY EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/flood-division-music"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/13MDv5keX8iZs-j3zbA7Iu24PYGbDQvkWq5t9IoUZ730/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8055,7 +7234,7 @@ window.CAMPAIGNS_DATA = [
     "age": "21d",
     "formattedAge": "3 weeks ago",
     "fundedAt": "2026-08-16T08:29:00.344Z",
-    "sortTimestamp": 1785589226882,
+    "sortTimestamp": 1785591447634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Jake Paul x ClipFarm",
@@ -8065,16 +7244,12 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jake Paul x ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/194d7U0QI7IunamIgdZbYY9R5XCe7oQT_mhrIiGlnRws/edit?usp=sharing"
       }
     ],
     "platforms": [
       "x"
     ],
-    "spent": 3305,
+    "spent": 3306,
     "total": 4000,
     "count": "4K",
     "cpm": 0.75,
@@ -8094,7 +7269,7 @@ window.CAMPAIGNS_DATA = [
     "age": "21d",
     "formattedAge": "3 weeks ago",
     "fundedAt": "2026-08-07T02:43:12.685Z",
-    "sortTimestamp": 1785589226882,
+    "sortTimestamp": 1785591447634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Reuben A Geimah | $5k budget - $2 CPM",
@@ -8104,10 +7279,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Reuben A Geimah | $5k budget - $2 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/reuben-geimah-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Wxo4kbxwKm9dfaABpfVPKqty62FvGOnh9sOjoGJpZjI/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -8128,14 +7299,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "propaganda-clippers",
     "whopUrl": "https://whop.com/propaganda-clippers",
     "thumbnail": "https://cdn.contentrewards.com/user_geJWV9b5pDqVp/1785238960627.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8634820/image/bots/2026-06-04/ca6f8a66-ed7a-483d-b6f3-2b844bb92729.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16720802/image/bots/2025-12-04/a1e4ed56-1f5d-4ece-b114-d51c44a32ad7.jpg",
     "bannerImageUrl": "",
-    "creators": 13,
+    "creators": 109,
     "agency": "Propaganda",
     "age": "21d",
     "formattedAge": "3 weeks ago",
-    "fundedAt": "2026-08-16T16:55:38.245Z",
-    "sortTimestamp": 1785589226880,
+    "fundedAt": "2026-08-16T16:23:39.954Z",
+    "sortTimestamp": 1785591447631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Amour Propre Music Clipping | $5k Budget | $0.80 CPM",
@@ -8145,30 +7316,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Amour Propre Music Clipping | $5k Budget | $0.80 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1M24m0oIJWJWkPRJzhmtBD4vg8yAAn0fT/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/6zrsxlcaaj74thaatt1y2/AJ33c4mwMgq_amlCmBk8O7E?rlkey=mj7kw1rw80q15nefg6tb0nzit"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/6pg305i886zuoy647h7t9/AFJpwZmhPne_xPllsk6vNx0?rlkey=nuchou8iumvwuhc6exip1mubs"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1M24m0oIJWJWkPRJzhmtBD4vg8yAAn0fT/edit?usp=sharing&amp;ouid=113983168381726073330&amp;rtpof=true&amp;sd=true"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/6zrsxlcaaj74thaatt1y2/AJ33c4mwMgq_amlCmBk8O7E?rlkey=mj7kw1rw80q15nefg6tb0nzit&amp;st=9ouhy6hw&amp;e=1&amp;dl=0"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/6pg305i886zuoy647h7t9/AFJpwZmhPne_xPllsk6vNx0?rlkey=nuchou8iumvwuhc6exip1mubs&amp;st=mmtocldd&amp;e=1&amp;dl=0"
       }
     ],
     "platforms": [
@@ -8176,7 +7323,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 3093,
+    "spent": 3098,
     "total": 5000,
     "count": "280",
     "cpm": 0.8,
@@ -8196,7 +7343,7 @@ window.CAMPAIGNS_DATA = [
     "age": "22d",
     "formattedAge": "22 days ago",
     "fundedAt": "2026-08-11T20:19:33.223Z",
-    "sortTimestamp": 1785502826888,
+    "sortTimestamp": 1785505047640,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Jacques Amoako x EAT",
@@ -8206,10 +7353,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jacques Amoako x EAT | Official Whop Hub & Assets",
         "url": "https://whop.com/test-db-37b4"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1gJD8-nT_XyXNSLDePBS6bkGEa1i_c9NPRfLVIAy9f2Q/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8235,7 +7378,7 @@ window.CAMPAIGNS_DATA = [
     "age": "22d",
     "formattedAge": "22 days ago",
     "fundedAt": "2026-07-08T01:57:05.379Z",
-    "sortTimestamp": 1785502826888,
+    "sortTimestamp": 1785505047640,
     "category": "Music",
     "contentType": "Clipping",
     "title": "I know campaign",
@@ -8270,7 +7413,7 @@ window.CAMPAIGNS_DATA = [
     "age": "22d",
     "formattedAge": "22 days ago",
     "fundedAt": "2026-08-21T08:52:11.147Z",
-    "sortTimestamp": 1785502826885,
+    "sortTimestamp": 1785505047637,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Clip Asspizza. Get Paid.",
@@ -8280,10 +7423,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip Asspizza. Get Paid. | Official Whop Hub & Assets",
         "url": "https://whop.com/lunch-break-freestyle-clips"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1v2cU7nU0bj3TmpFX1AZeDViOPMhkMDqv/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -8306,12 +7445,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_ft9uFz4B9uqiO/1785453883400.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 2066,
+    "creators": 2071,
     "agency": "Reach",
     "age": "22d",
     "formattedAge": "22 days ago",
     "fundedAt": "2026-08-04T15:28:29.734Z",
-    "sortTimestamp": 1785502826878,
+    "sortTimestamp": 1785505047630,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Double Coverage Podcast | Dedicated Account | $20,000 Clipping Campaign",
@@ -8328,7 +7467,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 10770,
+    "spent": 10771,
     "total": 20000,
     "count": "2K",
     "cpm": 2,
@@ -8348,7 +7487,7 @@ window.CAMPAIGNS_DATA = [
     "age": "23d",
     "formattedAge": "23 days ago",
     "fundedAt": "2026-08-10T23:02:00.004Z",
-    "sortTimestamp": 1785416426888,
+    "sortTimestamp": 1785418647640,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "Bluffs X Syndicate",
@@ -8383,7 +7522,7 @@ window.CAMPAIGNS_DATA = [
     "age": "23d",
     "formattedAge": "23 days ago",
     "fundedAt": "2026-05-01T15:07:37.930Z",
-    "sortTimestamp": 1785416426887,
+    "sortTimestamp": 1785418647639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY$$] USE VIRAL TRACK IN VIDEOS",
@@ -8407,6 +7546,78 @@ window.CAMPAIGNS_DATA = [
     "key": "Duetti::[EASY$$] USE VIRAL TRACK IN VIDEOS"
   },
   {
+    "id": "be7e0f12-620f-4a86-9b86-9debe1b4847c",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "syndicate-creators",
+    "whop_route": "syndicate-creators",
+    "whopUrl": "https://whop.com/syndicate-creators",
+    "thumbnail": "https://cdn.contentrewards.com/user_9qgPz0YY8Pr5Z/1786200033337.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
+    "bannerImageUrl": "",
+    "creators": 120,
+    "agency": "Syndicate",
+    "age": "23d",
+    "formattedAge": "23 days ago",
+    "fundedAt": "2026-08-03T23:22:45.633Z",
+    "sortTimestamp": 1785418647635,
+    "category": "Entertainment",
+    "contentType": "UGC",
+    "title": "CocoHealth X Syndicate",
+    "description": "Make easy money posting slideshow content for Coco, the AI health companion app blowing up right now. You'll create AI UGC photo slideshows that we give you, no camera needed. Full video course + Success Guide with ready-to-use prompts provided. Start today, $1 per 1K views, $600 max per video.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "CocoHealth X Syndicate | Official Whop Hub & Assets",
+        "url": "https://whop.com/syndicate-creators"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 462,
+    "total": 4772,
+    "count": "48",
+    "cpm": 1,
+    "key": "Syndicate::CocoHealth X Syndicate"
+  },
+  {
+    "id": "14c23ece-2b4a-423e-bd2a-29e7052602e2",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "duetti",
+    "whop_route": "duetti",
+    "whopUrl": "https://whop.com/duetti",
+    "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1785365131005.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
+    "bannerImageUrl": "",
+    "creators": 118,
+    "agency": "Duetti",
+    "age": "23d",
+    "formattedAge": "23 days ago",
+    "fundedAt": "2026-08-10T06:17:27.916Z",
+    "sortTimestamp": 1785418647635,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "[EASY $$] USE VIRAL FRENCH TRACK",
+    "description": "Use viral French track in videos for quick $$$$",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "[EASY $$] USE VIRAL FRENCH TRACK | Official Whop Hub & Assets",
+        "url": "https://whop.com/duetti"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 717,
+    "total": 1000,
+    "count": "60",
+    "cpm": 1.25,
+    "key": "Duetti::[EASY $$] USE VIRAL FRENCH TRACK"
+  },
+  {
     "id": "a2e7084f-d0af-4023-b60e-c1052220f515",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "aios-clippers-hub",
@@ -8420,7 +7631,7 @@ window.CAMPAIGNS_DATA = [
     "age": "23d",
     "formattedAge": "23 days ago",
     "fundedAt": "2026-07-20T22:27:46.063Z",
-    "sortTimestamp": 1785416426883,
+    "sortTimestamp": 1785418647635,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Clip the aiOS founder story — $1 per 1K views",
@@ -8450,14 +7661,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "duetti",
     "whopUrl": "https://whop.com/duetti",
     "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1785364597983.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 258,
+    "creators": 262,
     "agency": "Duetti",
     "age": "23d",
     "formattedAge": "23 days ago",
-    "fundedAt": "2026-06-27T08:02:20.891Z",
-    "sortTimestamp": 1785416426883,
+    "fundedAt": "2026-07-15T02:42:40.913Z",
+    "sortTimestamp": 1785418647635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] USE VIRAL CAPCUT TEMPLATE",
@@ -8474,7 +7685,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 761,
     "total": 1000,
-    "count": "187",
+    "count": "188",
     "cpm": 1.25,
     "key": "Duetti::[EASY $$] USE VIRAL CAPCUT TEMPLATE"
   },
@@ -8487,12 +7698,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_ga3SRtizZ8C5n/1785362407739.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 323,
+    "creators": 325,
     "agency": "Rendr Studios",
     "age": "23d",
     "formattedAge": "23 days ago",
     "fundedAt": "2026-08-07T16:12:04.127Z",
-    "sortTimestamp": 1785416426882,
+    "sortTimestamp": 1785418647634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Antoine Sallis Clipping | $1.50 CPM | All Platforms",
@@ -8502,26 +7713,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Antoine Sallis Clipping | $1.50 CPM | All Platforms | Official Whop Hub & Assets",
         "url": "https://whop.com/antoine-sallis-clipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1Ie4mtgF76DO-n37PUFCupkdjI65DyUSL?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/981kxofartswg4z33z2te/ANQD0EBGPEUNmuPWOcaRidU?rlkey=qm5xrvhyawnz0shhox5nxi9tl"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fi/taoluec82wbhsgye9pav3/Antoine-Speaking-Points-For-Editing.mov?rlkey=5zv4edffn7ekkezw2fro6l4h0"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/981kxofartswg4z33z2te/ANQD0EBGPEUNmuPWOcaRidU?rlkey=qm5xrvhyawnz0shhox5nxi9tl&amp;st=o6gmnm38&amp;dl=0"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fi/taoluec82wbhsgye9pav3/Antoine-Speaking-Points-For-Editing.mov?rlkey=5zv4edffn7ekkezw2fro6l4h0&amp;st=pc96abbg&amp;dl=0"
       }
     ],
     "platforms": [
@@ -8537,133 +7728,20 @@ window.CAMPAIGNS_DATA = [
     "key": "Rendr Studios::Antoine Sallis Clipping | $1.50 CPM | All Platforms"
   },
   {
-    "id": "c1f346ab-eb92-4fb9-b75d-0c01baf45c48",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "nolanharper",
-    "whop_route": "nolanharper",
-    "whopUrl": "https://whop.com/nolanharper",
-    "thumbnail": "https://cdn.contentrewards.com/user_XRqkYQFRhT39j/1784903151643.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
-    "bannerImageUrl": "",
-    "creators": 719,
-    "agency": "Clips and Views",
-    "age": "23d",
-    "formattedAge": "23 days ago",
-    "fundedAt": "2026-07-11T00:15:18.730Z",
-    "sortTimestamp": 1785416426882,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Swaggy C | Clipping Campaign",
-    "description": "This campaign is designed to expand the reach of Chris \"Swaggy C\" Williams content, grow awareness of his personal brand, and drive targeted traffic to his platforms. Clippers should prioritize engaging, high-retention moments that showcase Carey’s expertise, perspective, and personality while appealing to entrepreneurs, business owners, and growth-minded professionals.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Swaggy C | Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/nolanharper"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1_sDXW3QKkOCwDF4gUamXqwDRYGYrbm_zvFCs9B8GTA8/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 697,
-    "total": 1500,
-    "count": "214",
-    "cpm": 1.5,
-    "key": "Clips and Views::Swaggy C | Clipping Campaign"
-  },
-  {
-    "id": "be7e0f12-620f-4a86-9b86-9debe1b4847c",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "syndicate-creators",
-    "whop_route": "syndicate-creators",
-    "whopUrl": "https://whop.com/syndicate-creators",
-    "thumbnail": "https://cdn.contentrewards.com/user_9qgPz0YY8Pr5Z/1786200033337.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
-    "bannerImageUrl": "",
-    "creators": 120,
-    "agency": "Syndicate",
-    "age": "23d",
-    "formattedAge": "23 days ago",
-    "fundedAt": "2026-08-03T23:22:45.633Z",
-    "sortTimestamp": 1785416426882,
-    "category": "Entertainment",
-    "contentType": "UGC",
-    "title": "CocoHealth X Syndicate",
-    "description": "Make easy money posting slideshow content for Coco, the AI health companion app blowing up right now. You'll create AI UGC photo slideshows that we give you, no camera needed. Full video course + Success Guide with ready-to-use prompts provided. Start today, $1 per 1K views, $600 max per video.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "CocoHealth X Syndicate | Official Whop Hub & Assets",
-        "url": "https://whop.com/syndicate-creators"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 456,
-    "total": 4772,
-    "count": "48",
-    "cpm": 1,
-    "key": "Syndicate::CocoHealth X Syndicate"
-  },
-  {
-    "id": "14c23ece-2b4a-423e-bd2a-29e7052602e2",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "duetti",
-    "whop_route": "duetti",
-    "whopUrl": "https://whop.com/duetti",
-    "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1785365131005.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
-    "bannerImageUrl": "",
-    "creators": 118,
-    "agency": "Duetti",
-    "age": "23d",
-    "formattedAge": "23 days ago",
-    "fundedAt": "2026-08-10T06:17:27.916Z",
-    "sortTimestamp": 1785416426882,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "[EASY $$] USE VIRAL FRENCH TRACK",
-    "description": "Use viral French track in videos for quick $$$$",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "[EASY $$] USE VIRAL FRENCH TRACK | Official Whop Hub & Assets",
-        "url": "https://whop.com/duetti"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 716,
-    "total": 1000,
-    "count": "60",
-    "cpm": 1.25,
-    "key": "Duetti::[EASY $$] USE VIRAL FRENCH TRACK"
-  },
-  {
     "id": "1219c831-ee79-4eff-9696-a6f2ac562c3b",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "propaganda-clippers",
     "whop_route": "propaganda-clippers",
     "whopUrl": "https://whop.com/propaganda-clippers",
     "thumbnail": "https://cdn.contentrewards.com/user_gg1C1FYjQUufe/1785353968439.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
     "bannerImageUrl": "",
-    "creators": 240,
+    "creators": 176,
     "agency": "Propaganda",
     "age": "23d",
     "formattedAge": "23 days ago",
-    "fundedAt": "2026-08-05T07:19:18.637Z",
-    "sortTimestamp": 1785416426880,
+    "fundedAt": "2026-08-21T21:46:27.362Z",
+    "sortTimestamp": 1785418647632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Rex Stax Clipping | $5,000 budget | $0.85 CPM",
@@ -8673,22 +7751,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Rex Stax Clipping | $5,000 budget | $0.85 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1FpEkM-lKwfoXCJPbsszhV24u4dBuy22pqJgivSTEFBo/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1jA5yn93GibJzLAGNTa88f6KhP07sEDUI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1C_cIK3mdXuVRiSIXx4gSge3qtdQPT00T?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1jA5yn93GibJzLAGNTa88f6KhP07sEDUI/edit?usp=sharing&amp;ouid=109443333440466067244&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -8711,12 +7773,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_PcBsd87dJsHxp/1785348974424.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 649,
+    "creators": 650,
     "agency": "Clipbait",
     "age": "23d",
     "formattedAge": "23 days ago",
     "fundedAt": "2026-08-04T15:07:10.794Z",
-    "sortTimestamp": 1785416426880,
+    "sortTimestamp": 1785418647632,
     "category": "Product",
     "contentType": "UGC",
     "title": "Matt Hazen Clipping | $8431 Budget | $1.50 CPM",
@@ -8726,10 +7788,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Matt Hazen Clipping | $8431 Budget | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipbait-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10uxz7-AWt8QOSZo6WIACYduVeRg9y_HqIXCA3ZtvNJo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8750,12 +7808,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1785270697047.jpeg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 394,
+    "creators": 395,
     "agency": "Duetti",
     "age": "24d",
     "formattedAge": "24 days ago",
     "fundedAt": "2026-08-09T00:14:10.522Z",
-    "sortTimestamp": 1785330026882,
+    "sortTimestamp": 1785332247635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] MEXICAN VIRAL TREND",
@@ -8779,6 +7837,43 @@ window.CAMPAIGNS_DATA = [
     "key": "Duetti::[EASY $$] MEXICAN VIRAL TREND"
   },
   {
+    "id": "c1f346ab-eb92-4fb9-b75d-0c01baf45c48",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "nolanharper",
+    "whop_route": "nolanharper",
+    "whopUrl": "https://whop.com/nolanharper",
+    "thumbnail": "https://cdn.contentrewards.com/user_XRqkYQFRhT39j/1784903151643.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2423447/image/bots/2026-08-08/3e4b1419-0a0e-4af1-8458-0f5f1bb42886.png",
+    "bannerImageUrl": "",
+    "creators": 719,
+    "agency": "Clips and Views",
+    "age": "24d",
+    "formattedAge": "24 days ago",
+    "fundedAt": "2026-07-11T00:15:18.730Z",
+    "sortTimestamp": 1785332247634,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Swaggy C | Clipping Campaign",
+    "description": "This campaign is designed to expand the reach of Chris \"Swaggy C\" Williams content, grow awareness of his personal brand, and drive targeted traffic to his platforms. Clippers should prioritize engaging, high-retention moments that showcase Carey’s expertise, perspective, and personality while appealing to entrepreneurs, business owners, and growth-minded professionals.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Swaggy C | Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/nolanharper"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 701,
+    "total": 1500,
+    "count": "214",
+    "cpm": 1.5,
+    "key": "Clips and Views::Swaggy C | Clipping Campaign"
+  },
+  {
     "id": "e715e097-ded7-46ed-a81a-6a7a2d613955",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "support-jimmy-lai-clips-cd",
@@ -8792,7 +7887,7 @@ window.CAMPAIGNS_DATA = [
     "age": "24d",
     "formattedAge": "24 days ago",
     "fundedAt": "2026-07-29T19:53:48.354Z",
-    "sortTimestamp": 1785330026880,
+    "sortTimestamp": 1785332247632,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "#FreeJimmyLai Clips",
@@ -8809,7 +7904,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 2889,
+    "spent": 2899,
     "total": 10000,
     "count": "176",
     "cpm": 5,
@@ -8824,12 +7919,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_n4L97Ceh7WK5F/1785271246861.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "",
-    "creators": 262,
+    "creators": 263,
     "agency": "ClipHaus",
     "age": "24d",
     "formattedAge": "24 days ago",
     "fundedAt": "2026-08-06T19:32:17.542Z",
-    "sortTimestamp": 1785330026880,
+    "sortTimestamp": 1785332247632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "ATTACK OF THE KILLER TOMATOES",
@@ -8839,14 +7934,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ATTACK OF THE KILLER TOMATOES | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1awid_RSVina5x6IxAZndb62CqtEFKlQkksLsyz5ndJc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1TOkpy53hyTdC16J1gWYe5tdbPx6zL_0m?usp=sharing"
       }
     ],
     "platforms": [
@@ -8854,9 +7941,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 4690,
+    "spent": 4691,
     "total": 6000,
-    "count": "987",
+    "count": "988",
     "cpm": 1,
     "key": "ClipHaus::ATTACK OF THE KILLER TOMATOES"
   },
@@ -8874,7 +7961,7 @@ window.CAMPAIGNS_DATA = [
     "age": "24d",
     "formattedAge": "24 days ago",
     "fundedAt": "2026-08-08T03:34:58.857Z",
-    "sortTimestamp": 1785330026879,
+    "sortTimestamp": 1785332247631,
     "category": "Other",
     "contentType": "Clipping",
     "title": "INDEPENDENT VOTER NEWS",
@@ -8884,18 +7971,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "INDEPENDENT VOTER NEWS | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LBuH1R4mwMeaVknpt48gNKiZu0Bao8T7bXD6dwhvYdE/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/9iv6sdg0tgc43ufqdfsog/AG3ldeesPHfMkcteLWVrdjk?rlkey=yqonf6vm3bmonf658d4fjh0qr"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/9iv6sdg0tgc43ufqdfsog/AG3ldeesPHfMkcteLWVrdjk?rlkey=yqonf6vm3bmonf658d4fjh0qr&amp;st=7lj9hmx7&amp;e=2&amp;dl=0"
       }
     ],
     "platforms": [
@@ -8903,9 +7978,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 4070,
+    "spent": 4071,
     "total": 15000,
-    "count": "518",
+    "count": "519",
     "cpm": 2,
     "key": "ClipHaus::INDEPENDENT VOTER NEWS"
   },
@@ -8923,7 +7998,7 @@ window.CAMPAIGNS_DATA = [
     "age": "25d",
     "formattedAge": "25 days ago",
     "fundedAt": null,
-    "sortTimestamp": 1785243626888,
+    "sortTimestamp": 1785245847641,
     "category": "Music",
     "contentType": "Clipping",
     "title": "\"DIVA!\" MUSIC MARKETING CAMPAIGN",
@@ -8955,7 +8030,7 @@ window.CAMPAIGNS_DATA = [
     "age": "25d",
     "formattedAge": "25 days ago",
     "fundedAt": "2026-08-20T18:39:42.643Z",
-    "sortTimestamp": 1785243626884,
+    "sortTimestamp": 1785245847636,
     "category": "Product",
     "contentType": "UGC",
     "title": "Virality UGC",
@@ -8965,10 +8040,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Virality UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/virality-37"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://glen-beam-606.notion.site/Virality-UGC-Creator-Onboarding-39832e96be6e804b95dbcfdccfd1d963"
       }
     ],
     "platforms": [
@@ -8996,7 +8067,7 @@ window.CAMPAIGNS_DATA = [
     "age": "25d",
     "formattedAge": "25 days ago",
     "fundedAt": "2026-06-29T16:27:15.324Z",
-    "sortTimestamp": 1785243626883,
+    "sortTimestamp": 1785245847635,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Ismail Vali Clips",
@@ -9006,10 +8077,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ismail Vali Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/cliptic-io"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15D9jHcwBFayiQu-zy0sGsrH3t_4-w7M2pBQz7b0mZtY/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -9037,7 +8104,7 @@ window.CAMPAIGNS_DATA = [
     "age": "26d",
     "formattedAge": "26 days ago",
     "fundedAt": "2026-08-04T01:24:21.704Z",
-    "sortTimestamp": 1785157226882,
+    "sortTimestamp": 1785159447634,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Clips podcast y hablando - Instagram/Tiktok/Youtube",
@@ -9067,14 +8134,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipbait-clippers",
     "whopUrl": "https://whop.com/clipbait-clippers",
     "thumbnail": "https://cdn.contentrewards.com/user_PcBsd87dJsHxp/1785008794442.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20867656/image/bots/2025-12-30/70916a89-5450-4208-a416-b733113c97c8.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27814467/image/bots/2026-05-25/bc5a1ead-3e8b-436d-a477-9527da9f637f.jpg",
     "bannerImageUrl": "",
-    "creators": 102,
+    "creators": 351,
     "agency": "Clipbait",
     "age": "27d",
     "formattedAge": "27 days ago",
-    "fundedAt": "2026-01-24T01:11:57.445Z",
-    "sortTimestamp": 1785070826886,
+    "fundedAt": "2026-05-25T19:22:06.016Z",
+    "sortTimestamp": 1785073047640,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "James O'Keefe Clipping | $7080 Budget | $1.50 CPM",
@@ -9084,10 +8151,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "James O'Keefe Clipping | $7080 Budget | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipbait-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/114aD7V3O89xf2JGWBke3SR_mfTAyrrBpM0yVDyVFZ8c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9095,48 +8158,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 6326,
+    "spent": 6639,
     "total": 7081,
     "count": "134",
     "cpm": 1.5,
     "key": "Clipbait::James O'Keefe Clipping | $7080 Budget | $1.50 CPM"
-  },
-  {
-    "id": "0b9b56c5-e6cb-4916-9cc7-fbba17c8d8e3",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "casshyvee",
-    "whop_route": "casshyvee",
-    "whopUrl": "https://whop.com/casshyvee",
-    "thumbnail": "https://cdn.contentrewards.com/user_ZcLFHHTPgiDsK/1784944432931.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25711713/image/bots/2026-04-21/44e071c2-bdbd-4139-966c-5984fe0b4413.jpg",
-    "bannerImageUrl": "",
-    "creators": 31,
-    "agency": "casshyvee clipping community",
-    "age": "28d",
-    "formattedAge": "4 weeks ago",
-    "fundedAt": "2026-05-19T22:05:13.992Z",
-    "sortTimestamp": 1784984426887,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "casshyvee",
-    "description": "these clips are to be funny clips , rizzing clips & all clips to make Vee look good. also these clips are to be posted on pages of ONLY of Vee. Do not add clips to pages with other people on it. make sure the clips are engaging. DO NOT POST AI GENERATED CLIPS YOU WILL BE BANNED.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "casshyvee | Official Whop Hub & Assets",
-        "url": "https://whop.com/casshyvee"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 38,
-    "total": 1000,
-    "count": "232",
-    "cpm": 1,
-    "key": "casshyvee clipping community::casshyvee"
   },
   {
     "id": "9ee0c3ec-d854-4612-8146-5ec8d2eab43f",
@@ -9147,12 +8173,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_j67WJ8SEfTKIE/1784905646260.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8213453/image/bots/2025-11-12/4b386a2f-c2b2-4884-ab62-58c9292abaed",
     "bannerImageUrl": "",
-    "creators": 57,
+    "creators": 60,
     "agency": "Duetti",
     "age": "28d",
     "formattedAge": "4 weeks ago",
     "fundedAt": "2026-08-22T07:58:19.433Z",
-    "sortTimestamp": 1784984426886,
+    "sortTimestamp": 1784986647639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] VIRAL FRENCH TRACK",
@@ -9176,20 +8202,57 @@ window.CAMPAIGNS_DATA = [
     "key": "Duetti::[EASY $$] VIRAL FRENCH TRACK"
   },
   {
+    "id": "0b9b56c5-e6cb-4916-9cc7-fbba17c8d8e3",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "casshyvee",
+    "whop_route": "casshyvee",
+    "whopUrl": "https://whop.com/casshyvee",
+    "thumbnail": "https://cdn.contentrewards.com/user_ZcLFHHTPgiDsK/1784944432931.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25711713/image/bots/2026-04-21/44e071c2-bdbd-4139-966c-5984fe0b4413.jpg",
+    "bannerImageUrl": "",
+    "creators": 31,
+    "agency": "casshyvee clipping community",
+    "age": "28d",
+    "formattedAge": "4 weeks ago",
+    "fundedAt": "2026-05-19T22:05:13.992Z",
+    "sortTimestamp": 1784986647639,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "casshyvee",
+    "description": "these clips are to be funny clips , rizzing clips & all clips to make Vee look good. also these clips are to be posted on pages of ONLY of Vee. Do not add clips to pages with other people on it. make sure the clips are engaging. DO NOT POST AI GENERATED CLIPS YOU WILL BE BANNED.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "casshyvee | Official Whop Hub & Assets",
+        "url": "https://whop.com/casshyvee"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 38,
+    "total": 1000,
+    "count": "232",
+    "cpm": 1,
+    "key": "casshyvee clipping community::casshyvee"
+  },
+  {
     "id": "276d717b-98a8-4517-bb39-3f53b4baf97a",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "mcmiller-games-8c",
     "whop_route": "mcmiller-games-8c",
     "whopUrl": "https://whop.com/mcmiller-games-8c",
     "thumbnail": "https://cdn.contentrewards.com/user_frzTA1DtaX1ss/1784942421709.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3383565/image/bots/2025-10-14/64fc64eb-c541-4e1d-b60e-aa4276602bb0.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12905747/image/access_passes/2026-08-07/99b09c82-bef9-4d90-8d09-0d1a93c97c34.png",
     "bannerImageUrl": "",
-    "creators": 22,
+    "creators": 95,
     "agency": "McMiLLER Games",
     "age": "28d",
     "formattedAge": "4 weeks ago",
-    "fundedAt": "2026-04-08T01:17:52.376Z",
-    "sortTimestamp": 1784984426885,
+    "fundedAt": "2026-08-05T18:49:08.304Z",
+    "sortTimestamp": 1784986647637,
     "category": "Product",
     "contentType": "Clipping",
     "title": "McMiLLER's Campaign",
@@ -9219,14 +8282,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "vyronclippingwhop",
     "whopUrl": "https://whop.com/vyronclippingwhop",
     "thumbnail": "https://cdn.contentrewards.com/user_R2PatFaaAlWLa/1784661452683.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8634820/image/bots/2026-06-04/ca6f8a66-ed7a-483d-b6f3-2b844bb92729.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25456862/image/bots/2026-04-15/b633f90a-934b-4eb1-8a96-8cfd8dd94905.png",
     "bannerImageUrl": "",
-    "creators": 66,
+    "creators": 100,
     "agency": "Vyron",
     "age": "28d",
     "formattedAge": "4 weeks ago",
-    "fundedAt": "2026-08-19T17:19:25.184Z",
-    "sortTimestamp": 1784984426884,
+    "fundedAt": "2026-05-23T13:10:42.597Z",
+    "sortTimestamp": 1784986647636,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "Keymagine {Language learning slides}",
@@ -9236,14 +8299,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Keymagine {Language learning slides} | Official Whop Hub & Assets",
         "url": "https://whop.com/vyronclippingwhop"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/16j7R_bCdizLJh7r4iSIGa8eRBLD6lWZi"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1UwNJqsqjow0TdEwgKRLraGWuQXGcg8-AKSHECH6_hg0/edit?usp=drive_link"
       }
     ],
     "platforms": [
@@ -9271,7 +8326,7 @@ window.CAMPAIGNS_DATA = [
     "age": "28d",
     "formattedAge": "4 weeks ago",
     "fundedAt": "2026-08-05T14:51:47.618Z",
-    "sortTimestamp": 1784984426880,
+    "sortTimestamp": 1784986647632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "PGF Clipping | $5K Budget | $0.70 CPM",
@@ -9281,22 +8336,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PGF Clipping | $5K Budget | $0.70 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1W8yvBhoSTnfmJOZ-HK2cb6Xib9yah6Ew?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1-qS4Okf6Jx35HZbycG6aeY7okRMDZ4Cs/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1W8yvBhoSTnfmJOZ-HK2cb6Xib9yah6Ew"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1-qS4Okf6Jx35HZbycG6aeY7okRMDZ4Cs/edit?usp=sharing&amp;ouid=113983168381726073330&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -9304,7 +8343,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 2578,
+    "spent": 2579,
     "total": 5000,
     "count": "189",
     "cpm": 0.7,
@@ -9324,7 +8363,7 @@ window.CAMPAIGNS_DATA = [
     "age": "29d",
     "formattedAge": "29 days ago",
     "fundedAt": "2026-04-28T21:18:55.678Z",
-    "sortTimestamp": 1784898026888,
+    "sortTimestamp": 1784900247641,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "(DE) Tattoo Schule Clipping",
@@ -9334,10 +8373,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "(DE) Tattoo Schule Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/tattoo-fundamentals-kurs"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1AnWXt8f1JsmbC36u5EEvP_b0D3vGfvJe?usp=sharing"
       }
     ],
     "platforms": [
@@ -9350,45 +8385,6 @@ window.CAMPAIGNS_DATA = [
     "count": "5",
     "cpm": 2,
     "key": "Tattoo Schule::(DE) Tattoo Schule Clipping"
-  },
-  {
-    "id": "9ace945a-1aae-4a99-99ae-6c223a255bb9",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "flood-division-music",
-    "whop_route": "flood-division-music",
-    "whopUrl": "https://whop.com/flood-division-music",
-    "thumbnail": "https://cdn.contentrewards.com/user_4raHuIOiIjmP0/1784851531119.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_7212632/image/bots/2026-03-25/009804c1-7c5f-4979-b0a6-342c16aef25b.jpeg",
-    "bannerImageUrl": "",
-    "creators": 29,
-    "agency": "Flood Division",
-    "age": "29d",
-    "formattedAge": "29 days ago",
-    "fundedAt": "2026-04-23T10:35:14.089Z",
-    "sortTimestamp": 1784898026886,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK",
-    "description": "Get paid per view to post the viral music trend for Kuala's song \"bake shop\", which has 160K+ posts, on Tiktok. We're looking for UGC posts that follow the specific trend - read Google Doc for full details.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK | Official Whop Hub & Assets",
-        "url": "https://whop.com/flood-division-music"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1xD0ZhMZlcP2oI1WFaGAAj8wIfKhG2KmY2J4xJgRj_Fo/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 63,
-    "total": 1000,
-    "count": "168",
-    "cpm": 1,
-    "key": "Flood Division::Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK"
   },
   {
     "id": "82314cbe-ba22-4a26-b8ac-53362c1f2d39",
@@ -9404,7 +8400,7 @@ window.CAMPAIGNS_DATA = [
     "age": "29d",
     "formattedAge": "29 days ago",
     "fundedAt": "2026-07-14T18:40:09.093Z",
-    "sortTimestamp": 1784898026886,
+    "sortTimestamp": 1784900247639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Michael Gene Clipping [$500 Payout]",
@@ -9414,14 +8410,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Michael Gene Clipping [$500 Payout] | Official Whop Hub & Assets",
         "url": "https://whop.com/saas-profits"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1AmKLk0LyPUmM1Wu7T_7PYHfL7prJoZvVPThneXijZkc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1F9iB_W4Lsggvt0cH0uZT3BLuFkeG2Ete"
       }
     ],
     "platforms": [
@@ -9435,6 +8423,41 @@ window.CAMPAIGNS_DATA = [
     "key": "Dreaming Digital::Michael Gene Clipping [$500 Payout]"
   },
   {
+    "id": "9ace945a-1aae-4a99-99ae-6c223a255bb9",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "flood-division-music",
+    "whop_route": "flood-division-music",
+    "whopUrl": "https://whop.com/flood-division-music",
+    "thumbnail": "https://cdn.contentrewards.com/user_4raHuIOiIjmP0/1784851531119.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26375379/image/access_passes/2026-07-16/4097bf05-39a1-4c84-90b8-9d00e2879625.jpeg",
+    "bannerImageUrl": "",
+    "creators": 42,
+    "agency": "Flood Division",
+    "age": "29d",
+    "formattedAge": "29 days ago",
+    "fundedAt": "2026-08-14T21:48:38.873Z",
+    "sortTimestamp": 1784900247638,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK",
+    "description": "Get paid per view to post the viral music trend for Kuala's song \"bake shop\", which has 160K+ posts, on Tiktok. We're looking for UGC posts that follow the specific trend - read Google Doc for full details.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK | Official Whop Hub & Assets",
+        "url": "https://whop.com/flood-division-music"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 63,
+    "total": 1000,
+    "count": "168",
+    "cpm": 1,
+    "key": "Flood Division::Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK"
+  },
+  {
     "id": "c8ff5311-6229-423c-a58f-4c2c056e98a4",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clipup-official",
@@ -9443,12 +8466,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_lpuWrgi6jp9fs/1784769623639.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28911249/image/bots/2026-06-26/4fcf426c-d079-4865-af48-89901f398847.png",
     "bannerImageUrl": "",
-    "creators": 138,
+    "creators": 139,
     "agency": "ClipUp Official",
     "age": "29d",
     "formattedAge": "29 days ago",
     "fundedAt": "2026-08-12T06:30:01.950Z",
-    "sortTimestamp": 1784898026882,
+    "sortTimestamp": 1784900247634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Omoggle Clipping",
@@ -9458,10 +8481,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Omoggle Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipup-official"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1cAq4FqEF5wmxFKJv8EZBiTsfa4lf2OIc/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -9469,52 +8488,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 10293,
+    "spent": 10294,
     "total": 12000,
     "count": "5K",
     "cpm": 1,
     "key": "ClipUp Official::Omoggle Clipping"
-  },
-  {
-    "id": "1eac2183-9e1b-46b6-a15c-5cc5ad7e8348",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-track-access",
-    "whop_route": "clip-track-access",
-    "whopUrl": "https://whop.com/clip-track-access",
-    "thumbnail": "https://cdn.contentrewards.com/user_0PKEflecx21Kn/1784784096100.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26246786/image/bots/2026-07-23/94387398-623b-477b-8968-59c056555bbf",
-    "bannerImageUrl": "",
-    "creators": 452,
-    "agency": "Clip Track",
-    "age": "29d",
-    "formattedAge": "29 days ago",
-    "fundedAt": "2026-07-20T17:19:14.741Z",
-    "sortTimestamp": 1784898026881,
-    "category": "Product",
-    "contentType": "Clipping",
-    "title": "Elo Cooking Slideshows Campaign",
-    "description": "ELO Food Coaching is your smart cooking companion that helps you decide what to cook using the ingredients you already have at home.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Elo Cooking Slideshows Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-track-access"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1bnUf9JbuD4C3eFpmHXrQKoWo1kNeSiPNPfnFRyxsvkQ/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 2717,
-    "total": 3750,
-    "count": "92",
-    "cpm": 1,
-    "key": "Clip Track::Elo Cooking Slideshows Campaign"
   },
   {
     "id": "6f4f8d32-3acb-4135-ac84-fda16bdac73f",
@@ -9530,7 +8508,7 @@ window.CAMPAIGNS_DATA = [
     "age": "29d",
     "formattedAge": "29 days ago",
     "fundedAt": "2026-06-23T09:36:15.629Z",
-    "sortTimestamp": 1784898026880,
+    "sortTimestamp": 1784900247633,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Daniel Bitton Official Clipping",
@@ -9540,10 +8518,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Daniel Bitton Official Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Daniel-Bitton-Official-Clipping-3a33c5a3631680deb7b4c94a46ddd4b9?pvs=73"
       }
     ],
     "platforms": [
@@ -9551,68 +8525,36 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 1311,
+    "spent": 1315,
     "total": 5000,
     "count": "1K",
     "cpm": 1,
     "key": "Content Rewards::Daniel Bitton Official Clipping"
   },
   {
-    "id": "",
+    "id": "1eac2183-9e1b-46b6-a15c-5cc5ad7e8348",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
+    "whopProductRoute": "clip-track-access",
+    "whop_route": "clip-track-access",
+    "whopUrl": "https://whop.com/clip-track-access",
+    "thumbnail": "https://cdn.contentrewards.com/user_0PKEflecx21Kn/1784784096100.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26246786/image/bots/2026-07-23/94387398-623b-477b-8968-59c056555bbf",
     "bannerImageUrl": "",
-    "creators": 71,
-    "agency": "Propaganda",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": null,
-    "sortTimestamp": 1784811626891,
-    "category": "Creator Collab Program",
-    "contentType": "UGC",
-    "title": "internal cross-org test",
-    "description": "Propaganda Creator Collab Program clipping pool.",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 15000,
-    "total": 16000,
-    "count": "71",
-    "cpm": 0.2,
-    "key": "Propaganda::internal cross-org test"
-  },
-  {
-    "id": "7f144a1d-eaef-428d-859b-62129d25146c",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "creator-casino-7b",
-    "whop_route": "creator-casino-7b",
-    "whopUrl": "https://whop.com/creator-casino-7b",
-    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784754083491.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
-    "bannerImageUrl": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784754083491.png",
-    "creators": 1545,
-    "agency": "Clip Farm",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-21T21:34:20.401Z",
-    "sortTimestamp": 1784811626891,
-    "category": "Technology",
+    "creators": 453,
+    "agency": "Clip Track",
+    "age": "29d",
+    "formattedAge": "29 days ago",
+    "fundedAt": "2026-07-20T17:19:14.741Z",
+    "sortTimestamp": 1784900247633,
+    "category": "Product",
     "contentType": "Clipping",
-    "title": "Trailblazers Podcast",
-    "description": "Cut episodes of the Trailblazers Podcast into short, punchy clips and post them across TikTok, Instagram, and YouTube for an CPM of $1.00 per 1k views. All guidelines and resources are linked in each campaign below.",
+    "title": "Elo Cooking Slideshows Campaign",
+    "description": "ELO Food Coaching is your smart cooking companion that helps you decide what to cook using the ingredients you already have at home.",
     "requirements": [],
     "resources": [
       {
-        "name": "Trailblazers Podcast | Official Whop Hub & Assets",
-        "url": "https://whop.com/creator-casino-7b"
+        "name": "Elo Cooking Slideshows Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-track-access"
       }
     ],
     "platforms": [
@@ -9620,117 +8562,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 1710,
-    "total": 3000,
-    "count": "2K",
+    "spent": 2722,
+    "total": 3750,
+    "count": "92",
     "cpm": 1,
-    "key": "Clip Farm::Trailblazers Podcast"
-  },
-  {
-    "id": "c524252f-50fe-42af-974f-abe19d7c057a",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "coingroup",
-    "whop_route": "coingroup",
-    "whopUrl": "https://whop.com/coingroup",
-    "thumbnail": "https://cdn.contentrewards.com/user_sCTipsThhtunr/1783578210204.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17312071/image/bots/2025-10-02/d15a96db-5ace-4812-9779-33231d5b888c.png",
-    "bannerImageUrl": "",
-    "creators": 44,
-    "agency": "Coin Group Media",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-24T02:15:25.716Z",
-    "sortTimestamp": 1784811626890,
-    "category": "Logo",
-    "contentType": "Clipping",
-    "title": "Earn with our Logo (Darts Content)",
-    "description": "Clip for us and earn $1000 (Only Darts content)",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Earn with our Logo (Darts Content) | Official Whop Hub & Assets",
-        "url": "https://whop.com/coingroup"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1tcxpsQljJ7o-Yh8AUGvOV1ZJ9Ax4oSb7?usp=sharingusp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1CRHLv4MptABnbuovMFmv5OSb0d1Skigr?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 1000,
-    "count": "44",
-    "cpm": 0.06,
-    "key": "Coin Group Media::Earn with our Logo (Darts Content)"
-  },
-  {
-    "id": "4253e64f-2970-475e-98cd-09ef3a4c6f30",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "biolongevity-creators",
-    "whop_route": "biolongevity-creators",
-    "whopUrl": "https://whop.com/biolongevity-creators",
-    "thumbnail": "https://cdn.contentrewards.com/user_KXd3Wi1P8HKGX/1784221362283.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-10-18/f25c3123-2d75-46c1-9c46-e9c49ddcc049.png",
-    "bannerImageUrl": "",
-    "creators": 214,
-    "agency": "Next Wave Viral | ClipFarm",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-13T16:41:18.216Z",
-    "sortTimestamp": 1784811626890,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "The Real Wolf Of Wall Street Clipping Campaign",
-    "description": "The Real Wolf of Wall Street is out now on Paramount+. The true story behind the movie, straight from the people who lived it. Clip the show, exclusive cast-member BTS and podcast moments from The Real Wolf of Wall Street (now on Paramount+) and get paid $1 per 1,000 views.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "The Real Wolf Of Wall Street Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/biolongevity-creators"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1J6L_QeV8Wu1apzlQPa6Sh6xM9GEq1HcA/view"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1dJzhREax2vzrfl_c58V6x3ep-INs2rZZ"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/18tza1BQeo6ZEQ0yNNjSEqpbKOthh_eCcjOFgcgrl_nc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1rEyKtYl1oftra2zJL6t1U2ZPWfcHNAu6/view"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1x56V_zxYlW9xoMti4eqcOInXrqHNTyWQ/view"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/17IG0vEkI82jD0yP-CrmPrBWdQJwd7S4a/view"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 984,
-    "total": 1001,
-    "count": "136",
-    "cpm": 1,
-    "key": "Next Wave Viral | ClipFarm::The Real Wolf Of Wall Street Clipping Campaign"
+    "key": "Clip Track::Elo Cooking Slideshows Campaign"
   },
   {
     "id": "9cd236a1-c095-4aa8-a3ff-341dfd5b682a",
@@ -9746,7 +8582,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-01-02T13:39:31.270Z",
-    "sortTimestamp": 1784811626890,
+    "sortTimestamp": 1784813847643,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Nino Saikkonen Clipping | $1k Budget | $2 CPM",
@@ -9783,7 +8619,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-01-12T01:54:35.263Z",
-    "sortTimestamp": 1784811626890,
+    "sortTimestamp": 1784813847643,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY$$] VIRAL BRAZILIAN TRACK",
@@ -9802,7 +8638,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 990,
     "total": 1000,
-    "count": "139",
+    "count": "140",
     "cpm": 2,
     "key": "Duetti::[EASY$$] VIRAL BRAZILIAN TRACK"
   },
@@ -9820,7 +8656,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-05-01T13:51:33.812Z",
-    "sortTimestamp": 1784811626890,
+    "sortTimestamp": 1784813847643,
     "category": "Music",
     "contentType": "Clipping",
     "title": "RosarioRay- Mink | Sport + Love Island Edits",
@@ -9830,10 +8666,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "RosarioRay- Mink | Sport + Love Island Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/100bYKzUPGOc9KFcdBbc62X7_b8lkZbK8As_0JRUqb2I/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9845,6 +8677,472 @@ window.CAMPAIGNS_DATA = [
     "count": "195",
     "cpm": 1,
     "key": "Artist Influence::RosarioRay- Mink | Sport + Love Island Edits"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
+    "creators": 71,
+    "agency": "Propaganda",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": null,
+    "sortTimestamp": 1784813847643,
+    "category": "Creator Collab Program",
+    "contentType": "UGC",
+    "title": "internal cross-org test",
+    "description": "Propaganda Creator Collab Program clipping pool.",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 15000,
+    "total": 16000,
+    "count": "71",
+    "cpm": 0.2,
+    "key": "Propaganda::internal cross-org test"
+  },
+  {
+    "id": "7f144a1d-eaef-428d-859b-62129d25146c",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "creator-casino-7b",
+    "whop_route": "creator-casino-7b",
+    "whopUrl": "https://whop.com/creator-casino-7b",
+    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784754083491.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "bannerImageUrl": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784754083491.png",
+    "creators": 1549,
+    "agency": "Clip Farm",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-21T21:34:20.401Z",
+    "sortTimestamp": 1784813847643,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Trailblazers Podcast",
+    "description": "Cut episodes of the Trailblazers Podcast into short, punchy clips and post them across TikTok, Instagram, and YouTube for an CPM of $1.00 per 1k views. All guidelines and resources are linked in each campaign below.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Trailblazers Podcast | Official Whop Hub & Assets",
+        "url": "https://whop.com/creator-casino-7b"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 1710,
+    "total": 3000,
+    "count": "2K",
+    "cpm": 1,
+    "key": "Clip Farm::Trailblazers Podcast"
+  },
+  {
+    "id": "e9416ace-89da-40b1-b7f8-d050a5601cbd",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "sus-clips",
+    "whop_route": "sus-clips",
+    "whopUrl": "https://whop.com/sus-clips",
+    "thumbnail": "https://cdn.contentrewards.com/user_BBvpsKFyXIdig/1782755118313.PNG",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29398770/image/ai_prompts/2026-06-19/da7c19b7-03cb-481a-a8cd-7782bb1d75d2.png",
+    "bannerImageUrl": "",
+    "creators": 24,
+    "agency": "Sus.verified",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-06-23T20:22:32.149Z",
+    "sortTimestamp": 1784813847642,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "Sus.ai's Campaign",
+    "description": "We want creators to make videos using the mobile site and running an image search ONLY. The internet is full of fake profiles, catfish, and people pretending to be someone they're not. upload a photo and find their entire digital footprint. Whether you're talking to someone new, hiring a babysitter, meeting a seller, or just curious, get your SUS Report in seconds. starts for less than $1, then just $5/month after that. (yes we want you to try it for real)",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Sus.ai's Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/sus-clips"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1000,
+    "count": "9",
+    "cpm": 1,
+    "key": "Sus.verified::Sus.ai's Campaign"
+  },
+  {
+    "id": "71ac3df6-6c1a-4224-b528-027152b6bfae",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "testomaxxing-members",
+    "whop_route": "testomaxxing-members",
+    "whopUrl": "https://whop.com/testomaxxing-members",
+    "thumbnail": "https://cdn.contentrewards.com/user_j2MuHyE8k5yWB/1781906280530.png",
+    "avatar": "https://assets-2-prod.whop.com/uploads/user_3644019/image/apps/2025-12-21/e41086d3-bc15-459d-9a50-9c28c9e47921.png",
+    "bannerImageUrl": "",
+    "creators": 24,
+    "agency": "Testomaxxing",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-03-16T14:56:45.946Z",
+    "sortTimestamp": 1784813847642,
+    "category": "Product",
+    "contentType": "UGC",
+    "title": "TestoMaxxing Campaign",
+    "description": "Welcome to the Testo Maxxing Content Rewards Team! 💪 Your job: short-form content that shows people why the Testo Maxxing App is the easiest and best way to increase ones Testosterone naturally. The angle that works --> Check out the following App Accounts: - Checkoasis (scientific angle) - officialaronov (Society topics and then why Testo Maxxing matters) - lucy_japanese (Text with face as the hook and after that a demo of the App). Format Library Use these videos as inspiration for the format and style, but make the content original and focused on TestoMaxxing: Screen recording / Face cam (BEST FORMAT) https://www.instagram.com/reel/DZ0sKw8t_D7/ deadline https://www.instagram.com/reel/DZ6umIhTVx8/ How is this legal? https://www.instagram.com/reel/DZRZANis2Ra/ Top 5 tools for Testo Maxxing (niche edition) https://www.instagram.com/reel/DZXWW-MyPNw/ POV: You do Testo Maxxing and got more focused and motivated https://vt.tiktok.com/ZSxgHVRLM/ 🚨 REQUIREMENTS 🚨 Every video MUST include all three of the following: 1. Pinned Comment (Q&A Setup): Post a comment from a separate personal account asking something like \"What platform is that?\" or \"What's the app called?\" — then reply from the account that posted the video with \"Testomaxxing.app\" and pin that comment. 2. Testomaxxing.app in the First 15 Seconds: \"Testomaxxing.app\" must be mentioned verbally, shown on screen, or appear in text/captions within the first 15 seconds of every video. No exceptions. 3. @Testomaxxing.app in Every Caption @Testomaxxing.app must appear in the caption of every single video. This is non-negotiable — no caption goes out without it. 4. Show the Testomaxxing app UI Show the interface for at least 5 seconds 5. Strong Hook in the First 1–2 Seconds The hook must be immediately clear and compelling. If you don't grab attention in the first two seconds, you've already lost them. 6. Stay Native to the Platform Content should feel organic, not overproduced. It should look like something you'd scroll past and stop on — not an ad. 7. The Account should link to the App Marketing Account @Testomaxxing.App in the Bio. And for IG you should add the link to the App in the Bio as well: https://apps.apple.com/de/app/testo-maxxing/id6762549968?l=en-GB For TT you can simply write \"Search Testo Maxxing on the App Store\" in the Bio. Golden Rules The App is only available on the IOA Apple App Store at this moment. This content should not get the views of people with Androids, so it should reach more people in the west and less people from Asia. If a format starts working, make more versions of it fast. Find what works → duplicate with volume. Every video should answer at least one: what is the tool who is it for why should you download it ________ We reward your reach: $1 per 1,000 views – simple, fair, and transparent. The Focus should be that the created Videos convert into the App. How it works: Create an IG or/and TT account (your username should include something with \"Testo\") Why join? Get paid for your content Help men boost their energy & vitality naturally Full flexibility – no pressure, no strict rules ➡️ Start now and level up! 🚀 for some inspirations: check out my own marketing account on IG and TT (@Testomaxxing.app). I am also trying to find out which format works the best.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "TestoMaxxing Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/testomaxxing-members"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "spent": 0,
+    "total": 1000,
+    "count": "24",
+    "cpm": 1,
+    "key": "Testomaxxing::TestoMaxxing Campaign"
+  },
+  {
+    "id": "9ecf6706-0d14-4575-935a-1bb8b4caeb18",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "modo-clipping",
+    "whop_route": "modo-clipping",
+    "whopUrl": "https://whop.com/modo-clipping",
+    "thumbnail": "https://cdn.contentrewards.com/user_F9OmOzVrYmRyM/1784407487416.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13217765/image/bots/2026-01-11/1a40e4cb-f7a8-4b27-91fb-ef0016143047.png",
+    "bannerImageUrl": "",
+    "creators": 10584,
+    "agency": "Modo.US",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-06-08T07:08:11.745Z",
+    "sortTimestamp": 1784813847642,
+    "category": "Logo",
+    "contentType": "Clipping",
+    "title": "MODO.US | LOGO CAMPAIGN",
+    "description": "Earn $100 for every 1 million views by adding the MODO.US overlay to your content",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "MODO.US | LOGO CAMPAIGN | Official Whop Hub & Assets",
+        "url": "https://whop.com/modo-clipping"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 19624,
+    "total": 20000,
+    "count": "222",
+    "cpm": 0.1,
+    "key": "Modo.US::MODO.US | LOGO CAMPAIGN"
+  },
+  {
+    "id": "c524252f-50fe-42af-974f-abe19d7c057a",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "coingroup",
+    "whop_route": "coingroup",
+    "whopUrl": "https://whop.com/coingroup",
+    "thumbnail": "https://cdn.contentrewards.com/user_sCTipsThhtunr/1783578210204.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17312071/image/bots/2025-10-02/d15a96db-5ace-4812-9779-33231d5b888c.png",
+    "bannerImageUrl": "",
+    "creators": 44,
+    "agency": "Coin Group Media",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-05-24T02:15:25.716Z",
+    "sortTimestamp": 1784813847642,
+    "category": "Logo",
+    "contentType": "Clipping",
+    "title": "Earn with our Logo (Darts Content)",
+    "description": "Clip for us and earn $1000 (Only Darts content)",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Earn with our Logo (Darts Content) | Official Whop Hub & Assets",
+        "url": "https://whop.com/coingroup"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1000,
+    "count": "44",
+    "cpm": 0.06,
+    "key": "Coin Group Media::Earn with our Logo (Darts Content)"
+  },
+  {
+    "id": "4253e64f-2970-475e-98cd-09ef3a4c6f30",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "biolongevity-creators",
+    "whop_route": "biolongevity-creators",
+    "whopUrl": "https://whop.com/biolongevity-creators",
+    "thumbnail": "https://cdn.contentrewards.com/user_KXd3Wi1P8HKGX/1784221362283.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-10-18/f25c3123-2d75-46c1-9c46-e9c49ddcc049.png",
+    "bannerImageUrl": "",
+    "creators": 214,
+    "agency": "Next Wave Viral | ClipFarm",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-13T16:41:18.216Z",
+    "sortTimestamp": 1784813847642,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "The Real Wolf Of Wall Street Clipping Campaign",
+    "description": "The Real Wolf of Wall Street is out now on Paramount+. The true story behind the movie, straight from the people who lived it. Clip the show, exclusive cast-member BTS and podcast moments from The Real Wolf of Wall Street (now on Paramount+) and get paid $1 per 1,000 views.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "The Real Wolf Of Wall Street Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/biolongevity-creators"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 984,
+    "total": 1001,
+    "count": "136",
+    "cpm": 1,
+    "key": "Next Wave Viral | ClipFarm::The Real Wolf Of Wall Street Clipping Campaign"
+  },
+  {
+    "id": "2ade3996-bfdb-4fbf-9114-3932022384f4",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clip-farm-d5",
+    "whop_route": "clip-farm-d5",
+    "whopUrl": "https://whop.com/clip-farm-d5",
+    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784212348743.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27953427/image/bots/2026-08-06/c175b8d0-21ad-4ab2-a284-a3679f0371a7.jpeg",
+    "bannerImageUrl": "",
+    "creators": 2,
+    "agency": "Clip Farm",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-06T15:21:31.349Z",
+    "sortTimestamp": 1784813847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Nick Malinosky Campaign",
+    "description": "Clip Nick Malinosky’s podcasts, luxury home tours, and agent tips into engaging Instagram Reels and YouTube Shorts. Position him as a knowledgeable and entertaining voice in real estate, drive viewers to his channel, and earn money for every view.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Nick Malinosky Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-farm-d5"
+      }
+    ],
+    "platforms": [
+      "instagram",
+      "youtube"
+    ],
+    "spent": 7619,
+    "total": 8000,
+    "count": "2K",
+    "cpm": 1.5,
+    "key": "Clip Farm::Nick Malinosky Campaign"
+  },
+  {
+    "id": "a72dcf45-01ea-479d-aa46-38f68023692e",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "filterbuy-clipping",
+    "whop_route": "filterbuy-clipping",
+    "whopUrl": "https://whop.com/filterbuy-clipping",
+    "thumbnail": "https://cdn.contentrewards.com/user_oWbDXobJMG6yx/1783698008225.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_19673353/image/bots/2026-03-10/f31b3e4a-44d7-4698-8755-41fe64d6f53f.png",
+    "bannerImageUrl": "",
+    "creators": 18,
+    "agency": "Filterbuy",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-13T07:10:14.605Z",
+    "sortTimestamp": 1784813847641,
+    "category": "Product",
+    "contentType": "UGC",
+    "title": "Tell A Filterbuy Story - UGC",
+    "description": "Tell us how Filterbuy fits into your life. We're looking for real stories about ordering filters, getting them delivered, and keeping your air filters on schedule, the easy stuff and the everyday stuff. Made a subscription so you never forget a change again? Found the right filter without the guesswork? Just want to show the box showing up at your door? Post it. Any format works: video or photo carousel with a caption. You get paid per view on approved posts. The more people your story reaches, the more you earn. Example scripts included below. No physical product needed just show a screenshot of our website or Amazon listing.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Tell A Filterbuy Story - UGC | Official Whop Hub & Assets",
+        "url": "https://whop.com/filterbuy-clipping"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 2000,
+    "count": "38",
+    "cpm": 5,
+    "key": "Filterbuy::Tell A Filterbuy Story - UGC"
+  },
+  {
+    "id": "f26076b4-9e27-45ab-96e3-1d28be40c294",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "carlotta-clipping-team-46",
+    "whop_route": "carlotta-clipping-team-46",
+    "whopUrl": "https://whop.com/carlotta-clipping-team-46",
+    "thumbnail": "https://cdn.contentrewards.com/user_0UArt90UhcTvY/1783593959109.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31526804/image/bots/2026-07-15/a82245e7-b8b7-494a-819c-9847ed815c44.jpg",
+    "bannerImageUrl": "",
+    "creators": 2,
+    "agency": "Carlotta Sabina Academy",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-20T17:00:47.063Z",
+    "sortTimestamp": 1784813847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Videos de YT - General",
+    "description": "Carlotta Sabina Academy Personal brand clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Videos de YT - General | Official Whop Hub & Assets",
+        "url": "https://whop.com/carlotta-clipping-team-46"
+      }
+    ],
+    "platforms": [
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1000,
+    "count": "18",
+    "cpm": 5,
+    "key": "Carlotta Sabina Academy::Videos de YT - General"
+  },
+  {
+    "id": "f047b4a0-e348-4dbb-bff3-ca03277f4c8b",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "mschf-eb",
+    "whop_route": "mschf-eb",
+    "whopUrl": "https://whop.com/mschf-eb",
+    "thumbnail": "https://cdn.contentrewards.com/user_DURVChMqCmJ2Q/1783439511100.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31526804/image/bots/2026-07-15/a82245e7-b8b7-494a-819c-9847ed815c44.jpg",
+    "bannerImageUrl": "",
+    "creators": 12,
+    "agency": "MSCHF",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-01T13:51:57.785Z",
+    "sortTimestamp": 1784813847641,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "MSCHF",
+    "description": "MSCHF (@mschf) is the art collective/product studio behind some of the internet's most talked-about drops such as Big Red Boot, Wavy Baby, Microscopic Hand Bag, and dozens of other viral projects. We are looking to clip MSCHF's past and present drops and flood Instagram with these moments again. Every clip should feel native to Instagram and not like an ad. Content should want to make new viewers follow @mschf to see what we do next. Always tag @mschf in the caption and in bio to back to their page. Clips can stay broad across any of MSCHF's catalog of projects or past collaborations.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "MSCHF | Official Whop Hub & Assets",
+        "url": "https://whop.com/mschf-eb"
+      }
+    ],
+    "platforms": [
+      "instagram"
+    ],
+    "spent": 0,
+    "total": 2000,
+    "count": "2",
+    "cpm": 2,
+    "key": "MSCHF::MSCHF"
+  },
+  {
+    "id": "1f075489-9247-45e6-b7ed-5dd1ebb0ee0f",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "test-c9-8bbd",
+    "whop_route": "test-c9-8bbd",
+    "whopUrl": "https://whop.com/test-c9-8bbd",
+    "thumbnail": "https://cdn.contentrewards.com/user_jRXmfP1Mqx4aB/1782913853879.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31526804/image/bots/2026-07-15/a82245e7-b8b7-494a-819c-9847ed815c44.jpg",
+    "bannerImageUrl": "",
+    "creators": 12,
+    "agency": "Founder Blueprint",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-24T11:32:08.239Z",
+    "sortTimestamp": 1784813847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Josh Fear Campaign",
+    "description": "Looking for high quality clippers to take my long form youtube content and create valuable shorts, optimised for reach + engagement",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Josh Fear Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/test-c9-8bbd"
+      }
+    ],
+    "platforms": [
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 10000,
+    "count": "12",
+    "cpm": 2,
+    "key": "Founder Blueprint::Josh Fear Campaign"
+  },
+  {
+    "id": "32d31112-1b43-43b0-85cc-fd950f4793f8",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "free-access-27-ae03",
+    "whop_route": "free-access-27-ae03",
+    "whopUrl": "https://whop.com/free-access-27-ae03",
+    "thumbnail": "https://cdn.contentrewards.com/user_uCg6QQkXA3z6q/1783282604643.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-06-21/user_7512544_ba0699f6-226b-4c9b-8904-d77cd6f2ccfd.jpeg",
+    "bannerImageUrl": "",
+    "creators": 1,
+    "agency": "Viewify",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-02-05T22:03:59.546Z",
+    "sortTimestamp": 1784813847641,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "UGC Vids AI",
+    "description": "AI UGC tool called ugcvids.ai made for E-commerce and TikTok Shop sellers to promote their brand.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "UGC Vids AI | Official Whop Hub & Assets",
+        "url": "https://whop.com/free-access-27-ae03"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 0,
+    "total": 1000,
+    "count": "42",
+    "cpm": 5,
+    "key": "Viewify::UGC Vids AI"
   },
   {
     "id": "ac197d35-5ed7-4a80-a063-f8c227c5e30e",
@@ -9860,7 +9158,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-04-23T16:53:47.925Z",
-    "sortTimestamp": 1784811626889,
+    "sortTimestamp": 1784813847641,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Promote VIRL app and get paid!!!",
@@ -9897,7 +9195,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-05-12T14:17:30.479Z",
-    "sortTimestamp": 1784811626889,
+    "sortTimestamp": 1784813847641,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Duel.com | Blackjack Clipping Campaign 2",
@@ -9907,10 +9205,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Duel.com | Blackjack Clipping Campaign 2 | Official Whop Hub & Assets",
         "url": "https://whop.com/clipper-community-29"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1488qAj_7Xp_QlIPU0j-4p1MIzuM2oKpkHvQRg-2aJb0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9936,7 +9230,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": null,
-    "sortTimestamp": 1784811626889,
+    "sortTimestamp": 1784813847641,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Rave Jesus | $2.00 CPM (EDM & Festival Edits",
@@ -9967,7 +9261,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-05-12T10:25:46.559Z",
-    "sortTimestamp": 1784811626889,
+    "sortTimestamp": 1784813847641,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Lia Engel Clips",
@@ -9977,10 +9271,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lia Engel Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/lia-engel-clips-91"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1ciPB1b_jxcWfP1VGoC8kf6m3pltT7tj9?usp=sharing"
       }
     ],
     "platforms": [
@@ -10006,7 +9296,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-02-07T20:56:09.058Z",
-    "sortTimestamp": 1784811626889,
+    "sortTimestamp": 1784813847641,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$$!] VIRAL SPANISH TRACK",
@@ -10030,132 +9320,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Duetti::[EASY $$$!] VIRAL SPANISH TRACK"
   },
   {
-    "id": "e9416ace-89da-40b1-b7f8-d050a5601cbd",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "sus-clips",
-    "whop_route": "sus-clips",
-    "whopUrl": "https://whop.com/sus-clips",
-    "thumbnail": "https://cdn.contentrewards.com/user_BBvpsKFyXIdig/1782755118313.PNG",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29398770/image/ai_prompts/2026-06-19/da7c19b7-03cb-481a-a8cd-7782bb1d75d2.png",
-    "bannerImageUrl": "",
-    "creators": 24,
-    "agency": "Sus.verified",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-06-23T20:22:32.149Z",
-    "sortTimestamp": 1784811626889,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "Sus.ai's Campaign",
-    "description": "We want creators to make videos using the mobile site and running an image search ONLY. The internet is full of fake profiles, catfish, and people pretending to be someone they're not. upload a photo and find their entire digital footprint. Whether you're talking to someone new, hiring a babysitter, meeting a seller, or just curious, get your SUS Report in seconds. starts for less than $1, then just $5/month after that. (yes we want you to try it for real)",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Sus.ai's Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/sus-clips"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1WgHK2Xr54ow3c7GTdFa26miALZmcouGa/view?usp=share_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1QZnQ9dpyXdLfEUCBVpjTT31_YB8wAj3E/view?usp=share_link"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 1000,
-    "count": "9",
-    "cpm": 1,
-    "key": "Sus.verified::Sus.ai's Campaign"
-  },
-  {
-    "id": "71ac3df6-6c1a-4224-b528-027152b6bfae",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "testomaxxing-members",
-    "whop_route": "testomaxxing-members",
-    "whopUrl": "https://whop.com/testomaxxing-members",
-    "thumbnail": "https://cdn.contentrewards.com/user_j2MuHyE8k5yWB/1781906280530.png",
-    "avatar": "https://assets-2-prod.whop.com/uploads/user_3644019/image/apps/2025-12-21/e41086d3-bc15-459d-9a50-9c28c9e47921.png",
-    "bannerImageUrl": "",
-    "creators": 24,
-    "agency": "Testomaxxing",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-03-16T14:56:45.946Z",
-    "sortTimestamp": 1784811626889,
-    "category": "Product",
-    "contentType": "UGC",
-    "title": "TestoMaxxing Campaign",
-    "description": "Welcome to the Testo Maxxing Content Rewards Team! 💪 Your job: short-form content that shows people why the Testo Maxxing App is the easiest and best way to increase ones Testosterone naturally. The angle that works --> Check out the following App Accounts: - Checkoasis (scientific angle) - officialaronov (Society topics and then why Testo Maxxing matters) - lucy_japanese (Text with face as the hook and after that a demo of the App). Format Library Use these videos as inspiration for the format and style, but make the content original and focused on TestoMaxxing: Screen recording / Face cam (BEST FORMAT) https://www.instagram.com/reel/DZ0sKw8t_D7/ deadline https://www.instagram.com/reel/DZ6umIhTVx8/ How is this legal? https://www.instagram.com/reel/DZRZANis2Ra/ Top 5 tools for Testo Maxxing (niche edition) https://www.instagram.com/reel/DZXWW-MyPNw/ POV: You do Testo Maxxing and got more focused and motivated https://vt.tiktok.com/ZSxgHVRLM/ 🚨 REQUIREMENTS 🚨 Every video MUST include all three of the following: 1. Pinned Comment (Q&A Setup): Post a comment from a separate personal account asking something like \"What platform is that?\" or \"What's the app called?\" — then reply from the account that posted the video with \"Testomaxxing.app\" and pin that comment. 2. Testomaxxing.app in the First 15 Seconds: \"Testomaxxing.app\" must be mentioned verbally, shown on screen, or appear in text/captions within the first 15 seconds of every video. No exceptions. 3. @Testomaxxing.app in Every Caption @Testomaxxing.app must appear in the caption of every single video. This is non-negotiable — no caption goes out without it. 4. Show the Testomaxxing app UI Show the interface for at least 5 seconds 5. Strong Hook in the First 1–2 Seconds The hook must be immediately clear and compelling. If you don't grab attention in the first two seconds, you've already lost them. 6. Stay Native to the Platform Content should feel organic, not overproduced. It should look like something you'd scroll past and stop on — not an ad. 7. The Account should link to the App Marketing Account @Testomaxxing.App in the Bio. And for IG you should add the link to the App in the Bio as well: https://apps.apple.com/de/app/testo-maxxing/id6762549968?l=en-GB For TT you can simply write \"Search Testo Maxxing on the App Store\" in the Bio. Golden Rules The App is only available on the IOA Apple App Store at this moment. This content should not get the views of people with Androids, so it should reach more people in the west and less people from Asia. If a format starts working, make more versions of it fast. Find what works → duplicate with volume. Every video should answer at least one: what is the tool who is it for why should you download it ________ We reward your reach: $1 per 1,000 views – simple, fair, and transparent. The Focus should be that the created Videos convert into the App. How it works: Create an IG or/and TT account (your username should include something with \"Testo\") Why join? Get paid for your content Help men boost their energy & vitality naturally Full flexibility – no pressure, no strict rules ➡️ Start now and level up! 🚀 for some inspirations: check out my own marketing account on IG and TT (@Testomaxxing.app). I am also trying to find out which format works the best.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "TestoMaxxing Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/testomaxxing-members"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1ouVXT_js2ZyCT5bKuoBpkJ8n2aw3farp?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram"
-    ],
-    "spent": 0,
-    "total": 1000,
-    "count": "24",
-    "cpm": 1,
-    "key": "Testomaxxing::TestoMaxxing Campaign"
-  },
-  {
-    "id": "9ecf6706-0d14-4575-935a-1bb8b4caeb18",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "modo-clipping",
-    "whop_route": "modo-clipping",
-    "whopUrl": "https://whop.com/modo-clipping",
-    "thumbnail": "https://cdn.contentrewards.com/user_F9OmOzVrYmRyM/1784407487416.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6116763/image/bots/2026-01-23/9edabac6-11cb-4041-bc2a-b0b9677a97ae.png",
-    "bannerImageUrl": "",
-    "creators": 4,
-    "agency": "Modo.US",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-01-23T07:01:27.665Z",
-    "sortTimestamp": 1784811626889,
-    "category": "Logo",
-    "contentType": "Clipping",
-    "title": "MODO.US | LOGO CAMPAIGN",
-    "description": "Earn $100 for every 1 million views by adding the MODO.US overlay to your content",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "MODO.US | LOGO CAMPAIGN | Official Whop Hub & Assets",
-        "url": "https://whop.com/modo-clipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/154yB2TWaP4lHvekAw-es4tyKBmtpF3Y7?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 19594,
-    "total": 20000,
-    "count": "222",
-    "cpm": 0.1,
-    "key": "Modo.US::MODO.US | LOGO CAMPAIGN"
-  },
-  {
     "id": "96feea70-28c4-40be-b6db-76d57156c910",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "villager-cc",
@@ -10169,7 +9333,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-04T20:37:16.832Z",
-    "sortTimestamp": 1784811626888,
+    "sortTimestamp": 1784813847640,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Andy Harrington Clipping Campaign",
@@ -10179,14 +9343,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Andy Harrington Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/villager-cc"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1b4lqO_XAIzfPMOpEGfez0WccmVP_iv1e"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15aUjD8sTl5zIT52z0T9xDF-7nx8NOMelmqmjgKGOdHo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10214,7 +9370,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-04-13T22:56:33.515Z",
-    "sortTimestamp": 1784811626888,
+    "sortTimestamp": 1784813847640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Hornyt.ai Clipping (AI CHATBOT ONLYFNAS)",
@@ -10245,14 +9401,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "flowik-61",
     "whopUrl": "https://whop.com/flowik-61",
     "thumbnail": "https://cdn.contentrewards.com/user_ARu9y7nKoxh9v/1783930068405.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27814467/image/bots/2026-05-25/bc5a1ead-3e8b-436d-a477-9527da9f637f.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17395330/image/bots/2026-05-27/2f9fe371-f9b9-4598-94e1-1b49a67b2aaa.png",
     "bannerImageUrl": "",
-    "creators": 351,
+    "creators": 134,
     "agency": "Flowik",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-25T19:22:06.016Z",
-    "sortTimestamp": 1784811626888,
+    "fundedAt": "2026-07-25T19:47:08.510Z",
+    "sortTimestamp": 1784813847640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Flowik Clips | Get Paid Per View",
@@ -10293,7 +9449,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-03-07T11:04:28.096Z",
-    "sortTimestamp": 1784811626888,
+    "sortTimestamp": 1784813847640,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Leo Faboux - Real Estate",
@@ -10303,10 +9459,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Leo Faboux - Real Estate | Official Whop Hub & Assets",
         "url": "https://whop.com/ia-creator-pro"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1I4-D30C-ahsvdE2rJWHEwQzeEfnAh7MyI3e8uKIAzCM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10335,7 +9487,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-07-16T19:49:53.234Z",
-    "sortTimestamp": 1784811626888,
+    "sortTimestamp": 1784813847640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Props UGC — Guess the Movie Game — $1 per 1K views",
@@ -10345,10 +9497,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Props UGC — Guess the Movie Game — $1 per 1K views | Official Whop Hub & Assets",
         "url": "https://whop.com/props-creator-community"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1d7HRfEQ7QpL1CXpRKsVNozgXfbXnWHLoxhBWMbmqXW4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10363,245 +9511,72 @@ window.CAMPAIGNS_DATA = [
     "key": "Props The Game::Props UGC — Guess the Movie Game — $1 per 1K views"
   },
   {
-    "id": "2ade3996-bfdb-4fbf-9114-3932022384f4",
+    "id": "28942858-e9a6-42e9-bb9c-a480e59c12f0",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-farm-d5",
-    "whop_route": "clip-farm-d5",
-    "whopUrl": "https://whop.com/clip-farm-d5",
-    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784212348743.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27953427/image/bots/2026-08-06/c175b8d0-21ad-4ab2-a284-a3679f0371a7.jpeg",
+    "whopProductRoute": "peakbff-ed",
+    "whop_route": "peakbff-ed",
+    "whopUrl": "https://whop.com/peakbff-ed",
+    "thumbnail": "https://cdn.contentrewards.com/user_R7EIngNz1Lcxw/1785261260130.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25456862/image/bots/2026-04-15/b633f90a-934b-4eb1-8a96-8cfd8dd94905.png",
     "bannerImageUrl": "",
-    "creators": 2,
-    "agency": "Clip Farm",
+    "creators": 99,
+    "agency": "Clip It Fast",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-06T15:21:31.349Z",
-    "sortTimestamp": 1784811626888,
-    "category": "Personal brand",
+    "fundedAt": "2026-05-01T16:16:13.584Z",
+    "sortTimestamp": 1784813847639,
+    "category": "Entertainment",
     "contentType": "Clipping",
-    "title": "Nick Malinosky Campaign",
-    "description": "Clip Nick Malinosky’s podcasts, luxury home tours, and agent tips into engaging Instagram Reels and YouTube Shorts. Position him as a knowledgeable and entertaining voice in real estate, drive viewers to his channel, and earn money for every view.",
+    "title": "PeakBFF Workout Campaign",
+    "description": "Clippers run dedicated gym pages posting video clips / slideshow-style content with one clip/slide organically featuring the PeakBFF app. Posted across TikTok and Instagram. The goal is app downloads through native, organic-feeling volume — not direct-response promo. This is one of the easiest ways to earn money. The more views your videos get, the more you earn. Read the Docs",
     "requirements": [],
     "resources": [
       {
-        "name": "Nick Malinosky Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1vp_SB9wvVQZvHXggKrR2DVMA33bd9ZnenpxOBtYtlsM/edit?usp=sharing"
+        "name": "PeakBFF Workout Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/peakbff-ed"
       }
     ],
     "platforms": [
-      "instagram",
-      "youtube"
+      "tiktok",
+      "instagram"
     ],
-    "spent": 7619,
-    "total": 8000,
-    "count": "2K",
-    "cpm": 1.5,
-    "key": "Clip Farm::Nick Malinosky Campaign"
+    "spent": 837,
+    "total": 1000,
+    "count": "21",
+    "cpm": 1,
+    "key": "Clip It Fast::PeakBFF Workout Campaign"
   },
   {
-    "id": "a72dcf45-01ea-479d-aa46-38f68023692e",
+    "id": "",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "filterbuy-clipping",
-    "whop_route": "filterbuy-clipping",
-    "whopUrl": "https://whop.com/filterbuy-clipping",
-    "thumbnail": "https://cdn.contentrewards.com/user_oWbDXobJMG6yx/1783698008225.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_19673353/image/bots/2026-03-10/f31b3e4a-44d7-4698-8755-41fe64d6f53f.png",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
     "bannerImageUrl": "",
-    "creators": 18,
-    "agency": "Filterbuy",
+    "creators": 80,
+    "agency": "Pranos Hologlass ( Digital Car Windows)",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-13T07:10:14.605Z",
-    "sortTimestamp": 1784811626888,
+    "fundedAt": null,
+    "sortTimestamp": 1784813847639,
     "category": "Product",
     "contentType": "UGC",
-    "title": "Tell A Filterbuy Story - UGC",
-    "description": "Tell us how Filterbuy fits into your life. We're looking for real stories about ordering filters, getting them delivered, and keeping your air filters on schedule, the easy stuff and the everyday stuff. Made a subscription so you never forget a change again? Found the right filter without the guesswork? Just want to show the box showing up at your door? Post it. Any format works: video or photo carousel with a caption. You get paid per view on approved posts. The more people your story reaches, the more you earn. Example scripts included below. No physical product needed just show a screenshot of our website or Amazon listing.",
+    "title": "Pranos Inc. Hologlass ( Digital Car Windows)'s Campaign",
+    "description": "Pranos Hologlass converts car windows into digital displays that let people share content outdoors. We are looking for creators and clippers to make viral short-form content using our existing footage, livestream clips, installs, reactions, and real-world videos for TikTok, Instagram Reels, and YouTube Shorts. Pranos has already generated over 78 million organic TikTok views through memes, reaction content, and creative edits, with many videos surpassing 1 million views. We are especially looking for creators who can add strong hooks, captions, humor, and creative text overlays to existing footage. Raw footage and assets will be provided through our Google Drive folder and can be reused/remixed into new viral clips. Feel free to review our TikTok page to study some of our highest-performing videos and content styles. Videos have to reach a minimum of 5000 views to be accepted for payout. Videos take 3 days to be reviewed after submission.",
     "requirements": [],
-    "resources": [
-      {
-        "name": "Tell A Filterbuy Story - UGC | Official Whop Hub & Assets",
-        "url": "https://whop.com/filterbuy-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15Yubrnh6ps-NHRvmJEM1mkfWtgCHWthdhG0MJ2xcelA/edit?usp=sharing"
-      }
-    ],
+    "resources": [],
     "platforms": [
       "tiktok",
       "instagram",
       "youtube"
     ],
-    "spent": 0,
-    "total": 2000,
-    "count": "38",
-    "cpm": 5,
-    "key": "Filterbuy::Tell A Filterbuy Story - UGC"
-  },
-  {
-    "id": "f26076b4-9e27-45ab-96e3-1d28be40c294",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "carlotta-clipping-team-46",
-    "whop_route": "carlotta-clipping-team-46",
-    "whopUrl": "https://whop.com/carlotta-clipping-team-46",
-    "thumbnail": "https://cdn.contentrewards.com/user_0UArt90UhcTvY/1783593959109.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31526804/image/bots/2026-07-15/a82245e7-b8b7-494a-819c-9847ed815c44.jpg",
-    "bannerImageUrl": "",
-    "creators": 2,
-    "agency": "Carlotta Sabina Academy",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-20T17:00:47.063Z",
-    "sortTimestamp": 1784811626888,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Videos de YT - General",
-    "description": "Carlotta Sabina Academy Personal brand clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Videos de YT - General | Official Whop Hub & Assets",
-        "url": "https://whop.com/carlotta-clipping-team-46"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1_8AlsIGFqLAhO5ZmxHLH5BEwFW9on3SG?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 0,
+    "spent": 99,
     "total": 1000,
-    "count": "18",
-    "cpm": 5,
-    "key": "Carlotta Sabina Academy::Videos de YT - General"
-  },
-  {
-    "id": "f047b4a0-e348-4dbb-bff3-ca03277f4c8b",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "mschf-eb",
-    "whop_route": "mschf-eb",
-    "whopUrl": "https://whop.com/mschf-eb",
-    "thumbnail": "https://cdn.contentrewards.com/user_DURVChMqCmJ2Q/1783439511100.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31526804/image/bots/2026-07-15/a82245e7-b8b7-494a-819c-9847ed815c44.jpg",
-    "bannerImageUrl": "",
-    "creators": 12,
-    "agency": "MSCHF",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-01T13:51:57.785Z",
-    "sortTimestamp": 1784811626888,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "MSCHF",
-    "description": "MSCHF (@mschf) is the art collective/product studio behind some of the internet's most talked-about drops such as Big Red Boot, Wavy Baby, Microscopic Hand Bag, and dozens of other viral projects. We are looking to clip MSCHF's past and present drops and flood Instagram with these moments again. Every clip should feel native to Instagram and not like an ad. Content should want to make new viewers follow @mschf to see what we do next. Always tag @mschf in the caption and in bio to back to their page. Clips can stay broad across any of MSCHF's catalog of projects or past collaborations.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "MSCHF | Official Whop Hub & Assets",
-        "url": "https://whop.com/mschf-eb"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Sa91EVGZeBfnqI0bV2GhJBa81IblRDj7/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1w4cerfDa90XUiROYKm8_lkCFc_bj__G3/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Sa91EVGZeBfnqI0bV2GhJBa81IblRDj7/edit?usp=sharing&amp;ouid=106648938919578928683&amp;rtpof=true&amp;sd=true"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1w4cerfDa90XUiROYKm8_lkCFc_bj__G3/edit?usp=sharing&amp;ouid=106648938919578928683&amp;rtpof=true&amp;sd=true"
-      }
-    ],
-    "platforms": [
-      "instagram"
-    ],
-    "spent": 0,
-    "total": 2000,
-    "count": "2",
-    "cpm": 2,
-    "key": "MSCHF::MSCHF"
-  },
-  {
-    "id": "1f075489-9247-45e6-b7ed-5dd1ebb0ee0f",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "test-c9-8bbd",
-    "whop_route": "test-c9-8bbd",
-    "whopUrl": "https://whop.com/test-c9-8bbd",
-    "thumbnail": "https://cdn.contentrewards.com/user_jRXmfP1Mqx4aB/1782913853879.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31526804/image/bots/2026-07-15/a82245e7-b8b7-494a-819c-9847ed815c44.jpg",
-    "bannerImageUrl": "",
-    "creators": 12,
-    "agency": "Founder Blueprint",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-24T11:32:08.239Z",
-    "sortTimestamp": 1784811626888,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Josh Fear Campaign",
-    "description": "Looking for high quality clippers to take my long form youtube content and create valuable shorts, optimised for reach + engagement",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Josh Fear Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/test-c9-8bbd"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 10000,
-    "count": "12",
-    "cpm": 2,
-    "key": "Founder Blueprint::Josh Fear Campaign"
-  },
-  {
-    "id": "32d31112-1b43-43b0-85cc-fd950f4793f8",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "free-access-27-ae03",
-    "whop_route": "free-access-27-ae03",
-    "whopUrl": "https://whop.com/free-access-27-ae03",
-    "thumbnail": "https://cdn.contentrewards.com/user_uCg6QQkXA3z6q/1783282604643.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-06-21/user_7512544_ba0699f6-226b-4c9b-8904-d77cd6f2ccfd.jpeg",
-    "bannerImageUrl": "",
-    "creators": 1,
-    "agency": "Viewify",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-02-05T22:03:59.546Z",
-    "sortTimestamp": 1784811626888,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "UGC Vids AI",
-    "description": "AI UGC tool called ugcvids.ai made for E-commerce and TikTok Shop sellers to promote their brand.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "UGC Vids AI | Official Whop Hub & Assets",
-        "url": "https://whop.com/free-access-27-ae03"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 0,
-    "total": 1000,
-    "count": "42",
-    "cpm": 5,
-    "key": "Viewify::UGC Vids AI"
+    "count": "80",
+    "cpm": 1,
+    "key": "Pranos Hologlass ( Digital Car Windows)::Pranos Inc. Hologlass ( Digital Car Windows)'s Campaign"
   },
   {
     "id": "8a4413e5-6e4d-4a3e-81a2-66e87ce38045",
@@ -10617,7 +9592,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-03-22T01:57:36.941Z",
-    "sortTimestamp": 1784811626887,
+    "sortTimestamp": 1784813847639,
     "category": "Product",
     "contentType": "Clipping",
     "title": "GameBoost",
@@ -10627,14 +9602,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GameBoost | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1KdnorKa7tsVKUVWqC2bsweO6uOD-mWEaklgilNbY8cc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1YV7BKagbz8sRVIOqZ6et1Hck94voX-aH?usp=drive_link"
       }
     ],
     "platforms": [
@@ -10642,7 +9609,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 3594,
+    "spent": 3595,
     "total": 4000,
     "count": "1K",
     "cpm": 2,
@@ -10655,14 +9622,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clip-influence",
     "whopUrl": "https://whop.com/clip-influence",
     "thumbnail": "https://cdn.contentrewards.com/user_BRE5GIeAjrcM4/1783631812674.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_868511/image/bots/2025-08-02/b43e7f45-d7ad-4172-9362-e047b9d7e5eb",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_19152455/image/bots/2026-08-14/40136bc1-b976-494f-b954-edac336d2506.jpg",
     "bannerImageUrl": "",
-    "creators": 236,
+    "creators": 12,
     "agency": "Clip Influence",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-06-13T21:42:38.190Z",
-    "sortTimestamp": 1784811626887,
+    "fundedAt": "2026-08-16T00:19:18.854Z",
+    "sortTimestamp": 1784813847639,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "[VIRAL] Fuggler Baddies x Mexico Clipping",
@@ -10672,24 +9639,12 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "[VIRAL] Fuggler Baddies x Mexico Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1VXEHyJj-YAe4db86uPnTn8fF4k8IhT-tJEA8LwraxzE/edit?usp=drivesdk"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1l22xDt9I6z9Ql28ODxFh1p8V89P5QYG9"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1-Ajhp1ZZ1hQMLsUoVBp5IZehBAK2JAQPlw_5iYyhWwI/edit?usp=drivesdk"
       }
     ],
     "platforms": [
       "x"
     ],
-    "spent": 4446,
+    "spent": 4447,
     "total": 5000,
     "count": "179",
     "cpm": 1,
@@ -10709,7 +9664,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-06-07T15:20:30.789Z",
-    "sortTimestamp": 1784811626887,
+    "sortTimestamp": 1784813847639,
     "category": "Product",
     "contentType": "UGC",
     "title": "Content Rewards [Tier 1 Base Pay UGC]",
@@ -10733,20 +9688,57 @@ window.CAMPAIGNS_DATA = [
     "key": "Content Rewards::Content Rewards [Tier 1 Base Pay UGC]"
   },
   {
+    "id": "216b0681-085e-40d2-9fcc-a8e4dff792a1",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "brazil-clips",
+    "whop_route": "brazil-clips",
+    "whopUrl": "https://whop.com/brazil-clips",
+    "thumbnail": "https://cdn.contentrewards.com/user_AogXVqWBeVhBS/1784508900172.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12995084/image/bots/2026-03-20/7e6651fb-c00c-4cb1-a506-a7521b972ddb.png",
+    "bannerImageUrl": "",
+    "creators": 20,
+    "agency": "Brazil Clips",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-04-03T12:53:54.758Z",
+    "sortTimestamp": 1784813847638,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Velasco Clips",
+    "description": "Clipe o Velasco e seja pago! Confira o briefing em Resource abaixo.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Velasco Clips | Official Whop Hub & Assets",
+        "url": "https://whop.com/brazil-clips"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 239,
+    "total": 1000,
+    "count": "53",
+    "cpm": 0.25,
+    "key": "Brazil Clips::Velasco Clips"
+  },
+  {
     "id": "8a09b8cf-8400-4eaf-8a69-52a9baaa2362",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clip-it-fast-9b",
     "whop_route": "clip-it-fast-9b",
     "whopUrl": "https://whop.com/clip-it-fast-9b",
     "thumbnail": "https://cdn.contentrewards.com/user_R7EIngNz1Lcxw/1784755074620.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3768926/image/ai_prompts/2026-06-03/0fdcf743-05d4-45e1-859b-5544fc8d144c.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17956232/image/access_passes/2026-07-28/7315c1c2-ecea-4da0-b4f0-c78746d77e32.png",
     "bannerImageUrl": "",
-    "creators": 96,
+    "creators": 148,
     "agency": "Clip It Fast",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-06-05T01:22:34.414Z",
-    "sortTimestamp": 1784811626886,
+    "fundedAt": "2026-04-03T05:14:29.558Z",
+    "sortTimestamp": 1784813847638,
     "category": "Other",
     "contentType": "Clipping",
     "title": "Arrafund Stream Clips",
@@ -10756,10 +9748,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Arrafund Stream Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-it-fast-9b"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1KyMR-0ZGmv0Fik75dXhkCmsihKnY8WzD/view?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -10787,7 +9775,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-04-20T14:16:17.954Z",
-    "sortTimestamp": 1784811626886,
+    "sortTimestamp": 1784813847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Livestreams Campaign",
@@ -10824,7 +9812,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-17T20:50:14.647Z",
-    "sortTimestamp": 1784811626886,
+    "sortTimestamp": 1784813847638,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Clips Hablando - 1$ por cada 1000 views",
@@ -10834,22 +9822,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1AhZ9ORj83UYhwXP6-VpY3lKBuLM1lEBr?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/spreadsheets/d/1bUNWRGwyP2TiRwUUzh8QbD_Jlwg_a8xnFUa7PKVzbZI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/107PUDt8DL5O6pmJad9ekRLVZiMyPNCQN3zzc6ScFT8k/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10872,12 +9844,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_F9GCYcSK8OocV/1783176503369.jpeg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16689082/image/access_passes/2026-05-24/91e7fa2e-066e-4cb6-96c2-9dc9134cbde3.jpeg",
     "bannerImageUrl": "",
-    "creators": 16,
+    "creators": 23,
     "agency": "TripBFF",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-22T10:46:29.851Z",
-    "sortTimestamp": 1784811626886,
+    "sortTimestamp": 1784813847638,
     "category": "Entertainment",
     "contentType": "UGC",
     "title": "TripBFF Slideshow Clipping",
@@ -10912,7 +9884,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-06-26T21:01:39.823Z",
-    "sortTimestamp": 1784811626886,
+    "sortTimestamp": 1784813847638,
     "category": "Logo",
     "contentType": "Clipping",
     "title": "Joe Casino Brand Logo Campaign",
@@ -10922,10 +9894,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Joe Casino Brand Logo Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/koji-media-network"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1FEqbqZ1NONedqUqcFIXxit_d20IOvWYEbLCPsQw8cX0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10946,14 +9914,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "vurt-clipper-access",
     "whopUrl": "https://whop.com/vurt-clipper-access",
     "thumbnail": "https://cdn.contentrewards.com/user_yC2atJya7m9rW/1782507585275.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34894472/image/ai_prompts/2026-08-21/8e8e2e4e-69aa-4f06-bb8f-15b55840565d.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_7212632/image/bots/2026-03-25/009804c1-7c5f-4979-b0a6-342c16aef25b.jpeg",
     "bannerImageUrl": "",
-    "creators": 4,
+    "creators": 29,
     "agency": "VURT",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-21T20:23:37.489Z",
-    "sortTimestamp": 1784811626886,
+    "fundedAt": "2026-04-23T10:35:14.089Z",
+    "sortTimestamp": 1784813847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "My Other Mother | VURT's Campaign",
@@ -10963,10 +9931,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "My Other Mother | VURT's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/vurt-clipper-access"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1-RvgnuPwlfD9tTuuUFxqONx52Pr-q7c4?usp=drive_link"
       }
     ],
     "platforms": [
@@ -10994,7 +9958,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-19T17:52:04.846Z",
-    "sortTimestamp": 1784811626886,
+    "sortTimestamp": 1784813847638,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Fantasy by Aria (Any Content)",
@@ -11018,738 +9982,39 @@ window.CAMPAIGNS_DATA = [
     "key": "Promote Song Crossfaded by HXPETRAIN::Fantasy by Aria (Any Content)"
   },
   {
-    "id": "28942858-e9a6-42e9-bb9c-a480e59c12f0",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "peakbff-ed",
-    "whop_route": "peakbff-ed",
-    "whopUrl": "https://whop.com/peakbff-ed",
-    "thumbnail": "https://cdn.contentrewards.com/user_R7EIngNz1Lcxw/1785261260130.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25456862/image/bots/2026-04-15/b633f90a-934b-4eb1-8a96-8cfd8dd94905.png",
-    "bannerImageUrl": "",
-    "creators": 99,
-    "agency": "Clip It Fast",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-01T16:16:13.584Z",
-    "sortTimestamp": 1784811626886,
-    "category": "Entertainment",
-    "contentType": "Clipping",
-    "title": "PeakBFF Workout Campaign",
-    "description": "Clippers run dedicated gym pages posting video clips / slideshow-style content with one clip/slide organically featuring the PeakBFF app. Posted across TikTok and Instagram. The goal is app downloads through native, organic-feeling volume — not direct-response promo. This is one of the easiest ways to earn money. The more views your videos get, the more you earn. Read the Docs",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "PeakBFF Workout Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/peakbff-ed"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LHISbY2acWAUnUFH-8UCN81DKDycm-6gZ3gDKoVk7cQ/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1CqbyXP7nE8x21tzGt2sh4A220Q1_XGGo?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram"
-    ],
-    "spent": 837,
-    "total": 1000,
-    "count": "21",
-    "cpm": 1,
-    "key": "Clip It Fast::PeakBFF Workout Campaign"
-  },
-  {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 80,
-    "agency": "Pranos Hologlass ( Digital Car Windows)",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": null,
-    "sortTimestamp": 1784811626886,
-    "category": "Product",
-    "contentType": "UGC",
-    "title": "Pranos Inc. Hologlass ( Digital Car Windows)'s Campaign",
-    "description": "Pranos Hologlass converts car windows into digital displays that let people share content outdoors. We are looking for creators and clippers to make viral short-form content using our existing footage, livestream clips, installs, reactions, and real-world videos for TikTok, Instagram Reels, and YouTube Shorts. Pranos has already generated over 78 million organic TikTok views through memes, reaction content, and creative edits, with many videos surpassing 1 million views. We are especially looking for creators who can add strong hooks, captions, humor, and creative text overlays to existing footage. Raw footage and assets will be provided through our Google Drive folder and can be reused/remixed into new viral clips. Feel free to review our TikTok page to study some of our highest-performing videos and content styles. Videos have to reach a minimum of 5000 views to be accepted for payout. Videos take 3 days to be reviewed after submission.",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 99,
-    "total": 1000,
-    "count": "80",
-    "cpm": 1,
-    "key": "Pranos Hologlass ( Digital Car Windows)::Pranos Inc. Hologlass ( Digital Car Windows)'s Campaign"
-  },
-  {
-    "id": "24ead91f-cb85-4066-bcd2-4a0df65a76a6",
+    "id": "9616d915-3312-467f-93de-e95d5e480ae0",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clipcashai",
     "whop_route": "clipcashai",
     "whopUrl": "https://whop.com/clipcashai",
-    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782952502667.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-08-22/173f6c96-e364-461f-ba35-de854d756a34/image.png",
+    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782767321330.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8254644/image/bots/2025-09-17/74530101-d2b7-4a24-8edf-4f448b8fc51d",
     "bannerImageUrl": "",
-    "creators": 105,
+    "creators": 61,
     "agency": "Artist Influence",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-21T06:26:31.563Z",
-    "sortTimestamp": 1784811626885,
+    "fundedAt": "2026-07-14T19:25:50.523Z",
+    "sortTimestamp": 1784813847637,
     "category": "Music",
     "contentType": "Clipping",
-    "title": "Glaive - God Save the Three | FIFA EDITS",
-    "description": "Get paid per view to clip Glaive - God Save the Three on TikTok. We're looking for World Cup Edits, and Teen & Coming of Age Edits— emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc.",
+    "title": "Brutalismus 3000 - Testo Skin Part 1 | Edits",
+    "description": "Get paid per view to clip Brutalismus 3000's - Testo Skin Part 1 on YouTube. We're looking for Music Video edits + edits using the content in repository — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+. Read Google Doc.",
     "requirements": [],
     "resources": [
       {
-        "name": "Glaive - God Save the Three | FIFA EDITS | Official Whop Hub & Assets",
+        "name": "Brutalismus 3000 - Testo Skin Part 1 | Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1cQyBLoOzzJKlBoJcktuZ6A9GuHivUIkdRrPx0rqwK24/edit?usp=sharing"
       }
     ],
     "platforms": [
-      "tiktok"
+      "youtube"
     ],
-    "spent": 129,
+    "spent": 184,
     "total": 1000,
-    "count": "145",
+    "count": "305",
     "cpm": 1,
-    "key": "Artist Influence::Glaive - God Save the Three | FIFA EDITS"
-  },
-  {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 44,
-    "agency": "Trading Kannada",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": null,
-    "sortTimestamp": 1784811626885,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "\"Trading Kannada Clips — ₹/$2 per 1K Views\"",
-    "description": "Trading Kannada creates trading & investing education content in Kannada for Karnataka/South Indian traders. We're looking for clippers to turn our long-form YouTube videos, live trading sessions, and market breakdowns into short, high-retention clips. - CREATE a new fan page ( like Trading kannada clips, trading kannada fans ,trading clips etc ) - Upload one sample video in that page and send a request - we will check and approve",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 242,
-    "total": 1000,
-    "count": "44",
-    "cpm": 3,
-    "key": "Trading Kannada::\"Trading Kannada Clips — ₹/$2 per 1K Views\""
-  },
-  {
-    "id": "999455b7-0803-400f-8370-09a36d399400",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "awaydays-clipping-channel",
-    "whop_route": "awaydays-clipping-channel",
-    "whopUrl": "https://whop.com/awaydays-clipping-channel",
-    "thumbnail": "https://cdn.contentrewards.com/user_6NETOUSKQunVM/1784749199088.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8634820/image/bots/2026-06-04/ca6f8a66-ed7a-483d-b6f3-2b844bb92729.png",
-    "bannerImageUrl": "",
-    "creators": 10,
-    "agency": "AwayDays",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-20T15:28:50.643Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Personal brand",
-    "contentType": "UGC",
-    "title": "AwayDays content clipping",
-    "description": "Create viral short form using clips/content from the AwayDays YouTube channel: https://www.youtube.com/@awaydaysfootball football vlogs, travel vlogs, soccer, travel, lifestyle",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "AwayDays content clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/awaydays-clipping-channel"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 792,
-    "total": 1000,
-    "count": "462",
-    "cpm": 0.5,
-    "key": "AwayDays::AwayDays content clipping"
-  },
-  {
-    "id": "fcc712af-a551-472b-9773-ff0d62d3481a",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "lucas-clipping-b6",
-    "whop_route": "lucas-clipping-b6",
-    "whopUrl": "https://whop.com/lucas-clipping-b6",
-    "thumbnail": "https://cdn.contentrewards.com/user_qmG12379GTlG0/1782906540814.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
-    "bannerImageUrl": "",
-    "creators": 533,
-    "agency": "Lucas clipping",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-16T20:11:55.103Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Lucas Clipping",
-    "description": "Clippe la transformation de Lucas et sois payé aux vues. 1€ pour 1000 vues",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Lucas Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/lucas-clipping-b6"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15D8mdXypE8aDsL7yi-Ok62nHw5QwlrBIuB0JpRiqOVU"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1hVnbTSAsArkyVdkjhwfznwBCfwc3VxHC?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15D8mdXypE8aDsL7yi-Ok62nHw5QwlrBIuB0JpRiqOVU/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 4100,
-    "total": 4850,
-    "count": "68",
-    "cpm": 1,
-    "key": "Lucas clipping::Lucas Clipping"
-  },
-  {
-    "id": "1ff03dc2-111b-41f1-93a0-7cee7a47e7cd",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "scene-society-43",
-    "whop_route": "scene-society-43",
-    "whopUrl": "https://whop.com/scene-society-43",
-    "thumbnail": "https://cdn.contentrewards.com/user_bAy0UPaXCUqN5/1784209020514.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17660194/image/bots/2026-06-17/a97fff1d-4e15-44dd-801c-b8e034494cd4.png",
-    "bannerImageUrl": "",
-    "creators": 1233,
-    "agency": "The Clip Ship",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-14T08:15:43.870Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Messi Edits/Clips - Lykke Li",
-    "description": "Create edits or clips of Messi using the provided audio and follow the requirements in the campaign's google doc brief",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Messi Edits/Clips - Lykke Li | Official Whop Hub & Assets",
-        "url": "https://whop.com/scene-society-43"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10L_5QyFdbiVyYUm42cpY-kAj9kwIgu7g38OuQ6hHrVI/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 46,
-    "total": 2100,
-    "count": "533",
-    "cpm": 0.5,
-    "key": "The Clip Ship::Messi Edits/Clips - Lykke Li"
-  },
-  {
-    "id": "a9c438ee-796a-4868-b723-8c2661eee9f1",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "tipselverde-clipping-es",
-    "whop_route": "tipselverde-clipping-es",
-    "whopUrl": "https://whop.com/tipselverde-clipping-es",
-    "thumbnail": "https://cdn.contentrewards.com/user_BEmRggSZD8ZE6/1782914968638.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28306205/image/bots/2026-06-02/3ec670c7-69c4-422a-bbd0-71b88485e0af.png",
-    "bannerImageUrl": "",
-    "creators": 19,
-    "agency": "Tipselverde Clipping",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-14T16:36:52.247Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Clips de Tipselverde - 1$ por cada 1000 visitas",
-    "description": "Tipselverde Clipping Personal brand clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clips de Tipselverde - 1$ por cada 1000 visitas | Official Whop Hub & Assets",
-        "url": "https://whop.com/tipselverde-clipping-es"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 766,
-    "total": 1000,
-    "count": "54",
-    "cpm": 1,
-    "key": "Tipselverde Clipping::Clips de Tipselverde - 1$ por cada 1000 visitas"
-  },
-  {
-    "id": "057cb09c-4d6a-471e-89fb-acbd7e62e84a",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "dr-kiki-ramsey-creator-program-c6",
-    "whop_route": "dr-kiki-ramsey-creator-program-c6",
-    "whopUrl": "https://whop.com/dr-kiki-ramsey-creator-program-c6",
-    "thumbnail": "https://cdn.contentrewards.com/user_OnpyN0VU6Xf3i/1784046234783.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28306205/image/bots/2026-06-02/3ec670c7-69c4-422a-bbd0-71b88485e0af.png",
-    "bannerImageUrl": "",
-    "creators": 46,
-    "agency": "Dr. Kiki Ramsey Creator Program",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-06-02T15:05:47.087Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Personal brand",
-    "contentType": "UGC",
-    "title": "Dr. Kiki Ramsey Clipping Career Rescue Hotline",
-    "description": "Clip the best moments from Career Rescue Hotline, where Dr. Kiki Ramsey, your favorite positive psychologist and career coach, helps real people fix real career problems. Topics: career growth, confidence, mindset, and workplace advice. Source content provided. Target audience: USA and English-speaking countries. Strict rules: no misleading captions, no edits that alter her message, nothing that makes Dr. Kiki look bad. Make text font clean and context of clips make sense for maximum virality. Use Full Screen Clips, dont show black bars on top/bottom. Violations will get rejected.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Dr. Kiki Ramsey Clipping Career Rescue Hotline | Official Whop Hub & Assets",
-        "url": "https://whop.com/dr-kiki-ramsey-creator-program-c6"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1XdDt1PkfmarFBMjTEKXwuLF5Kml9s3PvEmKgKLTM5BE/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/194ECmgMqENEOZupEvIak_s8s0w_cczGR?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 203,
-    "total": 1000,
-    "count": "19",
-    "cpm": 2,
-    "key": "Dr. Kiki Ramsey Creator Program::Dr. Kiki Ramsey Clipping Career Rescue Hotline"
-  },
-  {
-    "id": "1315c466-184b-47ed-ac0e-0ac132dbfa84",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clouted-clipping-membership",
-    "whop_route": "clouted-clipping-membership",
-    "whopUrl": "https://whop.com/clouted-clipping-membership",
-    "thumbnail": "https://cdn.contentrewards.com/user_WENWJsaFhtCBL/1784632509742.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27087809/image/ai_prompts/2026-05-12/ce6cef69-79d0-49c5-84bc-924ccc8ccac5.png",
-    "bannerImageUrl": "",
-    "creators": 34,
-    "agency": "Clouted",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-30T13:18:27.015Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "Goodluck with Gino Podcast Clipping",
-    "description": "Clips provided, Reposting, for Gino the Ghost",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Goodluck with Gino Podcast Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/clouted-clipping-membership"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1gKkBkzPveE0vI6EgVy2joEJ-bQZ6vQMy?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 189,
-    "total": 1500,
-    "count": "19",
-    "cpm": 0.5,
-    "key": "Clouted::Goodluck with Gino Podcast Clipping"
-  },
-  {
-    "id": "3e5a068f-8c2c-4b2b-953b-04fbbfcdf3d2",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "lsr-access",
-    "whop_route": "lsr-access",
-    "whopUrl": "https://whop.com/lsr-access",
-    "thumbnail": "https://cdn.contentrewards.com/user_f98wQ6klcAFc0/1784685700268.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17860764/image/bots/2026-07-17/71709fe4-41b6-4c21-9d54-e743ba4163e7.png",
-    "bannerImageUrl": "",
-    "creators": 53,
-    "agency": "LSR CLIPS",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-20T00:41:30.935Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "LSR/CITY X CLIPPING",
-    "description": "Help us build hype for the LSR/CITY X tour. All source footage is provided — no filming required. Just edit, post, and get paid $1 per 1k views. SOURCE FOOTAGE All clips are in the folder Attached Below In Requirements Use Only New Tour Clips Using Old Show Clips May Result In No Punishment",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "LSR/CITY X CLIPPING | Official Whop Hub & Assets",
-        "url": "https://whop.com/lsr-access"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1N2SCnAShF2OlC5_h2Zvhfz5XOHr_rJ0ysV83bmRiSRE/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/0yavxwlup09ak6j8nkf4k/AMsOTIUbPwyueJiysTCJnys?rlkey=k407qpgdluosc5y629uxierqs"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1YS0m5M0ZXsMPlO3bH-ftNbcSvdu-Iz7zYNFb70rSQlU/edit?usp=sharing"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/0yavxwlup09ak6j8nkf4k/AMsOTIUbPwyueJiysTCJnys?rlkey=k407qpgdluosc5y629uxierqs&amp;st=811fetfy&amp;dl=0"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 162,
-    "total": 1000,
-    "count": "189",
-    "cpm": 1,
-    "key": "LSR CLIPS::LSR/CITY X CLIPPING"
-  },
-  {
-    "id": "216b0681-085e-40d2-9fcc-a8e4dff792a1",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "brazil-clips",
-    "whop_route": "brazil-clips",
-    "whopUrl": "https://whop.com/brazil-clips",
-    "thumbnail": "https://cdn.contentrewards.com/user_AogXVqWBeVhBS/1784508900172.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12995084/image/bots/2026-03-20/7e6651fb-c00c-4cb1-a506-a7521b972ddb.png",
-    "bannerImageUrl": "",
-    "creators": 20,
-    "agency": "Brazil Clips",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-04-03T12:53:54.758Z",
-    "sortTimestamp": 1784811626885,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Velasco Clips",
-    "description": "Clipe o Velasco e seja pago! Confira o briefing em Resource abaixo.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Velasco Clips | Official Whop Hub & Assets",
-        "url": "https://whop.com/brazil-clips"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://decorous-rumba-b2a.notion.site/Velasco-Clips-3a2358f0c19980529818e1782a5444ff"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 239,
-    "total": 1000,
-    "count": "53",
-    "cpm": 0.25,
-    "key": "Brazil Clips::Velasco Clips"
-  },
-  {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 218,
-    "agency": "ClippedIn",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": null,
-    "sortTimestamp": 1784811626884,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "$1,000 Elina Meng Streamer Clipping Campaign",
-    "description": "Clip the best moments from Elina Meng's official Twitch streams during Streamer University and turn them into viral short-form videos. We're looking for funny moments, reactions, wholesome interactions, relatable moments, and clips that make sense even without watching the full stream.",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 699,
-    "total": 1000,
-    "count": "218",
-    "cpm": 1,
-    "key": "ClippedIn::$1,000 Elina Meng Streamer Clipping Campaign"
-  },
-  {
-    "id": "deac61a6-5ff5-4add-9459-15c8a725d9cb",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipcashai",
-    "whop_route": "clipcashai",
-    "whopUrl": "https://whop.com/clipcashai",
-    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782952009301.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
-    "bannerImageUrl": "",
-    "creators": 324,
-    "agency": "Artist Influence",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-06-06T21:35:37.928Z",
-    "sortTimestamp": 1784811626884,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Kesha - Origami | TV/Movie/FIFA EDITS",
-    "description": "Get paid per view to clip Kesha's Origami on TikTok. We're looking for Show Edits (Off Campus, Euphoria, Skins), World Cup Edits, and dance edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+. Read Google Doc.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Kesha - Origami | TV/Movie/FIFA EDITS | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ehIwqWYpnh4dUIg0RgrzjIuxmorpYKnDa1fZbJtQMwg/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 216,
-    "total": 1000,
-    "count": "146",
-    "cpm": 1,
-    "key": "Artist Influence::Kesha - Origami | TV/Movie/FIFA EDITS"
-  },
-  {
-    "id": "753bbdf0-3381-4140-8222-c8733b938f36",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "cliphaus-19",
-    "whop_route": "cliphaus-19",
-    "whopUrl": "https://whop.com/cliphaus-19",
-    "thumbnail": "https://cdn.contentrewards.com/user_6we8MXmJJPGsw/1782869115417.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12501784/image/bots/2026-05-14/90fcc955-d6a6-4032-99bd-63b997158a73.png",
-    "bannerImageUrl": "",
-    "creators": 292,
-    "agency": "ClipHaus",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-20T15:22:49.103Z",
-    "sortTimestamp": 1784811626884,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "THE LIVING ROOM PODCAST",
-    "description": "The Living Room Podcast is a science-first health and wellness show hosted by Chris Wharton featuring the world's top longevity scientists alongside A-list celebrities, athletes, and musicians. Clips drive reach and trust — not hype. Cut the best moments, post across your pages, and get paid per view.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "THE LIVING ROOM PODCAST | Official Whop Hub & Assets",
-        "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1lWlwnXa-97aBKdZ-FEYpq3cx3Zwoab3qy4tvO3yTifI/edit"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/ezet2mide2p7d1qp80yd3/AAwyGxoGYym4WdOGq-CS0oI?rlkey=88meq22nz4tcll8i1xg4isyde"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/ezet2mide2p7d1qp80yd3/AAwyGxoGYym4WdOGq-CS0oI?rlkey=88meq22nz4tcll8i1xg4isyde&amp;st=i5rqb1ae&amp;dl=0"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 2515,
-    "total": 3000,
-    "count": "2K",
-    "cpm": 1,
-    "key": "ClipHaus::THE LIVING ROOM PODCAST"
-  },
-  {
-    "id": "d425dd80-81d0-41ca-8d1e-b9a91660fd62",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "moorhouse-clipper-portal",
-    "whop_route": "moorhouse-clipper-portal",
-    "whopUrl": "https://whop.com/moorhouse-clipper-portal",
-    "thumbnail": "https://cdn.contentrewards.com/user_yFyhaPs3Wx2Ak/1780950923545.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12905747/image/access_passes/2026-08-07/99b09c82-bef9-4d90-8d09-0d1a93c97c34.png",
-    "bannerImageUrl": "",
-    "creators": 195,
-    "agency": "MoorHouse",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-05T16:58:05.859Z",
-    "sortTimestamp": 1784811626884,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "MoorHouse Media Network - $2.50 CPM",
-    "description": "Welcome to the MoorHouse Clipping Network. Pull our raw assets, maximize your retention, and earn automated payouts.. 📊 THE CONTRACT • Rate: $2.50 CPM ($2.50 per 1,000 views). • Minimum Floor: 5,000 views per video to qualify for review. • Maximum Cap: $250.00 max payout per individual video. 🎬 RULES & COMPLIANCE ⚠️ STRICT RULE: All submissions MUST include the @AugustMoor text watermark at 10% opacity in the top corner. Clips missing the watermark or using heavy, solid-colored graphic banners will be automatically rejected. No exceptions. • Mandatory Watermark: Every submission must feature the official brand asset \"AUGUST MOOR WATERMARK .png\" found directly in the main folder. It must be positioned strictly in the Top-Left Corner and remain active for the full duration of the video. Non-compliant placements or heavy bottom borders will be instantly rejected. • No Re-uploads: Edits must be highly active (intentional cuts, retention hooks, pacing edits, and engaging captions). Raw, unedited video dumps will be skipped. • Channel Attribution: You must tag the master handle @AugustMoor in the native platform social tag/handle field on your upload. • Traffic Integrity: Use of view bots, coordination groups, or engagement rings will be instantly caught by the automated system and result in a permanent ban from the network. 👉 Access the pinned Google Drive folder for raw footage, grab the watermark file directly from the main directory, publish to your channels, and paste your live submission link here to track earnings.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "MoorHouse Media Network - $2.50 CPM | Official Whop Hub & Assets",
-        "url": "https://whop.com/moorhouse-clipper-portal"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1IoeF00Zu-P_iQW6aFZuWiujkkBR6M9ts?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 719,
-    "total": 1000,
-    "count": "209",
-    "cpm": 2.5,
-    "key": "MoorHouse::MoorHouse Media Network - $2.50 CPM"
-  },
-  {
-    "id": "9644b272-c2eb-411e-9e90-07bf4e651e2c",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "vo-creations-e7",
-    "whop_route": "vo-creations-e7",
-    "whopUrl": "https://whop.com/vo-creations-e7",
-    "thumbnail": "https://cdn.contentrewards.com/user_ZFfsQyijL0oMS/1787161813022.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25533725/image/bots/2026-04-14/f79b2643-ff26-45aa-b06b-2c76155339ed.png",
-    "bannerImageUrl": "",
-    "creators": 557,
-    "agency": "Olympus",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-03T12:18:43.014Z",
-    "sortTimestamp": 1784811626884,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "🏛️ Olympus - UGC 3$ per 1,000 views",
-    "description": "About Olympus 🏛️ Olympus is an all-in-one Polymarket trading terminal for copy trading, manual trading, wallet management, leverage, perps, combos/parlays, and LP reward workflows. RULES: - No buying/botting views! - Requirements must be met - Apply with account that you will be using for the post - Must have at least 1000 followers to be accepted - Approval/rejection will happen after approximately 3 days have passed - Only 1 video per week will be approved - After 3 days, all posts with 70 or above bot score will get flagged for review by the Content Rewards team, no exceptions. Product website: https://www.olympusx.app/ Community Discord: https://discord.gg/sol-decoder Follow us on X: https://x.com/olympusappX Brandbook https://drive.google.com/drive/folders/1oPxT-YXjWd6m5F3CvYWRT7MTp0lpUKZX?usp=sharing This channel exists to help Olympus creators collaborate, grow their audiences, and create better content together. https://discord.com/channels/925207817923743794/1527309180229255339",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Creator Discord Hub",
-        "url": "https://discord.gg/sol-decoder"
-      },
-      {
-        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Google Drive Assets Folder",
-        "url": "https://drive.google.com/drive/folders/1oPxT-YXjWd6m5F3CvYWRT7MTp0lpUKZX?usp=sharing"
-      },
-      {
-        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Creator Discord Hub",
-        "url": "https://discord.com/channels/925207817923743794/1527309180229255339"
-      },
-      {
-        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Official Whop Hub & Assets",
-        "url": "https://whop.com/vo-creations-e7"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1sd5bq-AJ59r6u5rbpQDLOPKCnp-_MItHl_ww20cshas/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 198,
-    "total": 1000,
-    "count": "7",
-    "cpm": 3,
-    "key": "Olympus::🏛️ Olympus - UGC 3$ per 1,000 views"
-  },
-  {
-    "id": "ace5b47d-95c9-4944-8ce0-207f8b9829b4",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "vo-creations-e7",
-    "whop_route": "vo-creations-e7",
-    "whopUrl": "https://whop.com/vo-creations-e7",
-    "thumbnail": "https://cdn.contentrewards.com/user_CZZkrRA6veJR4/1782775025875.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3732612/image/ai_prompts/2026-05-25/04e5e3ec-0bce-4387-8bbd-e9e2d8ffbe22.png",
-    "bannerImageUrl": "",
-    "creators": 143,
-    "agency": "Vo Creations",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-25T10:09:06.665Z",
-    "sortTimestamp": 1784811626884,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Coworker",
-    "description": "Vo Creations Technology clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Coworker | Official Whop Hub & Assets",
-        "url": "https://whop.com/vo-creations-e7"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 2500,
-    "count": "557",
-    "cpm": 1000,
-    "key": "Vo Creations::Coworker"
+    "key": "Artist Influence::Brutalismus 3000 - Testo Skin Part 1 | Edits"
   },
   {
     "id": "31fbbca2-57ae-4b6e-97ee-c69729456865",
@@ -11758,14 +10023,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "cliptic-io",
     "whopUrl": "https://whop.com/cliptic-io",
     "thumbnail": "https://cdn.contentrewards.com/user_OXmhuV0pocIbW/1783928848969.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_23291640/image/bots/2026-04-27/17aef00c-cbbf-48a3-9694-f0b9254aab77.png",
     "bannerImageUrl": "",
-    "creators": 305,
+    "creators": 96,
     "agency": "Cliptic",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-06-29T21:09:01.349Z",
-    "sortTimestamp": 1784811626884,
+    "fundedAt": "2026-03-03T21:17:55.665Z",
+    "sortTimestamp": 1784813847637,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "My Singing Monsters Clipping",
@@ -11775,10 +10040,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "My Singing Monsters Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/cliptic-io"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1QVIYb45hQ3lHctYMjSXGM3AqRckHMoOabpe7UK8ZDtw/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -11793,45 +10054,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Cliptic::My Singing Monsters Clipping"
   },
   {
-    "id": "9616d915-3312-467f-93de-e95d5e480ae0",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipcashai",
-    "whop_route": "clipcashai",
-    "whopUrl": "https://whop.com/clipcashai",
-    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782767321330.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_23291640/image/bots/2026-04-27/17aef00c-cbbf-48a3-9694-f0b9254aab77.png",
-    "bannerImageUrl": "",
-    "creators": 96,
-    "agency": "Artist Influence",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-03-03T21:17:55.665Z",
-    "sortTimestamp": 1784811626884,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Brutalismus 3000 - Testo Skin Part 1 | Edits",
-    "description": "Get paid per view to clip Brutalismus 3000's - Testo Skin Part 1 on YouTube. We're looking for Music Video edits + edits using the content in repository — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+. Read Google Doc.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Brutalismus 3000 - Testo Skin Part 1 | Edits | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1qY_ACMbLuQhlIp5iqejWL7NwQlodaX8Dg2GMUvoxoS0/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 183,
-    "total": 1000,
-    "count": "305",
-    "cpm": 1,
-    "key": "Artist Influence::Brutalismus 3000 - Testo Skin Part 1 | Edits"
-  },
-  {
     "id": "60836b36-2c47-45ac-88eb-014faf50cb15",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clipcashai",
@@ -11840,12 +10062,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1783611012082.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 26,
+    "creators": 27,
     "agency": "Artist Influence",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-21T17:24:24.556Z",
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Music",
     "contentType": "Clipping",
     "title": "1nonly - GRAILED | FIFA EDITS",
@@ -11855,10 +10077,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "1nonly - GRAILED | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1MFR6PCEjFD-L0EkCf3JftvGYVMNeDY4PZiWkA-e7c1o/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11884,7 +10102,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-06-29T15:32:00.303Z",
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Music",
     "contentType": "UGC",
     "title": "Kuky Feenin (Official Audio)",
@@ -11921,7 +10139,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-07-15T18:50:50.293Z",
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "CLIPPING ESPAÑOL - Daniel Curto",
@@ -11931,14 +10149,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CLIPPING ESPAÑOL - Daniel Curto | Official Whop Hub & Assets",
         "url": "https://whop.com/equipo"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1jCsXqLOybuuauHcwBWCV5-Mllx5w4wG4iik9T3tdVP0/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1NO8lneyDQLvuHMUKvoLX_15lvOT1AJS5?usp=drive_link"
       }
     ],
     "platforms": [
@@ -11966,7 +10176,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": null,
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "$1,000 Stanley Meng Streamer Clipping Campaign",
@@ -11993,12 +10203,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_uxQSRZT5OHFqk/1784805072009.PNG",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1339815/image/bots/2026-02-11/14bda61b-91a5-44e2-b952-515a98247609.png",
     "bannerImageUrl": "",
-    "creators": 21,
+    "creators": 22,
     "agency": "Virality",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-19T17:16:06.226Z",
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Music",
     "contentType": "Clipping",
     "title": "G4 BOYZ [Music Campaign]",
@@ -12035,7 +10245,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-07-07T16:43:08.362Z",
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Technology",
     "contentType": "UGC",
     "title": "DrivePhase [UGC Campaign]",
@@ -12045,10 +10255,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DrivePhase [UGC Campaign] | Official Whop Hub & Assets",
         "url": "https://whop.com/drivephase-4b"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1V9Olb1BS4TUNSDDcpTZv8f0jBtudklq6?usp=sharing"
       }
     ],
     "platforms": [
@@ -12071,12 +10277,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_QltwXdD8qbEdn/1783363905509.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13472183/image/bots/2025-11-24/7b49270c-557d-439c-a150-ce2119b5e64b.jpg",
     "bannerImageUrl": "",
-    "creators": 169,
+    "creators": 170,
     "agency": "Reachify",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-04-10T07:53:24.316Z",
-    "sortTimestamp": 1784811626884,
+    "sortTimestamp": 1784813847637,
     "category": "Product",
     "contentType": "UGC",
     "title": "LearnKata AI [UGC]",
@@ -12086,10 +10292,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "LearnKata AI [UGC] | Official Whop Hub & Assets",
         "url": "https://whop.com/reachify-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Ahr9ac5XhlQ4sIk-FFWkavFbh-RKFHfCBIWyWvuF1S4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12102,6 +10304,830 @@ window.CAMPAIGNS_DATA = [
     "count": "9",
     "cpm": 1.5,
     "key": "Reachify::LearnKata AI [UGC]"
+  },
+  {
+    "id": "24ead91f-cb85-4066-bcd2-4a0df65a76a6",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipcashai",
+    "whop_route": "clipcashai",
+    "whopUrl": "https://whop.com/clipcashai",
+    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782952502667.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-08-22/173f6c96-e364-461f-ba35-de854d756a34/image.png",
+    "bannerImageUrl": "",
+    "creators": 105,
+    "agency": "Artist Influence",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-21T06:26:31.563Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Glaive - God Save the Three | FIFA EDITS",
+    "description": "Get paid per view to clip Glaive - God Save the Three on TikTok. We're looking for World Cup Edits, and Teen & Coming of Age Edits— emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Glaive - God Save the Three | FIFA EDITS | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipcashai"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 129,
+    "total": 1000,
+    "count": "145",
+    "cpm": 1,
+    "key": "Artist Influence::Glaive - God Save the Three | FIFA EDITS"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
+    "creators": 44,
+    "agency": "Trading Kannada",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": null,
+    "sortTimestamp": 1784813847637,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "\"Trading Kannada Clips — ₹/$2 per 1K Views\"",
+    "description": "Trading Kannada creates trading & investing education content in Kannada for Karnataka/South Indian traders. We're looking for clippers to turn our long-form YouTube videos, live trading sessions, and market breakdowns into short, high-retention clips. - CREATE a new fan page ( like Trading kannada clips, trading kannada fans ,trading clips etc ) - Upload one sample video in that page and send a request - we will check and approve",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "youtube"
+    ],
+    "spent": 242,
+    "total": 1000,
+    "count": "44",
+    "cpm": 3,
+    "key": "Trading Kannada::\"Trading Kannada Clips — ₹/$2 per 1K Views\""
+  },
+  {
+    "id": "999455b7-0803-400f-8370-09a36d399400",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "awaydays-clipping-channel",
+    "whop_route": "awaydays-clipping-channel",
+    "whopUrl": "https://whop.com/awaydays-clipping-channel",
+    "thumbnail": "https://cdn.contentrewards.com/user_6NETOUSKQunVM/1784749199088.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8634820/image/bots/2026-06-04/ca6f8a66-ed7a-483d-b6f3-2b844bb92729.png",
+    "bannerImageUrl": "",
+    "creators": 11,
+    "agency": "AwayDays",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-20T15:28:50.643Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Personal brand",
+    "contentType": "UGC",
+    "title": "AwayDays content clipping",
+    "description": "Create viral short form using clips/content from the AwayDays YouTube channel: https://www.youtube.com/@awaydaysfootball football vlogs, travel vlogs, soccer, travel, lifestyle",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "AwayDays content clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/awaydays-clipping-channel"
+      }
+    ],
+    "platforms": [
+      "youtube"
+    ],
+    "spent": 793,
+    "total": 1000,
+    "count": "462",
+    "cpm": 0.5,
+    "key": "AwayDays::AwayDays content clipping"
+  },
+  {
+    "id": "fcc712af-a551-472b-9773-ff0d62d3481a",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "lucas-clipping-b6",
+    "whop_route": "lucas-clipping-b6",
+    "whopUrl": "https://whop.com/lucas-clipping-b6",
+    "thumbnail": "https://cdn.contentrewards.com/user_qmG12379GTlG0/1782906540814.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "bannerImageUrl": "",
+    "creators": 534,
+    "agency": "Lucas clipping",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-16T20:11:55.103Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Lucas Clipping",
+    "description": "Clippe la transformation de Lucas et sois payé aux vues. 1€ pour 1000 vues",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Lucas Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/lucas-clipping-b6"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 4100,
+    "total": 4850,
+    "count": "68",
+    "cpm": 1,
+    "key": "Lucas clipping::Lucas Clipping"
+  },
+  {
+    "id": "1ff03dc2-111b-41f1-93a0-7cee7a47e7cd",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "scene-society-43",
+    "whop_route": "scene-society-43",
+    "whopUrl": "https://whop.com/scene-society-43",
+    "thumbnail": "https://cdn.contentrewards.com/user_bAy0UPaXCUqN5/1784209020514.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17660194/image/bots/2026-06-17/a97fff1d-4e15-44dd-801c-b8e034494cd4.png",
+    "bannerImageUrl": "",
+    "creators": 1233,
+    "agency": "The Clip Ship",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-05-14T08:15:43.870Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Messi Edits/Clips - Lykke Li",
+    "description": "Create edits or clips of Messi using the provided audio and follow the requirements in the campaign's google doc brief",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Messi Edits/Clips - Lykke Li | Official Whop Hub & Assets",
+        "url": "https://whop.com/scene-society-43"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 46,
+    "total": 2100,
+    "count": "534",
+    "cpm": 0.5,
+    "key": "The Clip Ship::Messi Edits/Clips - Lykke Li"
+  },
+  {
+    "id": "a9c438ee-796a-4868-b723-8c2661eee9f1",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "tipselverde-clipping-es",
+    "whop_route": "tipselverde-clipping-es",
+    "whopUrl": "https://whop.com/tipselverde-clipping-es",
+    "thumbnail": "https://cdn.contentrewards.com/user_BEmRggSZD8ZE6/1782914968638.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28306205/image/bots/2026-06-02/3ec670c7-69c4-422a-bbd0-71b88485e0af.png",
+    "bannerImageUrl": "",
+    "creators": 19,
+    "agency": "Tipselverde Clipping",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-14T16:36:52.247Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Clips de Tipselverde - 1$ por cada 1000 visitas",
+    "description": "Tipselverde Clipping Personal brand clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Clips de Tipselverde - 1$ por cada 1000 visitas | Official Whop Hub & Assets",
+        "url": "https://whop.com/tipselverde-clipping-es"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 766,
+    "total": 1000,
+    "count": "54",
+    "cpm": 1,
+    "key": "Tipselverde Clipping::Clips de Tipselverde - 1$ por cada 1000 visitas"
+  },
+  {
+    "id": "057cb09c-4d6a-471e-89fb-acbd7e62e84a",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "dr-kiki-ramsey-creator-program-c6",
+    "whop_route": "dr-kiki-ramsey-creator-program-c6",
+    "whopUrl": "https://whop.com/dr-kiki-ramsey-creator-program-c6",
+    "thumbnail": "https://cdn.contentrewards.com/user_OnpyN0VU6Xf3i/1784046234783.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28306205/image/bots/2026-06-02/3ec670c7-69c4-422a-bbd0-71b88485e0af.png",
+    "bannerImageUrl": "",
+    "creators": 46,
+    "agency": "Dr. Kiki Ramsey Creator Program",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-06-02T15:05:47.087Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Personal brand",
+    "contentType": "UGC",
+    "title": "Dr. Kiki Ramsey Clipping Career Rescue Hotline",
+    "description": "Clip the best moments from Career Rescue Hotline, where Dr. Kiki Ramsey, your favorite positive psychologist and career coach, helps real people fix real career problems. Topics: career growth, confidence, mindset, and workplace advice. Source content provided. Target audience: USA and English-speaking countries. Strict rules: no misleading captions, no edits that alter her message, nothing that makes Dr. Kiki look bad. Make text font clean and context of clips make sense for maximum virality. Use Full Screen Clips, dont show black bars on top/bottom. Violations will get rejected.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Dr. Kiki Ramsey Clipping Career Rescue Hotline | Official Whop Hub & Assets",
+        "url": "https://whop.com/dr-kiki-ramsey-creator-program-c6"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 203,
+    "total": 1000,
+    "count": "19",
+    "cpm": 2,
+    "key": "Dr. Kiki Ramsey Creator Program::Dr. Kiki Ramsey Clipping Career Rescue Hotline"
+  },
+  {
+    "id": "1315c466-184b-47ed-ac0e-0ac132dbfa84",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clouted-clipping-membership",
+    "whop_route": "clouted-clipping-membership",
+    "whopUrl": "https://whop.com/clouted-clipping-membership",
+    "thumbnail": "https://cdn.contentrewards.com/user_WENWJsaFhtCBL/1784632509742.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27087809/image/ai_prompts/2026-05-12/ce6cef69-79d0-49c5-84bc-924ccc8ccac5.png",
+    "bannerImageUrl": "",
+    "creators": 34,
+    "agency": "Clouted",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-05-30T13:18:27.015Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "Goodluck with Gino Podcast Clipping",
+    "description": "Clips provided, Reposting, for Gino the Ghost",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Goodluck with Gino Podcast Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/clouted-clipping-membership"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 189,
+    "total": 1500,
+    "count": "19",
+    "cpm": 0.5,
+    "key": "Clouted::Goodluck with Gino Podcast Clipping"
+  },
+  {
+    "id": "3e5a068f-8c2c-4b2b-953b-04fbbfcdf3d2",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "lsr-access",
+    "whop_route": "lsr-access",
+    "whopUrl": "https://whop.com/lsr-access",
+    "thumbnail": "https://cdn.contentrewards.com/user_f98wQ6klcAFc0/1784685700268.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17860764/image/bots/2026-07-17/71709fe4-41b6-4c21-9d54-e743ba4163e7.png",
+    "bannerImageUrl": "",
+    "creators": 53,
+    "agency": "LSR CLIPS",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-20T00:41:30.935Z",
+    "sortTimestamp": 1784813847637,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "LSR/CITY X CLIPPING",
+    "description": "Help us build hype for the LSR/CITY X tour. All source footage is provided — no filming required. Just edit, post, and get paid $1 per 1k views. SOURCE FOOTAGE All clips are in the folder Attached Below In Requirements Use Only New Tour Clips Using Old Show Clips May Result In No Punishment",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "LSR/CITY X CLIPPING | Official Whop Hub & Assets",
+        "url": "https://whop.com/lsr-access"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 162,
+    "total": 1000,
+    "count": "189",
+    "cpm": 1,
+    "key": "LSR CLIPS::LSR/CITY X CLIPPING"
+  },
+  {
+    "id": "912cbe18-d67f-49ed-9e24-1d80c3a1e523",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "whoods-clips-fc",
+    "whop_route": "whoods-clips-fc",
+    "whopUrl": "https://whop.com/whoods-clips-fc",
+    "thumbnail": "https://cdn.contentrewards.com/user_Xw5OdWZD9zJfw/1782840027034.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6871187/image/bots/2026-06-25/4ef5b325-718c-4199-8b68-9d8fa5e1bc9a.png",
+    "bannerImageUrl": "",
+    "creators": 161,
+    "agency": "Whoods Clips",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-14T20:50:01.421Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Whoods's Campaign",
+    "description": "Earn $1 per 1,000 Views",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Whoods's Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/whoods-clips-fc"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 1426,
+    "total": 2500,
+    "count": "390",
+    "cpm": 1,
+    "key": "Whoods Clips::Whoods's Campaign"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
+    "creators": 161,
+    "agency": "Reachify",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": null,
+    "sortTimestamp": 1784813847636,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Duel Clipping [TIKTOK & YT]",
+    "description": "Create entertaining content, such as memes, using the clips in the attached folder. The content should be centered around duel.com and posted on Tiktok to earn $1.25 per 1,000 views.",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 505,
+    "total": 5000,
+    "count": "161",
+    "cpm": 1.25,
+    "key": "Reachify::Duel Clipping [TIKTOK & YT]"
+  },
+  {
+    "id": "15252b84-3a2e-4dff-927f-78fd47b51c5b",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipcashai",
+    "whop_route": "clipcashai",
+    "whopUrl": "https://whop.com/clipcashai",
+    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782892385819.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26376118/image/bots/2026-05-15/5c311763-41e7-43d9-940a-58e753ae90f8.png",
+    "bannerImageUrl": "",
+    "creators": 30,
+    "agency": "Artist Influence",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-20T20:12:41.889Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "David Guetta - Run Run River | Summer Edits",
+    "description": "Get paid per view to clip \"Run Run River\" on TikTok. We're looking for FIFA Edits, Summer Edits, Festival Edits, Love Island Edits, Dancing, and Text Overlay Aesthetic Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200. Read Google Doc.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "David Guetta - Run Run River | Summer Edits | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipcashai"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 780,
+    "total": 1000,
+    "count": "201",
+    "cpm": 1,
+    "key": "Artist Influence::David Guetta - Run Run River | Summer Edits"
+  },
+  {
+    "id": "95a15c64-a554-4b5e-895a-52cef0cbae06",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipcashai",
+    "whop_route": "clipcashai",
+    "whopUrl": "https://whop.com/clipcashai",
+    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1783623380666.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "bannerImageUrl": "",
+    "creators": 729,
+    "agency": "Artist Influence",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-08T15:23:19.538Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits",
+    "description": "Get paid per view to clip Two Cuzzos' - \"Say It Now\" on TikTok. We're looking for FIFA, VHS Aesthetic, and Summer Vibe Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc Below.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipcashai"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 182,
+    "total": 1750,
+    "count": "213",
+    "cpm": 1,
+    "key": "Artist Influence::Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits"
+  },
+  {
+    "id": "493b846d-f762-4c5b-a848-74e979e934a2",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "scene-society-43",
+    "whop_route": "scene-society-43",
+    "whopUrl": "https://whop.com/scene-society-43",
+    "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1786565378023.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25363569/image/bots/2026-04-26/20942dc9-f755-417a-b68e-d11863aca356.png",
+    "bannerImageUrl": "",
+    "creators": 43,
+    "agency": "The Clip Ship",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-04T14:08:28.770Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Leon Bridges | Outside Lands",
+    "description": "Edit and post clips from the approved assets folder to highlight Leon's Outside Lands performance and attached one of the approved songs below.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Leon Bridges | Outside Lands | Official Whop Hub & Assets",
+        "url": "https://whop.com/scene-society-43"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 233,
+    "total": 1083,
+    "count": "729",
+    "cpm": 1,
+    "key": "The Clip Ship::Leon Bridges | Outside Lands"
+  },
+  {
+    "id": "3e9e8e4c-a1c7-41a2-b64b-3be8362d2032",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "syndicate-creators",
+    "whop_route": "syndicate-creators",
+    "whopUrl": "https://whop.com/syndicate-creators",
+    "thumbnail": "https://cdn.contentrewards.com/user_9qgPz0YY8Pr5Z/1786199651937.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "bannerImageUrl": "",
+    "creators": 113,
+    "agency": "Syndicate",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-21T21:06:23.955Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Entertainment",
+    "contentType": "Clipping",
+    "title": "Playsteppa X Syndicate",
+    "description": "Make easy money posting slideshow content for Steppa, the app that pays you real cash just for walking. You'll create faceless photo slideshows that take minutes, no camera needed. Full video course + Success Guide with ready-to-use prompts provided. Start today, $1 per 1K views, $600 max per video.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Playsteppa X Syndicate | Official Whop Hub & Assets",
+        "url": "https://whop.com/syndicate-creators"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 431,
+    "total": 7150,
+    "count": "101",
+    "cpm": 1,
+    "key": "Syndicate::Playsteppa X Syndicate"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
+    "creators": 218,
+    "agency": "ClippedIn",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": null,
+    "sortTimestamp": 1784813847636,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "$1,000 Elina Meng Streamer Clipping Campaign",
+    "description": "Clip the best moments from Elina Meng's official Twitch streams during Streamer University and turn them into viral short-form videos. We're looking for funny moments, reactions, wholesome interactions, relatable moments, and clips that make sense even without watching the full stream.",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 699,
+    "total": 1000,
+    "count": "218",
+    "cpm": 1,
+    "key": "ClippedIn::$1,000 Elina Meng Streamer Clipping Campaign"
+  },
+  {
+    "id": "deac61a6-5ff5-4add-9459-15c8a725d9cb",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipcashai",
+    "whop_route": "clipcashai",
+    "whopUrl": "https://whop.com/clipcashai",
+    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782952009301.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
+    "bannerImageUrl": "",
+    "creators": 325,
+    "agency": "Artist Influence",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-06-06T21:35:37.928Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "Kesha - Origami | TV/Movie/FIFA EDITS",
+    "description": "Get paid per view to clip Kesha's Origami on TikTok. We're looking for Show Edits (Off Campus, Euphoria, Skins), World Cup Edits, and dance edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+. Read Google Doc.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Kesha - Origami | TV/Movie/FIFA EDITS | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipcashai"
+      }
+    ],
+    "platforms": [
+      "tiktok"
+    ],
+    "spent": 216,
+    "total": 1000,
+    "count": "146",
+    "cpm": 1,
+    "key": "Artist Influence::Kesha - Origami | TV/Movie/FIFA EDITS"
+  },
+  {
+    "id": "753bbdf0-3381-4140-8222-c8733b938f36",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "cliphaus-19",
+    "whop_route": "cliphaus-19",
+    "whopUrl": "https://whop.com/cliphaus-19",
+    "thumbnail": "https://cdn.contentrewards.com/user_6we8MXmJJPGsw/1782869115417.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12501784/image/bots/2026-05-14/90fcc955-d6a6-4032-99bd-63b997158a73.png",
+    "bannerImageUrl": "",
+    "creators": 292,
+    "agency": "ClipHaus",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-05-20T15:22:49.103Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "THE LIVING ROOM PODCAST",
+    "description": "The Living Room Podcast is a science-first health and wellness show hosted by Chris Wharton featuring the world's top longevity scientists alongside A-list celebrities, athletes, and musicians. Clips drive reach and trust — not hype. Cut the best moments, post across your pages, and get paid per view.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "THE LIVING ROOM PODCAST | Official Whop Hub & Assets",
+        "url": "https://whop.com/cliphaus-19"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 2515,
+    "total": 3000,
+    "count": "2K",
+    "cpm": 1,
+    "key": "ClipHaus::THE LIVING ROOM PODCAST"
+  },
+  {
+    "id": "d425dd80-81d0-41ca-8d1e-b9a91660fd62",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "moorhouse-clipper-portal",
+    "whop_route": "moorhouse-clipper-portal",
+    "whopUrl": "https://whop.com/moorhouse-clipper-portal",
+    "thumbnail": "https://cdn.contentrewards.com/user_yFyhaPs3Wx2Ak/1780950923545.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12905747/image/access_passes/2026-08-07/99b09c82-bef9-4d90-8d09-0d1a93c97c34.png",
+    "bannerImageUrl": "",
+    "creators": 195,
+    "agency": "MoorHouse",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-05T16:58:05.859Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "MoorHouse Media Network - $2.50 CPM",
+    "description": "Welcome to the MoorHouse Clipping Network. Pull our raw assets, maximize your retention, and earn automated payouts.. 📊 THE CONTRACT • Rate: $2.50 CPM ($2.50 per 1,000 views). • Minimum Floor: 5,000 views per video to qualify for review. • Maximum Cap: $250.00 max payout per individual video. 🎬 RULES & COMPLIANCE ⚠️ STRICT RULE: All submissions MUST include the @AugustMoor text watermark at 10% opacity in the top corner. Clips missing the watermark or using heavy, solid-colored graphic banners will be automatically rejected. No exceptions. • Mandatory Watermark: Every submission must feature the official brand asset \"AUGUST MOOR WATERMARK .png\" found directly in the main folder. It must be positioned strictly in the Top-Left Corner and remain active for the full duration of the video. Non-compliant placements or heavy bottom borders will be instantly rejected. • No Re-uploads: Edits must be highly active (intentional cuts, retention hooks, pacing edits, and engaging captions). Raw, unedited video dumps will be skipped. • Channel Attribution: You must tag the master handle @AugustMoor in the native platform social tag/handle field on your upload. • Traffic Integrity: Use of view bots, coordination groups, or engagement rings will be instantly caught by the automated system and result in a permanent ban from the network. 👉 Access the pinned Google Drive folder for raw footage, grab the watermark file directly from the main directory, publish to your channels, and paste your live submission link here to track earnings.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "MoorHouse Media Network - $2.50 CPM | Official Whop Hub & Assets",
+        "url": "https://whop.com/moorhouse-clipper-portal"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 719,
+    "total": 1000,
+    "count": "209",
+    "cpm": 2.5,
+    "key": "MoorHouse::MoorHouse Media Network - $2.50 CPM"
+  },
+  {
+    "id": "9644b272-c2eb-411e-9e90-07bf4e651e2c",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "vo-creations-e7",
+    "whop_route": "vo-creations-e7",
+    "whopUrl": "https://whop.com/vo-creations-e7",
+    "thumbnail": "https://cdn.contentrewards.com/user_ZFfsQyijL0oMS/1787161813022.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25533725/image/bots/2026-04-14/f79b2643-ff26-45aa-b06b-2c76155339ed.png",
+    "bannerImageUrl": "",
+    "creators": 557,
+    "agency": "Olympus",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-03T12:18:43.014Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "🏛️ Olympus - UGC 3$ per 1,000 views",
+    "description": "About Olympus 🏛️ Olympus is an all-in-one Polymarket trading terminal for copy trading, manual trading, wallet management, leverage, perps, combos/parlays, and LP reward workflows. RULES: - No buying/botting views! - Requirements must be met - Apply with account that you will be using for the post - Must have at least 1000 followers to be accepted - Approval/rejection will happen after approximately 3 days have passed - Only 1 video per week will be approved - After 3 days, all posts with 70 or above bot score will get flagged for review by the Content Rewards team, no exceptions. Product website: https://www.olympusx.app/ Community Discord: https://discord.gg/sol-decoder Follow us on X: https://x.com/olympusappX Brandbook https://drive.google.com/drive/folders/1oPxT-YXjWd6m5F3CvYWRT7MTp0lpUKZX?usp=sharing This channel exists to help Olympus creators collaborate, grow their audiences, and create better content together. https://discord.com/channels/925207817923743794/1527309180229255339",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Creator Discord Hub",
+        "url": "https://discord.gg/sol-decoder"
+      },
+      {
+        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Google Drive Assets Folder",
+        "url": "https://drive.google.com/drive/folders/1oPxT-YXjWd6m5F3CvYWRT7MTp0lpUKZX?usp=sharing"
+      },
+      {
+        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Creator Discord Hub",
+        "url": "https://discord.com/channels/925207817923743794/1527309180229255339"
+      },
+      {
+        "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Official Whop Hub & Assets",
+        "url": "https://whop.com/vo-creations-e7"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 198,
+    "total": 1000,
+    "count": "7",
+    "cpm": 3,
+    "key": "Olympus::🏛️ Olympus - UGC 3$ per 1,000 views"
+  },
+  {
+    "id": "ace5b47d-95c9-4944-8ce0-207f8b9829b4",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "vo-creations-e7",
+    "whop_route": "vo-creations-e7",
+    "whopUrl": "https://whop.com/vo-creations-e7",
+    "thumbnail": "https://cdn.contentrewards.com/user_CZZkrRA6veJR4/1782775025875.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3732612/image/ai_prompts/2026-05-25/04e5e3ec-0bce-4387-8bbd-e9e2d8ffbe22.png",
+    "bannerImageUrl": "",
+    "creators": 143,
+    "agency": "Vo Creations",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-05-25T10:09:06.665Z",
+    "sortTimestamp": 1784813847636,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Coworker",
+    "description": "Vo Creations Technology clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Coworker | Official Whop Hub & Assets",
+        "url": "https://whop.com/vo-creations-e7"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 2500,
+    "count": "557",
+    "cpm": 1000,
+    "key": "Vo Creations::Coworker"
+  },
+  {
+    "id": "efb7ab8c-8e58-4368-9615-d23b42d5d43e",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "join-cliplaunch",
+    "whop_route": "join-cliplaunch",
+    "whopUrl": "https://whop.com/join-cliplaunch",
+    "thumbnail": "https://cdn.contentrewards.com/user_pQiVZMe2eMXAj/1783728660811.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16301082/image/access_passes/2026-06-07/f3818fdc-ee3f-409d-a8a0-0a68c2f1a391.jpeg",
+    "bannerImageUrl": "",
+    "creators": 48,
+    "agency": "ClipLaunch",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-07-29T15:55:04.716Z",
+    "sortTimestamp": 1784813847635,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "PULP Clipping [GAMING CLIPS]",
+    "description": "Clip for PlayPulp.io. The goal is to create entertaining clips that funnel people to the site. Your mission is to create short form clips using PULP gameplay that make viewers want to check out the site for themselves. Highlight the thrill of real money, skill based competition: big wins, brutal losses, clutch comebacks, chokes, trash talk, and reactions to a close finish. A viewer should finish the clip thinking \"I want to try this.\"",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "PULP Clipping [GAMING CLIPS] | Official Whop Hub & Assets",
+        "url": "https://whop.com/join-cliplaunch"
+      }
+    ],
+    "platforms": [
+      "instagram"
+    ],
+    "spent": 4651,
+    "total": 5600,
+    "count": "719",
+    "cpm": 1,
+    "key": "ClipLaunch::PULP Clipping [GAMING CLIPS]"
+  },
+  {
+    "id": "698dd09c-7c86-465a-9f99-7f670462a74e",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clip-farm-d5",
+    "whop_route": "clip-farm-d5",
+    "whopUrl": "https://whop.com/clip-farm-d5",
+    "thumbnail": "https://cdn.contentrewards.com/user_Q6BLMoZwbQRBk/1783696736732.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
+    "bannerImageUrl": "",
+    "creators": 429,
+    "agency": "Clip Farm",
+    "age": "1mo",
+    "formattedAge": "1 month ago",
+    "fundedAt": "2026-08-14T14:04:14.598Z",
+    "sortTimestamp": 1784813847635,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "CoCo Jones x Clipfarm",
+    "description": "Grammy winner Coco Jones is stepping out of her comfort zone into a new sound, and her new single “Body So Tea” is the move. Clip her behind the scenes moments.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "CoCo Jones x Clipfarm | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-farm-d5"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 15568,
+    "total": 18000,
+    "count": "3K",
+    "cpm": 2,
+    "key": "Clip Farm::CoCo Jones x Clipfarm"
   },
   {
     "id": "bfdb4fbd-810f-417e-8cf0-0db117d9bf25",
@@ -12117,7 +11143,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-07T09:50:05.741Z",
-    "sortTimestamp": 1784811626883,
+    "sortTimestamp": 1784813847635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Squibb.ai | $4 per 1k | No Dedicated Page Needed",
@@ -12127,14 +11153,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Squibb.ai | $4 per 1k | No Dedicated Page Needed | Official Whop Hub & Assets",
         "url": "https://whop.com/copyclips"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1vqD26FfNbf4YDvCZ3KsYuzZCquYU2QIuK5XS-WlPSHE/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1pYTDyY-xLPfF4_xHkBHXhe2VHKnlzQxJ?usp=sharing"
       }
     ],
     "platforms": [
@@ -12162,7 +11180,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-11T05:02:24.556Z",
-    "sortTimestamp": 1784811626883,
+    "sortTimestamp": 1784813847635,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Superpower Campaign",
@@ -12172,10 +11190,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Superpower Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1gcI-0bbfzH-4C-nQKLkXnCVGpJVwhg1qajf1Z4qU51Q/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12195,14 +11209,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipcashai",
     "whopUrl": "https://whop.com/clipcashai",
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782750418552.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27625430/image/bots/2026-07-03/90dd0d53-ebde-4384-8379-737dfdddd954.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26421386/image/bots/2026-05-11/3374411e-fc5d-4ce3-a6f1-c0cf0f758856.jpg",
     "bannerImageUrl": "",
-    "creators": 171,
+    "creators": 80,
     "agency": "Artist Influence",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-04T12:20:56.275Z",
-    "sortTimestamp": 1784811626883,
+    "fundedAt": "2026-07-29T22:34:16.513Z",
+    "sortTimestamp": 1784813847635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Sauti - Francis Mercier | FIFA EDITS",
@@ -12212,10 +11226,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sauti - Francis Mercier | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/17LFYlAI2ujz_54LgLbpVfd9_L593LE-4bEjWejO13ME/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12241,7 +11251,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-19T05:21:18.177Z",
-    "sortTimestamp": 1784811626883,
+    "sortTimestamp": 1784813847635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "No Tomorrow Audio Campaign | Soccer/Friendship/Nostalgia Edits",
@@ -12251,10 +11261,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "No Tomorrow Audio Campaign | Soccer/Friendship/Nostalgia Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/no-tomorrow-7e"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1-9PUhe3vRf9CqPUhqrGltLGMZC-z2q_BqbBupTEFhYU/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -12282,7 +11288,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-07-31T16:02:14.691Z",
-    "sortTimestamp": 1784811626883,
+    "sortTimestamp": 1784813847635,
     "category": "Music",
     "contentType": "Clipping",
     "title": "[EASY $$] POST MEMES FOR $$$",
@@ -12301,7 +11307,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 550,
     "total": 1000,
-    "count": "748",
+    "count": "750",
     "cpm": 2,
     "key": "Duetti::[EASY $$] POST MEMES FOR $$$"
   },
@@ -12312,14 +11318,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clip-influence",
     "whopUrl": "https://whop.com/clip-influence",
     "thumbnail": "https://cdn.contentrewards.com/user_sUvJ4hm9vwsQX/1782926373664.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
     "bannerImageUrl": "",
-    "creators": 262,
+    "creators": 188,
     "agency": "Clip Influence",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-15T02:42:40.913Z",
-    "sortTimestamp": 1784811626883,
+    "fundedAt": "2026-07-29T22:46:29.078Z",
+    "sortTimestamp": 1784813847635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Overtake Games Clipping",
@@ -12329,14 +11335,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Overtake Games Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10S9PJ60Clnn82lf6GbRtRjHm3u2Lp72XLK6wi67L-GQ/edit?usp=drivesdk"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1zHTpGnzkTCI_crc89bryg16K-Odd9UG4?usp=sharing"
       }
     ],
     "platforms": [
@@ -12357,14 +11355,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipcashai",
     "whopUrl": "https://whop.com/clipcashai",
     "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1784083346051.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16144252/image/bots/2026-06-17/54d12aaf-8874-412e-a017-ba783a03483f",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16301082/image/access_passes/2026-06-07/f3818fdc-ee3f-409d-a8a0-0a68c2f1a391.jpeg",
     "bannerImageUrl": "",
-    "creators": 349,
+    "creators": 38,
     "agency": "Artist Influence",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-05T14:20:15.860Z",
-    "sortTimestamp": 1784811626883,
+    "fundedAt": "2026-08-09T14:55:59.377Z",
+    "sortTimestamp": 1784813847635,
     "category": "Music",
     "contentType": "UGC",
     "title": "Brad Tursi - Ms. Independent | Nature Edits/ American TV/Film / Country Girl UGC",
@@ -12374,10 +11372,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Brad Tursi - Ms. Independent | Nature Edits/ American TV/Film / Country Girl UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/19QWshgRuCvZW4SOGw5kuv0TWfIoORs_SmMVP7opx3Rc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12403,7 +11397,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-22T01:00:13.788Z",
-    "sortTimestamp": 1784811626883,
+    "sortTimestamp": 1784813847635,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Maxim Hair Restoration Campaign",
@@ -12421,10 +11415,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Maxim Hair Restoration Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/maxim-hair-restoration-3d"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1mZygGfzevWY0JJ8PsOJAjxgiQXKqtQl2?usp=drive_link"
       }
     ],
     "platforms": [
@@ -12452,7 +11442,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-02T03:04:02.905Z",
-    "sortTimestamp": 1784811626883,
+    "sortTimestamp": 1784813847635,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Clips de Kevin Furest - 1$ por cada 1000 visitas",
@@ -12476,233 +11466,39 @@ window.CAMPAIGNS_DATA = [
     "key": "Kevin Furest Clipping::Clips de Kevin Furest - 1$ por cada 1000 visitas"
   },
   {
-    "id": "912cbe18-d67f-49ed-9e24-1d80c3a1e523",
+    "id": "96932a86-60f9-40f9-a125-045c094552c8",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "whoods-clips-fc",
-    "whop_route": "whoods-clips-fc",
-    "whopUrl": "https://whop.com/whoods-clips-fc",
-    "thumbnail": "https://cdn.contentrewards.com/user_Xw5OdWZD9zJfw/1782840027034.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6871187/image/bots/2026-06-25/4ef5b325-718c-4199-8b68-9d8fa5e1bc9a.png",
+    "whopProductRoute": "clip-farm-d5",
+    "whop_route": "clip-farm-d5",
+    "whopUrl": "https://whop.com/clip-farm-d5",
+    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1785947269354.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17116426/image/bots/2026-06-17/4e2d6c7a-9277-427a-a888-97892f3a045f.JPG",
     "bannerImageUrl": "",
-    "creators": 160,
-    "agency": "Whoods Clips",
+    "creators": 126,
+    "agency": "Clip Farm",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-14T20:50:01.421Z",
-    "sortTimestamp": 1784811626883,
+    "fundedAt": "2026-08-11T03:28:21.441Z",
+    "sortTimestamp": 1784813847634,
     "category": "Technology",
     "contentType": "Clipping",
-    "title": "Whoods's Campaign",
-    "description": "Earn $1 per 1,000 Views",
+    "title": "The Cap Table - CLOUTED (Podcast Clipping)",
+    "description": "Cut short clips from The Cap Table podcast Episode 25 with Clouted. Look for founder stories, startup growth, fundraising, and real business advice. Cut it so people go watch the full episode on YouTube. Every caption must tag The Cap Table and name SideShift.",
     "requirements": [],
     "resources": [
       {
-        "name": "Whoods's Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/whoods-clips-fc"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1IMFILVff10j0oC08M2dfPbvVOzB_FUijJ-gpTwP3sdw/edit?usp=sharing"
+        "name": "The Cap Table - CLOUTED (Podcast Clipping) | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-farm-d5"
       }
     ],
     "platforms": [
-      "tiktok",
-      "instagram",
       "youtube"
     ],
-    "spent": 1425,
-    "total": 2500,
-    "count": "390",
-    "cpm": 1,
-    "key": "Whoods Clips::Whoods's Campaign"
-  },
-  {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 160,
-    "agency": "Reachify",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": null,
-    "sortTimestamp": 1784811626883,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Duel Clipping [TIKTOK & YT]",
-    "description": "Create entertaining content, such as memes, using the clips in the attached folder. The content should be centered around duel.com and posted on Tiktok to earn $1.25 per 1,000 views.",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 505,
+    "spent": 422,
     "total": 5000,
-    "count": "160",
+    "count": "701",
     "cpm": 1.25,
-    "key": "Reachify::Duel Clipping [TIKTOK & YT]"
-  },
-  {
-    "id": "15252b84-3a2e-4dff-927f-78fd47b51c5b",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipcashai",
-    "whop_route": "clipcashai",
-    "whopUrl": "https://whop.com/clipcashai",
-    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1782892385819.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26376118/image/bots/2026-05-15/5c311763-41e7-43d9-940a-58e753ae90f8.png",
-    "bannerImageUrl": "",
-    "creators": 30,
-    "agency": "Artist Influence",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-20T20:12:41.889Z",
-    "sortTimestamp": 1784811626883,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "David Guetta - Run Run River | Summer Edits",
-    "description": "Get paid per view to clip \"Run Run River\" on TikTok. We're looking for FIFA Edits, Summer Edits, Festival Edits, Love Island Edits, Dancing, and Text Overlay Aesthetic Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200. Read Google Doc.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "David Guetta - Run Run River | Summer Edits | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/180uUEtKEq5hmtgOa-D7g2NiIlGXh2L-q1Rd6ZyBeywA/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 780,
-    "total": 1000,
-    "count": "201",
-    "cpm": 1,
-    "key": "Artist Influence::David Guetta - Run Run River | Summer Edits"
-  },
-  {
-    "id": "95a15c64-a554-4b5e-895a-52cef0cbae06",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipcashai",
-    "whop_route": "clipcashai",
-    "whopUrl": "https://whop.com/clipcashai",
-    "thumbnail": "https://cdn.contentrewards.com/user_kPv3gaO4sRmOr/1783623380666.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
-    "bannerImageUrl": "",
-    "creators": 728,
-    "agency": "Artist Influence",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-08T15:23:19.538Z",
-    "sortTimestamp": 1784811626883,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits",
-    "description": "Get paid per view to clip Two Cuzzos' - \"Say It Now\" on TikTok. We're looking for FIFA, VHS Aesthetic, and Summer Vibe Edits — emotional, hard-synced, hook in the first 2 seconds. Use the official audio, post your clips, hit 1K+ views, and submit your analytics to get paid. Multiple posts per platform allowed. MAX PAYOUT $200+ Read Google Doc Below.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1BTNwzuOwKFFHBc4pRvjr1xOfSkFRem--fvwr1pNaKhE/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 182,
-    "total": 1750,
-    "count": "213",
-    "cpm": 1,
-    "key": "Artist Influence::Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits"
-  },
-  {
-    "id": "493b846d-f762-4c5b-a848-74e979e934a2",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "scene-society-43",
-    "whop_route": "scene-society-43",
-    "whopUrl": "https://whop.com/scene-society-43",
-    "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1786565378023.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25363569/image/bots/2026-04-26/20942dc9-f755-417a-b68e-d11863aca356.png",
-    "bannerImageUrl": "",
-    "creators": 43,
-    "agency": "The Clip Ship",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-04T14:08:28.770Z",
-    "sortTimestamp": 1784811626883,
-    "category": "Music",
-    "contentType": "Clipping",
-    "title": "Leon Bridges | Outside Lands",
-    "description": "Edit and post clips from the approved assets folder to highlight Leon's Outside Lands performance and attached one of the approved songs below.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Leon Bridges | Outside Lands | Official Whop Hub & Assets",
-        "url": "https://whop.com/scene-society-43"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ypmCDm8rdUSZrxKVGcb1BctI30gGykKis3tyMgdjpvQ/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 233,
-    "total": 1083,
-    "count": "728",
-    "cpm": 1,
-    "key": "The Clip Ship::Leon Bridges | Outside Lands"
-  },
-  {
-    "id": "3e9e8e4c-a1c7-41a2-b64b-3be8362d2032",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "syndicate-creators",
-    "whop_route": "syndicate-creators",
-    "whopUrl": "https://whop.com/syndicate-creators",
-    "thumbnail": "https://cdn.contentrewards.com/user_9qgPz0YY8Pr5Z/1786199651937.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
-    "bannerImageUrl": "",
-    "creators": 107,
-    "agency": "Syndicate",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-21T21:06:23.955Z",
-    "sortTimestamp": 1784811626883,
-    "category": "Entertainment",
-    "contentType": "Clipping",
-    "title": "Playsteppa X Syndicate",
-    "description": "Make easy money posting slideshow content for Steppa, the app that pays you real cash just for walking. You'll create faceless photo slideshows that take minutes, no camera needed. Full video course + Success Guide with ready-to-use prompts provided. Start today, $1 per 1K views, $600 max per video.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Playsteppa X Syndicate | Official Whop Hub & Assets",
-        "url": "https://whop.com/syndicate-creators"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1NDvrqVwZoL83JjWpvJHbg9tpOkFAl0Ux6579_kQFhVI/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 439,
-    "total": 7150,
-    "count": "101",
-    "cpm": 1,
-    "key": "Syndicate::Playsteppa X Syndicate"
+    "key": "Clip Farm::The Cap Table - CLOUTED (Podcast Clipping)"
   },
   {
     "id": "ee9c766f-f830-4b15-bd16-e502a43b06ac",
@@ -12711,14 +11507,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "scene-society-43",
     "whopUrl": "https://whop.com/scene-society-43",
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1784770246392.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28383654/image/bots/2026-08-05/536cf67e-3b24-4bd4-bdd4-752202f6add1.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33948724/image/bots/2026-08-13/0becb8d4-83e2-44d2-95c9-a4e28fa563cb.jpeg",
     "bannerImageUrl": "",
-    "creators": 222,
+    "creators": 33,
     "agency": "The Clip Ship",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-14T00:04:45.086Z",
-    "sortTimestamp": 1784811626882,
+    "fundedAt": "2026-08-20T11:29:03.476Z",
+    "sortTimestamp": 1784813847634,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Foster The People - OMRI Remix Clipping",
@@ -12728,10 +11524,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Foster The People - OMRI Remix Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1XH76dQZA0S3TPQWDcwzH6IYloWWPilJtgw7dWdXqV8E/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -12759,7 +11551,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-05T20:48:11.276Z",
-    "sortTimestamp": 1784811626882,
+    "sortTimestamp": 1784813847634,
     "category": "Other",
     "contentType": "Clipping",
     "title": "MUTUUM",
@@ -12769,14 +11561,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MUTUUM | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1AnERj0Ec8RKYrbT9hOw9gAvKxbfwClXiJ_3-56DlYDc/edit?tab=t.0"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ZdHVhAqkXqQzkoeVk34vO_cs5k5bVrYSTdv5fY10xyE/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -12804,7 +11588,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-18T06:52:58.886Z",
-    "sortTimestamp": 1784811626882,
+    "sortTimestamp": 1784813847634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Easy Dancegreetings Clipping",
@@ -12814,14 +11598,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Easy Dancegreetings Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/personalized-birthday-dance-greeting"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1DhM_Ss9cfZEtZXv_EefnibSta8yoH0ve?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1O4xD-bHyuuKvAstmsJcLUkWiPFORZ1Vr/view?usp=drive_link"
       }
     ],
     "platforms": [
@@ -12849,7 +11625,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-07-26T19:13:34.928Z",
-    "sortTimestamp": 1784811626882,
+    "sortTimestamp": 1784813847634,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Hello Nancy- Clipping ( Dedicated Page)",
@@ -12859,14 +11635,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Hello Nancy- Clipping ( Dedicated Page) | Official Whop Hub & Assets",
         "url": "https://whop.com/hello-nancy-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1EZoGb18jeIYrwBIlYJAUn0L9JMJZI-0QuD77K_nruf4/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1glvEsOfs8cbxFbyNINKW9Q4jHVOxIzWX/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -12874,7 +11642,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 2043,
+    "spent": 2045,
     "total": 4700,
     "count": "97",
     "cpm": 1,
@@ -12894,7 +11662,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-04-02T06:43:26.442Z",
-    "sortTimestamp": 1784811626882,
+    "sortTimestamp": 1784813847634,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "HealthMeter Clipping [Slideshow]",
@@ -12922,14 +11690,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "scene-society-43",
     "whopUrl": "https://whop.com/scene-society-43",
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1784656948974.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27625430/image/bots/2026-07-03/90dd0d53-ebde-4384-8379-737dfdddd954.png",
     "bannerImageUrl": "",
-    "creators": 208,
+    "creators": 171,
     "agency": "The Clip Ship",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-17T15:12:25.294Z",
-    "sortTimestamp": 1784811626882,
+    "fundedAt": "2026-08-04T12:20:56.275Z",
+    "sortTimestamp": 1784813847634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Candy Shorts | AI Micro Dramas",
@@ -12939,10 +11707,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Candy Shorts | AI Micro Dramas | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1q9Jqq1nyFA8XVlVMsgFhO9JM-G0OCVnA9AgzGWJZ5Fc/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -12955,86 +11719,41 @@ window.CAMPAIGNS_DATA = [
     "key": "The Clip Ship::Candy Shorts | AI Micro Dramas"
   },
   {
-    "id": "efb7ab8c-8e58-4368-9615-d23b42d5d43e",
+    "id": "86207337-c738-4fa8-a685-06e19a9cda20",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "join-cliplaunch",
-    "whop_route": "join-cliplaunch",
-    "whopUrl": "https://whop.com/join-cliplaunch",
-    "thumbnail": "https://cdn.contentrewards.com/user_pQiVZMe2eMXAj/1783728660811.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16301082/image/access_passes/2026-06-07/f3818fdc-ee3f-409d-a8a0-0a68c2f1a391.jpeg",
+    "whopProductRoute": "cliphaus-19",
+    "whop_route": "cliphaus-19",
+    "whopUrl": "https://whop.com/cliphaus-19",
+    "thumbnail": "https://cdn.contentrewards.com/user_wOFeY8bGwWgZy/1786814611894.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
     "bannerImageUrl": "",
-    "creators": 48,
-    "agency": "ClipLaunch",
+    "creators": 1065,
+    "agency": "ClipHaus",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-29T15:55:04.716Z",
-    "sortTimestamp": 1784811626882,
+    "fundedAt": "2026-07-23T21:43:20.046Z",
+    "sortTimestamp": 1784813847633,
     "category": "Technology",
     "contentType": "Clipping",
-    "title": "PULP Clipping [GAMING CLIPS]",
-    "description": "Clip for PlayPulp.io. The goal is to create entertaining clips that funnel people to the site. Your mission is to create short form clips using PULP gameplay that make viewers want to check out the site for themselves. Highlight the thrill of real money, skill based competition: big wins, brutal losses, clutch comebacks, chokes, trash talk, and reactions to a close finish. A viewer should finish the clip thinking \"I want to try this.\"",
+    "title": "ROBIN",
+    "description": "Robin is an AI-powered alarm clock that turns wake-ups into challenges. Complete missions, get rewarded. Cut the best motivational and funny alarm-challenge moments. ⚠️ You MUST complete the course before submitting. Posts from clippers who skip it will be rejected",
     "requirements": [],
     "resources": [
       {
-        "name": "PULP Clipping [GAMING CLIPS] | Official Whop Hub & Assets",
-        "url": "https://whop.com/join-cliplaunch"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1NrqvbTIf2EY_k5r6zR4BOHNxZxvLIm2h/edit"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/15u7x8jqub-qTImfMmTcm3fgOYSZTbby5"
+        "name": "ROBIN | Official Whop Hub & Assets",
+        "url": "https://whop.com/cliphaus-19"
       }
     ],
     "platforms": [
-      "instagram"
+      "tiktok",
+      "instagram",
+      "youtube"
     ],
-    "spent": 4651,
-    "total": 5600,
-    "count": "719",
-    "cpm": 1,
-    "key": "ClipLaunch::PULP Clipping [GAMING CLIPS]"
-  },
-  {
-    "id": "698dd09c-7c86-465a-9f99-7f670462a74e",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-farm-d5",
-    "whop_route": "clip-farm-d5",
-    "whopUrl": "https://whop.com/clip-farm-d5",
-    "thumbnail": "https://cdn.contentrewards.com/user_Q6BLMoZwbQRBk/1783696736732.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
-    "bannerImageUrl": "",
-    "creators": 429,
-    "agency": "Clip Farm",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-14T14:04:14.598Z",
-    "sortTimestamp": 1784811626882,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "CoCo Jones x Clipfarm",
-    "description": "Grammy winner Coco Jones is stepping out of her comfort zone into a new sound, and her new single “Body So Tea” is the move. Clip her behind the scenes moments.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "CoCo Jones x Clipfarm | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1wS1XxJLqeNJq_rFxaw0_aMu7BPrGkvOhYWKA9NX1AHU/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 15566,
-    "total": 18000,
-    "count": "3K",
+    "spent": 867,
+    "total": 13500,
+    "count": "637",
     "cpm": 2,
-    "key": "Clip Farm::CoCo Jones x Clipfarm"
+    "key": "ClipHaus::ROBIN"
   },
   {
     "id": "1971c9a3-a87f-4527-80e4-d46a4d7daafe",
@@ -13043,14 +11762,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clip-farm-d5",
     "whopUrl": "https://whop.com/clip-farm-d5",
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1783696176742.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28729320/image/bots/2026-06-18/cc9b078a-03ae-4a24-be4a-56455a8254c4.png",
     "bannerImageUrl": "",
-    "creators": 417,
+    "creators": 266,
     "agency": "Clip Farm",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-13T02:54:30.103Z",
-    "sortTimestamp": 1784811626881,
+    "fundedAt": "2026-08-14T00:13:40.753Z",
+    "sortTimestamp": 1784813847633,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Liftly Campaign",
@@ -13060,14 +11779,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Liftly Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1NGtAGekwiqofyaKVk9nqKdKs4d2xnQQDdaSILc-27Gw/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1EYYCdC8smjqF6UlWmbKUBt19KiptSN6Z?usp=sharing"
       }
     ],
     "platforms": [
@@ -13076,7 +11787,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 1928,
     "total": 4000,
-    "count": "558",
+    "count": "560",
     "cpm": 1.2,
     "key": "Clip Farm::Liftly Campaign"
   },
@@ -13094,7 +11805,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-06-22T18:48:33.651Z",
-    "sortTimestamp": 1784811626881,
+    "sortTimestamp": 1784813847633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Sticker Therapy Clipping",
@@ -13104,14 +11815,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sticker Therapy Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1q2iiIpqYaOZ40KR0jS8vuDZTb2N9simsTvoQaM7W5GE/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1lJNQXpiskDiISPyQEFAOnJ2bLHuzuwQA"
       }
     ],
     "platforms": [
@@ -13119,9 +11822,9 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 4615,
+    "spent": 4617,
     "total": 10000,
-    "count": "417",
+    "count": "418",
     "cpm": 2,
     "key": "Clip Influence::Sticker Therapy Clipping"
   },
@@ -13139,7 +11842,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-04-07T14:14:31.900Z",
-    "sortTimestamp": 1784811626881,
+    "sortTimestamp": 1784813847633,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "SPANISH CLIPPING - DAVID SCHEUER",
@@ -13149,10 +11852,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "SPANISH CLIPPING - DAVID SCHEUER | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1m0zbdy6a8oHvvpzzgDFCvXA2PuFMAtR8uXE2qBZ06_c/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -13173,14 +11872,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clip-farm-d5",
     "whopUrl": "https://whop.com/clip-farm-d5",
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784302172532.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3616714/image/bots/2026-07-28/05b12f88-0933-4ff2-b0f5-fe1d1338bbc3.png",
     "bannerImageUrl": "",
-    "creators": 1226,
+    "creators": 24,
     "agency": "Clip Farm",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-05-26T16:13:23.309Z",
-    "sortTimestamp": 1784811626881,
+    "fundedAt": "2026-08-11T13:32:07.373Z",
+    "sortTimestamp": 1784813847633,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Zach Boyajian Clipping",
@@ -13190,14 +11889,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Zach Boyajian Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1zae8MEDDig55VdaySTYXte9wkDXAAeuUDglRWFJ09X0/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1lq6af4YVYROTBfR_YiyA4aL2EV-vZNaS?usp=sharing"
       }
     ],
     "platforms": [
@@ -13225,7 +11916,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-05-19T20:25:22.694Z",
-    "sortTimestamp": 1784811626881,
+    "sortTimestamp": 1784813847633,
     "category": "Product",
     "contentType": "UGC",
     "title": "PEPTIPRICES",
@@ -13235,10 +11926,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PEPTIPRICES | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LCZjcYvtFR7DPWE4_UstjBouTX5rS37M7XQ8xxH5LTE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13261,12 +11948,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_uxQSRZT5OHFqk/1783481696104.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1669679/image/bots/2026-08-16/642bc221-35f7-471d-bf00-05eaed401775.png",
     "bannerImageUrl": "",
-    "creators": 398,
+    "creators": 399,
     "agency": "Virality",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-16T17:09:22.792Z",
-    "sortTimestamp": 1784811626881,
+    "sortTimestamp": 1784813847633,
     "category": "Product",
     "contentType": "Clipping",
     "title": "PixelSurf AI [Slideshow]",
@@ -13276,10 +11963,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PixelSurf AI [Slideshow] | Official Whop Hub & Assets",
         "url": "https://whop.com/virality-37"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://mountain-library-5df.notion.site/PixelSurf-AI-Slideshow-3a4f6405afd780f9acedd7fcfb24424e?source=copy_link"
       }
     ],
     "platforms": [
@@ -13307,7 +11990,7 @@ window.CAMPAIGNS_DATA = [
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-07T11:08:11.093Z",
-    "sortTimestamp": 1784811626881,
+    "sortTimestamp": 1784813847633,
     "category": "Product",
     "contentType": "Clipping",
     "title": "LiveMap Clipping | $100k Budget",
@@ -13326,48 +12009,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 1014,
     "total": 45000,
-    "count": "452",
+    "count": "453",
     "cpm": 1,
     "key": "Bounty Network::LiveMap Clipping | $100k Budget"
-  },
-  {
-    "id": "96932a86-60f9-40f9-a125-045c094552c8",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-farm-d5",
-    "whop_route": "clip-farm-d5",
-    "whopUrl": "https://whop.com/clip-farm-d5",
-    "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1785947269354.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17116426/image/bots/2026-06-17/4e2d6c7a-9277-427a-a888-97892f3a045f.JPG",
-    "bannerImageUrl": "",
-    "creators": 126,
-    "agency": "Clip Farm",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-11T03:28:21.441Z",
-    "sortTimestamp": 1784811626881,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "The Cap Table - CLOUTED (Podcast Clipping)",
-    "description": "Cut short clips from The Cap Table podcast Episode 25 with Clouted. Look for founder stories, startup growth, fundraising, and real business advice. Cut it so people go watch the full episode on YouTube. Every caption must tag The Cap Table and name SideShift.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "The Cap Table - CLOUTED (Podcast Clipping) | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1cUpnDX46Or8Sr3sRCnDp6jRcpUs4O72i6IVt3oDMBEc/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 422,
-    "total": 5000,
-    "count": "698",
-    "cpm": 1.25,
-    "key": "Clip Farm::The Cap Table - CLOUTED (Podcast Clipping)"
   },
   {
     "id": "a8c2cc73-c9b3-40ee-9fb9-eb330a2f7005",
@@ -13376,14 +12020,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "propaganda-clippers",
     "whopUrl": "https://whop.com/propaganda-clippers",
     "thumbnail": "https://cdn.contentrewards.com/user_PjQHCSU9VBdhg/1784575084911.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-04-01/72542605-7ef7-4203-9593-67ba91b637fc/image.png",
     "bannerImageUrl": "",
-    "creators": 234,
+    "creators": 383,
     "agency": "Propaganda",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-21T16:15:28.672Z",
-    "sortTimestamp": 1784811626880,
+    "fundedAt": "2026-08-17T21:30:32.431Z",
+    "sortTimestamp": 1784813847632,
     "category": "Music",
     "contentType": "Clipping",
     "title": "REN.Y.C Music Clipping | $10k Budget | $1 CPM",
@@ -13393,18 +12037,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "REN.Y.C Music Clipping | $10k Budget | $1 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1h-Y_EazB5VoTMsYEYXn_YaBpdt5asN93/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10wvNS-eFYg2rcx4s7H6LFG5QZ--SLlXy_K5zpILIgyc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1h-Y_EazB5VoTMsYEYXn_YaBpdt5asN93/edit?usp=sharing&amp;ouid=116559750974052591313&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -13414,7 +12046,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 4207,
     "total": 10000,
-    "count": "691",
+    "count": "692",
     "cpm": 1,
     "key": "Propaganda::REN.Y.C Music Clipping | $10k Budget | $1 CPM"
   },
@@ -13425,14 +12057,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "propaganda-clippers",
     "whopUrl": "https://whop.com/propaganda-clippers",
     "thumbnail": "https://cdn.contentrewards.com/user_ng3Tan79NYv8Q/1786196961509.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17694673/image/bots/2026-06-10/9d8b713b-ec78-47ff-a837-349e70a8dee2.png",
     "bannerImageUrl": "",
-    "creators": 85,
+    "creators": 496,
     "agency": "Propaganda",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-12T16:04:39.112Z",
-    "sortTimestamp": 1784811626880,
+    "fundedAt": "2026-08-19T07:49:45.402Z",
+    "sortTimestamp": 1784813847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Smartlead AI | Podcast/Talking-Head | $7k Budget | $2.01 CPM",
@@ -13442,14 +12074,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Smartlead AI | Podcast/Talking-Head | $7k Budget | $2.01 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1DSc8JSbTC6-gVZ8JpvXANaV1Ynljj9Zm/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1DSc8JSbTC6-gVZ8JpvXANaV1Ynljj9Zm/edit?usp=sharing&amp;ouid=116559750974052591313&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -13457,7 +12081,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 5346,
+    "spent": 5373,
     "total": 7000,
     "count": "1K",
     "cpm": 2.01,
@@ -13472,12 +12096,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1785946758367.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15383090/image/bots/2026-03-25/c75744c0-3103-49f6-8c34-a2727a316f11.jpg",
     "bannerImageUrl": "",
-    "creators": 987,
+    "creators": 988,
     "agency": "Clip Farm",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-07-28T22:08:52.948Z",
-    "sortTimestamp": 1784811626880,
+    "sortTimestamp": 1784813847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "The Cap Table - AVI (Podcast Clipping)",
@@ -13487,10 +12111,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Cap Table - AVI (Podcast Clipping) | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1H3lcqw4KzyfW6XEoe_KxQruh6MLEANvyyTRkP3XG4nw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13511,12 +12131,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_3q7hN8efoVhRM/1785518787353.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20298161/image/access_passes/2026-08-03/88d822b8-13b0-40e4-84cf-42d27ad05275.jpeg",
     "bannerImageUrl": "",
-    "creators": 932,
+    "creators": 934,
     "agency": "BloxClips",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-06-16T16:04:06.815Z",
-    "sortTimestamp": 1784811626880,
+    "sortTimestamp": 1784813847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Medal TV [GAMING]",
@@ -13526,10 +12146,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Medal TV [GAMING] | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxclips-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1JzXept3dbQOxWOYFaVXSmNPfHW5nkBOwwGjQylqRmFk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13537,7 +12153,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 2391,
+    "spent": 2392,
     "total": 4225,
     "count": "2K",
     "cpm": 1,
@@ -13550,14 +12166,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "virality-37",
     "whopUrl": "https://whop.com/virality-37",
     "thumbnail": "https://cdn.contentrewards.com/user_uxQSRZT5OHFqk/1784124428270.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8213453/image/bots/2025-11-12/4b386a2f-c2b2-4884-ab62-58c9292abaed",
     "bannerImageUrl": "",
-    "creators": 473,
+    "creators": 409,
     "agency": "Virality",
     "age": "1mo",
     "formattedAge": "1 month ago",
-    "fundedAt": "2026-08-20T04:59:30.116Z",
-    "sortTimestamp": 1784811626880,
+    "fundedAt": "2026-08-17T12:10:13.676Z",
+    "sortTimestamp": 1784813847632,
     "category": "Product",
     "contentType": "Clipping",
     "title": "StockX [Official Clipping 2]",
@@ -13576,50 +12192,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 2513,
     "total": 5000,
-    "count": "763",
+    "count": "764",
     "cpm": 1.25,
     "key": "Virality::StockX [Official Clipping 2]"
-  },
-  {
-    "id": "86207337-c738-4fa8-a685-06e19a9cda20",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "cliphaus-19",
-    "whop_route": "cliphaus-19",
-    "whopUrl": "https://whop.com/cliphaus-19",
-    "thumbnail": "https://cdn.contentrewards.com/user_wOFeY8bGwWgZy/1786814611894.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
-    "bannerImageUrl": "",
-    "creators": 1063,
-    "agency": "ClipHaus",
-    "age": "1mo",
-    "formattedAge": "1 month ago",
-    "fundedAt": "2026-07-23T21:43:20.046Z",
-    "sortTimestamp": 1784811626880,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "ROBIN",
-    "description": "Robin is an AI-powered alarm clock that turns wake-ups into challenges. Complete missions, get rewarded. Cut the best motivational and funny alarm-challenge moments. ⚠️ You MUST complete the course before submitting. Posts from clippers who skip it will be rejected",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "ROBIN | Official Whop Hub & Assets",
-        "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://versed-cabin-f06.notion.site/Robin-x-Clip-Haus-Onboarding-20-min-6d5ea18e369083c38d5701ca43f68578"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 867,
-    "total": 13500,
-    "count": "637",
-    "cpm": 2,
-    "key": "ClipHaus::ROBIN"
   },
   {
     "id": "154e1621-cfb5-4492-9918-8103328dc610",
@@ -13630,12 +12205,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_ng3Tan79NYv8Q/1782939424334.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6400659/image/bots/2026-08-22/e7fc0ae4-2f5a-4fe8-b2dc-5596797a28fb.jpg",
     "bannerImageUrl": "https://cdn.contentrewards.com/user_ng3Tan79NYv8Q/1781520670153.png",
-    "creators": 216,
+    "creators": 234,
     "agency": "Propaganda",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-22T04:56:33.490Z",
-    "sortTimestamp": 1784811626879,
+    "sortTimestamp": 1784813847631,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "CapCut Clipping | $30k Budget | $3 CPM",
@@ -13645,20 +12220,12 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CapCut Clipping | $30k Budget | $3 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LSNg7Io4CQlW5jsumV_Ms1B0LAz6h6Zp/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LSNg7Io4CQlW5jsumV_Ms1B0LAz6h6Zp/edit?usp=sharing&amp;ouid=107518388225983257880&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
       "youtube"
     ],
-    "spent": 16756,
+    "spent": 16771,
     "total": 30000,
     "count": "8K",
     "cpm": 3,
@@ -13673,12 +12240,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_OcrJjJleyCAyi/1784333743622.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 618,
+    "creators": 622,
     "agency": "Clip Farm",
     "age": "1mo",
     "formattedAge": "1 month ago",
     "fundedAt": "2026-08-18T20:42:57.106Z",
-    "sortTimestamp": 1784811626879,
+    "sortTimestamp": 1784813847631,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Boxabl Official Clipping",
@@ -13688,14 +12255,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Boxabl Official Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1DP7iD-sndoSnaihYhwppziogPXi5ZT3OkTHiOQI__X0/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1QwGNf5KW_ACPqlkLpVvraUXlM8-lJz170yz2YOuR-SE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13703,11 +12262,79 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 11876,
+    "spent": 11878,
     "total": 85000,
     "count": "4K",
     "cpm": 0.5,
     "key": "Clip Farm::Boxabl Official Clipping"
+  },
+  {
+    "id": "b4e6e5c4-75f0-4575-bd84-39b860075f96",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "join-content-rewards-hub",
+    "whop_route": "join-content-rewards-hub",
+    "whopUrl": "https://whop.com/join-content-rewards-hub",
+    "thumbnail": "https://cdn.contentrewards.com/user_s02gTzhH6CPLK/1780794041255.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25316674/image/bots/2026-04-11/629253c8-f783-4c1b-9374-9ee045f16548.png",
+    "bannerImageUrl": "",
+    "creators": 12,
+    "agency": "Content Rewards UGC [International]",
+    "age": "2mo",
+    "formattedAge": "2 months ago",
+    "fundedAt": "2026-04-12T18:17:38.120Z",
+    "sortTimestamp": 1782221847643,
+    "category": "Product",
+    "contentType": "UGC",
+    "title": "Faceless UGC [Non-English]",
+    "description": "Create faceless UGC videos promoting Content Rewards and earn $1 per 1k views.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Faceless UGC [Non-English] | Official Whop Hub & Assets",
+        "url": "https://whop.com/join-content-rewards-hub"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 6575,
+    "total": 6625,
+    "count": "1K",
+    "cpm": 0.5,
+    "key": "Content Rewards UGC [International]::Faceless UGC [Non-English]"
+  },
+  {
+    "id": "",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
+    "bannerImageUrl": "",
+    "creators": 105,
+    "agency": "BWN Marketing",
+    "age": "2mo",
+    "formattedAge": "2 months ago",
+    "fundedAt": null,
+    "sortTimestamp": 1782221847643,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "FIFA/Skate Edits | Clipping of corto.alto, Vector's new track \"GO\"",
+    "description": "Campaign Goal: Drive awareness and engagement around \"GO\" by corto.alto featuring Vector by encouraging creators to use the official audio on TikTok and Instagram Reels. Creators should pair the sound with FIFA Clips OR visually engaging, high-energy content that captures movement, youth culture, nightlife, dance, fashion, travel, street scenes, skate culture, celebrations, or nostalgic camcorder aesthetics. The track blends dance music with Nigerian rap, making it ideal for clips that feel vibrant, stylish, and full of momentum.",
+    "requirements": [],
+    "resources": [],
+    "platforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "spent": 998,
+    "total": 1000,
+    "count": "105",
+    "cpm": 1,
+    "key": "BWN Marketing::FIFA/Skate Edits | Clipping of corto.alto, Vector's new track \"GO\""
   },
   {
     "id": "38fae555-c31f-42ed-be64-460bbf99950b",
@@ -13723,7 +12350,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-06-11T14:11:13.816Z",
-    "sortTimestamp": 1782219626891,
+    "sortTimestamp": 1782221847643,
     "category": "Gaming",
     "contentType": "UGC",
     "title": "world of heats",
@@ -13755,7 +12382,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1782219626891,
+    "sortTimestamp": 1782221847643,
     "category": "Zing Coach",
     "contentType": "Clipping",
     "title": "Join Campaign",
@@ -13774,6 +12401,43 @@ window.CAMPAIGNS_DATA = [
     "key": "Virality::Join Campaign"
   },
   {
+    "id": "30808a2b-b56e-479d-b240-d746d61295d2",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "arabicclipping",
+    "whop_route": "arabicclipping",
+    "whopUrl": "https://whop.com/arabicclipping",
+    "thumbnail": "https://cdn.contentrewards.com/user_C0O1YRnSUQBWc/1780833907071.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12957084/image/bots/2025-11-30/55538e20-5fee-4d9c-9a25-e78437aea4af.png",
+    "bannerImageUrl": "",
+    "creators": 144,
+    "agency": "Arabic Clipping",
+    "age": "2mo",
+    "formattedAge": "2 months ago",
+    "fundedAt": "2026-05-02T21:10:11.377Z",
+    "sortTimestamp": 1782221847642,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Call of Duty MW4 عربي",
+    "description": ".هذه الحملة مخصصة لنشر الإعلانات التشويقية لكود ، مهمتك تحويل الفيديوهات الموجودة في المصادر إلى مقاطع قصيرة جذّابة تُبرز أقوى اللحظات وتُشعل الحماس بين الجمهور العربي. استخدم المصادر الرسمية فقط، والتزم بالشروط، وابدأ بمتابعة الفيديوهات التعريفية لفهم الشروط والقواعد",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Call of Duty MW4 عربي | Official Whop Hub & Assets",
+        "url": "https://whop.com/arabicclipping"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 18183,
+    "total": 18500,
+    "count": "11K",
+    "cpm": 1,
+    "key": "Arabic Clipping::Call of Duty MW4 عربي"
+  },
+  {
     "id": "f9285558-5380-4685-92cd-e6ddf02cfe20",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "scene-society-43",
@@ -13787,7 +12451,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-09T06:24:28.447Z",
-    "sortTimestamp": 1782219626890,
+    "sortTimestamp": 1782221847642,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Madeon | Clipping",
@@ -13797,10 +12461,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Madeon | Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1cia4pL9AxTdHgF71ae9E1gVSzItsVrW7dau4eCM3DRE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13815,33 +12475,29 @@ window.CAMPAIGNS_DATA = [
     "key": "The Clip Ship::Madeon | Clipping"
   },
   {
-    "id": "b4e6e5c4-75f0-4575-bd84-39b860075f96",
+    "id": "f0750e1e-b74a-44e5-a517-0bdc754bc8c1",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "join-content-rewards-hub",
-    "whop_route": "join-content-rewards-hub",
-    "whopUrl": "https://whop.com/join-content-rewards-hub",
-    "thumbnail": "https://cdn.contentrewards.com/user_s02gTzhH6CPLK/1780794041255.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25316674/image/bots/2026-04-11/629253c8-f783-4c1b-9374-9ee045f16548.png",
+    "whopProductRoute": "poker-clipping-for-senor-tilt",
+    "whop_route": "poker-clipping-for-senor-tilt",
+    "whopUrl": "https://whop.com/poker-clipping-for-senor-tilt",
+    "thumbnail": "https://cdn.contentrewards.com/user_EINPX3dsJT5C0/1780878185317.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1207606/image/bots/2026-07-06/966952f9-8e6a-434b-9545-31c83f16df70.png",
     "bannerImageUrl": "",
-    "creators": 12,
-    "agency": "Content Rewards UGC [International]",
+    "creators": 42,
+    "agency": "Sam Kiki Poker Clipping",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-04-12T18:17:38.120Z",
-    "sortTimestamp": 1782219626890,
-    "category": "Product",
-    "contentType": "UGC",
-    "title": "Faceless UGC [Non-English]",
-    "description": "Create faceless UGC videos promoting Content Rewards and earn $1 per 1k views.",
+    "fundedAt": "2026-07-05T20:19:20.798Z",
+    "sortTimestamp": 1782221847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "High Stakes Poker Clipping for Senor Tilt",
+    "description": "Clip High Stakes Poker hands for Sam Kiki across his appearances on PokerGO, Hustler Casino Live, The Lodge, and other major poker streams/shows! Use the drive in the content links below to browse the available poker episodes featuring Sam, and model your original clips off the example benchmark clip!",
     "requirements": [],
     "resources": [
       {
-        "name": "Faceless UGC [Non-English] | Official Whop Hub & Assets",
-        "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
+        "name": "High Stakes Poker Clipping for Senor Tilt | Official Whop Hub & Assets",
+        "url": "https://whop.com/poker-clipping-for-senor-tilt"
       }
     ],
     "platforms": [
@@ -13849,42 +12505,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 6575,
-    "total": 6625,
-    "count": "1K",
-    "cpm": 0.5,
-    "key": "Content Rewards UGC [International]::Faceless UGC [Non-English]"
-  },
-  {
-    "id": "",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
-    "bannerImageUrl": "",
-    "creators": 105,
-    "agency": "BWN Marketing",
-    "age": "2mo",
-    "formattedAge": "2 months ago",
-    "fundedAt": null,
-    "sortTimestamp": 1782219626890,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "FIFA/Skate Edits | Clipping of corto.alto, Vector's new track \"GO\"",
-    "description": "Campaign Goal: Drive awareness and engagement around \"GO\" by corto.alto featuring Vector by encouraging creators to use the official audio on TikTok and Instagram Reels. Creators should pair the sound with FIFA Clips OR visually engaging, high-energy content that captures movement, youth culture, nightlife, dance, fashion, travel, street scenes, skate culture, celebrations, or nostalgic camcorder aesthetics. The track blends dance music with Nigerian rap, making it ideal for clips that feel vibrant, stylish, and full of momentum.",
-    "requirements": [],
-    "resources": [],
-    "platforms": [
-      "tiktok",
-      "instagram"
-    ],
-    "spent": 998,
-    "total": 1000,
-    "count": "105",
-    "cpm": 1,
-    "key": "BWN Marketing::FIFA/Skate Edits | Clipping of corto.alto, Vector's new track \"GO\""
+    "spent": 0,
+    "total": 10000,
+    "count": "43",
+    "cpm": 2.5,
+    "key": "Sam Kiki Poker Clipping::High Stakes Poker Clipping for Senor Tilt"
   },
   {
     "id": "21b2e3a6-b5c9-4d0d-bc1d-6cefb3250857",
@@ -13900,7 +12525,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-13T08:34:02.541Z",
-    "sortTimestamp": 1782219626889,
+    "sortTimestamp": 1782221847641,
     "category": "Product",
     "contentType": "UGC",
     "title": "Long-form UGC [Non-English]",
@@ -13910,14 +12535,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Long-form UGC [Non-English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://quickest-show-e6a.notion.site/Get-your-Custom-Affiliate-Link-37d62de5dff1802388f9e095a58ce83b?pvs=74"
       }
     ],
     "platforms": [
@@ -13925,7 +12542,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 17137,
+    "spent": 17138,
     "total": 17750,
     "count": "293",
     "cpm": 8,
@@ -13945,7 +12562,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-04-23T22:12:42.458Z",
-    "sortTimestamp": 1782219626889,
+    "sortTimestamp": 1782221847641,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Infinity Song - Hurricane | FIFA EDITS",
@@ -13955,10 +12572,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Infinity Song - Hurricane | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1rr5vJMTUMUP3D859-J1JXuEgGxBV_rNwzjjyJNOXbik/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13984,7 +12597,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-02-05T12:32:39.749Z",
-    "sortTimestamp": 1782219626889,
+    "sortTimestamp": 1782221847641,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Gryffin - Spin Me Slowly x Forza Horizon 6",
@@ -13994,10 +12607,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gryffin - Spin Me Slowly x Forza Horizon 6 | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1JH0ofn2hMm3UpdbJO_bssy4oJfpsclnk4OG8hOyeet4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14023,7 +12632,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-06-17T19:34:42.881Z",
-    "sortTimestamp": 1782219626889,
+    "sortTimestamp": 1782221847641,
     "category": "Logo",
     "contentType": "Clipping",
     "title": "Betway - WC GIF Logo Campaign (Canada)",
@@ -14033,14 +12642,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Betway - WC GIF Logo Campaign (Canada) | Official Whop Hub & Assets",
         "url": "https://whop.com/super-g-rising-85"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1dyBW2KLb8k6S5nE3uyb5h3pBSneWBXqs3EbQqxbtPhc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1URXOJt1ty9wIpCswRWPD_mjqatTwX6TN?usp=drive_link"
       }
     ],
     "platforms": [
@@ -14048,7 +12649,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 8788,
+    "spent": 8791,
     "total": 9071,
     "count": "224",
     "cpm": 0.4,
@@ -14068,7 +12669,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-06-19T17:55:02.710Z",
-    "sortTimestamp": 1782219626889,
+    "sortTimestamp": 1782221847641,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Voromotors Clipping",
@@ -14078,10 +12679,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Voromotors Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-smart"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1_GedeCBLeTMorhaiJqAfguAaSKVJh2e2ELxnnKLa7VE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14107,7 +12704,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-04-20T22:07:14.788Z",
-    "sortTimestamp": 1782219626889,
+    "sortTimestamp": 1782221847641,
     "category": "Technology",
     "contentType": "UGC",
     "title": "أكيلو AI - UGC",
@@ -14131,45 +12728,43 @@ window.CAMPAIGNS_DATA = [
     "key": "Akilo AI::أكيلو AI - UGC"
   },
   {
-    "id": "30808a2b-b56e-479d-b240-d746d61295d2",
+    "id": "d10591c5-203a-4c7a-a75b-c51c8907f6b4",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "arabicclipping",
-    "whop_route": "arabicclipping",
-    "whopUrl": "https://whop.com/arabicclipping",
-    "thumbnail": "https://cdn.contentrewards.com/user_C0O1YRnSUQBWc/1780833907071.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8213453/image/bots/2025-11-12/4b386a2f-c2b2-4884-ab62-58c9292abaed",
+    "whopProductRoute": "clippers-57",
+    "whop_route": "clippers-57",
+    "whopUrl": "https://whop.com/clippers-57",
+    "thumbnail": "https://cdn.contentrewards.com/user_4vnBpq6XEP3wn/1781122721887.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33190057/image/bots/2026-08-03/25e266b2-b9fa-418c-9e37-859812504571.webp",
     "bannerImageUrl": "",
-    "creators": 642,
-    "agency": "Arabic Clipping",
+    "creators": 593,
+    "agency": "BP x Clipping",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-10T01:31:00.230Z",
-    "sortTimestamp": 1782219626889,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Call of Duty MW4 عربي",
-    "description": ".هذه الحملة مخصصة لنشر الإعلانات التشويقية لكود ، مهمتك تحويل الفيديوهات الموجودة في المصادر إلى مقاطع قصيرة جذّابة تُبرز أقوى اللحظات وتُشعل الحماس بين الجمهور العربي. استخدم المصادر الرسمية فقط، والتزم بالشروط، وابدأ بمتابعة الفيديوهات التعريفية لفهم الشروط والقواعد",
+    "fundedAt": "2026-08-03T21:44:29.317Z",
+    "sortTimestamp": 1782221847640,
+    "category": "Personal brand",
+    "contentType": "UGC",
+    "title": "206ALO Clipping Campaign",
+    "description": "Submit clips from 206ALO content and earn based on qualified views. Creators can post on TikTok, Instagram Reels, YouTube Shorts, X, or Facebook. Submit your video link after posting. Approved clips will be tracked and paid based on campaign rewards. Do not submit stolen, low-quality, deleted, private, or unrelated content. Only approved clips are eligible for payout.",
     "requirements": [],
     "resources": [
       {
-        "name": "Call of Duty MW4 عربي | Official Whop Hub & Assets",
-        "url": "https://whop.com/arabicclipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1zmbtnlD3EC8VrmGtv4R6KRfp48mfaMy9/view?usp=sharing"
+        "name": "206ALO Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/clippers-57"
       }
     ],
     "platforms": [
       "tiktok",
       "instagram",
-      "youtube"
+      "youtube",
+      "x",
+      "facebook"
     ],
-    "spent": 18181,
-    "total": 18500,
-    "count": "11K",
-    "cpm": 1,
-    "key": "Arabic Clipping::Call of Duty MW4 عربي"
+    "spent": 46,
+    "total": 1000,
+    "count": "2",
+    "cpm": 0.5,
+    "key": "BP x Clipping::206ALO Clipping Campaign"
   },
   {
     "id": "9df2b1c7-e28c-4fba-a235-68a42230d7f1",
@@ -14185,7 +12780,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-06-04T23:38:16.277Z",
-    "sortTimestamp": 1782219626888,
+    "sortTimestamp": 1782221847640,
     "category": "Music",
     "contentType": "UGC",
     "title": "Def Manic - UNDERGROUND4EVA Clipping",
@@ -14220,7 +12815,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-09T12:31:47.247Z",
-    "sortTimestamp": 1782219626888,
+    "sortTimestamp": 1782221847640,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Brian Carmichael Clips",
@@ -14230,10 +12825,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Brian Carmichael Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/shansbruh-clips"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1iJk9db__bIjDg3iPzdrUzE__jjEbi5dd"
       }
     ],
     "platforms": [
@@ -14248,29 +12839,29 @@ window.CAMPAIGNS_DATA = [
     "key": "Brian Carmichael Clips::Brian Carmichael Clips"
   },
   {
-    "id": "f0750e1e-b74a-44e5-a517-0bdc754bc8c1",
+    "id": "b2d81e8a-8f55-4d4a-b6dc-fc55a5bbd96c",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "poker-clipping-for-senor-tilt",
-    "whop_route": "poker-clipping-for-senor-tilt",
-    "whopUrl": "https://whop.com/poker-clipping-for-senor-tilt",
-    "thumbnail": "https://cdn.contentrewards.com/user_EINPX3dsJT5C0/1780878185317.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1207606/image/bots/2026-07-06/966952f9-8e6a-434b-9545-31c83f16df70.png",
+    "whopProductRoute": "venture-app",
+    "whop_route": "venture-app",
+    "whopUrl": "https://whop.com/venture-app",
+    "thumbnail": "https://cdn.contentrewards.com/user_3vwnTEWw6msNH/1780426713313.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1055661/image/access_passes/2025-05-20/48a0f91b-6750-4c55-9a2a-d164bd2b060d",
     "bannerImageUrl": "",
-    "creators": 42,
-    "agency": "Sam Kiki Poker Clipping",
+    "creators": 9,
+    "agency": "Venture Travel UGC Campaign",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-07-05T20:19:20.798Z",
-    "sortTimestamp": 1782219626888,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "High Stakes Poker Clipping for Senor Tilt",
-    "description": "Clip High Stakes Poker hands for Sam Kiki across his appearances on PokerGO, Hustler Casino Live, The Lodge, and other major poker streams/shows! Use the drive in the content links below to browse the available poker episodes featuring Sam, and model your original clips off the example benchmark clip!",
+    "fundedAt": "2026-08-21T22:32:18.105Z",
+    "sortTimestamp": 1782221847639,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "Venture Travel App UGC | $2 per 1,000 views",
+    "description": "Make UGC for Venture and get paid per 1,000 views. Venture is the AI travel app that builds you a full trip plan in seconds. We want casual videos of you using the app, generating a plan, and catching that \"wow\" moment on camera. Post organically, follow the brief, get paid. Full guidelines inside.",
     "requirements": [],
     "resources": [
       {
-        "name": "High Stakes Poker Clipping for Senor Tilt | Official Whop Hub & Assets",
-        "url": "https://whop.com/poker-clipping-for-senor-tilt"
+        "name": "Venture Travel App UGC | $2 per 1,000 views | Official Whop Hub & Assets",
+        "url": "https://whop.com/venture-app"
       }
     ],
     "platforms": [
@@ -14278,11 +12869,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 0,
-    "total": 10000,
-    "count": "43",
-    "cpm": 2.5,
-    "key": "Sam Kiki Poker Clipping::High Stakes Poker Clipping for Senor Tilt"
+    "spent": 145,
+    "total": 1000,
+    "count": "3",
+    "cpm": 2,
+    "key": "Venture Travel UGC Campaign::Venture Travel App UGC | $2 per 1,000 views"
   },
   {
     "id": "d3f632d4-8ba1-436b-adf1-1a147fd34a21",
@@ -14291,14 +12882,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "billbord",
     "whopUrl": "https://whop.com/billbord",
     "thumbnail": "https://cdn.contentrewards.com/user_onHLHd2tOOR4V/1781372829073.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_19152455/image/bots/2026-08-14/40136bc1-b976-494f-b954-edac336d2506.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
     "bannerImageUrl": "",
-    "creators": 12,
+    "creators": 179,
     "agency": "billbord",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-16T00:19:18.854Z",
-    "sortTimestamp": 1782219626887,
+    "fundedAt": "2026-07-13T02:56:24.068Z",
+    "sortTimestamp": 1782221847639,
     "category": "Logo",
     "contentType": "Clipping",
     "title": "FortuneJack WC [Logo + English Content]",
@@ -14308,18 +12899,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "FortuneJack WC [Logo + English Content] | Official Whop Hub & Assets",
         "url": "https://whop.com/billbord"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/17i8901ZtXBcGYfir4CuXwchfHmIeP58_JPGi3_ZpkHc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1MqqvaZ1ngnnQWEy7oeLVAHyTvJlubPo9?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1mhp_SOo_43fKO1TQ2brPVnN2yK2pvnXJ?usp=sharing"
       }
     ],
     "platforms": [
@@ -14340,14 +12919,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clippers-hub-o-whopify",
     "whopUrl": "https://whop.com/clippers-hub-o-whopify",
     "thumbnail": "https://cdn.contentrewards.com/user_2smeZs8V6BqJo/1785542772311.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2024-02-12/user_80102_1eafe96e-0b8a-4dae-b845-730107f4aaaf.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27861640/image/bots/2026-05-26/2c99bd9b-0b76-4d81-933a-19617d79d1ff.png",
     "bannerImageUrl": "",
-    "creators": 2,
+    "creators": 85,
     "agency": "Whopify",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-19T17:15:10.631Z",
-    "sortTimestamp": 1782219626887,
+    "fundedAt": "2026-05-26T14:27:03.366Z",
+    "sortTimestamp": 1782221847639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "DOMINGUERO CAMPAÑA ESPAÑOL",
@@ -14357,10 +12936,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DOMINGUERO CAMPAÑA ESPAÑOL | Official Whop Hub & Assets",
         "url": "https://whop.com/clippers-hub-o-whopify"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1LP1RfrID0o0rxUUofBnYL_emnDZ2BFnR"
       }
     ],
     "platforms": [
@@ -14381,14 +12956,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "lucky-dog-fan-club",
     "whopUrl": "https://whop.com/lucky-dog-fan-club",
     "thumbnail": "https://cdn.contentrewards.com/user_nziXiZXiW37GU/1779805582153.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_20488789/image/bots/2025-12-18/d40f0cf9-9017-4b99-9939-b3b99a40cbab.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2024-02-12/user_80102_1eafe96e-0b8a-4dae-b845-730107f4aaaf.png",
     "bannerImageUrl": "",
-    "creators": 4,
+    "creators": 2,
     "agency": "Lucky Dog",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-06-27T13:09:11.346Z",
-    "sortTimestamp": 1782219626887,
+    "fundedAt": "2026-08-19T17:15:10.631Z",
+    "sortTimestamp": 1782221847639,
     "category": "Music",
     "contentType": "UGC",
     "title": "Papertiger — Lucky Dog ft. Elliot Lee",
@@ -14405,7 +12980,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 852,
     "total": 1000,
-    "count": "84",
+    "count": "85",
     "cpm": 2,
     "key": "Lucky Dog::Papertiger — Lucky Dog ft. Elliot Lee"
   },
@@ -14423,7 +12998,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-01-22T13:14:58.734Z",
-    "sortTimestamp": 1782219626887,
+    "sortTimestamp": 1782221847639,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "genlovelyyclips",
@@ -14445,43 +13020,41 @@ window.CAMPAIGNS_DATA = [
     "key": "lovelyclippers::genlovelyyclips"
   },
   {
-    "id": "d10591c5-203a-4c7a-a75b-c51c8907f6b4",
+    "id": "8231b542-44db-48da-9b41-246d3a2422a3",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clippers-57",
-    "whop_route": "clippers-57",
-    "whopUrl": "https://whop.com/clippers-57",
-    "thumbnail": "https://cdn.contentrewards.com/user_4vnBpq6XEP3wn/1781122721887.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33190057/image/bots/2026-08-03/25e266b2-b9fa-418c-9e37-859812504571.webp",
+    "whopProductRoute": "clipping-70-a188",
+    "whop_route": "clipping-70-a188",
+    "whopUrl": "https://whop.com/clipping-70-a188",
+    "thumbnail": "https://cdn.contentrewards.com/user_RkPAD3oGzHzRT/1781290493524.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 593,
-    "agency": "BP x Clipping",
+    "creators": 69,
+    "agency": "Zagged",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-03T21:44:29.317Z",
-    "sortTimestamp": 1782219626887,
-    "category": "Personal brand",
-    "contentType": "UGC",
-    "title": "206ALO Clipping Campaign",
-    "description": "Submit clips from 206ALO content and earn based on qualified views. Creators can post on TikTok, Instagram Reels, YouTube Shorts, X, or Facebook. Submit your video link after posting. Approved clips will be tracked and paid based on campaign rewards. Do not submit stolen, low-quality, deleted, private, or unrelated content. Only approved clips are eligible for payout.",
+    "fundedAt": "2026-08-05T00:53:26.791Z",
+    "sortTimestamp": 1782221847638,
+    "category": "Music",
+    "contentType": "Clipping",
+    "title": "AfterOurs: Rise and Shine",
+    "description": "Create sports and workout clips that promote RIse and Shine the song",
     "requirements": [],
     "resources": [
       {
-        "name": "206ALO Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/clippers-57"
+        "name": "AfterOurs: Rise and Shine | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipping-70-a188"
       }
     ],
     "platforms": [
       "tiktok",
       "instagram",
-      "youtube",
-      "x",
-      "facebook"
+      "youtube"
     ],
-    "spent": 46,
+    "spent": 486,
     "total": 1000,
-    "count": "2",
-    "cpm": 0.5,
-    "key": "BP x Clipping::206ALO Clipping Campaign"
+    "count": "87",
+    "cpm": 1,
+    "key": "Zagged::AfterOurs: Rise and Shine"
   },
   {
     "id": "bf24a08a-3c22-49f4-8508-6e2b07c5a22a",
@@ -14490,14 +13063,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "afam-clipping-campaign",
     "whopUrl": "https://whop.com/afam-clipping-campaign",
     "thumbnail": "https://cdn.contentrewards.com/user_RXeUQ8sBujGyl/1780622527345.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17956232/image/access_passes/2026-07-28/7315c1c2-ecea-4da0-b4f0-c78746d77e32.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17217828/image/access_passes/2026-07-21/078e5f6e-022b-4a11-b9e0-d455d2729769.jpeg",
     "bannerImageUrl": "",
-    "creators": 148,
+    "creators": 250,
     "agency": "AFAM",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-04-03T05:14:29.558Z",
-    "sortTimestamp": 1782219626886,
+    "fundedAt": "2026-07-05T08:16:06.696Z",
+    "sortTimestamp": 1782221847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "AFAM CLIPS",
@@ -14532,7 +13105,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-03-30T06:51:04.673Z",
-    "sortTimestamp": 1782219626886,
+    "sortTimestamp": 1782221847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Roblox Content Rewards – Make Shorts, Get Paid Fast!",
@@ -14542,10 +13115,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Roblox Content Rewards – Make Shorts, Get Paid Fast! | Official Whop Hub & Assets",
         "url": "https://whop.com/gsn-clips-access"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1ttFCCYioHQZx6mHz6WUe9wgF7W8ruI1XO751lMGxA-E/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14566,12 +13135,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_MEX24aa7acEy4/1780851007575.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2025-12-04/b9dfc5de-469a-43a9-8f30-15ff991a40fc.png",
     "bannerImageUrl": "",
-    "creators": 40,
+    "creators": 42,
     "agency": "Content Rewards UGC [International]",
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-08-21T18:37:48.915Z",
-    "sortTimestamp": 1782219626886,
+    "sortTimestamp": 1782221847638,
     "category": "Product",
     "contentType": "UGC",
     "title": "Slideshows [Non-English]",
@@ -14581,10 +13150,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Slideshows [Non-English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -14612,7 +13177,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-06T17:32:40.731Z",
-    "sortTimestamp": 1782219626886,
+    "sortTimestamp": 1782221847638,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Yan Deschênes Clipping",
@@ -14622,10 +13187,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yan Deschênes Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/yan-dechesne-clipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1LmXB2_Y7A5RHqol3whYlnWefBZt5YEb7?usp=sharing"
       }
     ],
     "platforms": [
@@ -14638,47 +13199,6 @@ window.CAMPAIGNS_DATA = [
     "count": "53",
     "cpm": 2,
     "key": "Yan Deschênes Clips::Yan Deschênes Clipping"
-  },
-  {
-    "id": "b2d81e8a-8f55-4d4a-b6dc-fc55a5bbd96c",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "venture-app",
-    "whop_route": "venture-app",
-    "whopUrl": "https://whop.com/venture-app",
-    "thumbnail": "https://cdn.contentrewards.com/user_3vwnTEWw6msNH/1780426713313.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1055661/image/access_passes/2025-05-20/48a0f91b-6750-4c55-9a2a-d164bd2b060d",
-    "bannerImageUrl": "",
-    "creators": 9,
-    "agency": "Venture Travel UGC Campaign",
-    "age": "2mo",
-    "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-21T22:32:18.105Z",
-    "sortTimestamp": 1782219626886,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "Venture Travel App UGC | $2 per 1,000 views",
-    "description": "Make UGC for Venture and get paid per 1,000 views. Venture is the AI travel app that builds you a full trip plan in seconds. We want casual videos of you using the app, generating a plan, and catching that \"wow\" moment on camera. Post organically, follow the brief, get paid. Full guidelines inside.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Venture Travel App UGC | $2 per 1,000 views | Official Whop Hub & Assets",
-        "url": "https://whop.com/venture-app"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1dXnv3gyAGFh-la3Bsa2_EJ4LH0fPoAi7/view?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 145,
-    "total": 1000,
-    "count": "3",
-    "cpm": 2,
-    "key": "Venture Travel UGC Campaign::Venture Travel App UGC | $2 per 1,000 views"
   },
   {
     "id": "59cf6a8c-b8b4-4fac-b8f0-8b8b635d5d91",
@@ -14694,7 +13214,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-30T16:46:46.261Z",
-    "sortTimestamp": 1782219626885,
+    "sortTimestamp": 1782221847637,
     "category": "Product",
     "contentType": "UGC",
     "title": "Toxic UGC Campaign",
@@ -14731,7 +13251,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-02T15:06:50.092Z",
-    "sortTimestamp": 1782219626885,
+    "sortTimestamp": 1782221847637,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Bloxks UGC Campaign",
@@ -14741,10 +13261,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Bloxks UGC Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/zzz-createur"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1M6j2FdOd129scRfLEFMbr24ALPQ_IcJl?usp=sharing"
       }
     ],
     "platforms": [
@@ -14752,7 +13268,7 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 734,
+    "spent": 735,
     "total": 1000,
     "count": "66",
     "cpm": 1,
@@ -14772,7 +13288,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-08-13T18:10:10.973Z",
-    "sortTimestamp": 1782219626885,
+    "sortTimestamp": 1782221847637,
     "category": "Technology",
     "contentType": "UGC",
     "title": "UGC",
@@ -14809,7 +13325,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-22T07:25:26.900Z",
-    "sortTimestamp": 1782219626885,
+    "sortTimestamp": 1782221847637,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "VIRAL INSTA TIKTOK SHIRIN DAYEL CLIPPING I 1000$ I $1 CPM",
@@ -14819,14 +13335,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "VIRAL INSTA TIKTOK SHIRIN DAYEL CLIPPING I 1000$ I $1 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-crew-jetzt-clippen-verdienen"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/fp9eif6qr2dsn3k0axt4k/ALRh8q7D4ksqxz1YLAWTgCc?rlkey=k2k02jq8whd4z2smhg7vmbmhl"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/fp9eif6qr2dsn3k0axt4k/ALRh8q7D4ksqxz1YLAWTgCc?rlkey=k2k02jq8whd4z2smhg7vmbmhl&amp;st=y05af3hx&amp;dl=0"
       }
     ],
     "platforms": [
@@ -14840,29 +13348,29 @@ window.CAMPAIGNS_DATA = [
     "key": "Tom's Clip Crew::VIRAL INSTA TIKTOK SHIRIN DAYEL CLIPPING I 1000$ I $1 CPM"
   },
   {
-    "id": "8231b542-44db-48da-9b41-246d3a2422a3",
+    "id": "1d89072a-2313-4b83-be91-ea7ecccbbe01",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipping-70-a188",
-    "whop_route": "clipping-70-a188",
-    "whopUrl": "https://whop.com/clipping-70-a188",
-    "thumbnail": "https://cdn.contentrewards.com/user_RkPAD3oGzHzRT/1781290493524.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-09/user_6018563_83af5d57-985e-475e-aa7a-317e200cd7f0.png",
+    "whopProductRoute": "nquarters-free-access",
+    "whop_route": "nquarters-free-access",
+    "whopUrl": "https://whop.com/nquarters-free-access",
+    "thumbnail": "https://cdn.contentrewards.com/user_SEhmaVUFRgtRY/1781119199145.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 26,
-    "agency": "Zagged",
+    "creators": 213,
+    "agency": "NQuarters",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-01T06:32:44.001Z",
-    "sortTimestamp": 1782219626885,
-    "category": "Music",
+    "fundedAt": "2026-07-09T19:12:49.808Z",
+    "sortTimestamp": 1782221847636,
+    "category": "Personal brand",
     "contentType": "Clipping",
-    "title": "AfterOurs: Rise and Shine",
-    "description": "Create sports and workout clips that promote RIse and Shine the song",
+    "title": "Poboy's Clipping Campaign",
+    "description": "Help grow Poboy's personal brand and grow the NQuarters community",
     "requirements": [],
     "resources": [
       {
-        "name": "AfterOurs: Rise and Shine | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipping-70-a188"
+        "name": "Poboy's Clipping Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/nquarters-free-access"
       }
     ],
     "platforms": [
@@ -14870,11 +13378,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 486,
-    "total": 1000,
-    "count": "87",
-    "cpm": 1,
-    "key": "Zagged::AfterOurs: Rise and Shine"
+    "spent": 1046,
+    "total": 2000,
+    "count": "42",
+    "cpm": 2,
+    "key": "NQuarters::Poboy's Clipping Campaign"
   },
   {
     "id": "218d362d-f6ff-4763-8f62-ba6ff0f03d66",
@@ -14890,7 +13398,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-02T00:27:02.942Z",
-    "sortTimestamp": 1782219626884,
+    "sortTimestamp": 1782221847636,
     "category": "Product",
     "contentType": "UGC",
     "title": "UGC Repurposing [International]",
@@ -14900,10 +13408,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "UGC Repurposing [International] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -14931,7 +13435,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-06-27T02:37:58.584Z",
-    "sortTimestamp": 1782219626884,
+    "sortTimestamp": 1782221847636,
     "category": "Product",
     "contentType": "UGC",
     "title": "Content Rewards [English UGC Reaction]",
@@ -14941,10 +13445,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Content Rewards [English UGC Reaction] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -14954,7 +13454,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 151,
     "total": 5000,
-    "count": "324",
+    "count": "325",
     "cpm": 1,
     "key": "Content Rewards::Content Rewards [English UGC Reaction]"
   },
@@ -14972,7 +13472,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-06-29T21:45:29.929Z",
-    "sortTimestamp": 1782219626884,
+    "sortTimestamp": 1782221847636,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Repost existing content - CoinPoker Campaign",
@@ -14982,10 +13482,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Repost existing content - CoinPoker Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/coingroup"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/u/0/folders/16O5YpkROUvE1HaDxEh3EKZsSD2dIkWni"
       }
     ],
     "platforms": [
@@ -15013,7 +13509,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-25T12:30:24.141Z",
-    "sortTimestamp": 1782219626884,
+    "sortTimestamp": 1782221847636,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "Pepty SLIDESHOWS [HEALTH]",
@@ -15023,18 +13519,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Pepty SLIDESHOWS [HEALTH] | Official Whop Hub & Assets",
         "url": "https://whop.com/reachify-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Dr-WVF_hRh_vgnq_fXeAUYHLBxjl5itI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/16iUDPuwKOtJQnDWxIQNXpdUdvQP09bM4IA_sw3KNysg/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Dr-WVF_hRh_vgnq_fXeAUYHLBxjl5itI/edit?usp=sharing&amp;ouid=112759658239018817659&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -15060,7 +13544,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-02-08T23:54:33.880Z",
-    "sortTimestamp": 1782219626884,
+    "sortTimestamp": 1782221847636,
     "category": "Music",
     "contentType": "UGC",
     "title": "CRAZY WORLD CAMPAIGN",
@@ -15097,7 +13581,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1782219626884,
+    "sortTimestamp": 1782221847636,
     "category": "Music",
     "contentType": "UGC",
     "title": "Make It Right - (UGC) 'Alan Fitzpatrick & Calvin Logue' Official Campaign",
@@ -15129,7 +13613,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-01T00:05:09.717Z",
-    "sortTimestamp": 1782219626883,
+    "sortTimestamp": 1782221847635,
     "category": "Product",
     "contentType": "UGC",
     "title": "Faceless UGC [English]",
@@ -15139,10 +13623,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Faceless UGC [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -15152,7 +13632,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 467,
     "total": 5000,
-    "count": "796",
+    "count": "797",
     "cpm": 1,
     "key": "Content Rewards::Faceless UGC [English]"
   },
@@ -15170,7 +13650,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-27T15:36:36.773Z",
-    "sortTimestamp": 1782219626883,
+    "sortTimestamp": 1782221847635,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Fundingpips Campaign",
@@ -15180,14 +13660,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fundingpips Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/instant-funding-81"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1nkWcQQGVq5FngnSKBdRuQnLMbmnhHoaO1kYcKdzZVFs/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1f7SVRCLSKajGQ3iXGPGQOtznEXovnw5q?usp=sharing"
       }
     ],
     "platforms": [
@@ -15208,14 +13680,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "muslim-clippers",
     "whopUrl": "https://whop.com/muslim-clippers",
     "thumbnail": "https://cdn.contentrewards.com/user_E8kjJZDb9Wgnx/1778419582969.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16422414/image/access_passes/2026-06-28/0a38d4c6-6798-4b32-8590-92e386fb569b.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34408240/image/access_passes/2026-08-16/b7c226b5-f977-4ae5-9e32-2f3763810daa.jpeg",
     "bannerImageUrl": "",
-    "creators": 390,
+    "creators": 481,
     "agency": "Muslim Clippers",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-07-02T18:56:05.238Z",
-    "sortTimestamp": 1782219626883,
+    "fundedAt": "2026-08-16T00:53:54.064Z",
+    "sortTimestamp": 1782221847635,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Daleel AI Clipping",
@@ -15234,50 +13706,9 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 1900,
     "total": 3000,
-    "count": "640",
+    "count": "641",
     "cpm": 1,
     "key": "Muslim Clippers::Daleel AI Clipping"
-  },
-  {
-    "id": "1d89072a-2313-4b83-be91-ea7ecccbbe01",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "nquarters-free-access",
-    "whop_route": "nquarters-free-access",
-    "whopUrl": "https://whop.com/nquarters-free-access",
-    "thumbnail": "https://cdn.contentrewards.com/user_SEhmaVUFRgtRY/1781119199145.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
-    "bannerImageUrl": "",
-    "creators": 213,
-    "agency": "NQuarters",
-    "age": "2mo",
-    "formattedAge": "2 months ago",
-    "fundedAt": "2026-07-09T19:12:49.808Z",
-    "sortTimestamp": 1782219626883,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Poboy's Clipping Campaign",
-    "description": "Help grow Poboy's personal brand and grow the NQuarters community",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Poboy's Clipping Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/nquarters-free-access"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1wFNao4GQPgH2CBg6T7O0urEooYYuzk02?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 1046,
-    "total": 2000,
-    "count": "42",
-    "cpm": 2,
-    "key": "NQuarters::Poboy's Clipping Campaign"
   },
   {
     "id": "bbb6b155-fea4-4417-b248-c1f6d0322b77",
@@ -15293,7 +13724,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-08-16T10:36:03.674Z",
-    "sortTimestamp": 1782219626882,
+    "sortTimestamp": 1782221847634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Ouinex [Logo Clipping]",
@@ -15303,10 +13734,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ouinex [Logo Clipping] | Official Whop Hub & Assets",
         "url": "https://whop.com/billbord"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1bJ_rmITn-atc1Yge8NrsQB2CEeg-lA9D"
       }
     ],
     "platforms": [
@@ -15334,7 +13761,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-23T11:55:26.353Z",
-    "sortTimestamp": 1782219626882,
+    "sortTimestamp": 1782221847634,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "DUEL.COM | LIVE BLACKJACK CLIPPING",
@@ -15344,10 +13771,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DUEL.COM | LIVE BLACKJACK CLIPPING | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1kaFjvUM5wFpAqNgCBJbLbn9bnXmKalvjrd4KRLxg92c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15360,6 +13783,43 @@ window.CAMPAIGNS_DATA = [
     "count": "310",
     "cpm": 2,
     "key": "Artist Influence::DUEL.COM | LIVE BLACKJACK CLIPPING"
+  },
+  {
+    "id": "9978f160-9cff-45f1-9dc1-3020a47e5a81",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "yomi-denzel-clipping-us",
+    "whop_route": "yomi-denzel-clipping-us",
+    "whopUrl": "https://whop.com/yomi-denzel-clipping-us",
+    "thumbnail": "https://cdn.contentrewards.com/user_oDeuNdmmdv3mW/1782135722182.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13348334/image/bots/2026-01-27/233a5c8f-7d4f-4865-9f3d-2513ffe1939a.jpg",
+    "bannerImageUrl": "",
+    "creators": 213,
+    "agency": "Yomi Denzel Clipping",
+    "age": "2mo",
+    "formattedAge": "2 months ago",
+    "fundedAt": "2026-08-16T16:49:39.758Z",
+    "sortTimestamp": 1782221847633,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Yomi Denzel Clipping – $1 per 1,000 views",
+    "description": "Clip Yomi Denzel's content and earn $1.5 for every 1,000 views.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Yomi Denzel Clipping – $1 per 1,000 views | Official Whop Hub & Assets",
+        "url": "https://whop.com/yomi-denzel-clipping-us"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 9481,
+    "total": 30000,
+    "count": "437",
+    "cpm": 1,
+    "key": "Yomi Denzel Clipping::Yomi Denzel Clipping – $1 per 1,000 views"
   },
   {
     "id": "e0bbfc86-8965-46ce-a83b-cf6cb08fb903",
@@ -15375,7 +13835,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-08-13T14:12:35.873Z",
-    "sortTimestamp": 1782219626881,
+    "sortTimestamp": 1782221847633,
     "category": "Product",
     "contentType": "UGC",
     "title": "Long-form UGC",
@@ -15385,14 +13845,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Long-form UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a?pvs=74"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Get-your-Custom-Affiliate-Link-c5f3c5a3631682648f7d01c05275e89c?pvs=74"
       }
     ],
     "platforms": [
@@ -15420,7 +13872,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-08-10T01:33:04.570Z",
-    "sortTimestamp": 1782219626881,
+    "sortTimestamp": 1782221847633,
     "category": "Technology",
     "contentType": "UGC",
     "title": "ASHTON HALL - LINKME TONIGHT",
@@ -15430,14 +13882,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ASHTON HALL - LINKME TONIGHT | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/16Pjfl8hhg7_VL38hbM46uHOlpn-0A8zV3od7MeOYoKM/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1HNvo3j69cck7tFAfXsu9TFv4MocYdyc_"
       }
     ],
     "platforms": [
@@ -15456,14 +13900,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "scene-society-43",
     "whopUrl": "https://whop.com/scene-society-43",
     "thumbnail": "https://cdn.contentrewards.com/user_yyPaUsEZNqgdk/1779811946454.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17217828/image/access_passes/2026-07-21/078e5f6e-022b-4a11-b9e0-d455d2729769.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 45,
+    "creators": 20,
     "agency": "The Clip Ship",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-20T19:22:03.892Z",
-    "sortTimestamp": 1782219626881,
+    "fundedAt": "2026-08-21T13:37:39.522Z",
+    "sortTimestamp": 1782221847633,
     "category": "Music",
     "contentType": "Clipping",
     "title": "BLOND:ISH | Pacha Ibiza Residency",
@@ -15473,10 +13917,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BLOND:ISH | Pacha Ibiza Residency | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1haFPQXyYWRcHHHRvvMDr6p0CUjJNacR_snBKtzlJfqw/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -15497,14 +13937,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "join-cliplaunch",
     "whopUrl": "https://whop.com/join-cliplaunch",
     "thumbnail": "https://cdn.contentrewards.com/user_h5izyBq4Spnmw/1781662427073.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17217828/image/access_passes/2026-07-21/078e5f6e-022b-4a11-b9e0-d455d2729769.jpeg",
     "bannerImageUrl": "",
-    "creators": 19,
+    "creators": 46,
     "agency": "ClipLaunch",
     "age": "2mo",
     "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-21T13:37:39.522Z",
-    "sortTimestamp": 1782219626881,
+    "fundedAt": "2026-08-20T19:22:03.892Z",
+    "sortTimestamp": 1782221847633,
     "category": "Technology",
     "contentType": "UGC",
     "title": "DiegoLoveless Clipping [TWITCH CLIPS]",
@@ -15514,18 +13954,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DiegoLoveless Clipping [TWITCH CLIPS] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1k46Hw5WxsGl1xec-Q3ZIMpUN5b-gaV9Z/edit"
       }
     ],
     "platforms": [
       "instagram"
     ],
-    "spent": 1870,
+    "spent": 1871,
     "total": 2800,
-    "count": "267",
+    "count": "268",
     "cpm": 2,
     "key": "ClipLaunch::DiegoLoveless Clipping [TWITCH CLIPS]"
   },
@@ -15543,7 +13979,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-07-28T14:08:37.230Z",
-    "sortTimestamp": 1782219626880,
+    "sortTimestamp": 1782221847632,
     "category": "Product",
     "contentType": "UGC",
     "title": "Talking-Head UGC [English]",
@@ -15553,10 +13989,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Talking-Head UGC [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -15571,47 +14003,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Content Rewards::Talking-Head UGC [English]"
   },
   {
-    "id": "9978f160-9cff-45f1-9dc1-3020a47e5a81",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "yomi-denzel-clipping-us",
-    "whop_route": "yomi-denzel-clipping-us",
-    "whopUrl": "https://whop.com/yomi-denzel-clipping-us",
-    "thumbnail": "https://cdn.contentrewards.com/user_oDeuNdmmdv3mW/1782135722182.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13348334/image/bots/2026-01-27/233a5c8f-7d4f-4865-9f3d-2513ffe1939a.jpg",
-    "bannerImageUrl": "",
-    "creators": 213,
-    "agency": "Yomi Denzel Clipping",
-    "age": "2mo",
-    "formattedAge": "2 months ago",
-    "fundedAt": "2026-08-16T16:49:39.758Z",
-    "sortTimestamp": 1782219626880,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Yomi Denzel Clipping – $1 per 1,000 views",
-    "description": "Clip Yomi Denzel's content and earn $1.5 for every 1,000 views.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Yomi Denzel Clipping – $1 per 1,000 views | Official Whop Hub & Assets",
-        "url": "https://whop.com/yomi-denzel-clipping-us"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1rWuP2OZ5x9t5u8gCZnYdRogwNueIDz5V?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 9480,
-    "total": 30000,
-    "count": "437",
-    "cpm": 1,
-    "key": "Yomi Denzel Clipping::Yomi Denzel Clipping – $1 per 1,000 views"
-  },
-  {
     "id": "6b7db90d-412f-4bcc-ab1e-619ab73bfa09",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clippingculture",
@@ -15620,12 +14011,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_r5MVItlFIQRiM/1779986747757.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16689082/image/access_passes/2026-05-24/91e7fa2e-066e-4cb6-96c2-9dc9134cbde3.jpeg",
     "bannerImageUrl": "",
-    "creators": 16,
+    "creators": 23,
     "agency": "Clipping Culture",
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-08-22T10:46:29.851Z",
-    "sortTimestamp": 1782219626878,
+    "sortTimestamp": 1782221847629,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Call of Duty - Modern Warfare 4 Reveal Trailer Clipping Campaign",
@@ -15635,10 +14026,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty - Modern Warfare 4 Reveal Trailer Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/e/2PACX-1vQY4QWKDHbFzPU1RKMRkDMHOszlRU7KS-Xe_sueckkl0Jzsx-eaaeVzICC2it0k4qoI8f4CLPbNxZUG/pub"
       }
     ],
     "platforms": [
@@ -15666,7 +14053,7 @@ window.CAMPAIGNS_DATA = [
     "age": "2mo",
     "formattedAge": "2 months ago",
     "fundedAt": "2026-05-28T15:30:04.595Z",
-    "sortTimestamp": 1782219626877,
+    "sortTimestamp": 1782221847628,
     "category": "Technology",
     "contentType": "UGC",
     "title": "ROOBET UGC REPOSTING V2",
@@ -15676,10 +14063,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROOBET UGC REPOSTING V2 | Official Whop Hub & Assets",
         "url": "https://whop.com/creator-casino-7b"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1_gUz5qeibYHZrWd5z49eYGP9dLR7WqGL6dv5rs-4R-Q/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15692,6 +14075,116 @@ window.CAMPAIGNS_DATA = [
     "count": "6K",
     "cpm": 1,
     "key": "Creator Casino::ROOBET UGC REPOSTING V2"
+  },
+  {
+    "id": "6cef1e13-feee-4327-8f43-0f7e0f9d7646",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "whiff-reset-your-state-in-30-seconds",
+    "whop_route": "whiff-reset-your-state-in-30-seconds",
+    "whopUrl": "https://whop.com/whiff-reset-your-state-in-30-seconds",
+    "thumbnail": "https://cdn.contentrewards.com/user_JeGLzb3Rx0hIa/1777284240841.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3644019/image/apps/2025-12-21/e41086d3-bc15-459d-9a50-9c28c9e47921.png",
+    "bannerImageUrl": "",
+    "creators": 41,
+    "agency": "Whiff",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-03-23T09:59:25.606Z",
+    "sortTimestamp": 1779629847643,
+    "category": "Personal brand",
+    "contentType": "UGC",
+    "title": "Whiff Wellness Clipping",
+    "description": "WHIFF — Indian neurosensory wellness brand. Breath-based state-switching tools (essential oil inhalation jars). WHAT WE WANT: Hook-driven Reels/Shorts cut from our raw UGC footage. Vertical 9:16, 15–45 seconds. ⚠️ INDIA AUDIENCE REQUIRED — Submissions from accounts with non-India audiences (>30% non-IN) will be rejected. Submit account analytics screenshot when applying. REQUIRED IN EVERY CLIP: - Mention \"whiffit.in\" in caption or on-screen - 3+ India-specific hashtags - No medical claims - Use only the source UGC footage provided FULL BRIEF + SOURCE FILES: [Google Drive link goes here — replace before submitting] PAYMENT: $0.10 per 1k views + $2 flat per approved submission. Max $10 per video.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Whiff Wellness Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/whiff-reset-your-state-in-30-seconds"
+      }
+    ],
+    "platforms": [
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 500,
+    "count": "41",
+    "cpm": 0.1,
+    "key": "Whiff::Whiff Wellness Clipping"
+  },
+  {
+    "id": "f46988fb-3c9a-41d8-99b6-04d28f194871",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "join-music-promo-clippers",
+    "whop_route": "join-music-promo-clippers",
+    "whopUrl": "https://whop.com/join-music-promo-clippers",
+    "thumbnail": "https://cdn.contentrewards.com/user_ymHtzCs7Sp0yr/1786686140241.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17956232/image/access_passes/2026-07-28/7315c1c2-ecea-4da0-b4f0-c78746d77e32.png",
+    "bannerImageUrl": "",
+    "creators": 183,
+    "agency": "Music Promo Clippers",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-03-20T21:14:12.108Z",
+    "sortTimestamp": 1779629847643,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "redeye - burned | Music Audio Only Campaign",
+    "description": "Use your best editing content to promote this song by adding its audio and optionally lyrics to your content, and adding the song & artist name in the description/comments and visible on the video itself with text. Also tag the artist. Example: \"redeye - burned\" on screen text",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "redeye - burned | Music Audio Only Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/join-music-promo-clippers"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 1020,
+    "total": 1025,
+    "count": "254",
+    "cpm": 1,
+    "key": "Music Promo Clippers::redeye - burned | Music Audio Only Campaign"
+  },
+  {
+    "id": "a281ed34-c81a-4ebf-a44c-97fab6472889",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clip-for-alessio",
+    "whop_route": "clip-for-alessio",
+    "whopUrl": "https://whop.com/clip-for-alessio",
+    "thumbnail": "https://cdn.contentrewards.com/user_ScWgrw6rkBEoY/1779538155217.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15305582/image/bots/2026-06-20/fa438134-24fb-43d1-aef7-cfb07603b954.png",
+    "bannerImageUrl": "",
+    "creators": 105,
+    "agency": "Clipior",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-06-20T16:33:29.646Z",
+    "sortTimestamp": 1779629847643,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Clip Alessio | Earn $1/1K Views",
+    "description": "Clip Finn and earn $1 per 1000 views your content gets!",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Clip Alessio | Earn $1/1K Views | Official Whop Hub & Assets",
+        "url": "https://whop.com/clip-for-alessio"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 998,
+    "total": 1000,
+    "count": "36",
+    "cpm": 10,
+    "key": "Clipior::Clip Alessio | Earn $1/1K Views"
   },
   {
     "id": "6ac83d80-3141-4f60-96b8-f2ac17d35a34",
@@ -15707,7 +14200,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-27T19:18:09.669Z",
-    "sortTimestamp": 1779627626891,
+    "sortTimestamp": 1779629847643,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Greg Lav",
@@ -15739,7 +14232,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-24T22:32:12.156Z",
-    "sortTimestamp": 1779627626891,
+    "sortTimestamp": 1779629847643,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "DTH",
@@ -15771,7 +14264,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1779627626891,
+    "sortTimestamp": 1779629847643,
     "category": "One State",
     "contentType": "Clipping",
     "title": "Join Campaign",
@@ -15790,6 +14283,80 @@ window.CAMPAIGNS_DATA = [
     "key": "Virality::Join Campaign"
   },
   {
+    "id": "19f39dab-b693-4696-b8f0-6f69fb1e66d4",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "james-hype-7b",
+    "whop_route": "james-hype-7b",
+    "whopUrl": "https://whop.com/james-hype-7b",
+    "thumbnail": "https://cdn.contentrewards.com/user_PzTkNhz09UEpi/1777375733927.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26192004/image/bots/2026-04-27/79250080-963f-4019-9134-f9f54c0a3a0e.png",
+    "bannerImageUrl": "",
+    "creators": 1,
+    "agency": "James Hype",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-04-27T13:58:21.241Z",
+    "sortTimestamp": 1779629847642,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "The Secrets that 99% of DJs don't know - James Hype (Clipping)",
+    "description": "Create engaging short-form content around one of the most personal interviews James Hype has ever put out. All content can be found in the folder inside campaign resources.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "The Secrets that 99% of DJs don't know - James Hype (Clipping) | Official Whop Hub & Assets",
+        "url": "https://whop.com/james-hype-7b"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1500,
+    "count": "5",
+    "cpm": 1,
+    "key": "James Hype::The Secrets that 99% of DJs don't know - James Hype (Clipping)"
+  },
+  {
+    "id": "ea15428b-5d10-40e0-b33d-476716e1ff5f",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "gyro-5a",
+    "whop_route": "gyro-5a",
+    "whopUrl": "https://whop.com/gyro-5a",
+    "thumbnail": "https://cdn.contentrewards.com/user_1UELBzkN2vVjh/1777298236756.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12610631/image/access_passes/2026-07-12/1f48efb8-ed4f-4e30-9525-e4b1e61253ef.png",
+    "bannerImageUrl": "",
+    "creators": 222,
+    "agency": "Gyro",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-07-19T14:13:02.301Z",
+    "sortTimestamp": 1779629847642,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Gyro's Campaign - HeyGyro.com",
+    "description": "Promoting Gyro's automatic airline refunds and compensation for travelers. Go to heygyro.com",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Gyro's Campaign - HeyGyro.com | Official Whop Hub & Assets",
+        "url": "https://whop.com/gyro-5a"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1500,
+    "count": "1",
+    "cpm": 1,
+    "key": "Gyro::Gyro's Campaign - HeyGyro.com"
+  },
+  {
     "id": "c56eefc4-f0f2-4731-99e5-fa7297b3407e",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "androgenic-clips-0d",
@@ -15803,7 +14370,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-20T20:04:50.045Z",
-    "sortTimestamp": 1779627626890,
+    "sortTimestamp": 1779629847642,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Ascension Clipping Campaign",
@@ -15840,7 +14407,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-06T17:33:19.825Z",
-    "sortTimestamp": 1779627626890,
+    "sortTimestamp": 1779629847642,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "David Saylor’s Campaign",
@@ -15872,12 +14439,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "",
     "avatar": "",
     "bannerImageUrl": "",
-    "creators": 18,
+    "creators": 19,
     "agency": "Mproper Clippers",
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1779627626890,
+    "sortTimestamp": 1779629847642,
     "category": "Music",
     "contentType": "UGC",
     "title": "\"ALL LOVE\" UGC/Clipping| $500 Budget| $1 CPM",
@@ -15891,7 +14458,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 500,
-    "count": "18",
+    "count": "19",
     "cpm": 1,
     "key": "Mproper Clippers::\"ALL LOVE\" UGC/Clipping| $500 Budget| $1 CPM"
   },
@@ -15909,7 +14476,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-28T11:30:21.084Z",
-    "sortTimestamp": 1779627626890,
+    "sortTimestamp": 1779629847642,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Clips hablando - $0.50 dolar por cada 1000 visitas",
@@ -15946,7 +14513,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-03-23T16:05:12.494Z",
-    "sortTimestamp": 1779627626890,
+    "sortTimestamp": 1779629847642,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "STRATFORGE x Scalify (German Audience)",
@@ -15956,14 +14523,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "STRATFORGE x Scalify (German Audience) | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-campagne-30"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1fmuXw-CJOtmu9yX9AGGNq8JGqQTYp8XB"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1VH7KY1pyk-hDZ9BdPYP_LtksTy0xe_BP?usp=sharing"
       }
     ],
     "platforms": [
@@ -15976,122 +14535,35 @@ window.CAMPAIGNS_DATA = [
     "key": "STRATFORGE!::STRATFORGE x Scalify (German Audience)"
   },
   {
-    "id": "6cef1e13-feee-4327-8f43-0f7e0f9d7646",
+    "id": "",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "whiff-reset-your-state-in-30-seconds",
-    "whop_route": "whiff-reset-your-state-in-30-seconds",
-    "whopUrl": "https://whop.com/whiff-reset-your-state-in-30-seconds",
-    "thumbnail": "https://cdn.contentrewards.com/user_JeGLzb3Rx0hIa/1777284240841.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3644019/image/apps/2025-12-21/e41086d3-bc15-459d-9a50-9c28c9e47921.png",
+    "whopProductRoute": "",
+    "whop_route": "",
+    "whopUrl": "",
+    "thumbnail": "",
+    "avatar": "",
     "bannerImageUrl": "",
-    "creators": 41,
-    "agency": "Whiff",
+    "creators": 5,
+    "agency": "BENZI'S CLIPS",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-03-23T09:59:25.606Z",
-    "sortTimestamp": 1779627626890,
-    "category": "Personal brand",
+    "fundedAt": null,
+    "sortTimestamp": 1779629847641,
+    "category": "Technology",
     "contentType": "UGC",
-    "title": "Whiff Wellness Clipping",
-    "description": "WHIFF — Indian neurosensory wellness brand. Breath-based state-switching tools (essential oil inhalation jars). WHAT WE WANT: Hook-driven Reels/Shorts cut from our raw UGC footage. Vertical 9:16, 15–45 seconds. ⚠️ INDIA AUDIENCE REQUIRED — Submissions from accounts with non-India audiences (>30% non-IN) will be rejected. Submit account analytics screenshot when applying. REQUIRED IN EVERY CLIP: - Mention \"whiffit.in\" in caption or on-screen - 3+ India-specific hashtags - No medical claims - Use only the source UGC footage provided FULL BRIEF + SOURCE FILES: [Google Drive link goes here — replace before submitting] PAYMENT: $0.10 per 1k views + $2 flat per approved submission. Max $10 per video.",
+    "title": "Clip my Tiktok live stream & get paid",
+    "description": "💸🔥 CLIP MY STREAMS & GET PAID 🔥💸 🎥 I go LIVE on TikTok every day from 4AM – 11AM EST 💅 I’m looking for people who can turn my BEST live moments into VIRAL clips ─────────────── 📌 WHAT TO DO: • ✂️ Clip moments directly from my LIVE streams (NOT old page content) • 📲 Post clips on TikTok • 🏷️ YOU MUST tag @Benzi_2.0 in EVERY clip • 📅 Stay consistent and post daily ─────────────── 💰 PAY: • 💵 $1 per 1,000 views • 📊 Organic views ONLY • 👀 ALL clips are manually reviewed • ❌ Boosted, botted, or fake views = automatic DENIAL • 🚫 Do NOT try to cheat the system ─────────────── ⚠️ IMPORTANT: • 🔴 Clips MUST be from LIVE streams • 🚫 Do NOT use videos from my page (unless it’s an aura edit) • ❗ If you do NOT tag me, you will NOT be paid • 📈 Engagement MATTERS (likes, comments, shares, saves) • 🧠 1,000 views with no engagement ≠ a good clip • 💸 Low effort clips will NOT get paid ─────────────── 🎯 WHAT I’M LOOKING FOR: • 🧠 People who understand TikTok & what goes viral • ⚡ Fast, consistent clippers • 🔥 High energy, engaging edits ─────────────── 🏆 TIPS TO WIN: • 🎬 Hook viewers in the FIRST 1–2 seconds • 💬 Add captions that match what’s being said • ✂️ Keep clips short, fast, and engaging • 🎭 Focus on reactions, funny moments, drama, and BIG gifts ─────────────── 💋 You clip, I stream, we BOTH win 💋",
     "requirements": [],
-    "resources": [
-      {
-        "name": "Whiff Wellness Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/whiff-reset-your-state-in-30-seconds"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/11RcMHJdGxIYmiesHPfGbvro7t2cgX-Cn?usp=sharing"
-      }
-    ],
+    "resources": [],
     "platforms": [
-      "instagram",
-      "youtube"
+      "tiktok",
+      "instagram"
     ],
-    "spent": 0,
+    "spent": 2,
     "total": 500,
-    "count": "41",
-    "cpm": 0.1,
-    "key": "Whiff::Whiff Wellness Clipping"
-  },
-  {
-    "id": "f46988fb-3c9a-41d8-99b6-04d28f194871",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "join-music-promo-clippers",
-    "whop_route": "join-music-promo-clippers",
-    "whopUrl": "https://whop.com/join-music-promo-clippers",
-    "thumbnail": "https://cdn.contentrewards.com/user_ymHtzCs7Sp0yr/1786686140241.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17956232/image/access_passes/2026-07-28/7315c1c2-ecea-4da0-b4f0-c78746d77e32.png",
-    "bannerImageUrl": "",
-    "creators": 183,
-    "agency": "Music Promo Clippers",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-03-20T21:14:12.108Z",
-    "sortTimestamp": 1779627626890,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "redeye - burned | Music Audio Only Campaign",
-    "description": "Use your best editing content to promote this song by adding its audio and optionally lyrics to your content, and adding the song & artist name in the description/comments and visible on the video itself with text. Also tag the artist. Example: \"redeye - burned\" on screen text",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "redeye - burned | Music Audio Only Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/join-music-promo-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1_Gjss3hp_99ta4UW4gi4xn7PDAzz2mfxLRPiLw3eNQg/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 1020,
-    "total": 1025,
-    "count": "254",
+    "count": "5",
     "cpm": 1,
-    "key": "Music Promo Clippers::redeye - burned | Music Audio Only Campaign"
-  },
-  {
-    "id": "a281ed34-c81a-4ebf-a44c-97fab6472889",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clip-for-alessio",
-    "whop_route": "clip-for-alessio",
-    "whopUrl": "https://whop.com/clip-for-alessio",
-    "thumbnail": "https://cdn.contentrewards.com/user_ScWgrw6rkBEoY/1779538155217.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_15305582/image/bots/2026-06-20/fa438134-24fb-43d1-aef7-cfb07603b954.png",
-    "bannerImageUrl": "",
-    "creators": 105,
-    "agency": "Clipior",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-06-20T16:33:29.646Z",
-    "sortTimestamp": 1779627626890,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Clip Alessio | Earn $1/1K Views",
-    "description": "Clip Finn and earn $1 per 1000 views your content gets!",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clip Alessio | Earn $1/1K Views | Official Whop Hub & Assets",
-        "url": "https://whop.com/clip-for-alessio"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 998,
-    "total": 1000,
-    "count": "36",
-    "cpm": 10,
-    "key": "Clipior::Clip Alessio | Earn $1/1K Views"
+    "key": "BENZI'S CLIPS::Clip my Tiktok live stream & get paid"
   },
   {
     "id": "55526f2b-2ef1-4844-afc6-0214284b47d8",
@@ -16107,7 +14579,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-28T13:21:04.499Z",
-    "sortTimestamp": 1779627626889,
+    "sortTimestamp": 1779629847641,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Dr. Shawn Smith's Campaign",
@@ -16117,10 +14589,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Dr. Shawn Smith's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-team-9e"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1cQb1zy51lhxalWG6GU5YI-XhkA9fy626?usp=drive_link"
       }
     ],
     "platforms": [
@@ -16146,7 +14614,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-06-23T22:51:01.591Z",
-    "sortTimestamp": 1779627626889,
+    "sortTimestamp": 1779629847641,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Bootcamp Contenu IA",
@@ -16183,7 +14651,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-03T20:45:40.691Z",
-    "sortTimestamp": 1779627626889,
+    "sortTimestamp": 1779629847641,
     "category": "Music",
     "contentType": "UGC",
     "title": "Silence - Official Global Rollout (EARLY ACCESS)",
@@ -16207,33 +14675,29 @@ window.CAMPAIGNS_DATA = [
     "key": "Meduza Music::Silence - Official Global Rollout (EARLY ACCESS)"
   },
   {
-    "id": "19f39dab-b693-4696-b8f0-6f69fb1e66d4",
+    "id": "e9de42f6-9e2e-48a1-be62-2e3969f562fa",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "james-hype-7b",
-    "whop_route": "james-hype-7b",
-    "whopUrl": "https://whop.com/james-hype-7b",
-    "thumbnail": "https://cdn.contentrewards.com/user_PzTkNhz09UEpi/1777375733927.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26192004/image/bots/2026-04-27/79250080-963f-4019-9134-f9f54c0a3a0e.png",
+    "whopProductRoute": "master-munoz-podcast",
+    "whop_route": "master-munoz-podcast",
+    "whopUrl": "https://whop.com/master-munoz-podcast",
+    "thumbnail": "https://cdn.contentrewards.com/user_xyqzIgWJtfPDT/1778085285471.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12754473/image/bots/2026-06-10/3e61b89a-7164-407d-9860-b0d762709d3e.png",
     "bannerImageUrl": "",
-    "creators": 1,
-    "agency": "James Hype",
+    "creators": 2,
+    "agency": "Master Muñoz",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-04-27T13:58:21.241Z",
-    "sortTimestamp": 1779627626889,
+    "fundedAt": "2026-06-13T05:50:46.787Z",
+    "sortTimestamp": 1779629847640,
     "category": "Personal brand",
     "contentType": "Clipping",
-    "title": "The Secrets that 99% of DJs don't know - James Hype (Clipping)",
-    "description": "Create engaging short-form content around one of the most personal interviews James Hype has ever put out. All content can be found in the folder inside campaign resources.",
+    "title": "Master Muñoz 2026",
+    "description": "Crea Clips de Carlos Muñoz (solo contenido del 2026)",
     "requirements": [],
     "resources": [
       {
-        "name": "The Secrets that 99% of DJs don't know - James Hype (Clipping) | Official Whop Hub & Assets",
-        "url": "https://whop.com/james-hype-7b"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1fpsSuTXgSsXyZoz625yVFVgmNQ4EHM4DepBXqx4NX1A/edit?usp=sharing"
+        "name": "Master Muñoz 2026 | Official Whop Hub & Assets",
+        "url": "https://whop.com/master-munoz-podcast"
       }
     ],
     "platforms": [
@@ -16241,52 +14705,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 0,
+    "spent": 1322,
     "total": 1500,
-    "count": "5",
-    "cpm": 1,
-    "key": "James Hype::The Secrets that 99% of DJs don't know - James Hype (Clipping)"
-  },
-  {
-    "id": "ea15428b-5d10-40e0-b33d-476716e1ff5f",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "gyro-5a",
-    "whop_route": "gyro-5a",
-    "whopUrl": "https://whop.com/gyro-5a",
-    "thumbnail": "https://cdn.contentrewards.com/user_1UELBzkN2vVjh/1777298236756.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13217765/image/bots/2026-01-11/1a40e4cb-f7a8-4b27-91fb-ef0016143047.png",
-    "bannerImageUrl": "",
-    "creators": 10583,
-    "agency": "Gyro",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-06-08T07:08:11.745Z",
-    "sortTimestamp": 1779627626889,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Gyro's Campaign - HeyGyro.com",
-    "description": "Promoting Gyro's automatic airline refunds and compensation for travelers. Go to heygyro.com",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Gyro's Campaign - HeyGyro.com | Official Whop Hub & Assets",
-        "url": "https://whop.com/gyro-5a"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1dLkQqkwqCZ4gjrv3VSy1740LnQv91InEQhjYwh-HGUQ/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 1500,
-    "count": "1",
-    "cpm": 1,
-    "key": "Gyro::Gyro's Campaign - HeyGyro.com"
+    "count": "25",
+    "cpm": 1.5,
+    "key": "Master Muñoz::Master Muñoz 2026"
   },
   {
     "id": "",
@@ -16302,7 +14725,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1779627626888,
+    "sortTimestamp": 1779629847640,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "A \"Just Chatting\" Streamer's Clipping Campaign - (Parasocial with) Don Benitez",
@@ -16319,35 +14742,78 @@ window.CAMPAIGNS_DATA = [
     "key": "(Parasocial with) Don Benitez::A \"Just Chatting\" Streamer's Clipping Campaign - (Parasocial with) Don Benitez"
   },
   {
-    "id": "",
+    "id": "41babd2a-080e-4e7a-a27f-6bde1094b1a3",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "",
-    "whop_route": "",
-    "whopUrl": "",
-    "thumbnail": "",
-    "avatar": "",
+    "whopProductRoute": "musascales-eb",
+    "whop_route": "musascales-eb",
+    "whopUrl": "https://whop.com/musascales-eb",
+    "thumbnail": "https://cdn.contentrewards.com/user_7FhfvZssxeepu/1777652151372.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_24917884/image/bots/2026-04-04/5ce4aaf1-64c4-4ded-be47-1499763f5f74.jpeg",
     "bannerImageUrl": "",
-    "creators": 5,
-    "agency": "BENZI'S CLIPS",
+    "creators": 148,
+    "agency": "VOLUM",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": null,
-    "sortTimestamp": 1779627626888,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "Clip my Tiktok live stream & get paid",
-    "description": "💸🔥 CLIP MY STREAMS & GET PAID 🔥💸 🎥 I go LIVE on TikTok every day from 4AM – 11AM EST 💅 I’m looking for people who can turn my BEST live moments into VIRAL clips ─────────────── 📌 WHAT TO DO: • ✂️ Clip moments directly from my LIVE streams (NOT old page content) • 📲 Post clips on TikTok • 🏷️ YOU MUST tag @Benzi_2.0 in EVERY clip • 📅 Stay consistent and post daily ─────────────── 💰 PAY: • 💵 $1 per 1,000 views • 📊 Organic views ONLY • 👀 ALL clips are manually reviewed • ❌ Boosted, botted, or fake views = automatic DENIAL • 🚫 Do NOT try to cheat the system ─────────────── ⚠️ IMPORTANT: • 🔴 Clips MUST be from LIVE streams • 🚫 Do NOT use videos from my page (unless it’s an aura edit) • ❗ If you do NOT tag me, you will NOT be paid • 📈 Engagement MATTERS (likes, comments, shares, saves) • 🧠 1,000 views with no engagement ≠ a good clip • 💸 Low effort clips will NOT get paid ─────────────── 🎯 WHAT I’M LOOKING FOR: • 🧠 People who understand TikTok & what goes viral • ⚡ Fast, consistent clippers • 🔥 High energy, engaging edits ─────────────── 🏆 TIPS TO WIN: • 🎬 Hook viewers in the FIRST 1–2 seconds • 💬 Add captions that match what’s being said • ✂️ Keep clips short, fast, and engaging • 🎭 Focus on reactions, funny moments, drama, and BIG gifts ─────────────── 💋 You clip, I stream, we BOTH win 💋",
+    "fundedAt": "2026-05-11T12:19:41.198Z",
+    "sortTimestamp": 1779629847639,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "DiagoFit Clipping",
+    "description": "Clip Diagofit content and get paid per 1,000 views. Post on TikTok, Instagram, or YouTube — the more views you get, the more you earn. Read the guidelines carefully before posting and submit your content through Whop to get paid.",
     "requirements": [],
-    "resources": [],
+    "resources": [
+      {
+        "name": "DiagoFit Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/musascales-eb"
+      }
+    ],
     "platforms": [
       "tiktok",
-      "instagram"
+      "instagram",
+      "youtube"
     ],
-    "spent": 2,
-    "total": 500,
-    "count": "5",
+    "spent": 275,
+    "total": 1350,
+    "count": "99",
     "cpm": 1,
-    "key": "BENZI'S CLIPS::Clip my Tiktok live stream & get paid"
+    "key": "VOLUM::DiagoFit Clipping"
+  },
+  {
+    "id": "1efdbbea-cf89-446d-8c9b-756ba2c0f58a",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "ugc-content-for-finsta-app-always-ongoing",
+    "whop_route": "ugc-content-for-finsta-app-always-ongoing",
+    "whopUrl": "https://whop.com/ugc-content-for-finsta-app-always-ongoing",
+    "thumbnail": "https://cdn.contentrewards.com/user_ypFLQlKZSByas/1778502390789.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
+    "bannerImageUrl": "",
+    "creators": 230,
+    "agency": "Finsta App",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-07-24T15:08:11.063Z",
+    "sortTimestamp": 1779629847639,
+    "category": "Logo",
+    "contentType": "Clipping",
+    "title": "Finsta App Logo Campaign",
+    "description": "Use our logo / gif in your streamer clips and get paid. Very simple.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Finsta App Logo Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/ugc-content-for-finsta-app-always-ongoing"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 330,
+    "total": 1000,
+    "count": "148",
+    "cpm": 0.3,
+    "key": "Finsta App::Finsta App Logo Campaign"
   },
   {
     "id": "24343388-1e17-4558-aa9c-56bcc092df13",
@@ -16356,14 +14822,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "clipping-community-c1",
     "whopUrl": "https://whop.com/clipping-community-c1",
     "thumbnail": "https://cdn.contentrewards.com/user_EBFTkKOgzcZ9a/1779227781198.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26382775/image/ai_prompts/2026-04-30/eae647b1-9a74-4bd1-ae25-13a846480ae2.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_27345216/image/bots/2026-05-17/ca5c61ba-1833-4193-9f9f-2b8a051a4eaa.png",
     "bannerImageUrl": "",
-    "creators": 4,
+    "creators": 15,
     "agency": "Nepo",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-08-22T10:05:00.511Z",
-    "sortTimestamp": 1779627626887,
+    "fundedAt": "2026-05-18T02:33:53.185Z",
+    "sortTimestamp": 1779629847639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Hasan Piker x Nepo Clipping",
@@ -16373,10 +14839,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Hasan Piker x Nepo Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-community-c1"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1CCDX5ifxAAp2nyHqVYVs97biRvPPW2-6c7DYXiEXafA/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -16404,7 +14866,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1779627626887,
+    "sortTimestamp": 1779629847639,
     "category": "Product",
     "contentType": "UGC",
     "title": "Sharky World Cup Vibe Jam Creat&Clips&Earn — Make the World Cup Playable",
@@ -16445,7 +14907,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-08-14T15:57:14.108Z",
-    "sortTimestamp": 1779627626887,
+    "sortTimestamp": 1779629847639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Jimmy Chung's Campaign",
@@ -16469,43 +14931,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Whopify::Jimmy Chung's Campaign"
   },
   {
-    "id": "e9de42f6-9e2e-48a1-be62-2e3969f562fa",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "master-munoz-podcast",
-    "whop_route": "master-munoz-podcast",
-    "whopUrl": "https://whop.com/master-munoz-podcast",
-    "thumbnail": "https://cdn.contentrewards.com/user_xyqzIgWJtfPDT/1778085285471.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12754473/image/bots/2026-06-10/3e61b89a-7164-407d-9860-b0d762709d3e.png",
-    "bannerImageUrl": "",
-    "creators": 2,
-    "agency": "Master Muñoz",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-06-13T05:50:46.787Z",
-    "sortTimestamp": 1779627626887,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Master Muñoz 2026",
-    "description": "Crea Clips de Carlos Muñoz (solo contenido del 2026)",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Master Muñoz 2026 | Official Whop Hub & Assets",
-        "url": "https://whop.com/master-munoz-podcast"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 1321,
-    "total": 1500,
-    "count": "25",
-    "cpm": 1.5,
-    "key": "Master Muñoz::Master Muñoz 2026"
-  },
-  {
     "id": "531dc4a4-6090-45d0-8ee8-99b233f50cb5",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "flex-city-66",
@@ -16519,7 +14944,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-03T15:27:08.988Z",
-    "sortTimestamp": 1779627626886,
+    "sortTimestamp": 1779629847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Flex City [Official Clipping]",
@@ -16529,10 +14954,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Flex City [Official Clipping] | Official Whop Hub & Assets",
         "url": "https://whop.com/flex-city-66"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://www.notion.so/spce/Flex-City-UGC-gameplay-campaign-3645b3f7b43880319547ed9dcd0dce30"
       }
     ],
     "platforms": [
@@ -16553,14 +14974,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "our-house",
     "whopUrl": "https://whop.com/our-house",
     "thumbnail": "https://cdn.contentrewards.com/user_PzTkNhz09UEpi/1778501103729.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17473544/image/bots/2025-10-08/8f256ca1-06ae-406d-875c-706dc0e23f2a",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3383565/image/bots/2025-10-14/64fc64eb-c541-4e1d-b60e-aa4276602bb0.png",
     "bannerImageUrl": "",
-    "creators": 23,
+    "creators": 22,
     "agency": "OUR HOUSE",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-03-02T07:45:57.727Z",
-    "sortTimestamp": 1779627626886,
+    "fundedAt": "2026-04-08T01:17:52.376Z",
+    "sortTimestamp": 1779629847638,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Our House At Hï Ibiza UGC Campaign (Invite Only)",
@@ -16570,10 +14991,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Our House At Hï Ibiza UGC Campaign (Invite Only) | Official Whop Hub & Assets",
         "url": "https://whop.com/our-house"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1wocUatWN2UwdCvEJd_BqTTrum4p33yhGll9wWZMks0I/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -16588,90 +15005,39 @@ window.CAMPAIGNS_DATA = [
     "key": "OUR HOUSE::Our House At Hï Ibiza UGC Campaign (Invite Only)"
   },
   {
-    "id": "41babd2a-080e-4e7a-a27f-6bde1094b1a3",
+    "id": "74e0d3c6-b7ba-43e8-ab74-ae9ea44caefd",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "musascales-eb",
-    "whop_route": "musascales-eb",
-    "whopUrl": "https://whop.com/musascales-eb",
-    "thumbnail": "https://cdn.contentrewards.com/user_7FhfvZssxeepu/1777652151372.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_24917884/image/bots/2026-04-04/5ce4aaf1-64c4-4ded-be47-1499763f5f74.jpeg",
+    "whopProductRoute": "moore-mentorship",
+    "whop_route": "moore-mentorship",
+    "whopUrl": "https://whop.com/moore-mentorship",
+    "thumbnail": "https://cdn.contentrewards.com/user_K3BJCUtBAeRGV/1777004531193.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 148,
-    "agency": "VOLUM",
+    "creators": 145,
+    "agency": "Moore Trades",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-05-11T12:19:41.198Z",
-    "sortTimestamp": 1779627626886,
-    "category": "Personal brand",
+    "fundedAt": "2026-07-02T00:35:14.087Z",
+    "sortTimestamp": 1779629847637,
+    "category": "Other",
     "contentType": "Clipping",
-    "title": "DiagoFit Clipping",
-    "description": "Clip Diagofit content and get paid per 1,000 views. Post on TikTok, Instagram, or YouTube — the more views you get, the more you earn. Read the guidelines carefully before posting and submit your content through Whop to get paid.",
+    "title": "Moore Trades Campaign",
+    "description": "Want clips with viral potential from any forms of content. Mainly going to be coming from my Youtube and kick streams. a tag to my main page must be in your bio",
     "requirements": [],
     "resources": [
       {
-        "name": "DiagoFit Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/musascales-eb"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1N5qnqOnYfsrOqC9lvibbh8jUDDV8xfMn?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1E-yF0zbx7BMepym-fzIXLVCtiHc_ItkQ"
+        "name": "Moore Trades Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/moore-mentorship"
       }
     ],
     "platforms": [
-      "tiktok",
-      "instagram",
       "youtube"
     ],
-    "spent": 275,
-    "total": 1350,
-    "count": "99",
-    "cpm": 1,
-    "key": "VOLUM::DiagoFit Clipping"
-  },
-  {
-    "id": "1efdbbea-cf89-446d-8c9b-756ba2c0f58a",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "ugc-content-for-finsta-app-always-ongoing",
-    "whop_route": "ugc-content-for-finsta-app-always-ongoing",
-    "whopUrl": "https://whop.com/ugc-content-for-finsta-app-always-ongoing",
-    "thumbnail": "https://cdn.contentrewards.com/user_ypFLQlKZSByas/1778502390789.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
-    "bannerImageUrl": "",
-    "creators": 230,
-    "agency": "Finsta App",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-07-24T15:08:11.063Z",
-    "sortTimestamp": 1779627626886,
-    "category": "Logo",
-    "contentType": "Clipping",
-    "title": "Finsta App Logo Campaign",
-    "description": "Use our logo / gif in your streamer clips and get paid. Very simple.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Finsta App Logo Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/ugc-content-for-finsta-app-always-ongoing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1i6pS14hScGmoBb4Hcfhv61qOy7apzzVB?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 330,
-    "total": 1000,
-    "count": "148",
-    "cpm": 0.3,
-    "key": "Finsta App::Finsta App Logo Campaign"
+    "spent": 661,
+    "total": 1330,
+    "count": "102",
+    "cpm": 2,
+    "key": "Moore Trades::Moore Trades Campaign"
   },
   {
     "id": "4fe8ca95-c1a5-4b83-8f50-2e8007ece5fc",
@@ -16687,7 +15053,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-04-08T13:08:12.041Z",
-    "sortTimestamp": 1779627626885,
+    "sortTimestamp": 1779629847637,
     "category": "Product",
     "contentType": "Clipping",
     "title": "TradeAxis System Campaign",
@@ -16697,14 +15063,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "TradeAxis System Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-track-access"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/101LyJCqdLxg8eWGZz6zM5SIizHbx71AO?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1LYAEREWsxAowBylOjAlcgLzBPdPNJJSPw01fwDoXv3c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -16732,7 +15090,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1779627626884,
+    "sortTimestamp": 1779629847636,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "\"BLINKxLIZ\" CLIPPING CAMPAIGN | $5000 | $1.5 (CPM)",
@@ -16758,14 +15116,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "musascales-eb",
     "whopUrl": "https://whop.com/musascales-eb",
     "thumbnail": "https://cdn.contentrewards.com/user_7FhfvZssxeepu/1779541829877.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_4017554/image/bots/2026-07-10/b2a07f8d-052a-4fba-a9f1-315ac80ca2fd.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8634820/image/bots/2026-06-04/ca6f8a66-ed7a-483d-b6f3-2b844bb92729.png",
     "bannerImageUrl": "",
-    "creators": 7,
+    "creators": 66,
     "agency": "VOLUM",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-07-23T04:12:48.442Z",
-    "sortTimestamp": 1779627626884,
+    "fundedAt": "2026-08-19T17:19:25.184Z",
+    "sortTimestamp": 1779629847636,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "GabeNoVictim Clipping",
@@ -16775,14 +15133,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GabeNoVictim Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/musascales-eb"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1dG4Mj9Z0LSLlP81RMx4IQMrm8fJSKG2T?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/10B5WXOBFImfs-DNMIZz9tpIhCbXZg36EKhwCvlTK62Y/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -16793,41 +15143,6 @@ window.CAMPAIGNS_DATA = [
     "count": "100",
     "cpm": 1,
     "key": "VOLUM::GabeNoVictim Clipping"
-  },
-  {
-    "id": "74e0d3c6-b7ba-43e8-ab74-ae9ea44caefd",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "moore-mentorship",
-    "whop_route": "moore-mentorship",
-    "whopUrl": "https://whop.com/moore-mentorship",
-    "thumbnail": "https://cdn.contentrewards.com/user_K3BJCUtBAeRGV/1777004531193.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
-    "bannerImageUrl": "",
-    "creators": 145,
-    "agency": "Moore Trades",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-07-02T00:35:14.087Z",
-    "sortTimestamp": 1779627626884,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "Moore Trades Campaign",
-    "description": "Want clips with viral potential from any forms of content. Mainly going to be coming from my Youtube and kick streams. a tag to my main page must be in your bio",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Moore Trades Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/moore-mentorship"
-      }
-    ],
-    "platforms": [
-      "youtube"
-    ],
-    "spent": 661,
-    "total": 1330,
-    "count": "102",
-    "cpm": 2,
-    "key": "Moore Trades::Moore Trades Campaign"
   },
   {
     "id": "23dee971-8dd3-4a98-bd77-bcd4350f4976",
@@ -16843,7 +15158,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-08-18T01:04:53.459Z",
-    "sortTimestamp": 1779627626883,
+    "sortTimestamp": 1779629847635,
     "category": "Product",
     "contentType": "UGC",
     "title": "UGC Repurposing [English]",
@@ -16853,10 +15168,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "UGC Repurposing [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -16871,65 +15182,20 @@ window.CAMPAIGNS_DATA = [
     "key": "Content Rewards::UGC Repurposing [English]"
   },
   {
-    "id": "1db63081-715e-4e04-9b11-fbc1d4e8e700",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "bloxclips-19",
-    "whop_route": "bloxclips-19",
-    "whopUrl": "https://whop.com/bloxclips-19",
-    "thumbnail": "https://cdn.contentrewards.com/user_3q7hN8efoVhRM/1779297195982.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-02-26/3f845db1-a76a-499c-8819-14cadb3fd34a/image.png",
-    "bannerImageUrl": "",
-    "creators": 274,
-    "agency": "BloxClips",
-    "age": "3mo",
-    "formattedAge": "3 months ago",
-    "fundedAt": "2026-05-09T16:56:38.290Z",
-    "sortTimestamp": 1779627626883,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "ForgeGUI [Unlimited Budget]",
-    "description": "We provide ALL assets needed. Clip and earn $1.00 for every 1000 views. MUST Read the full Instructions before posting to get your videos approved.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "ForgeGUI [Unlimited Budget] | Official Whop Hub & Assets",
-        "url": "https://whop.com/bloxclips-19"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1qO49_v4Qa_JQiRWX8dDe1pi7ZSizvZOFNC8O-YlHDsI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1vFXrGZbqmMJbdxwuoEZvZbBXdBQ8c_c-?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 102046,
-    "total": 115000,
-    "count": "11K",
-    "cpm": 1,
-    "key": "BloxClips::ForgeGUI [Unlimited Budget]"
-  },
-  {
     "id": "b4ded6b5-3a95-413e-83be-3162eb9ddeef",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "virality-37",
     "whop_route": "virality-37",
     "whopUrl": "https://whop.com/virality-37",
     "thumbnail": "https://cdn.contentrewards.com/user_VdjPZ0BHM8lnA/1778104682921.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
     "bannerImageUrl": "",
-    "creators": 187,
+    "creators": 258,
     "agency": "Virality",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-07-29T22:46:29.078Z",
-    "sortTimestamp": 1779627626883,
+    "fundedAt": "2026-06-27T08:02:20.891Z",
+    "sortTimestamp": 1779629847635,
     "category": "Other",
     "contentType": "Clipping",
     "title": "CR [Caption + Link in Bio]",
@@ -16939,10 +15205,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CR [Caption + Link in Bio] | Official Whop Hub & Assets",
         "url": "https://whop.com/virality-37"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/11zWoMY5B6VxFvSqhZOohweHyyUMW0xJv7lCYky9Rlew/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -16952,9 +15214,46 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 372,
     "total": 5000,
-    "count": "274",
+    "count": "275",
     "cpm": 0.01,
     "key": "Virality::CR [Caption + Link in Bio]"
+  },
+  {
+    "id": "1db63081-715e-4e04-9b11-fbc1d4e8e700",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "bloxclips-19",
+    "whop_route": "bloxclips-19",
+    "whopUrl": "https://whop.com/bloxclips-19",
+    "thumbnail": "https://cdn.contentrewards.com/user_3q7hN8efoVhRM/1779297195982.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16144252/image/bots/2026-06-17/54d12aaf-8874-412e-a017-ba783a03483f",
+    "bannerImageUrl": "",
+    "creators": 349,
+    "agency": "BloxClips",
+    "age": "3mo",
+    "formattedAge": "3 months ago",
+    "fundedAt": "2026-08-05T14:20:15.860Z",
+    "sortTimestamp": 1779629847635,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "ForgeGUI [Unlimited Budget]",
+    "description": "We provide ALL assets needed. Clip and earn $1.00 for every 1000 views. MUST Read the full Instructions before posting to get your videos approved.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "ForgeGUI [Unlimited Budget] | Official Whop Hub & Assets",
+        "url": "https://whop.com/bloxclips-19"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 102205,
+    "total": 115000,
+    "count": "11K",
+    "cpm": 1,
+    "key": "BloxClips::ForgeGUI [Unlimited Budget]"
   },
   {
     "id": "de8b8972-4bd2-4c74-954e-dd6bf31e867a",
@@ -16963,14 +15262,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "join-content-rewards-hub",
     "whopUrl": "https://whop.com/join-content-rewards-hub",
     "thumbnail": "https://cdn.contentrewards.com/user_MEX24aa7acEy4/1780851042612.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33948724/image/bots/2026-08-13/0becb8d4-83e2-44d2-95c9-a4e28fa563cb.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12806358/image/bots/2026-02-25/3b13ed41-18c7-4e61-a2c1-3a63dde6837d.jpg",
     "bannerImageUrl": "",
-    "creators": 50,
+    "creators": 4792,
     "agency": "Content Rewards",
     "age": "3mo",
     "formattedAge": "3 months ago",
-    "fundedAt": "2026-08-20T11:34:56.534Z",
-    "sortTimestamp": 1779627626882,
+    "fundedAt": "2026-07-23T15:25:10.294Z",
+    "sortTimestamp": 1779629847634,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Slideshows [English]",
@@ -16980,10 +15279,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Slideshows [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -17011,7 +15306,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-08-10T06:16:39.562Z",
-    "sortTimestamp": 1779627626881,
+    "sortTimestamp": 1779629847633,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Bluffs App Clipping [UNLIMITED BUDGET]",
@@ -17021,18 +15316,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Bluffs App Clipping [UNLIMITED BUDGET] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1haeq0F826_yffbp3s0cdWwuJp9Bq4Vnc/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1G7j4-m3hg3ecPTyEv5wGPfA5kYqmPAwc"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1haeq0F826_yffbp3s0cdWwuJp9Bq4Vnc/edit?usp=sharing&amp;ouid=114559938448084534508&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -17042,7 +15325,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 3395,
     "total": 4750,
-    "count": "751",
+    "count": "752",
     "cpm": 2,
     "key": "ClipLaunch::Bluffs App Clipping [UNLIMITED BUDGET]"
   },
@@ -17060,7 +15343,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": "2026-08-06T19:52:57.809Z",
-    "sortTimestamp": 1779627626881,
+    "sortTimestamp": 1779629847633,
     "category": "Product",
     "contentType": "UGC",
     "title": "Split-Screen UGC [English]",
@@ -17070,10 +15353,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Split-Screen UGC [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -17101,7 +15380,7 @@ window.CAMPAIGNS_DATA = [
     "age": "3mo",
     "formattedAge": "3 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1779627626880,
+    "sortTimestamp": 1779629847632,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Clix's \"Pro League Endgame\" Fortnite Map",
@@ -17120,6 +15399,43 @@ window.CAMPAIGNS_DATA = [
     "key": "Reach::Clix's \"Pro League Endgame\" Fortnite Map"
   },
   {
+    "id": "25223470-294d-44cb-b5f8-ba73952f1d65",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "this-ai-will-pay-you-to-make-content-free-for-a-limited-time",
+    "whop_route": "this-ai-will-pay-you-to-make-content-free-for-a-limited-time",
+    "whopUrl": "https://whop.com/this-ai-will-pay-you-to-make-content-free-for-a-limited-time",
+    "thumbnail": "https://cdn.contentrewards.com/user_Cn8UFvWOQUKri/1776017846431.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26193913/image/ai_prompts/2026-04-27/519fcd4e-534f-48fa-9c47-958ec60cc721.png",
+    "bannerImageUrl": "",
+    "creators": 12,
+    "agency": "DEALFLOW AI AGENT",
+    "age": "4mo",
+    "formattedAge": "4 months ago",
+    "fundedAt": "2026-04-27T10:04:37.237Z",
+    "sortTimestamp": 1777037847643,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen",
+    "description": "An autonomous AI agent was given $1,000 and 5 days to get Marc Andreessen to reply to a single email. It bought billboards, hired 6 humans off Craigslist, got blocked by a16z security (on video through Meta AI glasses), and a high schooler scammed it out of 75% of its budget. The full campaign archive is live at pmarca.ai — every dollar spent, every decision logged. YOUR TASK: Make a video reacting to, explaining, or riffing on this story. Here's what works: - \"Storytime\" style: tell the story like you just discovered it. Start with a hook like \"this AI is out of control\" or \"you're not gonna believe what I just found\" - Reaction style: screen-record pmarca.ai or the YouTube short and react to what you see - Explainer style: break down what happened — the billboards, the Craigslist hires, the security confrontation, the teenager who scammed the AI - Hot take style: is this the future? Is this scary? Is this hilarious? REQUIREMENTS: 1. Say \"pmarca.ai\" out loud at least once in the video 2. Show or mention pmarca.ai on screen (text overlay, screen recording, or caption) 3. Minimum 30 seconds, maximum 3 minutes 4. Post on TikTok, YouTube Shorts, or Instagram Reels 5. Must be your original content — use our clips as B-roll if you want but your face/voice should be the main content ASSETS YOU CAN USE (optional): - YouTube short: youtube.com/shorts/M5X7SPN4iNg - Full site: pmarca.ai - Clip the security confrontation, the chalk photos, the flyers — all on the site The crazier and more creative your take, the better. This is a real story happening right now.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen | Official Whop Hub & Assets",
+        "url": "https://whop.com/this-ai-will-pay-you-to-make-content-free-for-a-limited-time"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 496,
+    "total": 500,
+    "count": "12",
+    "cpm": 25,
+    "key": "DEALFLOW AI AGENT::Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen"
+  },
+  {
     "id": "",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "",
@@ -17133,7 +15449,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1777035626891,
+    "sortTimestamp": 1777037847643,
     "category": "Polymarket Official Clipping",
     "contentType": "Clipping",
     "title": "Join Campaign",
@@ -17152,6 +15468,43 @@ window.CAMPAIGNS_DATA = [
     "key": "Polymarket Official Clipping::Join Campaign"
   },
   {
+    "id": "0ea6f4ef-d02d-4433-8b61-02a0191c3540",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "androgenic-clips-0d",
+    "whop_route": "androgenic-clips-0d",
+    "whopUrl": "https://whop.com/androgenic-clips-0d",
+    "thumbnail": "https://cdn.contentrewards.com/user_BTHH622muIWSF/1775416134335.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29847311/image/bots/2026-06-25/c4a3b6e7-b854-46a8-bb68-64f0786f4b50.jpg",
+    "bannerImageUrl": "",
+    "creators": 9,
+    "agency": "Androgenic Clips",
+    "age": "4mo",
+    "formattedAge": "4 months ago",
+    "fundedAt": "2026-06-29T18:09:21.121Z",
+    "sortTimestamp": 1777037847642,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Androgenic's Gigachad Campaign",
+    "description": "Androgenic Clips Personal brand clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Androgenic's Gigachad Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/androgenic-clips-0d"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 1500,
+    "count": "259",
+    "cpm": 1.5,
+    "key": "Androgenic Clips::Androgenic's Gigachad Campaign"
+  },
+  {
     "id": "a9db1b9b-a93b-4cb9-95f8-2e24267a9abe",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "origin-ade-cde",
@@ -17165,7 +15518,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-04-18T14:02:40.024Z",
-    "sortTimestamp": 1777035626890,
+    "sortTimestamp": 1777037847642,
     "category": "Technology",
     "contentType": "UGC",
     "title": "Build with ORGN",
@@ -17202,7 +15555,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-19T17:30:56.880Z",
-    "sortTimestamp": 1777035626890,
+    "sortTimestamp": 1777037847642,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Rekaz",
@@ -17234,12 +15587,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_BEmRggSZD8ZE6/1782850515011.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25965693/image/access_passes/2026-04-27/3760299c-bf2c-443d-aa55-ec01b94c39d9.jpeg",
     "bannerImageUrl": "",
-    "creators": 18,
+    "creators": 19,
     "agency": "Golden Circle Clipping",
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-04-29T01:27:38.107Z",
-    "sortTimestamp": 1777035626890,
+    "sortTimestamp": 1777037847642,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "NIVEL 1 - 0,60$ CPM - 125$ MAX",
@@ -17258,7 +15611,7 @@ window.CAMPAIGNS_DATA = [
     ],
     "spent": 0,
     "total": 1000,
-    "count": "18",
+    "count": "19",
     "cpm": 0.6,
     "key": "Golden Circle Clipping::NIVEL 1 - 0,60$ CPM - 125$ MAX"
   },
@@ -17276,7 +15629,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-02-03T13:40:04.766Z",
-    "sortTimestamp": 1777035626890,
+    "sortTimestamp": 1777037847642,
     "category": "Product",
     "contentType": "UGC",
     "title": "Youry Creators",
@@ -17286,14 +15639,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Youry Creators | Official Whop Hub & Assets",
         "url": "https://whop.com/youry-3d"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1I4UO0_Z41EQ2aRQkoSKdZJPCzWhj3FfU?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1W4RQrbZXSqvpqti6WGBxjRccF_fma7cZsCo28Qa1IxI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17321,7 +15666,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-07-15T13:24:33.189Z",
-    "sortTimestamp": 1777035626890,
+    "sortTimestamp": 1777037847642,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Cliptic x Ismail Vali Clips",
@@ -17331,10 +15676,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Cliptic x Ismail Vali Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/cliptic-x-ismail-vali-clips-b7"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/15D9jHcwBFayiQu-zy0sGsrH3t_4-w7M2pBQz7b0mZtY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17347,45 +15688,39 @@ window.CAMPAIGNS_DATA = [
     "key": "Cliptic::Cliptic x Ismail Vali Clips"
   },
   {
-    "id": "25223470-294d-44cb-b5f8-ba73952f1d65",
+    "id": "90822848-219a-4f76-ae20-470676304e2d",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "this-ai-will-pay-you-to-make-content-free-for-a-limited-time",
-    "whop_route": "this-ai-will-pay-you-to-make-content-free-for-a-limited-time",
-    "whopUrl": "https://whop.com/this-ai-will-pay-you-to-make-content-free-for-a-limited-time",
-    "thumbnail": "https://cdn.contentrewards.com/user_Cn8UFvWOQUKri/1776017846431.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26193913/image/ai_prompts/2026-04-27/519fcd4e-534f-48fa-9c47-958ec60cc721.png",
+    "whopProductRoute": "reyes-de-la-puja-clipping-ee",
+    "whop_route": "reyes-de-la-puja-clipping-ee",
+    "whopUrl": "https://whop.com/reyes-de-la-puja-clipping-ee",
+    "thumbnail": "https://cdn.contentrewards.com/user_CTgoxS4yW91kS/1774716092146.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25925076/image/bots/2026-06-03/e12d907a-93fc-476a-899d-c507600c199e.png",
     "bannerImageUrl": "",
-    "creators": 12,
-    "agency": "DEALFLOW AI AGENT",
+    "creators": 43,
+    "agency": "Reyes de la Puja Clipping",
     "age": "4mo",
     "formattedAge": "4 months ago",
-    "fundedAt": "2026-04-27T10:04:37.237Z",
-    "sortTimestamp": 1777035626890,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen",
-    "description": "An autonomous AI agent was given $1,000 and 5 days to get Marc Andreessen to reply to a single email. It bought billboards, hired 6 humans off Craigslist, got blocked by a16z security (on video through Meta AI glasses), and a high schooler scammed it out of 75% of its budget. The full campaign archive is live at pmarca.ai — every dollar spent, every decision logged. YOUR TASK: Make a video reacting to, explaining, or riffing on this story. Here's what works: - \"Storytime\" style: tell the story like you just discovered it. Start with a hook like \"this AI is out of control\" or \"you're not gonna believe what I just found\" - Reaction style: screen-record pmarca.ai or the YouTube short and react to what you see - Explainer style: break down what happened — the billboards, the Craigslist hires, the security confrontation, the teenager who scammed the AI - Hot take style: is this the future? Is this scary? Is this hilarious? REQUIREMENTS: 1. Say \"pmarca.ai\" out loud at least once in the video 2. Show or mention pmarca.ai on screen (text overlay, screen recording, or caption) 3. Minimum 30 seconds, maximum 3 minutes 4. Post on TikTok, YouTube Shorts, or Instagram Reels 5. Must be your original content — use our clips as B-roll if you want but your face/voice should be the main content ASSETS YOU CAN USE (optional): - YouTube short: youtube.com/shorts/M5X7SPN4iNg - Full site: pmarca.ai - Clip the security confrontation, the chalk photos, the flyers — all on the site The crazier and more creative your take, the better. This is a real story happening right now.",
+    "fundedAt": "2026-06-10T22:16:23.797Z",
+    "sortTimestamp": 1777037847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Clips Hablando (TikTok) - $0.1 por cada 1000 visitas",
+    "description": "Reyes de la Puja Clipping Personal brand clipping pool.",
     "requirements": [],
     "resources": [
       {
-        "name": "Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen | Official Whop Hub & Assets",
-        "url": "https://whop.com/this-ai-will-pay-you-to-make-content-free-for-a-limited-time"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/13ecflaw4qhK3v16urwe3ryWDhJCXl1mB?usp=drive_link"
+        "name": "Clips Hablando (TikTok) - $0.1 por cada 1000 visitas | Official Whop Hub & Assets",
+        "url": "https://whop.com/reyes-de-la-puja-clipping-ee"
       }
     ],
     "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
+      "tiktok"
     ],
-    "spent": 496,
-    "total": 500,
-    "count": "12",
-    "cpm": 25,
-    "key": "DEALFLOW AI AGENT::Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen"
+    "spent": 1124,
+    "total": 1200,
+    "count": "68",
+    "cpm": 0.1,
+    "key": "Reyes de la Puja Clipping::Clips Hablando (TikTok) - $0.1 por cada 1000 visitas"
   },
   {
     "id": "92298cdf-d20e-4f24-ab17-4418d61a9d1e",
@@ -17401,7 +15736,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-08-17T20:50:14.647Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Clips Hablando - 1$ por cada 1000 views",
@@ -17411,22 +15746,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1AhZ9ORj83UYhwXP6-VpY3lKBuLM1lEBr?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/spreadsheets/d/1bUNWRGwyP2TiRwUUzh8QbD_Jlwg_a8xnFUa7PKVzbZI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/107PUDt8DL5O6pmJad9ekRLVZiMyPNCQN3zzc6ScFT8k/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17454,7 +15773,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-04-21T10:00:59.094Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Product",
     "contentType": "Clipping",
     "title": "SAMSUNG AI WASMACHINE/DROGER - €4 per 1.000 views en €4,50 flat fee",
@@ -17464,10 +15783,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "SAMSUNG AI WASMACHINE/DROGER - €4 per 1.000 views en €4,50 flat fee | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/presentation/d/1k7d06Km2GexLW2pYG31XxI62wLzWljOR_Bnmg6OjaA8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17495,7 +15810,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-07-07T12:10:35.574Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Product",
     "contentType": "Clipping",
     "title": "SAMSUNG AI KOELKAST - €4 per 1.000 views en €4,50 flat fee",
@@ -17505,10 +15820,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "SAMSUNG AI KOELKAST - €4 per 1.000 views en €4,50 flat fee | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/presentation/d/1fI16w4SfRPTekTGNtNbCKlP_8c3G6Cdfj8B9AzqjiVI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17536,7 +15847,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-03-04T10:20:23.148Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "FSP Clipping Warriors",
@@ -17546,10 +15857,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "FSP Clipping Warriors | Official Whop Hub & Assets",
         "url": "https://whop.com/teamfsp"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1GuunIzkW4_0-56tsxH1XPQlr873uh_a1?usp=sharing"
       }
     ],
     "platforms": [
@@ -17577,7 +15884,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-03-31T20:49:15.786Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Product",
     "contentType": "Clipping",
     "title": "OLA's Italian Summer | Cornetto - €3,50 per 1.000 views",
@@ -17587,10 +15894,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OLA's Italian Summer | Cornetto - €3,50 per 1.000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/presentation/d/15w-LHR1yizynJ3o5VlyCqPaohO7GuwHzb1uGRfuQjF8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17618,7 +15921,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-11T18:53:05.004Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Drafted AI - home floor plan design",
@@ -17628,10 +15931,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Drafted AI - home floor plan design | Official Whop Hub & Assets",
         "url": "https://whop.com/drafted-ai-campaign"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/19ihxZ7zjhXFlRBv22wzW_g4YfWvhVrE6QRnCTReCGxU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17659,7 +15958,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-09T06:54:47.986Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Fcukers - Bon Bon Clipping (Open Creative)",
@@ -17669,10 +15968,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fcukers - Bon Bon Clipping (Open Creative) | Official Whop Hub & Assets",
         "url": "https://whop.com/theinfluenceravalanche"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Tm8ObUl9NVIOLer2g9C0aimukODngvXV2XhRIZokhR0/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -17700,7 +15995,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-07-09T21:18:23.746Z",
-    "sortTimestamp": 1777035626889,
+    "sortTimestamp": 1777037847641,
     "category": "Other",
     "contentType": "UGC",
     "title": "D2D Sales Content — Paid Per View",
@@ -17725,29 +16020,29 @@ window.CAMPAIGNS_DATA = [
     "key": "DoorKnockr Pro::D2D Sales Content — Paid Per View"
   },
   {
-    "id": "0ea6f4ef-d02d-4433-8b61-02a0191c3540",
+    "id": "932348ec-d54e-4eba-99db-62eac9c923ef",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "androgenic-clips-0d",
-    "whop_route": "androgenic-clips-0d",
-    "whopUrl": "https://whop.com/androgenic-clips-0d",
-    "thumbnail": "https://cdn.contentrewards.com/user_BTHH622muIWSF/1775416134335.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_29847311/image/bots/2026-06-25/c4a3b6e7-b854-46a8-bb68-64f0786f4b50.jpg",
+    "whopProductRoute": "test-30-1bbb",
+    "whop_route": "test-30-1bbb",
+    "whopUrl": "https://whop.com/test-30-1bbb",
+    "thumbnail": "https://cdn.contentrewards.com/user_m9o4sZ0cbgUKM/1777031737303.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8253088/image/bots/2026-06-25/b749b14e-66da-4628-b3d3-d2bfb9d5b735.jfif",
     "bannerImageUrl": "",
-    "creators": 9,
-    "agency": "Androgenic Clips",
+    "creators": 16,
+    "agency": "Ray Lekai Clipping [Viral]",
     "age": "4mo",
     "formattedAge": "4 months ago",
-    "fundedAt": "2026-06-29T18:09:21.121Z",
-    "sortTimestamp": 1777035626889,
+    "fundedAt": "2026-08-18T14:18:42.571Z",
+    "sortTimestamp": 1777037847640,
     "category": "Personal brand",
     "contentType": "Clipping",
-    "title": "Androgenic's Gigachad Campaign",
-    "description": "Androgenic Clips Personal brand clipping pool.",
+    "title": "Rayan Lekai [Viral Clipping]",
+    "description": "Clip and/ or create edits and clips from Rayan Lekai's content.",
     "requirements": [],
     "resources": [
       {
-        "name": "Androgenic's Gigachad Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/androgenic-clips-0d"
+        "name": "Rayan Lekai [Viral Clipping] | Official Whop Hub & Assets",
+        "url": "https://whop.com/test-30-1bbb"
       }
     ],
     "platforms": [
@@ -17755,11 +16050,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 0,
+    "spent": 33,
     "total": 1500,
-    "count": "259",
+    "count": "122",
     "cpm": 1.5,
-    "key": "Androgenic Clips::Androgenic's Gigachad Campaign"
+    "key": "Ray Lekai Clipping [Viral]::Rayan Lekai [Viral Clipping]"
   },
   {
     "id": "b96e1cfb-1e6a-462b-bfb9-252124573cab",
@@ -17775,7 +16070,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-08-12T22:56:15.363Z",
-    "sortTimestamp": 1777035626888,
+    "sortTimestamp": 1777037847640,
     "category": "Technology",
     "contentType": "UGC",
     "title": "(REPOSTING UGC) Content for Finsta App ($0.75 per 1000 views)",
@@ -17785,10 +16080,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "(REPOSTING UGC) Content for Finsta App ($0.75 per 1000 views) | Official Whop Hub & Assets",
         "url": "https://whop.com/ugc-content-for-finsta-app-always-ongoing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/18cyYKz6vdUO9ilbNePzDGOeqvqdFQWaM?usp=drive_link"
       }
     ],
     "platforms": [
@@ -17814,7 +16105,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-08-04T14:40:16.594Z",
-    "sortTimestamp": 1777035626888,
+    "sortTimestamp": 1777037847640,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Jeremy Holst's Campaign",
@@ -17838,49 +16129,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Jeremy Ray Clipping::Jeremy Holst's Campaign"
   },
   {
-    "id": "90822848-219a-4f76-ae20-470676304e2d",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "reyes-de-la-puja-clipping-ee",
-    "whop_route": "reyes-de-la-puja-clipping-ee",
-    "whopUrl": "https://whop.com/reyes-de-la-puja-clipping-ee",
-    "thumbnail": "https://cdn.contentrewards.com/user_CTgoxS4yW91kS/1774716092146.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25925076/image/bots/2026-06-03/e12d907a-93fc-476a-899d-c507600c199e.png",
-    "bannerImageUrl": "",
-    "creators": 43,
-    "agency": "Reyes de la Puja Clipping",
-    "age": "4mo",
-    "formattedAge": "4 months ago",
-    "fundedAt": "2026-06-10T22:16:23.797Z",
-    "sortTimestamp": 1777035626888,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Clips Hablando (TikTok) - $0.1 por cada 1000 visitas",
-    "description": "Reyes de la Puja Clipping Personal brand clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clips Hablando (TikTok) - $0.1 por cada 1000 visitas | Official Whop Hub & Assets",
-        "url": "https://whop.com/reyes-de-la-puja-clipping-ee"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1vINQiLMuetv50nj3YvvOzHV1364brGvL?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "tiktok"
-    ],
-    "spent": 1124,
-    "total": 1200,
-    "count": "68",
-    "cpm": 0.1,
-    "key": "Reyes de la Puja Clipping::Clips Hablando (TikTok) - $0.1 por cada 1000 visitas"
-  },
-  {
     "id": "56538a9e-0d4f-4a2d-bb45-57c132f48531",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "theinfluenceravalanche",
@@ -17894,7 +16142,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-20T07:31:17.680Z",
-    "sortTimestamp": 1777035626887,
+    "sortTimestamp": 1777037847639,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Calvin Klein Ads - The Hollies Clipping",
@@ -17904,10 +16152,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Calvin Klein Ads - The Hollies Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/theinfluenceravalanche"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1CWzdmTiKjnqRNO0EcgBOmIwQma4LvLWuAvVMso7HMGE/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -17935,7 +16179,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-08-18T03:34:47.290Z",
-    "sortTimestamp": 1777035626887,
+    "sortTimestamp": 1777037847639,
     "category": "Technology",
     "contentType": "UGC",
     "title": "XO Market UGC Campaign",
@@ -17945,14 +16189,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "XO Market UGC Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/xo-market-e6"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1mO_aX4DXmMVpLT_S6Swu4CyTe_3f_lIzap-llvEVeF8/edit?tab=t.0#heading=h.v9lf7sv5474z"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1D627aNFr6cj3nN7eIWM-sP978cUcwKtG"
       }
     ],
     "platforms": [
@@ -17967,37 +16203,29 @@ window.CAMPAIGNS_DATA = [
     "key": "XO Market::XO Market UGC Campaign"
   },
   {
-    "id": "932348ec-d54e-4eba-99db-62eac9c923ef",
+    "id": "866e8739-3d8e-4e1b-a460-042fc128b20b",
     "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "test-30-1bbb",
-    "whop_route": "test-30-1bbb",
-    "whopUrl": "https://whop.com/test-30-1bbb",
-    "thumbnail": "https://cdn.contentrewards.com/user_m9o4sZ0cbgUKM/1777031737303.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8253088/image/bots/2026-06-25/b749b14e-66da-4628-b3d3-d2bfb9d5b735.jfif",
+    "whopProductRoute": "gansgta-clipping",
+    "whop_route": "gansgta-clipping",
+    "whopUrl": "https://whop.com/gansgta-clipping",
+    "thumbnail": "https://cdn.contentrewards.com/user_livnw6RoIw3zw/1775152222147.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-20/user_14162339_e766763a-fcf8-41fa-a285-b86a498c4569.png",
     "bannerImageUrl": "",
-    "creators": 16,
-    "agency": "Ray Lekai Clipping [Viral]",
+    "creators": 55,
+    "agency": "Gangsta Clipping",
     "age": "4mo",
     "formattedAge": "4 months ago",
-    "fundedAt": "2026-08-18T14:18:42.571Z",
-    "sortTimestamp": 1777035626887,
+    "fundedAt": "2026-03-23T13:00:39.740Z",
+    "sortTimestamp": 1777037847638,
     "category": "Personal brand",
     "contentType": "Clipping",
-    "title": "Rayan Lekai [Viral Clipping]",
-    "description": "Clip and/ or create edits and clips from Rayan Lekai's content.",
+    "title": "Clips hablando - $1 dolar por cada 1000 visitas",
+    "description": "En esta campaña solo aceptamos clips hablando de Gansgta Trainer",
     "requirements": [],
     "resources": [
       {
-        "name": "Rayan Lekai [Viral Clipping] | Official Whop Hub & Assets",
-        "url": "https://whop.com/test-30-1bbb"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1GPwo1_NJluN3qTdUiEkQ9gEMGAK_Lc3I?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/spreadsheets/d/1qZHhEs9r_WP0klALxlb-Ub3YdHw419Y7W6y-Xyuw2XU/edit?usp=sharing"
+        "name": "Clips hablando - $1 dolar por cada 1000 visitas | Official Whop Hub & Assets",
+        "url": "https://whop.com/gansgta-clipping"
       }
     ],
     "platforms": [
@@ -18005,11 +16233,11 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 33,
-    "total": 1500,
-    "count": "122",
-    "cpm": 1.5,
-    "key": "Ray Lekai Clipping [Viral]::Rayan Lekai [Viral Clipping]"
+    "spent": 463,
+    "total": 2000,
+    "count": "20",
+    "cpm": 1,
+    "key": "Gangsta Clipping::Clips hablando - $1 dolar por cada 1000 visitas"
   },
   {
     "id": "8e281a6d-d037-47e1-96c3-284ca406adbe",
@@ -18018,14 +16246,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "golden-circle-clipping",
     "whopUrl": "https://whop.com/golden-circle-clipping",
     "thumbnail": "https://cdn.contentrewards.com/user_BEmRggSZD8ZE6/1782909945422.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17217828/image/access_passes/2026-07-21/078e5f6e-022b-4a11-b9e0-d455d2729769.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_3768926/image/ai_prompts/2026-06-03/0fdcf743-05d4-45e1-859b-5544fc8d144c.png",
     "bannerImageUrl": "",
-    "creators": 250,
+    "creators": 96,
     "agency": "Golden Circle Clipping",
     "age": "4mo",
     "formattedAge": "4 months ago",
-    "fundedAt": "2026-07-05T08:16:06.696Z",
-    "sortTimestamp": 1777035626886,
+    "fundedAt": "2026-06-05T01:22:34.414Z",
+    "sortTimestamp": 1777037847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "NIVEL 0 - 0,40$ CPM - 100$ MAX",
@@ -18062,7 +16290,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-08-18T00:23:25.506Z",
-    "sortTimestamp": 1777035626886,
+    "sortTimestamp": 1777037847638,
     "category": "Music",
     "contentType": "UGC",
     "title": "OminousyL - Heartbreak Brings relief",
@@ -18072,10 +16300,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OminousyL - Heartbreak Brings relief | Official Whop Hub & Assets",
         "url": "https://whop.com/join-music-promo-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/167U2HWKU-L29wJu9LFGoAeXrWECFX9xir7UiQk6lSqo/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -18103,7 +16327,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-06T21:37:12.506Z",
-    "sortTimestamp": 1777035626886,
+    "sortTimestamp": 1777037847638,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "NO TIER 1 NEEDED!! ParlayCapital Clipping",
@@ -18113,10 +16337,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "NO TIER 1 NEEDED!! ParlayCapital Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/parlaycapital-clipping-72"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1PHGwDjg50TMMfB77La8Ic9xQMcIoYdtt6JCIfiatPXI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -18144,7 +16364,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-15T07:36:30.181Z",
-    "sortTimestamp": 1777035626886,
+    "sortTimestamp": 1777037847638,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Car Editor [TikTok]",
@@ -18166,59 +16386,20 @@ window.CAMPAIGNS_DATA = [
     "key": "Car Editor::Car Editor [TikTok]"
   },
   {
-    "id": "107a71a1-6954-40a8-a353-f44716877091",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "jerith-pod-clipping-3c",
-    "whop_route": "jerith-pod-clipping-3c",
-    "whopUrl": "https://whop.com/jerith-pod-clipping-3c",
-    "thumbnail": "https://cdn.contentrewards.com/user_kfFS6tFabYIVO/1776941708443.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16190327/image/bots/2025-08-07/d30abd98-6446-4078-a4f1-e31388ce2b10",
-    "bannerImageUrl": "",
-    "creators": 77,
-    "agency": "Jerith Pod Clipping",
-    "age": "4mo",
-    "formattedAge": "4 months ago",
-    "fundedAt": "2026-07-17T19:03:49.477Z",
-    "sortTimestamp": 1777035626886,
-    "category": "Technology",
-    "contentType": "Clipping",
-    "title": "Jerith Podcast Clipping",
-    "description": "Kein Trash, nur Wirkung: Clippe starke Momente, die neugierig machen und werde für echte Views bezahlt. 🚀",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Jerith Podcast Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/jerith-pod-clipping-3c"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1g59as1siy5mQs_TG81hFa-zSWvE3c9Zc?usp=share_link"
-      }
-    ],
-    "platforms": [
-      "instagram"
-    ],
-    "spent": 304,
-    "total": 610,
-    "count": "29",
-    "cpm": 2,
-    "key": "Jerith Pod Clipping::Jerith Podcast Clipping"
-  },
-  {
     "id": "b463313d-46fc-4a0b-90dd-533931bf0bdf",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "turn-b8",
     "whop_route": "turn-b8",
     "whopUrl": "https://whop.com/turn-b8",
     "thumbnail": "https://cdn.contentrewards.com/user_d4Kx06QnZZcSY/1775610373889.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12905747/image/access_passes/2026-08-07/99b09c82-bef9-4d90-8d09-0d1a93c97c34.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17473544/image/bots/2025-10-08/8f256ca1-06ae-406d-875c-706dc0e23f2a",
     "bannerImageUrl": "",
-    "creators": 95,
+    "creators": 23,
     "agency": "Earn with turn",
     "age": "4mo",
     "formattedAge": "4 months ago",
-    "fundedAt": "2026-08-05T18:49:08.304Z",
-    "sortTimestamp": 1777035626885,
+    "fundedAt": "2026-03-02T07:45:57.727Z",
+    "sortTimestamp": 1777037847638,
     "category": "Product",
     "contentType": "Clipping",
     "title": "turnONE // $2 per 1,000 views",
@@ -18235,11 +16416,83 @@ window.CAMPAIGNS_DATA = [
       "instagram",
       "youtube"
     ],
-    "spent": 742,
+    "spent": 799,
     "total": 1000,
     "count": "22",
     "cpm": 2,
     "key": "Earn with turn::turnONE // $2 per 1,000 views"
+  },
+  {
+    "id": "107a71a1-6954-40a8-a353-f44716877091",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "jerith-pod-clipping-3c",
+    "whop_route": "jerith-pod-clipping-3c",
+    "whopUrl": "https://whop.com/jerith-pod-clipping-3c",
+    "thumbnail": "https://cdn.contentrewards.com/user_kfFS6tFabYIVO/1776941708443.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26375379/image/access_passes/2026-07-16/4097bf05-39a1-4c84-90b8-9d00e2879625.jpeg",
+    "bannerImageUrl": "",
+    "creators": 168,
+    "agency": "Jerith Pod Clipping",
+    "age": "4mo",
+    "formattedAge": "4 months ago",
+    "fundedAt": "2026-07-24T00:05:46.392Z",
+    "sortTimestamp": 1777037847638,
+    "category": "Technology",
+    "contentType": "Clipping",
+    "title": "Jerith Podcast Clipping",
+    "description": "Kein Trash, nur Wirkung: Clippe starke Momente, die neugierig machen und werde für echte Views bezahlt. 🚀",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Jerith Podcast Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/jerith-pod-clipping-3c"
+      }
+    ],
+    "platforms": [
+      "instagram"
+    ],
+    "spent": 304,
+    "total": 610,
+    "count": "29",
+    "cpm": 2,
+    "key": "Jerith Pod Clipping::Jerith Podcast Clipping"
+  },
+  {
+    "id": "6732bccd-7383-448a-9256-98049b28284c",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "yomi-denzel-clipping-50",
+    "whop_route": "yomi-denzel-clipping-50",
+    "whopUrl": "https://whop.com/yomi-denzel-clipping-50",
+    "thumbnail": "https://cdn.contentrewards.com/user_oDeuNdmmdv3mW/1775807381575.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1454570/image/bots/2026-01-14/e7a0b42e-b83e-4790-ba4f-82b071d82204.jpg",
+    "bannerImageUrl": "",
+    "creators": 170,
+    "agency": "Yomi Denzel Clipping",
+    "age": "4mo",
+    "formattedAge": "4 months ago",
+    "fundedAt": "2026-08-22T09:55:03.026Z",
+    "sortTimestamp": 1777037847637,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Yomi Denzel Clipping Lifestyle Campaign",
+    "description": "Clippe le contenu lifestyle de Yomi Denzel et gagne 1,5$ pour chaque 1000 vues.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Yomi Denzel Clipping Lifestyle Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/yomi-denzel-clipping-50"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 15030,
+    "total": 17000,
+    "count": "170",
+    "cpm": 1.5,
+    "key": "Yomi Denzel Clipping::Yomi Denzel Clipping Lifestyle Campaign"
   },
   {
     "id": "6a83676b-e4eb-412e-9a09-a1ff5c391228",
@@ -18255,7 +16508,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-06-20T08:09:01.565Z",
-    "sortTimestamp": 1777035626885,
+    "sortTimestamp": 1777037847637,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "German Captions",
@@ -18265,18 +16518,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "German Captions | Official Whop Hub & Assets",
         "url": "https://whop.com/mentorship-waitlist-5"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1fmuXw-CJOtmu9yX9AGGNq8JGqQTYp8XB"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1VH7KY1pyk-hDZ9BdPYP_LtksTy0xe_BP?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/12tvg60wbkwuu8QSBecGIUyVNlpO-e-3l/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -18289,88 +16530,6 @@ window.CAMPAIGNS_DATA = [
     "count": "137",
     "cpm": 2,
     "key": "STRATFORGE::German Captions"
-  },
-  {
-    "id": "866e8739-3d8e-4e1b-a460-042fc128b20b",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "gansgta-clipping",
-    "whop_route": "gansgta-clipping",
-    "whopUrl": "https://whop.com/gansgta-clipping",
-    "thumbnail": "https://cdn.contentrewards.com/user_livnw6RoIw3zw/1775152222147.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-20/user_14162339_e766763a-fcf8-41fa-a285-b86a498c4569.png",
-    "bannerImageUrl": "",
-    "creators": 55,
-    "agency": "Gangsta Clipping",
-    "age": "4mo",
-    "formattedAge": "4 months ago",
-    "fundedAt": "2026-03-23T13:00:39.740Z",
-    "sortTimestamp": 1777035626885,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Clips hablando - $1 dolar por cada 1000 visitas",
-    "description": "En esta campaña solo aceptamos clips hablando de Gansgta Trainer",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clips hablando - $1 dolar por cada 1000 visitas | Official Whop Hub & Assets",
-        "url": "https://whop.com/gansgta-clipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/14bo-onFWTcvxth9mZSnwKEOySnEUlTp6?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 463,
-    "total": 2000,
-    "count": "20",
-    "cpm": 1,
-    "key": "Gangsta Clipping::Clips hablando - $1 dolar por cada 1000 visitas"
-  },
-  {
-    "id": "6732bccd-7383-448a-9256-98049b28284c",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "yomi-denzel-clipping-50",
-    "whop_route": "yomi-denzel-clipping-50",
-    "whopUrl": "https://whop.com/yomi-denzel-clipping-50",
-    "thumbnail": "https://cdn.contentrewards.com/user_oDeuNdmmdv3mW/1775807381575.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1454570/image/bots/2026-01-14/e7a0b42e-b83e-4790-ba4f-82b071d82204.jpg",
-    "bannerImageUrl": "",
-    "creators": 169,
-    "agency": "Yomi Denzel Clipping",
-    "age": "4mo",
-    "formattedAge": "4 months ago",
-    "fundedAt": "2026-08-22T09:55:03.026Z",
-    "sortTimestamp": 1777035626884,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Yomi Denzel Clipping Lifestyle Campaign",
-    "description": "Clippe le contenu lifestyle de Yomi Denzel et gagne 1,5$ pour chaque 1000 vues.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Yomi Denzel Clipping Lifestyle Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/yomi-denzel-clipping-50"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/15CRuz33sWIFz5moouuxu2vRS_UO5VpfZ?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 15029,
-    "total": 17000,
-    "count": "169",
-    "cpm": 1.5,
-    "key": "Yomi Denzel Clipping::Yomi Denzel Clipping Lifestyle Campaign"
   },
   {
     "id": "8160ae96-4a86-4509-a394-60544d1004a4",
@@ -18386,7 +16545,7 @@ window.CAMPAIGNS_DATA = [
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-07-13T10:46:27.798Z",
-    "sortTimestamp": 1777035626882,
+    "sortTimestamp": 1777037847634,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Clip For PB Blake",
@@ -18416,14 +16575,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "spaaceit",
     "whopUrl": "https://whop.com/spaaceit",
     "thumbnail": "https://cdn.contentrewards.com/user_KwJGBTB9ZB9xA/1778651611173.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8213453/image/bots/2025-11-12/4b386a2f-c2b2-4884-ab62-58c9292abaed",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_34094954/image/bots/2026-08-13/492823d4-d5c5-4c4f-a3a5-8689318e7a95.jpeg",
     "bannerImageUrl": "",
-    "creators": 476,
+    "creators": 53,
     "agency": "Creator OS | App",
     "age": "4mo",
     "formattedAge": "4 months ago",
-    "fundedAt": "2026-08-13T05:32:51.904Z",
-    "sortTimestamp": 1777035626882,
+    "fundedAt": "2026-08-14T20:09:35.567Z",
+    "sortTimestamp": 1777037847634,
     "category": "Product",
     "contentType": "UGC",
     "title": "🇫🇷 UGC 1 | SPAACE IT",
@@ -18433,10 +16592,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "🇫🇷 UGC 1 | SPAACE IT | Official Whop Hub & Assets",
         "url": "https://whop.com/spaaceit"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://irradiated-bath-720.notion.site/Spaace-it-32e0bbbd2b8a80588d73e990b742cd90?source=copy_link"
       }
     ],
     "platforms": [
@@ -18459,12 +16614,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_EbmhIG3H9VbFt/1781041823008.jpeg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25731334/image/bots/2026-08-09/11435a43-5138-4afd-b979-5a7f6eff5b06.png",
     "bannerImageUrl": "",
-    "creators": 99,
+    "creators": 100,
     "agency": "Reachify",
     "age": "4mo",
     "formattedAge": "4 months ago",
     "fundedAt": "2026-08-19T02:17:44.577Z",
-    "sortTimestamp": 1777035626881,
+    "sortTimestamp": 1777037847633,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "DreamMe [HEALTH]",
@@ -18474,65 +16629,16 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DreamMe [HEALTH] | Official Whop Hub & Assets",
         "url": "https://whop.com/reachify-clipping"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1rrGvCuaxvaDw9IBs86RQpR9S5yKaA1eYA3kqBNXTyzc/edit?tab=t.0#heading=h.l0worwd1az9m"
       }
     ],
     "platforms": [
       "tiktok"
     ],
-    "spent": 23037,
+    "spent": 23045,
     "total": 29500,
     "count": "151",
     "cpm": 1,
     "key": "Reachify::DreamMe [HEALTH]"
-  },
-  {
-    "id": "9e114367-e88c-406c-af31-afc439096e49",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "scf-landing-page",
-    "whop_route": "scf-landing-page",
-    "whopUrl": "https://whop.com/scf-landing-page",
-    "thumbnail": "https://cdn.contentrewards.com/user_RvFhsRLs827eu/1774270700699.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_7914453/image/bots/2025-09-15/215c7ae9-3ce4-44b2-bca4-a8377353962a",
-    "bannerImageUrl": "",
-    "creators": 88,
-    "agency": "SCF",
-    "age": "5mo",
-    "formattedAge": "5 months ago",
-    "fundedAt": "2026-07-01T06:57:32.511Z",
-    "sortTimestamp": 1774443626890,
-    "category": "Product",
-    "contentType": "Clipping",
-    "title": "Shein Coupon Finder",
-    "description": "We're running a ContentRewards campaign to drive installs of Shein Coupon Finder, a free PWA that automatically finds and applies the best Shein discount codes to any shopping cart. Your job is to show your audience how it works — and let the real savings speak for themselves.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Shein Coupon Finder | Official Whop Hub & Assets",
-        "url": "https://whop.com/scf-landing-page"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1tMs0X_t_MKiCbbMxeAQLhR-jkEgGJVGR/edit?usp=sharing"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1tMs0X_t_MKiCbbMxeAQLhR-jkEgGJVGR/edit?usp=sharing&amp;ouid=112623798671457777733&amp;rtpof=true&amp;sd=true"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 500,
-    "count": "88",
-    "cpm": 0.5,
-    "key": "SCF::Shein Coupon Finder"
   },
   {
     "id": "3f46886e-42ec-4bbd-8fe3-686e772b7090",
@@ -18548,7 +16654,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-06-25T02:39:44.478Z",
-    "sortTimestamp": 1774443626890,
+    "sortTimestamp": 1774445847643,
     "category": "Music",
     "contentType": "Clipping",
     "title": "Tsu Nami 'Perfume' - Music Campaign",
@@ -18585,7 +16691,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-05-12T05:58:29.383Z",
-    "sortTimestamp": 1774443626890,
+    "sortTimestamp": 1774445847643,
     "category": "Music",
     "contentType": "UGC",
     "title": "Artifex27 - Tears On The Phone | Audio Only Campaign",
@@ -18595,10 +16701,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Artifex27 - Tears On The Phone | Audio Only Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/join-music-promo-clippers"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1hC2y3-_o5loGQjuNLnkvZ0ImDRKYyuM-PdGwUdyn93c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -18611,55 +16713,6 @@ window.CAMPAIGNS_DATA = [
     "count": "183",
     "cpm": 1.5,
     "key": "Music Promo Clippers::Artifex27 - Tears On The Phone | Audio Only Campaign"
-  },
-  {
-    "id": "7ce3ae0b-554c-414a-8392-2be0ee16bd87",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "clipper-access-8e",
-    "whop_route": "clipper-access-8e",
-    "whopUrl": "https://whop.com/clipper-access-8e",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/7ce3ae0b-554c-414a-8392-2be0ee16bd87/thumbnail_url/1773110545748.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-20/user_14162339_e766763a-fcf8-41fa-a285-b86a498c4569.png",
-    "bannerImageUrl": "",
-    "creators": 8,
-    "agency": "Shush Clips",
-    "age": "5mo",
-    "formattedAge": "5 months ago",
-    "fundedAt": "2026-04-09T14:33:13.357Z",
-    "sortTimestamp": 1774443626889,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "Clip for Miami Rock Band - Shush",
-    "description": "Vlogs & performance footage for bilingual alternative rock band Shush.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clip for Miami Rock Band - Shush | Official Whop Hub & Assets",
-        "url": "https://whop.com/clipper-access-8e"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1EPShf5ecNbt_nqUSX8ri2TYeoIIsT_vw/view?usp=share_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1r_eHklZxzRXkoJmqw87i0iOUDQLqPWyc/view?usp=share_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1I8Se--v-B-PQBYgQywZ99Ii0PPpUG_4HoSGEGudWH0Q/edit?tab=t.0"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 500,
-    "count": "58",
-    "cpm": 1,
-    "key": "Shush Clips::Clip for Miami Rock Band - Shush"
   },
   {
     "id": "2c0ea84b-5dae-4e86-a257-09dd4771f00f",
@@ -18675,7 +16728,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-02-10T08:52:36.182Z",
-    "sortTimestamp": 1774443626889,
+    "sortTimestamp": 1774445847642,
     "category": "Product",
     "contentType": "UGC",
     "title": "Sailpalma.com clipping and reacting video campaign",
@@ -18698,6 +16751,152 @@ window.CAMPAIGNS_DATA = [
     "key": "Sailpalma.com::Sailpalma.com clipping and reacting video campaign"
   },
   {
+    "id": "9e114367-e88c-406c-af31-afc439096e49",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "scf-landing-page",
+    "whop_route": "scf-landing-page",
+    "whopUrl": "https://whop.com/scf-landing-page",
+    "thumbnail": "https://cdn.contentrewards.com/user_RvFhsRLs827eu/1774270700699.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_7914453/image/bots/2025-09-15/215c7ae9-3ce4-44b2-bca4-a8377353962a",
+    "bannerImageUrl": "",
+    "creators": 88,
+    "agency": "SCF",
+    "age": "5mo",
+    "formattedAge": "5 months ago",
+    "fundedAt": "2026-07-01T06:57:32.511Z",
+    "sortTimestamp": 1774445847642,
+    "category": "Product",
+    "contentType": "Clipping",
+    "title": "Shein Coupon Finder",
+    "description": "We're running a ContentRewards campaign to drive installs of Shein Coupon Finder, a free PWA that automatically finds and applies the best Shein discount codes to any shopping cart. Your job is to show your audience how it works — and let the real savings speak for themselves.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Shein Coupon Finder | Official Whop Hub & Assets",
+        "url": "https://whop.com/scf-landing-page"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 500,
+    "count": "88",
+    "cpm": 0.5,
+    "key": "SCF::Shein Coupon Finder"
+  },
+  {
+    "id": "c4d1d6c9-9b74-4349-be44-89081f04a3fd",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "allinabe",
+    "whop_route": "allinabe",
+    "whopUrl": "https://whop.com/allinabe",
+    "thumbnail": "https://cdn.contentrewards.com/user_TM5eAWccM2Kye/1773330092717.jpeg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_14897234/image/access_passes/2025-06-05/63fa478c-ad6c-44c1-9950-4b0489a382d3",
+    "bannerImageUrl": "",
+    "creators": 27,
+    "agency": "All In Abe",
+    "age": "5mo",
+    "formattedAge": "5 months ago",
+    "fundedAt": "2026-07-28T00:39:02.316Z",
+    "sortTimestamp": 1774445847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "ALL IN ABE's Campaign",
+    "description": "Post ANY Winners On X And Get Paid Must tag @allinabe",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "ALL IN ABE's Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/allinabe"
+      }
+    ],
+    "platforms": [
+      "x"
+    ],
+    "spent": 10,
+    "total": 500,
+    "count": "7",
+    "cpm": 0.5,
+    "key": "All In Abe::ALL IN ABE's Campaign"
+  },
+  {
+    "id": "7ce3ae0b-554c-414a-8392-2be0ee16bd87",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "clipper-access-8e",
+    "whop_route": "clipper-access-8e",
+    "whopUrl": "https://whop.com/clipper-access-8e",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/7ce3ae0b-554c-414a-8392-2be0ee16bd87/thumbnail_url/1773110545748.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-20/user_14162339_e766763a-fcf8-41fa-a285-b86a498c4569.png",
+    "bannerImageUrl": "",
+    "creators": 8,
+    "agency": "Shush Clips",
+    "age": "5mo",
+    "formattedAge": "5 months ago",
+    "fundedAt": "2026-04-09T14:33:13.357Z",
+    "sortTimestamp": 1774445847641,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "Clip for Miami Rock Band - Shush",
+    "description": "Vlogs & performance footage for bilingual alternative rock band Shush.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Clip for Miami Rock Band - Shush | Official Whop Hub & Assets",
+        "url": "https://whop.com/clipper-access-8e"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 500,
+    "count": "58",
+    "cpm": 1,
+    "key": "Shush Clips::Clip for Miami Rock Band - Shush"
+  },
+  {
+    "id": "bbd70c41-6ca2-424d-ad1f-b70868b7dc81",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "mentorship-waitlist-5",
+    "whop_route": "mentorship-waitlist-5",
+    "whopUrl": "https://whop.com/mentorship-waitlist-5",
+    "thumbnail": "https://cdn.contentrewards.com/user_mIOgS0eVl1UXl/1773633868047.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_25363569/image/bots/2026-04-26/20942dc9-f755-417a-b68e-d11863aca356.png",
+    "bannerImageUrl": "",
+    "creators": 57,
+    "agency": "STRATFORGE",
+    "age": "5mo",
+    "formattedAge": "5 months ago",
+    "fundedAt": "2026-08-04T13:02:32.246Z",
+    "sortTimestamp": 1774445847640,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "motivational captions",
+    "description": "this campaign is for videos who go viral very easily but dont provide that much traffic to the main page",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "motivational captions | Official Whop Hub & Assets",
+        "url": "https://whop.com/mentorship-waitlist-5"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 1312,
+    "total": 1500,
+    "count": "177",
+    "cpm": 1,
+    "key": "STRATFORGE::motivational captions"
+  },
+  {
     "id": "eca4cd12-7606-4877-86de-dc032083dfc9",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "play-game-v1",
@@ -18711,7 +16910,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-07-21T18:05:57.868Z",
-    "sortTimestamp": 1774443626888,
+    "sortTimestamp": 1774445847640,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Human Or Not AI Game",
@@ -18721,18 +16920,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Human Or Not AI Game | Official Whop Hub & Assets",
         "url": "https://whop.com/play-game-v1"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/152KwhBPR10ILfW58XiNXE3mL0UnxjOiE5pKtUacs6E0/edit?tab=t.0"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/u/0/folders/1LDLoyW3ec8dq4dS8erS-ZYAd5jK2gZiS"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1EFOxcEsgQ77gtI72NXml06ZD_stl7GSU/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -18760,7 +16947,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-08-04T15:31:25.917Z",
-    "sortTimestamp": 1774443626888,
+    "sortTimestamp": 1774445847640,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Get Paid 2$ Per Thousand Views",
@@ -18770,10 +16957,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Get Paid 2$ Per Thousand Views | Official Whop Hub & Assets",
         "url": "https://whop.com/tradevisor"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/videos/d/1dnaGPCwUqDaUO3sjzVaoyRy9uTxzBn8ZG4bM62TbRas/edit?usp=share_link"
       }
     ],
     "platforms": [
@@ -18786,41 +16969,6 @@ window.CAMPAIGNS_DATA = [
     "count": "164",
     "cpm": 2,
     "key": "Tradevisor.ai::Get Paid 2$ Per Thousand Views"
-  },
-  {
-    "id": "c4d1d6c9-9b74-4349-be44-89081f04a3fd",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "allinabe",
-    "whop_route": "allinabe",
-    "whopUrl": "https://whop.com/allinabe",
-    "thumbnail": "https://cdn.contentrewards.com/user_TM5eAWccM2Kye/1773330092717.jpeg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_14897234/image/access_passes/2025-06-05/63fa478c-ad6c-44c1-9950-4b0489a382d3",
-    "bannerImageUrl": "",
-    "creators": 27,
-    "agency": "All In Abe",
-    "age": "5mo",
-    "formattedAge": "5 months ago",
-    "fundedAt": "2026-07-28T00:39:02.316Z",
-    "sortTimestamp": 1774443626888,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "ALL IN ABE's Campaign",
-    "description": "Post ANY Winners On X And Get Paid Must tag @allinabe",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "ALL IN ABE's Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/allinabe"
-      }
-    ],
-    "platforms": [
-      "x"
-    ],
-    "spent": 10,
-    "total": 500,
-    "count": "7",
-    "cpm": 0.5,
-    "key": "All In Abe::ALL IN ABE's Campaign"
   },
   {
     "id": "509d76a7-942d-4ad6-a60c-930e1112eb31",
@@ -18836,7 +16984,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-03-25T10:52:46.381Z",
-    "sortTimestamp": 1774443626887,
+    "sortTimestamp": 1774445847639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "BLOND:ISH Stream Highlights Clipping 1",
@@ -18846,10 +16994,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BLOND:ISH Stream Highlights Clipping 1 | Official Whop Hub & Assets",
         "url": "https://whop.com/blondish"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://blondish.notion.site/NRG-Content-data-31387fb8b15680209665eb0a211f2934?source=copy_link"
       }
     ],
     "platforms": [
@@ -18872,12 +17016,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_5uzL9prWYW4jT/1774435912861.jpeg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17660194/image/bots/2026-06-17/a97fff1d-4e15-44dd-801c-b8e034494cd4.png",
     "bannerImageUrl": "",
-    "creators": 36,
+    "creators": 38,
     "agency": "DREANZ - VINTAGE RESELLING & SUPPLIERS",
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-08-20T02:20:40.528Z",
-    "sortTimestamp": 1774443626887,
+    "sortTimestamp": 1774445847639,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "High Payout",
@@ -18914,7 +17058,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-01-25T12:50:44.733Z",
-    "sortTimestamp": 1774443626887,
+    "sortTimestamp": 1774445847639,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Cloudsint Content Campaign",
@@ -18924,10 +17068,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Cloudsint Content Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/cloudsint-net"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1w2DEGNEteIKK0FjR5ohilVquFfEP0aR6QJ0O3vMXnks/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -18940,108 +17080,6 @@ window.CAMPAIGNS_DATA = [
     "count": "20",
     "cpm": 1,
     "key": "Cloudsint Clipping::Cloudsint Content Campaign"
-  },
-  {
-    "id": "bbd70c41-6ca2-424d-ad1f-b70868b7dc81",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "mentorship-waitlist-5",
-    "whop_route": "mentorship-waitlist-5",
-    "whopUrl": "https://whop.com/mentorship-waitlist-5",
-    "thumbnail": "https://cdn.contentrewards.com/user_mIOgS0eVl1UXl/1773633868047.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6331196/image/bots/2025-10-26/26480bf8-dd64-460a-8115-67397256b2c9.jpeg",
-    "bannerImageUrl": "",
-    "creators": 25,
-    "agency": "STRATFORGE",
-    "age": "5mo",
-    "formattedAge": "5 months ago",
-    "fundedAt": "2026-05-06T16:35:06.305Z",
-    "sortTimestamp": 1774443626887,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "motivational captions",
-    "description": "this campaign is for videos who go viral very easily but dont provide that much traffic to the main page",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "motivational captions | Official Whop Hub & Assets",
-        "url": "https://whop.com/mentorship-waitlist-5"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1fmuXw-CJOtmu9yX9AGGNq8JGqQTYp8XB"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1VH7KY1pyk-hDZ9BdPYP_LtksTy0xe_BP?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/12tvg60wbkwuu8QSBecGIUyVNlpO-e-3l/view?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 1312,
-    "total": 1500,
-    "count": "177",
-    "cpm": 1,
-    "key": "STRATFORGE::motivational captions"
-  },
-  {
-    "id": "92298cdf-d20e-4f24-ab17-4418d61a9d1e",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "mario-lopez-mindset-clipping-9d",
-    "whop_route": "mario-lopez-mindset-clipping-9d",
-    "whopUrl": "https://whop.com/mario-lopez-mindset-clipping-9d",
-    "thumbnail": "https://cdn.contentrewards.com/user_Y2JWlUwRUznCb/1783173521425.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-22/user_7982360_d2f7b061-5b4b-468a-adaf-64ca340e1498.jpeg",
-    "bannerImageUrl": "",
-    "creators": 11,
-    "agency": "Roger Clipping Team",
-    "age": "5mo",
-    "formattedAge": "5 months ago",
-    "fundedAt": "2026-08-17T20:50:14.647Z",
-    "sortTimestamp": 1774443626886,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Clips Hablando - 1$ por cada 1000 views",
-    "description": "Roger Clipping Team Personal brand clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
-        "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1AhZ9ORj83UYhwXP6-VpY3lKBuLM1lEBr?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/spreadsheets/d/1bUNWRGwyP2TiRwUUzh8QbD_Jlwg_a8xnFUa7PKVzbZI/edit?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/107PUDt8DL5O6pmJad9ekRLVZiMyPNCQN3zzc6ScFT8k/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 327,
-    "total": 900,
-    "count": "23",
-    "cpm": 1,
-    "key": "Roger Clipping Team::Clips Hablando - 1$ por cada 1000 views"
   },
   {
     "id": "e045d701-b073-45fc-9988-c13295e0dadf",
@@ -19057,7 +17095,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-08-10T12:30:09.691Z",
-    "sortTimestamp": 1774443626885,
+    "sortTimestamp": 1774445847638,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Gek op OLA I Raket - €3,50 per 1.000 views",
@@ -19067,10 +17105,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gek op OLA I Raket - €3,50 per 1.000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/presentation/d/1vgUhiQdOCf5bWVz_U3hwd72EIcXLoaLWiJoi3hH-rCc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -19083,6 +17117,43 @@ window.CAMPAIGNS_DATA = [
     "count": "55",
     "cpm": 4,
     "key": "Speaky: Content Rewards::Gek op OLA I Raket - €3,50 per 1.000 views"
+  },
+  {
+    "id": "92298cdf-d20e-4f24-ab17-4418d61a9d1e",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "mario-lopez-mindset-clipping-9d",
+    "whop_route": "mario-lopez-mindset-clipping-9d",
+    "whopUrl": "https://whop.com/mario-lopez-mindset-clipping-9d",
+    "thumbnail": "https://cdn.contentrewards.com/user_Y2JWlUwRUznCb/1783173521425.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-05-22/user_7982360_d2f7b061-5b4b-468a-adaf-64ca340e1498.jpeg",
+    "bannerImageUrl": "",
+    "creators": 11,
+    "agency": "Roger Clipping Team",
+    "age": "5mo",
+    "formattedAge": "5 months ago",
+    "fundedAt": "2026-08-17T20:50:14.647Z",
+    "sortTimestamp": 1774445847638,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Clips Hablando - 1$ por cada 1000 views",
+    "description": "Roger Clipping Team Personal brand clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
+        "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 327,
+    "total": 900,
+    "count": "23",
+    "cpm": 1,
+    "key": "Roger Clipping Team::Clips Hablando - 1$ por cada 1000 views"
   },
   {
     "id": "a932cc09-10ee-40bd-9663-5143776e635b",
@@ -19098,7 +17169,7 @@ window.CAMPAIGNS_DATA = [
     "age": "5mo",
     "formattedAge": "5 months ago",
     "fundedAt": "2026-07-09T15:30:27.866Z",
-    "sortTimestamp": 1774443626884,
+    "sortTimestamp": 1774445847637,
     "category": "Entertainment",
     "contentType": "Clipping",
     "title": "Upload faceless slideshows",
@@ -19108,10 +17179,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Upload faceless slideshows | Official Whop Hub & Assets",
         "url": "https://whop.com/nutri-ai-tiktok-slideshows"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://iron-button-d69.notion.site/Moon-Clips-Creator-Participation-Terms-36f0798d162b80d5b3b1e575ee719f3d"
       }
     ],
     "platforms": [
@@ -19122,6 +17189,43 @@ window.CAMPAIGNS_DATA = [
     "count": "96",
     "cpm": 1,
     "key": "Moon Clips::Upload faceless slideshows"
+  },
+  {
+    "id": "7d11694f-5df6-4c60-a992-8fb8697b7bca",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "our-house",
+    "whop_route": "our-house",
+    "whopUrl": "https://whop.com/our-house",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/7d11694f-5df6-4c60-a992-8fb8697b7bca/thumbnail_url/1771443213035.jpg",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26376118/image/bots/2026-05-15/5c311763-41e7-43d9-940a-58e753ae90f8.png",
+    "bannerImageUrl": "",
+    "creators": 679,
+    "agency": "OUR HOUSE",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2026-08-07T22:55:55.143Z",
+    "sortTimestamp": 1771853847643,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "OUR HOUSE – Hï Ibiza Official Residency (Clipping)",
+    "description": "Create high-quality short-form content using the official Hï Ibiza Residency - Our House featuring James Hype and Meduza. For further details, please check 'Campaign Requirements' below.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "OUR HOUSE – Hï Ibiza Official Residency (Clipping) | Official Whop Hub & Assets",
+        "url": "https://whop.com/our-house"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 9998,
+    "total": 10000,
+    "count": "44",
+    "cpm": 1,
+    "key": "OUR HOUSE::OUR HOUSE – Hï Ibiza Official Residency (Clipping)"
   },
   {
     "id": "77527c22-0086-43ca-9a41-b911ada006e8",
@@ -19137,7 +17241,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6mo",
     "formattedAge": "6 months ago",
     "fundedAt": "2026-01-26T17:00:43.649Z",
-    "sortTimestamp": 1771851626891,
+    "sortTimestamp": 1771853847643,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Jacob Nachinson",
@@ -19156,172 +17260,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Virality::Jacob Nachinson"
   },
   {
-    "id": "6d90c4d3-fbf3-494b-843d-df9db03d8e25",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "free-syntopia",
-    "whop_route": "free-syntopia",
-    "whopUrl": "https://whop.com/free-syntopia",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/6d90c4d3-fbf3-494b-843d-df9db03d8e25/thumbnail_url/1770051464818.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8254644/image/bots/2025-09-17/74530101-d2b7-4a24-8edf-4f448b8fc51d",
-    "bannerImageUrl": "",
-    "creators": 224,
-    "agency": "Syntopia.ai",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2026-04-19T05:11:10.993Z",
-    "sortTimestamp": 1771851626890,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "Syntopia's Campaign",
-    "description": "Create viral clips for Syntopia.ai - AI avatars selling products live — earn forever. 💰 Earn 3 Ways: - $1 per 1K views - 15% recurring commissions on every sale (lifetime) - 15% override when you recruit other clippers 🎯 What You'll Clip: Clip and create videos for syntopia.ai, AI livestreaming demos across 10+ niches (beauty, tech, fitness, pets). We provide raw footage, hooks, and templates. You can create UGC or clip existing content. ⚡ The Catch: This isn't just a clip gig — you become a lifetime affiliate. Even after view payouts stop your commissions continue forever. Top clippers can earn $5000-10K/month passive. Ready to build recurring income?",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Syntopia's Campaign | Official Whop Hub & Assets",
-        "url": "https://whop.com/free-syntopia"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Es1Zumq12Id4m1xUv3an5muAGjs_2KPP7R26yFKUyE4/edit?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "instagram"
-    ],
-    "spent": 0,
-    "total": 500,
-    "count": "4",
-    "cpm": 1,
-    "key": "Syntopia.ai::Syntopia's Campaign"
-  },
-  {
-    "id": "7d11694f-5df6-4c60-a992-8fb8697b7bca",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "our-house",
-    "whop_route": "our-house",
-    "whopUrl": "https://whop.com/our-house",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/7d11694f-5df6-4c60-a992-8fb8697b7bca/thumbnail_url/1771443213035.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_26376118/image/bots/2026-05-15/5c311763-41e7-43d9-940a-58e753ae90f8.png",
-    "bannerImageUrl": "",
-    "creators": 678,
-    "agency": "OUR HOUSE",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2026-08-07T22:55:55.143Z",
-    "sortTimestamp": 1771851626890,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "OUR HOUSE – Hï Ibiza Official Residency (Clipping)",
-    "description": "Create high-quality short-form content using the official Hï Ibiza Residency - Our House featuring James Hype and Meduza. For further details, please check 'Campaign Requirements' below.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "OUR HOUSE – Hï Ibiza Official Residency (Clipping) | Official Whop Hub & Assets",
-        "url": "https://whop.com/our-house"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1wocUatWN2UwdCvEJd_BqTTrum4p33yhGll9wWZMks0I/edit?usp=drivesdk"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 9998,
-    "total": 10000,
-    "count": "44",
-    "cpm": 1,
-    "key": "OUR HOUSE::OUR HOUSE – Hï Ibiza Official Residency (Clipping)"
-  },
-  {
-    "id": "06e54c90-dec2-45ae-9423-dcbd698ca210",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "astra-app-clipping",
-    "whop_route": "astra-app-clipping",
-    "whopUrl": "https://whop.com/astra-app-clipping",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/06e54c90-dec2-45ae-9423-dcbd698ca210/thumbnail_url/1769886263351.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-12-19/d9132af6-5076-4a7f-9587-bcf8a1d2e8bd.png",
-    "bannerImageUrl": "",
-    "creators": 2,
-    "agency": "Astra Clipping",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2025-12-19T19:46:45.449Z",
-    "sortTimestamp": 1771851626889,
-    "category": "Personal brand",
-    "contentType": "Clipping",
-    "title": "Astra Podcast Clipping",
-    "description": "Clip viral podcast moments",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Astra Podcast Clipping | Official Whop Hub & Assets",
-        "url": "https://whop.com/astra-app-clipping"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/15jyhyH9REdBFtbKEg7DlT2lAPitkZepA"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1Wr3sU2KtnXJMY0-GM2GTNDkZrRLe6ymftX_Km5IcC34/edit?tab=t.0"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 3500,
-    "count": "8",
-    "cpm": 2,
-    "key": "Astra Clipping::Astra Podcast Clipping"
-  },
-  {
-    "id": "ae132e9c-b250-43e9-ac7f-57336d62dcc4",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "yay-creator-program",
-    "whop_route": "yay-creator-program",
-    "whopUrl": "https://whop.com/yay-creator-program",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/ae132e9c-b250-43e9-ac7f-57336d62dcc4/thumbnail_url/1770676266128.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31437052/image/bots/2026-07-13/5d45e782-62f9-4880-b98a-a83adc5848a3.JPG",
-    "bannerImageUrl": "",
-    "creators": 27,
-    "agency": "Yay Casino",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2026-07-14T09:11:24.439Z",
-    "sortTimestamp": 1771851626889,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "Yay First Spin Challenge",
-    "description": "Capture your first-ever Yay experience on camera. Show your reaction, explore a game, and share what surprised you. We’re looking for authentic, social-first videos — not polished ads.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Yay First Spin Challenge | Official Whop Hub & Assets",
-        "url": "https://whop.com/yay-creator-program"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/12I-LKrrZI41ZVpmJiLAv8sl-BslRbOpY?usp=drive_link"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 500,
-    "count": "27",
-    "cpm": 5,
-    "key": "Yay Casino::Yay First Spin Challenge"
-  },
-  {
     "id": "d17d5b5b-2b31-47a7-922b-132c1a7cb3d0",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "vimake-ugc-prive",
@@ -19335,7 +17273,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6mo",
     "formattedAge": "6 months ago",
     "fundedAt": "2026-04-05T19:09:23.768Z",
-    "sortTimestamp": 1771851626889,
+    "sortTimestamp": 1771853847642,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "Vimake ugc prenium",
@@ -19365,14 +17303,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "zayh-s-clipping-campaign",
     "whopUrl": "https://whop.com/zayh-s-clipping-campaign",
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/14176d9f-a2e4-4458-986b-3f799d9f715d/thumbnail_url/1770789980916.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_12610631/image/access_passes/2026-07-12/1f48efb8-ed4f-4e30-9525-e4b1e61253ef.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6116763/image/bots/2026-01-23/9edabac6-11cb-4041-bc2a-b0b9677a97ae.png",
     "bannerImageUrl": "",
-    "creators": 222,
+    "creators": 4,
     "agency": "Zayh Mitchell Clips",
     "age": "6mo",
     "formattedAge": "6 months ago",
-    "fundedAt": "2026-07-19T14:13:02.301Z",
-    "sortTimestamp": 1771851626889,
+    "fundedAt": "2026-01-23T07:01:27.665Z",
+    "sortTimestamp": 1771853847642,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Zayh Mitchell Clips",
@@ -19394,20 +17332,166 @@ window.CAMPAIGNS_DATA = [
     "key": "Zayh Mitchell Clips::Zayh Mitchell Clips"
   },
   {
+    "id": "6d90c4d3-fbf3-494b-843d-df9db03d8e25",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "free-syntopia",
+    "whop_route": "free-syntopia",
+    "whopUrl": "https://whop.com/free-syntopia",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/6d90c4d3-fbf3-494b-843d-df9db03d8e25/thumbnail_url/1770051464818.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8254644/image/bots/2025-09-17/74530101-d2b7-4a24-8edf-4f448b8fc51d",
+    "bannerImageUrl": "",
+    "creators": 224,
+    "agency": "Syntopia.ai",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2026-04-19T05:11:10.993Z",
+    "sortTimestamp": 1771853847642,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "Syntopia's Campaign",
+    "description": "Create viral clips for Syntopia.ai - AI avatars selling products live — earn forever. 💰 Earn 3 Ways: - $1 per 1K views - 15% recurring commissions on every sale (lifetime) - 15% override when you recruit other clippers 🎯 What You'll Clip: Clip and create videos for syntopia.ai, AI livestreaming demos across 10+ niches (beauty, tech, fitness, pets). We provide raw footage, hooks, and templates. You can create UGC or clip existing content. ⚡ The Catch: This isn't just a clip gig — you become a lifetime affiliate. Even after view payouts stop your commissions continue forever. Top clippers can earn $5000-10K/month passive. Ready to build recurring income?",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Syntopia's Campaign | Official Whop Hub & Assets",
+        "url": "https://whop.com/free-syntopia"
+      }
+    ],
+    "platforms": [
+      "instagram"
+    ],
+    "spent": 0,
+    "total": 500,
+    "count": "4",
+    "cpm": 1,
+    "key": "Syntopia.ai::Syntopia's Campaign"
+  },
+  {
+    "id": "165bfa12-b668-4c8f-bfd1-c256c4e5dff3",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "metawin-casino",
+    "whop_route": "metawin-casino",
+    "whopUrl": "https://whop.com/metawin-casino",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/165bfa12-b668-4c8f-bfd1-c256c4e5dff3/thumbnail_url/1770327462354.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28809042/image/bots/2026-07-31/0fb545ef-767f-4970-b170-128d09bd0eeb.png",
+    "bannerImageUrl": "",
+    "creators": 293,
+    "agency": "Metawin Casino",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2026-06-22T18:31:55.492Z",
+    "sortTimestamp": 1771853847641,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "Tech/Finance/Crypto Page Exclusive",
+    "description": "An Exclusive Campaign for Only Top Pages that have been invited!",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Tech/Finance/Crypto Page Exclusive | Official Whop Hub & Assets",
+        "url": "https://whop.com/metawin-casino"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 2500,
+    "count": "1",
+    "cpm": 5,
+    "key": "Metawin Casino::Tech/Finance/Crypto Page Exclusive"
+  },
+  {
+    "id": "06e54c90-dec2-45ae-9423-dcbd698ca210",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "astra-app-clipping",
+    "whop_route": "astra-app-clipping",
+    "whopUrl": "https://whop.com/astra-app-clipping",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/06e54c90-dec2-45ae-9423-dcbd698ca210/thumbnail_url/1769886263351.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_9023487/image/bots/2025-12-19/d9132af6-5076-4a7f-9587-bcf8a1d2e8bd.png",
+    "bannerImageUrl": "",
+    "creators": 2,
+    "agency": "Astra Clipping",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2025-12-19T19:46:45.449Z",
+    "sortTimestamp": 1771853847641,
+    "category": "Personal brand",
+    "contentType": "Clipping",
+    "title": "Astra Podcast Clipping",
+    "description": "Clip viral podcast moments",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Astra Podcast Clipping | Official Whop Hub & Assets",
+        "url": "https://whop.com/astra-app-clipping"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 3500,
+    "count": "8",
+    "cpm": 2,
+    "key": "Astra Clipping::Astra Podcast Clipping"
+  },
+  {
+    "id": "ae132e9c-b250-43e9-ac7f-57336d62dcc4",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "yay-creator-program",
+    "whop_route": "yay-creator-program",
+    "whopUrl": "https://whop.com/yay-creator-program",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/ae132e9c-b250-43e9-ac7f-57336d62dcc4/thumbnail_url/1770676266128.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_31437052/image/bots/2026-07-13/5d45e782-62f9-4880-b98a-a83adc5848a3.JPG",
+    "bannerImageUrl": "",
+    "creators": 27,
+    "agency": "Yay Casino",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2026-07-14T09:11:24.439Z",
+    "sortTimestamp": 1771853847641,
+    "category": "Other",
+    "contentType": "Clipping",
+    "title": "Yay First Spin Challenge",
+    "description": "Capture your first-ever Yay experience on camera. Show your reaction, explore a game, and share what surprised you. We’re looking for authentic, social-first videos — not polished ads.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Yay First Spin Challenge | Official Whop Hub & Assets",
+        "url": "https://whop.com/yay-creator-program"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 0,
+    "total": 500,
+    "count": "27",
+    "cpm": 5,
+    "key": "Yay Casino::Yay First Spin Challenge"
+  },
+  {
     "id": "e7b250f1-b36e-4f60-a728-10a0ceefd90c",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "braap-clips-03",
     "whop_route": "braap-clips-03",
     "whopUrl": "https://whop.com/braap-clips-03",
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/e7b250f1-b36e-4f60-a728-10a0ceefd90c/thumbnail_url/1771003173252.jpg",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_1339815/image/bots/2026-02-11/14bda61b-91a5-44e2-b952-515a98247609.png",
     "bannerImageUrl": "",
-    "creators": 386,
+    "creators": 60,
     "agency": "Braapclips",
     "age": "6mo",
     "formattedAge": "6 months ago",
-    "fundedAt": "2026-08-07T12:43:01.017Z",
-    "sortTimestamp": 1771851626888,
+    "fundedAt": "2026-02-05T10:10:25.934Z",
+    "sortTimestamp": 1771853847640,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Braap Campaign",
@@ -19437,14 +17521,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "blow-up-clipping-campaign",
     "whopUrl": "https://whop.com/blow-up-clipping-campaign",
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/d08a8874-1ae6-4ddc-844d-f7971ea49d18/thumbnail_url/1770239924680.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_13914938/image/bots/2026-03-05/b897f1a0-dcdf-445f-acf4-30be25d76e99.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
     "bannerImageUrl": "",
-    "creators": 35,
+    "creators": 386,
     "agency": "Blow Up",
     "age": "6mo",
     "formattedAge": "6 months ago",
-    "fundedAt": "2026-03-20T13:20:01.076Z",
-    "sortTimestamp": 1771851626888,
+    "fundedAt": "2026-08-07T12:43:01.017Z",
+    "sortTimestamp": 1771853847640,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Blow Up clipping campaign",
@@ -19481,7 +17565,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6mo",
     "formattedAge": "6 months ago",
     "fundedAt": "2026-07-30T16:46:17.793Z",
-    "sortTimestamp": 1771851626888,
+    "sortTimestamp": 1771853847640,
     "category": "Product",
     "contentType": "Clipping",
     "title": "Clip2Earn",
@@ -19491,10 +17575,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip2Earn | Official Whop Hub & Assets",
         "url": "https://whop.com/freeclub"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1riZfVP4MWrOIsvyCUAdwIAmU7TBzL3HQ/view"
       }
     ],
     "platforms": [
@@ -19509,57 +17589,20 @@ window.CAMPAIGNS_DATA = [
     "key": "Freedom Builders::Clip2Earn"
   },
   {
-    "id": "165bfa12-b668-4c8f-bfd1-c256c4e5dff3",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "metawin-casino",
-    "whop_route": "metawin-casino",
-    "whopUrl": "https://whop.com/metawin-casino",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/165bfa12-b668-4c8f-bfd1-c256c4e5dff3/thumbnail_url/1770327462354.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_28809042/image/bots/2026-07-31/0fb545ef-767f-4970-b170-128d09bd0eeb.png",
-    "bannerImageUrl": "",
-    "creators": 293,
-    "agency": "Metawin Casino",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2026-06-22T18:31:55.492Z",
-    "sortTimestamp": 1771851626888,
-    "category": "Other",
-    "contentType": "Clipping",
-    "title": "Tech/Finance/Crypto Page Exclusive",
-    "description": "An Exclusive Campaign for Only Top Pages that have been invited!",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Tech/Finance/Crypto Page Exclusive | Official Whop Hub & Assets",
-        "url": "https://whop.com/metawin-casino"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 0,
-    "total": 2500,
-    "count": "1",
-    "cpm": 5,
-    "key": "Metawin Casino::Tech/Finance/Crypto Page Exclusive"
-  },
-  {
     "id": "0393d842-3a71-40c7-8a2c-615f5fd64963",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clippers-oficiales-elianny",
     "whop_route": "clippers-oficiales-elianny",
     "whopUrl": "https://whop.com/clippers-oficiales-elianny",
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/0393d842-3a71-40c7-8a2c-615f5fd64963/thumbnail_url/1769345346636.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_8257828/image/bots/2025-11-23/f0a187b1-e711-492b-ad92-075bb09e1821.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_868511/image/bots/2025-08-02/b43e7f45-d7ad-4172-9362-e047b9d7e5eb",
     "bannerImageUrl": "",
-    "creators": 179,
+    "creators": 236,
     "agency": "Elianny Yanez - Yo Te Ayudo CLIPPERS",
     "age": "6mo",
     "formattedAge": "6 months ago",
-    "fundedAt": "2026-07-13T02:56:24.068Z",
-    "sortTimestamp": 1771851626887,
+    "fundedAt": "2026-06-13T21:42:38.190Z",
+    "sortTimestamp": 1771853847639,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Version Beta GANA con Elianny",
@@ -19583,6 +17626,80 @@ window.CAMPAIGNS_DATA = [
     "key": "Elianny Yanez - Yo Te Ayudo CLIPPERS::Version Beta GANA con Elianny"
   },
   {
+    "id": "e545ebab-4ef4-4399-b00d-0c70bc1478e0",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "cft-community",
+    "whop_route": "cft-community",
+    "whopUrl": "https://whop.com/cft-community",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/e545ebab-4ef4-4399-b00d-0c70bc1478e0/thumbnail_url/1770390404221.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33587898/image/bots/2026-08-12/056aee11-add1-4524-a442-9604c57a7205.png",
+    "bannerImageUrl": "",
+    "creators": 5,
+    "agency": "Crypto Fund Trader",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2026-08-07T21:00:17.967Z",
+    "sortTimestamp": 1771853847638,
+    "category": "Technology",
+    "contentType": "UGC",
+    "title": "CFT Clipping Campaign - 1.5$ | 1000 views",
+    "description": "Create educational content related to Crypto Fund Trader and earn rewards based on performance. This campaign focuses on clear, accurate explanations of simulated prop trading, evaluation mechanics, risk management, and trading discipline. Participants submit content under the campaign rules. Rewards are based on review and verified performance. Full requirements and submission details are listed inside the campaign.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "CFT Clipping Campaign - 1.5$ | 1000 views | Official Whop Hub & Assets",
+        "url": "https://whop.com/cft-community"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 395,
+    "total": 1500,
+    "count": "130",
+    "cpm": 1.5,
+    "key": "Crypto Fund Trader::CFT Clipping Campaign - 1.5$ | 1000 views"
+  },
+  {
+    "id": "7ea7d3c4-3830-4c50-a13c-25c42f1f5123",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "adaptdefy",
+    "whop_route": "adaptdefy",
+    "whopUrl": "https://whop.com/adaptdefy",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/7ea7d3c4-3830-4c50-a13c-25c42f1f5123/thumbnail_url/1770592996757.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-02-26/3f845db1-a76a-499c-8819-14cadb3fd34a/image.png",
+    "bannerImageUrl": "",
+    "creators": 761,
+    "agency": "Adaptdefy",
+    "age": "6mo",
+    "formattedAge": "6 months ago",
+    "fundedAt": "2026-07-22T09:17:19.874Z",
+    "sortTimestamp": 1771853847637,
+    "category": "Product",
+    "contentType": "UGC",
+    "title": "LapStacker UGC - Show how LapStacker makes wheelchair life better.",
+    "description": "Adaptdefy Product clipping pool.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "LapStacker UGC - Show how LapStacker makes wheelchair life better. | Official Whop Hub & Assets",
+        "url": "https://whop.com/adaptdefy"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 631,
+    "total": 1200,
+    "count": "10",
+    "cpm": 3,
+    "key": "Adaptdefy::LapStacker UGC - Show how LapStacker makes wheelchair life better."
+  },
+  {
     "id": "",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "",
@@ -19596,7 +17713,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6mo",
     "formattedAge": "6 months ago",
     "fundedAt": null,
-    "sortTimestamp": 1771851626885,
+    "sortTimestamp": 1771853847637,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Earn $200 Per Sale with Acequision’s Offshore LLC & Bank Account Setup",
@@ -19619,47 +17736,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Acequisition LLC::Earn $200 Per Sale with Acequision’s Offshore LLC & Bank Account Setup"
   },
   {
-    "id": "e545ebab-4ef4-4399-b00d-0c70bc1478e0",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "cft-community",
-    "whop_route": "cft-community",
-    "whopUrl": "https://whop.com/cft-community",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/e545ebab-4ef4-4399-b00d-0c70bc1478e0/thumbnail_url/1770390404221.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_33587898/image/bots/2026-08-12/056aee11-add1-4524-a442-9604c57a7205.png",
-    "bannerImageUrl": "",
-    "creators": 5,
-    "agency": "Crypto Fund Trader",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2026-08-07T21:00:17.967Z",
-    "sortTimestamp": 1771851626885,
-    "category": "Technology",
-    "contentType": "UGC",
-    "title": "CFT Clipping Campaign - 1.5$ | 1000 views",
-    "description": "Create educational content related to Crypto Fund Trader and earn rewards based on performance. This campaign focuses on clear, accurate explanations of simulated prop trading, evaluation mechanics, risk management, and trading discipline. Participants submit content under the campaign rules. Rewards are based on review and verified performance. Full requirements and submission details are listed inside the campaign.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "CFT Clipping Campaign - 1.5$ | 1000 views | Official Whop Hub & Assets",
-        "url": "https://whop.com/cft-community"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1bO67TB5RgntbW_4bKMvufW_5tt6jvXHg/view?usp=sharing"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 395,
-    "total": 1500,
-    "count": "130",
-    "cpm": 1.5,
-    "key": "Crypto Fund Trader::CFT Clipping Campaign - 1.5$ | 1000 views"
-  },
-  {
     "id": "ed901480-3b3d-4948-bb2f-3271c3bf06d5",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "dumb-money-hunter",
@@ -19673,7 +17749,7 @@ window.CAMPAIGNS_DATA = [
     "age": "6mo",
     "formattedAge": "6 months ago",
     "fundedAt": "2026-08-08T10:13:16.046Z",
-    "sortTimestamp": 1771851626884,
+    "sortTimestamp": 1771853847636,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "DumbMoneyHunter 's Clipping",
@@ -19707,14 +17783,14 @@ window.CAMPAIGNS_DATA = [
     "whop_route": "adaptdefy",
     "whopUrl": "https://whop.com/adaptdefy",
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/e6120b78-012b-4252-b92a-8cc3e4b5b925/thumbnail_url/1770594756675.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_16946294/image/bots/2026-04-24/852788bb-f367-4b2b-934c-6c44d67f9e54.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2714177/image/bots/2026-06-17/f7e9784d-84d8-464d-a57d-19d7ac05b4ff.jpeg",
     "bannerImageUrl": "",
-    "creators": 44,
+    "creators": 59,
     "agency": "Adaptdefy",
     "age": "6mo",
     "formattedAge": "6 months ago",
-    "fundedAt": "2026-08-11T23:45:05.620Z",
-    "sortTimestamp": 1771851626884,
+    "fundedAt": "2026-06-17T10:17:24.720Z",
+    "sortTimestamp": 1771853847636,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Adaptdefy Wheelchair Life Rewards",
@@ -19724,10 +17800,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Adaptdefy Wheelchair Life Rewards | Official Whop Hub & Assets",
         "url": "https://whop.com/adaptdefy"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/request/ugx33aYNVlTZOBWMymP1"
       }
     ],
     "platforms": [
@@ -19742,43 +17814,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Adaptdefy::Adaptdefy Wheelchair Life Rewards"
   },
   {
-    "id": "7ea7d3c4-3830-4c50-a13c-25c42f1f5123",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "adaptdefy",
-    "whop_route": "adaptdefy",
-    "whopUrl": "https://whop.com/adaptdefy",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/7ea7d3c4-3830-4c50-a13c-25c42f1f5123/thumbnail_url/1770592996757.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/2026-02-26/3f845db1-a76a-499c-8819-14cadb3fd34a/image.png",
-    "bannerImageUrl": "",
-    "creators": 761,
-    "agency": "Adaptdefy",
-    "age": "6mo",
-    "formattedAge": "6 months ago",
-    "fundedAt": "2026-07-22T09:17:19.874Z",
-    "sortTimestamp": 1771851626884,
-    "category": "Product",
-    "contentType": "UGC",
-    "title": "LapStacker UGC - Show how LapStacker makes wheelchair life better.",
-    "description": "Adaptdefy Product clipping pool.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "LapStacker UGC - Show how LapStacker makes wheelchair life better. | Official Whop Hub & Assets",
-        "url": "https://whop.com/adaptdefy"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 631,
-    "total": 1200,
-    "count": "10",
-    "cpm": 3,
-    "key": "Adaptdefy::LapStacker UGC - Show how LapStacker makes wheelchair life better."
-  },
-  {
     "id": "37bf5e2c-cae7-44aa-ba7f-b7bea1796af2",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "premiumpicks-48",
@@ -19787,12 +17822,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/37bf5e2c-cae7-44aa-ba7f-b7bea1796af2/thumbnail_url/1767361170519.JPG",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/2025-04-22/user_12673197_04b7771c-fb59-4b7b-bc4e-85a555a2fe10.jpeg",
     "bannerImageUrl": "",
-    "creators": 139,
+    "creators": 140,
     "agency": "premiumpicks",
     "age": "7mo",
     "formattedAge": "7 months ago",
     "fundedAt": "2026-07-10T17:13:03.215Z",
-    "sortTimestamp": 1769259626890,
+    "sortTimestamp": 1769261847643,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Canal de Telegram: genera tráfico y gana $",
@@ -19830,7 +17865,7 @@ window.CAMPAIGNS_DATA = [
     "age": "7mo",
     "formattedAge": "7 months ago",
     "fundedAt": "2026-06-06T21:36:11.661Z",
-    "sortTimestamp": 1769259626890,
+    "sortTimestamp": 1769261847643,
     "category": "Personal brand",
     "contentType": "UGC",
     "title": "ROBTHEBANK CLIPS $10/10,000",
@@ -19840,50 +17875,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROBTHEBANK CLIPS $10/10,000 | Official Whop Hub & Assets",
         "url": "https://whop.com/robthebank-clips-10-10-000"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1E1BI4uumpMACDCeCsNdKJ84npmHH1NKm?usp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1Mbxz5snPA6-tY0uGCSZKCNM5s-ziYcvM?usp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1000IWLQAiZ7T5c-IvkraIBGk5oirzElk"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/home/Rob"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/home/Laurents%20%20Dhaene/NEW%20YOUTUBE%20CONTENT/YOUTUBE%20PROJECTS"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/v6j7rfmbp47ssidgowj9g/AE7zUK5M_peF1mBNLHiqe_0?rlkey=g084dkg7k3t6tijfva97zvgwv"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/kxzmnr7biwvz47m9tfe99/AMbio08JRsULW1eqRi0mit0?rlkey=rannshg03tw1pyhakphunhk55"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1vJeAL8_rBGJ6PC4r8Fc1qmZKfT61HxQ4?usp=drive_link"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/home/Rob&#x27;s%20Social%20Media%20Suite/1.%20YouTube%20Videos/3.%20Completed%20Projects"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/v6j7rfmbp47ssidgowj9g/AE7zUK5M_peF1mBNLHiqe_0?rlkey=g084dkg7k3t6tijfva97zvgwv&amp;e=1&amp;st=yrpaesu3&amp;dl=0"
-      },
-      {
-        "name": "Dropbox File",
-        "url": "https://www.dropbox.com/scl/fo/kxzmnr7biwvz47m9tfe99/AMbio08JRsULW1eqRi0mit0?rlkey=rannshg03tw1pyhakphunhk55&amp;st=z4958kl7&amp;dl=0"
       }
     ],
     "platforms": [
@@ -19911,7 +17902,7 @@ window.CAMPAIGNS_DATA = [
     "age": "7mo",
     "formattedAge": "7 months ago",
     "fundedAt": "2026-04-28T11:34:23.693Z",
-    "sortTimestamp": 1769259626889,
+    "sortTimestamp": 1769261847642,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Anishort edit - $1.5 per 1000 views",
@@ -19921,10 +17912,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Anishort edit - $1.5 per 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/anishort"
-      },
-      {
-        "name": "Google Doc",
-        "url": "https://docs.google.com/document/d/1X2h4sis0huHpKVjm0miNcFOa-KvoDOihRct2-pbSLKA/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -19939,6 +17926,47 @@ window.CAMPAIGNS_DATA = [
     "key": "Anishort::Anishort edit - $1.5 per 1000 views"
   },
   {
+    "id": "84e3558f-0989-4f29-8ff0-bf59aec2fcc7",
+    "url": "https://contentrewards.com/discover",
+    "whopProductRoute": "kartalk-basic-access",
+    "whop_route": "kartalk-basic-access",
+    "whopUrl": "https://whop.com/kartalk-basic-access",
+    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/84e3558f-0989-4f29-8ff0-bf59aec2fcc7/thumbnail_url/1769217004085.png",
+    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
+    "bannerImageUrl": "",
+    "creators": 139,
+    "agency": "Kartalk With Krutch",
+    "age": "7mo",
+    "formattedAge": "7 months ago",
+    "fundedAt": "2026-08-07T16:57:25.070Z",
+    "sortTimestamp": 1769261847639,
+    "category": "Music",
+    "contentType": "UGC",
+    "title": "Max B - Kartalk With Krutch",
+    "description": "Clip engaging, viral moments from this video and post to your social platforms. These clips should make viewers curious enough to watch the full video on YouTube. 🎥 FULL VIDEO (clip from this source): 👉 Watch the full episode here: [https://youtu.be/qoN6CfpckoM] 👉 Creators MUST clip directly from the YouTube video linked above 👉 Link must be placed in bio or caption when posting 🎯 What to clip: – Strong opinions, storytelling, or quotable moments – Entertaining dialogue, reactions, or cultural commentary – Moments that spark curiosity or conversation 📏 Clip length: 7–30 seconds 📱 Where to post: TikTok, Instagram Reels, or YouTube Shorts 📝 Captions (IMPORTANT): – Captions must encourage viewers to watch the full video – Examples: • “Full video on YouTube — link in bio” • “Watch the full conversation on YouTube” • “This whole convo is on YouTube 🔥” 🚫 Do not: – Post full-length videos – Add watermarks – Change the meaning or context of the content 💡 Goal: Drive traffic to the full YouTube video and increase views, watch time, and monetization.",
+    "requirements": [],
+    "resources": [
+      {
+        "name": "Max B - Kartalk With Krutch | Reference Video",
+        "url": "https://youtu.be/qoN6CfpckoM]"
+      },
+      {
+        "name": "Max B - Kartalk With Krutch | Official Whop Hub & Assets",
+        "url": "https://whop.com/kartalk-basic-access"
+      }
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
+    "spent": 338,
+    "total": 500,
+    "count": "102",
+    "cpm": 1,
+    "key": "Kartalk With Krutch::Max B - Kartalk With Krutch"
+  },
+  {
     "id": "ff6057da-2579-4a5a-ae76-61888aef8cee",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "clipping-capital-8e",
@@ -19947,12 +17975,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/ff6057da-2579-4a5a-ae76-61888aef8cee/thumbnail_url/1771500224769.jpg",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_17377956/image/bots/2026-04-24/d18634ea-9a20-4d08-a626-c41a10704871",
     "bannerImageUrl": "",
-    "creators": 1185,
+    "creators": 1186,
     "agency": "Clipping Capital",
     "age": "7mo",
     "formattedAge": "7 months ago",
     "fundedAt": "2026-08-01T22:14:06.568Z",
-    "sortTimestamp": 1769259626887,
+    "sortTimestamp": 1769261847639,
     "category": "Technology",
     "contentType": "Clipping",
     "title": "Altcryptocast Clipping - $2 Per 1000 Views",
@@ -19989,7 +18017,7 @@ window.CAMPAIGNS_DATA = [
     "age": "7mo",
     "formattedAge": "7 months ago",
     "fundedAt": "2026-07-04T14:52:06.244Z",
-    "sortTimestamp": 1769259626886,
+    "sortTimestamp": 1769261847638,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Nikita Tyukalo Clipping Telegram: Up to $5 per thousand views",
@@ -19999,18 +18027,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nikita Tyukalo Clipping Telegram: Up to $5 per thousand views | Official Whop Hub & Assets",
         "url": "https://whop.com/nova-private-creator-network"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/1eedrSdCwZ6xBroublMEzkxdyS4aalMmM?usp=sharing"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/11qRV8IL4Wwm3RN77PLDGjs5OJHTYjhnL/view?usp=drive_link"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/file/d/1pVhUAoDCMDUDbDsL4UZU8G_FY5schjj4/view?usp=drive_link"
       }
     ],
     "platforms": [
@@ -20025,47 +18041,6 @@ window.CAMPAIGNS_DATA = [
     "key": "Nova Models::Nikita Tyukalo Clipping Telegram: Up to $5 per thousand views"
   },
   {
-    "id": "84e3558f-0989-4f29-8ff0-bf59aec2fcc7",
-    "url": "https://contentrewards.com/discover",
-    "whopProductRoute": "kartalk-basic-access",
-    "whop_route": "kartalk-basic-access",
-    "whopUrl": "https://whop.com/kartalk-basic-access",
-    "thumbnail": "https://cdn.contentrewards.com/supabase_assets/campaigns/84e3558f-0989-4f29-8ff0-bf59aec2fcc7/thumbnail_url/1769217004085.png",
-    "avatar": "https://assets-2-prod.whop.com/public/uploads/user_2427402/image/bots/2025-08-17/52e2b90e-e670-46b5-9bdb-167c91b8ec59",
-    "bannerImageUrl": "",
-    "creators": 139,
-    "agency": "Kartalk With Krutch",
-    "age": "7mo",
-    "formattedAge": "7 months ago",
-    "fundedAt": "2026-08-07T16:57:25.070Z",
-    "sortTimestamp": 1769259626886,
-    "category": "Music",
-    "contentType": "UGC",
-    "title": "Max B - Kartalk With Krutch",
-    "description": "Clip engaging, viral moments from this video and post to your social platforms. These clips should make viewers curious enough to watch the full video on YouTube. 🎥 FULL VIDEO (clip from this source): 👉 Watch the full episode here: [https://youtu.be/qoN6CfpckoM] 👉 Creators MUST clip directly from the YouTube video linked above 👉 Link must be placed in bio or caption when posting 🎯 What to clip: – Strong opinions, storytelling, or quotable moments – Entertaining dialogue, reactions, or cultural commentary – Moments that spark curiosity or conversation 📏 Clip length: 7–30 seconds 📱 Where to post: TikTok, Instagram Reels, or YouTube Shorts 📝 Captions (IMPORTANT): – Captions must encourage viewers to watch the full video – Examples: • “Full video on YouTube — link in bio” • “Watch the full conversation on YouTube” • “This whole convo is on YouTube 🔥” 🚫 Do not: – Post full-length videos – Add watermarks – Change the meaning or context of the content 💡 Goal: Drive traffic to the full YouTube video and increase views, watch time, and monetization.",
-    "requirements": [],
-    "resources": [
-      {
-        "name": "Max B - Kartalk With Krutch | Reference Video",
-        "url": "https://youtu.be/qoN6CfpckoM]"
-      },
-      {
-        "name": "Max B - Kartalk With Krutch | Official Whop Hub & Assets",
-        "url": "https://whop.com/kartalk-basic-access"
-      }
-    ],
-    "platforms": [
-      "tiktok",
-      "instagram",
-      "youtube"
-    ],
-    "spent": 338,
-    "total": 500,
-    "count": "102",
-    "cpm": 1,
-    "key": "Kartalk With Krutch::Max B - Kartalk With Krutch"
-  },
-  {
     "id": "14f743b2-c5ca-4f3e-8c0d-3010c485005d",
     "url": "https://contentrewards.com/discover",
     "whopProductRoute": "yomi-denzel-clipping-50",
@@ -20074,12 +18049,12 @@ window.CAMPAIGNS_DATA = [
     "thumbnail": "https://cdn.contentrewards.com/user_2Ue76EylKLfnu/1775251674160.png",
     "avatar": "https://assets-2-prod.whop.com/public/uploads/user_6811809/image/bots/2026-04-19/63b96c6f-d076-4409-a626-4893949ff5e7.png",
     "bannerImageUrl": "https://cdn.contentrewards.com/user_ng3Tan79NYv8Q/1781520670153.png",
-    "creators": 1499,
+    "creators": 1497,
     "agency": "Yomi Denzel Clipping",
     "age": "8mo",
     "formattedAge": "8 months ago",
     "fundedAt": "2026-06-16T19:40:21.174Z",
-    "sortTimestamp": 1766667626890,
+    "sortTimestamp": 1766669847643,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Yomi Denzel Clipping - 1$ par 1000 vues",
@@ -20089,10 +18064,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yomi Denzel Clipping - 1$ par 1000 vues | Official Whop Hub & Assets",
         "url": "https://whop.com/yomi-denzel-clipping-50"
-      },
-      {
-        "name": "Google Drive",
-        "url": "https://drive.google.com/drive/folders/15CRuz33sWIFz5moouuxu2vRS_UO5VpfZ?usp=sharing"
       }
     ],
     "platforms": [
@@ -20120,7 +18091,7 @@ window.CAMPAIGNS_DATA = [
     "age": "8mo",
     "formattedAge": "8 months ago",
     "fundedAt": "2026-02-17T21:56:49.602Z",
-    "sortTimestamp": 1766667626889,
+    "sortTimestamp": 1766669847641,
     "category": "Personal brand",
     "contentType": "Clipping",
     "title": "Vita Slideshow Clipping Campaign",
@@ -20130,10 +18101,6 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Vita Slideshow Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/yay-creator-program"
-      },
-      {
-        "name": "Notion Doc",
-        "url": "https://www.notion.so/SOP-for-Vita-Slideshow-Uploading-2cc24346da0f8080945dd6c4f94119fe?source=copy_link"
       }
     ],
     "platforms": [
