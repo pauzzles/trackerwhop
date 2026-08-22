@@ -23,6 +23,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Social Commerce News (Podcast) | Official Whop Hub & Assets",
         "url": "https://whop.com/vantaclip-clipping-agency"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/tzt882ykars6t7h81qdws/AMcsFKO9AB8WDEiTqnAbk_8?rlkey=srzh9hzoq5ohjp6au57zmizi5"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/tzt882ykars6t7h81qdws/AMcsFKO9AB8WDEiTqnAbk_8?rlkey=srzh9hzoq5ohjp6au57zmizi5&amp;st=rhl5nqmk&amp;dl=0"
       }
     ],
     "platforms": [
@@ -60,6 +68,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Wasting My Time With You — Charlélie Clipping Challenge | Official Whop Hub & Assets",
         "url": "https://whop.com/charlelie-promo-squad-d2"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1kKFU6WORSefh8BrV4AG-S6RVXOWhM6hx?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Y_yGz_Wwk_e1xHuuVM2IeOiYGBeU-_8uH2RUWOC7L90/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -97,6 +113,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Stock Market Investing: Project Sabrina | Official Whop Hub & Assets",
         "url": "https://whop.com/project-sabrina-access"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1qXsRba1RNl_rXVFLxt-XiUF1NSSp95Tp?usp=sharing"
       }
     ],
     "platforms": [
@@ -134,6 +154,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DOLLA Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingproject"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/13YQnnUvnb4QIurLiwl2NmjANL1ybV1I-f-mX0OoL2_8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -171,6 +195,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Late Checkout - Song Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/placementscc"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/12GzBn5rS6OdvIXJ4Tpq3essbMxdQm2qC/edit"
       }
     ],
     "platforms": [
@@ -238,6 +266,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Pippit AI Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10SNHJhGoZnDjPUHJEH64mB1lwmA0ZneZf0VQ8v9PpLw/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/12AKIu_wYdTNfCfWdR0rtQl9X5hZbZvnL"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1w77X2kZy8Bt_X5L7pQDFRCqdA_vVNC9f"
       }
     ],
     "platforms": [
@@ -274,6 +314,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty - Modern Warfare 4 Multiplayer Beta Gameplay Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1AaBbbXTwpIOueM0kFdMC1xB7Leh0Jq3T9C-i6Zowxk4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -311,6 +355,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fullportcapital Clipping Bounty — Get Paid to Post | Official Whop Hub & Assets",
         "url": "https://whop.com/one-step-evaluation-5k-funded-account"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1kZ0MB2wgleOmMOKp-1eVuARylXwUskA7?usp=sharing"
       }
     ],
     "platforms": [
@@ -379,6 +427,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Zach Top | Rodeo + Toy Story Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1l3OhJ_TJq7TbmViCDNUUddZbzMhKoVf5tJyKlPRup8Y/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -416,6 +468,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Split Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ReBQawcdK1R4TwAtSH3iBYBUnlo8okB0r9dx4ShZVC8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -451,6 +507,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nectar Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ongifqyKIvdDKVpqgY7oeZ48VHJkBC95eLfyLD3BlAQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -488,6 +548,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ice Clips Launch Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/ice-clips-creator-network"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1qZTtot8yxeqtJhziFZOZubvPFR0MxGKg"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/17EpNRGT1QuGhY_njTKZmvZqCcupu1i_pHOnpMpd5YWM/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -525,6 +593,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Triple Option - Podcast Clipping [8148] | Official Whop Hub & Assets",
         "url": "https://whop.com/soundnetwork"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1lAxT4ldwWjMc7yn1R59CUvfsjLMZWABW98ufzo8uSe0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -562,6 +634,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fortune Feimster: Get paid 1.50$ per 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/comedy-clipping"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/nr6aoqrxu13e8g5pcobex/AMlhGKLldFxhF9W7eAFBJXc?rlkey=gezyivp099q2hajlban97amo1"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/nr6aoqrxu13e8g5pcobex/AMlhGKLldFxhF9W7eAFBJXc?rlkey=gezyivp099q2hajlban97amo1&amp;st=kybbxbkq&amp;e=1&amp;dl=0"
       }
     ],
     "platforms": [
@@ -599,6 +679,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Betr Pre-Season Week 2 NFL Watermark Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1N5a7jHYPOBmRKS_WClfJEhAK1xOHpbDWqLRe8zpScxM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -636,6 +720,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lainey Wilson | Week 4 | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1tuwdBVEKDVgfMkMqnTThAX1UhQNmFPc6oQjc8_9ytLU/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -673,6 +761,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Swipe Right - Travis Finlay | Swipe Right(red flags/cringy)/Swipe Left(attractive/green flag) Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1fReaJQ6rPlUGmq8Dh6WOBe3c-V8L17TJa7WvbTbMFUI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -708,6 +800,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Goli NAD+ × Target Slideshow Campaign - ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1X73hTD8fS_HphnWdrrjJQmQhyZb96wpFppNwx9E6fcQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -743,6 +839,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BGW QR Pay Vietnam — Russian-speaking Expats | Official Whop Hub & Assets",
         "url": "https://whop.com/bgw-ugc-campaign-en"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1vKv5Rs33J62rRsa2ls2AfqhaLRm150Jud_PccvkfDEI/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1TexqT5PisQxBR-7VhVrA3zUtyZ4L-9wC"
       }
     ],
     "platforms": [
@@ -810,6 +914,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "AiXfunded | Official Whop Hub & Assets",
         "url": "https://whop.com/apex-e8-e111"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1rPulk9nD9my5ifoIpCHwDXGFcEj75GHXvLIHxbXdkAQ"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1s61N__R79EQN7wY0o8upaZZIAeM5hdFV"
       }
     ],
     "platforms": [
@@ -847,6 +959,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROOBET CAMPAIGN V3 | Official Whop Hub & Assets",
         "url": "https://whop.com/creator-casino-37"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LorL4NUXyQfuV804Op_9MuffAVr2LoUmEPZEfhgXDz4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -921,6 +1037,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Influence AI Clipping | $3K Budget | $0.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1g42d8JejKnEizZ8CIVQJU-Nv-tUyNlEa68oFiETaU1U/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1eHxoDVHGDNXUAPmb3i05cn60Gh_ykgVlEPxOBRjzedk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -956,6 +1080,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Freemode AI's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/freemode-ai-character-chat"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1sRioV7KSUI_R4F7dT6LZT-U6EBhPKvqVMyaaT__rlQA/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1OqVIb7LRSWPYolr_-yxIl9o5siDyOZ-a"
       }
     ],
     "platforms": [
@@ -1029,6 +1161,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Dillon Danis Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipup-official"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1zly46IT_r4NFV652Ur8R43X4wkz3TxQP/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1zly46IT_r4NFV652Ur8R43X4wkz3TxQP/edit?usp=sharing&amp;ouid=116290785420948448201&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -1103,6 +1243,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Project Sabrina X ClipIt Fast | Official Whop Hub & Assets",
         "url": "https://whop.com/cif"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1AEB0NxsYGPWMG5_i7oMr8De6lG_fIJnBeGcIEpftJbI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1138,6 +1282,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ryan Zofay - Clipping Campaign 01 | Official Whop Hub & Assets",
         "url": "https://whop.com/ryan-zofay-clipping-network"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1tsGFWUiRZjUcASvtN8x5oxs2HMOKeect5xZTbj81faU/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1g2wgEVd9BT4bFhKxR3Jztd6b5kywaE4s?usp=sharing"
       }
     ],
     "platforms": [
@@ -1206,6 +1358,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MC's Clippers | Official Whop Hub & Assets",
         "url": "https://whop.com/live-with-mc"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1IMOseC30_tsCAXjLpyg-BJpXwm-F9kJG"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1NLWhuUjL77-UmTQgsmDSzKxPLary-1YY"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1C6fZDwxEyhHujKziMlzcpFN9eD6u-xN5"
       }
     ],
     "platforms": [
@@ -1321,6 +1485,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jersey Fusion clipping [EASY] | Official Whop Hub & Assets",
         "url": "https://whop.com/clipup-official"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://private-station-13d.notion.site/Jersey-Fusion-Clipping-3bf292cc5942818c8b49ed0dc33f7f58"
       }
     ],
     "platforms": [
@@ -1356,6 +1524,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Scroll The Bible Clipping | $9K Budget | $1.00 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1PJvQjaaODB5A0EmU6KgvkA-l-sRe3TBOww77QJmEYFk/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1P83QjalpCN1EvuggKKBN4jEh0qN3_y4SCTtQquP1jec/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1467,6 +1643,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Oussenix's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/oussenix-clipping-community"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1uwfs3ICIqA9S2Zrbj6fjQq7-1rZy5R7t?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1ZfXbCWv1cHKe2b2kzvI1LyrQ_3wwyF5p?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15xfmRjYbInDzYImEFRdks6kNq8oLq2Uuf024KStJ-rM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1607,6 +1795,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Russ Ruffino | Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1omFt16-lS_pmgjfiSLbX9rrLuHr-zgVwY_IAMfsGn5A/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1Frn3x7e9AQh--14jx4rHtR4vUB9D82Ry"
       }
     ],
     "platforms": [
@@ -1644,6 +1840,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "K Shami Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1qes39qsYX4wUElMxmkzOvQECKq4jgDuetzEpFmBbG8s/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1681,6 +1881,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ali-A Fortnite Map 1v1 UGC Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/ali-a-73"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Aml7JhVCGedt6SDF1HaKCKFJRKfFPu_zDRbUB1-8dWM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1718,6 +1922,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty - Modern Warfare 4 Multiplayer Trailer Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/u/0/d/1_YgbrVCnGMGS_oT-9Z2IteC9rM_r-VvMgnce_ORlQQk/mobilebasic"
       }
     ],
     "platforms": [
@@ -1755,6 +1963,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DALU OSADEBE X MAISON DELITES | Official Whop Hub & Assets",
         "url": "https://whop.com/test-db-37b4"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/17KA7nsls_ueugRfKALt4-ZkATztzDnnemWmeLkFj5Rw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1790,6 +2002,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gumi-Yum Surprise Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1zm8ykEylcZKAnOjApLFTftUILhJPQVK0i3P-guMPfQw/edit?usp=drivesdk"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1jmSxLnQK6_8GMZBR2mz7_1xwMTgGLVISjxXHIPYtfuo/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1vh4stHYAX6of7mfC1wQ4quqZgTH5jjhS?usp=sharing"
       }
     ],
     "platforms": [
@@ -1896,6 +2120,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Eneba Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/eneba-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1amAjUB5OX-qycVeB3AfQdn0n59ngOAYK5zQyFRjxxLc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -1933,6 +2161,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nilo.io | Roblox Clipping Campaign | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxhub-clips-roblox-clipping-hub"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1hXHPJ-trMe2cdawQR5vwvEbfovAwQMm6CA4HZLDC_-I/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1_zjm2aXLeNanscYRx5IJSIN1sgrukPBH?usp=sharing"
       }
     ],
     "platforms": [
@@ -2070,6 +2306,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Sleepr( Dedicated page) | Official Whop Hub & Assets",
         "url": "https://whop.com/the-sleepr-51"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1pbQxESFdkPVPmX1nv0t0GBpgcai7OQObpXFoI3mfpCY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2107,6 +2347,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Matt Sassari, HNTR - Short Stop |Cartok/ Luxury Car/Auratok/Movie Power Moves/Gym/Masculine Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1dYkXdB0TfAU6j0yRijwZNtAgHB7exZc3njhjieR0UnA/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2142,6 +2386,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ramp | Podcast Clipping Part 2 | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ysJmSEfb1uqviKlL9crqrg84lq89dAphJ-1H-0YmvdY/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2179,6 +2427,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OKX Logo campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/okx-clipping-by-vlayer"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1QTdISAdrk5gD5hZKjzccxeBDbnq84u40?usp=sharing"
       }
     ],
     "platforms": [
@@ -2216,6 +2468,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Kentucky Gentlemen | Performances | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1z_bVh_gWYb0t1WrcU3McHg-VMQp3OjtQJOTbzkkrTFE/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2253,6 +2509,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GRANT KNOCHE: The Next Male Popstar | Official Whop Hub & Assets",
         "url": "https://whop.com/grant-knoche-86"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/18w2kfEdWPe1U42tfE9bXtgsxkRocMKLM?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/13gyobatGhp1SOTLQ-rU1S04cU7Y0I66Lln9RRlHaVpY/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -2290,6 +2554,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "AI Marketing World Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1txaz-L0PT5idkDcTa9VJrzrUKmZ4fHdk4HtAIsZo2vg/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1llYkUMgCMifPyYzqJ2k0QWRV7NWyiLPR?usp=sharing"
       }
     ],
     "platforms": [
@@ -2362,6 +2634,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Destroy Lonely - MONSTER | Lifestyle/ Lyric/ Sports/ Anime Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1K1Xv3eUNmEMX1pjc6VpceZRN4FYwPHy4sJWC1n00uZk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2434,6 +2710,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PH Audience | Clip For Daniel Seavey | $1k Budget | $0.60 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/eclipto-clipper-community"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1XokO4FXFML5Zw3JlNOAMCDCl_AuE5PW5yr4nl3HhH3M/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2508,6 +2788,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tellonym App | Viral Clipping | 1$ CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphub-clipping-10"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/19Gk8MRK1dq_XDKMtduEn8RCt591K2cq2iTwmyvs-Jzc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1vb2j1UJaymll7QZE-xcfolDRCPQMM47G?usp=drive_link"
       }
     ],
     "platforms": [
@@ -2545,6 +2833,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ForgeGUI [X Posts] | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxclips-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ymvmkYB3YsVgDeBQ1E4mWRZg0kmtPFFMYexqdTN89As/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2580,6 +2872,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tash Blake - oUT mY mIND Music Video Hype Clips [8070] | Official Whop Hub & Assets",
         "url": "https://whop.com/soundnetwork"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1zLtw_eNn1G78JvWF3Thup9xzpNEfggPN5Bts8HKhjIk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2648,6 +2944,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "KATSEYE x NHIE [Clipping Campaign] | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphouse-5c"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1x8CjGkLYF0KbxJna_dlGE8ng0VOX3GMK/edit"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1G5Sw5VKQ4lv_HYIb_r--y9HeYZkrTlTD"
       }
     ],
     "platforms": [
@@ -2683,6 +2987,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Kumar Method | Viral Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/the-clip-ship-paid"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/18srvhfvOHkpqc-xEo4XbJRXuxheCgI_Rvymh-U8gOEQ/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2720,6 +3028,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Santa Cruz Medicinals Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/vitaclips"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Ikdds1va_G4JpRXWGZAtIQouz6LItgcm16XlsEUH5kI/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -2757,6 +3069,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "VRG - rebelworld EP | Soccer/Anime/Sports/TV/Film/DJ+Live Person | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ku9oj3f2dIssycv4akm6_ZpP5ts7Uk3ZakmbcLlARqI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2861,6 +3177,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Abu Lahya Clipping - ClipUp | Official Whop Hub & Assets",
         "url": "https://whop.com/abu-lahya-halal-clips-72"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1uMVGC785yHRwZtq2kyK2rg_QA-h4tHXZ/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1uMVGC785yHRwZtq2kyK2rg_QA-h4tHXZ/edit?usp=sharing&amp;ouid=116290785420948448201&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -2935,6 +3259,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fliff Clipping | $5K Budget | $0.40 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1rP8Gzqy5sLzIgBxRnYz1p1BWUgwAad__EqlV_7_yS7M/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10NilPPr7-sOuUGdQ2pYJrTRiNZCYsfhD8yydAe1OGkM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -2971,6 +3303,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Cal Scruby NBA Edits Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingproject"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1mlCamJK71Ffw82exJx64O_Chy-0yUSGwPgxy2zTJ0zY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3008,6 +3344,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Juan Jose Mundo | Movie / Film Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/edit-pictures-10"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/u/7/mobile/folders/1WohCiEKAwDiDwHbgbhoHw3jx21dvmsVj?safe=active"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/u/7/mobile/folders/1WohCiEKAwDiDwHbgbhoHw3jx21dvmsVj?safe=active&amp;usp=share_link"
       }
     ],
     "platforms": [
@@ -3045,6 +3389,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Peponk UGC $100/video | Official Whop Hub & Assets",
         "url": "https://whop.com/clipfunds-content-rewards"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1bzDou5iMs4l6j69FkgfnKRHzBKzHwN_UKJ6_ywtIhgg/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -3082,6 +3430,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "HannibalisFree's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/hannibal-clip"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fi/f7zz6wz9r3nl54z0tuyyr/DJI_20260209001653_0023_D.MP4?rlkey=9basb1z9q0lezqjsbl69z5g30"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fi/f7zz6wz9r3nl54z0tuyyr/DJI_20260209001653_0023_D.MP4?rlkey=9basb1z9q0lezqjsbl69z5g30&amp;st=u9ubuze0&amp;dl=0"
       }
     ],
     "platforms": [
@@ -3119,6 +3475,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lanah Cherry - Stream Clips | Stream Clips/Edits/Content Repo Reposts | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LgNiI4Bk6J-w7rd_buSeigtHafKEUBnvxd3UOaDH9fY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3191,6 +3551,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kaazty Streamer Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipper-hub-07"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1x_V4C81uirc2y9dBtDnyaz7hCQji7oiWDHTgiM7uoA0/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1CM1ZQ4IQiUMiaJ3ruw01wrCK5mL4jBdB7afVBkpnpxQ/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1vwhh7Xz1dciZnPn05rDAi_m9UzBFow34"
       }
     ],
     "platforms": [
@@ -3297,6 +3669,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Newly Creator (AI) | Official Whop Hub & Assets",
         "url": "https://whop.com/newly-03"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/10XEViWdSX6q-Kcg-sCkk2cQ3_Vxx8oOF?usp=sharing"
       }
     ],
     "platforms": [
@@ -3334,6 +3710,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kingdom Clash x UGC Ninja | Official Whop Hub & Assets",
         "url": "https://whop.com/ugc-ninja-90"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://ugcninja.notion.site/Technical-specification-1-Kingdom-Clash-3ad91845215180518226db716ee168b0"
       }
     ],
     "platforms": [
@@ -3404,6 +3784,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GERMANY | Meta-Klage Clipping | $4 CPM | $10,000 Budget | Official Whop Hub & Assets",
         "url": "https://whop.com/begeads"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1qVOndn6euLnXyBLeppY3n1KcPm6RU5oT0pxESsghu_k/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3440,6 +3824,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip for Ascend AI | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-for-ascend-ai-01"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1xcJKAAQwMfp6vtKEFl58hzxdvuSIRc8k9Jeo3_P0UUc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1dnskzzgn7RjjwkeDDni9OcJnLfOzoRP6GTuQ1Thiuik/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -3575,6 +3967,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BitLife Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1twOyD023VuH8e0Wyqg3KWtED_YTrtpj5H1_Osk64DCM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3612,6 +4008,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ready Made UGC Podcast Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingagency"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1o0bf8N0BQFepLKTK8FXUZcMI9etL6M5r6dJlTiJPO1U/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3649,6 +4049,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sprout App Promotion | Official Whop Hub & Assets",
         "url": "https://whop.com/sprout-4c"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1L841jzrIPbVJoJNHQ-kMdDHEqHLgs8NC"
       }
     ],
     "platforms": [
@@ -3723,6 +4127,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nate Herk | Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1HpT_3AxuhhaCr3jeEaYeemGFm6V8WV4fOlFerKTkjzA/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1qbUiQBYmXMgIFSQ43zgAvg7XPHLGbgqN"
       }
     ],
     "platforms": [
@@ -3760,6 +4172,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Doug Elk’s X Oceans [Official Campaign] | Official Whop Hub & Assets",
         "url": "https://whop.com/atlis-ee"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Sp1MYzVQqBXFOLyxRJkYb_fU_Ru7APyOMJYUOYAsAoM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3795,6 +4211,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Earn $1 per 1,000 Views Clipping Fexr | Official Whop Hub & Assets",
         "url": "https://whop.com/plox-media-7a"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1kr3aFNQBvWL7DxH-itsVX5L1HqknYICRyawEAQDLKgQ/edit?tab=t.0#heading=h.lm08kfs0211s"
       }
     ],
     "platforms": [
@@ -3832,6 +4252,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "reegar - nachts wach | MUSIC CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphub-clipping-10"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1MFs8le0hfbe_Tj5XgoRZUtKUomlWQnc3pYnbEmSiYnY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -3904,6 +4328,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Chicken Wrap ENT Clipping| $4k Budget | Official Whop Hub & Assets",
         "url": "https://whop.com/motionclipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1AzbW-C0RWA69TlHBarUojYlWLwHRAWi-2rhFh2djx9I/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/j1z4hu2hfdl6fyce70kcd/AKDrN2izSWXy8QJHYBNdHzs?rlkey=xvvxb4ojkc0fli85ljcp2zfdn"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1wMCj2xOOgRQcBOjk1hkcmQs1aDZlx0Yl"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/j1z4hu2hfdl6fyce70kcd/AKDrN2izSWXy8QJHYBNdHzs?rlkey=xvvxb4ojkc0fli85ljcp2zfdn&amp;st=3v655c81&amp;dl=0"
       }
     ],
     "platforms": [
@@ -3941,6 +4381,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BOXED Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1YqIFkj_bDhsd3Vj-tmyqD1El7-JWd98x1OCovlK0euA/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/30qkc8of7zlx1145pwu1x/AFJ2VcXLna-V96j_dk745mM?rlkey=oum7k7fdtvka05502chm7lyrg"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/30qkc8of7zlx1145pwu1x/AFJ2VcXLna-V96j_dk745mM?rlkey=oum7k7fdtvka05502chm7lyrg&amp;st=9giezj09&amp;dl=0"
       }
     ],
     "platforms": [
@@ -3978,6 +4430,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "United Independents Clipping | $1000 Budget | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/inout-games-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1FbyYmWHe6MgH4ARm09t3oTCJqFmxRViyMKyYo3Uh6ck/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4015,6 +4471,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Janine Berdin Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingproject"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1eRbomYzGYJqscRn3lH-BU8__nv4Wt-8HMqEnKhJxGKw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4158,6 +4618,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Exposing Google Ads Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1FxdL9HWPKp2fvOanLE3RQ3JdX3JO8QjK/edit"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/spreadsheets/d/1X09Qzlliaeg9MoP5aPrYIpFA1tW67U61uifem7S83Zw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4338,6 +4806,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "eBay Live Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/top-drawer-distribution"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/bfyj10dp1j3vgs3b7de0y/ANi14szCv71foemwQeUTc6M?rlkey=tz3o6iqajvs5470y5l901w5i0"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1d5XIs5_3RodBtsa6BFhaFqfQmPOMTYVhMgaU1Y95YK4/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/bfyj10dp1j3vgs3b7de0y/ANi14szCv71foemwQeUTc6M?rlkey=tz3o6iqajvs5470y5l901w5i0&amp;st=2btttflj&amp;dl=0"
       }
     ],
     "platforms": [
@@ -4375,6 +4855,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CLIP TRAXNYC MEETINGS | Official Whop Hub & Assets",
         "url": "https://whop.com/traxnyc"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/syuma6auu1qf2cs7yx0kj/APr4SaR5vvJ09u25g3v8O-Y?rlkey=lzo6ta8ky443vca2zx6mdfdcb"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/syuma6auu1qf2cs7yx0kj/APr4SaR5vvJ09u25g3v8O-Y?rlkey=lzo6ta8ky443vca2zx6mdfdcb&amp;st=bhc60eq8&amp;dl=0"
       }
     ],
     "platforms": [
@@ -4452,6 +4940,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "crushon.ai Creator Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-campaign-hub"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1hbb2Hgnd_tDoOvl_lIDwd_4wqZoyZwHsmiowh85BjWU/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -4538,6 +5030,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fanatics Live Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/top-drawer-distribution"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/ejyyp5nz6sun6gtj1vkdr/ADgWTAN4bWtS2UoaTp7YYbo?rlkey=hqv84k3p7i7h5d6oegtn6hdl0"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1UXYK7gU4e3EQD1t_0rG86-FvYq5hsrjOyC08ojBOYjc/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/ejyyp5nz6sun6gtj1vkdr/ADgWTAN4bWtS2UoaTp7YYbo?rlkey=hqv84k3p7i7h5d6oegtn6hdl0&amp;st=vrbkwhaj&amp;dl=0"
       }
     ],
     "platforms": [
@@ -4575,6 +5079,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Logan Ideker Kick Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/logan-clips-56"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1HQPyPw6DbXZa78g829Wd5MjtJ9sy0oXL"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1DyYvGkOhAQ1DSZm-OlokZ1tdrlNG-Wfm?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1FgAYr4O34YP614RON7-plnx_KxBM54ENVmvXAb7z3As/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4612,6 +5128,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BuzzBallz Ibiza Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1J5lqpbxf1W6kJvY7I_PQ7P6y95dGG6uFHsw5-8he71E/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1rJ9iD5n7FW0Sj6-yewnpXUy3Eo-EgrKm?usp=sharing"
       }
     ],
     "platforms": [
@@ -4686,6 +5210,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Saweb Clipping 2.0 | Official Whop Hub & Assets",
         "url": "https://whop.com/saweb-clipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/18Qqxvn3n1UQAqzvh-LBZnCBA4cE1ZQiz?usp=sharing"
       }
     ],
     "platforms": [
@@ -4723,6 +5251,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Picklebet Canada - Logo Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/picklebet-e4"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ecgVWQ0_IeQwhTBW4TpyaS5BtUezC_nK/edit?usp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1yx5UZSwKH8_piijKr-uu-VzeQKyxTkjd?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ecgVWQ0_IeQwhTBW4TpyaS5BtUezC_nK/edit?usp=drive_link&amp;ouid=115764774192026730459&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -4790,6 +5330,26 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "John Malek Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1dxOYfhHQHY0ixm72hH3Ax2NfcwNqplSSPSu_gqADLyE/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1igqfZMD1Is0NCmEupQpfMT7Ot70r5Zq0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1Ge4J7nSiacHZSjK-rekn_rsSnTvGBB4A?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1HSBHLGQd9qpFigWzumlWBbK_7TznEekX?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1WKKymTRZazq-jLCuY3hy-lnCPg2MZyWc?usp=sharing"
       }
     ],
     "platforms": [
@@ -4861,6 +5421,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ATC App Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1oax2Kf3e4bCpSqSDiCNh3K9NrI7TtiCKvWGJc-FcMUY/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/12gGZ0sysAUjiNg3Zd84EhefN1B-suJbF0BKqn2n7klo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4898,6 +5466,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jesser x ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10Jd6LcNb2fWxnh1MGLMGdazZiENfK8GsK08WxlyfvWs/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -4934,6 +5506,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Coyote vs Acme Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/theclippingproject"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15N81FDdqk5VhgQSskprvy6E7BQyH7VPGnYqy6DqHamU/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1Do22sLYn8-bSaJvuiDSzdIDfz3on_6F0?usp=drive_link"
       }
     ],
     "platforms": [
@@ -5009,6 +5589,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "[VIRAL] Nook Nooks Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1YerPsaRYuWAv8JxqxghbqpcmtPCIQpitd4Z-PElydJI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1d2K4LpBvWSxuLLjSqNBokE7fhmY8fZFJ?usp=sharing"
       }
     ],
     "platforms": [
@@ -5081,6 +5669,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "[VIRAL] Sad Baby Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ialO5xm43UYqt9GR4PTb9AUjOjrQfigNZatWpHfJGKs/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1p4yxuuExEu9sooLBl1IKWk7e-4fcz5w8?usp=sharing"
       }
     ],
     "platforms": [
@@ -5180,6 +5776,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kahree - Pretending, Ready or Not |  Lyric/Gaming/Movie/Gym/Anime/Car/Cortisol Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ZDGXZ3-UHYyIZf6-0WmqiM1JB75L4y0BmGhLkDNcp6g/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5215,6 +5815,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tavo The Producer - Ela Vai Dando Xerecadao | Lyric/Gaming/Movie/Beach/Gym/Anime/Car/Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1NKNewasPH6vuUbVWZSp91AQ-jhzQaR_PVZsprM3Hre0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5285,6 +5889,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "INOUT Games — Viral Game Clips | Boosted RTP Access | Official Whop Hub & Assets",
         "url": "https://whop.com/inout-games-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1vB-6dsdiXMzMQ7qjHO0IXDd53NHh9C_O8A98gnvYKxs/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5322,6 +5930,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DIVE Clips Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/cutwire-clip"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1KnG1GxAPpjbVmPn6SdHFBYwlFpqvUkSLse6oMKdW8E4/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1M_s1J0z04fjviRQRUVoIVlLg2YuOXfrP?usp=sharing"
       }
     ],
     "platforms": [
@@ -5394,6 +6010,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kalisway - Can't Tell Me Nothing | PSP/Lyric/Gaming/Movie/Sports/Gym/Anime/Car/Cortisol Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1J2ft2bqrI2YFNxy4SEW_ScVUYkVJA3JTReKyOmspZFE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5429,6 +6049,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Evan Cabral Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/cif"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1Q-zfPTF79taxuCGjPn4XgKTO0DlwaYug"
       }
     ],
     "platforms": [
@@ -5466,6 +6090,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DES BISHOP | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1HJorZOu01UY_S-Lt74QcW00gHvBK_ScYfz8ubEK0U14/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -5540,6 +6168,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Arena Club x ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1kb22wyQDjefC2tWxyC2vy7rILk-1x7QlCoecXPBjZLY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5575,6 +6207,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Betr NFL Watermark Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Lf4moU4siXsx3e1eXaYBGnmqlvrwqX5JUjsLYbLEva4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5612,6 +6248,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lockdown: No Contact | Official Whop Hub & Assets",
         "url": "https://whop.com/lockdown-no-contact"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1mjm3IVW3Q_UCEETbF5GacjMFn_aPJcKrJCuy_Xb0VTU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5647,6 +6287,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sus.Ai | Official Whop Hub & Assets",
         "url": "https://whop.com/vantaclip-clipping-agency"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1ZL42w4EX-XEphrB8PYO90gMeu85n1yCo?usp=share_link"
       }
     ],
     "platforms": [
@@ -5719,6 +6363,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lil Uzi Vert - YOKO PT.II | Uzi Edits, Culture edits, Sports edits, Meme Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1qZy_32pz9bvNMB5vmfs8MYhqk9wpBHHw9z9cY6rY1k8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5754,6 +6402,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Whethan - Lollapalooza Set | Live DJ Set + Approved Content Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1dQTbBi4rS8lPjN_fgjZGesKEZcIYqidwtw9NhZq2LD8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5789,6 +6441,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "(Deutsch) Call of Duty MW4 | Official Whop Hub & Assets",
         "url": "https://whop.com/german-clipping-f0"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1to9Pn4LRQHGdCkGn4awBlmm50H2AZ1BdO3wfTdrKMAc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5863,6 +6519,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lumena Clipping | $7k Budget | $1.5 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/19wzBj6aGrFX07Fg8oaFVHfMA3eFs1PuNjFWu_SWfXj4"
       }
     ],
     "platforms": [
@@ -5900,6 +6560,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Klap Viral Clipping | $7,000 budget | $2 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1N6h5axvtkMlpNVBdB18sTf0ylo7UVKoT/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1N6h5axvtkMlpNVBdB18sTf0ylo7UVKoT/edit?usp=sharing&amp;ouid=107518388225983257880&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -5937,6 +6605,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty MW4 (en Français) | Official Whop Hub & Assets",
         "url": "https://whop.com/french-clipping-e5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1JycUJBFfjrPlNoSP0k6WELEEmnEmXnn0a3y2IghGSOM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -5974,6 +6646,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sunny Dancer Movie Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/creatorxchange"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/15twUGM98Zorx4Cit4cH2yiE2nMwk9Gs5?usp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1uBFiDQZbDNfwunpynGWOeabjGWX3MHHc?usp=drive_link"
       }
     ],
     "platforms": [
@@ -6011,6 +6691,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip For MegaMcqueen| $5K Budget | Official Whop Hub & Assets",
         "url": "https://whop.com/motionclipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/13jtlQNSXh0s8jpsSn9JEdWU5noksDjTkzY4DtFpR2MY/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Y_eUPEzDoX2UBaTp2bjwVrlALSxDKN7QvKLxRSUrm9U/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6085,6 +6773,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Willie Oval Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/no-validation-music"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1B1MlPoZF77_rrRFBPXLgTu8J3QsI2Fml?usp=drive_link"
       }
     ],
     "platforms": [
@@ -6122,6 +6814,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Maven UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/dumb-money-hunter"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/15p20F9-82zqWrBAKm87O_zrTqr3pUL0V"
       }
     ],
     "platforms": [
@@ -6159,6 +6855,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Maven Branded Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/dumb-money-hunter"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1lsViJd2s-2UGkofTmzuLggkMyjiaDcOA"
       }
     ],
     "platforms": [
@@ -6263,6 +6963,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Cap Table: (Podcast Clipping) | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1s4hvhHRd55ZqeUUv5zndD_ebctvh5XjpbQvF0RdfJ8I/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6298,6 +7002,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gattouz x 1win | Official Whop Hub & Assets",
         "url": "https://whop.com/gattouz0-vip"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/13V6yHyOgRAZelOKCnEz0fjOPHi7BAXD0SNbceEisEDc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6334,6 +7042,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lovable Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/lovable-clipping-e6"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://mediamaxxing.notion.site/lovable-clipping"
       }
     ],
     "platforms": [
@@ -6408,6 +7120,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Promy Creator Campaign, Split-Screen UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/promy-creator-access"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1RqN90RyK7AeoOKBzt8k-lsu__3n-OdapAUAoShN-ZeA/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6443,6 +7159,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Post Clips for Sinparty | Official Whop Hub & Assets",
         "url": "https://whop.com/clipr-agency-ce"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/14ED_PIfvM3jPwSvSLwJP640FYpsXhS-F/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/14ED_PIfvM3jPwSvSLwJP640FYpsXhS-F/edit?usp=sharing&amp;ouid=115808081879974824832&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -6480,6 +7204,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "KANINE CLIPPING CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/clipr-agency-ce"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Z94M3rVntoBeVrkj_vJJituPYcdMTShK/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Z94M3rVntoBeVrkj_vJJituPYcdMTShK/edit?usp=sharing&amp;ouid=115808081879974824832&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -6549,6 +7281,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Unlockt.me | Monetize Your Content | Content Repo + CTA Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1zHDmXU7SioNNu658BrCPQupjHkPq7ucsEMMEGNC6bmI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6586,6 +7322,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "I HATE MODELS CLIPPING CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/clipr-agency-ce"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1t-ebArdfNW5lTqo-brNbWeNlgIm_CxDU/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1t-ebArdfNW5lTqo-brNbWeNlgIm_CxDU/edit?usp=sharing&amp;ouid=115808081879974824832&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -6623,6 +7367,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "FundedNext Clipping | $7.5k budget | $1.5 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1xnJDIPnoigNdQnSCAWRHIt0xTbOW_8eEJ0b-5gNYrcI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6660,6 +7408,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "NEW ME | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1D6CQvYi5fMxoTzDS6hMNrNiLRfPRJMa4IOQ6chwsdLo/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -6697,6 +7449,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Bible BFF Clipping | $10K Budget | $1.00 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipixcorp"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1FtFgAlk_JZqAM3jJzPJZMooXgLuKF-q3wPdOU7OcP5E/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/18wyNe5pREtiZRAG_J9p5PPz4SLRjCISG0xITg55b_d8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6734,6 +7494,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Topps x Clipfarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Fh3rSxEqWKC3XEoFOJSM3pmq2acdg40uL1uwYF_NU9A/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -6806,6 +7570,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ScraperCity People Finder | Official Whop Hub & Assets",
         "url": "https://whop.com/test-b0-552d"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1iPszZdmZDBj3AMJfY79Sgjbmt1C50su0KftEnP510o8/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -6880,6 +7648,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sunny L. | Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1o-A6FYko3ue7cyCnGBliQ3_xUqc60XJY0V8hCyQZuqQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7024,6 +7796,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ollie's National Bargain Hunting Week Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/creatorxchange"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1QgKYBtwJpOLoZZ7pI0ZKnONgY_KOzYlDlOLEsA-iVdg/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7061,6 +7837,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BIA - We On Go | Anime/Odyssey/Spiderman/TV/Film Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1WFmu5C0ur50lc2980VorxpPaU66HZcXZG67ZsmtJtl4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7244,6 +8024,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "jomm - A Lovesick Bossa | LAUFEY EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/flood-division-music"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/13MDv5keX8iZs-j3zbA7Iu24PYGbDQvkWq5t9IoUZ730/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7281,6 +8065,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jake Paul x ClipFarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/194d7U0QI7IunamIgdZbYY9R5XCe7oQT_mhrIiGlnRws/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7316,6 +8104,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Reuben A Geimah | $5k budget - $2 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/reuben-geimah-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Wxo4kbxwKm9dfaABpfVPKqty62FvGOnh9sOjoGJpZjI/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -7353,6 +8145,30 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Amour Propre Music Clipping | $5k Budget | $0.80 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1M24m0oIJWJWkPRJzhmtBD4vg8yAAn0fT/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/6zrsxlcaaj74thaatt1y2/AJ33c4mwMgq_amlCmBk8O7E?rlkey=mj7kw1rw80q15nefg6tb0nzit"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/6pg305i886zuoy647h7t9/AFJpwZmhPne_xPllsk6vNx0?rlkey=nuchou8iumvwuhc6exip1mubs"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1M24m0oIJWJWkPRJzhmtBD4vg8yAAn0fT/edit?usp=sharing&amp;ouid=113983168381726073330&amp;rtpof=true&amp;sd=true"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/6zrsxlcaaj74thaatt1y2/AJ33c4mwMgq_amlCmBk8O7E?rlkey=mj7kw1rw80q15nefg6tb0nzit&amp;st=9ouhy6hw&amp;e=1&amp;dl=0"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/6pg305i886zuoy647h7t9/AFJpwZmhPne_xPllsk6vNx0?rlkey=nuchou8iumvwuhc6exip1mubs&amp;st=mmtocldd&amp;e=1&amp;dl=0"
       }
     ],
     "platforms": [
@@ -7390,6 +8206,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jacques Amoako x EAT | Official Whop Hub & Assets",
         "url": "https://whop.com/test-db-37b4"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1gJD8-nT_XyXNSLDePBS6bkGEa1i_c9NPRfLVIAy9f2Q/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7460,6 +8280,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip Asspizza. Get Paid. | Official Whop Hub & Assets",
         "url": "https://whop.com/lunch-break-freestyle-clips"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1v2cU7nU0bj3TmpFX1AZeDViOPMhkMDqv/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -7678,6 +8502,26 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Antoine Sallis Clipping | $1.50 CPM | All Platforms | Official Whop Hub & Assets",
         "url": "https://whop.com/antoine-sallis-clipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1Ie4mtgF76DO-n37PUFCupkdjI65DyUSL?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/981kxofartswg4z33z2te/ANQD0EBGPEUNmuPWOcaRidU?rlkey=qm5xrvhyawnz0shhox5nxi9tl"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fi/taoluec82wbhsgye9pav3/Antoine-Speaking-Points-For-Editing.mov?rlkey=5zv4edffn7ekkezw2fro6l4h0"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/981kxofartswg4z33z2te/ANQD0EBGPEUNmuPWOcaRidU?rlkey=qm5xrvhyawnz0shhox5nxi9tl&amp;st=o6gmnm38&amp;dl=0"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fi/taoluec82wbhsgye9pav3/Antoine-Speaking-Points-For-Editing.mov?rlkey=5zv4edffn7ekkezw2fro6l4h0&amp;st=pc96abbg&amp;dl=0"
       }
     ],
     "platforms": [
@@ -7716,6 +8560,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Swaggy C | Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nolanharper"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1_sDXW3QKkOCwDF4gUamXqwDRYGYrbm_zvFCs9B8GTA8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7825,6 +8673,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Rex Stax Clipping | $5,000 budget | $0.85 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1FpEkM-lKwfoXCJPbsszhV24u4dBuy22pqJgivSTEFBo/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1jA5yn93GibJzLAGNTa88f6KhP07sEDUI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1C_cIK3mdXuVRiSIXx4gSge3qtdQPT00T?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1jA5yn93GibJzLAGNTa88f6KhP07sEDUI/edit?usp=sharing&amp;ouid=109443333440466067244&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -7862,6 +8726,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Matt Hazen Clipping | $8431 Budget | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipbait-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10uxz7-AWt8QOSZo6WIACYduVeRg9y_HqIXCA3ZtvNJo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -7971,6 +8839,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ATTACK OF THE KILLER TOMATOES | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1awid_RSVina5x6IxAZndb62CqtEFKlQkksLsyz5ndJc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1TOkpy53hyTdC16J1gWYe5tdbPx6zL_0m?usp=sharing"
       }
     ],
     "platforms": [
@@ -8008,6 +8884,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "INDEPENDENT VOTER NEWS | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LBuH1R4mwMeaVknpt48gNKiZu0Bao8T7bXD6dwhvYdE/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/9iv6sdg0tgc43ufqdfsog/AG3ldeesPHfMkcteLWVrdjk?rlkey=yqonf6vm3bmonf658d4fjh0qr"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/9iv6sdg0tgc43ufqdfsog/AG3ldeesPHfMkcteLWVrdjk?rlkey=yqonf6vm3bmonf658d4fjh0qr&amp;st=7lj9hmx7&amp;e=2&amp;dl=0"
       }
     ],
     "platforms": [
@@ -8077,6 +8965,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Virality UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/virality-37"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://glen-beam-606.notion.site/Virality-UGC-Creator-Onboarding-39832e96be6e804b95dbcfdccfd1d963"
       }
     ],
     "platforms": [
@@ -8114,6 +9006,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ismail Vali Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/cliptic-io"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15D9jHcwBFayiQu-zy0sGsrH3t_4-w7M2pBQz7b0mZtY/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -8188,6 +9084,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "James O'Keefe Clipping | $7080 Budget | $1.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clipbait-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/114aD7V3O89xf2JGWBke3SR_mfTAyrrBpM0yVDyVFZ8c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8336,6 +9236,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Keymagine {Language learning slides} | Official Whop Hub & Assets",
         "url": "https://whop.com/vyronclippingwhop"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/16j7R_bCdizLJh7r4iSIGa8eRBLD6lWZi"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1UwNJqsqjow0TdEwgKRLraGWuQXGcg8-AKSHECH6_hg0/edit?usp=drive_link"
       }
     ],
     "platforms": [
@@ -8373,6 +9281,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PGF Clipping | $5K Budget | $0.70 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1W8yvBhoSTnfmJOZ-HK2cb6Xib9yah6Ew?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1-qS4Okf6Jx35HZbycG6aeY7okRMDZ4Cs/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1W8yvBhoSTnfmJOZ-HK2cb6Xib9yah6Ew"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1-qS4Okf6Jx35HZbycG6aeY7okRMDZ4Cs/edit?usp=sharing&amp;ouid=113983168381726073330&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -8410,6 +9334,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "(DE) Tattoo Schule Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/tattoo-fundamentals-kurs"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1AnWXt8f1JsmbC36u5EEvP_b0D3vGfvJe?usp=sharing"
       }
     ],
     "platforms": [
@@ -8447,6 +9375,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kuala - bake shop | VIRAL MUSIC TREND ON TIKTOK | Official Whop Hub & Assets",
         "url": "https://whop.com/flood-division-music"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1xD0ZhMZlcP2oI1WFaGAAj8wIfKhG2KmY2J4xJgRj_Fo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8482,6 +9414,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Michael Gene Clipping [$500 Payout] | Official Whop Hub & Assets",
         "url": "https://whop.com/saas-profits"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1AmKLk0LyPUmM1Wu7T_7PYHfL7prJoZvVPThneXijZkc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1F9iB_W4Lsggvt0cH0uZT3BLuFkeG2Ete"
       }
     ],
     "platforms": [
@@ -8518,6 +9458,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Omoggle Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipup-official"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1cAq4FqEF5wmxFKJv8EZBiTsfa4lf2OIc/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -8555,6 +9499,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Elo Cooking Slideshows Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-track-access"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1bnUf9JbuD4C3eFpmHXrQKoWo1kNeSiPNPfnFRyxsvkQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8592,6 +9540,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Daniel Bitton Official Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Daniel-Bitton-Official-Clipping-3a33c5a3631680deb7b4c94a46ddd4b9?pvs=73"
       }
     ],
     "platforms": [
@@ -8698,6 +9650,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Earn with our Logo (Darts Content) | Official Whop Hub & Assets",
         "url": "https://whop.com/coingroup"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1tcxpsQljJ7o-Yh8AUGvOV1ZJ9Ax4oSb7?usp=sharingusp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1CRHLv4MptABnbuovMFmv5OSb0d1Skigr?usp=sharing"
       }
     ],
     "platforms": [
@@ -8735,6 +9695,30 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Real Wolf Of Wall Street Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/biolongevity-creators"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1J6L_QeV8Wu1apzlQPa6Sh6xM9GEq1HcA/view"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1dJzhREax2vzrfl_c58V6x3ep-INs2rZZ"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/18tza1BQeo6ZEQ0yNNjSEqpbKOthh_eCcjOFgcgrl_nc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1rEyKtYl1oftra2zJL6t1U2ZPWfcHNAu6/view"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1x56V_zxYlW9xoMti4eqcOInXrqHNTyWQ/view"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/17IG0vEkI82jD0yP-CrmPrBWdQJwd7S4a/view"
       }
     ],
     "platforms": [
@@ -8846,6 +9830,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "RosarioRay- Mink | Sport + Love Island Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/100bYKzUPGOc9KFcdBbc62X7_b8lkZbK8As_0JRUqb2I/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8919,6 +9907,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Duel.com | Blackjack Clipping Campaign 2 | Official Whop Hub & Assets",
         "url": "https://whop.com/clipper-community-29"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1488qAj_7Xp_QlIPU0j-4p1MIzuM2oKpkHvQRg-2aJb0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -8985,6 +9977,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lia Engel Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/lia-engel-clips-91"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1ciPB1b_jxcWfP1VGoC8kf6m3pltT7tj9?usp=sharing"
       }
     ],
     "platforms": [
@@ -9057,6 +10053,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sus.ai's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/sus-clips"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1WgHK2Xr54ow3c7GTdFa26miALZmcouGa/view?usp=share_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1QZnQ9dpyXdLfEUCBVpjTT31_YB8wAj3E/view?usp=share_link"
       }
     ],
     "platforms": [
@@ -9094,6 +10098,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "TestoMaxxing Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/testomaxxing-members"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1ouVXT_js2ZyCT5bKuoBpkJ8n2aw3farp?usp=sharing"
       }
     ],
     "platforms": [
@@ -9130,6 +10138,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MODO.US | LOGO CAMPAIGN | Official Whop Hub & Assets",
         "url": "https://whop.com/modo-clipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/154yB2TWaP4lHvekAw-es4tyKBmtpF3Y7?usp=sharing"
       }
     ],
     "platforms": [
@@ -9167,6 +10179,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Andy Harrington Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/villager-cc"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1b4lqO_XAIzfPMOpEGfez0WccmVP_iv1e"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15aUjD8sTl5zIT52z0T9xDF-7nx8NOMelmqmjgKGOdHo/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9283,6 +10303,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Leo Faboux - Real Estate | Official Whop Hub & Assets",
         "url": "https://whop.com/ia-creator-pro"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1I4-D30C-ahsvdE2rJWHEwQzeEfnAh7MyI3e8uKIAzCM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9321,6 +10345,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Props UGC — Guess the Movie Game — $1 per 1K views | Official Whop Hub & Assets",
         "url": "https://whop.com/props-creator-community"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1d7HRfEQ7QpL1CXpRKsVNozgXfbXnWHLoxhBWMbmqXW4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9358,6 +10386,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nick Malinosky Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1vp_SB9wvVQZvHXggKrR2DVMA33bd9ZnenpxOBtYtlsM/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9394,6 +10426,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Tell A Filterbuy Story - UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/filterbuy-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15Yubrnh6ps-NHRvmJEM1mkfWtgCHWthdhG0MJ2xcelA/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9431,6 +10467,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Videos de YT - General | Official Whop Hub & Assets",
         "url": "https://whop.com/carlotta-clipping-team-46"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1_8AlsIGFqLAhO5ZmxHLH5BEwFW9on3SG?usp=drive_link"
       }
     ],
     "platforms": [
@@ -9466,6 +10506,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MSCHF | Official Whop Hub & Assets",
         "url": "https://whop.com/mschf-eb"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Sa91EVGZeBfnqI0bV2GhJBa81IblRDj7/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1w4cerfDa90XUiROYKm8_lkCFc_bj__G3/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Sa91EVGZeBfnqI0bV2GhJBa81IblRDj7/edit?usp=sharing&amp;ouid=106648938919578928683&amp;rtpof=true&amp;sd=true"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1w4cerfDa90XUiROYKm8_lkCFc_bj__G3/edit?usp=sharing&amp;ouid=106648938919578928683&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -9571,6 +10627,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GameBoost | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1KdnorKa7tsVKUVWqC2bsweO6uOD-mWEaklgilNbY8cc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1YV7BKagbz8sRVIOqZ6et1Hck94voX-aH?usp=drive_link"
       }
     ],
     "platforms": [
@@ -9608,6 +10672,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "[VIRAL] Fuggler Baddies x Mexico Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1VXEHyJj-YAe4db86uPnTn8fF4k8IhT-tJEA8LwraxzE/edit?usp=drivesdk"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1l22xDt9I6z9Ql28ODxFh1p8V89P5QYG9"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1-Ajhp1ZZ1hQMLsUoVBp5IZehBAK2JAQPlw_5iYyhWwI/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -9680,6 +10756,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Arrafund Stream Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-it-fast-9b"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1KyMR-0ZGmv0Fik75dXhkCmsihKnY8WzD/view?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -9754,6 +10834,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1AhZ9ORj83UYhwXP6-VpY3lKBuLM1lEBr?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/spreadsheets/d/1bUNWRGwyP2TiRwUUzh8QbD_Jlwg_a8xnFUa7PKVzbZI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/107PUDt8DL5O6pmJad9ekRLVZiMyPNCQN3zzc6ScFT8k/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9826,6 +10922,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Joe Casino Brand Logo Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/koji-media-network"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1FEqbqZ1NONedqUqcFIXxit_d20IOvWYEbLCPsQw8cX0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -9863,6 +10963,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "My Other Mother | VURT's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/vurt-clipper-access"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1-RvgnuPwlfD9tTuuUFxqONx52Pr-q7c4?usp=drive_link"
       }
     ],
     "platforms": [
@@ -9937,6 +11041,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PeakBFF Workout Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/peakbff-ed"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LHISbY2acWAUnUFH-8UCN81DKDycm-6gZ3gDKoVk7cQ/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1CqbyXP7nE8x21tzGt2sh4A220Q1_XGGo?usp=drive_link"
       }
     ],
     "platforms": [
@@ -10005,6 +11117,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Glaive - God Save the Three | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1cQyBLoOzzJKlBoJcktuZ6A9GuHivUIkdRrPx0rqwK24/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10105,6 +11221,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Lucas Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/lucas-clipping-b6"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15D8mdXypE8aDsL7yi-Ok62nHw5QwlrBIuB0JpRiqOVU"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1hVnbTSAsArkyVdkjhwfznwBCfwc3VxHC?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15D8mdXypE8aDsL7yi-Ok62nHw5QwlrBIuB0JpRiqOVU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10142,6 +11270,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Messi Edits/Clips - Lykke Li | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10L_5QyFdbiVyYUm42cpY-kAj9kwIgu7g38OuQ6hHrVI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10216,6 +11348,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Dr. Kiki Ramsey Clipping Career Rescue Hotline | Official Whop Hub & Assets",
         "url": "https://whop.com/dr-kiki-ramsey-creator-program-c6"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1XdDt1PkfmarFBMjTEKXwuLF5Kml9s3PvEmKgKLTM5BE/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/194ECmgMqENEOZupEvIak_s8s0w_cczGR?usp=sharing"
       }
     ],
     "platforms": [
@@ -10253,6 +11393,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Goodluck with Gino Podcast Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clouted-clipping-membership"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1gKkBkzPveE0vI6EgVy2joEJ-bQZ6vQMy?usp=sharing"
       }
     ],
     "platforms": [
@@ -10290,6 +11434,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "LSR/CITY X CLIPPING | Official Whop Hub & Assets",
         "url": "https://whop.com/lsr-access"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1N2SCnAShF2OlC5_h2Zvhfz5XOHr_rJ0ysV83bmRiSRE/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/0yavxwlup09ak6j8nkf4k/AMsOTIUbPwyueJiysTCJnys?rlkey=k407qpgdluosc5y629uxierqs"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1YS0m5M0ZXsMPlO3bH-ftNbcSvdu-Iz7zYNFb70rSQlU/edit?usp=sharing"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/0yavxwlup09ak6j8nkf4k/AMsOTIUbPwyueJiysTCJnys?rlkey=k407qpgdluosc5y629uxierqs&amp;st=811fetfy&amp;dl=0"
       }
     ],
     "platforms": [
@@ -10325,6 +11485,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Velasco Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/brazil-clips"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://decorous-rumba-b2a.notion.site/Velasco-Clips-3a2358f0c19980529818e1782a5444ff"
       }
     ],
     "platforms": [
@@ -10394,6 +11558,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Kesha - Origami | TV/Movie/FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ehIwqWYpnh4dUIg0RgrzjIuxmorpYKnDa1fZbJtQMwg/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10429,6 +11597,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "THE LIVING ROOM PODCAST | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1lWlwnXa-97aBKdZ-FEYpq3cx3Zwoab3qy4tvO3yTifI/edit"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/ezet2mide2p7d1qp80yd3/AAwyGxoGYym4WdOGq-CS0oI?rlkey=88meq22nz4tcll8i1xg4isyde"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/ezet2mide2p7d1qp80yd3/AAwyGxoGYym4WdOGq-CS0oI?rlkey=88meq22nz4tcll8i1xg4isyde&amp;st=i5rqb1ae&amp;dl=0"
       }
     ],
     "platforms": [
@@ -10466,6 +11646,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MoorHouse Media Network - $2.50 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/moorhouse-clipper-portal"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1IoeF00Zu-P_iQW6aFZuWiujkkBR6M9ts?usp=sharing"
       }
     ],
     "platforms": [
@@ -10515,6 +11699,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "🏛️ Olympus - UGC 3$ per 1,000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/vo-creations-e7"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1sd5bq-AJ59r6u5rbpQDLOPKCnp-_MItHl_ww20cshas/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10587,6 +11775,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "My Singing Monsters Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/cliptic-io"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1QVIYb45hQ3lHctYMjSXGM3AqRckHMoOabpe7UK8ZDtw/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -10624,6 +11816,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Brutalismus 3000 - Testo Skin Part 1 | Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1qY_ACMbLuQhlIp5iqejWL7NwQlodaX8Dg2GMUvoxoS0/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10659,6 +11855,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "1nonly - GRAILED | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1MFR6PCEjFD-L0EkCf3JftvGYVMNeDY4PZiWkA-e7c1o/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10731,6 +11931,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CLIPPING ESPAÑOL - Daniel Curto | Official Whop Hub & Assets",
         "url": "https://whop.com/equipo"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1jCsXqLOybuuauHcwBWCV5-Mllx5w4wG4iik9T3tdVP0/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1NO8lneyDQLvuHMUKvoLX_15lvOT1AJS5?usp=drive_link"
       }
     ],
     "platforms": [
@@ -10837,6 +12045,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DrivePhase [UGC Campaign] | Official Whop Hub & Assets",
         "url": "https://whop.com/drivephase-4b"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1V9Olb1BS4TUNSDDcpTZv8f0jBtudklq6?usp=sharing"
       }
     ],
     "platforms": [
@@ -10874,6 +12086,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "LearnKata AI [UGC] | Official Whop Hub & Assets",
         "url": "https://whop.com/reachify-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Ahr9ac5XhlQ4sIk-FFWkavFbh-RKFHfCBIWyWvuF1S4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10911,6 +12127,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Squibb.ai | $4 per 1k | No Dedicated Page Needed | Official Whop Hub & Assets",
         "url": "https://whop.com/copyclips"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1vqD26FfNbf4YDvCZ3KsYuzZCquYU2QIuK5XS-WlPSHE/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1pYTDyY-xLPfF4_xHkBHXhe2VHKnlzQxJ?usp=sharing"
       }
     ],
     "platforms": [
@@ -10948,6 +12172,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Superpower Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1gcI-0bbfzH-4C-nQKLkXnCVGpJVwhg1qajf1Z4qU51Q/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -10984,6 +12212,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sauti - Francis Mercier | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/17LFYlAI2ujz_54LgLbpVfd9_L593LE-4bEjWejO13ME/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11019,6 +12251,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "No Tomorrow Audio Campaign | Soccer/Friendship/Nostalgia Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/no-tomorrow-7e"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1-9PUhe3vRf9CqPUhqrGltLGMZC-z2q_BqbBupTEFhYU/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -11093,6 +12329,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Overtake Games Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10S9PJ60Clnn82lf6GbRtRjHm3u2Lp72XLK6wi67L-GQ/edit?usp=drivesdk"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1zHTpGnzkTCI_crc89bryg16K-Odd9UG4?usp=sharing"
       }
     ],
     "platforms": [
@@ -11130,6 +12374,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Brad Tursi - Ms. Independent | Nature Edits/ American TV/Film / Country Girl UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/19QWshgRuCvZW4SOGw5kuv0TWfIoORs_SmMVP7opx3Rc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11173,6 +12421,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Maxim Hair Restoration Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/maxim-hair-restoration-3d"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1mZygGfzevWY0JJ8PsOJAjxgiQXKqtQl2?usp=drive_link"
       }
     ],
     "platforms": [
@@ -11247,6 +12499,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Whoods's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/whoods-clips-fc"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1IMFILVff10j0oC08M2dfPbvVOzB_FUijJ-gpTwP3sdw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11314,6 +12570,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "David Guetta - Run Run River | Summer Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/180uUEtKEq5hmtgOa-D7g2NiIlGXh2L-q1Rd6ZyBeywA/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11349,6 +12609,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Two Cuzzos - Say It Now | FIFA/Summer/VHS Edits | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1BTNwzuOwKFFHBc4pRvjr1xOfSkFRem--fvwr1pNaKhE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11384,6 +12648,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Leon Bridges | Outside Lands | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ypmCDm8rdUSZrxKVGcb1BctI30gGykKis3tyMgdjpvQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11421,6 +12689,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Playsteppa X Syndicate | Official Whop Hub & Assets",
         "url": "https://whop.com/syndicate-creators"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1NDvrqVwZoL83JjWpvJHbg9tpOkFAl0Ux6579_kQFhVI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11456,6 +12728,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Foster The People - OMRI Remix Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1XH76dQZA0S3TPQWDcwzH6IYloWWPilJtgw7dWdXqV8E/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -11493,6 +12769,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "MUTUUM | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1AnERj0Ec8RKYrbT9hOw9gAvKxbfwClXiJ_3-56DlYDc/edit?tab=t.0"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ZdHVhAqkXqQzkoeVk34vO_cs5k5bVrYSTdv5fY10xyE/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -11530,6 +12814,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Easy Dancegreetings Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/personalized-birthday-dance-greeting"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1DhM_Ss9cfZEtZXv_EefnibSta8yoH0ve?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1O4xD-bHyuuKvAstmsJcLUkWiPFORZ1Vr/view?usp=drive_link"
       }
     ],
     "platforms": [
@@ -11567,6 +12859,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Hello Nancy- Clipping ( Dedicated Page) | Official Whop Hub & Assets",
         "url": "https://whop.com/hello-nancy-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1EZoGb18jeIYrwBIlYJAUn0L9JMJZI-0QuD77K_nruf4/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1glvEsOfs8cbxFbyNINKW9Q4jHVOxIzWX/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -11639,6 +12939,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Candy Shorts | AI Micro Dramas | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1q9Jqq1nyFA8XVlVMsgFhO9JM-G0OCVnA9AgzGWJZ5Fc/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -11674,6 +12978,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PULP Clipping [GAMING CLIPS] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1NrqvbTIf2EY_k5r6zR4BOHNxZxvLIm2h/edit"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/15u7x8jqub-qTImfMmTcm3fgOYSZTbby5"
       }
     ],
     "platforms": [
@@ -11709,6 +13021,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CoCo Jones x Clipfarm | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1wS1XxJLqeNJq_rFxaw0_aMu7BPrGkvOhYWKA9NX1AHU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11744,6 +13060,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Liftly Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1NGtAGekwiqofyaKVk9nqKdKs4d2xnQQDdaSILc-27Gw/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1EYYCdC8smjqF6UlWmbKUBt19KiptSN6Z?usp=sharing"
       }
     ],
     "platforms": [
@@ -11780,6 +13104,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Sticker Therapy Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-influence"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1q2iiIpqYaOZ40KR0jS8vuDZTb2N9simsTvoQaM7W5GE/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1lJNQXpiskDiISPyQEFAOnJ2bLHuzuwQA"
       }
     ],
     "platforms": [
@@ -11817,6 +13149,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "SPANISH CLIPPING - DAVID SCHEUER | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1m0zbdy6a8oHvvpzzgDFCvXA2PuFMAtR8uXE2qBZ06_c/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -11854,6 +13190,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Zach Boyajian Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1zae8MEDDig55VdaySTYXte9wkDXAAeuUDglRWFJ09X0/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1lq6af4YVYROTBfR_YiyA4aL2EV-vZNaS?usp=sharing"
       }
     ],
     "platforms": [
@@ -11891,6 +13235,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PEPTIPRICES | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LCZjcYvtFR7DPWE4_UstjBouTX5rS37M7XQ8xxH5LTE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -11928,6 +13276,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "PixelSurf AI [Slideshow] | Official Whop Hub & Assets",
         "url": "https://whop.com/virality-37"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://mountain-library-5df.notion.site/PixelSurf-AI-Slideshow-3a4f6405afd780f9acedd7fcfb24424e?source=copy_link"
       }
     ],
     "platforms": [
@@ -12002,6 +13354,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Cap Table - CLOUTED (Podcast Clipping) | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1cUpnDX46Or8Sr3sRCnDp6jRcpUs4O72i6IVt3oDMBEc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12037,6 +13393,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "REN.Y.C Music Clipping | $10k Budget | $1 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1h-Y_EazB5VoTMsYEYXn_YaBpdt5asN93/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10wvNS-eFYg2rcx4s7H6LFG5QZ--SLlXy_K5zpILIgyc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1h-Y_EazB5VoTMsYEYXn_YaBpdt5asN93/edit?usp=sharing&amp;ouid=116559750974052591313&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -12074,6 +13442,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Smartlead AI | Podcast/Talking-Head | $7k Budget | $2.01 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1DSc8JSbTC6-gVZ8JpvXANaV1Ynljj9Zm/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1DSc8JSbTC6-gVZ8JpvXANaV1Ynljj9Zm/edit?usp=sharing&amp;ouid=116559750974052591313&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -12111,6 +13487,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Cap Table - AVI (Podcast Clipping) | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1H3lcqw4KzyfW6XEoe_KxQruh6MLEANvyyTRkP3XG4nw/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12146,6 +13526,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Medal TV [GAMING] | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxclips-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1JzXept3dbQOxWOYFaVXSmNPfHW5nkBOwwGjQylqRmFk/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12220,6 +13604,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROBIN | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://versed-cabin-f06.notion.site/Robin-x-Clip-Haus-Onboarding-20-min-6d5ea18e369083c38d5701ca43f68578"
       }
     ],
     "platforms": [
@@ -12257,6 +13645,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CapCut Clipping | $30k Budget | $3 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/propaganda-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LSNg7Io4CQlW5jsumV_Ms1B0LAz6h6Zp/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LSNg7Io4CQlW5jsumV_Ms1B0LAz6h6Zp/edit?usp=sharing&amp;ouid=107518388225983257880&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -12292,6 +13688,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Boxabl Official Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-farm-d5"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1DP7iD-sndoSnaihYhwppziogPXi5ZT3OkTHiOQI__X0/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1QwGNf5KW_ACPqlkLpVvraUXlM8-lJz170yz2YOuR-SE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12393,6 +13797,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Madeon | Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1cia4pL9AxTdHgF71ae9E1gVSzItsVrW7dau4eCM3DRE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12430,6 +13838,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Faceless UGC [Non-English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -12498,6 +13910,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Long-form UGC [Non-English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://quickest-show-e6a.notion.site/Get-your-Custom-Affiliate-Link-37d62de5dff1802388f9e095a58ce83b?pvs=74"
       }
     ],
     "platforms": [
@@ -12535,6 +13955,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Infinity Song - Hurricane | FIFA EDITS | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1rr5vJMTUMUP3D859-J1JXuEgGxBV_rNwzjjyJNOXbik/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12570,6 +13994,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gryffin - Spin Me Slowly x Forza Horizon 6 | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1JH0ofn2hMm3UpdbJO_bssy4oJfpsclnk4OG8hOyeet4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12605,6 +14033,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Betway - WC GIF Logo Campaign (Canada) | Official Whop Hub & Assets",
         "url": "https://whop.com/super-g-rising-85"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1dyBW2KLb8k6S5nE3uyb5h3pBSneWBXqs3EbQqxbtPhc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1URXOJt1ty9wIpCswRWPD_mjqatTwX6TN?usp=drive_link"
       }
     ],
     "platforms": [
@@ -12642,6 +14078,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Voromotors Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-smart"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1_GedeCBLeTMorhaiJqAfguAaSKVJh2e2ELxnnKLa7VE/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -12714,6 +14154,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty MW4 عربي | Official Whop Hub & Assets",
         "url": "https://whop.com/arabicclipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1zmbtnlD3EC8VrmGtv4R6KRfp48mfaMy9/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -12786,6 +14230,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Brian Carmichael Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/shansbruh-clips"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1iJk9db__bIjDg3iPzdrUzE__jjEbi5dd"
       }
     ],
     "platforms": [
@@ -12860,6 +14308,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "FortuneJack WC [Logo + English Content] | Official Whop Hub & Assets",
         "url": "https://whop.com/billbord"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/17i8901ZtXBcGYfir4CuXwchfHmIeP58_JPGi3_ZpkHc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1MqqvaZ1ngnnQWEy7oeLVAHyTvJlubPo9?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1mhp_SOo_43fKO1TQ2brPVnN2yK2pvnXJ?usp=sharing"
       }
     ],
     "platforms": [
@@ -12897,6 +14357,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DOMINGUERO CAMPAÑA ESPAÑOL | Official Whop Hub & Assets",
         "url": "https://whop.com/clippers-hub-o-whopify"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1LP1RfrID0o0rxUUofBnYL_emnDZ2BFnR"
       }
     ],
     "platforms": [
@@ -13078,6 +14542,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Roblox Content Rewards – Make Shorts, Get Paid Fast! | Official Whop Hub & Assets",
         "url": "https://whop.com/gsn-clips-access"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1ttFCCYioHQZx6mHz6WUe9wgF7W8ruI1XO751lMGxA-E/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13113,6 +14581,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Slideshows [Non-English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -13150,6 +14622,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yan Deschênes Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/yan-dechesne-clipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1LmXB2_Y7A5RHqol3whYlnWefBZt5YEb7?usp=sharing"
       }
     ],
     "platforms": [
@@ -13187,6 +14663,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Venture Travel App UGC | $2 per 1,000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/venture-app"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1dXnv3gyAGFh-la3Bsa2_EJ4LH0fPoAi7/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -13261,6 +14741,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Bloxks UGC Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/zzz-createur"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1M6j2FdOd129scRfLEFMbr24ALPQ_IcJl?usp=sharing"
       }
     ],
     "platforms": [
@@ -13335,6 +14819,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "VIRAL INSTA TIKTOK SHIRIN DAYEL CLIPPING I 1000$ I $1 CPM | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-crew-jetzt-clippen-verdienen"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/fp9eif6qr2dsn3k0axt4k/ALRh8q7D4ksqxz1YLAWTgCc?rlkey=k2k02jq8whd4z2smhg7vmbmhl"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/fp9eif6qr2dsn3k0axt4k/ALRh8q7D4ksqxz1YLAWTgCc?rlkey=k2k02jq8whd4z2smhg7vmbmhl&amp;st=y05af3hx&amp;dl=0"
       }
     ],
     "platforms": [
@@ -13408,6 +14900,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "UGC Repurposing [International] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -13445,6 +14941,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Content Rewards [English UGC Reaction] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -13482,6 +14982,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Repost existing content - CoinPoker Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/coingroup"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/u/0/folders/16O5YpkROUvE1HaDxEh3EKZsSD2dIkWni"
       }
     ],
     "platforms": [
@@ -13519,6 +15023,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Pepty SLIDESHOWS [HEALTH] | Official Whop Hub & Assets",
         "url": "https://whop.com/reachify-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Dr-WVF_hRh_vgnq_fXeAUYHLBxjl5itI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/16iUDPuwKOtJQnDWxIQNXpdUdvQP09bM4IA_sw3KNysg/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Dr-WVF_hRh_vgnq_fXeAUYHLBxjl5itI/edit?usp=sharing&amp;ouid=112759658239018817659&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -13623,6 +15139,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Faceless UGC [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -13660,6 +15180,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fundingpips Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/instant-funding-81"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1nkWcQQGVq5FngnSKBdRuQnLMbmnhHoaO1kYcKdzZVFs/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1f7SVRCLSKajGQ3iXGPGQOtznEXovnw5q?usp=sharing"
       }
     ],
     "platforms": [
@@ -13734,6 +15262,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Poboy's Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/nquarters-free-access"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1wFNao4GQPgH2CBg6T7O0urEooYYuzk02?usp=sharing"
       }
     ],
     "platforms": [
@@ -13771,6 +15303,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Ouinex [Logo Clipping] | Official Whop Hub & Assets",
         "url": "https://whop.com/billbord"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1bJ_rmITn-atc1Yge8NrsQB2CEeg-lA9D"
       }
     ],
     "platforms": [
@@ -13808,6 +15344,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DUEL.COM | LIVE BLACKJACK CLIPPING | Official Whop Hub & Assets",
         "url": "https://whop.com/clipcashai"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1kaFjvUM5wFpAqNgCBJbLbn9bnXmKalvjrd4KRLxg92c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -13845,6 +15385,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Long-form UGC | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a?pvs=74"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Get-your-Custom-Affiliate-Link-c5f3c5a3631682648f7d01c05275e89c?pvs=74"
       }
     ],
     "platforms": [
@@ -13882,6 +15430,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ASHTON HALL - LINKME TONIGHT | Official Whop Hub & Assets",
         "url": "https://whop.com/cliphaus-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/16Pjfl8hhg7_VL38hbM46uHOlpn-0A8zV3od7MeOYoKM/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1HNvo3j69cck7tFAfXsu9TFv4MocYdyc_"
       }
     ],
     "platforms": [
@@ -13917,6 +15473,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BLOND:ISH | Pacha Ibiza Residency | Official Whop Hub & Assets",
         "url": "https://whop.com/scene-society-43"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1haFPQXyYWRcHHHRvvMDr6p0CUjJNacR_snBKtzlJfqw/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -13954,6 +15514,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DiegoLoveless Clipping [TWITCH CLIPS] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1k46Hw5WxsGl1xec-Q3ZIMpUN5b-gaV9Z/edit"
       }
     ],
     "platforms": [
@@ -13989,6 +15553,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Talking-Head UGC [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -14026,6 +15594,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yomi Denzel Clipping – $1 per 1,000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/yomi-denzel-clipping-us"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1rWuP2OZ5x9t5u8gCZnYdRogwNueIDz5V?usp=sharing"
       }
     ],
     "platforms": [
@@ -14063,6 +15635,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Call of Duty - Modern Warfare 4 Reveal Trailer Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clippingculture"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/e/2PACX-1vQY4QWKDHbFzPU1RKMRkDMHOszlRU7KS-Xe_sueckkl0Jzsx-eaaeVzICC2it0k4qoI8f4CLPbNxZUG/pub"
       }
     ],
     "platforms": [
@@ -14100,6 +15676,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROOBET UGC REPOSTING V2 | Official Whop Hub & Assets",
         "url": "https://whop.com/creator-casino-7b"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1_gUz5qeibYHZrWd5z49eYGP9dLR7WqGL6dv5rs-4R-Q/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14376,6 +15956,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "STRATFORGE x Scalify (German Audience) | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-campagne-30"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1fmuXw-CJOtmu9yX9AGGNq8JGqQTYp8XB"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1VH7KY1pyk-hDZ9BdPYP_LtksTy0xe_BP?usp=sharing"
       }
     ],
     "platforms": [
@@ -14411,6 +15999,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Whiff Wellness Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/whiff-reset-your-state-in-30-seconds"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/11RcMHJdGxIYmiesHPfGbvro7t2cgX-Cn?usp=sharing"
       }
     ],
     "platforms": [
@@ -14447,6 +16039,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "redeye - burned | Music Audio Only Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/join-music-promo-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1_Gjss3hp_99ta4UW4gi4xn7PDAzz2mfxLRPiLw3eNQg/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14521,6 +16117,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Dr. Shawn Smith's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-team-9e"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1cQb1zy51lhxalWG6GU5YI-XhkA9fy626?usp=drive_link"
       }
     ],
     "platforms": [
@@ -14630,6 +16230,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "The Secrets that 99% of DJs don't know - James Hype (Clipping) | Official Whop Hub & Assets",
         "url": "https://whop.com/james-hype-7b"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1fpsSuTXgSsXyZoz625yVFVgmNQ4EHM4DepBXqx4NX1A/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14667,6 +16271,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gyro's Campaign - HeyGyro.com | Official Whop Hub & Assets",
         "url": "https://whop.com/gyro-5a"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1dLkQqkwqCZ4gjrv3VSy1740LnQv91InEQhjYwh-HGUQ/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14765,6 +16373,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Hasan Piker x Nepo Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/clipping-community-c1"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1CCDX5ifxAAp2nyHqVYVs97biRvPPW2-6c7DYXiEXafA/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -14917,6 +16529,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Flex City [Official Clipping] | Official Whop Hub & Assets",
         "url": "https://whop.com/flex-city-66"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://www.notion.so/spce/Flex-City-UGC-gameplay-campaign-3645b3f7b43880319547ed9dcd0dce30"
       }
     ],
     "platforms": [
@@ -14954,6 +16570,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Our House At Hï Ibiza UGC Campaign (Invite Only) | Official Whop Hub & Assets",
         "url": "https://whop.com/our-house"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1wocUatWN2UwdCvEJd_BqTTrum4p33yhGll9wWZMks0I/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -14991,6 +16611,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DiagoFit Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/musascales-eb"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1N5qnqOnYfsrOqC9lvibbh8jUDDV8xfMn?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1E-yF0zbx7BMepym-fzIXLVCtiHc_ItkQ"
       }
     ],
     "platforms": [
@@ -15028,6 +16656,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Finsta App Logo Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/ugc-content-for-finsta-app-always-ongoing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1i6pS14hScGmoBb4Hcfhv61qOy7apzzVB?usp=drive_link"
       }
     ],
     "platforms": [
@@ -15065,6 +16697,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "TradeAxis System Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/clip-track-access"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/101LyJCqdLxg8eWGZz6zM5SIizHbx71AO?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1LYAEREWsxAowBylOjAlcgLzBPdPNJJSPw01fwDoXv3c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15135,6 +16775,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "GabeNoVictim Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/musascales-eb"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1dG4Mj9Z0LSLlP81RMx4IQMrm8fJSKG2T?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/10B5WXOBFImfs-DNMIZz9tpIhCbXZg36EKhwCvlTK62Y/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -15205,6 +16853,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "UGC Repurposing [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -15242,6 +16894,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ForgeGUI [Unlimited Budget] | Official Whop Hub & Assets",
         "url": "https://whop.com/bloxclips-19"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1qO49_v4Qa_JQiRWX8dDe1pi7ZSizvZOFNC8O-YlHDsI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1vFXrGZbqmMJbdxwuoEZvZbBXdBQ8c_c-?usp=sharing"
       }
     ],
     "platforms": [
@@ -15279,6 +16939,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CR [Caption + Link in Bio] | Official Whop Hub & Assets",
         "url": "https://whop.com/virality-37"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/11zWoMY5B6VxFvSqhZOohweHyyUMW0xJv7lCYky9Rlew/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -15316,6 +16980,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Slideshows [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -15353,6 +17021,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Bluffs App Clipping [UNLIMITED BUDGET] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-cliplaunch"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1haeq0F826_yffbp3s0cdWwuJp9Bq4Vnc/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1G7j4-m3hg3ecPTyEv5wGPfA5kYqmPAwc"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1haeq0F826_yffbp3s0cdWwuJp9Bq4Vnc/edit?usp=sharing&amp;ouid=114559938448084534508&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -15390,6 +17070,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Split-Screen UGC [English] | Official Whop Hub & Assets",
         "url": "https://whop.com/join-content-rewards-hub"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://bronze-plaster-6f4.notion.site/Content-Rewards-Creator-Onboarding-2863c5a3631683d89ae201da0da5561a"
       }
     ],
     "platforms": [
@@ -15602,6 +17286,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Youry Creators | Official Whop Hub & Assets",
         "url": "https://whop.com/youry-3d"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1I4UO0_Z41EQ2aRQkoSKdZJPCzWhj3FfU?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1W4RQrbZXSqvpqti6WGBxjRccF_fma7cZsCo28Qa1IxI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15639,6 +17331,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Cliptic x Ismail Vali Clips | Official Whop Hub & Assets",
         "url": "https://whop.com/cliptic-x-ismail-vali-clips-b7"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/15D9jHcwBFayiQu-zy0sGsrH3t_4-w7M2pBQz7b0mZtY/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15674,6 +17370,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Create a VIRAL video about a REAL story happening NOW where An AI Hired Humans Off Craigslist to Find Marc Andreessen | Official Whop Hub & Assets",
         "url": "https://whop.com/this-ai-will-pay-you-to-make-content-free-for-a-limited-time"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/13ecflaw4qhK3v16urwe3ryWDhJCXl1mB?usp=drive_link"
       }
     ],
     "platforms": [
@@ -15711,6 +17411,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1AhZ9ORj83UYhwXP6-VpY3lKBuLM1lEBr?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/spreadsheets/d/1bUNWRGwyP2TiRwUUzh8QbD_Jlwg_a8xnFUa7PKVzbZI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/107PUDt8DL5O6pmJad9ekRLVZiMyPNCQN3zzc6ScFT8k/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15748,6 +17464,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "SAMSUNG AI WASMACHINE/DROGER - €4 per 1.000 views en €4,50 flat fee | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/presentation/d/1k7d06Km2GexLW2pYG31XxI62wLzWljOR_Bnmg6OjaA8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15785,6 +17505,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "SAMSUNG AI KOELKAST - €4 per 1.000 views en €4,50 flat fee | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/presentation/d/1fI16w4SfRPTekTGNtNbCKlP_8c3G6Cdfj8B9AzqjiVI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15822,6 +17546,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "FSP Clipping Warriors | Official Whop Hub & Assets",
         "url": "https://whop.com/teamfsp"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1GuunIzkW4_0-56tsxH1XPQlr873uh_a1?usp=sharing"
       }
     ],
     "platforms": [
@@ -15859,6 +17587,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OLA's Italian Summer | Cornetto - €3,50 per 1.000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/presentation/d/15w-LHR1yizynJ3o5VlyCqPaohO7GuwHzb1uGRfuQjF8/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15896,6 +17628,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Drafted AI - home floor plan design | Official Whop Hub & Assets",
         "url": "https://whop.com/drafted-ai-campaign"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/19ihxZ7zjhXFlRBv22wzW_g4YfWvhVrE6QRnCTReCGxU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -15933,6 +17669,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Fcukers - Bon Bon Clipping (Open Creative) | Official Whop Hub & Assets",
         "url": "https://whop.com/theinfluenceravalanche"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Tm8ObUl9NVIOLer2g9C0aimukODngvXV2XhRIZokhR0/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -16045,6 +17785,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "(REPOSTING UGC) Content for Finsta App ($0.75 per 1000 views) | Official Whop Hub & Assets",
         "url": "https://whop.com/ugc-content-for-finsta-app-always-ongoing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/18cyYKz6vdUO9ilbNePzDGOeqvqdFQWaM?usp=drive_link"
       }
     ],
     "platforms": [
@@ -16117,6 +17861,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips Hablando (TikTok) - $0.1 por cada 1000 visitas | Official Whop Hub & Assets",
         "url": "https://whop.com/reyes-de-la-puja-clipping-ee"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1vINQiLMuetv50nj3YvvOzHV1364brGvL?usp=drive_link"
       }
     ],
     "platforms": [
@@ -16152,6 +17904,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Calvin Klein Ads - The Hollies Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/theinfluenceravalanche"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1CWzdmTiKjnqRNO0EcgBOmIwQma4LvLWuAvVMso7HMGE/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -16189,6 +17945,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "XO Market UGC Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/xo-market-e6"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1mO_aX4DXmMVpLT_S6Swu4CyTe_3f_lIzap-llvEVeF8/edit?tab=t.0#heading=h.v9lf7sv5474z"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1D627aNFr6cj3nN7eIWM-sP978cUcwKtG"
       }
     ],
     "platforms": [
@@ -16226,6 +17990,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Rayan Lekai [Viral Clipping] | Official Whop Hub & Assets",
         "url": "https://whop.com/test-30-1bbb"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1GPwo1_NJluN3qTdUiEkQ9gEMGAK_Lc3I?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/spreadsheets/d/1qZHhEs9r_WP0klALxlb-Ub3YdHw419Y7W6y-Xyuw2XU/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -16300,6 +18072,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OminousyL - Heartbreak Brings relief | Official Whop Hub & Assets",
         "url": "https://whop.com/join-music-promo-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/167U2HWKU-L29wJu9LFGoAeXrWECFX9xir7UiQk6lSqo/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -16337,6 +18113,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "NO TIER 1 NEEDED!! ParlayCapital Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/parlaycapital-clipping-72"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1PHGwDjg50TMMfB77La8Ic9xQMcIoYdtt6JCIfiatPXI/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -16409,6 +18189,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Jerith Podcast Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/jerith-pod-clipping-3c"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1g59as1siy5mQs_TG81hFa-zSWvE3c9Zc?usp=share_link"
       }
     ],
     "platforms": [
@@ -16481,6 +18265,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "German Captions | Official Whop Hub & Assets",
         "url": "https://whop.com/mentorship-waitlist-5"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1fmuXw-CJOtmu9yX9AGGNq8JGqQTYp8XB"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1VH7KY1pyk-hDZ9BdPYP_LtksTy0xe_BP?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/12tvg60wbkwuu8QSBecGIUyVNlpO-e-3l/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -16518,6 +18314,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips hablando - $1 dolar por cada 1000 visitas | Official Whop Hub & Assets",
         "url": "https://whop.com/gansgta-clipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/14bo-onFWTcvxth9mZSnwKEOySnEUlTp6?usp=drive_link"
       }
     ],
     "platforms": [
@@ -16555,6 +18355,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yomi Denzel Clipping Lifestyle Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/yomi-denzel-clipping-50"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/15CRuz33sWIFz5moouuxu2vRS_UO5VpfZ?usp=sharing"
       }
     ],
     "platforms": [
@@ -16629,6 +18433,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "🇫🇷 UGC 1 | SPAACE IT | Official Whop Hub & Assets",
         "url": "https://whop.com/spaaceit"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://irradiated-bath-720.notion.site/Spaace-it-32e0bbbd2b8a80588d73e990b742cd90?source=copy_link"
       }
     ],
     "platforms": [
@@ -16666,6 +18474,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "DreamMe [HEALTH] | Official Whop Hub & Assets",
         "url": "https://whop.com/reachify-clipping"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1rrGvCuaxvaDw9IBs86RQpR9S5yKaA1eYA3kqBNXTyzc/edit?tab=t.0#heading=h.l0worwd1az9m"
       }
     ],
     "platforms": [
@@ -16701,6 +18513,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Shein Coupon Finder | Official Whop Hub & Assets",
         "url": "https://whop.com/scf-landing-page"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1tMs0X_t_MKiCbbMxeAQLhR-jkEgGJVGR/edit?usp=sharing"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1tMs0X_t_MKiCbbMxeAQLhR-jkEgGJVGR/edit?usp=sharing&amp;ouid=112623798671457777733&amp;rtpof=true&amp;sd=true"
       }
     ],
     "platforms": [
@@ -16775,6 +18595,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Artifex27 - Tears On The Phone | Audio Only Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/join-music-promo-clippers"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1hC2y3-_o5loGQjuNLnkvZ0ImDRKYyuM-PdGwUdyn93c/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -16812,6 +18636,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip for Miami Rock Band - Shush | Official Whop Hub & Assets",
         "url": "https://whop.com/clipper-access-8e"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1EPShf5ecNbt_nqUSX8ri2TYeoIIsT_vw/view?usp=share_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1r_eHklZxzRXkoJmqw87i0iOUDQLqPWyc/view?usp=share_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1I8Se--v-B-PQBYgQywZ99Ii0PPpUG_4HoSGEGudWH0Q/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -16885,6 +18721,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Human Or Not AI Game | Official Whop Hub & Assets",
         "url": "https://whop.com/play-game-v1"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/152KwhBPR10ILfW58XiNXE3mL0UnxjOiE5pKtUacs6E0/edit?tab=t.0"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/u/0/folders/1LDLoyW3ec8dq4dS8erS-ZYAd5jK2gZiS"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1EFOxcEsgQ77gtI72NXml06ZD_stl7GSU/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -16922,6 +18770,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Get Paid 2$ Per Thousand Views | Official Whop Hub & Assets",
         "url": "https://whop.com/tradevisor"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/videos/d/1dnaGPCwUqDaUO3sjzVaoyRy9uTxzBn8ZG4bM62TbRas/edit?usp=share_link"
       }
     ],
     "platforms": [
@@ -16994,6 +18846,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "BLOND:ISH Stream Highlights Clipping 1 | Official Whop Hub & Assets",
         "url": "https://whop.com/blondish"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://blondish.notion.site/NRG-Content-data-31387fb8b15680209665eb0a211f2934?source=copy_link"
       }
     ],
     "platforms": [
@@ -17068,6 +18924,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Cloudsint Content Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/cloudsint-net"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1w2DEGNEteIKK0FjR5ohilVquFfEP0aR6QJ0O3vMXnks/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17105,6 +18965,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "motivational captions | Official Whop Hub & Assets",
         "url": "https://whop.com/mentorship-waitlist-5"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1fmuXw-CJOtmu9yX9AGGNq8JGqQTYp8XB"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1VH7KY1pyk-hDZ9BdPYP_LtksTy0xe_BP?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/12tvg60wbkwuu8QSBecGIUyVNlpO-e-3l/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -17142,6 +19014,22 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clips Hablando - 1$ por cada 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/mario-lopez-mindset-clipping-9d"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1AhZ9ORj83UYhwXP6-VpY3lKBuLM1lEBr?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/spreadsheets/d/1bUNWRGwyP2TiRwUUzh8QbD_Jlwg_a8xnFUa7PKVzbZI/edit?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1i36c9r1zOM0trSGrb8cj5CF7AE9ser2k?usp=drive_link"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/107PUDt8DL5O6pmJad9ekRLVZiMyPNCQN3zzc6ScFT8k/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17179,6 +19067,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Gek op OLA I Raket - €3,50 per 1.000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/speaky-community"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/presentation/d/1vgUhiQdOCf5bWVz_U3hwd72EIcXLoaLWiJoi3hH-rCc/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17216,6 +19108,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Upload faceless slideshows | Official Whop Hub & Assets",
         "url": "https://whop.com/nutri-ai-tiktok-slideshows"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://iron-button-d69.notion.site/Moon-Clips-Creator-Participation-Terms-36f0798d162b80d5b3b1e575ee719f3d"
       }
     ],
     "platforms": [
@@ -17283,6 +19179,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Syntopia's Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/free-syntopia"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Es1Zumq12Id4m1xUv3an5muAGjs_2KPP7R26yFKUyE4/edit?usp=sharing"
       }
     ],
     "platforms": [
@@ -17318,6 +19218,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "OUR HOUSE – Hï Ibiza Official Residency (Clipping) | Official Whop Hub & Assets",
         "url": "https://whop.com/our-house"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1wocUatWN2UwdCvEJd_BqTTrum4p33yhGll9wWZMks0I/edit?usp=drivesdk"
       }
     ],
     "platforms": [
@@ -17355,6 +19259,14 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Astra Podcast Clipping | Official Whop Hub & Assets",
         "url": "https://whop.com/astra-app-clipping"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/15jyhyH9REdBFtbKEg7DlT2lAPitkZepA"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1Wr3sU2KtnXJMY0-GM2GTNDkZrRLe6ymftX_Km5IcC34/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -17392,6 +19304,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yay First Spin Challenge | Official Whop Hub & Assets",
         "url": "https://whop.com/yay-creator-program"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/12I-LKrrZI41ZVpmJiLAv8sl-BslRbOpY?usp=drive_link"
       }
     ],
     "platforms": [
@@ -17575,6 +19491,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Clip2Earn | Official Whop Hub & Assets",
         "url": "https://whop.com/freeclub"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1riZfVP4MWrOIsvyCUAdwIAmU7TBzL3HQ/view"
       }
     ],
     "platforms": [
@@ -17722,6 +19642,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "CFT Clipping Campaign - 1.5$ | 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/cft-community"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1bO67TB5RgntbW_4bKMvufW_5tt6jvXHg/view?usp=sharing"
       }
     ],
     "platforms": [
@@ -17800,6 +19724,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Adaptdefy Wheelchair Life Rewards | Official Whop Hub & Assets",
         "url": "https://whop.com/adaptdefy"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/request/ugx33aYNVlTZOBWMymP1"
       }
     ],
     "platforms": [
@@ -17912,6 +19840,50 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "ROBTHEBANK CLIPS $10/10,000 | Official Whop Hub & Assets",
         "url": "https://whop.com/robthebank-clips-10-10-000"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1E1BI4uumpMACDCeCsNdKJ84npmHH1NKm?usp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1Mbxz5snPA6-tY0uGCSZKCNM5s-ziYcvM?usp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1000IWLQAiZ7T5c-IvkraIBGk5oirzElk"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/home/Rob"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/home/Laurents%20%20Dhaene/NEW%20YOUTUBE%20CONTENT/YOUTUBE%20PROJECTS"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/v6j7rfmbp47ssidgowj9g/AE7zUK5M_peF1mBNLHiqe_0?rlkey=g084dkg7k3t6tijfva97zvgwv"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/kxzmnr7biwvz47m9tfe99/AMbio08JRsULW1eqRi0mit0?rlkey=rannshg03tw1pyhakphunhk55"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1vJeAL8_rBGJ6PC4r8Fc1qmZKfT61HxQ4?usp=drive_link"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/home/Rob&#x27;s%20Social%20Media%20Suite/1.%20YouTube%20Videos/3.%20Completed%20Projects"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/v6j7rfmbp47ssidgowj9g/AE7zUK5M_peF1mBNLHiqe_0?rlkey=g084dkg7k3t6tijfva97zvgwv&amp;e=1&amp;st=yrpaesu3&amp;dl=0"
+      },
+      {
+        "name": "Dropbox File",
+        "url": "https://www.dropbox.com/scl/fo/kxzmnr7biwvz47m9tfe99/AMbio08JRsULW1eqRi0mit0?rlkey=rannshg03tw1pyhakphunhk55&amp;st=z4958kl7&amp;dl=0"
       }
     ],
     "platforms": [
@@ -17949,6 +19921,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Anishort edit - $1.5 per 1000 views | Official Whop Hub & Assets",
         "url": "https://whop.com/anishort"
+      },
+      {
+        "name": "Google Doc",
+        "url": "https://docs.google.com/document/d/1X2h4sis0huHpKVjm0miNcFOa-KvoDOihRct2-pbSLKA/edit?tab=t.0"
       }
     ],
     "platforms": [
@@ -18023,6 +19999,18 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Nikita Tyukalo Clipping Telegram: Up to $5 per thousand views | Official Whop Hub & Assets",
         "url": "https://whop.com/nova-private-creator-network"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/1eedrSdCwZ6xBroublMEzkxdyS4aalMmM?usp=sharing"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/11qRV8IL4Wwm3RN77PLDGjs5OJHTYjhnL/view?usp=drive_link"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/file/d/1pVhUAoDCMDUDbDsL4UZU8G_FY5schjj4/view?usp=drive_link"
       }
     ],
     "platforms": [
@@ -18101,6 +20089,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Yomi Denzel Clipping - 1$ par 1000 vues | Official Whop Hub & Assets",
         "url": "https://whop.com/yomi-denzel-clipping-50"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/drive/folders/15CRuz33sWIFz5moouuxu2vRS_UO5VpfZ?usp=sharing"
       }
     ],
     "platforms": [
@@ -18138,6 +20130,10 @@ window.CAMPAIGNS_DATA = [
       {
         "name": "Vita Slideshow Clipping Campaign | Official Whop Hub & Assets",
         "url": "https://whop.com/yay-creator-program"
+      },
+      {
+        "name": "Notion Doc",
+        "url": "https://www.notion.so/SOP-for-Vita-Slideshow-Uploading-2cc24346da0f8080945dd6c4f94119fe?source=copy_link"
       }
     ],
     "platforms": [
